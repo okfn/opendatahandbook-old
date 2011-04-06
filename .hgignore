@@ -1,0 +1,4 @@
+syntax: glob
+config.ini
+*.pyc
+build/**

@@ -6,8 +6,11 @@ Authoratative source is on bitbucket: https://bitbucket.org/okfn/opendatamanual
 
 The source in this repository was pulled from the markdown that is live on the
 `Open Data Manual` site. We are in the process of transitioning to full
-restructured text and using sphinx to generate HTML (that can then be uploaded
+restructured text and using `Sphinx` to generate HTML (that can then be uploaded
 to wordpress or elsewhere).
+
+.. _Sphinx: http://sphinx.pocoo.org/
+
 
 Layout of this Repository
 =========================
@@ -24,7 +27,8 @@ Layout of the repository::
 Building the Documentation
 ==========================
 
-Use the Makefile::
+1. Install `Sphinx` >= 0.6 (Debian/Ubuntu: apt-get install python-sphinx)
+2. Run the build using the Makefile::
 
-  make html 
+    make html 
  

@@ -2,6 +2,13 @@
 How to Open up Data?
 ====================
 
+.. toctree::
+   :maxdepth: 1
+
+   choose-datasets
+   apply-an-open-license
+   make-data-available
+
 This section forms the core of this manual, and gives concrete, detailed advice on how data holders can open up data. Here we’ll go through the basics but also cover the pitfalls and the more subtle issues that can arise.
 
 There are two key rules we recommend following in opening up data:

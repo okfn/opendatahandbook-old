@@ -16,7 +16,15 @@ Layout of the repository::
 
   # the manual
   source/
-
   # useful scripts
   bin/
+  # output 'built' html
+  build/
 
+Building the Documentation
+==========================
+
+Use the Makefile::
+
+  make html 
+ 

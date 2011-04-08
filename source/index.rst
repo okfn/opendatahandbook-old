@@ -1,10 +1,6 @@
-==========
-Title Page
-==========
-
-<div style="text-align: center; margin-bottom: 3em;">
-<h1 style="font-size: 250%">The Open Data Manual</h1>
-<a href="http://okfn.org/"><img src="http://assets.okfn.org/images/logo/logo_fullname_medium.png" alt="Open Knowledge Foundation" title="Open Knowledge Foundation" hspace="10" /></a></div>
+====================
+The Open Data Manual
+====================
 
 **This report discusses legal, social and technical aspects of open data.** The manual can be used by anyone but is especially designed for those seeking to **open up** data. It discusses the **why, what and how** of open data -- why to go open, what open is, and the how to 'open' data.
 
@@ -12,8 +8,31 @@ To get started, you may wish to look at the <a href="/summary/">Summary</a> and 
 
 We warmly welcome comments on the text. Simply click the speech bubble icons to the left of the paragraph you'd like to comment on!
 
------
+Table of Contents
+=================
 
- * **Version:** v1.0b
- * <strong>Created:</strong> October 2010
- * <strong>Updated:</strong> January 2011
+.. toctree::
+   :maxdepth: 2
+
+   introduction/index
+   why-open-data/index
+   what-is-open-data/index
+   how-to-open-up-data/index
+   following-up/index
+   frequently-asked-questions
+   glossary
+   appendix/index
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+Meta
+====
+
+  * Created: October 2010
+  * Updated: January 2011
+

@@ -1,12 +1,12 @@
-Mercurial repository for the `Open Data Manual`.
+Mercurial repository for the `Open Data Manual`_.
 
 .. _Open Data Manual: http://opendatamanual.org/
 
 Authoratative source is on bitbucket: https://bitbucket.org/okfn/opendatamanual
 
 The source in this repository was pulled from the markdown that is live on the
-`Open Data Manual` site. We are in the process of transitioning to full
-restructured text and using `Sphinx` to generate HTML (that can then be uploaded
+`Open Data Manual`_ site. We are in the process of transitioning to full
+restructured text and using `Sphinx`_ to generate HTML (that can then be uploaded
 to wordpress or elsewhere).
 
 .. _Sphinx: http://sphinx.pocoo.org/

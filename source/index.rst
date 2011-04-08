@@ -19,7 +19,6 @@ Table of Contents
    what-is-open-data/index
    how-to-open-up-data/index
    following-up/index
-   frequently-asked-questions
    glossary
    appendix/index
 

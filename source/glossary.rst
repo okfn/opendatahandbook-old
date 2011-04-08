@@ -2,30 +2,52 @@
 Glossary
 ========
 
-<strong>Data protection legislation</strong>
+Data protection legislation
+===========================
+
 By data protection legislation is not about protecting the data, but the right of citizens to live without doubt of the consequences that might come if information of their private lives becomes public. The law protects the privacy (such as information about a person economic status, health and political position) and other rights such as the right to freedom of movement and assembly. For example, in Finland a travel card system used record all instances when the card was shown to the reader machine on different public transport lines. This raised a debate from the perspective of freedom of movement and the travel card data collection was abandoned based on the data protection legislation.
 
-<strong>PSI (Public Sector Information)</strong>
+PSI (Public Sector Information)
+===============================
 
+(Web) API
+=========
 
-<strong>(Web) API</strong> = (Web) Application Programming Interface
+(Web) Application Programming Interface
 
-<strong>Attribution License</strong> =
+Attribution License
+===================
 
-<strong>Share-alike License</strong> = Share under the same conditions as the original data used
+Share-alike License
+===================
 
-<strong>Public Domain</strong> =
+Share under the same conditions as the original data used
 
-<strong>Database rights</strong> =
+Public Domain
+=============
 
-<strong>Copyright</strong> =
+Database rights
+===============
 
-<strong>re-use</strong> =
-<strong>open standards</strong> =
-<strong>anonymization</strong> =
-<strong>IP rights</strong> =
+Copyright
+=========
 
-<strong>Information Asset Register (ARs)</strong> = Are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR would include databases, old sets of files, recent electronic files, collections of statistics, research, etc.
+Re-use
+======
+
+Open standards
+==============
+
+Anonymization
+=============
+
+IP rights
+=========
+
+Information Asset Register (ARs)
+================================
+
+IARs are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR would include databases, old sets of files, recent electronic files, collections of statistics, research, etc.
 
 The EU PSI Directive recognises the importance of asset registers for prospective re-users of public information, and requires that member states provide lists, portals, or something similar. It states:
 
@@ -37,4 +59,8 @@ For the public to make use of these IARs, it is important that any registers of 
 
 It is essential that the metadata in the IARs be comprehensive so that search engines can function effectively. In the spirit of open government data, public bodies should make available their IARs to the general public as raw data under an open licence so that civic hackers can make use of the data, for example by building search engines and user interfaces.
 
-<strong>EU PSI Directive:</strong><a href="http://ec.europa.eu/information_society/policy/psi/docs/pdfs/directive/psi_directive_en.pdf"> http://ec.europa.eu/information_society/policy/psi/docs/pdfs/directive/psi_directive_en.pdf</a> 	 
+EU PSI Directive
+================
+
+http://ec.europa.eu/information_society/policy/psi/docs/pdfs/directive/psi_directive_en.pdf
+

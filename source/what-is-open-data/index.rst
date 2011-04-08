@@ -3,7 +3,6 @@ What is Open Data
 =================
 
 .. toctree::
-   :hidden:
    :maxdepth: 1
 
    what-is-open-data

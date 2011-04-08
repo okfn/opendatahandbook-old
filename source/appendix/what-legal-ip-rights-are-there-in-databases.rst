@@ -2,11 +2,11 @@
 What Legal (IP) Rights Are There in Data(bases)
 ===============================================
 
-When talking about data(bases) we first need to be distinguish between the structure and the content of a database (when we use the term 'data' we shall mean the content of the database itself). As explained in detail in the FAQ prepared by Science Commons [11]:
+When talking about data(bases) we first need to be distinguish between the structure and the content of a database (when we use the term 'data' we shall mean the content of the database itself). Structural elements include things like the field names and a model for the data -- the organization of these fields and their inter-relation.
 
-> "Databases usually are comprised of at least four elements: (1) a set of field names identifying the data; (2) a structure (or model), which includes the organization of fields and relations among them; (3) data sheets; and (4) data. All of the Creative Commons licenses can be applied to these elements to the extent that copyright applies to them (and the Dutch and Belgium licenses can also be applied to the data, for reasons discussed in greater detail below. Copyright applies to minimally creative works expressed in a fixed form. In most databases, items (2) and (3) - the structure and the data sheet - will reflect sufficient creativity for copyright to apply. A Creative Commons license applied to these elements will permit copying of these elements under the conditions of the license selected. Field names, such as “Address” for the name of the field for street address information, are less likely to be protected by copyright because they often do not reflect creativity."
+In many jurisdictions it is likely that the structural elements of a database will be covered by copyright (it depends somewhat on the level of 'creativity' involved in creating this structure).
 
-Thus, the structural elements of a database will generally be covered by copyright. However, here we are particularly interested in the data. When we talk of "data" we need to be a bit careful because the word isn't particularly precise: "data" can mean a few or even a single items (for example a single bibliographic record, a lat/long etc) or "data" can mean a large collection (e.g. all the material in the database). To avoid confusion we shall reserve the term "contents" to mean the individual items, and data to denote the collection.
+However, here we are particularly interested in the data. When we talk of "data" we need to be a bit careful because the word isn't particularly precise: "data" can mean a few or even a single items (for example a single bibliographic record, a lat/long etc) or "data" can mean a large collection (e.g. all the material in the database). To avoid confusion we shall reserve the term "contents" to mean the individual items, and data to denote the collection.
 
 Unlike for material such as text, music or film the legal situation for data varies widely across countries but most jurisdictions **do** grant some rights in the data (as a collection).
 
@@ -24,6 +24,7 @@ Finally, we should point out that absent any legal protection many providers of 
 (a) Requiring users to login with a password
 (b) Only providing a user with an account and password on the condition that the user agrees to the terms and conditions
 
-You can read more about the jurisdiction by jurisdiction situation in the [Guide to Open Data Licensing][guide].
+You can read more about the jurisdiction by jurisdiction situation in the `Guide to Open Data Licensing`_.
 
-[guide]: http://opendefinition.org/guide/data/
+.. _Guide to Open Data Licensing: http://opendefinition.org/guide/data/
+

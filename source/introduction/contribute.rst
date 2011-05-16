@@ -1,16 +1,19 @@
-==========
 Contribute
 ==========
 
 Contribute to the Text
-======================
+----------------------
 
-This manual has been developed collaboratively and we welcome contributions from the community both in the form of comments and direct edits to the source document.
+This manual has been developed collaboratively. We welcome contributions from the community. You are able to provide comments as well as directly editing the source document.
 
-We currently manage the source for this manual as sphinx restructured text in a mercurial repository: http://bitbucket.org/okfn/opendatamanual
+
+Become a supporting author
+``````````````````````````
+
+We currently manage the source for this manual with `Sphinx`_ restructured text in a mercurial repository: http://bitbucket.org/okfn/opendatamanual. Instructions on how to help are provided in the README file of that page.
 
 Make a Donation
-===============
+---------------
 
 If you've found this manual useful and would like to show your appreciation and help support further work please consider making a small donation. The donation will be made to the Open Knowledge Foundation and reserved specifically for work on the open data manual, for example, funding further book sprints and making a print edition.
 
@@ -44,3 +47,6 @@ If you've found this manual useful and would like to show your appreciation and 
     <input type="hidden" name="business" value="admin@okfn.org" />
     <input type="hidden" name="item_name" value="Open Data Manual Donation" />
   </form>
+
+
+.. _Sphinx: http://sphinx.pocoo.org

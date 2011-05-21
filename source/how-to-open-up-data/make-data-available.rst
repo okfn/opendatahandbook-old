@@ -6,19 +6,19 @@ Open data needs to be technically open as well as legally open.
 Specifically, the data needs be available in bulk in a machine-readable 
 format.
 
-Available:
+Available
   Data should be priced at no more than a reasonable cost of reproduction, 
   preferably as a free download from the Internet. This pricing model is
   achieved because your agency should not undertake any cost when it
   provides data for use. 
 
-In bulk:
+In bulk
   The data should be available as a complete set. If you have a register
   which is collected under statue, the entire register should be available
   for download. A web API or similar service may also be very useful, but 
   they are not a substitutes for bulk access.
 
-Open, machine-readable format:
+In an open, machine-readable format
   Re-use of data held by the public sector should not be subject to patent
   restrictions. More importantly, making sure that you are providng 
   machine-readable formats allows for greatest re-use. To illustrate this,

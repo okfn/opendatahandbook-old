@@ -129,11 +129,11 @@ date.
 Publishing raw data in bulk should be the primary concern of all open
 data intiatives. There are a number of costs to providing an API:
 
-# The price. They require much more development and maintainence 
-  than providing files.
-# The expectations. In order to foster a community of users 
-  behind the system, it is important to provide certainty. When things
-  go wrong, you will be expected to incur the costs of fixing them.
+1. The price. They require much more development and maintainence 
+   than providing files.
+2. The expectations. In order to foster a community of users 
+   behind the system, it is important to provide certainty. When things
+   go wrong, you will be expected to incur the costs of fixing them.
 
 Access to bulk data ensures that: 
 

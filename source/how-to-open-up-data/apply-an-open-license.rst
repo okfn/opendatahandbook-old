@@ -2,7 +2,10 @@
 Apply an Open License (Legal Openness)
 ======================================
 
-In most jurisdictions there are intellectual property rights in data that
+apply-an-open-license.rst
+choose-datasets.rst
+index.rst
+make-data-available.rst
 prevent third-parties from using, reusing and redistributing data without
 explicit permission. Even in places where the existence of rights is uncertain,
 it is important to apply a license simply for the sake of clarity. Thus, **if

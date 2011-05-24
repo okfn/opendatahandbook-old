@@ -2,8 +2,9 @@
 Make Data Available (Technical Openness)
 ========================================
 
-Open data needs to be technically open as well as legally open. 
-Specifically, the data needs be available in bulk in a machine-readable 
+
+:term:`Open data` needs to be technically open as well as legally open. 
+Specifically, the data needs be available in bulk in a :term:`machine-readable` 
 format.
 
 Available
@@ -22,7 +23,8 @@ In an open, machine-readable format
   Re-use of data held by the public sector should not be subject to patent
   restrictions. More importantly, making sure that you are providng 
   machine-readable formats allows for greatest re-use. To illustrate this,
-  consider statistics published as PDF documents. While these statistics
+  consider statistics published as :abbr:`PDF (Portable Document Format, 
+  often used for high quality printing)` documents. While these statistics
   can be read by humans, they are very hard for a computer to use. This
   greatly limits the ability for others to reuse that data.
 
@@ -35,24 +37,21 @@ Here are a few policies that will be of great benefit:
 In particular it is better to give out raw data now than perfect data in 
 six months' time.
 
-Availability, Bulk, APIs etc
-============================
-
-Introduction
-------------
-
 There are many different ways to make data available to others. The most 
 natural in the Internet age being online publication. There are many
 variations tor this model. At its most basic, agencies make their data 
 available via their websites and a central catalogue directs visitors
 to appropriate the appropriate source.  However, there are alternatives.
 
-When connectivity is limited or the size of the data are extremely large,
-distribution via other formats, can be warranted. This section will also
-discuss alternatives, which can act to keep prices very low.
+When :term:`connectivity` is limited or the size of the data are extremely 
+large, distribution via other formats, can be warranted. This section will 
+also discuss alternatives, which can act to keep prices very low.
 
-Online - via the web
---------------------
+Online methods
+==============
+
+via your existing website
+-------------------------
 
 The system which will be most familiar to your web content teams is to
 provide files for download from webpages. Just as you currently 
@@ -64,8 +63,8 @@ outsider to discover where to find updated information. This option
 places quite a bit of burden on the people creating tools with your
 data.
 
-Online - via 3rd party sites
-----------------------------
+via 3rd party sites
+--------------------
 
 Many repositories have become hubs of data in particular fields.
 For example, pachube.com is designed to connect people with sensors to
@@ -91,8 +90,8 @@ from smart phones to supercomputers. They should all be able to access
 the data.
 
 
-Online - via FTP servers
-------------------------
+via FTP servers
+---------------
 
 A less fashionable method for providing access to files is via the
 File Transfer Protocol (FTP). This may be suitable if your audience is 
@@ -105,20 +104,21 @@ through an FTP server is much like looking through folders on a
 computer. Therefore, even though it is fit for purpose, there is far
 less capacity for web development firms to charge for customisation.
 
-Online - as torrents
---------------------
+as torrents
+-----------
 
-BitTorrent is a system which has become familiar to policy makers because
-of its association with copyright infringement. A torrent system works
-by splitting the cost of distributing files between all of the people
-benefiting from those files. The reason that it is so successful for 
-sharing movies is because it is a wonderfully cheap way to distribute
-very large volumes of data.
+:term:`BitTorrent` is a system which has become familiar to policy makers 
+because of its association with copyright infringement. BitTorrent uses
+files called torrents, which work by splitting the cost of distributing 
+files between all of the people accessing those files. Instead of servers
+becoming overloaded, as the demand increases, so does the supply. This is
+the reason that this system is so successful for  sharing movies. It is a 
+wonderfully efficient way to distribute very large volumes of data.
 
-Online - as an API
--------------------
+as an API
+---------
 
-Data can be published via an Application Programming Interface (API). 
+Data can be published via an :term:`Application Programming Interface` (API). 
 These interfaces have become very popular. They allow programmers to
 select specific portions of the data at a time, rather than providing
 all of the data in bulk as a large file. APIs are typically connected
@@ -154,25 +154,28 @@ an API, raw data should be made available in bulk at regular intervals.
 
 For example, the Eurostat statistical service has a bulk download 
 facility offering over 4000 data files. It is updated twice a day, offers 
-data in Tab Separate Value (TSV) format, and includes documentation about 
-the download facility as well as about the data files.
+data in :term:`Tab Separated Value` (TSV) format, and includes 
+documentation about the download facility as well as about the data files.
 
 Another example is the District of Columbia OCTO’s Data Catalogue, which 
 allows data to be downloaded in CSV and XLS format, in addition to live 
 feeds of the data.
 
-Offline - as optical media
---------------------------
+Offline methods
+===============
 
-Optical media are very cheap to produce. However, they tend to lack the
-capacity that would warrant the manual handling of distributing them.
-One exception to this is events. If you are hosting an event for 
-developers, such as a hackfest or barcamp, optical media can be the 
-best way to distribute a dataset for distribution.
+via optical media
+-----------------
+
+Optical media, such as DVDs, are very cheap to produce. However, they 
+tend to lack the capacity that would warrant the manual handling of 
+distributing them. One exception to this is events. If you are hosting 
+an event for developers, such as a hackfest or barcamp, optical media 
+can be the best way to distribute a dataset for use in the venue.
 
 
-Offline - as external hard disk drives
---------------------------------------
+via external hard disk drives
+-----------------------------
 
 Hard disk drives can be very useful for data transfers in the terabyte
 range. To support this, you need to have some form of ability to 

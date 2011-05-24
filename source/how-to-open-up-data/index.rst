@@ -2,9 +2,6 @@
 How to Open up Data?
 ====================
 
-Introduction
-============
-
 This section forms the core of this manual. It gives concrete, detailed 
 advice on how data holders can open up data. Here we’ll go through the 
 basics, but also cover the pitfalls. Lastly, we will discuss the more 
@@ -52,10 +49,7 @@ There are 4 main steps in making data open, each of which we will cover in detai
    3. **Make the data available** - in bulk and in a useful format. You may also wish to consider alternative ways of making it available such as via an API.
    4. **Make it discoverable** - post on the web and perhaps organize a central catalogue to list your open datasets.
 
-Up Next
-=======
-
-.. toctree::
+..  toctree::
    :maxdepth: 1
 
    choose-datasets

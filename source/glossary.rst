@@ -5,6 +5,33 @@ Glossary
 .. glossary::
   :sorted:
 
+  Open Data
+    Open data are able to be used for any purpose.
+    
+  Machine readable
+    Information that is machine readable is information that is
+    able to be extracted by computer programmes. PDF documents are not
+    machine readable. Computers can display the text nicely, but have
+    great difficulty understanding the context that surrounds the text.
+
+  Connectivity
+    Connectivity relates to the ability for communities to connect to
+    the Internet, especially the World Wide Web.
+
+  BitTorrent
+    BitTorrent is a protocol for distributing the bandwith for 
+    transferring very large files between the computers which are
+    participating in the transfer. Rather than downloading a file 
+    from a specific source, BitTorrent allows peers to download 
+    from each other.
+
+  DAP
+    See :term:`Data Access Protocol`.
+  
+  Data Access Protocol
+    A system that allows outsiders to be granted access to databases 
+    without overloading either system.
+
   Attribution Licence
     A licence that requires attributing the original source
     of the material.

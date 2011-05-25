@@ -161,6 +161,28 @@ Another example is the District of Columbia OCTO’s Data Catalogue, which
 allows data to be downloaded in CSV and XLS format, in addition to live 
 feeds of the data.
 
+via the data access protocol
+----------------------------
+
+:term:`DAP` (Data Access Protocol) is a system for data transfer that was
+developed for use in meterology and climate science. The system was 
+designed to enable third-parties to access sections of databases stored
+in some central location. Despite its origins in a particular field, the 
+technology is very generic and can be adapted for data transfer in any 
+area.
+
+Implementing this technology can enable your agency to be experimental 
+with its knowledge. For example, Australia's `Bureau of Meteorology 
+Research Centre`_ provides the following disclaimer on its material:
+
+    Please note that the following products ... do not currently form
+    part of the Bureau's standard services in any way.
+
+This example demonstrates that it is possible to provide data in raw form 
+without incurring liability for others' use of that data.
+
+ .. _Bureau of Metereology Research Centre: http://opendap.bom.gov.au/index.shtml
+
 Offline methods
 ===============
 

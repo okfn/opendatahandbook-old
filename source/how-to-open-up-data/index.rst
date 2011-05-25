@@ -1,5 +1,5 @@
 ====================
-How to Open up Data?
+How to Open up Data
 ====================
 
 This section forms the core of this manual. It gives concrete, detailed 

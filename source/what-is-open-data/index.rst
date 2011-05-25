@@ -1,6 +1,6 @@
-=================
-What is Open Data
-=================
+==================
+What is Open Data?
+==================
 
 .. toctree::
    :maxdepth: 1

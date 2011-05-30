@@ -1,16 +1,22 @@
-===============
+###############
 How to get data
-===============
+###############
+
+.. sectionauthor:: Tim McNamara <tim.mcnamara@okfn.org>
 
 This guide focuses on how you can extract data from web sites and 
 web services. We will go over the various resources at your disposal
 to find sources which are useful to you.
 
+************
+Finding data
+************
 
 Directories
------------
+===========
 
-**Search Engines**
+Search Engines
+--------------
 
 There are a small number of emerging search engines for raw data:
 
@@ -20,7 +26,8 @@ There are a small number of emerging search engines for raw data:
    At this stage, the directory's metadata is released under a 
    non-commercial licence.
  
-**Edited directories**
+Edited directories
+------------------
 
 One of the `largest directories of open data repositories`_ is provided 
 by the `Open Access Directory`_. Its collection is mostly focused on 
@@ -48,14 +55,27 @@ to this topic which are being continually updated. Some examples include:
   .. CKAN: http://ckan.net
   .. Quora: http://www.quora.com
 
+***************
+Extracting Data
+***************
+
+.. 
+   TODO
+     OData
+     REST APIs
+      - ideas to get all results when there is no list given
+      - paginating through all results as iterators
+     Feeds - RSS/Atom
+
 Scraping
---------
+========
 
 Remember, the website is the API. If a site provides information full
 information on its pages, but only offers you a limited access via its
 search page.
 
-**Structure of a scraper**
+Structure of a scraper
+----------------------
 
 Scrapers are comprised of three core parts:
 
@@ -64,7 +84,8 @@ Scrapers are comprised of three core parts:
 3) A downloader and parser that adds URLs to the queue and/or
    structured information to the database.
 
-**Useful clean up steps**
+Useful clean up steps
+---------------------
 
 One advantage of scraping data from the web is that you can actually 
 have a better dataset than the original. Because you need to take steps
@@ -75,19 +96,71 @@ when waiting for it to be downloaded from its host.
 
 This section provides an example of several useful clean-up operations.
 
+* Cleaning HTML
 * Strip whitespace
-* Convert data to integers or Boolean values: `'Yes' -> True`
+* Converting numbers to number types: 
+* Converting Boolean values: `'Yes' -> True`
+* Converting dates to machine-readable formats: `"24 June 2004" -> "2004-06-24"`
+
+Clean the HTML
+^^^^^^^^^^^^^^
+
+HTML you find on the web can be atrocious. Here's a quick function that 
+can help. We make use of the `lxml`_ library. It'svery good at 
+understanding broken HTML and will render a perfectly-formed page for 
+your extractor functions to
+
+You may be concerned that this is computationally wasteful. This is 
+true, but it can reduce lots of the irritation of extracting specific
+information from messy HTML::
+
+    def clean_page(html, pretty_print=False):
+        """
+        >>> junk = "some random HTML<P> for you to try to parse</p>"
+        >>> clean_page(junk)
+        '<div><p>some random HTML</p><p> for you to try to parse</p></div>'
+        >>> print clean_page(junk, pretty_print=True)
+        <div>
+        <p>some random HTML</p>
+        <p> for you to try to parse</p>
+        </div>
+        """
+        from lxml.html import fromstring
+        from lxml.html import tostring
+        return tostring(fromstring(html), pretty_print=pretty_print)
 
 Converting yes/no to Boolean values
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Computers are far better at interpreting Boolean values when they are 
 consistently provided. Irrespective of the programming language, normalising
-these values will make any automatic comparisions much richer.
+these values will make any automatic comparisions much richer::
 
-    def
-
+    def to_bool(yes_no, none_to_false=True):
+        """
+        >>> to_bool('')
+        False
+        >>> to_bool(None):
+        False
+        >>> to_bool('y')
+        True
+        >>> to_bool('yip')
+        True
+        >>> to_bool('Yes')
+        True
+        >>> to_bool('nuh')
+        False
+        """
+        yes_no = yes_no.strip().lower()
+        if not yes_no.strip() and none_to_false:
+            return False
+        if yes_no.startswith('y'):
+            return True
+        elif yes_no.startswith('n'):
+            return False
 
 Converting numbers to the correct type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you're extracting number from HTML tables, they will each be 
 represented as a `string` or Unicode, even though it would be 
@@ -148,6 +221,7 @@ of code written in C, rather than Python::
     1000000
 
 Stripping whitespace
+^^^^^^^^^^^^^^^^^^^^
 
 Removing whitespace from a string is built into many languages
 `string`. Removing left and right whitespace is highly 
@@ -157,7 +231,8 @@ which have inconsistent treatment of whitespace::
     >>> u'\n\tTitle'.strip()
     u'Title'
 
-Converting dates to a machine-readable format.
+Converting dates to a machine-readable format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Python is well blessed with a `mature date parser`_, `dateutil`. 
 We can take advantage of this to make light work an otherwise
@@ -188,39 +263,155 @@ Example code::
   
   .. mature date parser: http://www.labix.org/python-dateutil
 
-**General tips**
+General tips
+------------
 
-Minimising the pages to scrape. This will save everybody time and 
-resources.
+* Minimise the pages to scrape. This will save everybody time and 
+  resources.
+
+  * Inspect any AJAX fields. AJAX is generally performed by sending 
+    JavaScript objects between the server and the web browser. They
+    are easy to parse and are generally very rich.
+  * Try looking for a `sitemap.xml`.
+  * Any pages in the `robots.txt` which disallow access are generally 
+    where the bulk of the value lies.
+
+* Run an evented or multi-threaded system. Once you have gained the 
+  confidence of building a few scrapers, learn how to optimise 
+  performance. Given that you are using lots of external resources,
+  there will be lots of latency involved. This means that your scraper's
+  performance by using asynchronous programming.
 
 
-* Inspect any AJAX fields. AJAX is generally performed by sending 
-  JavaScript objects between the server and the web browser. They
-  are easy to parse and are generally very rich.
-* Try looking for a `sitemap.xml`.
-* Any pages in the `robots.txt` which disallow access are generally 
-  where the bulk of the value lies.
+Types of scrapers
+-----------------
 
+:DOM-based approaches:
+  This is the most common form of scraper. All the data that you are
+  looking to extract is identified by selecting portions from the DOM.
 
-**Types of scrapers**
+  Most modern libraries, such as `lxml`_ accept CSS selectors. So, in
+  Python to extract the 
 
-The structure of most scrapers is generally 
-
-XPath
   XPath uses the structure of the page and tag attributes to be able
   to select . XPath expressions can look fairly complex and take some
   a moderate degree of 
 
-Template
+  
+
+:Template:
   Regular expressions to look for common patterns in the text. One of 
   the easiest template extraction systems is `scrapemark`_. While it
   is not the most computationally efficient 
 
-Machine-learning
+:Machine-learning:
   Machine-learning packages work by training a model of example pages,
   then asking for matching material.
 
-**Infrastructure**
+  .. lxml : http://lxml.de/
+
+A scraping framework
+--------------------
+
+Let's demonstrate some of the principles that we have been talking about. 
+
+We'll be creating a scraping framework, called `tbd`.
+
+::
+    """
+    {{somthing}}.py : a webscraping framework..
+    """
+    import bsddb
+    import pickle
+    import urllib2
+    from asynchat import fifo
+
+    from dateutil import parser as date_parser
+    import lxml
+    import lxml.html
+
+    START_URL = 'http://blog.okfn.org/'
+    db = bsddb.hashopen('okfnblog.db')
+
+    #
+    # UTILITY FUNCTIONS
+    #
+
+    def get_clean_page(url):
+        page = get_page(url)
+        page = lxml.html.tostring(page)
+        page = lxml.html.fromstring(page)
+        return page
+
+    def get_page(url):
+        res = urllib2.urlopen(url)
+        page = lxml.html.parse(res)
+        page.make_links_absolute()
+        return page
+
+    def save_post(post):
+        save(post['post_id'], post)
+
+    def save_tag(tag):
+        save('tag-%s' % tag['tag'], tag)
+
+    def save_author(author):
+        save('author-%s' % author['name'], author)
+
+    def save(key, data):
+        db[key] = pickle.dumps(data)
+
+    def extract_created_at_datetime(post):
+        date = post.cssselect('span.entry-date')[0].text
+        time = post.cssselect('div.entry-meta a')[0].attrib['title']
+        return str(date_parser.parse(date + ' ' + time))
+
+    def process_post(url):
+        source = get_page(url)
+        post = {}
+        post['title'] = source.cssselect('h1.entry-title')[0].text
+        post['author'] = source.csselect('span.author a')[0].text
+        post['content'] = source.cssselect('div.entry-content')[0].text_content()
+        post['as_html'] = lxml.html.tostring(source.cssselect('div.entry-content')[0])
+        post['created_at'] = extract_created_at_datetime(source)
+        post['post_id'] = source.cssselect('div.post')[0].attrib['id']
+        post['tags'] = [tag.text for tag in source.cssselect('a[rel~=tag]')]
+        post['url'] = url
+        yield save_post, post
+        yield save_author, dict(name=post['author'])
+        for tag in post['tags']
+            yield save_tag, dict(tag=tag, post_id=post_id, author_name=post['author'])
+
+    def process_archive(url):
+        archive = get_page(url)
+        for post in archive.cssselect('.post .entry-meta a'):
+            yield process_post, post.attrib['href']
+        previous = archive.cssselect('.nav-previous a')
+        if previous: #is found
+            yield process_archive, previous[0].attrib['href']
+
+    def process_start(url):
+        index = get_page(url)
+        for anchor in index.cssselect('li#archives-2 a'):
+            yield process_archive, anchor.attrib['href']
+    
+    def main():
+        queue = fifo((process_start, START_URL))
+        while 1:
+            status, data = queue.pop()
+            if status != 1:
+                break
+            func, args = data
+            for newjob in func(args):
+                queue.push(newjob[0], newjob[1])
+            db.sync()
+           
+
+
+
+
+Infrastructure
+--------------
 
 It's possible to use sophisticated techniques to circumvent rate limitations
 and IP address blocking. The best technique for achieving this though is by

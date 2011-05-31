@@ -287,28 +287,49 @@ Types of scrapers
 -----------------
 
 :DOM-based approaches:
+  :advantages:
+     * familiar
+     * relatively computationally efficient
+
+  :disadvantages:
+     * requires parsing the entire document, which can be difficult
+       with messy content
+     * prone to breaking when encountering unexpected content
+     * can be tricky to handle errors
+     * may require learning a new language, `XPath`_
+
   This is the most common form of scraper. All the data that you are
   looking to extract is identified by selecting portions from the DOM.
 
   Most modern libraries, such as `lxml`_ accept CSS selectors. So, in
-  Python to extract the 
+  Python to extract content from the  `<title>` tag, you do something
+  similiar to `page.cssselect('title')[0].text`.
 
-  XPath uses the structure of the page and tag attributes to be able
-  to select . XPath expressions can look fairly complex and take some
-  a moderate degree of 
-
-  
+  `XPath`_, the XML Path Language, is a fuller way to select elements 
+   from XML and XML-like documents, such as HTML. As with CSS, it uses 
+   the structure of the page and tag attributes to be able to select 
+   specific elements or groups of elements. XPath expressions can look 
+   fairly complex and take some some time to learn. 
 
 :Template:
   Regular expressions to look for common patterns in the text. One of 
   the easiest template extraction systems is `scrapemark`_. While it
-  is not the most computationally efficient 
+  is not the most computationally efficient, using template systems
+  requires far less manual work to get going with. This can le
 
 :Machine-learning:
   Machine-learning packages work by training a model of example pages,
   then asking for matching material.
 
+  One tool that is very good at removing boilerplate, such as headings
+  from web pages and only leaving the content is called `boilerpipe`_. 
+  It is bundled together with the `Data Science Toolkit`_ and there is
+  an `demo of boilerpipe's capabilities is available`_.
+
+  .. boilerpipe: http://code.google.com/p/boilerpipe/
+  .. demo of boilerpipe's capabilities is available: http://boilerpipe-web.appspot.com/
   .. lxml : http://lxml.de/
+  .. XPath : http://en.wikipedia.org/wiki/XPath 
 
 A scraping framework
 --------------------
@@ -407,28 +428,247 @@ We'll be creating a scraping framework, called `tbd`.
             db.sync()
            
 
+Dealing with JavaScript
+-----------------------
+
+JavaScript can be a pain for scrapers. JavaScript is often used to alter the
+DOM when pages after the page has been created. This means that the page you
+see in an internet browser is different that the page your scrapers see.
+
+There are a few different approaches to dealing with this process. We will
+briefly outline them, then go through the easiest option.
+
+Options
+^^^^^^^
+
+There are three broad options when considering how to deal with JavaScript:
+
+ - **Don't** Much of the AJAX content could be downloaded directly by your
+   scraper. AJAX is generally sent as JSON, which means it is very easy to
+   parse. You could save yourself a lot of time if you spent some time 
+   evaluating the target more closely.
+ - **Do it offline**  Under this approach, you download the content, send it
+   to a JavaScript interpreter such as `SpiderMonkey`_, then process the
+   results. If this sounds like a lot of manual work, it is. Fortunately for
+   us, other people have struggled with this problem before and have 
+   released software to take care of most of the detail. Take a look at
+   `crowbar`_ and `webkitcrawler`.
+ - **Automate a browser**  This third approach involves relying on a web
+   browser's handling JavaScript itself. Until recently, this has involved 
+   quite a bit of complicated effort. Now, a library called `splinter` has
+   come along to make life much easier.
+
+One of the biggest differences between the second and third options is that 
+the second option does not require a monitor. That means, it can be much 
+easier to deploy on a server. However, in general the tasks we'll be doing 
+are fairly small and can happily run in the background while you're doing 
+other work.
+
+  .. SpiderMonkey: https://developer.mozilla.org/en/SpiderMonkey
+  .. crowbar: http://simile.mit.edu/wiki/Crowbar
+  .. how to write a program that processes JavaScript for you: http://blog.motane.lu/2009/07/07/downloading-a-pages-content-with-python-and-webkit/
+  .. webkitcrawler: https://github.com/emyller/webkitcrawler
+
+Path of least resistance - splinter
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Splinter is Python library that takes all of the trouble out of this process::
+
+    >>> from splinter.browser import Browser
+    >>> br = Browser('webdriver.chrome')
+
+As a trivial example, let's find Auckland's current weather from `the New 
+Zealand Herald`_. If you visit their homepage without JavaScript enabled on
+your internet browser, you'll see nothing. However, with JavaScript, an
+icon appears ::
+
+    >>> br.visit('http://www.nzherald.co.nz/')
+    >>> high = br.find_by_css('span.high').first.value
+    >>> low  = br.find_by_css('span.low').first.value
+    >>> high, low
+    '19\xb0', '11\xb0' # \xb0 is the degree sign
+     
+
+  .. New Zealand Herald: http://www.nzherald.co.nz 
+
+Dealing with PDF content
+------------------------
+
+PDF documents are a pain. Some PDF generators don't actually have the concept
+of a word-- every letter is individually placed. This makes it very hard to 
+create a software tool that can combine letters to make words, and combine words
+to make sentences. However, depending on the source documents, there
+are possibilities for extracting information from them.
+
+The `Data Science Toolkit`_ is now the best way to get up and running with
+these kinds of tasks. Its `"File to Text" tool` takes an image, PDF or MS Word 
+document and returns text to you.
+
+If you only have a few documents to process, the website actually allows you 
+to do the processing on their servers.
+
+Extracting plain text
+^^^^^^^^^^^^^^^^^^^^^
+
+A quick way to extract text from a PDF programmatically is with the Python
+library, `slate`_. Disclaimer: I maintain `slate`. Its philosophy is to have
+a very low barrier to entry, but only extracts plain text out of the document::
+
+
+    >>> import slate
+    >>> with open('salesreport.pdf') as f:
+    ...    report = slate.PDF(f)
+    ...
+    >>> report[0]
+    "2011 ..."
+
+Digging deeper
+^^^^^^^^^^^^^^
+
+One of the better free tools is called `pdftohtml`_. It generates an HTML 
+version of the document, which can then be processed by tools that you 
+are used to. It does a good job of understanding the layout 
+
+It is possible to circumvent in PDF documents. The PDF viewer `xpdf`_ 
+provides this be default. This allows you to print or extract content 
+that may be otherwise prevented through securirty measures.
+
+
+Optical Character Recognition
+-----------------------------
+
+Creating a system for Optical Character Recognition (OCR) can be challenging.
+In most circumstances, the `Data Science Toolkit` will be able to extract
+text from files that you are looking for.
+
+An excellent free tool is called `OCRFeeder`_. It is available in Ubuntu as 
+the `ocrfeeder` package. To get a feel for how to use it, there is a 
+`5 minute video tutorial`_ on its usage.
+
+  .. 5 minute video tutorial: http://vimeo.com/3760126
+  .. OCRFeeder: http://code.google.com/p/ocrfeeder/ 
+
+
+Building an OCR pipeline
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+OCR involves create a programming conveyor belt of tools. The whole process
+can include several steps:
+
+  * Cleaning the content
+  * Understanding the layout
+  * Extracting text fragments from pieces of each page, according to the 
+    layout of each page
+  * Reassembling text fragments into a usable form
+
+
+Cleaning the pages
+^^^^^^^^^^^^^^^^^^
+
+This generally involves removing dark splotches left by scanners,
+straightening pages and adding contrast between the background 
+and the printed text. One of the best free tools for this is `unpaper`_. 
+
+File type conversion
+^^^^^^^^^^^^^^^^^^^^
+
+One thing to note is that many OCR engines only support a small number of 
+input file types. Typically, you will need to convert your images to
+.ppm files.
+
+Using an OCR engine
+^^^^^^^^^^^^^^^^^^^
+
+The three main contenders in the free and open source world are:
+
+* Tesseract OCR
+* Ocropus
+* GNU Ocrad
+
+Each of those tools has a long history and is in continuous development.
+With my Python bias, Ocropus is probably the easiest to get started with.
 
 
 
-Infrastructure
+  .. unpaper: http://unpaper.berlios.de/
+  .. pdftohtml: http://pdftohtml.sourceforge.net/ 
+  .. "File to Text" tool: http://www.datasciencetoolkit.org/developerdocs#file2text
+  .. Data Science Toolkit: http://www.datasciencetoolkit.org/
+  .. slate: http://pypi.python.org/pypi/slate
+  .. xpdf: http://www.foolabs.com/xpdf
+
+Crowdsourcing
+-------------
+
+The open source project, `TaskMeUp`_ is designed to allow you to distribute jobs
+between hundreds of of participants. If you have a project that could benefit 
+from being reviewed by human eyes, this may be an option for you.
+
+Alternatively, there are a small number of commercial firms providing this 
+service. The most well known is Amazon's Mechanical Turk. They providing 
+something of a wholesale service. You may be better off using a service such
+as Cloudflower or Microtask. Microtask also has the ethical advantage of not
+providing service below the minimum wage. Instead, they team up with video 
+game sellers to provide in-game rewards. 
+
+
+  .. TaskMeUp: https://bitbucket.org/waj/taskmeup
+
+General Tips
 --------------
 
-It's possible to use sophisticated techniques to circumvent rate limitations
-and IP address blocking. The best technique for achieving this though is by
-being a good netizen and adding pauses between your requests.
+Avoiding being blocked
+^^^^^^^^^^^^^^^^^^^^^^
 
-When generating open data however, you should use ScraperWiki. ScraperWiki
+It's possible to use sophisticated techniques to circumvent rate limitations
+and IP address blocking. However, the best technique for avoiding being blocked
+is by being a good netizen and adding pauses between your requests.
+
+Scrape during the night of the site's local time. This is very likely to have 
+very few users, meaning the site will have more capacity to serve your scraper.
+
+
+Be part of the open data community
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When scraping open data, you should use `ScraperWiki`. ScraperWiki
 allows people to cooperatively build scrapers. They will also take care of 
 rerunning your scraper periodicly so that new data are added.
 
+By being part of the community, you increase your profile, learn much more 
+and benefit from people fixing your scraper when it breaks.
+
+Learn async programming
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Network programming is inherently wasteful in many ways. Your processor is
+consistently waiting for things to arrive from other parts of the world.
+Therefore, you can speed up the processing steps of your scrapers significantly
+if you take the time to learn asyncronous programming.
 
 
-
+  .. ScraperWiki: http://www.scraperwiki.com/
   .. scrapemark: https://github.com/arshaw/scrapemark
 
-============================================
-How to build your city's open data catalogue
-============================================
+========================================================
+Case study: How to build your city's open data catalogue
+========================================================
 
 Max Ogden has a great post about the practical steps needed to build 
 an open data API for a city.
+
+
+=======================
+How to clean your data
+=======================
+
+Whether you have gathered your data from an open data catalogue or have
+scraped it yourself, it's likely that it will be in an inconsistent 
+state.
+
+Tools to use
+------------
+
+- Google Refine
+- 
+

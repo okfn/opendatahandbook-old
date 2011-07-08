@@ -81,7 +81,7 @@ significantly. These are:
 
 To download these tools on Ubuntu, run::
 
-    $ sudo apt-get install hg python-sphinx xchat
+    $ sudo apt-get install mercurial python-sphinx xchat
 
 To download the manual, follow these commands::
 

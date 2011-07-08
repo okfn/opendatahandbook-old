@@ -18,7 +18,9 @@ XML is a widely used format for data exchange because it gives good opportunitie
 RDF
 ---
 
-A relatively new format called RDF makes it possible to present data in a form that machinery can partially understand and interpret data. This format is used partly by the British Government Linked Open Data project. RDF is still not as widespread yet and there is limited tool support obligations for it, but it offers excellent opportunities for automatic data processing.
+A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be encoded in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides for a convenient way to directly interconnect existing Open Data initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ scheme that includes linked RDF data as a goal to be sought for Open Data initiatives. 
+
+.. _five-star: http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/ 
 
 Spreadsheets
 ------------

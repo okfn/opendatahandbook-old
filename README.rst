@@ -9,7 +9,7 @@ whether that's translation, feedback, editing or adding more content. The
 manual is a project of the `Open Knowledge Foundation`_. Its authoratative 
 source is on bitbucket:
 
-  <https://bitbucket.org/okfn/opendatamanual>
+  <https://github.org/okfn/opendatamanual>
 
 
 Roadmap

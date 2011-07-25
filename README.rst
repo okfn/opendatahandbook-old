@@ -52,8 +52,13 @@ Layout of the repository::
 Building the Documentation
 ==========================
 
-1. Install `Sphinx` >= 0.6 (Debian/Ubuntu: apt-get install python-sphinx)
-2. Run the build using the Makefile::
+1. Get the themes::
+
+   git submodule init 
+   git submodule update 
+
+2. Install `Sphinx` >= 0.6 (Debian/Ubuntu: apt-get install python-sphinx)
+3. Run the build using the Makefile::
 
     make html
     

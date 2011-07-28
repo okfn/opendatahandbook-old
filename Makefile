@@ -87,3 +87,9 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
+
+# TODO: allow argument so you can choose language you are uploading for
+upload:
+	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/ s3://opendatamanual.org/en/
+	@echo "Uploaded html to website"
+

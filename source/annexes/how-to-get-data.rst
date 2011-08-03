@@ -49,11 +49,11 @@ to this topic which are being continually updated. Some examples include:
 * `What are some free, public data sets? <http://www.quora.com/Data/What-are-some-free-public-data-sets>`
 *  `Where can I get large datasets open to the public <http://www.quora.com/Data/Where-can-I-get-large-datasets-open-to-the-public>`
 
-  .. opendatasearch.org: http://www.opendatasearch.org/
-  .. largest directories of open data repositories: http://oad.simmons.edu/oadwiki/Data_repositories
-  .. Open Access Directory: http://oad.simmons.edu/oadwiki/About_OAD
-  .. CKAN: http://ckan.net
-  .. Quora: http://www.quora.com
+.. _opendatasearch.org: http://www.opendatasearch.org/
+.. _largest directories of open data repositories: http://oad.simmons.edu/oadwiki/Data_repositories
+.. _Open Access Directory: http://oad.simmons.edu/oadwiki/About_OAD
+.. _CKAN: http://ckan.net
+.. _Quora: http://www.quora.com
 
 ***************
 Extracting Data
@@ -261,7 +261,7 @@ Example code::
         default = datetime(year=1, month=1, day=1)
         return str(parser.parse(datestring, default=default))
   
-  .. mature date parser: http://www.labix.org/python-dateutil
+.. _mature date parser: http://www.labix.org/python-dateutil
 
 General tips
 ------------
@@ -326,19 +326,18 @@ Types of scrapers
   It is bundled together with the `Data Science Toolkit`_ and there is
   an `demo of boilerpipe's capabilities is available`_.
 
-  .. boilerpipe: http://code.google.com/p/boilerpipe/
-  .. demo of boilerpipe's capabilities is available: http://boilerpipe-web.appspot.com/
-  .. lxml : http://lxml.de/
-  .. XPath : http://en.wikipedia.org/wiki/XPath 
+.. _boilerpipe: http://code.google.com/p/boilerpipe/
+.. _demo of boilerpipe's capabilities is available: http://boilerpipe-web.appspot.com/
+.. _lxml : http://lxml.de/
+.. _XPath : http://en.wikipedia.org/wiki/XPath 
 
 A scraping framework
 --------------------
 
 Let's demonstrate some of the principles that we have been talking about. 
 
-We'll be creating a scraping framework, called `tbd`.
+We'll be creating a scraping framework, called `tbd`::
 
-::
     """
     {{somthing}}.py : a webscraping framework..
     """
@@ -346,47 +345,47 @@ We'll be creating a scraping framework, called `tbd`.
     import pickle
     import urllib2
     from asynchat import fifo
-
+    
     from dateutil import parser as date_parser
     import lxml
     import lxml.html
-
+    
     START_URL = 'http://blog.okfn.org/'
     db = bsddb.hashopen('okfnblog.db')
-
+    
     #
     # UTILITY FUNCTIONS
     #
-
+    
     def get_clean_page(url):
         page = get_page(url)
         page = lxml.html.tostring(page)
         page = lxml.html.fromstring(page)
         return page
-
+    
     def get_page(url):
         res = urllib2.urlopen(url)
         page = lxml.html.parse(res)
         page.make_links_absolute()
         return page
-
+    
     def save_post(post):
         save(post['post_id'], post)
-
+    
     def save_tag(tag):
         save('tag-%s' % tag['tag'], tag)
-
+    
     def save_author(author):
         save('author-%s' % author['name'], author)
-
+    
     def save(key, data):
         db[key] = pickle.dumps(data)
-
+    
     def extract_created_at_datetime(post):
         date = post.cssselect('span.entry-date')[0].text
         time = post.cssselect('div.entry-meta a')[0].attrib['title']
         return str(date_parser.parse(date + ' ' + time))
-
+     
     def process_post(url):
         source = get_page(url)
         post = {}
@@ -402,7 +401,7 @@ We'll be creating a scraping framework, called `tbd`.
         yield save_author, dict(name=post['author'])
         for tag in post['tags']
             yield save_tag, dict(tag=tag, post_id=post_id, author_name=post['author'])
-
+    
     def process_archive(url):
         archive = get_page(url)
         for post in archive.cssselect('.post .entry-meta a'):
@@ -410,7 +409,7 @@ We'll be creating a scraping framework, called `tbd`.
         previous = archive.cssselect('.nav-previous a')
         if previous: #is found
             yield process_archive, previous[0].attrib['href']
-
+    
     def process_start(url):
         index = get_page(url)
         for anchor in index.cssselect('li#archives-2 a'):
@@ -464,10 +463,10 @@ easier to deploy on a server. However, in general the tasks we'll be doing
 are fairly small and can happily run in the background while you're doing 
 other work.
 
-  .. SpiderMonkey: https://developer.mozilla.org/en/SpiderMonkey
-  .. crowbar: http://simile.mit.edu/wiki/Crowbar
-  .. how to write a program that processes JavaScript for you: http://blog.motane.lu/2009/07/07/downloading-a-pages-content-with-python-and-webkit/
-  .. webkitcrawler: https://github.com/emyller/webkitcrawler
+.. _SpiderMonkey: https://developer.mozilla.org/en/SpiderMonkey
+.. _crowbar: http://simile.mit.edu/wiki/Crowbar
+.. _how to write a program that processes JavaScript for you: http://blog.motane.lu/2009/07/07/downloading-a-pages-content-with-python-and-webkit/
+.. _webkitcrawler: https://github.com/emyller/webkitcrawler
 
 Path of least resistance - splinter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -489,7 +488,7 @@ icon appears ::
     '19\xb0', '11\xb0' # \xb0 is the degree sign
      
 
-  .. New Zealand Herald: http://www.nzherald.co.nz 
+.. _the New Zealand Herald: http://www.nzherald.co.nz 
 
 Dealing with PDF content
 ------------------------
@@ -545,8 +544,8 @@ An excellent free tool is called `OCRFeeder`_. It is available in Ubuntu as
 the `ocrfeeder` package. To get a feel for how to use it, there is a 
 `5 minute video tutorial`_ on its usage.
 
-  .. 5 minute video tutorial: http://vimeo.com/3760126
-  .. OCRFeeder: http://code.google.com/p/ocrfeeder/ 
+.. _5 minute video tutorial: http://vimeo.com/3760126
+.. _OCRFeeder: http://code.google.com/p/ocrfeeder/ 
 
 
 Building an OCR pipeline
@@ -588,14 +587,12 @@ The three main contenders in the free and open source world are:
 Each of those tools has a long history and is in continuous development.
 With my Python bias, Ocropus is probably the easiest to get started with.
 
-
-
-  .. unpaper: http://unpaper.berlios.de/
-  .. pdftohtml: http://pdftohtml.sourceforge.net/ 
-  .. "File to Text" tool: http://www.datasciencetoolkit.org/developerdocs#file2text
-  .. Data Science Toolkit: http://www.datasciencetoolkit.org/
-  .. slate: http://pypi.python.org/pypi/slate
-  .. xpdf: http://www.foolabs.com/xpdf
+.. _unpaper: http://unpaper.berlios.de/
+.. _pdftohtml: http://pdftohtml.sourceforge.net/ 
+.. _"File to Text" tool: http://www.datasciencetoolkit.org/developerdocs#file2text
+.. _Data Science Toolkit: http://www.datasciencetoolkit.org/
+.. _slate: http://pypi.python.org/pypi/slate
+.. _xpdf: http://www.foolabs.com/xpdf
 
 Crowdsourcing
 -------------
@@ -612,7 +609,7 @@ providing service below the minimum wage. Instead, they team up with video
 game sellers to provide in-game rewards. 
 
 
-  .. TaskMeUp: https://bitbucket.org/waj/taskmeup
+.. _TaskMeUp: https://bitbucket.org/waj/taskmeup
 
 General Tips
 --------------
@@ -647,8 +644,8 @@ Therefore, you can speed up the processing steps of your scrapers significantly
 if you take the time to learn asyncronous programming.
 
 
-  .. ScraperWiki: http://www.scraperwiki.com/
-  .. scrapemark: https://github.com/arshaw/scrapemark
+.. _ScraperWiki: http://www.scraperwiki.com/
+.. _scrapemark: https://github.com/arshaw/scrapemark
 
 ========================================================
 Case study: How to build your city's open data catalogue

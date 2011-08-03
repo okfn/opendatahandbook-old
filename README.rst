@@ -13,7 +13,12 @@ please head over to the http://opendatamanual.org/).
 .. _Open Data Manual: http://opendatamanual.org/
 .. _Open Knowledge Foundation: http://okfn.org/
 .. _Sphinx: http://sphinx.pocoo.org/
- 
+
+Contributing to the project
+---------------------------
+
+See http://wiki.okfn.org/Open_Data_Manual#Contributing
+
 Wiki
 ----
 
@@ -74,9 +79,30 @@ Building the Documentation
 
     make html
     
+Building for Translation (i18n)
+-------------------------------
 
-Helping with the project
-========================
+Generating pot files
+~~~~~~~~~~~~~~~~~~~~
 
-See See http://wiki.okfn.org/Open_Data_Manual#Contributing
+1. You will need to install sphinx HEAD (what will be v1.1). Do this from the
+   official source repo: https://bitbucket.org/birkenfeld/sphinx/
+
+2. Run::
+
+    sphinx-build -b gettext source/ translation/pot
+
+3. Resulting pot files will be in build/i18n
+
+4. Add each pot files as a resource on
+   https://www.transifex.net/projects/p/opendatamanual/ if not already there
+
+Adding a new language
+~~~~~~~~~~~~~~~~~~~~~
+
+We use transifex for this.
+
+1. Go to https://www.transifex.net/projects/p/opendatamanual/
+
+2. For each resource add translation for specified language
 

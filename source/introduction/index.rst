@@ -25,15 +25,19 @@ Most of the information provided currently is focused on data held by the public
 
 This manual is intended for those with little or no knowledge of the topic. If you do find a piece of jargon or terminology with which you aren't familiar please see the detailed Glossary and FAQs (frequently asked questions) which can be found at the end of the manual.
 
-Credits and How to Contribute
-=============================
+Contributing
+============
+
+We welcome contributions and corrections to the manual. Please visit http://wiki.okfn.org/Open_Data_Manual#Contributing to find out more.
+
+Credits
+=======
 
 .. toctree::
    :maxdepth: 1
 
    credits
-   contribute
 
-.. _open data: http://en.wikipedia.org/wiki/Open_data
-.. _open government data: http://en.wikipedia.org/wiki/Open_government_data
+.. _open data: http://opendefinition.org/
+.. _open government data: http://opengovernmentdata.org/
 

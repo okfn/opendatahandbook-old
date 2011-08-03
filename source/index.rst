@@ -33,9 +33,3 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-Meta
-====
-
-  * Created: October 2010
-  * Updated: January 2011
-

@@ -93,3 +93,7 @@ upload:
 	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/ s3://opendatamanual.org/en/
 	@echo "Uploaded html to website"
 
+gettext:
+	$(SPHINXBUILD) -b gettext source build/i18npot
+	msgcat -o translation/all.pot build/i18npot/index.pot build/i18npot/introduction.pot build/i18npot/why-open-data.pot build/i18npot/what-is-open-data.pot build/i18npot/how-to-open-up-data.pot build/i18npot/following-up.pot build/i18npot/glossary.pot build/i18npot/appendix.pot
+

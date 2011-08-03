@@ -90,12 +90,15 @@ Generating pot files
 
 2. Run::
 
-    sphinx-build -b gettext source/ translation/pot
+      make gettext
 
-3. Resulting pot files will be in build/i18n
+   This runs sphinx-build gettext command and then concatenates pot files to a
+   single all.pot file
 
-4. Add each pot files as a resource on
-   https://www.transifex.net/projects/p/opendatamanual/ if not already there
+3. Resulting pot files will be in translated/all.pot
+
+4. Add/update pot file as a resource on
+   https://www.transifex.net/projects/p/opendatamanual/
 
 Adding a new language
 ~~~~~~~~~~~~~~~~~~~~~
@@ -103,6 +106,5 @@ Adding a new language
 We use transifex for this.
 
 1. Go to https://www.transifex.net/projects/p/opendatamanual/
-
-2. For each resource add translation for specified language
+2. Add translation for specified language (and a team)
 

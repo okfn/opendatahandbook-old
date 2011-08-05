@@ -2,9 +2,9 @@
 Make data discoverable
 ======================
 
-Open data is nothing without users. You need to be able to make sure that
-people can find the source material. This section will cover different
-approaches.
+:term:`Open data` is nothing without users. You need to be able to make 
+sure that people can find the source material. This section will cover 
+different approaches.
 
 The most important thing is to provide a neutral space which is easy 
 which can overcome both inter-agency politics and future budget cycles. 

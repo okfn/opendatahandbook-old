@@ -18,7 +18,7 @@ XML is a widely used format for data exchange because it gives good opportunitie
 RDF
 ---
 
-A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be encoded in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides for a convenient way to directly interconnect existing Open Data initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ scheme that includes linked RDF data as a goal to be sought for Open Data initiatives. 
+A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be encoded in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides for a convenient way to directly interconnect existing :term:`open data` initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ scheme that includes linked RDF data as a goal to be sought for open data initiatives. 
 
 .. _five-star: http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/ 
 
@@ -82,7 +82,7 @@ The benefit of open file formats is that they permit developers to produce multi
 
 Using proprietary file formats for which the specification is not publicly available can create dependence on third-party software or file format license holders. In worst-case scenarios this can mean that information can only be read using certain software packages, which can be prohibitively expensive, or which may become obsolete.
 
-The preference from the open government data perspective therefore is that information be released in **open file formats which are machine-readable.**
+The preference from the :term:`open government data` perspective therefore is that information be released in **open file formats which are machine-readable.**
 
 Example: UK traffic data
 ------------------------

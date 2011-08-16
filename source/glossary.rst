@@ -6,11 +6,8 @@ Glossary
   :sorted:
 
   Open Data
-    Open data are able to be used for any purpose. While openness appears
-    within a spectrum and is difficult to precisely define, general consensus
-    has settled on attribution as the only permissible requirement
-    on third-parties' reuse. More details can be read at `opendefinition.org 
-    <http://www.opendefinition.org/>`_.
+    Open data are able to be used for any purpose. More details can be 
+    read at `opendefinition.org <http://www.opendefinition.org/>`_.
 
   Machine readable
     Formats that are machine readable are ones which are
@@ -175,4 +172,5 @@ Glossary
     accepted to be data gathered during the course of business as usual 
     activities which do not identify individuals or breach commercial 
     sensitivity. Open government data is a subset of :term:`Public 
-    Sector Information`, which is broader in scope 
+    Sector Information`, which is broader in scope. See http://opengovernmentdata.org
+    for details.

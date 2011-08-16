@@ -6,13 +6,15 @@ Glossary
   :sorted:
 
   Open Data
-    Open data are able to be used for any purpose.
-    
+    Open data are able to be used for any purpose. More details can be 
+    read at `opendefinition.org <http://www.opendefinition.org/>`_.
+
   Machine readable
-    Information that is machine readable is information that is
-    able to be extracted by computer programmes. PDF documents are not
-    machine readable. Computers can display the text nicely, but have
-    great difficulty understanding the context that surrounds the text.
+    Formats that are machine readable are ones which are
+    able to have their data extracted by computer programs easily. PDF 
+    documents are not machine readable. Computers can display the text 
+    nicely, but have great difficulty understanding the context that 
+    surrounds the text.
 
   Connectivity
     Connectivity relates to the ability for communities to connect to
@@ -164,3 +166,11 @@ Glossary
     IARs to the general public as raw data under an open licence so 
     that civic hackers can make use of the data, for example by building 
     search engines and user interfaces.
+
+  Open Government Data
+    :term:`Open data` produced by the government. This is generally 
+    accepted to be data gathered during the course of business as usual 
+    activities which do not identify individuals or breach commercial 
+    sensitivity. Open government data is a subset of :term:`Public 
+    Sector Information`, which is broader in scope. See http://opengovernmentdata.org
+    for details.

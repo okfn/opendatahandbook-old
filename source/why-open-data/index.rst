@@ -2,7 +2,8 @@
 Why Open Data?
 ==============
 
-Open data, especially open government data, is a tremendous resource that is largely untapped. Many different individuals and organisations collect a broad range of different types of data to be able to perform their tasks. Government is particularly significant in this regard, both because of the quantity and centrality of the data they collect, but also because of all that government data, most is public data by law, and therefore could be made open and made available for others to use. Why is that useful? 
+:term:`Open data`, especially :term:`open government data`, are a tremendous resource that is largely untapped. Many different individuals and organisations collect a broad range of different types of data to be able to perform their tasks. Government is particularly significant in this regard, both because of the quantity and centrality of the data they collect, but also because of all that government data, most is public data by law, and therefore could be made open and made available for others to use. Why is that useful? 
+
 
 There are many areas where we can expect open data to be of value, and where examples already exist. There are also many different groups of people and organisations who can benefit from the availability of open data, including government itself. At the same time it is impossible to predict precisely how and where value will be created. The nature of innovation and new things is that it will come from unlikely places. 
 

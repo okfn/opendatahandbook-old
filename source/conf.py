@@ -101,7 +101,8 @@ html_theme_options = {
 html_use_modindex = False
 html_sidebars = {
     '**':       ['sidebarlogo.html', 'localtoc.html', 'relations.html',
-                 'sourcelink.html', 'searchbox.html']
+                 'sourcelink.html', 'searchbox.html', 
+                 'corrections.html', 'openstickers.html']
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme

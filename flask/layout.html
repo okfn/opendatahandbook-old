@@ -16,8 +16,27 @@
 {% endblock %}
 {%- block footer %}
   <div class="footer">
-    &copy; Copyright {{ copyright }}.
-    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    <div>
+      <img style="margin-bottom: -5px;" src="http://m.okfn.org/images/logo/okf_logo_white_and_green_tiny.png">
+      An <a href="http://www.okfn.org/">Open Knowledge Foundation</a> project. 
+    </div>
+    <div>
+      <a href="http://creativecommons.org/licenses/by/3.0/">
+        <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" border="0" alt="The Open Data Manual is licensed under the Creative Commons Attribution Unported 3.0 license." />
+      </a>
+      <a href="http://opendefinition.org/">
+        <img src="http://m.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="The Open Data Manual is Open Content" />
+      </a>
+    </div>
+    <div>
+      &copy; Copyright {{ copyright }}.
+      Released under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution Unported 3.0 license</a>. 
+      Support the manual by <a href="http://wiki.okfn.org/Open_Data_Manual#Contributing">contributing</a> or 
+      <a href="http://okfn.org/support/">donating</a>.
+    </div>
+    <div>
+      See also <a href="http://datapatterns.org">datapatterns.org</a>.
+    </div>
   </div>
   {% if pagename == 'index' %}
   </div>

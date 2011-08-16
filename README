@@ -1,3 +1,10 @@
+Open Data Manual Theme
+======================
+
+This repo contains a fork of the Flask project's Sphinx themes. 
+We're using it as a base, but have forked it to enable a few
+customisations. 
+
 Flask Sphinx Styles
 ===================
 

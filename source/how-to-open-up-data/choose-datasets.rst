@@ -28,7 +28,7 @@ understanding of which data are valuable.
 1. Prepare a short list of potential datasets that you would like 
    feedback on. It is not essential that this list concurs with what 
    your expectations are, the main intention is to get a feel for the 
-   demand. This could be based on other countries' open data catalogues.
+   demand. This could be based on other countries' :term:`open data` catalogues.
 
 2. Create a request for comment.   
 

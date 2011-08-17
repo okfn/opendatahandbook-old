@@ -204,3 +204,6 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_use_modindex = True
+
+#for translations, see http://sphinx.pocoo.org/latest/intl.html
+locale_dirs = ['../translation/']

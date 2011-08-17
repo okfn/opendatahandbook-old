@@ -9,7 +9,7 @@ Glossary
     Open data are able to be used for any purpose. More details can be 
     read at `opendefinition.org <http://www.opendefinition.org/>`_.
 
-  Machine readable
+  Machine-readable
     Formats that are machine readable are ones which are
     able to have their data extracted by computer programs easily. PDF 
     documents are not machine readable. Computers can display the text 
@@ -174,3 +174,8 @@ Glossary
     sensitivity. Open government data is a subset of :term:`Public 
     Sector Information`, which is broader in scope. See http://opengovernmentdata.org
     for details.
+
+  Tab-seperated values
+    Tab-seperated values (TSV) are a very common form of text file
+    format for sharing tabular data. The format is extremely simple
+    and highly :term:`machine-readable`.

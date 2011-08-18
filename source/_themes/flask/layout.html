@@ -7,7 +7,7 @@
   <link media="only screen and (max-device-width: 480px)" href="{{
     pathto('_static/small_flask.css', 1) }}" type= "text/css" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>  
-  <script src="http://assets.annotateit.org/annotator/v1.0.0rc3/annotator.min.js"></script>
+  <script src="http://assets.annotateit.org/annotator/v1.0.0rc3/annotator-full.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://assets.annotateit.org/annotator/v1.0.0rc3/annotator.min.css" />
 {% endblock %}
 {%- block relbar2 %}{% endblock %}
@@ -31,6 +31,14 @@
     <script src="http://assets.okfn.org/banner/banner.js" type="text/javascript"></script> 
   #}
   <script type="text/javascript">
-    jQuery('div.body').annotator();
+    jQuery('div.bodywrapper').annotator()
+      .annotator('addPlugin', 'Store', {
+        prefix: 'http://annotateit.org/api'
+      })
+      .annotator('addPlugin', 'Auth', {
+          userId:      '39fc339cf058bd22176771b3e33444e8',
+          consumerKey: '2e07b603-64fb-4004-b696-5fee23237bb4',
+          authToken:   'c23b91974f99e7059d9db98dea4805228bec17a21c81c0d643f68ff447b0f124'
+      });
   </script>
 {%- endblock %}

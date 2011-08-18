@@ -1,0 +1,28 @@
+{#
+    nav.html, derived from Sphinx basic/relations.html
+
+    :copyright: Copyright 2007-2011 by the Sphinx team.
+    :copyright: Copyright 2011 the Open Knowledge Foundation
+    :license: BSD
+#}
+
+<h3>{{ _("Navigation") }}</h3>
+
+{%- if next %}
+  <p>
+    {{ _('Next') + ':' }}
+    &nbsp;
+    <a href="{{ next.link|e }}" title="{{ _('Next') }}">
+      {{ next.title }}
+    </a>
+  </p>
+{%- endif %}
+{%- if prev %}
+  <p>
+    {{ _('Previous') + ':' }}
+    &nbsp;
+    <a href="{{ prev.link|e }}" title="{{ _('Previous') }}">
+      {{ prev.title }}
+    </a>
+  </p>
+{%- endif %}

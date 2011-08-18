@@ -172,8 +172,8 @@ technology is very generic and can be adapted for data transfer in any
 area.
 
 Implementing this technology can enable your agency to be experimental 
-with its knowledge. For example, Australia's `Bureau of Meteorology 
-Research Centre`_ provides the following disclaimer on its material:
+with its knowledge. For example, Australia's `Bureau of Meteorology Research Centre`_ 
+provides the following disclaimer on its material:
 
     Please note that the following products ... do not currently form
     part of the Bureau's standard services in any way.
@@ -181,7 +181,7 @@ Research Centre`_ provides the following disclaimer on its material:
 This example demonstrates that it is possible to provide data in raw form 
 without incurring liability for others' use of that data.
 
- .. _Bureau of Metereology Research Centre: http://opendap.bom.gov.au/index.shtml
+ .. _Bureau of Meteorology Research Centre: http://opendap.bom.gov.au/index.shtml
 
 via WebDAV
 ----------

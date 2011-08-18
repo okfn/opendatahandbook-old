@@ -50,7 +50,14 @@
   <script type="text/javascript">
     jQuery('div.bodywrapper').annotator()
       .annotator('addPlugin', 'Store', {
-        prefix: 'http://annotateit.org/api'
+        prefix: 'http://annotateit.org/api',
+        annotationData: {
+          'uri': location.href
+        },
+        loadFromSearch: {
+          'uri': location.href,
+          'limit': -1
+        }
       })
       .annotator('addPlugin', 'Auth', {
           userId:      '39fc339cf058bd22176771b3e33444e8',

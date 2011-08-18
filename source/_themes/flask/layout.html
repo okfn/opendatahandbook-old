@@ -31,23 +31,6 @@
     <script src="http://assets.okfn.org/banner/banner.js" type="text/javascript"></script> 
   #}
   <script type="text/javascript">
-  $(document).ready(function() {
-    bannerHTML = '<div id=\'__banner\'><div id=\'__links\'>Visit our <a href=\'http://okfn.org/projects/\'>other projects</a> &amp; <a href=\'http://okfn.org/community/get-involved/\'>get involved</a> or <a href=\'http://okfn.org/support/\'>donate</a> to open more knowledge.</div><div id=\'__inner\'>An <a href=\'http://okfn.org/\'>Open Knowledge Foundation</a> Project</div></div>';
-
-    // inject stylesheet
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'http://assets.okfn.org/banner/style.css';
-    document.getElementsByTagName('head')[0].appendChild(link);
-
-    var banner = document.createElement('div');
-    banner.innerHTML = bannerHTML;
-    banner.id = 'odmbanner';
-    document.body.insertBefore(banner, document.body.firstChild);
-  });
-  </script>
-  <script type="text/javascript">
     jQuery('div.body').annotator();
   </script>
 {%- endblock %}

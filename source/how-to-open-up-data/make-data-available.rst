@@ -154,7 +154,7 @@ an API, raw data should be made available in bulk at regular intervals.
 
 For example, the Eurostat statistical service has a bulk download 
 facility offering over 4000 data files. It is updated twice a day, offers 
-data in :term:`Tab Separated Value` (TSV) format, and includes 
+data in :term:`Tab-separated values` (TSV) format, and includes 
 documentation about the download facility as well as about the data files.
 
 Another example is the District of Columbia OCTO’s Data Catalogue, which 
@@ -182,6 +182,21 @@ This example demonstrates that it is possible to provide data in raw form
 without incurring liability for others' use of that data.
 
  .. _Bureau of Metereology Research Centre: http://opendap.bom.gov.au/index.shtml
+
+via WebDAV
+----------
+
+`WebDAV`_, or Web-based Distributed Authoring and Versioning, is an attempt at
+making the internet a read/write medium. It is a widely supported open standard
+that supports locking and distributed authorship. 
+
+Providing a service such as this could be useful for situations
+where your agency would like to handle receiving improvements to data that 
+it stores. The agency could provide its original data as the orginal source
+and then refer to higher-quality, but unverified derivative data source for 
+users with different needs.
+
+  .. _WebDAV: http://en.wikipedia.org/wiki/WebDAV
 
 Offline methods
 ===============

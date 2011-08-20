@@ -1,104 +1,117 @@
-`Open Data Manual`_
-===================
+Open Data Manual
+================
 
 Introduction
 ------------
 
-Welcome to the source for the `Open Data Manual`. The manual is a project of
+Welcome to the source of the `Open Data Manual`_. The manual is a project of
 the `Open Knowledge Foundation`_.  If you are reading this it is likely you are
 looking to contribute in some way, whether that's translation, feedback,
-editing or adding more content (if not and you just want to read the manual
-please head over to the http://opendatamanual.org/).
+editing or adding more content. If you just want to read the manual, then
+please head over to the http://opendatamanual.org/.
 
 .. _Open Data Manual: http://opendatamanual.org/
 .. _Open Knowledge Foundation: http://okfn.org/
 .. _Sphinx: http://sphinx.pocoo.org/
 
-Contributing to the project
----------------------------
-
-See http://wiki.okfn.org/Open_Data_Manual#Contributing
-
-Wiki
-----
-
-Main wiki page is: http://wiki.okfn.org/Open_Data_Manual
-
-This is also official 'home page' for development work on the manual.
-
-Mailing List
+Contributing
 ------------
 
-http://lists.okfn.org/mailman/listinfo/open-data-manual
+We have several ways you can help. The project is split into a few 
+roles. Our **authors** write content, **editors** merge those 
+submissions into the manual, **designers** help beautify it and 
+**translators** bring the manual to all countries of the world.
 
-Version Control
+`Our wiki`_ is a great place to get started. It contains a large
+number of tasks for people with `half an hour`_ as well as `larger
+tasks`_. 
+
+.. _our wiki: http://wiki.okfn.org/Open_Data_Manual#Contributing
+.. _half an hour: http://wiki.okfn.org/Open_Data_Manual#Micro-tasks
+.. _larger tasks: http://wiki.okfn.org/Open_Data_Manual#Sections_that_need_authors
+
+Resources
+---------
+
+:Home Page:     http://wiki.okfn.org/Open_Data_Manual
+:Mailing List:  http://lists.okfn.org/mailman/listinfo/open-data-manual
+:Source:        https://github.org/okfn/opendatamanual
+:Translations:  https://www.transifex.net/projects/p/opendatamanual/
+
+About our tools
 ---------------
-
-We manage the source using git and the official repository is here:
-
-https://github.org/okfn/opendatamanual
-
-Roadmap
--------
-
-See the Manual's wiki page http://wiki.okfn.org/Open_Data_Manual and its issue
-tracker: http://github.com/okfn/opendatamanual/issues
-
-
-About these files
-=================
 
 The manual is written the `ReStructured Text`_ format. `ReStructured Text` allows
 us to write files in plain text files, which can be nicely rendered as a website
 or a PDF using `Sphinx`_.
 
+.. _restructured text: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
-Layout of this Repository
-=========================
+Project Layout
+--------------
 
-Layout of the repository::
+Outline::
 
-  # the manual
-  source/
-  # useful scripts
-  bin/
-  # output 'built' html
-  build/
+  opendatamanual/
+    source/
+    bin/
+    build/
 
+Details:
 
-Building the Documentation
-==========================
+| ``opendatamanual`` is the base directory.
+|
+|    ``source`` is where we keep the plain text source files.
+|
+|    ``bin`` is short for binaries, or executable commands. This folder keeps holds handy scripts.
+|
+|    ``build`` is where rendered, or "built", HTML files live.  
 
-1. Get the themes::
+Rendering the manual
+--------------------
+
+1. Move into the base directory of the project
+
+::
+
+    cd opendatamanual
+
+2. Get the themes
+
+::
 
    git submodule init 
    git submodule update 
 
-2. Install `Sphinx` >= 0.6 (Debian/Ubuntu: apt-get install python-sphinx)
-3. Run the build using the Makefile::
+3. Install `Sphinx`, with a minimum version of 0.6. Instructions for Debian and Ubuntu:
+
+::
+
+    apt-get install python-sphinx
+
+4. Render the HTML, using ``make``.  
+
+::
 
     make html
-    
+   
 Building for Translation (i18n)
 -------------------------------
 
 Generating pot files
 ~~~~~~~~~~~~~~~~~~~~
 
-1. You will need to install sphinx HEAD (what will be v1.1). Do this from the
-   official source repo: https://bitbucket.org/birkenfeld/sphinx/
+1. Install Sphinx HEAD from the `official source repo 
+   <https://bitbucket.org/birkenfeld/sphinx/>`_.
 
-2. Run::
+2. Extract translateable sentences
 
-      make gettext
+::
 
-   This runs sphinx-build gettext command and then concatenates pot files to a
-   single all.pot file
+    make gettext
 
-3. Resulting pot files will be in translated/all.pot
-
-4. Add/update pot file as a resource on
-   https://www.transifex.net/projects/p/opendatamanual/
+3. Add or update the ``translated/all.pot`` file as a resource on
+   https://www.transifex.net/projects/p/opendatamanual/.
 
 Adding a new language
 ~~~~~~~~~~~~~~~~~~~~~

@@ -6,11 +6,12 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
+lang = en
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
+ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -D language=$(lang) source
 
 .PHONY: help clean html dirhtml pickle json htmlhelp qthelp latex changes linkcheck doctest
 
@@ -26,12 +27,15 @@ help:
 	@echo "  changes   to make an overview of all changed/added/deprecated items"
 	@echo "  linkcheck to check all external links for integrity"
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
+	@echo "  upload    to upload files to s3 (can specify lang using lang=...)"
+	@echo "  gettext   extract potfiles using sphinx gettext"
+	@echo "  linkpot   set up pot stuff (can specify lang using lang=...)"
 
 clean:
 	-rm -rf $(BUILDDIR)/*
 
 html:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/$(lang)
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
@@ -90,10 +94,20 @@ doctest:
 
 # TODO: allow argument so you can choose language you are uploading for
 upload:
-	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/ s3://opendatamanual.org/en/
+	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(lang)/ s3://opendatamanual.org/$(lang)/
 	@echo "Uploaded html to website"
+
+TRANSLATIONDIR = translation
+BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
+POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
 
 gettext:
 	$(SPHINXBUILD) -b gettext source build/i18npot
 	msgcat -o translation/all.pot build/i18npot/index.pot build/i18npot/introduction.pot build/i18npot/why-open-data.pot build/i18npot/what-is-open-data.pot build/i18npot/how-to-open-up-data.pot build/i18npot/following-up.pot build/i18npot/glossary.pot build/i18npot/appendix.pot
+
+linkpot:
+	for potfile in $(POTFILES); do \
+		ln -s all.mo $(BASEDIR)/$$potfile.mo; \
+	done
+	@echo "Setup a specific lang"
 

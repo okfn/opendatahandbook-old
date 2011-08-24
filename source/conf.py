@@ -206,3 +206,4 @@ latex_documents = [
 
 #for translations, see http://sphinx.pocoo.org/latest/intl.html
 locale_dirs = ['../translation/']
+

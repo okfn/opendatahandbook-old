@@ -101,7 +101,7 @@ html_theme_options = {
 html_use_modindex = False
 html_sidebars = {
     '**':       ['sidebarlogo.html', 'search.html', 'globaltoc.html', 'nav.html',
-                 'corrections.html', 'openstickers.html']
+                 'corrections.html', 'openstickers.html', 'okfn-logo.html']
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme

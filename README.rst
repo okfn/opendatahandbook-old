@@ -56,6 +56,7 @@ Outline::
     source/
     bin/
     build/
+    translation/
 
 Details:
 
@@ -66,6 +67,8 @@ Details:
 |    ``bin`` is short for binaries, or executable commands. This folder keeps holds handy scripts.
 |
 |    ``build`` is where rendered, or "built", HTML files live.  
+|
+|    ``translation`` is where our i18n files are kept
 
 Rendering the manual
 --------------------

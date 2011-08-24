@@ -1,5 +1,5 @@
 ========
-Appendix
+Appendices
 ========
 
 .. toctree::

@@ -24,7 +24,7 @@ Table of Contents
    how-to-open-up-data/index
    following-up/index
    glossary
-   appendix/index
+   appendices/index
 
 Indices and tables
 ==================

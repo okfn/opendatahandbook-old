@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
-lang = en
+lang          ?= en
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -98,11 +98,10 @@ doctest:
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
-# TODO: allow argument so you can choose language you are uploading for
 upload:
 	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(lang)/ s3://opendatamanual.org/$(lang)/
 	@echo
-	@echo "Uploaded html to website"
+	@echo "Uploaded html for $(lang) to website"
 
 gettext:
 	$(SPHINXBUILD) -b gettext source build/i18npot

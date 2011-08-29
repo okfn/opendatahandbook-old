@@ -111,5 +111,6 @@ linkpot:
 	for potfile in $(POTFILES); do \
 		ln -s all.mo $(BASEDIR)/$$potfile.mo; \
 	done
+	@echo
 	@echo "Setup a specific lang"
 

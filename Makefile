@@ -13,6 +13,11 @@ PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -D language=$(lang) source
 
+# translation
+TRANSLATIONDIR = translation
+BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
+POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
+
 .PHONY: help clean html dirhtml pickle json htmlhelp qthelp latex changes linkcheck doctest
 
 help:
@@ -98,10 +103,6 @@ upload:
 	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(lang)/ s3://opendatamanual.org/$(lang)/
 	@echo
 	@echo "Uploaded html to website"
-
-TRANSLATIONDIR = translation
-BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
-POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
 
 gettext:
 	$(SPHINXBUILD) -b gettext source build/i18npot

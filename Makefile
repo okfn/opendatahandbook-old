@@ -6,16 +6,16 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
-lang = en
+LANG          = en
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -D language=$(lang) source
+ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -D language=$(LANG) source
 
 # translation
 TRANSLATIONDIR = translation
-BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
+BASEDIR = $(TRANSLATIONDIR)/$(LANG)/LC_MESSAGES
 POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
 
 .PHONY: help clean html dirhtml pickle json htmlhelp qthelp latex changes linkcheck doctest
@@ -40,9 +40,9 @@ clean:
 	-rm -rf $(BUILDDIR)/*
 
 html:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/$(lang)
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/$(LANG)
 	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html/$(LANG)."
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
@@ -100,7 +100,7 @@ doctest:
 
 # TODO: allow argument so you can choose language you are uploading for
 upload:
-	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(lang)/ s3://opendatamanual.org/$(lang)/
+	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(LANG)/ s3://opendatamanual.org/$(LANG)/
 	@echo
 	@echo "Uploaded html to website"
 

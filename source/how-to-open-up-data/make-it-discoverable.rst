@@ -6,7 +6,7 @@ Make data discoverable
 sure that people can find the source material. This section will cover 
 different approaches.
 
-The most important thing is to provide a neutral space which is easy 
+The most important thing is to provide a neutral space  
 which can overcome both inter-agency politics and future budget cycles. 
 Jurisdictional borders, whether sectorial or geographical, can make 
 cooperation difficult. However, there are significant benefits in joining 
@@ -21,7 +21,7 @@ designed to make data most discoverable.
 
 The most prominent is CKAN.net. CKAN stands for the Comprehensive Knowledge
 Archive Network, and is a catalogue of all datasets in the world. The site 
-makes it very easy for developers to find tha material that they're seeking.
+makes it very easy for developers to find the material that they're seeking.
 
 In addition, there are dozens of specialist catalogues for different 
 sectors and places. Many scientific communities have created a catalogue 
@@ -39,7 +39,7 @@ information current easily.
 Resist the urge to build the software to support the catalogue from scratch.
 There are many free and open source software solutions which have been
 adopted by many dozens of governments already. Investing in another 
-platform will be a waste of resource.
+platform will be a waste of resources.
 
 There are a few things that most open data catalogues miss. Your programme
 could consider the following:

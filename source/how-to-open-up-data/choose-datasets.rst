@@ -56,12 +56,12 @@ Cost basis
 
 How much money do agencies spend on the collection and maintainence of data
 that they hold? If they spend a great deal on a particular set of data, then 
-it is highly likely that others would like access it.
+it is highly likely that others would like to access it.
 
 This argument may be fairly susceptible to concerns of freeriding. The 
 question you will need to respond to is, "Why should other people get
-information for free that is so expensive?". The answer is that the 
-expense is aborbed by the public secotr to perform a particular function. 
+information for free that is so expensive?" The answer is that the 
+expense is absorbed by the public sector to perform a particular function. 
 The cost of sending that data, once it has been collected, to a third
 party is approximately nothing. Therefore, they should be charged nothing.
 
@@ -80,7 +80,7 @@ occurs, faith in the entire project could be undermined.
 Observe peers
 -------------
 
-Open data is growing movement. There are likely to be many people in your
+Open data is a growing movement. There are likely to be many people in your
 area who understand what other areas are doing. Formulate a list on the
 basis of what those agencies are doing.
 

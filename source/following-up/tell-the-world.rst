@@ -29,10 +29,9 @@ over, rather than critically examined in-depth.
 
 Members of the tech community are less likely than the general public to 
 use MS Windows. This means that you should not save documents in MS Office 
-formats which can be read offline. There are two resons for this for two 
-reasons.
+formats which can be read offline. There are two resons for this:
 
-* The first is that those documents they will be less accessible. Rather 
+* The first is that those documents will be less accessible. Rather 
   than the document you see on your screen, readers may see a an imperfect 
   copy from an alternative.
 * Secondly, your agency sends an implicit message that you are unwilling to 
@@ -52,25 +51,26 @@ they receive a free blog post in their topic area.
 Making your communications more social-media friendly
 -----------------------------------------------------
 
-It's unrealistic to expect that officials should spend large periods of time
+It's unrealistic to expect that officials should spend long periods of time
 engaging with social media. However, there are several things that you can
 do to make sure that your content can be easily shared between technical
-users.
+users. Some tips:
 
-Some tips:
+:Provide unique pages for each piece of content:
 
-* Provide unique pages for each piece of content  
   When a message is shared with others, the recipient of the referral
   will be looking for the relevant content quickly.
 
-* Avoid making people download your press releases  
+:Avoid making people download your press releases:
+
   Press releases are fine. They are concise messages about a particular 
   point. However, if you require people to download the content and for
   it to open outside of a web browser, then fewer people will read it. 
   Search engines are less likely to index the content. People are less
   likely to click to download.
 
-* Consider using a Creative Commons licence
+:Consider using a Creative Commons licence:
+
   Apart from providing certainty to people who wish to share your 
   content that this is permissible, you send a message that your
   agency understands openness. This is bound to leave an impression

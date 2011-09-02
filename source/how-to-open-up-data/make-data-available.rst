@@ -4,7 +4,7 @@ Make Data Available (Technical Openness)
 
 
 :term:`Open data` needs to be technically open as well as legally open. 
-Specifically, the data needs be available in bulk in a :term:`machine-readable` 
+Specifically, the data needs to be available in bulk in a :term:`machine-readable` 
 format.
 
 Available
@@ -21,10 +21,11 @@ In bulk
 
 In an open, machine-readable format
   Re-use of data held by the public sector should not be subject to patent
-  restrictions. More importantly, making sure that you are providng 
+  restrictions. More importantly, making sure that you are providing 
   machine-readable formats allows for greatest re-use. To illustrate this,
-  consider statistics published as :abbr:`PDF (Portable Document Format, 
-  often used for high quality printing)` documents. While these statistics
+  consider statistics published as :abbr:`PDF (Portable Document 
+  Format)` 
+  documents, often used for high quality printing. While these statistics
   can be read by humans, they are very hard for a computer to use. This
   greatly limits the ability for others to reuse that data.
 
@@ -39,9 +40,9 @@ six months' time.
 
 There are many different ways to make data available to others. The most 
 natural in the Internet age being online publication. There are many
-variations tor this model. At its most basic, agencies make their data 
+variations to this model. At its most basic, agencies make their data 
 available via their websites and a central catalogue directs visitors
-to appropriate the appropriate source.  However, there are alternatives.
+to the appropriate source.  However, there are alternatives.
 
 When :term:`connectivity` is limited or the size of the data are extremely 
 large, distribution via other formats, can be warranted. This section will 
@@ -139,7 +140,7 @@ Access to bulk data ensures that:
 
 a) there is no dependency on the original provider of the data, meaning
    if a restructure or budget cycle changes the situation, the data are
-   still available
+   still available.
 b) anyone else can obtain a copy and redistribute it. This reduces the
    cost of distribution away from the source agency and means that there
    is no single point of failure.
@@ -147,8 +148,8 @@ c) others can develop their own services using the data, because they
    have certainty that the data will not be taken away from them.
 
 Providing data in bulk allows others to use the data beyond its original
-purposes. For example, it allows conversion it into a new format, linking 
-with other resources, data to be versioned and archival in multiple 
+purposes. For example, it allows converting it into a new format, linking 
+with other resources, data to be versioned and archived in multiple 
 places. While the latest version of the data may be made available via 
 an API, raw data should be made available in bulk at regular intervals.
 

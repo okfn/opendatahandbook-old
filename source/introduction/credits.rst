@@ -33,7 +33,7 @@ Copyright
 
 This manual is copyright 2010-2011 of its respective contributors and
 licensed under a `Creative Commons Attribution License`_ (unported and
-all jurisctions).
+all jurisdictions).
 
 .. _Daniel Dietrich: http://ddie.me/
 .. _Jonathan Gray: http://jonathangray.org/

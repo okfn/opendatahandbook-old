@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: Open Data Manual\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatamanual/issues\n"
 "POT-Creation-Date: 2011-08-03 18:52\n"
-"PO-Revision-Date: 2011-08-16 21:27+0000\n"
-"Last-Translator: dskutz <natywaw@gmail.com>\n"
+"PO-Revision-Date: 2011-08-24 09:21+0000\n"
+"Last-Translator: napo <maurizio.napolitano@okfn.org>\n"
 "Language-Team: Italian (http://www.transifex.net/projects/p/opendatamanual/team/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,8 +43,8 @@ msgstr ""
 "**Il presente manuale affronta gli aspetti giuridici, sociali e tecnici "
 "degli open data (dati aperti) .** Il manuale può essere utilizzato da "
 "chiunque, ed è stato appositamente studiato per coloro che intendono "
-"**aprire** i dati. Il manuale discute del **perchè, cosa e come** degli open"
-" data - quindi perchè  percorrere la strada dell'apertura, cosa si intende "
+"**aprire** i dati. Il manuale discute del **perché, cosa e come** degli open"
+" data - quindi perché  percorrere la strada dell'apertura, cosa si intende "
 "con 'aperto' (open), e come si fa 'open data' ('aprire' i dati) "
 "(\"liberare\" i dati)."
 
@@ -382,7 +382,7 @@ msgstr ""
 "particolarmente rilevante, sia per la quantità e la centralità dei dati che "
 "vengono raccolti sia perché una parte dei dati amministrativi è per legge di"
 " dominio pubblico, e potrebbero quindi essere resi aperti e disponibili "
-"perchè altri li usino. Perché ciò è utile?"
+"perché altri li usino. Perché ciò è utile?"
 
 # 0b8dbf662d2f42e69d779b276662a70f
 #: why-open-data/index.rst:7
@@ -483,10 +483,10 @@ msgstr ""
 "vanno i miei soldi) che permettono di identificare come i soldi delle tasse "
 "dei cittadini sono impiegati dal governo. In Canada i dati aperti hanno "
 "fatto risparmiare 3.2 miliardi di dollari in un caso di frode fiscale legato"
-" alla beneficienza. Molti siti, tra cui il Danese folketsting.dk e "
-"l'italiano openparlamento.it, tracciano le attività dei parlamenti e il "
-"processo di formazione delle leggi, in modo da mostrare cosa succede "
-"esattamente e quali parlamentari sono coinvolti nelle varie attività. "
+" alla beneficenza. Molti siti, tra cui il Danese folketsting.dk e l'italiano"
+" openparlamento.it, tracciano le attività dei parlamenti e il processo di "
+"formazione delle leggi, in modo da mostrare cosa succede esattamente e quali"
+" parlamentari sono coinvolti nelle varie attività. "
 
 # 229d3396f8f445b4abee67fe7f15b1e9
 #: why-open-data/index.rst:26
@@ -615,12 +615,14 @@ msgid ""
 "make it harder to find valuable ways of doing that. For the potential to be "
 "realized, the public data needs to be open data."
 msgstr ""
-"Questo potenziale può esprimersi compiutamente se trasformiamo i dati "
-"pubblici in dati aperti. Ciò succederà solo se questi dati saranno davvero "
-"aperti, cioè se non vi saranno restrizioni (legali, finanziarie e "
-"tecnologiche) al riutilizzo da parte di altre persone. Ogni restrizione "
-"impedirà qualche forma di riutilizzo, e renderà più difficile estrarre "
-"valore da quelle che rimangono possibili. "
+"Questo potenziale sottoutilizzato può esprimersi compiutamente se "
+"trasformiamo i dati pubblici in dati aperti. Ciò succederà solo se questi "
+"dati saranno realmente aperti, cioè se non vi saranno restrizioni (legali, "
+"finanziarie e tecnologiche) al riutilizzo da parte di altri soggetti. "
+"Qualsiasi restrizione applicata potrebbe potenzialmente escludere "
+"riutilizzatori o rendere più difficile identificare modi efficaci per "
+"estrarre valore dai dati. Perché il potenziale sia completamente realizzato,"
+" i dati pubblici devono essere dati aperti. "
 
 # d74be7ea1ba94fc9a7f7023a80e4e5a7
 #: what-is-open-data/index.rst:3
@@ -630,7 +632,7 @@ msgstr "Cosa sono i dati aperti (open data)?"
 # a10b30b521224f85b96fe863f7cb0657
 #: what-is-open-data/what-data-are-you-talking-about.rst:3
 msgid "What Data are You Talking About?"
-msgstr "Di che dati stiamo parlando?"
+msgstr "Di quali dati stiamo parlando?"
 
 # 9e7dd55b876842c28c5bcf7256658ab1
 #: what-is-open-data/what-data-are-you-talking-about.rst:5
@@ -640,10 +642,10 @@ msgid ""
 "useful to quickly outline what sorts of data are, or could be, open -- and, "
 "equally importantly, won’t be open."
 msgstr ""
-"Abbiamo già visto esempi di dati che sono stati resi aperti, e altri ne "
-"incontreremo in seguito. È comunque utile fare una carrellata su quali tipi "
-"di dati sono aperti, o potrebbero diventarlo e, cosa altrettanto importante,"
-" quali non sono adatti per essere aperti."
+"Abbiamo già menzionato esempi di dati che sono stati già o possono diventare"
+" aperti, e altri ne incontreremo in seguito. È comunque utile delineare per "
+"sommi capi quali tipi di dati sono aperti, o potrebbero diventarlo e, cosa "
+"altrettanto importante, quali non sono adatti per essere aperti."
 
 # 87b9ec28e1fa4a42bb2d20980d4ae717
 #: what-is-open-data/what-data-are-you-talking-about.rst:7
@@ -652,8 +654,8 @@ msgid ""
 "personal data, that is, data which does not contain information about "
 "specific individuals."
 msgstr ""
-"Il punto chiave è che, quando si decide di rilasciare dati in formato "
-"aperto, ci si concentra su quelli non personali, quelli cioè che non "
+"Il questione centrale è che nel momento si decida di rilasciare dati in "
+"formato aperto, ci si concentri sui dati non personali, quelli cioè che non "
 "contengono informazioni su singoli individui."
 
 # 35f2a3948d904e87ba4304a360c379fe
@@ -662,13 +664,13 @@ msgid ""
 "Similarly, for some kinds of government data, national security restrictions"
 " may apply."
 msgstr ""
-"Allo stesso modo altre tipologie di dati pubblici non possono essere aperti "
+"Allo stesso modo altre categorie di dati pubblici non possono essere aperte "
 "per ragioni di sicurezza nazionale."
 
 # 05e4e0a3121f44f9a3b000da06c5d33e
 #: what-is-open-data/what-is-open-data.rst:3
 msgid "What is Open?"
-msgstr "Cosa significa aperto?"
+msgstr "Cosa si intende per \"aperto\"?"
 
 # ccc6f4e9ae36405b9e267755caa53a49
 #: what-is-open-data/what-is-open-data.rst:5
@@ -676,9 +678,9 @@ msgid ""
 "This manual is about open data but what exactly is *open* data? For our "
 "purposes open data is as defined by the `Open Definition`_:"
 msgstr ""
-"Questo manuale tratta i dati aperti, ma cosa sono esattamente i dati "
-"*aperti*? Per i nostri fini i dati aperti sono quelli che rientrano nella "
-"`Open Definition`_:"
+"Il presente manuale si occupa dei dati aperti, ma cosa sono esattamente i "
+"dati *aperti*? Per i nostri fini i dati aperti sono quelli che rientrano "
+"nella `Open Definition`_:"
 
 # c62667bde57b4d1f84bab71d1063fc7e
 #: what-is-open-data/what-is-open-data.rst:8
@@ -688,9 +690,9 @@ msgid ""
 "sharealike.*"
 msgstr ""
 "*I dati aperti sono dati che possono essere liberamente utilizzati, "
-"riutilizzati e ridistribuiti da chiunque. Le uniche restrizioni ammesse sono"
-" il requisito di citarne la fonte e di condividerli con lo stesso tipo di "
-"licenza con cui sono stati originariamente rilasciati.*"
+"riutilizzati e ridistribuiti da chiunque, soggetti eventualmente alla "
+"necessità di citarne la fonte (diritto di paternità) e di condividerli con "
+"lo stesso tipo di licenza con cui sono stati originariamente rilasciati.*"
 
 # bab19dcb4a044af3a93b396d817d610c
 #: what-is-open-data/what-is-open-data.rst:12
@@ -709,10 +711,10 @@ msgid ""
 "internet. The data must also be available in a convenient and modifiable "
 "form."
 msgstr ""
-"**Disponibilità e accesso:** i dati devono essere interamente disponibili, a"
-" un prezzo non superiore ad un ragionevole costo di riproduzione, "
-"preferibilmente mediante scariamento da Internet. I dati devono essere "
-"disponibili in un formato semplice e modificabile."
+"**Disponibilità e accesso:** i dati devono essere disponibili nel loro "
+"complesso, per un prezzo non superiore ad un ragionevole costo di "
+"riproduzione, preferibilmente mediante scaricamento da Internet. I dati "
+"devono essere disponibili in un formato utile e modificabile."
 
 # 8bc81eea19de4e68b1999ba58f4cf63f
 #: what-is-open-data/what-is-open-data.rst:19
@@ -723,7 +725,7 @@ msgid ""
 msgstr ""
 "**Riutilizzo e ridistribuzione:** i dati devono essere forniti a condizioni "
 "tali da permetterne il riutilizzo e la ridistribuzione. Ciò comprende la "
-"possibilità di combinarli con altre basi dati."
+"possibilità di combinarli con altre basi di dati."
 
 # e71f898b1cd447dea01f4137a7f356e0
 #: what-is-open-data/what-is-open-data.rst:22
@@ -735,10 +737,11 @@ msgid ""
 "purposes (e.g. only in education) are not allowed."
 msgstr ""
 "**Partecipazione universale:** tutti devono essere in grado di usare, "
-"riutilizzare e ridistribuire i dati. Non ci devono essere discriminazioni di"
-" ambiti di iniziativa, persone o gruppi. Per esempio, il divieto di usare i "
-"dati per fini commerciali o le restrizioni al solo uso diretto a determinati"
-" fini (come quello educativo) non sono ammesse."
+"riutilizzare e ridistribuire i dati. Non devono essere poste discriminazioni"
+" di ambiti di iniziativa in riferimento a soggetti o gruppi. Per esempio, il"
+" divieto di utilizzare i dati per scopi commerciali o le restrizioni che "
+"permettono l'uso solo per determinati fini (quale quello educativo) non sono"
+" contemplabili."
 
 # acbecf037f3c47deaf60ff1d003cc60c
 #: what-is-open-data/what-is-open-data.rst:28
@@ -747,9 +750,9 @@ msgid ""
 " and why this definition is used there’s a simple answer: "
 "**interoperability.**"
 msgstr ""
-"Se ti stai chiedendo perché è così importante essere chiari sul significato "
-"della parola \"aperto\" e perché si usa proprio questa definizione, c'è una "
-"risposta facile: **interoperabilità.**"
+"La ragione fondamentale per cui è importante chiarire il significato di "
+"\"aperto\" e del perché utilizzare proprio questa definizione, può essere "
+"identificata in un termine: **interoperabilità.**"
 
 # cd7bba7571ac4e2f80675a45f929e5ac
 #: what-is-open-data/what-is-open-data.rst:32
@@ -759,8 +762,8 @@ msgid ""
 "interoperate - or intermix - different datasets."
 msgstr ""
 "L'interoperabilità è la capacità di diversi sistemi e organizzazioni di "
-"lavorare insieme (inter-operare). In questo caso, è la capacità di combinare"
-" una base dati con le altre."
+"lavorare insieme (Inter-operare). In questo caso, è la capacità di combinare"
+" una base di dati con altre."
 
 # eb31fb92078c436bb44c08833d499763
 #: what-is-open-data/what-is-open-data.rst:36
@@ -774,12 +777,12 @@ msgid ""
 "effort."
 msgstr ""
 "L'interoperabilità è importante perché permette a componenti diverse di "
-"lavorare insieme. Questa abilità di rendere ciascun dato un componente e di "
+"lavorare insieme. L'abilità di rendere ciascun dato un componente e di "
 "combinare insieme vari componenti è essenziale per la costruzione di sistemi"
-" sofisticati. In assenza di interoperabilità questo diventa quasi "
-"impossibile – come nel mito della Torre di Babele, in cui l'impossibilità di"
-" comunicare (e quindi di inter-operare) dà luogo a un fallimento sistemico "
-"della costruzione della torre."
+" sofisticati. In assenza di interoperabilità ciò diventa quasi impossibile –"
+" come nel mito della Torre di Babele, in cui l'impossibilità di comunicare "
+"(e quindi di Inter-operare) dà luogo a un fallimento sistemico della "
+"costruzione della torre."
 
 # 24fbeb5570dd40cf900a33bd0d436fc6
 #: what-is-open-data/what-is-open-data.rst:44
@@ -792,14 +795,15 @@ msgid ""
 "thereby to develop more and better products and services (these benefits are"
 " discussed in more detail in the section on ‘why’ open data)."
 msgstr ""
-"Con i dati ci troviamo in una situazione simile. Ciò che rende un dataset "
-"aperto una risorsa comune è che i dati che contiene possono essere "
-"liberamente mixati con dati provenienti da altre basi dati anch'esse aperte."
-" L'interoperabilità è la chiave per realizzare il principale vantaggio "
-"pratico dell'apertura: la maggiore possibilità di combinare diverse basi "
-"dati, e quindi sviluppare nuovi e migliori prodotti e servizi (questi "
-"vantaggi sono discussi in maggiore dettaglio nella sezione sul ‘perché’ fare"
-" open data)"
+"Nel caso dei dati ci troviamo in una situazione simile. Il punto cruciale di"
+" un bacino di dati (o linee di codice) accessibili e utilizzabili in modo "
+"condiviso è il fatto che potenzialmente possono essere liberamente "
+"\"mescolati\" con dati provenienti da fonti anch'esse aperte. "
+"L'interoperabilità è la chiave per realizzare il principale vantaggio "
+"pratico dell'apertura: aumenta in modo esponenziale la possibilità di "
+"combinare diverse basi di dati, e quindi sviluppare nuovi e migliori "
+"prodotti e servizi (questo tipo di vantaggi sono esaminati in dettaglio "
+"nella sezione sul ‘perché’ fare open data)"
 
 # 73edebb269a24ea38a552ec23334a7ee
 #: what-is-open-data/what-is-open-data.rst:53
@@ -810,11 +814,12 @@ msgid ""
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
 msgstr ""
-"Lavorare con una definizione chiara di apertura garantisce che, prendendo "
-"due basi dati aperte proveniente da due fonti diverse, si sarà in grado di "
-"combinarle; quindi garantisce che saremo in grado di **evitare una nuova "
-"versione della Torre di Babele: molte basi dati ma scarsa o nulla capacità "
-"di metterle insieme, che è il vero valore dell'operazione.**"
+"Offrire una definizione chiara di apertura garantisce che, utilizzando due "
+"basi di dati \"aperte\" proveniente da due fonti diverse, sarà possibile "
+"combinarle; garantisce inoltre che saremo in grado di **evitare una nuova "
+"versione della Torre di Babele: tante basi di dati ma scarsa o nulla "
+"capacità di metterle insieme in sistemi più complessi dove è insito il vero "
+"valore dell'operazione.**"
 
 # 02bb8e9fe55b440a86777096856115c2
 #: how-to-open-up-data/apply-an-open-license.rst:3
@@ -848,8 +853,8 @@ msgid ""
 "data. This list (along with instructions for usage) can be found at:"
 msgstr ""
 "Quali licenze usare? Per i dati aperti consigliamo una licenza che sia "
-"compatibile con la `Open Definition`_ e contrassegnata come adatta ai dati. "
-"Una lista (e le relative istruzioni per l'uso) si può trovare a:"
+"compatibile con la `Open Definition`_ e contrassegnata come applicabile ai "
+"dati. Una lista (e le relative istruzioni per l'uso) si può trovare presso:"
 
 # 1e20b68a75e649c09fdd5a4882cbb1f0
 #: how-to-open-up-data/apply-an-open-license.rst:22
@@ -862,8 +867,8 @@ msgid ""
 "A short 1-page instruction guide to applying an open data license can be "
 "found on the Open Data Commons site:"
 msgstr ""
-"Una breve guida in inglese (una pagina) per richiedere una licenza Open Data"
-" può essere trovata sul sito Open Data Commons:"
+"Una breve guida in inglese (una pagina) su come applicare una licenza Open "
+"Data può essere trovata sul sito Open Data Commons:"
 
 # 1976e61faa524c619c6e4117deba2009
 #: how-to-open-up-data/apply-an-open-license.rst:26
@@ -873,7 +878,7 @@ msgstr "<http://opendatacommons.org/guide/>"
 # c2658616f6874eb7a6cf59707ae396eb
 #: how-to-open-up-data/choose-datasets.rst:3
 msgid "Choose Dataset(s)"
-msgstr "Scegliere i dati"
+msgstr "Scegliere le banche dati"
 
 # f3df830ab96a4beab57cfd49f3d90380
 #: how-to-open-up-data/choose-datasets.rst:5
@@ -883,9 +888,9 @@ msgid ""
 "return to this step if you encounter problems later on."
 msgstr ""
 "La scelta dell'insieme di dati che si prevede di rendere aperti è il primo "
-"passo da compiere - anche se ricordiamo l'intero processo di apertura dei "
-"dati è iterativo e quindi è sempre possibile tornare indietro qualora si "
-"abbiano problemi."
+"passo da compiere - anche se è bene ricordare che l'intero processo di "
+"apertura dei dati è iterativo e pertanto rimane possibile tornare indietro "
+"qualora si presentino  problemi."
 
 # 4681181360a34803b412892ad689c15a
 #: how-to-open-up-data/choose-datasets.rst:9
@@ -895,10 +900,11 @@ msgid ""
 "large institutions, choosing what datasets to focus on is a challenge. How "
 "should one proceed in this case?"
 msgstr ""
-"Se si sa già esattamente l'idea di quali si prevede di aprire si può passare"
-" direttamente alla sezione successiva. Tuttavia, in molti casi, soprattutto "
-"per le grandi istituzioni, stabilire con quale insieme di dati cominciare è "
-"sempre una sfida. Come si dovrebbe procedere in questo caso?"
+"Se si ha già esattamente un'idea di quali dati si prevede di aprire si può "
+"passare direttamente alla consultazione della sezione successiva. In molti "
+"casi, tuttavia, soprattutto nel caso delle grandi istituzioni, stabilire con"
+" quale insieme di dati cominciare è sempre una sfida. Come si dovrebbe "
+"procedere in questo caso?"
 
 # c3395bf71cae40469b8ebdb781d2201a
 #: how-to-open-up-data/choose-datasets.rst:14
@@ -907,10 +913,10 @@ msgid ""
 "could be made open to start with. There will be time at later stages to "
 "check in detail whether each dataset is suitable."
 msgstr ""
-"La creazione di questo elenco dovrebbe essere un processo rapido che "
-"identifica serie di dati che potrebbero essere aperti per cominciare. Ci "
-"sarà tempo nelle fasi successive per verificare nel dettaglio se ciascun "
-"insieme di dati è adatto."
+"Creare una lista potrebbe aiutare a velocizzare il processo di "
+"identificazione dei dati  con cui cominciare il processo di apertura. In un "
+"momento successivo sarà  possibile poi verificare nel dettaglio se tutte le "
+"banche dati sono adatte allo scopo."
 
 # a28cc6f21d52488ca51117263acf22af
 #: how-to-open-up-data/choose-datasets.rst:18
@@ -921,9 +927,9 @@ msgid ""
 "section above."
 msgstr ""
 "Non vi è **alcun obbligo** di creare un elenco completo dei set di dati. Il "
-"punto principale da tenere a mente è se è possibile pubblicare questi dati a"
-" tutti (sia apertamente o meno) - si veda ad esempio la 'Cosa dati' sezione "
-"precedente."
+"punto principale da considerare è se sia possibile pubblicare questi dati o "
+"meno (qualsiasi sia l'approccio scelto, aperto o meno) - si veda ad esempio "
+"la sezione  'Quali dati'."
 
 # 594596464844487b8f7ab9c64f4f3ff3
 #: how-to-open-up-data/choose-datasets.rst:21
@@ -937,9 +943,9 @@ msgid ""
 "people who will be accessing and using the data, are likely to have a good "
 "understanding of which data are valuable."
 msgstr ""
-"Si consiglia di chiedere alla comunità in prima istanza. Questo perché le "
-"persone che accederanno ed utilizzeranno i dati possono avere una buona "
-"comprensione di quali sono i dati preziosi."
+"E' consigliabile consultare la comunità in primo luogo. Questo perché è "
+"molto probabile che i soggetti che accederanno ed utilizzeranno i dati hanno"
+" una buona comprensione di quali sono i dati di valore."
 
 # c4eae260f3cc4cb09a148874486910b6
 #: how-to-open-up-data/choose-datasets.rst:28
@@ -949,16 +955,16 @@ msgid ""
 "the main intention is to get a feel for the demand. This could be based on "
 "other countries' open data catalogues."
 msgstr ""
-"Preparare un breve elenco potenziale di dati  da cui si desidera avere "
-"feedback. Non è essenziale che questa lista con quelle che sono le "
-"aspettative, l'intento principale è quello di avere un sentore della "
-"domanda. L'elenco potrebbe ispirarsi ad un analogo dei cataloghi open data "
-"di altri paesi."
+"Si può preparare un breve elenco di banche di dati  potenziali su cui si "
+"desidera avere feedback. Non è indispensabile che questa lista con quelle "
+"che sono le aspettative, l'intento principale è quello di avere un sentore "
+"della domanda. L'elenco potrebbe ispirarsi ad un analogo dei cataloghi open "
+"data di altri paesi."
 
 # 18f070509cf64bd8bd310c0177929b78
 #: how-to-open-up-data/choose-datasets.rst:33
 msgid "Create a request for comment."
-msgstr "Chiedere commenti."
+msgstr "Creare una richiesta di ricevere commenti."
 
 # b9bb67542d83437cbbc07594cf757168
 #: how-to-open-up-data/choose-datasets.rst:35
@@ -969,7 +975,7 @@ msgid ""
 msgstr ""
 "Pubblicizzare la richiesta di commenti con una pagina web. Assicurarsi che "
 "sia possibile accedere alla richiesta attraverso l'URL indicato. In questo "
-"modo, se se verra condivisa via social media, sarà molto più semplice da "
+"modo, se se verrà condivisa via social media, sarà molto più semplice da "
 "trovare."
 
 # 35f90b3b9f074e9d8dafbb073ed7fd7c
@@ -1169,8 +1175,8 @@ msgstr ""
 "utenti finali non in modo diretto, ma attraverso 'infomediari'. Queste "
 "persone prendono i dati e li trasformano o remixano perché possano essere "
 "utili a una platea più vasta. Per esempio, la maggior parte di noi non "
-"saprebbe cosa farsene di una grande base dati di cooordinate GPS, preferiamo"
-" guardare una mappa. Quindi, le persone da coinvolgere per prime sono gli "
+"saprebbe cosa farsene di una grande base dati di coordinate GPS, preferiamo "
+"guardare una mappa. Quindi, le persone da coinvolgere per prime sono gli "
 "infomediari: saranno loro a riutilizzare il materiale, e a trovargli nuovi "
 "usi."
 
@@ -1198,7 +1204,7 @@ msgid ""
 msgstr ""
 "Ci sono quattro passaggi principali nell'aprire i dati; li tratteremo tutti "
 "nei dettagli più avanti. L'ordine è approssimativo, alcuni si possono fare "
-"conteporaneamente."
+"contemporaneamente."
 
 # 360556e81fdb4bb9808cacdd2496901f
 #: how-to-open-up-data/index.rst:42
@@ -1552,7 +1558,7 @@ msgid ""
 "database which is being updated in real-time. This means that making "
 "information available via an API can ensure that it is up to date."
 msgstr ""
-"I dati possono essere pubblicati attraverso una :term: `API (Application "
+"I dati possono essere pubblicati attraverso una :term:`API (Application "
 "Programming Interface)`. Queste soluzioni sono diventate molto popolari. In "
 "quanto permettono ai programmatori di selezionare, di volta in volta, "
 "specifiche porzioni di dati, piuttosto che fornire tutti i dati in massa "
@@ -1664,9 +1670,9 @@ msgid ""
 "allows data to be downloaded in CSV and XLS format, in addition to live "
 "feeds of the data."
 msgstr ""
-"Un altro esempio è O CTO’s Data Catalogue - il catalogo dei dati del "
+"Un altro esempio è l'OCTO Data Catalogue - il catalogo dei dati del "
 "Distretto di Columbia, che consente di scaricare i dati in formato CSV ed "
-"XLS, oltre che offrire un feed con le informazioni in tempo reale sui dati."
+"XLS ed un feed con le informazioni in tempo reale sui dati."
 
 # f8a110ba78f14a7cbfc335351241be87
 #: how-to-open-up-data/make-data-available.rst:165
@@ -1699,7 +1705,7 @@ msgid ""
 msgstr ""
 "L'implementazione di questa tecnologia può permettere alla vostra agenzia di"
 " sperimentare questi strumenti. Ad esempio, in il `Bureau of Meteorology "
-"Research Centre` (ufficio del centro di ricerca meterologica)  "
+"Research Centre` (ufficio del centro di ricerca meteorologica)  "
 "dell'Australia, presenta questo messaggio sul suo materiale:"
 
 # ffb76dad2b1b4b4a82073b9ecdf7cdbf
@@ -1797,7 +1803,7 @@ msgid ""
 "useful tools will be built."
 msgstr ""
 "La cosa più importante è quella di fornire uno spazio neutro che sia facile "
-"e in grado di superare sia le inter-agenzie della politica che i cicli di "
+"e in grado di superare sia le Inter-agenzie della politica che i cicli di "
 "bilancio futuri. Confini giurisdizionali, sia settoriale che geografici, "
 "possono rendere difficile la cooperazione. Tuttavia, ci sono vantaggi "
 "significativi a unire le forze. Più facile è per gli esterni scoprire dati, "
@@ -1903,7 +1909,7 @@ msgstr ""
 "Favorire il miglioramento dei dati, consentendo di catalogare dati derivati."
 " Per esempio, qualcuno potrebbe decidere di georiferire gli indirizzi e di "
 "condividere poi questo risultato con tutti. Se si consentono solo singole "
-"versione dei dati, questi miglioramenti rimarrano nascosti."
+"versione dei dati, questi miglioramenti rimarranno nascosti."
 
 # fbd18ad2539e496c9dbcdb6e51093123
 #: how-to-open-up-data/make-it-discoverable.rst:54
@@ -1915,7 +1921,7 @@ msgstr ""
 "Essere tolleranti se i dati appaiono altrove. Questo vuol dire che il "
 "contenuto probabilmente si troverà duplicato dalle comunità di interesse. Se"
 " si dispone dei dati di monitoraggio dei livelli de fiume, è probabile che i"
-" dati apparirano in un catalogo per idrologi."
+" dati appariranno in un catalogo per idrologi."
 
 # 174548a845ff4c1ea048d8e2be3a2584
 #: how-to-open-up-data/make-it-discoverable.rst:58
@@ -2467,7 +2473,7 @@ msgid ""
 "do to make sure that your content can be easily shared between technical "
 "users."
 msgstr ""
-"È irreale aspettarsi che i funzionari trascorrerano molto tempo impegnati "
+"È irreale aspettarsi che i funzionari trascorreranno molto tempo impegnati "
 "con i social media. Tuttavia, ci sono diverse cose che si possono fare per "
 "assicurare che i contenuti possano essere facilmente condivisi fra utenti "
 "tecnici."
@@ -2854,7 +2860,7 @@ msgstr ""
 # 6d822e6c8ad34e169ee50ed25da645b1
 #: glossary.rst:56
 msgid "See :term:`Public Sector Information`."
-msgstr "vedi:term:`Settore Pubblico dell'Informazione'."
+msgstr "vedi:term:`Settore Pubblico dell'Informazione`."
 
 # 696b5311003f44679f96c10a79d90853
 #: glossary.rst:79
@@ -2890,7 +2896,7 @@ msgstr "Vedi :term:`licenza share-alike`."
 # 06d72f4f757e46c2a85789857694a0ef
 #: glossary.rst:69
 msgid "An :term:`API` that is designed to work over the Internet."
-msgstr "una :term:'API' che è stata disegnata per lavorare via internet."
+msgstr "una :term:`API` che è stata disegnata per lavorare via internet."
 
 # ea638c544fab427e847201d7f1eee1e6
 #: appendix/file-formats.rst:3
@@ -3055,7 +3061,7 @@ msgstr ""
 "relativamente stabili o equivalenti. Possono mostrare con poca fatica, come "
 "è il formato dei dati è nato. Il formato non fornisce supporto per mantenere"
 " la struttura coerente, che spesso significa che è difficile inserire i dati"
-" con mezzi automatizzati. Assicursi di utilizzare i modelli come base di "
+" con mezzi automatizzati. Assicurasi di utilizzare i modelli come base di "
 "documenti che mostreranno i dati per il loro riutilizzo, in modo d'agevolare"
 " l'estrazione delle informazioni da documenti."
 
@@ -3444,7 +3450,8 @@ msgstr "Appendice"
 # 30f1bedd393c4ba5916ad7d0424904be
 #: appendix/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
-msgstr "Quali sono i diritti legali (ip) per (banche) dati"
+msgstr ""
+"Quali sono i diritti legali (proprietà intellettuale) delle banche dati"
 
 # 29940439299141b69cbc15b367ba3461
 #: appendix/what-legal-ip-rights-are-there-in-databases.rst:5
@@ -3455,11 +3462,10 @@ msgid ""
 "things like the field names and a model for the data -- the organization of "
 "these fields and their inter-relation."
 msgstr ""
-"Quando si parla di (bache)dati abbiamo prima bisogno di distinguere tra la "
-"struttura e il contenuto di una banca dati (quando usiamo 'dati' il termine "
-"che indica il contenuto del database stesso). Elementi strutturali includono"
-" cose come i nomi dei campi e un modello per i dati - l'organizzazione di "
-"questi campi e la loro inter-relazione."
+"Quando si parla di dati abbiamo si deve prima distinguere fra la struttura e"
+" il contenuto. Elementi strutturali includono cose come i nomi dei campi e "
+"un modello per i dati - l'organizzazione di questi campi e la loro inter-"
+"relazione."
 
 # 805b59703be6493dbd93262f5cbf6586
 #: appendix/what-legal-ip-rights-are-there-in-databases.rst:7
@@ -3468,9 +3474,9 @@ msgid ""
 "database will be covered by copyright (it depends somewhat on the level of "
 "'creativity' involved in creating this structure)."
 msgstr ""
-"In molte giurisdizioni, è probabile che gli elementi strutturali di un "
-"database sia coperto dal diritto d'autore (che dipende dal livello di "
-"'creatività' coinvolto nella creazione di questa struttura)."
+"In molte giurisdizioni, è probabile che gli elementi strutturali di una "
+"banca dati siano protette dal diritto d'autore (che dipende dal livello di "
+"'creatività' utilizzato nella creazione della struttura)."
 
 # 8b2c23c28510405aa42673e9fc463ce3
 #: appendix/what-legal-ip-rights-are-there-in-databases.rst:9

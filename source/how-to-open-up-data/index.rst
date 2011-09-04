@@ -26,7 +26,7 @@ There are three key rules we recommend following in opening up data:
 
    It is essential to bear in mind that much of the data will not reach 
    ultimate users directly but rather via ‘info-mediaries’. These are the
-   people who take the data and transform ot remix it be presented. For 
+   people who take the data and transform or remix it to be presented. For 
    example most of us don’t want or need a large database of GPS coordinates,
    we would much prefer a map. Thus, engage with infomediaries first. They 
    will reuse and repurpose the material.
@@ -37,7 +37,7 @@ There are three key rules we recommend following in opening up data:
    and fears. It is important to (a) identify the the most important ones and 
    (b) address them at as an early stage as possible.
 
-There are 4 main steps in making data open, each of which we will cover in detail below. These are in very approximate order - many of these can be done simultaneously.
+There are four main steps in making data open, each of which we will cover in detail below. These are in very approximate order - many of these can be done simultaneously.
 
    1. **Choose your dataset(s).** Choose the dataset(s) you plan to make open, though keep in mind you can (and may need to) return to this step if you encounter problems at later stages.
    2. **Apply an open license.**

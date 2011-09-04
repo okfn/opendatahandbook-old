@@ -36,7 +36,7 @@ Glossary
 
   Attribution Licence
     A licence that requires attributing the original source
-    of the material.
+    of the licensed material.
   
   Attribution License
     See :term:`Attribution Licence`.
@@ -48,7 +48,7 @@ Glossary
     The law protects the privacy (such as information about a person 
     economic status, health and political position) and other rights 
     such as the right to freedom of movement and assembly. For example, 
-    in Finland a travel card system used record all instances when the 
+    in Finland a travel card system used to record all instances when the 
     card was shown to the reader machine on different public transport 
     lines. This raised a debate from the perspective of freedom of 
     movement and the travel card data collection was abandoned based 
@@ -101,7 +101,7 @@ Glossary
    See :term:`Anonymisation`.
 
   Anonymisation
-    The process of turning data that could result into the identification
+    The process of treating data such that it cannot be used for the identification
     of individuals.
 
   IP rights
@@ -147,7 +147,7 @@ Glossary
        of such practical arrangements.
 
     IARs can be developed in different ways. Government departments 
-    can develop their own IARs and these can be linked to a national 
+    can develop their own IARs and these can be linked to national 
     IARs. IARs can include information which is held by public bodies 
     but which has not yet been – and maybe will not be – proactively 
     published. Hence they allow members of the public to identify 
@@ -156,14 +156,14 @@ Glossary
     For the public to make use of these IARs, it is important that any 
     registers of information held be as complete as possible in order 
     to be able to have confidence that documents can be found. The 
-    lack of completeness of some registers is a significant problem as 
+    incompleteness of some registers is a significant problem as 
     it creates a degree of unreliability which may discourage some from 
     using the registers to search for information.
 
     It is essential that the metadata in the IARs be comprehensive so 
     that search engines can function effectively. In the spirit of 
-    open government data, public bodies should make available their 
-    IARs to the general public as raw data under an open licence so 
+    open government data, public bodies should make their IARs  
+    available to the general public as raw data under an open licence so 
     that civic hackers can make use of the data, for example by building 
     search engines and user interfaces.
 

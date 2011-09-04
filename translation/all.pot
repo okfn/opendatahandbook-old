@@ -6,9 +6,80 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"#-#-#-#-#  index.pot (2.0)  #-#-#-#-#\n"
 "Project-Id-Version: 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-03 18:52\n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  introduction.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  why-open-data.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  what-is-open-data.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  how-to-open-up-data.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  following-up.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  glossary.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:38\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  appendix.pot (2.0)  #-#-#-#-#\n"
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-27 18:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,12 +269,12 @@ msgstr ""
 # 01a4f375e8164eabb793bda7f804c303
 #: introduction/index.rst:9
 msgid ""
-"The notion of `open data`_ and specifically `open government data`_, "
-"information, public or otherwise, which anyone is free to access and re-use "
-"for any purpose, has been around for some years. In 2009 open data started "
-"to become visible in the mainstream, with various governments (such as the "
-"USA, UK, Canada and New Zealand) announcing new initiatives towards opening "
-"up their public information."
+"The notion of :term:`open data` and specifically :term:`open government "
+"data`, information, public or otherwise, which anyone is free to access and "
+"re-use for any purpose, has been around for some years. In 2009 open data "
+"started to become visible in the mainstream, with various governments (such "
+"as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
+"opening up their public information."
 msgstr ""
 
 # 2e517efc8a2645bf8139d2c67300561b
@@ -269,20 +340,8 @@ msgid ""
 "questions) which can be found at the end of the manual."
 msgstr ""
 
-# bb94ae90aff544e6858df96b5f4bbaec
-#: introduction/index.rst:29
-msgid "Contributing"
-msgstr ""
-
-# 6cc31fcebf6f4521bde448e701f3fbc8
-#: introduction/index.rst:31
-msgid ""
-"We welcome contributions and corrections to the manual. Please visit http://"
-"wiki.okfn.org/Open_Data_Manual#Contributing to find out more."
-msgstr ""
-
 # 98218447f2b34fe6b1e962bbe89634f4
-#: introduction/index.rst:34
+#: introduction/index.rst:30
 msgid "Credits"
 msgstr ""
 
@@ -294,17 +353,18 @@ msgstr ""
 # c2e768e8146f482299ac62d015fc87c1
 #: why-open-data/index.rst:5
 msgid ""
-"Open data, especially open government data, is a tremendous resource that is "
-"largely untapped. Many different individuals and organisations collect a "
-"broad range of different types of data to be able to perform their tasks. "
-"Government is particularly significant in this regard, both because of the "
-"quantity and centrality of the data they collect, but also because of all "
-"that government data, most is public data by law, and therefore could be "
-"made open and made available for others to use. Why is that useful?"
+":term:`Open data`, especially :term:`open government data`, are a tremendous "
+"resource that is largely untapped. Many different individuals and "
+"organisations collect a broad range of different types of data to be able to "
+"perform their tasks. Government is particularly significant in this regard, "
+"both because of the quantity and centrality of the data they collect, but "
+"also because of all that government data, most is public data by law, and "
+"therefore could be made open and made available for others to use. Why is "
+"that useful?"
 msgstr ""
 
 # 0b8dbf662d2f42e69d779b276662a70f
-#: why-open-data/index.rst:7
+#: why-open-data/index.rst:8
 msgid ""
 "There are many areas where we can expect open data to be of value, and where "
 "examples already exist. There are also many different groups of people and "
@@ -315,7 +375,7 @@ msgid ""
 msgstr ""
 
 # 282e2504db944d9882ce2a0ad9612e77
-#: why-open-data/index.rst:9
+#: why-open-data/index.rst:10
 msgid ""
 "It is already possible to point to a large number of areas where open "
 "government data is creating value, and there are likely more. Some of these "
@@ -323,58 +383,58 @@ msgid ""
 msgstr ""
 
 # 5a2b24c3c69f4bc6a4b3b93b1c580b56
-#: why-open-data/index.rst:11
+#: why-open-data/index.rst:12
 msgid "Transparency and democratic control"
 msgstr ""
 
 # c3114bdb9f1940c2b4fabc2dffa97ab9
-#: why-open-data/index.rst:12
+#: why-open-data/index.rst:13
 msgid "Participation"
 msgstr ""
 
 # 4d10de89b0784b27910f4d06c3196f2f
-#: why-open-data/index.rst:13
+#: why-open-data/index.rst:14
 msgid "Self-empowerment"
 msgstr ""
 
 # 11b4a2e4ce1143c59f47f7b62f728687
-#: why-open-data/index.rst:14
+#: why-open-data/index.rst:15
 msgid "Improved or new private products and services"
 msgstr ""
 
 # 95e9782253d74a789ec4502a28d33a72
-#: why-open-data/index.rst:15
+#: why-open-data/index.rst:16
 msgid "Innovation"
 msgstr ""
 
 # a4d5ae353f384f4099f3864ab20ca83a
-#: why-open-data/index.rst:16
+#: why-open-data/index.rst:17
 msgid "Improved efficiency of government services"
 msgstr ""
 
 # 0160f88e073a49b790fe08489dcf8fa1
-#: why-open-data/index.rst:17
+#: why-open-data/index.rst:18
 msgid "Improved effectiveness of government services"
 msgstr ""
 
 # 6b0efb3665bb41448e03197478a7dafa
-#: why-open-data/index.rst:18
+#: why-open-data/index.rst:19
 msgid "Impact measurement of policies"
 msgstr ""
 
 # 3023888c213d4d33bdb32bdfa3d6f15c
-#: why-open-data/index.rst:19
+#: why-open-data/index.rst:20
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
 msgstr ""
 
 # 29bcb433aadf4215b8560bce9921f62a
-#: why-open-data/index.rst:22
+#: why-open-data/index.rst:23
 msgid "Examples exist for most of these areas."
 msgstr ""
 
 # 498dae375b8a451bae85b185d672c2b0
-#: why-open-data/index.rst:24
+#: why-open-data/index.rst:25
 msgid ""
 "For transparency there are projects such as the Finnish ‘tax tree’ and "
 "British ‘where does my money go’ that show how your tax money is being spend "
@@ -386,7 +446,7 @@ msgid ""
 msgstr ""
 
 # 229d3396f8f445b4abee67fe7f15b1e9
-#: why-open-data/index.rst:26
+#: why-open-data/index.rst:27
 msgid ""
 "Open government data can also help you to make better decisions in your own "
 "life, or enable you to be more active in society. A woman in Denmark built "
@@ -403,7 +463,7 @@ msgid ""
 msgstr ""
 
 # 589a1ee105424ca28739a8d6983c67a8
-#: why-open-data/index.rst:28
+#: why-open-data/index.rst:29
 msgid ""
 "Economically open data is of great importance as well. Several studies have "
 "estimated the economic value of open data at several tens of billions of "
@@ -418,7 +478,7 @@ msgid ""
 msgstr ""
 
 # 545e39e1c4d54f3ba0d2eeb56cb83dc4
-#: why-open-data/index.rst:30
+#: why-open-data/index.rst:31
 msgid ""
 "Also for government itself open data is of value. Efficiency can be "
 "increased for instance. The Dutch Ministry of Education has published all of "
@@ -435,7 +495,7 @@ msgid ""
 msgstr ""
 
 # 1a8c00f151d84ba281583732a6bf05e3
-#: why-open-data/index.rst:32
+#: why-open-data/index.rst:33
 msgid ""
 "While there are numerous instances where open data is already creating both "
 "social and economical value in very diverse ways, at the same time we don’t "
@@ -450,7 +510,7 @@ msgid ""
 msgstr ""
 
 # d2798fc79fd648dab5c925aa559d9946
-#: why-open-data/index.rst:34
+#: why-open-data/index.rst:35
 msgid ""
 "This untapped potential can be unleashed if we turn public government data "
 "into open data. Only, however, if it is really open, so if there are no "
@@ -698,7 +758,7 @@ msgid ""
 "Prepare a short list of potential datasets that you would like feedback on. "
 "It is not essential that this list concurs with what your expectations are, "
 "the main intention is to get a feel for the demand. This could be based on "
-"other countries' open data catalogues."
+"other countries' :term:`open data` catalogues."
 msgstr ""
 
 # 18f070509cf64bd8bd310c0177929b78
@@ -1199,7 +1259,7 @@ msgstr ""
 msgid ""
 "For example, the Eurostat statistical service has a bulk download facility "
 "offering over 4000 data files. It is updated twice a day, offers data in :"
-"term:`Tab Separated Value` (TSV) format, and includes documentation about "
+"term:`Tab-separated values` (TSV) format, and includes documentation about "
 "the download facility as well as about the data files."
 msgstr ""
 
@@ -1248,18 +1308,41 @@ msgid ""
 "without incurring liability for others' use of that data."
 msgstr ""
 
-# f132f85b986e4dc39eb38582443cc216
+# 4ff03b19748f46a8952a8802ba726ad3
 #: how-to-open-up-data/make-data-available.rst:187
+msgid "via WebDAV"
+msgstr ""
+
+# fdf200a93e5d491c836258a8e3036bc8
+#: how-to-open-up-data/make-data-available.rst:189
+msgid ""
+"`WebDAV`_, or Web-based Distributed Authoring and Versioning, is an attempt "
+"at making the internet a read/write medium. It is a widely supported open "
+"standard that supports locking and distributed authorship."
+msgstr ""
+
+# 12c7b5eb3a9342748dcb051ab0386722
+#: how-to-open-up-data/make-data-available.rst:193
+msgid ""
+"Providing a service such as this could be useful for situations where your "
+"agency would like to handle receiving improvements to data that it stores. "
+"The agency could provide its original data as the orginal source and then "
+"refer to higher-quality, but unverified derivative data source for users "
+"with different needs."
+msgstr ""
+
+# f132f85b986e4dc39eb38582443cc216
+#: how-to-open-up-data/make-data-available.rst:202
 msgid "Offline methods"
 msgstr ""
 
 # 69e564c3de8d4f44b55095f1421ad7fe
-#: how-to-open-up-data/make-data-available.rst:190
+#: how-to-open-up-data/make-data-available.rst:205
 msgid "via optical media"
 msgstr ""
 
 # b3b97a2f7da94ad989b73d8ebecd1084
-#: how-to-open-up-data/make-data-available.rst:192
+#: how-to-open-up-data/make-data-available.rst:207
 msgid ""
 "Optical media, such as DVDs, are very cheap to produce. However, they tend "
 "to lack the capacity that would warrant the manual handling of distributing "
@@ -1269,12 +1352,12 @@ msgid ""
 msgstr ""
 
 # e85fc955b08d436babcf73ae386d195c
-#: how-to-open-up-data/make-data-available.rst:200
+#: how-to-open-up-data/make-data-available.rst:215
 msgid "via external hard disk drives"
 msgstr ""
 
 # 862409b256264bba8153c8c2d757646a
-#: how-to-open-up-data/make-data-available.rst:202
+#: how-to-open-up-data/make-data-available.rst:217
 msgid ""
 "Hard disk drives can be very useful for data transfers in the terabyte "
 "range. To support this, you need to have some form of ability to receive "
@@ -1282,7 +1365,7 @@ msgid ""
 msgstr ""
 
 # f2772ea8574c48a6a82f7785dbafdbb2
-#: how-to-open-up-data/make-data-available.rst:206
+#: how-to-open-up-data/make-data-available.rst:221
 msgid ""
 "Be careful to make sure that you are not charging for the data. Instead, "
 "your fee should be as close to the actual cost of distribution as possible."
@@ -1296,8 +1379,8 @@ msgstr ""
 # 21c49a37533c4dd2acf491ff7ca6f0d7
 #: how-to-open-up-data/make-it-discoverable.rst:5
 msgid ""
-"Open data is nothing without users. You need to be able to make sure that "
-"people can find the source material. This section will cover different "
+":term:`Open data` is nothing without users. You need to be able to make sure "
+"that people can find the source material. This section will cover different "
 "approaches."
 msgstr ""
 
@@ -1661,7 +1744,7 @@ msgstr ""
 #: following-up/making-things.rst:27
 msgid ""
 "The typical activities which are undertaken as part of these initiatives "
-"normally include competitions, open government data conferences, "
+"normally include competitions, :term:`open government data` conferences, "
 "“unconferences”, workshops and “hack days”. These activities are often "
 "organised by the user community with data that has already been published "
 "proactively or obtained using access to information requests. In other cases "
@@ -1679,7 +1762,7 @@ msgstr ""
 #: following-up/tell-the-world.rst:5
 msgid ""
 "First and foremost, make sure that you promote the fact that you've embarked "
-"on a campaign to promote open data in your area of responsibility."
+"on a campaign to promote :term:`open data` in your area of responsibility."
 msgstr ""
 
 # 146cd919dbc245918002054a2c2a5ec6
@@ -1880,24 +1963,24 @@ msgid "Glossary"
 msgstr ""
 
 # 34c1863b48114220b6e57f1746465e27
-#: glossary.rst:102
+#: glossary.rst:104
 msgid ""
 "The process of turning data that could result into the identification of "
 "individuals."
 msgstr ""
 
 # 216013e2391941ea8a5cf891bac4cc82
-#: glossary.rst:99
+#: glossary.rst:101
 msgid "See :term:`Anonymisation`."
 msgstr ""
 
 # 6cfe81d05d5f4b4e92e7336e55cf9b16
-#: glossary.rst:62
+#: glossary.rst:64
 msgid "See :term:`Application Programming Interface`."
 msgstr ""
 
 # c8acf4e1586141d3aa607f653fb1687f
-#: glossary.rst:65
+#: glossary.rst:67
 msgid ""
 "A way computer programmes talk to one another. Can be understood in terms of "
 "how a programmer sends instructions between programmes."
@@ -1905,23 +1988,23 @@ msgstr ""
 
 # c67ada067627489f92a65eee9df4dcb9
 # b0be3638ca2d49929da40bf283d6dad6
-#: glossary.rst:112, glossary.rst:115
+#: glossary.rst:114, glossary.rst:117
 msgid "See :term:`Information Asset Register`."
 msgstr ""
 
 # 97d372c624544d20821f751b0050f374
-#: glossary.rst:36
+#: glossary.rst:38
 msgid ""
 "A licence that requires attributing the original source of the material."
 msgstr ""
 
 # 52647fe610034c90a737913d5140b300
-#: glossary.rst:40
+#: glossary.rst:42
 msgid "See :term:`Attribution Licence`."
 msgstr ""
 
 # 25623c75ea984940a2c1f327eade5bd0
-#: glossary.rst:22
+#: glossary.rst:24
 msgid ""
 "BitTorrent is a protocol for distributing the bandwith for transferring very "
 "large files between the computers which are participating in the transfer. "
@@ -1930,14 +2013,14 @@ msgid ""
 msgstr ""
 
 # 0e645f53f91e458d85fbdd1b02c74f1e
-#: glossary.rst:18
+#: glossary.rst:20
 msgid ""
 "Connectivity relates to the ability for communities to connect to the "
 "Internet, especially the World Wide Web."
 msgstr ""
 
 # a6c88bed9f40424ab0134d6ad0f89d2d
-#: glossary.rst:86
+#: glossary.rst:88
 msgid ""
 "A right for the creators of creative works to restrict others' use of of "
 "those works. An owner of copyright is entitled to determine how others may "
@@ -1945,19 +2028,19 @@ msgid ""
 msgstr ""
 
 # f29c829e28374ff1898bd1795eed3cd2
-#: glossary.rst:29
+#: glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
 msgstr ""
 
 # bfb9e29820ef40b3992d18652709c93a
-#: glossary.rst:32
+#: glossary.rst:34
 msgid ""
 "A system that allows outsiders to be granted access to databases without "
 "overloading either system."
 msgstr ""
 
 # d63beb18c19a47b4811fa9257c334643
-#: glossary.rst:43
+#: glossary.rst:45
 msgid ""
 "Data protection legislation is not about protecting the data, but the right "
 "of citizens to live without doubt of the consequences that might come if "
@@ -1972,19 +2055,19 @@ msgid ""
 msgstr ""
 
 # 689fee79764c484cb8495c7e734041e0
-#: glossary.rst:82
+#: glossary.rst:84
 msgid ""
 "A right to prevent others from extracting and reusing content from a "
 "database. Exists mainly in European jurisdictions."
 msgstr ""
 
 # e76f4838932d444a8891883f233b4771
-#: glossary.rst:118
+#: glossary.rst:120
 msgid "European Union."
 msgstr ""
 
 # 2173cce89b45476095f423ba4aba43c1
-#: glossary.rst:121
+#: glossary.rst:123
 msgid ""
 "The *Directive on the re-use of public sector information*, 2003/98/EC. "
 "\"deals with the way public sector bodies should enhance re-use of their "
@@ -1994,7 +2077,7 @@ msgid ""
 msgstr ""
 
 # f252b97ad98f410091a2bc576552a1ae
-#: glossary.rst:126
+#: glossary.rst:128
 msgid ""
 "IARs are registers specifically set up to capture and organise meta-data "
 "about the vast quantities of information held by government departments and "
@@ -2003,7 +2086,7 @@ msgid ""
 msgstr ""
 
 # eb931b0547654da896a56f4d78ed961c
-#: glossary.rst:132
+#: glossary.rst:134
 msgid ""
 "The :term:`EU PSI Directive` recognises the importance of asset registers "
 "for prospective re-users of public information. It requires that member "
@@ -2011,7 +2094,7 @@ msgid ""
 msgstr ""
 
 # 8b87e51ea1dd46d49da368c2e62299d5
-#: glossary.rst:147
+#: glossary.rst:149
 msgid ""
 "IARs can be developed in different ways. Government departments can develop "
 "their own IARs and these can be linked to a national IARs. IARs can include "
@@ -2021,7 +2104,7 @@ msgid ""
 msgstr ""
 
 # 422b37a8afc04ce180151292ece3d446
-#: glossary.rst:154
+#: glossary.rst:156
 msgid ""
 "For the public to make use of these IARs, it is important that any registers "
 "of information held be as complete as possible in order to be able to have "
@@ -2031,7 +2114,7 @@ msgid ""
 msgstr ""
 
 # 566d3ce5e6154f3780b89f42df1d4c4d
-#: glossary.rst:161
+#: glossary.rst:163
 msgid ""
 "It is essential that the metadata in the IARs be comprehensive so that "
 "search engines can function effectively. In the spirit of open government "
@@ -2041,31 +2124,43 @@ msgid ""
 msgstr ""
 
 # bfef5a0183e1436eae343e66df81e216
-#: glossary.rst:109
+#: glossary.rst:111
 msgid "Monopolies granted to individuals for intellectual creations."
 msgstr ""
 
 # e004ea3d0e0345668d6ed7dfa9fd47e6
-#: glossary.rst:106
+#: glossary.rst:108
 msgid "See :term:`Intellectual property rights`."
 msgstr ""
 
 # 168593c8a4074eb9a7e88bf04cf4b34f
-#: glossary.rst:12
+#: glossary.rst:13
 msgid ""
-"Information that is machine readable is information that is able to be "
-"extracted by computer programmes. PDF documents are not machine readable. "
-"Computers can display the text nicely, but have great difficulty "
+"Formats that are machine readable are ones which are able to have their data "
+"extracted by computer programs easily. PDF documents are not machine "
+"readable. Computers can display the text nicely, but have great difficulty "
 "understanding the context that surrounds the text."
 msgstr ""
 
-# edb463317229403f870daea17dc857fe
+# a6f189e62ba1428f819b6298ffcef3ae
 #: glossary.rst:9
-msgid "Open data are able to be used for any purpose."
+msgid ""
+"Open data are able to be used for any purpose. More details can be read at "
+"`opendefinition.org <http://www.opendefinition.org/>`_."
+msgstr ""
+
+# ec60d3f95fa84c468b63b277d562daec
+#: glossary.rst:171
+msgid ""
+":term:`Open data` produced by the government. This is generally accepted to "
+"be data gathered during the course of business as usual activities which do "
+"not identify individuals or breach commercial sensitivity. Open government "
+"data is a subset of :term:`Public Sector Information`, which is broader in "
+"scope. See http://opengovernmentdata.org for details."
 msgstr ""
 
 # 63ceea65f0034fb1979851d46a38c957
-#: glossary.rst:94
+#: glossary.rst:96
 msgid ""
 "Generally understood as technical standards which are free from licencing "
 "restrictions. Can also be interpreted to mean standards which are developed "
@@ -2073,39 +2168,47 @@ msgid ""
 msgstr ""
 
 # 6d822e6c8ad34e169ee50ed25da645b1
-#: glossary.rst:56
+#: glossary.rst:58
 msgid "See :term:`Public Sector Information`."
 msgstr ""
 
 # 696b5311003f44679f96c10a79d90853
-#: glossary.rst:79
+#: glossary.rst:81
 msgid "No copyright exists over the work. Does not exist in all jurisdictions."
 msgstr ""
 
 # 9dafd32f34444c028b75a9a617f3b82e
-#: glossary.rst:59
+#: glossary.rst:61
 msgid "Information collected or controlled by the public sector."
 msgstr ""
 
 # ce85e3859d2140d08c23884d99eb96f3
-#: glossary.rst:91
+#: glossary.rst:93
 msgid "Use of content outside of its original intention."
 msgstr ""
 
 # e38eb833ee234acb8fab6b6e028fd2a8
-#: glossary.rst:75
+#: glossary.rst:77
 msgid ""
 "A licence that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
 msgstr ""
 
 # 6f0846ac5cd54731be16aefd446133c1
-#: glossary.rst:72
+#: glossary.rst:74
 msgid "See :term:`Share-alike Licence`."
 msgstr ""
 
+# 7e3cb31861d24f92b6f8482fa2e76245
+#: glossary.rst:179
+msgid ""
+"Tab-seperated values (TSV) are a very common form of text file format for "
+"sharing tabular data. The format is extremely simple and highly :term:"
+"`machine-readable`."
+msgstr ""
+
 # 06d72f4f757e46c2a85789857694a0ef
-#: glossary.rst:69
+#: glossary.rst:71
 msgid "An :term:`API` that is designed to work over the Internet."
 msgstr ""
 

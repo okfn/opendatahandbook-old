@@ -101,15 +101,15 @@ Rendering the manual
 Building for Translation (i18n)
 -------------------------------
 
+**Important**. You will need to install Sphinx HEAD for i18n work.
+
+To this get the code from the `official source repo
+<https://bitbucket.org/birkenfeld/sphinx/>`_.
+
 Generating pot files
 ~~~~~~~~~~~~~~~~~~~~
 
-1. Install Sphinx HEAD from the `official source repo 
-   <https://bitbucket.org/birkenfeld/sphinx/>`_.
-
-2. Extract translateable sentences
-
-::
+1. Extract translateable sentences::
 
     make gettext
 

@@ -24,10 +24,9 @@ In an open, machine-readable format
   restrictions. More importantly, making sure that you are providing 
   machine-readable formats allows for greatest re-use. To illustrate this,
   consider statistics published as :abbr:`PDF (Portable Document 
-  Format)` 
-  documents, often used for high quality printing. While these statistics
-  can be read by humans, they are very hard for a computer to use. This
-  greatly limits the ability for others to reuse that data.
+  Format)` documents, often used for high quality printing. While these 
+  statistics can be read by humans, they are very hard for a computer to 
+  use. This greatly limits the ability for others to reuse that data.
 
 Here are a few policies that will be of great benefit:
 

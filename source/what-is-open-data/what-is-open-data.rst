@@ -9,8 +9,8 @@ purposes open data is as defined by the `Open Definition`_:
 anyone - subject only, at most, to the requirement to attribute and
 sharealike.*
 
-The `full Open Definition`_ gives precise details as to what this means but to
-summarize the most important:
+The `full Open Definition`_ gives precise details as to what this means 
+but to summarize the most important:
 
 -  **Availability and Access:** the data must be available as a whole
    and at no more than a reasonable reproduction cost, preferably

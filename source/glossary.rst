@@ -78,14 +78,15 @@ Glossary
     under the same or similar conditions as the original.
 
   Public domain
-    No copyright exists over the work. Does not exist in all jurisdictions.
+    No copyright exists over the work. Does not exist in all 
+    jurisdictions.
 
   Database rights
     A right to prevent others from extracting and reusing content from
     a database. Exists mainly in European jurisdictions.
 
   Copyright
-    A right for the creators of creative works to restrict others' use of 
+    A right for the creators of creative works to restrict others' use  
     of those works. An owner of copyright is entitled to determine how
     others may use that work.
 
@@ -93,16 +94,16 @@ Glossary
     Use of content outside of its original intention.
 
   Open standards
-    Generally understood as technical standards which are free from licencing
-    restrictions. Can also be interpreted to mean standards which are 
-    developed in a vendor-neutral manner.
+    Generally understood as technical standards which are free from 
+    licencing restrictions. Can also be interpreted to mean standards 
+    which are developed in a vendor-neutral manner.
     
   Anonymization
    See :term:`Anonymisation`.
 
   Anonymisation
-    The process of treating data such that it cannot be used for the identification
-    of individuals.
+    The process of treating data such that it cannot be used for the 
+    identification of individuals.
 
   IP rights
     See :term:`Intellectual property rights`.
@@ -122,7 +123,8 @@ Glossary
   EU PSI Directive
     The *Directive on the re-use of public sector information*,
     2003/98/EC. "deals with the way public sector bodies should 
-    enhance re-use of their information resources." `Legislative Actions - PSI Directive <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_ 
+    enhance re-use of their information resources." 
+    `Legislative Actions - PSI Directive <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_ 
 
   Information Asset Register
     IARs are registers specifically set up to capture and organise 
@@ -131,9 +133,10 @@ Glossary
     databases, old sets of files, recent electronic files, collections 
     of statistics, research and so forth.
 
-    The :term:`EU PSI Directive` recognises the importance of asset registers 
-    for prospective re-users of public information. It requires that 
-    member states provide lists, portals, or something similar. It states::
+    The :term:`EU PSI Directive` recognises the importance of asset 
+    registers for prospective re-users of public information. It 
+    requires that member states provide lists, portals, or something 
+    similar. It states::
 
        Tools that help potential re-users to find documents available 
        for re-use and the conditions for re-use can facilitate 
@@ -172,8 +175,8 @@ Glossary
     accepted to be data gathered during the course of business as usual 
     activities which do not identify individuals or breach commercial 
     sensitivity. Open government data is a subset of :term:`Public 
-    Sector Information`, which is broader in scope. See http://opengovernmentdata.org
-    for details.
+    Sector Information`, which is broader in scope. 
+    See http://opengovernmentdata.org for details.
 
   Tab-seperated values
     Tab-seperated values (TSV) are a very common form of text file

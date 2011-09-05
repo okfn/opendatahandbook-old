@@ -15,7 +15,10 @@ Creating this list should be a quick process that identifies which datasets
 could be made open to start with. There will be time at later stages to 
 check in detail whether each dataset is suitable.
 
-There is **no requirement** to create a comprehensive list of your datasets. The main point to bear in mind is whether it is feasible to publish this data at all (whether openly or otherwise) - example see the ‘What Data’ section above.
+There is **no requirement** to create a comprehensive list of your datasets. 
+The main point to bear in mind is whether it is feasible to publish this 
+data at all (whether openly or otherwise) - example see the ‘What Data’ 
+section above.
 
 Asking the community
 --------------------

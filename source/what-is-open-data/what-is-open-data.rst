@@ -5,12 +5,12 @@ What is Open?
 This manual is about open data but what exactly is *open* data? For our
 purposes open data is as defined by the `Open Definition`_:
 
-*Open data is data that can be freely used, reused and redistributed by
-anyone - subject only, at most, to the requirement to attribute and
-sharealike.*
+    Open data is data that can be freely used, reused and redistributed 
+    by anyone - subject only, at most, to the requirement to attribute 
+    and sharealike.
 
-The `full Open Definition`_ gives precise details as to what this means but to
-summarize the most important:
+The `full Open Definition`_ gives precise details as to what this means, 
+but to summarize the most important:
 
 -  **Availability and Access:** the data must be available as a whole
    and at no more than a reasonable reproduction cost, preferably

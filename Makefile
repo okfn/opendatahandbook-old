@@ -6,12 +6,17 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
-lang = en
+lang          ?= en
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -D language=$(lang) source
+
+# translation
+TRANSLATIONDIR = translation
+BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
+POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
 
 .PHONY: help clean html dirhtml pickle json htmlhelp qthelp latex changes linkcheck doctest
 
@@ -89,17 +94,14 @@ linkcheck:
 
 doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
+	@echo
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
-# TODO: allow argument so you can choose language you are uploading for
 upload:
 	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(lang)/ s3://opendatamanual.org/$(lang)/
-	@echo "Uploaded html to website"
-
-TRANSLATIONDIR = translation
-BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
-POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
+	@echo
+	@echo "Uploaded html for $(lang) to website"
 
 gettext:
 	$(SPHINXBUILD) -b gettext source build/i18npot
@@ -109,5 +111,6 @@ linkpot:
 	for potfile in $(POTFILES); do \
 		ln -s all.mo $(BASEDIR)/$$potfile.mo; \
 	done
+	@echo
 	@echo "Setup a specific lang"
 

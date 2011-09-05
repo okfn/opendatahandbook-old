@@ -22,14 +22,19 @@ The notion of :term:`open data` and specifically
 :term:`open government data`, information, public or otherwise, which 
 anyone is free to access and re-use for any purpose, has been around 
 for some years. In 2009 open data started to become visible in the 
-mainstream, with various governments (such as the USA, UK, Canada and 
-New Zealand) announcing new initiatives towards opening up their 
+mainstream, with various governments (such as the `USA`_, `UK`_, 
+`Canada`_ and `New Zealand`_) announcing new initiatives towards opening up their 
 public information. 
 
 This book explains the basic concepts of ‘open data’, especially in 
 relation to government. It covers how open data creates value and 
 positively impacts many different areas. In addition to the background,
 the manual also provides concrete information on how to produce open data.
+
+  .. _USA: http://www.whitehouse.gov/open
+  .. _UK: http://data.gov.uk
+  .. _Canada: http://www.open.gc.ca/
+  .. _New Zealand: http://data.govt.nz/
 
 Target Audience
 ===============

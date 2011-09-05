@@ -7,10 +7,11 @@ choose-datasets.rst
 index.rst
 make-data-available.rst
 prevent third-parties from using, reusing and redistributing data without
-explicit permission. Even in places where the existence of rights is uncertain,
-it is important to apply a license simply for the sake of clarity. Thus, **if
-you are planning to make your data available you should put a license on it**
--- and if you want your data to be `open`_ this is even more important.
+explicit permission. Even in places where the existence of rights is 
+uncertain, it is important to apply a license simply for the sake of 
+clarity. Thus, **if you are planning to make your data available you 
+should put a license on it** – and if you want your data to be `open`_ 
+this is even more important.
 
 .. _open: http://opendefinition.org/
 .. _Open Definition: open_
@@ -21,7 +22,8 @@ data. This list (along with instructions for usage) can be found at:
 
 * <http://opendefinition.org/licenses/>
 
-A short 1-page instruction guide to applying an open data license can be found on the Open Data Commons site:
+A short 1-page instruction guide to applying an open data license can be 
+found on the Open Data Commons site:
 
 * <http://opendatacommons.org/guide/>
 

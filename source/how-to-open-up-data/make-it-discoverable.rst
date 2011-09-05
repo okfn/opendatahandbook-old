@@ -74,5 +74,3 @@ Moreover, governments are unlikely to be willing to support activities
 that mesh their information with information from businesses. Governments 
 are rightfully skeptical of profit motives. Therefore, an independent
 catalogue for community groups, businesses and others may be warranted. 
-
-

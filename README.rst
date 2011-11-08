@@ -75,29 +75,16 @@ Details:
 Rendering the manual
 --------------------
 
-1. Move into the base directory of the project:
-
-::
+1. Move into the base directory of the project::
 
     cd opendatamanual
 
-2. Get the themes:
-
-::
-
-   git submodule init 
-   git submodule update 
-
 3. Install `Sphinx`_, with a minimum version of 0.6. Instructions for 
-   Debian and Ubuntu:
-
-::
+   Debian and Ubuntu::
 
     apt-get install python-sphinx
 
-4. Render the HTML, using ``make``:  
-
-::
+4. Render the HTML, using ``make``::
 
     make html
 

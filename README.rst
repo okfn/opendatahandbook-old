@@ -105,10 +105,7 @@ Rendering the manual
 Building for Translation (i18n)
 -------------------------------
 
-**Important**. You will need to install Sphinx HEAD for i18n work.
-
-You can get the code from the `official source repo
-<https://bitbucket.org/birkenfeld/sphinx/>`_.
+**Important**. You will need to install Sphinx >= v1.1 for this to work.
 
 Generating pot files
 ~~~~~~~~~~~~~~~~~~~~

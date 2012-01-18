@@ -2,8 +2,8 @@
 The Open Data Manual
 ====================
 
-**This report discusses legal, social and technical aspects of 
-open data.** The manual can be used by anyone but is especially 
+**This manual discusses the legal, social and technical aspects of 
+open data.** It can be used by anyone but is especially 
 designed for those seeking to **open up** data. It discusses the 
 **why, what and how** of open data -- why to go open, what open is, 
 and the how to 'open' data.
@@ -15,7 +15,7 @@ or below).
 .. _Introduction: introduction/index.html
 
 We warmly welcome comments on the text and will incorporate feedback 
-as we go forward. We also welcome contributors or suggestions for 
+as we go forward. We also welcome contributions or suggestions for 
 additional sections and areas to examine.
 
 

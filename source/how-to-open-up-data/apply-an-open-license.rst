@@ -16,7 +16,7 @@ this is even more important.
 .. _open: http://opendefinition.org/
 .. _Open Definition: open_
 
-What licenses can you use? We recommend for 'open' data you use one of the
+What licenses can you use? We recommend that for 'open' data you use one of the
 licenses conformant with the `Open Definition`_ and marked as suitable for
 data. This list (along with instructions for usage) can be found at:
 

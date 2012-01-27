@@ -73,13 +73,15 @@ technical users. Some tips:
   Search engines are less likely to index the content. People are less
   likely to click to download.
 
-:Consider using a Creative Commons licence:
+:Consider using an `Open licence`_ for your content:
 
   Apart from providing certainty to people who wish to share your 
   content that this is permissible, you send a message that your
   agency understands openness. This is bound to leave an impression
   far more significant to proponents of open data than any specific
   sentence in your press release. 
+
+.. _Open license: http://opendefinition.org/licenses/#content
 
 Social media
 ------------
@@ -112,5 +114,4 @@ suggestions:
 
   These sites have a tendency to drive signficiant traffic to 
   interesting material. They are also heavily focused on topic areas. 
-  Therefore, you
 

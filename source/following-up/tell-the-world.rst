@@ -16,14 +16,14 @@ website, and so on, you may consider:
  * Contacting prominent organisations or individuals who work/are 
    interested in this area
  * Contacting relevant mailing lists or social networking groups
- * Directly contacting prospective users you know may be interested 
+ * Directly contacting prospective users who you know may be interested 
    in this data
 
 Understanding your audience
 ---------------------------
 
 Like all public communication, engaging with the data community needs 
-to be targetted. Like all stakeholder groups, the right message can be 
+to be targeted. Like all stakeholder groups, the right message can be 
 wasted if it is directed to the wrong area.
 
 Digital communities tend to be very willing to share new information, 
@@ -36,7 +36,7 @@ MS Office formats which can be read offline. There are two resons
 for this:
 
 * The first is that those documents will be less accessible. Rather 
-  than the document you see on your screen, readers may see a an 
+  than the document you see on your screen, readers may see an 
   imperfect copy from an alternative.
 * Secondly, your agency sends an implicit message that you are unwilling 
   to take a step towards developers. Instead, you show that you are 
@@ -87,7 +87,7 @@ Social media
 It's inefficient for cash-strapped agencies to spend hours on social 
 media sites. The most significant way that your voice can be heard 
 through these fora is by making sure that blog posts are easily 
-sharable. That means, before reading the next section, make sure that 
+shareable. That means, before reading the next section, make sure that 
 you have read the last. With that in mind, here are a few 
 suggestions:
 
@@ -97,7 +97,7 @@ suggestions:
   information rapidly. Anything tagged with #opendata will
   be immediately seen by thousands.
 
-  LinkedIn has a large selection of groups which are targetted 
+  LinkedIn has a large selection of groups which are targeted 
   towards open data.
 
   While Facebook is excellent for a general audience, it has not 
@@ -110,7 +110,7 @@ suggestions:
   moment. To a lesser extent, Slashdot and Digg are also useful tools 
   in this area.
 
-  These sites have a tendency of driving signficiant traffic to 
+  These sites have a tendency to drive signficiant traffic to 
   interesting material. They are also heavily focused on topic areas. 
   Therefore, you
 

@@ -39,4 +39,4 @@ keen to help you out and to advise you on your event. It may be
 valuable to partner with another organisation (e.g. a civic society 
 organisation, a news organisation or an educational institution) to 
 broaden your base participants and to increase your exposure. 
-Following are several relevant examples.
+

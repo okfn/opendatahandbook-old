@@ -8,8 +8,8 @@ An Overview of File Formats
 JSON
 ----
 
-JSON is a very simple file format that is very easy for any 
-programming language to read. Its simplicity means that is generally 
+JSON is a simple file format that is very easy for any 
+programming language to read. Its simplicity means that it is generally 
 easier for computers to process than others, such as XML.
 
 XML
@@ -17,7 +17,7 @@ XML
 
 XML is a widely used format for data exchange because it gives good 
 opportunities to keep the structure in the data and the way files 
-is built on, lets developers write parts of the documentation in 
+are built on, and allows developers to write parts of the documentation in 
 with the data without interfering with the reading of them.
 
 RDF
@@ -27,7 +27,7 @@ A W3C-recommended format called RDF makes it possible to represent
 data in a form that makes it easier to combine data from multiple 
 sources. RDF data can be stored in XML and JSON, among other 
 serializations. RDF encourages the use of URLs as identifiers, 
-which provides for a convenient way to directly interconnect existing 
+which provides a convenient way to directly interconnect existing 
 :term:`open data` initiatives on the Web. RDF is still not widespread, 
 but it has been a trend among Open Government initiatives, including 
 the British and Spanish Government Linked Open Data projects. The 
@@ -63,7 +63,7 @@ individual fields are accurate.
 Furthermore it is essential that the structure of the file is respected, 
 as a single omission of a field may disturb the reading of all remaining 
 data in the file without any real opportunity to rectify it, because 
-it could not determine how the remaining data must be interpreted.
+it cannot be determined how the remaining data should be interpreted.
 
 Text Document
 -------------
@@ -113,10 +113,10 @@ Proprietary formats
 Some dedicated systems, etc. have their own data formats that they 
 can save or export data in. It can sometimes be enough to expose data 
 in such a format - especially if it is expected that further use would 
-be in a similar system as that they come from. It should always be 
-indicated, where you can find more information on these proprietary 
-formats, for example by providing a link to the supplier's website. 
-Generally it is recommended to display data in non-proprietary formats, 
+be in a similar system as that which they come from. Where further 
+information on these proprietary formats can be found should always be 
+indicated, for example by providing a link to the supplier's website. 
+Generally it is recommended to display data in non-proprietary formats 
 where feasible.
 
 HTML
@@ -166,7 +166,7 @@ contain.
 
 Using proprietary file formats for which the specification is not 
 publicly available can create dependence on third-party software 
-or file format license holders. In worst-case scenarios this can mean 
+or file format license holders. In worst-case scenarios, this can mean 
 that information can only be read using certain software packages, 
 which can be prohibitively expensive, or which may become obsolete.
 
@@ -190,7 +190,7 @@ a “read only” version of the software, so Andrew's group had
 no choice but to purchase a software license, eventually paying 
 £500 (€600) when making use of an educational discount. The main 
 software packages on the April 2010 price list from Saturn start 
-at £13,000 (over €15,000), a price which is most likely beyond 
+at £13,000 (over €15,000), a price which is beyond 
 the reach of most ordinary citizens.
 
 Although no access to information law gives a right of access to 
@@ -216,7 +216,7 @@ When an authority must exhibit new data – data that has not been
 exhibited before – you should choose the format that provides the 
 best balance between cost and suitability for purpose. For each 
 format there are some things you should be aware of, and this 
-section aims to affect them.
+section aims to explain them.
 
 This section focuses only on how the cut surfaces are best arranged 
 so that machines can access them directly. Advice and guidance about 
@@ -235,11 +235,11 @@ but are very easy to develop and use, so it is a widely used standard.
 Database
 --------
 
-Like web services databases provide direct access to data dynamically. 
+Like web services, databases provide direct access to data dynamically. 
 Databases have the advantage that they can allow users to put together 
-just the extraction, they are interested in.
+just the extraction that they are interested in.
 
-There are some security concerns by allowing remote database 
+There are some security concerns about allowing remote database 
 extraction and database access is only useful if the structure of 
 the database and the importance of individual tables and fields are 
 well documented. Often, it is relatively simple and inexpensive 

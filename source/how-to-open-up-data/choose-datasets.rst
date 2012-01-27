@@ -2,13 +2,13 @@
 Choose Dataset(s)
 =================
 
-Choosing the dataset(s) you plan to make open is the first step to take – 
-though remember the whole opening up data process is iterative and you 
+Choosing the dataset(s) you plan to make open is the first step – 
+though remember that the whole process of opening up data is iterative and you 
 can return to this step if you encounter problems later on.
 
 If you already know exactly what dataset(s) you plan to open up you can 
 move straight on to the next section. However, in many cases, especially 
-for large institutions, choosing what datasets to focus on is a challenge. 
+for large institutions, choosing which datasets to focus on is a challenge. 
 How should one proceed in this case? 
 
 Creating this list should be a quick process that identifies which datasets 
@@ -17,32 +17,32 @@ check in detail whether each dataset is suitable.
 
 There is **no requirement** to create a comprehensive list of your 
 datasets. The main point to bear in mind is whether it is feasible 
-to publish this data at all (whether openly or otherwise) - example 
+to publish this data at all (whether openly or otherwise) -  
 see the ‘What Data’ section above.
 
 Asking the community
 --------------------
 
-We recommend that you ask the community in the first instance. That is, 
-the people who will be accessing and using the data, are likely to have 
-a good understanding of which data are valuable.
+We recommend that you ask the community in the first instance. That is 
+the people who will be accessing and using the data, as they are likely to have 
+a good understanding of which data could be valuable.
 
 1. Prepare a short list of potential datasets that you would like 
-   feedback on. It is not essential that this list concurs with what 
-   your expectations are, the main intention is to get a feel for the 
+   feedback on. It is not essential that this list concurs with 
+   your expectations, the main intention is to get a feel for the 
    demand. This could be based on other countries' :term:`open data` 
    catalogues.
 
 2. Create a request for comment.   
 
 3. Publicise your request with a webpage. Make sure that it is possible
-   to access the request on its own URL. That way, when shared via
+   to access the request through its own URL. That way, when shared via
    social media, the request can be easily found.
 
 4. Provide easy ways to submit responses. Avoid requiring registration,
    as it reduces the number of responses.
 
-5. Circulate the request to relevant mailing lists, forums and individuals 
+5. Circulate the request to relevant mailing lists, forums and individuals, 
    pointing back to the main webpage.
 
 6. Run a consultation event. Make sure you run it at a convenient time 
@@ -62,7 +62,7 @@ data, then it is highly likely that others would like to access it.
 
 This argument may be fairly susceptible to concerns of freeriding. The 
 question you will need to respond to is, "Why should other people get
-information for free that is so expensive?" The answer is that the 
+information for free that is so expensive?". The answer is that the 
 expense is absorbed by the public sector to perform a particular function. 
 The cost of sending that data, once it has been collected, to a third
 party is approximately nothing. Therefore, they should be charged nothing.
@@ -70,7 +70,7 @@ party is approximately nothing. Therefore, they should be charged nothing.
 Ease of release
 ---------------
 
-Sometimes, rather than decide which data would be most valuable, it could 
+Sometimes, rather than deciding which data would be most valuable, it could 
 be useful to take a look at which data is easiest to get into the public's 
 hands. Small, easy releases can act as the catalyst for larger behavioural
 change within organisations.

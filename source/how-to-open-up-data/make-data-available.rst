@@ -14,7 +14,7 @@ Available
 
 In bulk
   The data should be available as a complete set. If you have a register
-  which is collected under statue, the entire register should be available
+  which is collected under statute, the entire register should be available
   for download. A web API or similar service may also be very useful, but 
   they are not a substitutes for bulk access.
 
@@ -30,9 +30,9 @@ In an open, machine-readable format
 
 Here are a few policies that will be of great benefit:
 
-* keep it simple, 
-* move fast, and 
-* be pragmatic.
+* Keep it simple, 
+* Move fast
+* Be pragmatic.
 
 In particular it is better to give out raw data now than perfect data in 
 six months' time.
@@ -50,7 +50,7 @@ also discuss alternatives, which can act to keep prices very low.
 Online methods
 ==============
 
-via your existing website
+Via your existing website
 -------------------------
 
 The system which will be most familiar to your web content team is to
@@ -63,7 +63,7 @@ outsider to discover where to find updated information. This option
 places some burden on the people creating tools with your
 data.
 
-via 3rd party sites
+Via 3rd party sites
 --------------------
 
 Many repositories have become hubs of data in particular fields.
@@ -90,7 +90,7 @@ from smart phones to supercomputers. They should all be able to access
 the data.
 
 
-via FTP servers
+Via FTP servers
 ---------------
 
 A less fashionable method for providing access to files is via the
@@ -104,7 +104,7 @@ through an FTP server is much like looking through folders on a
 computer. Therefore, even though it is fit for purpose, there is far
 less capacity for web development firms to charge for customisation.
 
-as torrents
+As torrents
 -----------
 
 :term:`BitTorrent` is a system which has become familiar to policy makers 
@@ -115,7 +115,7 @@ becoming overloaded, the supply increases with the demand increases. This is
 the reason that this system is so successful for sharing movies. It is a 
 wonderfully efficient way to distribute very large volumes of data.
 
-as an API
+As an API
 ---------
 
 Data can be published via an :term:`Application Programming Interface` 
@@ -161,64 +161,3 @@ Another example is the District of Columbia OCTO’s Data Catalogue, which
 allows data to be downloaded in CSV and XLS format in addition to live 
 feeds of the data.
 
-via the data access protocol
-----------------------------
-
-:term:`DAP` (Data Access Protocol) is a system for data transfer that 
-was developed for use in meterology and climate science. The system was 
-designed to enable third-parties to access sections of databases stored
-in some central location. Despite its origins in a particular field, the 
-technology is very generic and can be adapted for data transfer in any 
-area.
-
-Implementing this technology can enable your agency to be experimental 
-with its knowledge. For example, Australia's 
-`Bureau of Meteorology Research Centre`_ provides the following disclaimer 
-on its material:
-
-    Please note that the following products ... do not currently form
-    part of the Bureau's standard services in any way.
-
-This example demonstrates that it is possible to provide data in raw 
-form without incurring liability for others' use of that data.
-
- .. _Bureau of Meteorology Research Centre: http://opendap.bom.gov.au/index.shtml
-
-via WebDAV
-----------
-
-`WebDAV`_, or Web-based Distributed Authoring and Versioning, is an 
-attempt at making the internet a read/write medium. It is a widely 
-supported open standard that supports locking and distributed authorship. 
-
-Providing a service such as this could be useful for situations
-where your agency would like to handle receiving improvements to data that 
-it stores. The agency could provide its original data as the orginal source
-and then refer to higher-quality, but unverified derivative data sources for 
-users with different needs.
-
-  .. _WebDAV: http://en.wikipedia.org/wiki/WebDAV
-
-Offline methods
-===============
-
-via optical media
------------------
-
-Optical media, such as DVDs, are very cheap to produce. However, they 
-tend to lack the capacity that would warrant the manual handling of 
-distributing them. One exception to this is events. If you are hosting 
-an event for developers, such as a hackfest or barcamp, optical media 
-can be the best way to distribute a dataset for use in the venue.
-
-
-via external hard disk drives
------------------------------
-
-Hard disk drives can be very useful for data transfers in the terabyte
-range. To support this, you need to have some form of ability to 
-receive funds to cover the purchase, handling and shipping of your data.
-
-Be careful to make sure that you are not charging for the data. Instead,
-your fee should be as close to the actual cost of distribution as 
-possible.

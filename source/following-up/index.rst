@@ -7,7 +7,7 @@ technically reusable. The next step is to encourage others to
 make use of that data. 
 
 This section looks at additional things which can be done to promote 
-data reuse.
+data re-use.
 
 .. toctree::
    :maxdepth: 1

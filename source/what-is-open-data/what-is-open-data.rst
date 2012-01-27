@@ -2,31 +2,31 @@
 What is Open?
 =============
 
-This manual is about open data but what exactly is *open* data? For our
-purposes open data is as defined by the `Open Definition`_:
+This manual is about open data - but what exactly is *open* data? For our
+purposes, open data is as defined by the `Open Definition`_:
 
 *Open data is data that can be freely used, reused and redistributed by
 anyone - subject only, at most, to the requirement to attribute and
 sharealike.*
 
-The `full Open Definition`_ gives precise details as to what this means 
-but to summarize the most important:
+The `full Open Definition`_ gives precise details as to what this means. 
+To summarize the most important:
 
 -  **Availability and Access:** the data must be available as a whole
-   and at no more than a reasonable reproduction cost, preferably
+   and at no more than a reasonable reproduction cost, preferably by
    downloading over the internet. The data must also be available in a
    convenient and modifiable form.
 -  **Reuse and Redistribution:** the data must be provided under terms
    that permit reuse and redistribution including the intermixing with
    other datasets.
--  **Universal Participation:** everyone must be able to use, reuse
+-  **Universal Participation:** everyone must be able to use, reuse and
    redistribute - there should be no discrimination against fields of
    endeavour or against persons or groups. For example, ‘non-commercial’
-   restrictions that would prevent ‘commercial’ use or restrictions of
-   use for certain purposes (e.g. only in education) are not allowed.
+   restrictions that would prevent ‘commercial’ use, or restrictions of
+   use for certain purposes (e.g. only in education), are not allowed.
 
 If you’re wondering why it is so important to be clear about what open
-means and why this definition is used there’s a simple answer:
+means and why this definition is used, there’s a simple answer:
 **interoperability.**
 
 Interoperability denotes the ability of diverse systems and
@@ -51,8 +51,8 @@ products and services (these benefits are discussed in more detail in
 the section on ‘why’ open data).
 
 Providing a clear definition of openness ensures that when you get two
-open datasets from two different sources you will be able to combine
-them together, and it ensures we **avoid our own ‘tower of babel’: lots
+open datasets from two different sources, you will be able to combine
+them together, and it ensures that we **avoid our own ‘tower of babel’: lots
 of datasets but little or no ability to combine them together into the
 larger systems where the real value lies.**
 

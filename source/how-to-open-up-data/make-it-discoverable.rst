@@ -33,8 +33,8 @@ For government
 
 As it has emerged, orthodox practice is for a lead agency to create a 
 catalogue for the government's data. When establishing a catalogue, try to 
-create some structure which many departments can keep their own
-information current easily.
+create some structure which allows many departments to easily keep their own
+information current.
 
 Resist the urge to build the software to support the catalogue from scratch.
 There are many free and open source software solutions which have been
@@ -55,7 +55,7 @@ could consider the following:
   to be duplicated to communities of interest. If you have river level
   monitoring data available, then your data may appear in a catalogue
   for hydrologists.
-* Ensure that access is equitible. Do not create a priviledged level of 
+* Ensure that access is equitable. Do not create a privileged level of 
   access for officials or tenured researchers. This will cause resentment 
   and ultimately undermine the goals that you are seeking to achive.
 

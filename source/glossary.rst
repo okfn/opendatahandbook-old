@@ -35,20 +35,20 @@ Glossary
     without overloading either system.
 
   Attribution Licence
-    A licence that requires attributing the original source
-    of the licensed material.
+    A licence that requires that the original source
+    of the licensed material is cited (attributed).
   
   Attribution License
     See :term:`Attribution Licence`.
 
   Data protection legislation
     Data protection legislation is not about protecting the data, 
-    but the right of citizens to live without doubt of the consequences 
-    that might come if information of their private lives becomes public. 
-    The law protects the privacy (such as information about a person 
+    but about protecting the right of citizens to live without fear
+    that information about their private lives might become public. 
+    The law protects privacy (such as information about a person's 
     economic status, health and political position) and other rights 
     such as the right to freedom of movement and assembly. For example, 
-    in Finland a travel card system used to record all instances when the 
+    in Finland a travel card system was used to record all instances when the 
     card was shown to the reader machine on different public transport 
     lines. This raised a debate from the perspective of freedom of 
     movement and the travel card data collection was abandoned based 
@@ -64,8 +64,8 @@ Glossary
     See :term:`Application Programming Interface`.
 
   Application Programming Interface
-    A way computer programmes talk to one another. Can be understood
-    in terms of how a programmer sends instructions between programmes.
+    A way computer programs talk to one another. Can be understood
+    in terms of how a programmer sends instructions between programs.
 
   Web API
     An :term:`API` that is designed to work over the Internet.
@@ -102,8 +102,7 @@ Glossary
    See :term:`Anonymisation`.
 
   Anonymisation
-    The process of treating data such that it cannot be used for the 
-    identification of individuals.
+    The process of adapting data so that individuals cannot be identified from it.
 
   IP rights
     See :term:`Intellectual property rights`.
@@ -135,7 +134,7 @@ Glossary
 
     The :term:`EU PSI Directive` recognises the importance of asset 
     registers for prospective re-users of public information. It 
-    requires that member states provide lists, portals, or something 
+    requires member states to provide lists, portals, or something 
     similar. It states::
 
        Tools that help potential re-users to find documents available 
@@ -157,13 +156,13 @@ Glossary
     information which exists and which can be requested.
 
     For the public to make use of these IARs, it is important that any 
-    registers of information held be as complete as possible in order 
+    registers of information held should be as complete as possible in order 
     to be able to have confidence that documents can be found. The 
     incompleteness of some registers is a significant problem as 
     it creates a degree of unreliability which may discourage some from 
     using the registers to search for information.
 
-    It is essential that the metadata in the IARs be comprehensive so 
+    It is essential that the metadata in the IARs should be comprehensive so 
     that search engines can function effectively. In the spirit of 
     open government data, public bodies should make their IARs  
     available to the general public as raw data under an open licence so 

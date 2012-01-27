@@ -38,13 +38,13 @@ In particular it is better to give out raw data now than perfect data in
 six months' time.
 
 There are many different ways to make data available to others. The most 
-natural in the Internet age being online publication. There are many
+natural in the Internet age is online publication. There are many
 variations to this model. At its most basic, agencies make their data 
 available via their websites and a central catalogue directs visitors
 to the appropriate source.  However, there are alternatives.
 
-When :term:`connectivity` is limited or the size of the data are extremely 
-large, distribution via other formats, can be warranted. This section will 
+When :term:`connectivity` is limited or the size of the data extremely 
+large, distribution via other formats can be warranted. This section will 
 also discuss alternatives, which can act to keep prices very low.
 
 Online methods
@@ -53,14 +53,14 @@ Online methods
 via your existing website
 -------------------------
 
-The system which will be most familiar to your web content teams is to
+The system which will be most familiar to your web content team is to
 provide files for download from webpages. Just as you currently 
 provide access to discussion documents, data files are perfectly happy
 to be made available this way.
 
 One difficulty with this approach is that it is very difficult for an
 outsider to discover where to find updated information. This option
-places quite a bit of burden on the people creating tools with your
+places some burden on the people creating tools with your
 data.
 
 via 3rd party sites
@@ -74,7 +74,7 @@ data for free.
 
 Third party sites can be very useful. The main reason for this is that
 they have already pooled together a community of interested people and
-other sets of data. When your data is part of these platforms, a a 
+other sets of data. When your data is part of these platforms, a 
 type of positive compound interest is created. 
 
 Wholesale data platforms already provide the infrastructure which can 
@@ -84,7 +84,7 @@ For public sector agencies, they are generally free.
 These platforms can have two costs. The first is independence. Your 
 agency needs to be able to yield control to others. This is often 
 politically, legally or operationally difficult. The second cost may 
-be openness. Ensure that your data platform is agnostic of who can 
+be openness. Ensure that your data platform is agnostic about who can 
 access it. Software developers and scientists use many operating sytems,
 from smart phones to supercomputers. They should all be able to access
 the data.
@@ -111,8 +111,8 @@ as torrents
 because of its association with copyright infringement. BitTorrent uses
 files called torrents, which work by splitting the cost of distributing 
 files between all of the people accessing those files. Instead of servers
-becoming overloaded, as the demand increases, so does the supply. This is
-the reason that this system is so successful for  sharing movies. It is a 
+becoming overloaded, the supply increases with the demand increases. This is
+the reason that this system is so successful for sharing movies. It is a 
 wonderfully efficient way to distribute very large volumes of data.
 
 as an API
@@ -120,7 +120,7 @@ as an API
 
 Data can be published via an :term:`Application Programming Interface` 
 (API). These interfaces have become very popular. They allow programmers 
-to select specific portions of the data at a time, rather than providing
+to select specific portions of the data, rather than providing
 all of the data in bulk as a large file. APIs are typically connected
 to a database which is being updated in real-time. This means that 
 making information available via an API can ensure that it is up to 
@@ -137,7 +137,7 @@ data intiatives. There are a number of costs to providing an API:
 
 Access to bulk data ensures that: 
 
-a) there is no dependency on the original provider of the data, meaning
+a) there is no dependency on the original provider of the data, meaning that
    if a restructure or budget cycle changes the situation, the data are
    still available.
 b) anyone else can obtain a copy and redistribute it. This reduces the
@@ -147,8 +147,8 @@ c) others can develop their own services using the data, because they
    have certainty that the data will not be taken away from them.
 
 Providing data in bulk allows others to use the data beyond its original
-purposes. For example, it allows converting it into a new format, linking 
-with other resources, data to be versioned and archived in multiple 
+purposes. For example, it allows it to be converted into a new format, linked 
+with other resources, or versioned and archived in multiple 
 places. While the latest version of the data may be made available via 
 an API, raw data should be made available in bulk at regular intervals.
 
@@ -158,7 +158,7 @@ data in :term:`Tab-separated values` (TSV) format, and includes
 documentation about the download facility as well as about the data files.
 
 Another example is the District of Columbia OCTO’s Data Catalogue, which 
-allows data to be downloaded in CSV and XLS format, in addition to live 
+allows data to be downloaded in CSV and XLS format in addition to live 
 feeds of the data.
 
 via the data access protocol
@@ -194,7 +194,7 @@ supported open standard that supports locking and distributed authorship.
 Providing a service such as this could be useful for situations
 where your agency would like to handle receiving improvements to data that 
 it stores. The agency could provide its original data as the orginal source
-and then refer to higher-quality, but unverified derivative data source for 
+and then refer to higher-quality, but unverified derivative data sources for 
 users with different needs.
 
   .. _WebDAV: http://en.wikipedia.org/wiki/WebDAV

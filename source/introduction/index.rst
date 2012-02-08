@@ -28,13 +28,13 @@ information.
 This book explains the basic concepts of ‘open data’, especially in 
 relation to government. It covers how open data creates value and 
 can have a positive impact in many different areas. In addition to exploring the background, 
-the manual also provides concrete information on how to produce open 
+the handbook also provides concrete information on how to produce open 
 data.
 
 Target Audience
 ===============
 
-This manual has a broad audience:
+This handbook has a broad audience:
 
 + for those who have never heard of open data before and those  
   who consider themselves seasoned ‘data professionals’
@@ -48,10 +48,10 @@ the public sector. However, the authors intentions are to broaden this
 as time permits. You are welcome to participate to help us with that 
 effort.
 
-This manual is intended for those with little or no knowledge of the 
+This handbook is intended for those with little or no knowledge of the 
 topic. If you do find a piece of jargon or terminology with which you 
 aren't familiar, please see the detailed Glossary and FAQs (frequently 
-asked questions) which can be found at the end of the manual.
+asked questions) which can be found at the end of the handbook.
 
 
 Credits

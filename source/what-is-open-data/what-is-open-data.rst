@@ -2,7 +2,7 @@
 What is Open?
 =============
 
-This manual is about open data - but what exactly is *open* data? For our
+This handbook is about open data - but what exactly is *open* data? For our
 purposes, open data is as defined by the `Open Definition`_:
 
 *Open data is data that can be freely used, reused and redistributed by

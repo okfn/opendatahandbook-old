@@ -2,7 +2,7 @@
 How to Open up Data
 ====================
 
-This section forms the core of this manual. It gives concrete, detailed 
+This section forms the core of this handbook. It gives concrete, detailed 
 advice on how data holders can open up data. We’ll go through the 
 basics, but also cover the pitfalls. Lastly, we will discuss the more 
 subtle issues that can arise.

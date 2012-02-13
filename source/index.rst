@@ -1,8 +1,8 @@
 ====================
-The Open Data Manual
+The Open Data Handbook
 ====================
 
-**This manual discusses the legal, social and technical aspects of 
+**This handbook discusses the legal, social and technical aspects of 
 open data.** It can be used by anyone but is especially 
 designed for those seeking to **open up** data. It discusses the 
 **why, what and how** of open data -- why to go open, what open is, 

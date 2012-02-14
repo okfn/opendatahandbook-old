@@ -1,3 +1,7 @@
 build/*
 .*.swp
 sandbox/*
+## sphinx build related stuff
+_sources/*
+.buildinfo
+objects.inv

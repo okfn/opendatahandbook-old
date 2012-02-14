@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Open Data Manual documentation build configuration file, created by
+# Open Data Handbook documentation build configuration file, created by
 # sphinx-quickstart on Wed Apr  6 11:00:35 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -37,7 +37,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Open Data Manual'
+project = u'Open Data Handbook'
 copyright = u'2011, Open Knowledge Foundation'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -113,7 +113,7 @@ html_use_modindex = False
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Open Data Manual"
+html_title = "Open Data Handbook"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -168,7 +168,7 @@ html_static_path = ['_static']
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OpenDataManualdoc'
+htmlhelp_basename = 'OpenDataHandbookdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -180,9 +180,9 @@ latex_paper_size = 'a4'
 #latex_font_size = '10pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title, author, documentclass [howto/manual]).
+# (source start file, target name, title, author, documentclass [howto/handbook]).
 latex_documents = [
-  ('index', 'OpenDataManual.tex', u'Open Data Manual Documentation',
+  ('index', 'OpenDataHandbook.tex', u'Open Data Handbook Documentation',
    u'Open Knowledge Foundation', 'manual'),
 ]
 

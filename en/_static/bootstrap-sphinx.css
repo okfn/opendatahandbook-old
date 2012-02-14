@@ -1,0 +1,25 @@
+/*
+* bootstrap-sphinx.css
+* ~~~~~~~~~~~~~~~~~~~~
+*
+* Sphinx stylesheet -- Twitter Bootstrap theme.
+*/
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+div.documentwrapper {
+  float: left;
+  width: 100%;
+}
+
+.navbar .logo-icon img {
+  float: left;
+  height: 25px;
+  padding: 5px 10px 0 0;
+}
+

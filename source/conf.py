@@ -92,17 +92,16 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
 sys.path.append(os.path.abspath('_themes'))
-html_theme_path = ['_themes']
-html_theme = 'flask'
+# html_theme_path = ['_themes']
+# html_theme = 'nature'
 html_theme_options = {
-        'index_logo': False
         }
 
 html_use_modindex = False
-html_sidebars = {
-    '**':       ['sidebarlogo.html', 'search.html', 'globaltoc.html', 'nav.html',
-                 'corrections.html', 'openstickers.html', 'okfn-logo.html']
-}
+# html_sidebars = {
+#    '**':       ['sidebarlogo.html', 'search.html', 'globaltoc.html', 'nav.html',
+#                 'corrections.html', 'openstickers.html', 'okfn-logo.html']
+#}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

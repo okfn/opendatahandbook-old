@@ -1,15 +1,15 @@
-Open Data Manual
+Open Data Handbook
 ================
 
 Introduction
 ------------
 
-Welcome to the source text of the `Open Data Manual`_. The manual is 
+Welcome to the source text of the `Open Data Handbook`_. The handbook is 
 a project of the `Open Knowledge Foundation`_.  If you are reading this 
 it is likely you are looking to contribute in some way, whether that's 
 translation, feedback, editing or adding more content. If you just want 
-to read the manual, then please head over to the 
-http://opendatamanual.org/.
+to read the handbook, then please head over to the 
+http://opendatahandbook.org/.
 
 
 Contributing
@@ -17,31 +17,31 @@ Contributing
 
 We have several ways you can help. The project is split into a few 
 roles. Our **authors** write content, **editors** merge those 
-submissions into the manual, **designers** help beautify it and 
-**translators** bring the manual to all countries of the world.
+submissions into the handbook, **designers** help beautify it and 
+**translators** bring the handbook to all countries of the world.
 
 `Our wiki`_ is a great place to get started. It contains a large
 number of tasks for people with `half an hour`_ as well as `larger
 tasks`_. 
 
-.. _our wiki: http://wiki.okfn.org/Open_Data_Manual#Contributing
-.. _half an hour: http://wiki.okfn.org/Open_Data_Manual#Micro-tasks
-.. _larger tasks: http://wiki.okfn.org/Open_Data_Manual#Sections_that_need_authors
+.. _our wiki: http://wiki.okfn.org/Projects/Open_Data_Handbook#Contributing
+.. _half an hour: http://wiki.okfn.org/Projects/Open_Data_Handbook#Micro-tasks
+.. _larger tasks: http://wiki.okfn.org/Projects/Open_Data_Handbook#Sections_that_need_authors
 
 
 Resources
 ---------
 
-:Home Page:     http://wiki.okfn.org/Open_Data_Manual
+:Home Page:     http://wiki.okfn.org/Projects/Open_Data_Handbook
 :Mailing List:  http://lists.okfn.org/mailman/listinfo/open-data-manual
-:Source:        https://github.org/okfn/opendatamanual
+:Source:        https://github.org/okfn/opendatahandbook
 :Translations:  https://www.transifex.net/projects/p/opendatamanual/
 
 
 About our tools
 ---------------
 
-The manual is written the `ReStructured Text`_ format. `ReStructured Text` 
+The handbook is written the `ReStructured Text`_ format. `ReStructured Text` 
 allows us to write files in plain text files, which can be nicely rendered 
 as a website or a PDF using `Sphinx`_.
 
@@ -53,7 +53,7 @@ Project Layout
 
 Outline::
 
-  opendatamanual/
+  opendatahandbook/
     source/
     bin/
     build/
@@ -61,7 +61,7 @@ Outline::
 
 Details:
 
-| ``opendatamanual`` is the base directory.
+| ``opendatahandbook`` is the base directory.
 |
 |    ``source`` is where we keep the plain text source files.
 |
@@ -72,12 +72,12 @@ Details:
 |    ``translation`` is where our i18n files are kept
 
 
-Rendering the manual
+Rendering the handbook
 --------------------
 
 1. Move into the base directory of the project::
 
-    cd opendatamanual
+    cd opendatahandbook
 
 3. Install `Sphinx`_, with a minimum version of 0.6. Instructions for 
    Debian and Ubuntu::
@@ -112,7 +112,7 @@ We use transifex for this.
 1. Go to https://www.transifex.net/projects/p/opendatamanual/
 2. Add translation for specified language (and a team)
 
-Building a translation of the manual
+Building a translation of the handbook
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Download the translated all.pot file and copy it to (where ``lang`` 
@@ -134,7 +134,7 @@ Building a translation of the manual
     make html lang={lang}
 
 
-.. _Open Data Manual: http://opendatamanual.org/
+.. _Open Data Handbook: http://opendatahandbook.org/
 .. _Open Knowledge Foundation: http://okfn.org/
 .. _Sphinx: http://sphinx.pocoo.org/
 

@@ -92,8 +92,8 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
 sys.path.append(os.path.abspath('_themes'))
-# html_theme_path = ['_themes']
-# html_theme = 'nature'
+html_theme_path = ['_themes']
+html_theme = 'sphinx-theme-okfn'
 html_theme_options = {
         }
 

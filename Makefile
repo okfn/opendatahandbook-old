@@ -106,11 +106,11 @@ upload:
 
 TRANSLATIONDIR = translation
 BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
-POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendix
+POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendices
 
 gettext:
 	$(SPHINXBUILD) -b gettext source build/i18npot
-	msgcat -o translation/all.pot build/i18npot/index.pot build/i18npot/introduction.pot build/i18npot/why-open-data.pot build/i18npot/what-is-open-data.pot build/i18npot/how-to-open-up-data.pot build/i18npot/following-up.pot build/i18npot/glossary.pot build/i18npot/appendix.pot
+	msgcat -o translation/all.pot build/i18npot/index.pot build/i18npot/introduction.pot build/i18npot/why-open-data.pot build/i18npot/what-is-open-data.pot build/i18npot/how-to-open-up-data.pot build/i18npot/following-up.pot build/i18npot/glossary.pot build/i18npot/appendices.pot
 
 linkpot:
 	for potfile in $(POTFILES); do \

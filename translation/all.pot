@@ -1,85 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, Open Knowledge Foundation
-# This file is distributed under the same license as the Open Data Manual package.
+# This file is distributed under the same license as the Open Data Handbook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  index.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
+"Project-Id-Version: Open Data Handbook 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  introduction.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  why-open-data.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  what-is-open-data.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  how-to-open-up-data.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  following-up.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  glossary.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:38\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  appendix.pot (2.0)  #-#-#-#-#\n"
-"Project-Id-Version: 2.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 18:30\n"
+"POT-Creation-Date: 2012-02-15 13:48\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,545 +16,523 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# d70879c54d7348fc9fc95d3cc930f6b9
-#: index.rst:3
-msgid "The Open Data Manual"
+# f5f30c9dd8144a8eaee616dbb91805f1
+#: ../../source/index.rst:3
+msgid "The Open Data Handbook"
 msgstr ""
 
-# c07d91dcac4146268cc6441e450e457a
-#: index.rst:5
+# 101a80a0ad4b45e4932984adff389dcf
+#: ../../source/index.rst:5
 msgid ""
-"**This report discusses legal, social and technical aspects of open data.** "
-"The manual can be used by anyone but is especially designed for those "
+"**This handbook discusses the legal, social and technical aspects of open "
+"data.** It can be used by anyone but is especially designed for those "
 "seeking to **open up** data. It discusses the **why, what and how** of open "
 "data -- why to go open, what open is, and the how to 'open' data."
 msgstr ""
 
-# 0ce3cf6bb974450d9a0be6c587b3403c
-#: index.rst:7
+# 36c781794c2549b3ba3b95d87d7c10c3
+#: ../../source/index.rst:11
 msgid ""
 "To get started, you may wish to look at the Introduction_. You can navigate "
 "through the report using the Table of Contents (see sidebar or below)."
 msgstr ""
 
-# 54bac7fdfba243a6afe055a2ca80ab57
-#: index.rst:11
+# 924dca17a4d94350b9550557c7782b33
+#: ../../source/index.rst:17
 msgid ""
 "We warmly welcome comments on the text and will incorporate feedback as we "
-"go forward. We also welcome contributors or suggestions for additional "
+"go forward. We also welcome contributions or suggestions for additional "
 "sections and areas to examine."
 msgstr ""
 
-# 09d9f6d3915e4228844fa92b38dd8eb5
-#: index.rst:15
+# 43a27ec331cb404a873ebe69e00f74ba
+#: ../../source/index.rst:23
 msgid "Table of Contents"
 msgstr ""
 
-# b4cb80fac79d4e3fa125d5be613e3a17
-#: index.rst:30
+# 51c17a75ea344da3a0ec4c8dbbcc7120
+#: ../../source/index.rst:38
 msgid "Indices and tables"
 msgstr ""
 
-# 96e27ac6ac7c4d12a2bf96da668ef8a8
-#: index.rst:32
+# 16ae49b2d92c417186201549e25604fd
+#: ../../source/index.rst:40
 msgid ":ref:`genindex`"
 msgstr ""
 
-# 3d639deae58940eaa805f9a92b3831e4
-#: index.rst:33
+# 65729c829de34823bf35686bcba5c5ea
+#: ../../source/index.rst:41
 msgid ":ref:`modindex`"
 msgstr ""
 
-# 262f341ceb144255bf849fe6e39a47d5
-#: index.rst:34
+# b54af26664504f54ae02787837ac6d57
+#: ../../source/index.rst:42
 msgid ":ref:`search`"
 msgstr ""
 
-# 6a3e7312208e41a0ae276367afd06e5d
-#: introduction/credits.rst:3
+# 1b5f67b5c5ef44fc99a8b62230d53fa3
+#: ../../source/introduction/credits.rst:3
 msgid "Credits and Copyright"
 msgstr ""
 
-# 0f52c022a1f44ab3adfda03c2464b0d7
-#: introduction/credits.rst:6
+# 8d7720ecfd3d4d29954cb5a74a617e5b
+#: ../../source/introduction/credits.rst:6
 msgid "Contributing authors"
 msgstr ""
 
-# 02e5dace1c304dcaa93ebf56b03159dc
-#: introduction/credits.rst:8
+# 4813ce0efad34e0f9f59a9987e16d1d2
+#: ../../source/introduction/credits.rst:8
 msgid "`Daniel Dietrich`_"
 msgstr ""
 
-# c63ade3c9cc8440182c1170561826184
-#: introduction/credits.rst:9
+# e669f04b04ad45d8a375d825342d581c
+#: ../../source/introduction/credits.rst:9
 msgid "`Jonathan Gray`_"
 msgstr ""
 
-# 3699416108c444dd8704d5c3f0576fcb
-#: introduction/credits.rst:10
+# 2bf37471768c4da189282441070784f8
+#: ../../source/introduction/credits.rst:10
 msgid "`Tim McNamara`_"
 msgstr ""
 
-# f1203ea8824a464a87f5ef9f3a90dc3c
-#: introduction/credits.rst:11
+# 0a0956c9b8844a349a2616cc3d2f6021
+#: ../../source/introduction/credits.rst:11
 msgid "`Antti Poikola`_"
 msgstr ""
 
-# f60980312d854d9d8ee9f4604eb21646
-#: introduction/credits.rst:12
+# 581a9864853548a990f9ef7d0f8b9d58
+#: ../../source/introduction/credits.rst:12
 msgid "`Rufus Pollock`_"
 msgstr ""
 
-# 7fbc70160c234a62a740e605a7b50804
-#: introduction/credits.rst:13
+# d504f920eb724616990b140e0fe60328
+#: ../../source/introduction/credits.rst:13
 msgid "`Julian Tait`_"
 msgstr ""
 
-# 84703d846eef4cf0b0bc29668c3592bb
-#: introduction/credits.rst:14
+# fe2ad6e3c76343a09f8769b13b7ac6f2
+#: ../../source/introduction/credits.rst:14
 msgid "`Ton Zijlstra`_"
 msgstr ""
 
-# ec4fa6ffe5b74db2a4e0af022681d96a
-#: introduction/credits.rst:17
+# 0fd68d80ac03488ab297d645625f9a2b
+#: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
 msgstr ""
 
-# 70a486369d194c7d8c1cc08dc6b16300
-#: introduction/credits.rst:19
+# 6a98ab12d50a4921ab2eda0e1e9c6940
+#: ../../source/introduction/credits.rst:19
 msgid ""
 "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory "
 "Group led by Simon Parrish*"
 msgstr ""
 
-# 8a84202503b14b6d893a8e4080a53673
-#: introduction/credits.rst:21
+# 204fe4b180944db5a25a7d8ae3e6bb43
+#: ../../source/introduction/credits.rst:21
 msgid ""
 "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
 "Gray, Simon Parrish, Jordan Hatcher*"
 msgstr ""
 
-# e82b053b96d3422183630a6ccad41922
-#: introduction/credits.rst:23
+# c6912e22d1bb445197c1d7ff9038b3b5
+#: ../../source/introduction/credits.rst:23
 msgid "Finnish manual authored by *Antti Poikola*"
 msgstr ""
 
-# aefec790148b4c6bb6e8d9a9d72b8ca9
-#: introduction/credits.rst:24
+# 72995ff0c45546fb96001b2d2943b23b
+#: ../../source/introduction/credits.rst:24
 msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
 msgstr ""
 
-# 6040065f25704c32b0d7337990d72058
-#: introduction/credits.rst:27
+# 1fa7678429dc4e7ba709facce38c5057
+#: ../../source/introduction/credits.rst:27
 msgid "Other sources"
 msgstr ""
 
-# 434dd3a2e19a4b6ab21db910e2f24fc0
-#: introduction/credits.rst:29
+# b3444a5473914041904d09a43773aa12
+#: ../../source/introduction/credits.rst:29
 msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
 msgstr ""
 
-# 66b86d3060e241678fbe36a044f7159a
-#: introduction/credits.rst:32
+# d7cab88e6ce54cd28190a5ab1254f01b
+#: ../../source/introduction/credits.rst:32
 msgid "Copyright"
 msgstr ""
 
-# 6e022f0e9da049caa4939a909de698d5
-#: introduction/credits.rst:34
+# 4ccd9e0fba5e464ebae847cbae667d17
+#: ../../source/introduction/credits.rst:34
 msgid ""
 "This manual is copyright 2010-2011 of its respective contributors and "
 "licensed under a `Creative Commons Attribution License`_ (unported and all "
-"jurisctions)."
+"jurisdictions)."
 msgstr ""
 
-# 7ff4f81bac5f4e918e707923b7178666
-#: introduction/index.rst:3
+# 30bf1cf5d5454342b593b64ba1637d6c
+#: ../../source/introduction/index.rst:3
 msgid "Introduction"
 msgstr ""
 
-# a014ff3ddf8247e8946602051606ea99
-#: introduction/index.rst:5
+# 2ff15e409b8c4794bfcae47bf53ee94e
+#: ../../source/introduction/index.rst:5
 msgid ""
 "Do you know exactly how much of your tax money is spent on street lights or "
 "on cancer research? What is the shortest, safest and most scenic bicycle "
-"route from your home to your work? And what is in the air you breathe along "
-"the way? Where in your region will you find the best job opportunities and "
-"the highest number of fruit trees per capita? When can you influence "
+"route from your home to your work? And what is in the air that you breathe "
+"along the way? Where in your region will you find the best job opportunities "
+"and the highest number of fruit trees per capita? When can you influence "
 "decisions about topics you deeply care about, and whom should you talk to?"
 msgstr ""
 
-# fdd654e4a3a542acabf667ae08c6f1a2
-#: introduction/index.rst:7
+# 49cff96554694579b79eaa0079e3d2a3
+#: ../../source/introduction/index.rst:12
 msgid ""
 "New technologies now make it possible to build the services to answer these "
 "questions automatically. Much of the data you would need to answer these "
 "questions is generated by public bodies. However, often the data required is "
-"not yet available in a form that makes it easy to use. This book is about "
-"how to unlock the potential of official and other information to enable new "
-"services, to improve the lives of citizens and make government and society "
-"work better."
+"not yet available in a form which is easy to use. This book is about how to "
+"unlock the potential of official and other information to enable new "
+"services, to improve the lives of citizens and to make government and "
+"society work better."
 msgstr ""
 
-# 01a4f375e8164eabb793bda7f804c303
-#: introduction/index.rst:9
+# df05ced0f8b1401fbdf117504804ff27
+#: ../../source/introduction/index.rst:20
 msgid ""
 "The notion of :term:`open data` and specifically :term:`open government "
-"data`, information, public or otherwise, which anyone is free to access and "
-"re-use for any purpose, has been around for some years. In 2009 open data "
+"data` - information, public or otherwise, which anyone is free to access and "
+"re-use for any purpose - has been around for some years. In 2009 open data "
 "started to become visible in the mainstream, with various governments (such "
 "as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
 "opening up their public information."
 msgstr ""
 
-# 2e517efc8a2645bf8139d2c67300561b
-#: introduction/index.rst:11
+# f43f3e655139404fae72399ba2c0e68d
+#: ../../source/introduction/index.rst:28
 msgid ""
 "This book explains the basic concepts of ‘open data’, especially in relation "
-"to government. It covers how open data creates value and positively impacts "
-"many different areas. In addition to the background, the manual also "
-"provides concrete information on how to produce open data."
+"to government. It covers how open data creates value and can have a positive "
+"impact in many different areas. In addition to exploring the background, the "
+"handbook also provides concrete information on how to produce open data."
 msgstr ""
 
-# cd69901923a8456ca4b629f1f73ea846
-#: introduction/index.rst:14
+# 1ecbbc0e9ec34b9881346b13011cea06
+#: ../../source/introduction/index.rst:35
 msgid "Target Audience"
 msgstr ""
 
-# b4af1a36c8364a08ac14c71195d5be79
-#: introduction/index.rst:16
-msgid "This manual has a broad audience:"
+# cda52756b81c44adb835dcad26da64a7
+#: ../../source/introduction/index.rst:37
+msgid "This handbook has a broad audience:"
 msgstr ""
 
-# ac8bc821cfc14be59c5e447948ff75cf
-#: introduction/index.rst:18
+# f4b7a5b4423941cf8e0742457183e476
+#: ../../source/introduction/index.rst:39
 msgid ""
-"those who have never heard of open data before and for those who consider "
+"for those who have never heard of open data before and those who consider "
 "themselves seasoned ‘data professionals’"
 msgstr ""
 
-# 73669c2c49d54b04ae47403bb27f42c1
-#: introduction/index.rst:19
+# 7b011d1528bb433496f6b3e8d62ab44c
+#: ../../source/introduction/index.rst:41
 msgid "for civil servants and for activists"
 msgstr ""
 
-# b0ec9e0753fa440ebee9b353ad59870a
-#: introduction/index.rst:20
-msgid "journalists and researchers"
+# b3a6a33e29a445d6b486e6c4106b38fb
+#: ../../source/introduction/index.rst:42
+msgid "for journalists and researchers"
 msgstr ""
 
-# 4ea0420db64247e0a8b132ef890078d9
-#: introduction/index.rst:21
+# 996a97cef9a24ab69c1c6a428b12d654
+#: ../../source/introduction/index.rst:43
 msgid "for politicians and developers"
 msgstr ""
 
-# 82331dcbb7b64581b0b4885e5754b0f8
-#: introduction/index.rst:22
+# e1305c5f93f44a0e9fd97520a27a1425
+#: ../../source/introduction/index.rst:44
 msgid "for data geeks and those who have never heard of an API."
 msgstr ""
 
-# 994ca30435b44f369179918be1d8b1b9
-#: introduction/index.rst:24
+# 3f4140c618c64105becd774102930937
+#: ../../source/introduction/index.rst:46
 msgid ""
-"Most of the information provided currently is focused on data held by the "
+"Most of the information currently provided is focused on data held by the "
 "public sector. However, the authors intentions are to broaden this as time "
 "permits. You are welcome to participate to help us with that effort."
 msgstr ""
 
-# 2b1a0265572c4d3e8d8694532cc8875e
-#: introduction/index.rst:26
+# cce690ed169543d481b52cd58d52782f
+#: ../../source/introduction/index.rst:51
 msgid ""
-"This manual is intended for those with little or no knowledge of the topic. "
-"If you do find a piece of jargon or terminology with which you aren't "
-"familiar please see the detailed Glossary and FAQs (frequently asked "
-"questions) which can be found at the end of the manual."
+"This handbook is intended for those with little or no knowledge of the "
+"topic. If you do find a piece of jargon or terminology with which you aren't "
+"familiar, please see the detailed Glossary and FAQs (frequently asked "
+"questions) which can be found at the end of the handbook."
 msgstr ""
 
-# 98218447f2b34fe6b1e962bbe89634f4
-#: introduction/index.rst:30
+# f31b2a42a21d4d6a948943908a6aa2fe
+#: ../../source/introduction/index.rst:58
 msgid "Credits"
 msgstr ""
 
-# caee621c5efb4da0b763f1e5e1d7bc06
-#: why-open-data/index.rst:3
+# 7e37bef3a2ea4483b3c6da8ae2188a52
+#: ../../source/why-open-data/index.rst:3
 msgid "Why Open Data?"
 msgstr ""
 
-# c2e768e8146f482299ac62d015fc87c1
-#: why-open-data/index.rst:5
+# 994773af28e640c4b81d17c401e7f429
+#: ../../source/why-open-data/index.rst:5
 msgid ""
-":term:`Open data`, especially :term:`open government data`, are a tremendous "
-"resource that is largely untapped. Many different individuals and "
-"organisations collect a broad range of different types of data to be able to "
-"perform their tasks. Government is particularly significant in this regard, "
-"both because of the quantity and centrality of the data they collect, but "
-"also because of all that government data, most is public data by law, and "
-"therefore could be made open and made available for others to use. Why is "
-"that useful?"
+":term:`Open data`, especially :term:`open government data`, is a tremendous "
+"resource that is as yet largely untapped. Many individuals and organisations "
+"collect a broad range of different types of data in order to perform their "
+"tasks. Government is particularly significant in this respect, both because "
+"of the quantity and centrality of the data it collects, but also because "
+"most of that government data is public data by law, and therefore could be "
+"made open and made available for others to use. Why is that of interest?"
 msgstr ""
 
-# 0b8dbf662d2f42e69d779b276662a70f
-#: why-open-data/index.rst:8
+# aa67d805a50d4545bce96181e46b741a
+#: ../../source/why-open-data/index.rst:14
 msgid ""
 "There are many areas where we can expect open data to be of value, and where "
-"examples already exist. There are also many different groups of people and "
-"organisations who can benefit from the availability of open data, including "
-"government itself. At the same time it is impossible to predict precisely "
-"how and where value will be created. The nature of innovation and new things "
-"is that it will come from unlikely places."
+"examples of how it has been used already exist. There are also many "
+"different groups of people and organisations who can benefit from the "
+"availability of open data, including government itself. At the same time it "
+"is impossible to predict precisely how and where value will be created in "
+"the future. The nature of innovation is that developments often comes from "
+"unlikely places."
 msgstr ""
 
-# 282e2504db944d9882ce2a0ad9612e77
-#: why-open-data/index.rst:10
+# 40eb68f6b0424304b66a3dbf38ee418e
+#: ../../source/why-open-data/index.rst:21
 msgid ""
 "It is already possible to point to a large number of areas where open "
-"government data is creating value, and there are likely more. Some of these "
-"areas are:"
+"government data is creating value. Some of these areas include:"
 msgstr ""
 
-# 5a2b24c3c69f4bc6a4b3b93b1c580b56
-#: why-open-data/index.rst:12
+# 811b4b2aee514f17bc081d99bad107e9
+#: ../../source/why-open-data/index.rst:24
 msgid "Transparency and democratic control"
 msgstr ""
 
-# c3114bdb9f1940c2b4fabc2dffa97ab9
-#: why-open-data/index.rst:13
+# 4cc054af40464d92872ef0b9b3533dd2
+#: ../../source/why-open-data/index.rst:25
 msgid "Participation"
 msgstr ""
 
-# 4d10de89b0784b27910f4d06c3196f2f
-#: why-open-data/index.rst:14
+# 0cefdd805a6b41eaa982f7328034f319
+#: ../../source/why-open-data/index.rst:26
 msgid "Self-empowerment"
 msgstr ""
 
-# 11b4a2e4ce1143c59f47f7b62f728687
-#: why-open-data/index.rst:15
+# b139c6a2c6144e2f979b7c88f9af922f
+#: ../../source/why-open-data/index.rst:27
 msgid "Improved or new private products and services"
 msgstr ""
 
-# 95e9782253d74a789ec4502a28d33a72
-#: why-open-data/index.rst:16
+# e8638ed5e26640a5ba683e07ab9a9ede
+#: ../../source/why-open-data/index.rst:28
 msgid "Innovation"
 msgstr ""
 
-# a4d5ae353f384f4099f3864ab20ca83a
-#: why-open-data/index.rst:17
+# 59bd7464bf9f45aab8f14eabb85c924d
+#: ../../source/why-open-data/index.rst:29
 msgid "Improved efficiency of government services"
 msgstr ""
 
-# 0160f88e073a49b790fe08489dcf8fa1
-#: why-open-data/index.rst:18
+# 416c2a74985f4618a03187c4fe525e90
+#: ../../source/why-open-data/index.rst:30
 msgid "Improved effectiveness of government services"
 msgstr ""
 
-# 6b0efb3665bb41448e03197478a7dafa
-#: why-open-data/index.rst:19
+# e507066cd7e246f3addecbe7815b71bb
+#: ../../source/why-open-data/index.rst:31
 msgid "Impact measurement of policies"
 msgstr ""
 
-# 3023888c213d4d33bdb32bdfa3d6f15c
-#: why-open-data/index.rst:20
+# a01d04d19acd468e82218ca46082a6ab
+#: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
 msgstr ""
 
-# 29bcb433aadf4215b8560bce9921f62a
-#: why-open-data/index.rst:23
+# 024085f9235341d09d5832815b261faf
+#: ../../source/why-open-data/index.rst:35
 msgid "Examples exist for most of these areas."
 msgstr ""
 
-# 498dae375b8a451bae85b185d672c2b0
-#: why-open-data/index.rst:25
+# 7a8fcaf138c54b0bb03e3023b8d7f89e
+#: ../../source/why-open-data/index.rst:37
 msgid ""
-"For transparency there are projects such as the Finnish ‘tax tree’ and "
-"British ‘where does my money go’ that show how your tax money is being spend "
-"by government. Or there’s the case of how open data saved Canada $3.2 "
-"billion in charity tax fraud. Also various websites, such as the Danish "
-"folketsting.dk, track activity in parliament and the law making processes, "
-"so you can see what exactly is happening, and which parliamentarians are "
+"In terms of transparency, projects such as the Finnish ‘tax tree’ and "
+"British ‘where does my money go’ show how your tax money is being spent by "
+"the government. And there’s the example of how open data saved Canada $3.2 "
+"billion in charity tax fraud. Also various websites such as the Danish "
+"folketsting.dk track activity in parliament and the law making processes, so "
+"you can see what exactly is happening, and which parliamentarians are "
 "involved."
 msgstr ""
 
-# 229d3396f8f445b4abee67fe7f15b1e9
-#: why-open-data/index.rst:27
+# 393884d9cda247488f05b53af98b069a
+#: ../../source/why-open-data/index.rst:45
 msgid ""
 "Open government data can also help you to make better decisions in your own "
 "life, or enable you to be more active in society. A woman in Denmark built "
-"findtoilet.dk with all Danish public toilets so people she knew with bladder "
-"problems now trust themselves to go out more again. In the Netherlands a "
-"service, vervuilingsalarm.nl, is available that warns you with a message if "
-"the air quality in your vicinity is reaching a self-defined threshold "
-"tomorrow. In New York you can easily find out where you can walk your dog, "
-"as well as find other people who use those parks. Services like ‘mapumental’ "
-"in the UK and ‘mapnificent’ in Germany allow you to find places you can "
-"live, given a certain commute time to your work place, prices of housing, "
-"and how beautiful an area is. All these examples are using open government "
-"data."
+"findtoilet.dk, which showed all the Danish public toilets, so that people "
+"she knew with bladder problems can now trust themselves to go out more "
+"again. In the Netherlands a service, vervuilingsalarm.nl, is available which "
+"warns you with a message if the air-quality in your vicinity is going to "
+"reach a self-defined threshold tomorrow. In New York you can easily find out "
+"where you can walk your dog, as well as find other people who use the same "
+"parks. Services like ‘mapumental’ in the UK and ‘mapnificent’ in Germany "
+"allow you to find places to live, taking into account the duration of your "
+"commute to work, housing prices, and how beautiful an area is. All these "
+"examples use open government data."
 msgstr ""
 
-# 589a1ee105424ca28739a8d6983c67a8
-#: why-open-data/index.rst:29
+# 21fc21f96c914d439e47f4b4f840e654
+#: ../../source/why-open-data/index.rst:58
 msgid ""
-"Economically open data is of great importance as well. Several studies have "
+"Economically, open data is of great importance as well. Several studies have "
 "estimated the economic value of open data at several tens of billions of "
-"Euros yearly in the EU alone. New products and companies are re-using open "
-"data. The Danish husetsweb.dk helps you find ways to improve the energy "
+"Euros annually in the EU alone. New products and companies are re-using open "
+"data. The Danish husetsweb.dk helps you to find ways of improving the energy "
 "efficiency of your home, including financial planning and finding builders "
-"who can do the work. It is based on re-using catastral information, "
-"information about government subsidies as well as the local trade register. "
-"Google Translate uses the enormous volume of EU documents, that appear in "
-"all European languages, to train the translating algorithms, thus improving "
-"its quality of service."
+"who can do the work. It is based on re-using cadastral information and "
+"information about government subsidies, as well as the local trade register. "
+"Google Translate uses the enormous volume of EU documents that appear in all "
+"European languages to train the translation algorithms, thus improving its "
+"quality of service."
 msgstr ""
 
-# 545e39e1c4d54f3ba0d2eeb56cb83dc4
-#: why-open-data/index.rst:31
+# ead51b4c39ad4220a77d9d22fc8e4e06
+#: ../../source/why-open-data/index.rst:69
 msgid ""
-"Also for government itself open data is of value. Efficiency can be "
-"increased for instance. The Dutch Ministry of Education has published all of "
-"their education related data on-line for re-use. Since then the number of "
-"questions they receive has dropped reducing work load and costs, but the "
-"remaining questions now are easier to answer for civil servants as well, "
-"because it is clear where the relevant data to answer those questions can be "
-"found. Open data is also making government more effective, which ultimately "
-"also reduces costs. The Dutch department for cultural heritage is actively "
-"releasing their data and collaborating with amateur historical societies and "
-"groups like the Wikimedia Foundation to execute their own tasks more "
-"effectively. This not only results in improvement of the quality of their "
-"data, but it will also make the department smaller."
+"Open data is also of value for government itself. For example, it can "
+"increase government efficiency. The Dutch Ministry of Education has "
+"published all of their education-related data online for re-use. Since then, "
+"the number of questions they receive has dropped, reducing work-load and "
+"costs, and the remaining questions are now also easier for civil servants to "
+"answer, because it is clear where the relevant data can be found. Open data "
+"is also making government more effective, which ultimately also reduces "
+"costs. The Dutch department for cultural heritage is actively releasing "
+"their data and collaborating with amateur historical societies and groups "
+"such as the Wikimedia Foundation in order to execute their own tasks more "
+"effectively. This not only results in improvements to the quality of their "
+"data, but will also ultimately make the department smaller."
 msgstr ""
 
-# 1a8c00f151d84ba281583732a6bf05e3
-#: why-open-data/index.rst:33
+# 543ff375966d4a1ea6b5b0f5e5e88d9a
+#: ../../source/why-open-data/index.rst:83
 msgid ""
-"While there are numerous instances where open data is already creating both "
-"social and economical value in very diverse ways, at the same time we don’t "
-"know yet what new things will become possible. New combinations of data can "
-"create new knowledge and insights, that lead to whole new fields of "
-"application. We have seen that in the past, such as when Dr. Snow in London "
-"discovered the relationship between drinking water pollution and cholera in "
-"the 19th century, by combining data about cholera deaths with the location "
-"of water wells. This led to the building of London’s sewage systems, and "
-"meant a huge improvement in general health of the population. We will likely "
-"see that as well when unexpected insights flow from combining open data sets."
+"While there are numerous instances of the ways in which open data is already "
+"creating both social and economic value, we don’t yet know what new things "
+"will become possible. New combinations of data can create new knowledge and "
+"insights, which can lead to whole new fields of application. We have seen "
+"this in the past, for example when Dr. Snow discovered the relationship "
+"between drinking water pollution and cholera in London in the 19th century, "
+"by combining data about cholera deaths with the location of water wells. "
+"This led to the building of London’s sewage systems, and hugely improved the "
+"general health of the population. We are likely to see such developments "
+"happening again as unexpected insights flow from the combination of "
+"different open data sets."
 msgstr ""
 
-# d2798fc79fd648dab5c925aa559d9946
-#: why-open-data/index.rst:35
+# c746c06ac240423eb1e0f3ba920572c0
+#: ../../source/why-open-data/index.rst:94
 msgid ""
 "This untapped potential can be unleashed if we turn public government data "
-"into open data. Only, however, if it is really open, so if there are no "
-"restrictions (legal, financial or technological) to the re-use by others. "
-"Every restriction will exclude people from re-using the public data, and "
-"make it harder to find valuable ways of doing that. For the potential to be "
-"realized, the public data needs to be open data."
+"into open data. This will only happen, however, if it is really open, i.e. "
+"if there are no restrictions (legal, financial or technological) to its re-"
+"use by others. Every restriction will exclude people from re-using the "
+"public data, and make it harder to find valuable ways of doing that. For the "
+"potential to be realized, public data needs to be open data."
 msgstr ""
 
-# d74be7ea1ba94fc9a7f7023a80e4e5a7
-#: what-is-open-data/index.rst:3
+# 7221ec1474264809903a2ee20ddafa32
+#: ../../source/what-is-open-data/index.rst:3
 msgid "What is Open Data?"
 msgstr ""
 
-# a10b30b521224f85b96fe863f7cb0657
-#: what-is-open-data/what-data-are-you-talking-about.rst:3
-msgid "What Data are You Talking About?"
-msgstr ""
-
-# 9e7dd55b876842c28c5bcf7256658ab1
-#: what-is-open-data/what-data-are-you-talking-about.rst:5
+# a11724f7cd1048d9b211c2238dbc91df
+#: ../../source/what-is-open-data/index.rst:5
 msgid ""
-"Readers have already seen examples of the sorts of data that are or may "
-"become open - and they will see more examples below. However, it will be "
-"useful to quickly outline what sorts of data are, or could be, open -- and, "
-"equally importantly, won’t be open."
+"This handbook is about *open data* but what exactly is it? In particular "
+"what makes *open* data open, and what sorts of data are we talking about?"
 msgstr ""
 
-# 87b9ec28e1fa4a42bb2d20980d4ae717
-#: what-is-open-data/what-data-are-you-talking-about.rst:7
-msgid ""
-"The key point to make is that when opening up data the focus is on non-"
-"personal data, that is, data which does not contain information about "
-"specific individuals."
-msgstr ""
-
-# 35f2a3948d904e87ba4304a360c379fe
-#: what-is-open-data/what-data-are-you-talking-about.rst:9
-msgid ""
-"Similarly, for some kinds of government data, national security restrictions "
-"may apply."
-msgstr ""
-
-# 05e4e0a3121f44f9a3b000da06c5d33e
-#: what-is-open-data/what-is-open-data.rst:3
+# e36bdcc032f94ceaaa745d775bef021f
+#: ../../source/what-is-open-data/index.rst:9
 msgid "What is Open?"
 msgstr ""
 
-# ccc6f4e9ae36405b9e267755caa53a49
-#: what-is-open-data/what-is-open-data.rst:5
+# eba02b735a704f2882238599ed77a152
+#: ../../source/what-is-open-data/index.rst:11
 msgid ""
-"This manual is about open data but what exactly is *open* data? For our "
-"purposes open data is as defined by the `Open Definition`_:"
+"This handbook is about open data - but what exactly is *open* data? For our "
+"purposes, open data is as defined by the `Open Definition`_:"
 msgstr ""
 
-# c62667bde57b4d1f84bab71d1063fc7e
-#: what-is-open-data/what-is-open-data.rst:8
+# c21c55d63009425cb7836de7ce7a5369
+#: ../../source/what-is-open-data/index.rst:14
 msgid ""
 "*Open data is data that can be freely used, reused and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
 msgstr ""
 
-# bab19dcb4a044af3a93b396d817d610c
-#: what-is-open-data/what-is-open-data.rst:12
+# 34cc718e9c7a4065b75b0ca0cae1f5e8
+#: ../../source/what-is-open-data/index.rst:18
 msgid ""
-"The `full Open Definition`_ gives precise details as to what this means but "
-"to summarize the most important:"
+"The `full Open Definition`_ gives precise details as to what this means. To "
+"summarize the most important:"
 msgstr ""
 
-# bebc31923bd2444f919411f525a54d98
-#: what-is-open-data/what-is-open-data.rst:15
+# d48453af378440f3a23b77396319520e
+#: ../../source/what-is-open-data/index.rst:21
 msgid ""
 "**Availability and Access:** the data must be available as a whole and at no "
-"more than a reasonable reproduction cost, preferably downloading over the "
+"more than a reasonable reproduction cost, preferably by downloading over the "
 "internet. The data must also be available in a convenient and modifiable "
 "form."
 msgstr ""
 
-# 8bc81eea19de4e68b1999ba58f4cf63f
-#: what-is-open-data/what-is-open-data.rst:19
+# 19becdd31e424664923f7210850921a5
+#: ../../source/what-is-open-data/index.rst:25
 msgid ""
 "**Reuse and Redistribution:** the data must be provided under terms that "
 "permit reuse and redistribution including the intermixing with other "
 "datasets."
 msgstr ""
 
-# e71f898b1cd447dea01f4137a7f356e0
-#: what-is-open-data/what-is-open-data.rst:22
+# 1a0d9c5de3734dcc83ccfe558beb4264
+#: ../../source/what-is-open-data/index.rst:28
 msgid ""
-"**Universal Participation:** everyone must be able to use, reuse "
+"**Universal Participation:** everyone must be able to use, reuse and "
 "redistribute - there should be no discrimination against fields of endeavour "
 "or against persons or groups. For example, ‘non-commercial’ restrictions "
-"that would prevent ‘commercial’ use or restrictions of use for certain "
-"purposes (e.g. only in education) are not allowed."
+"that would prevent ‘commercial’ use, or restrictions of use for certain "
+"purposes (e.g. only in education), are not allowed."
 msgstr ""
 
-# acbecf037f3c47deaf60ff1d003cc60c
-#: what-is-open-data/what-is-open-data.rst:28
+# 0da7fa2e5da342c6904e9adf818a04cf
+#: ../../source/what-is-open-data/index.rst:34
 msgid ""
 "If you’re wondering why it is so important to be clear about what open means "
-"and why this definition is used there’s a simple answer: **interoperability."
+"and why this definition is used, there’s a simple answer: **interoperability."
 "**"
 msgstr ""
 
-# cd7bba7571ac4e2f80675a45f929e5ac
-#: what-is-open-data/what-is-open-data.rst:32
+# e30c2ff348d844c9977a723cca84fb6a
+#: ../../source/what-is-open-data/index.rst:38
 msgid ""
 "Interoperability denotes the ability of diverse systems and organizations to "
 "work together (inter-operate). In this case, it is the ability to "
 "interoperate - or intermix - different datasets."
 msgstr ""
 
-# eb31fb92078c436bb44c08833d499763
-#: what-is-open-data/what-is-open-data.rst:36
+# 06577cee94b34369ae53a67c60c440db
+#: ../../source/what-is-open-data/index.rst:42
 msgid ""
 "Interoperability is important because it allows for different components to "
 "work together. This ability to componentize and to ‘plug together’ "
@@ -636,8 +543,8 @@ msgid ""
 "effort."
 msgstr ""
 
-# 24fbeb5570dd40cf900a33bd0d436fc6
-#: what-is-open-data/what-is-open-data.rst:44
+# a3b60439b3db4d4aa01b5448af4e26ba
+#: ../../source/what-is-open-data/index.rst:50
 msgid ""
 "We face a similar situation with regard to data. The core of a “commons” of "
 "data (or code) is that one piece of “open” material contained therein can be "
@@ -648,249 +555,278 @@ msgid ""
 "discussed in more detail in the section on ‘why’ open data)."
 msgstr ""
 
-# 73edebb269a24ea38a552ec23334a7ee
-#: what-is-open-data/what-is-open-data.rst:53
+# 7e417a131b264627af2cd80ff87d1946
+#: ../../source/what-is-open-data/index.rst:59
 msgid ""
 "Providing a clear definition of openness ensures that when you get two open "
-"datasets from two different sources you will be able to combine them "
-"together, and it ensures we **avoid our own ‘tower of babel’: lots of "
+"datasets from two different sources, you will be able to combine them "
+"together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
 msgstr ""
 
-# 02bb8e9fe55b440a86777096856115c2
-#: how-to-open-up-data/apply-an-open-license.rst:3
+# 70d6991d99ae4c65b60e842024c3d7fc
+#: ../../source/what-is-open-data/index.rst:70
+msgid "What Data are You Talking About?"
+msgstr ""
+
+# beb5a97a14d047638f296dedcf37b375
+#: ../../source/what-is-open-data/index.rst:72
+msgid ""
+"Readers have already seen examples of the sorts of data that are or may "
+"become open - and they will see more examples below. However, it will be "
+"useful to quickly outline what sorts of data are, or could be, open -- and, "
+"equally importantly, what won’t be open."
+msgstr ""
+
+# eb8af388249a4952bd11ed57fab75c89
+#: ../../source/what-is-open-data/index.rst:77
+msgid ""
+"The key point is that when opening up data, the focus is on non-personal "
+"data, that is, data which does not contain information about specific "
+"individuals."
+msgstr ""
+
+# c9b6dca41e394c0aa007efae38120059
+#: ../../source/what-is-open-data/index.rst:81
+msgid ""
+"Similarly, for some kinds of government data, national security restrictions "
+"may apply."
+msgstr ""
+
+# c83eb6388c8f4574aef485018a9a5fd7
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
 msgid "Apply an Open License (Legal Openness)"
 msgstr ""
 
-# 9e2922c804644ab0b9afcced136bb201
-#: how-to-open-up-data/apply-an-open-license.rst:5
+# 172f36b8cd80480d80232d9690ba83ac
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
 msgid ""
-"apply-an-open-license.rst choose-datasets.rst index.rst make-data-available."
-"rst prevent third-parties from using, reusing and redistributing data "
-"without explicit permission. Even in places where the existence of rights is "
+"In most jurisdictions there are intellectual property rights in data that "
+"prevent third-parties from using, reusing and redistributing data without "
+"explicit permission. Even in places where the existence of rights is "
 "uncertain, it is important to apply a license simply for the sake of "
 "clarity. Thus, **if you are planning to make your data available you should "
-"put a license on it** -- and if you want your data to be `open`_ this is "
-"even more important."
+"put a license on it** – and if you want your data to be `open`_ this is even "
+"more important."
 msgstr ""
 
-# 114dad22d3c84d80bfe9ce88123df390
-#: how-to-open-up-data/apply-an-open-license.rst:18
+# ab9384e851a14317944b402e139a487f
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
 msgid ""
-"What licenses can you use? We recommend for 'open' data you use one of the "
-"licenses conformant with the `Open Definition`_ and marked as suitable for "
-"data. This list (along with instructions for usage) can be found at:"
+"What licenses can you use? We recommend that for 'open' data you use one of "
+"the licenses conformant with the `Open Definition`_ and marked as suitable "
+"for data. This list (along with instructions for usage) can be found at:"
 msgstr ""
 
-# 1e20b68a75e649c09fdd5a4882cbb1f0
-#: how-to-open-up-data/apply-an-open-license.rst:22
-msgid "<http://opendefinition.org/licenses/>"
+# 2e93b116c6f347dea0fabdc3c4781ea3
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
+msgid "http://opendefinition.org/licenses/"
 msgstr ""
 
-# 6bce5e1fe47a4e0b988fc760219da332
-#: how-to-open-up-data/apply-an-open-license.rst:24
+# e8cf683fe5734f72883b7af7f114be6e
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:22
 msgid ""
 "A short 1-page instruction guide to applying an open data license can be "
 "found on the Open Data Commons site:"
 msgstr ""
 
-# 1976e61faa524c619c6e4117deba2009
-#: how-to-open-up-data/apply-an-open-license.rst:26
-msgid "<http://opendatacommons.org/guide/>"
+# 0fe34b8161b84b868a94a1d8ec5e05ae
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
+msgid "http://opendatacommons.org/guide/"
 msgstr ""
 
-# c2658616f6874eb7a6cf59707ae396eb
-#: how-to-open-up-data/choose-datasets.rst:3
+# e1449bd80f064c09b2a52c6178ab2b68
+#: ../../source/how-to-open-up-data/choose-datasets.rst:3
 msgid "Choose Dataset(s)"
 msgstr ""
 
-# f3df830ab96a4beab57cfd49f3d90380
-#: how-to-open-up-data/choose-datasets.rst:5
+# 6c9824ed825545c48a159aa5fdb68886
+#: ../../source/how-to-open-up-data/choose-datasets.rst:5
 msgid ""
-"Choosing the dataset(s) you plan to make open is the first step to take – "
-"though remember the whole opening up data process is iterative and you can "
+"Choosing the dataset(s) you plan to make open is the first step – though "
+"remember that the whole process of opening up data is iterative and you can "
 "return to this step if you encounter problems later on."
 msgstr ""
 
-# 4681181360a34803b412892ad689c15a
-#: how-to-open-up-data/choose-datasets.rst:9
+# 8bb4eab06a2d484abc04dd551901cf87
+#: ../../source/how-to-open-up-data/choose-datasets.rst:9
 msgid ""
 "If you already know exactly what dataset(s) you plan to open up you can move "
 "straight on to the next section. However, in many cases, especially for "
-"large institutions, choosing what datasets to focus on is a challenge. How "
+"large institutions, choosing which datasets to focus on is a challenge. How "
 "should one proceed in this case?"
 msgstr ""
 
-# c3395bf71cae40469b8ebdb781d2201a
-#: how-to-open-up-data/choose-datasets.rst:14
+# b32b0a64c7dc48dea542c0673ba54ada
+#: ../../source/how-to-open-up-data/choose-datasets.rst:14
 msgid ""
 "Creating this list should be a quick process that identifies which datasets "
 "could be made open to start with. There will be time at later stages to "
 "check in detail whether each dataset is suitable."
 msgstr ""
 
-# a28cc6f21d52488ca51117263acf22af
-#: how-to-open-up-data/choose-datasets.rst:18
+# f3f4b7fc7cb24431b1a2dd1afd2c08db
+#: ../../source/how-to-open-up-data/choose-datasets.rst:18
 msgid ""
 "There is **no requirement** to create a comprehensive list of your datasets. "
 "The main point to bear in mind is whether it is feasible to publish this "
-"data at all (whether openly or otherwise) - example see the ‘What Data’ "
-"section above."
+"data at all (whether openly or otherwise) - see the ‘What Data’ section "
+"above."
 msgstr ""
 
-# 594596464844487b8f7ab9c64f4f3ff3
-#: how-to-open-up-data/choose-datasets.rst:21
+# 3e02b54e9e0a4d09ac121312283fb9c8
+#: ../../source/how-to-open-up-data/choose-datasets.rst:24
 msgid "Asking the community"
 msgstr ""
 
-# efa094bb13e7444cb2361b9ab47b6ee2
-#: how-to-open-up-data/choose-datasets.rst:23
+# df94b60d92e447958f7ae9f0b509d263
+#: ../../source/how-to-open-up-data/choose-datasets.rst:26
 msgid ""
-"We recommend that you ask the community in the first instance. That is, the "
-"people who will be accessing and using the data, are likely to have a good "
-"understanding of which data are valuable."
+"We recommend that you ask the community in the first instance. That is the "
+"people who will be accessing and using the data, as they are likely to have "
+"a good understanding of which data could be valuable."
 msgstr ""
 
-# c4eae260f3cc4cb09a148874486910b6
-#: how-to-open-up-data/choose-datasets.rst:28
+# d5b1d0174c61410282fe307cd2bbcfcd
+#: ../../source/how-to-open-up-data/choose-datasets.rst:30
 msgid ""
 "Prepare a short list of potential datasets that you would like feedback on. "
-"It is not essential that this list concurs with what your expectations are, "
-"the main intention is to get a feel for the demand. This could be based on "
-"other countries' :term:`open data` catalogues."
+"It is not essential that this list concurs with your expectations, the main "
+"intention is to get a feel for the demand. This could be based on other "
+"countries' :term:`open data` catalogues."
 msgstr ""
 
-# 18f070509cf64bd8bd310c0177929b78
-#: how-to-open-up-data/choose-datasets.rst:33
+# f04493d053ac4d378907df7ba8d79cdb
+#: ../../source/how-to-open-up-data/choose-datasets.rst:36
 msgid "Create a request for comment."
 msgstr ""
 
-# b9bb67542d83437cbbc07594cf757168
-#: how-to-open-up-data/choose-datasets.rst:35
+# 2d70adf716644aeba2269cbf65526523
+#: ../../source/how-to-open-up-data/choose-datasets.rst:38
 msgid ""
 "Publicise your request with a webpage. Make sure that it is possible to "
-"access the request on its own URL. That way, when shared via social media, "
-"the request can be easily found."
+"access the request through its own URL. That way, when shared via social "
+"media, the request can be easily found."
 msgstr ""
 
-# 35f90b3b9f074e9d8dafbb073ed7fd7c
-#: how-to-open-up-data/choose-datasets.rst:39
+# 0716b860729f4fadad308a6313ecd708
+#: ../../source/how-to-open-up-data/choose-datasets.rst:42
 msgid ""
 "Provide easy ways to submit responses. Avoid requiring registration, as it "
 "reduces the number of responses."
 msgstr ""
 
-# 268135d011a545188337e5a65e4539ab
-#: how-to-open-up-data/choose-datasets.rst:42
+# b2040ae28b324208b0770b3827628f7f
+#: ../../source/how-to-open-up-data/choose-datasets.rst:45
 msgid ""
-"Circulate the request to relevant mailing lists, forums and individuals "
+"Circulate the request to relevant mailing lists, forums and individuals, "
 "pointing back to the main webpage."
 msgstr ""
 
-# f46e5a245e8c4864bc8f3a759d6e88e4
-#: how-to-open-up-data/choose-datasets.rst:45
+# d829d961a84c44d59a07b87704cd6ed0
+#: ../../source/how-to-open-up-data/choose-datasets.rst:48
 msgid ""
 "Run a consultation event. Make sure you run it at a convenient time where "
 "the average business person, data wrangler and official can attend."
 msgstr ""
 
-# dc21ba29d2c34f4d87a2aeb1889d1250
-#: how-to-open-up-data/choose-datasets.rst:49
+# cb18fed19f1b4f24bd66e54e264e60ff
+#: ../../source/how-to-open-up-data/choose-datasets.rst:52
 msgid ""
 "Ask a politician to speak on your agency's behalf. Open data is very likely "
 "to be part of a wider policy of increasing access to government information."
 msgstr ""
 
-# ab8c662893d2451b88cffe39bcdd3211
-#: how-to-open-up-data/choose-datasets.rst:55
+# 87fe915e84bd4635ba0000c19142d844
+#: ../../source/how-to-open-up-data/choose-datasets.rst:57
 msgid "Cost basis"
 msgstr ""
 
-# db1c9d150a7c4403aca7135230e19f06
-#: how-to-open-up-data/choose-datasets.rst:57
+# 3b1cc713f9ca4a048a31409bd4d6f9ac
+#: ../../source/how-to-open-up-data/choose-datasets.rst:59
 msgid ""
 "How much money do agencies spend on the collection and maintainence of data "
 "that they hold? If they spend a great deal on a particular set of data, then "
-"it is highly likely that others would like access it."
+"it is highly likely that others would like to access it."
 msgstr ""
 
-# 3164d8e6afe74e699771de5cf4d9679a
-#: how-to-open-up-data/choose-datasets.rst:61
+# 5872f2f035334bbeb48a248911bcad96
+#: ../../source/how-to-open-up-data/choose-datasets.rst:63
 msgid ""
 "This argument may be fairly susceptible to concerns of freeriding. The "
 "question you will need to respond to is, \"Why should other people get "
 "information for free that is so expensive?\". The answer is that the expense "
-"is aborbed by the public secotr to perform a particular function. The cost "
+"is absorbed by the public sector to perform a particular function. The cost "
 "of sending that data, once it has been collected, to a third party is "
 "approximately nothing. Therefore, they should be charged nothing."
 msgstr ""
 
-# 67c64e4e4d8944d68fe9c7781c5a90f6
-#: how-to-open-up-data/choose-datasets.rst:69
+# be9d57405b914529b8085dd704642479
+#: ../../source/how-to-open-up-data/choose-datasets.rst:71
 msgid "Ease of release"
 msgstr ""
 
-# 84f51d9c13504089b6e7799954b47059
-#: how-to-open-up-data/choose-datasets.rst:71
+# ff77e92ce6bb4c7db9a369d701053323
+#: ../../source/how-to-open-up-data/choose-datasets.rst:73
 msgid ""
-"Sometimes, rather than decide which data would be most valuable, it could be "
-"useful to take a look at which data is easiest to get into the public's "
+"Sometimes, rather than deciding which data would be most valuable, it could "
+"be useful to take a look at which data is easiest to get into the public's "
 "hands. Small, easy releases can act as the catalyst for larger behavioural "
 "change within organisations."
 msgstr ""
 
-# 0391ee7dc7274ac5a1f45448596479d3
-#: how-to-open-up-data/choose-datasets.rst:76
+# 47e1ecfca72f4007bb711f526677e475
+#: ../../source/how-to-open-up-data/choose-datasets.rst:78
 msgid ""
 "Be careful with this approach however. It may be the case that these small "
 "releases are of so little value that nothing is built from them. If this "
 "occurs, faith in the entire project could be undermined."
 msgstr ""
 
-# 189f8e35114145a0a0813a96e3b224b7
-#: how-to-open-up-data/choose-datasets.rst:81
+# ee63c4ed21f349739c3abdccd765d7cf
+#: ../../source/how-to-open-up-data/choose-datasets.rst:83
 msgid "Observe peers"
 msgstr ""
 
-# 0399cb2f9c544474888b0183d7c407c4
-#: how-to-open-up-data/choose-datasets.rst:83
+# e37b1cd9bc184065ad9df11a76e63629
+#: ../../source/how-to-open-up-data/choose-datasets.rst:85
 msgid ""
-"Open data is growing movement. There are likely to be many people in your "
+"Open data is a growing movement. There are likely to be many people in your "
 "area who understand what other areas are doing. Formulate a list on the "
 "basis of what those agencies are doing."
 msgstr ""
 
-# a88c501df5ca4c8eac8af10d6166c268
-#: how-to-open-up-data/index.rst:3
+# ee413b2f922642339ceab3289032c37a
+#: ../../source/how-to-open-up-data/index.rst:3
 msgid "How to Open up Data"
 msgstr ""
 
-# 8d65e16af7f94ae7a0dc6687a6d62eac
-#: how-to-open-up-data/index.rst:5
+# 2dafc5b53d0b44bf814cd6a5ccd878f7
+#: ../../source/how-to-open-up-data/index.rst:5
 msgid ""
-"This section forms the core of this manual. It gives concrete, detailed "
-"advice on how data holders can open up data. Here we’ll go through the "
-"basics, but also cover the pitfalls. Lastly, we will discuss the more subtle "
-"issues that can arise."
+"This section forms the core of this handbook. It gives concrete, detailed "
+"advice on how data holders can open up data. We’ll go through the basics, "
+"but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
+"that can arise."
 msgstr ""
 
-# 35313f40f3eb4452a45ebf6fa51e48f3
-#: how-to-open-up-data/index.rst:10
-msgid "There are three key rules we recommend following in opening up data:"
+# c8f5549c41724126a57621358561ef10
+#: ../../source/how-to-open-up-data/index.rst:10
+msgid "There are three key rules we recommend following when opening up data:"
 msgstr ""
 
-# c8b2e18d854b4b7aa7b9ed2b7ca252fd
-#: how-to-open-up-data/index.rst:12
+# 5b4444c418fb49809e0fbac128f5fb52
+#: ../../source/how-to-open-up-data/index.rst:12
 msgid ""
 "**Keep it simple.** Start out small, simple and fast. There is no "
-"requirement that every dataset must be made open right now. Starting out "
-"opening up just one dataset, or even one part of a large dataset is fine -- "
-"of course the more datasets you can open up the better."
+"requirement that every dataset must be made open right now. Starting out by "
+"opening up just one dataset, or even one part of a large dataset, is fine -- "
+"of course, the more datasets you can open up the better."
 msgstr ""
 
-# 09bba26f149042f6b7ff1691a197f866
-#: how-to-open-up-data/index.rst:17
+# 4e32e699a2394809ac2eeaf10a606e91
+#: ../../source/how-to-open-up-data/index.rst:17
 msgid ""
 "Remember this is about innovation. Moving as rapidly as possible is good "
 "because it means you can build momentum and learn from experience -- "
@@ -898,104 +834,104 @@ msgid ""
 "useful."
 msgstr ""
 
-# d9c4ba77c1454e90b25935fbb690a66d
-#: how-to-open-up-data/index.rst:22
+# 7c0266e38a3e4fd290cada8d75790567
+#: ../../source/how-to-open-up-data/index.rst:22
 msgid ""
 "**Engage early and engage often.** Engage with actual and potential users "
-"and reusers of the data as early and as often as you can. Be they citizens, "
-"businesses, developers. This will ensure that the next iteration of your "
+"and reusers of the data as early and as often as you can, be they citizens, "
+"businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
 msgstr ""
 
-# bc60bdf0269a4bc3bdc9a87fa4ae8dc5
-#: how-to-open-up-data/index.rst:27
+# 0fbbc6494edf467293a83edb8d09e37a
+#: ../../source/how-to-open-up-data/index.rst:27
 msgid ""
 "It is essential to bear in mind that much of the data will not reach "
-"ultimate users directly but rather via ‘info-mediaries’. These are the "
-"people who take the data and transform ot remix it be presented. For example "
-"most of us don’t want or need a large database of GPS coordinates, we would "
-"much prefer a map. Thus, engage with infomediaries first. They will reuse "
-"and repurpose the material."
+"ultimate users directly, but rather via ‘info-mediaries’. These are the "
+"people who take the data and transform or remix it to be presented. For "
+"example, most of us don’t want or need a large database of GPS coordinates, "
+"we would much prefer a map. Thus, engage with infomediaries first. They will "
+"reuse and repurpose the material."
 msgstr ""
 
-# 5c92de8a3bf24cb48e3c28969758bad0
-#: how-to-open-up-data/index.rst:34
+# 1acc107458a444a6b1c96a80577926f7
+#: ../../source/how-to-open-up-data/index.rst:34
 msgid ""
 "**Address common fears and misunderstandings**. This is especially important "
 "if you are working with or within large institutions such as government. "
 "When opening up data you will encounter plenty of questions and fears. It is "
-"important to (a) identify the the most important ones and (b) address them "
-"at as an early stage as possible."
+"important to (a) identify the most important ones and (b) address them at as "
+"early a stage as possible."
 msgstr ""
 
-# 9a125583109b4b45a81d6d5439fe29dc
-#: how-to-open-up-data/index.rst:40
+# e3adf249507d4661809ce59a22975942
+#: ../../source/how-to-open-up-data/index.rst:40
 msgid ""
-"There are 4 main steps in making data open, each of which we will cover in "
-"detail below. These are in very approximate order - many of these can be "
-"done simultaneously."
+"There are four main steps in making data open, each of which will be covered "
+"in detail below. These are in very approximate order - many of the steps can "
+"be done simultaneously."
 msgstr ""
 
-# 360556e81fdb4bb9808cacdd2496901f
-#: how-to-open-up-data/index.rst:42
+# 390a93c593f24713a3d20e30d462efe3
+#: ../../source/how-to-open-up-data/index.rst:44
 msgid ""
-"**Choose your dataset(s).** Choose the dataset(s) you plan to make open, "
-"though keep in mind you can (and may need to) return to this step if you "
-"encounter problems at later stages."
+"**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
+"Keep in mind that you can (and may need to) return to this step if you "
+"encounter problems at a later stage."
 msgstr ""
 
-# 93bfc6cd5af842e29c91607babd2d517
-#: how-to-open-up-data/index.rst:43
+# 40fbf659b8da46f7bd461110e4193971
+#: ../../source/how-to-open-up-data/index.rst:47
 msgid "**Apply an open license.**"
 msgstr ""
 
-# beb97981364842ac91ea83de28f348cc
-#: how-to-open-up-data/index.rst:45
+# a03655d63104404297a99935132d137a
+#: ../../source/how-to-open-up-data/index.rst:49
 msgid "Determine what intellectual property rights exist in the data."
 msgstr ""
 
-# 613237afa279406195c9a1595bfc878b
-#: how-to-open-up-data/index.rst:46
+# 684ebd06f53046b88740ce8c53d9de61
+#: ../../source/how-to-open-up-data/index.rst:50
 msgid ""
 "Apply a suitable ‘open’ license that licenses all of these rights and "
 "supports the definition of openness discussed in the section above on ‘What "
 "Open Data’"
 msgstr ""
 
-# 50184ce48a494ca48ebaa4a388944ad3
-#: how-to-open-up-data/index.rst:47
+# 1d9fe4d4d404456a96abd010db0bcb58
+#: ../../source/how-to-open-up-data/index.rst:53
 msgid "NB: if you can't do this go back to step 1 and try a different dataset."
 msgstr ""
 
-# a98f0e167ac744c287e40c6d06515863
-#: how-to-open-up-data/index.rst:49
+# a68c0ed54c614487b7606a3416e44921
+#: ../../source/how-to-open-up-data/index.rst:56
 msgid ""
 "**Make the data available** - in bulk and in a useful format. You may also "
 "wish to consider alternative ways of making it available such as via an API."
 msgstr ""
 
-# a51d62b957164bfba218d5916caf7b8e
-#: how-to-open-up-data/index.rst:50
+# 73cb444e0c9a488d88d4631d6177f7aa
+#: ../../source/how-to-open-up-data/index.rst:59
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalogue to list your open datasets."
 msgstr ""
 
-# 9ebce29e9df446a79f7a0262f74913f7
-#: how-to-open-up-data/make-data-available.rst:3
+# 500737835c9b4153b7c9ec0ae88d3bcf
+#: ../../source/how-to-open-up-data/make-data-available.rst:3
 msgid "Make Data Available (Technical Openness)"
 msgstr ""
 
-# 8b0e3e1f3dc84afeabfe8d130ed17d14
-#: how-to-open-up-data/make-data-available.rst:6
+# ae86634c5b254f31b15aff3c2ca601a3
+#: ../../source/how-to-open-up-data/make-data-available.rst:5
 msgid ""
 ":term:`Open data` needs to be technically open as well as legally open. "
-"Specifically, the data needs be available in bulk in a :term:`machine-"
+"Specifically, the data needs to be available in bulk in a :term:`machine-"
 "readable` format."
 msgstr ""
 
-# a9362007b4c5412f9f30653c2e054013
-#: how-to-open-up-data/make-data-available.rst:11
+# f86252a9de1049338b9382ee885cf58b
+#: ../../source/how-to-open-up-data/make-data-available.rst:10
 msgid ""
 "Data should be priced at no more than a reasonable cost of reproduction, "
 "preferably as a free download from the Internet. This pricing model is "
@@ -1003,106 +939,106 @@ msgid ""
 "data for use."
 msgstr ""
 
-# ee2961781c2740cb8dd35e876351b3d2
-#: how-to-open-up-data/make-data-available.rst:17
+# 93550619c36d4913952b72505cc3d07c
+#: ../../source/how-to-open-up-data/make-data-available.rst:16
 msgid ""
 "The data should be available as a complete set. If you have a register which "
-"is collected under statue, the entire register should be available for "
+"is collected under statute, the entire register should be available for "
 "download. A web API or similar service may also be very useful, but they are "
 "not a substitutes for bulk access."
 msgstr ""
 
-# 544b9a8614c940e6a874f42ea2ca46c8
-#: how-to-open-up-data/make-data-available.rst:23
+# 2b20724041fe40fb8ea7fcfd82c13b61
+#: ../../source/how-to-open-up-data/make-data-available.rst:22
 msgid ""
 "Re-use of data held by the public sector should not be subject to patent "
-"restrictions. More importantly, making sure that you are providng machine-"
+"restrictions. More importantly, making sure that you are providing machine-"
 "readable formats allows for greatest re-use. To illustrate this, consider "
-"statistics published as :abbr:`PDF (Portable Document Format, often used for "
-"high quality printing)` documents. While these statistics can be read by "
+"statistics published as :abbr:`PDF (Portable Document Format)` documents, "
+"often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to reuse that data."
 msgstr ""
 
-# 0bbd2febe32547a7aefcd8dc16384444
-#: how-to-open-up-data/make-data-available.rst:31
+# 0c95f9f66f7e4d7ba0ec437ac03a47f9
+#: ../../source/how-to-open-up-data/make-data-available.rst:31
 msgid "Here are a few policies that will be of great benefit:"
 msgstr ""
 
-# e03231824b3b446d94b9779bad6f7caf
-#: how-to-open-up-data/make-data-available.rst:33
-msgid "keep it simple,"
+# 1cb2c7f4d810485391e0dc8aab9c92bc
+#: ../../source/how-to-open-up-data/make-data-available.rst:33
+msgid "Keep it simple,"
 msgstr ""
 
-# 45242cae65cc450cb268a99787e015b4
-#: how-to-open-up-data/make-data-available.rst:34
-msgid "move fast, and"
+# f67a53ad8d03492185c42e2b1d64967c
+#: ../../source/how-to-open-up-data/make-data-available.rst:34
+msgid "Move fast"
 msgstr ""
 
-# c546750512534295a558f0a40f352f97
-#: how-to-open-up-data/make-data-available.rst:35
-msgid "be pragmatic"
+# 720b2c4ccee74eb1b5f62992a5837727
+#: ../../source/how-to-open-up-data/make-data-available.rst:35
+msgid "Be pragmatic."
 msgstr ""
 
-# 825b39490a4c4c0fa54706a7f28e9923
-#: how-to-open-up-data/make-data-available.rst:37
+# b234c270a6304ff6a189dbc6a1aea8c4
+#: ../../source/how-to-open-up-data/make-data-available.rst:37
 msgid ""
 "In particular it is better to give out raw data now than perfect data in six "
 "months' time."
 msgstr ""
 
-# dbedc2f65cf643ce8c00d6f846be45be
-#: how-to-open-up-data/make-data-available.rst:40
+# 6d4f8a550a1c488a9108c26aa4930743
+#: ../../source/how-to-open-up-data/make-data-available.rst:40
 msgid ""
 "There are many different ways to make data available to others. The most "
-"natural in the Internet age being online publication. There are many "
-"variations tor this model. At its most basic, agencies make their data "
-"available via their websites and a central catalogue directs visitors to "
-"appropriate the appropriate source.  However, there are alternatives."
+"natural in the Internet age is online publication. There are many variations "
+"to this model. At its most basic, agencies make their data available via "
+"their websites and a central catalogue directs visitors to the appropriate "
+"source.  However, there are alternatives."
 msgstr ""
 
-# 1f02b9e985874a0b8d050894201fd080
-#: how-to-open-up-data/make-data-available.rst:46
+# 18435d35120b47d88eb697a92a4e08ad
+#: ../../source/how-to-open-up-data/make-data-available.rst:46
 msgid ""
-"When :term:`connectivity` is limited or the size of the data are extremely "
-"large, distribution via other formats, can be warranted. This section will "
+"When :term:`connectivity` is limited or the size of the data extremely "
+"large, distribution via other formats can be warranted. This section will "
 "also discuss alternatives, which can act to keep prices very low."
 msgstr ""
 
-# 2e1103eed3b748199a5aed1bed8b951a
-#: how-to-open-up-data/make-data-available.rst:51
+# be03f7ae29a74aa1b3f93fd7f603f5c8
+#: ../../source/how-to-open-up-data/make-data-available.rst:51
 msgid "Online methods"
 msgstr ""
 
-# 93aa2004554a47b381fd6af08fca6cb0
-#: how-to-open-up-data/make-data-available.rst:54
-msgid "via your existing website"
+# e06d7ec92b3249d7aebffb93ca11d1d2
+#: ../../source/how-to-open-up-data/make-data-available.rst:54
+msgid "Via your existing website"
 msgstr ""
 
-# 56cae75e80064abe845ba974e8527375
-#: how-to-open-up-data/make-data-available.rst:56
+# 52379d1ea5914f008a1cb06b4550282c
+#: ../../source/how-to-open-up-data/make-data-available.rst:56
 msgid ""
-"The system which will be most familiar to your web content teams is to "
+"The system which will be most familiar to your web content team is to "
 "provide files for download from webpages. Just as you currently provide "
 "access to discussion documents, data files are perfectly happy to be made "
 "available this way."
 msgstr ""
 
-# 5a87a9108fa9486fa99f7be2e0178fc0
-#: how-to-open-up-data/make-data-available.rst:61
+# df8ccfb7c74047b5a74561e16c3b9170
+#: ../../source/how-to-open-up-data/make-data-available.rst:61
 msgid ""
 "One difficulty with this approach is that it is very difficult for an "
 "outsider to discover where to find updated information. This option places "
-"quite a bit of burden on the people creating tools with your data."
+"some burden on the people creating tools with your data."
 msgstr ""
 
-# ab59ea70b49d4bbd9df806cfefd7fbf6
-#: how-to-open-up-data/make-data-available.rst:67
-msgid "via 3rd party sites"
+# 07b0be084b3b4f09a9277abe69b8420e
+#: ../../source/how-to-open-up-data/make-data-available.rst:67
+msgid "Via 3rd party sites"
 msgstr ""
 
-# 04fbb1751de44a5d8ab743f539256ca2
-#: how-to-open-up-data/make-data-available.rst:69
+# c4c0b584230a41e6a723cd542d0000c5
+#: ../../source/how-to-open-up-data/make-data-available.rst:69
 msgid ""
 "Many repositories have become hubs of data in particular fields. For "
 "example, pachube.com is designed to connect people with sensors to those who "
@@ -1110,41 +1046,41 @@ msgid ""
 "public sector agencies to store massive quantities of data for free."
 msgstr ""
 
-# 100ac1aac04c402ab18c643d2967e388
-#: how-to-open-up-data/make-data-available.rst:75
+# 1badcbc75c074cf0a25baca16b4fb558
+#: ../../source/how-to-open-up-data/make-data-available.rst:75
 msgid ""
 "Third party sites can be very useful. The main reason for this is that they "
 "have already pooled together a community of interested people and other sets "
-"of data. When your data is part of these platforms, a a type of positive "
+"of data. When your data is part of these platforms, a type of positive "
 "compound interest is created."
 msgstr ""
 
-# 0990ad1566c649d8a1898e8ce05f992e
-#: how-to-open-up-data/make-data-available.rst:80
+# 1ab2249a041b4a6d8e604942f707041e
+#: ../../source/how-to-open-up-data/make-data-available.rst:80
 msgid ""
 "Wholesale data platforms already provide the infrastructure which can "
 "support the demand. They often provide analytics and usage information. For "
 "public sector agencies, they are generally free."
 msgstr ""
 
-# c7fa67b366f043a580b3992a809b6320
-#: how-to-open-up-data/make-data-available.rst:84
+# 71f1dccff0274c8fac36ed035ac69cd6
+#: ../../source/how-to-open-up-data/make-data-available.rst:84
 msgid ""
 "These platforms can have two costs. The first is independence. Your agency "
 "needs to be able to yield control to others. This is often politically, "
 "legally or operationally difficult. The second cost may be openness. Ensure "
-"that your data platform is agnostic of who can access it. Software "
+"that your data platform is agnostic about who can access it. Software "
 "developers and scientists use many operating sytems, from smart phones to "
 "supercomputers. They should all be able to access the data."
 msgstr ""
 
-# c1e6b030820c4219a62236333cdf64f5
-#: how-to-open-up-data/make-data-available.rst:94
-msgid "via FTP servers"
+# 15bc0e4701c74fc5b59619711036950f
+#: ../../source/how-to-open-up-data/make-data-available.rst:94
+msgid "Via FTP servers"
 msgstr ""
 
-# be82f1bc26d444e897c37249d8b6f5fc
-#: how-to-open-up-data/make-data-available.rst:96
+# 8f92cc3a6e9c4ecfbb011127cd9cd398
+#: ../../source/how-to-open-up-data/make-data-available.rst:96
 msgid ""
 "A less fashionable method for providing access to files is via the File "
 "Transfer Protocol (FTP). This may be suitable if your audience is technical, "
@@ -1152,8 +1088,8 @@ msgid ""
 "HTTP, but is specifically designed to support file transfers."
 msgstr ""
 
-# 4f732d2b6ef24d12a709f177fcb24c8a
-#: how-to-open-up-data/make-data-available.rst:102
+# f0b2274ff0844d99ae08aac8d21d6325
+#: ../../source/how-to-open-up-data/make-data-available.rst:102
 msgid ""
 "FTP has fallen out of favour. Rather than providing a website, looking "
 "through an FTP server is much like looking through folders on a computer. "
@@ -1161,101 +1097,101 @@ msgid ""
 "web development firms to charge for customisation."
 msgstr ""
 
-# 8811892b640a4fecaaccc6020b53eacf
-#: how-to-open-up-data/make-data-available.rst:108
-msgid "as torrents"
+# 27fd7ac4d90e4e10881c9c9db22d6441
+#: ../../source/how-to-open-up-data/make-data-available.rst:108
+msgid "As torrents"
 msgstr ""
 
-# 60121bcd7a4b4d52a6c5ef51bea79e4c
-#: how-to-open-up-data/make-data-available.rst:110
+# 4c0b1d9be6554fd3886ffb55558af219
+#: ../../source/how-to-open-up-data/make-data-available.rst:110
 msgid ""
 ":term:`BitTorrent` is a system which has become familiar to policy makers "
 "because of its association with copyright infringement. BitTorrent uses "
 "files called torrents, which work by splitting the cost of distributing "
 "files between all of the people accessing those files. Instead of servers "
-"becoming overloaded, as the demand increases, so does the supply. This is "
-"the reason that this system is so successful for  sharing movies. It is a "
+"becoming overloaded, the supply increases with the demand increases. This is "
+"the reason that this system is so successful for sharing movies. It is a "
 "wonderfully efficient way to distribute very large volumes of data."
 msgstr ""
 
-# 3b8d563bcceb4311a73a6cac1aa84552
-#: how-to-open-up-data/make-data-available.rst:119
-msgid "as an API"
+# 3859d734873c4a8fa9897afba8c33394
+#: ../../source/how-to-open-up-data/make-data-available.rst:119
+msgid "As an API"
 msgstr ""
 
-# a08020f3e1274b5dbaf60bd128a35d92
-#: how-to-open-up-data/make-data-available.rst:121
+# ea16e8378a5b4011b9347e91e3a80730
+#: ../../source/how-to-open-up-data/make-data-available.rst:121
 msgid ""
 "Data can be published via an :term:`Application Programming Interface` "
 "(API). These interfaces have become very popular. They allow programmers to "
-"select specific portions of the data at a time, rather than providing all of "
-"the data in bulk as a large file. APIs are typically connected to a database "
-"which is being updated in real-time. This means that making information "
-"available via an API can ensure that it is up to date."
+"select specific portions of the data, rather than providing all of the data "
+"in bulk as a large file. APIs are typically connected to a database which is "
+"being updated in real-time. This means that making information available via "
+"an API can ensure that it is up to date."
 msgstr ""
 
-# 6d419cd419484494bde7576ea261bd92
-#: how-to-open-up-data/make-data-available.rst:129
+# 54a12ec81ccb43bd9e6c21f1362d73f2
+#: ../../source/how-to-open-up-data/make-data-available.rst:129
 msgid ""
 "Publishing raw data in bulk should be the primary concern of all open data "
 "intiatives. There are a number of costs to providing an API:"
 msgstr ""
 
-# c51b82c416b24dc3a1dc8ca7e8bf0ca5
-#: how-to-open-up-data/make-data-available.rst:132
+# 81966c07fbff4d49bb399faf766a95fb
+#: ../../source/how-to-open-up-data/make-data-available.rst:132
 msgid ""
 "The price. They require much more development and maintainence than "
 "providing files."
 msgstr ""
 
-# 2c81070da9234ab6a1358fbce917717e
-#: how-to-open-up-data/make-data-available.rst:134
+# e021912e886f49cf9c68b43187a2c922
+#: ../../source/how-to-open-up-data/make-data-available.rst:134
 msgid ""
 "The expectations. In order to foster a community of users behind the system, "
 "it is important to provide certainty. When things go wrong, you will be "
 "expected to incur the costs of fixing them."
 msgstr ""
 
-# 9b7bf4eea87246b88769a8a1623beaa0
-#: how-to-open-up-data/make-data-available.rst:138
+# c6d88ea33a2b44868a693bc7b17006e8
+#: ../../source/how-to-open-up-data/make-data-available.rst:138
 msgid "Access to bulk data ensures that:"
 msgstr ""
 
-# f02124c8b3df47f19c9c8c00aaa74a70
-#: how-to-open-up-data/make-data-available.rst:140
+# fba61209684b4661b95ea5dab5e8f6af
+#: ../../source/how-to-open-up-data/make-data-available.rst:140
 msgid ""
-"there is no dependency on the original provider of the data, meaning if a "
-"restructure or budget cycle changes the situation, the data are still "
-"available"
+"there is no dependency on the original provider of the data, meaning that if "
+"a restructure or budget cycle changes the situation, the data are still "
+"available."
 msgstr ""
 
-# 44186b0021414f5994492ae83f3f05d8
-#: how-to-open-up-data/make-data-available.rst:143
+# dd276762ced9409a947bdc12acce032f
+#: ../../source/how-to-open-up-data/make-data-available.rst:143
 msgid ""
 "anyone else can obtain a copy and redistribute it. This reduces the cost of "
 "distribution away from the source agency and means that there is no single "
 "point of failure."
 msgstr ""
 
-# 1963b919c7fe4b62b9ee6b62c9e52b3e
-#: how-to-open-up-data/make-data-available.rst:146
+# efc1bfa1ad9f42f7a243600fad275274
+#: ../../source/how-to-open-up-data/make-data-available.rst:146
 msgid ""
 "others can develop their own services using the data, because they have "
 "certainty that the data will not be taken away from them."
 msgstr ""
 
-# 733dc01da95f41ddae8f2ebc6c10c042
-#: how-to-open-up-data/make-data-available.rst:149
+# 5b3ed2f22979499c9efd6668709c231e
+#: ../../source/how-to-open-up-data/make-data-available.rst:149
 msgid ""
 "Providing data in bulk allows others to use the data beyond its original "
-"purposes. For example, it allows conversion it into a new format, linking "
-"with other resources, data to be versioned and archival in multiple places. "
+"purposes. For example, it allows it to be converted into a new format, "
+"linked with other resources, or versioned and archived in multiple places. "
 "While the latest version of the data may be made available via an API, raw "
 "data should be made available in bulk at regular intervals."
 msgstr ""
 
-# c9527811b84a4cec9373ab3e7463dbdf
-#: how-to-open-up-data/make-data-available.rst:155
+# a9ef54a067224579a9e9faa75fb905df
+#: ../../source/how-to-open-up-data/make-data-available.rst:155
 msgid ""
 "For example, the Eurostat statistical service has a bulk download facility "
 "offering over 4000 data files. It is updated twice a day, offers data in :"
@@ -1263,206 +1199,105 @@ msgid ""
 "the download facility as well as about the data files."
 msgstr ""
 
-# ca47f9f74b3c47028dce5fadca1f67fe
-#: how-to-open-up-data/make-data-available.rst:160
+# 9de2ca6b793b4fe3a2e0ea0c5d66461a
+#: ../../source/how-to-open-up-data/make-data-available.rst:160
 msgid ""
 "Another example is the District of Columbia OCTO’s Data Catalogue, which "
-"allows data to be downloaded in CSV and XLS format, in addition to live "
-"feeds of the data."
+"allows data to be downloaded in CSV and XLS format in addition to live feeds "
+"of the data."
 msgstr ""
 
-# f8a110ba78f14a7cbfc335351241be87
-#: how-to-open-up-data/make-data-available.rst:165
-msgid "via the data access protocol"
-msgstr ""
-
-# 71dd6e588deb425295b9506b4505dfc9
-#: how-to-open-up-data/make-data-available.rst:167
-msgid ""
-":term:`DAP` (Data Access Protocol) is a system for data transfer that was "
-"developed for use in meterology and climate science. The system was designed "
-"to enable third-parties to access sections of databases stored in some "
-"central location. Despite its origins in a particular field, the technology "
-"is very generic and can be adapted for data transfer in any area."
-msgstr ""
-
-# acc37325616340efa5d88f19c032ebcf
-#: how-to-open-up-data/make-data-available.rst:174
-msgid ""
-"Implementing this technology can enable your agency to be experimental with "
-"its knowledge. For example, Australia's `Bureau of Meteorology Research "
-"Centre`_ provides the following disclaimer on its material:"
-msgstr ""
-
-# ffb76dad2b1b4b4a82073b9ecdf7cdbf
-#: how-to-open-up-data/make-data-available.rst:178
-msgid ""
-"Please note that the following products ... do not currently form part of "
-"the Bureau's standard services in any way."
-msgstr ""
-
-# 379f6fc7be9f4f39b547a8fe1a6c3ac1
-#: how-to-open-up-data/make-data-available.rst:181
-msgid ""
-"This example demonstrates that it is possible to provide data in raw form "
-"without incurring liability for others' use of that data."
-msgstr ""
-
-# 4ff03b19748f46a8952a8802ba726ad3
-#: how-to-open-up-data/make-data-available.rst:187
-msgid "via WebDAV"
-msgstr ""
-
-# fdf200a93e5d491c836258a8e3036bc8
-#: how-to-open-up-data/make-data-available.rst:189
-msgid ""
-"`WebDAV`_, or Web-based Distributed Authoring and Versioning, is an attempt "
-"at making the internet a read/write medium. It is a widely supported open "
-"standard that supports locking and distributed authorship."
-msgstr ""
-
-# 12c7b5eb3a9342748dcb051ab0386722
-#: how-to-open-up-data/make-data-available.rst:193
-msgid ""
-"Providing a service such as this could be useful for situations where your "
-"agency would like to handle receiving improvements to data that it stores. "
-"The agency could provide its original data as the orginal source and then "
-"refer to higher-quality, but unverified derivative data source for users "
-"with different needs."
-msgstr ""
-
-# f132f85b986e4dc39eb38582443cc216
-#: how-to-open-up-data/make-data-available.rst:202
-msgid "Offline methods"
-msgstr ""
-
-# 69e564c3de8d4f44b55095f1421ad7fe
-#: how-to-open-up-data/make-data-available.rst:205
-msgid "via optical media"
-msgstr ""
-
-# b3b97a2f7da94ad989b73d8ebecd1084
-#: how-to-open-up-data/make-data-available.rst:207
-msgid ""
-"Optical media, such as DVDs, are very cheap to produce. However, they tend "
-"to lack the capacity that would warrant the manual handling of distributing "
-"them. One exception to this is events. If you are hosting an event for "
-"developers, such as a hackfest or barcamp, optical media can be the best way "
-"to distribute a dataset for use in the venue."
-msgstr ""
-
-# e85fc955b08d436babcf73ae386d195c
-#: how-to-open-up-data/make-data-available.rst:215
-msgid "via external hard disk drives"
-msgstr ""
-
-# 862409b256264bba8153c8c2d757646a
-#: how-to-open-up-data/make-data-available.rst:217
-msgid ""
-"Hard disk drives can be very useful for data transfers in the terabyte "
-"range. To support this, you need to have some form of ability to receive "
-"funds to cover the purchase, handling and shipping of your data."
-msgstr ""
-
-# f2772ea8574c48a6a82f7785dbafdbb2
-#: how-to-open-up-data/make-data-available.rst:221
-msgid ""
-"Be careful to make sure that you are not charging for the data. Instead, "
-"your fee should be as close to the actual cost of distribution as possible."
-msgstr ""
-
-# ab9bf05d69d1427b91215b26e04b9919
-#: how-to-open-up-data/make-it-discoverable.rst:3
+# f3599db9db8340d793e10946301bc152
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
 msgid "Make data discoverable"
 msgstr ""
 
-# 21c49a37533c4dd2acf491ff7ca6f0d7
-#: how-to-open-up-data/make-it-discoverable.rst:5
+# 754f764aed9d4874bc2cae49215e06e6
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
 msgid ""
 ":term:`Open data` is nothing without users. You need to be able to make sure "
 "that people can find the source material. This section will cover different "
 "approaches."
 msgstr ""
 
-# bdd4a5b611e14cc1977d0e7986a7f9a9
-#: how-to-open-up-data/make-it-discoverable.rst:9
+# a13faf8f6c7f4e8eb1d69042767596e7
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
 msgid ""
-"The most important thing is to provide a neutral space which is easy which "
-"can overcome both inter-agency politics and future budget cycles. "
-"Jurisdictional borders, whether sectorial or geographical, can make "
-"cooperation difficult. However, there are significant benefits in joining "
-"forces. The easier it is for outsiders to discover data, the faster new and "
-"useful tools will be built."
+"The most important thing is to provide a neutral space which can overcome "
+"both inter-agency politics and future budget cycles. Jurisdictional borders, "
+"whether sectorial or geographical, can make cooperation difficult. However, "
+"there are significant benefits in joining forces. The easier it is for "
+"outsiders to discover data, the faster new and useful tools will be built."
 msgstr ""
 
-# 25082c4ac7ee4ea3b64d2e3579d87f7a
-#: how-to-open-up-data/make-it-discoverable.rst:17
+# 360233059514438c91015e171853f5c5
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
 msgid "Existing tools"
 msgstr ""
 
-# 1acc88709271446eb909c31706b4418d
-#: how-to-open-up-data/make-it-discoverable.rst:19
+# 9d96632c42524cb989e2a3be6fd1882c
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data most discoverable."
 msgstr ""
 
-# d92c7d1ee4a541ccadcc44af6cc9b136
-#: how-to-open-up-data/make-it-discoverable.rst:22
+# 32656e4f1e0b44fcbc7c1b5a71fd2761
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
 msgid ""
 "The most prominent is CKAN.net. CKAN stands for the Comprehensive Knowledge "
 "Archive Network, and is a catalogue of all datasets in the world. The site "
-"makes it very easy for developers to find tha material that they're seeking."
+"makes it very easy for developers to find the material that they're seeking."
 msgstr ""
 
-# 2d1ab370a1cf491baa3ac0c91d48d32b
-#: how-to-open-up-data/make-it-discoverable.rst:26
+# d2e8ff2a152944e2b3b15e006ea2e81d
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:26
 msgid ""
 "In addition, there are dozens of specialist catalogues for different sectors "
 "and places. Many scientific communities have created a catalogue system for "
 "their fields, as data are often required for publication."
 msgstr ""
 
-# e67d4d8266514bf7aa2ff8c281ef1aa4
-#: how-to-open-up-data/make-it-discoverable.rst:32
+# 904f43afc8f84502ba9971e55a3637a3
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:32
 msgid "For government"
 msgstr ""
 
-# 42cc67b8665f458eb5fa9e7469c3fab1
-#: how-to-open-up-data/make-it-discoverable.rst:34
+# 9d1340b6754c49078840593a864c7f10
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
 msgid ""
 "As it has emerged, orthodox practice is for a lead agency to create a "
 "catalogue for the government's data. When establishing a catalogue, try to "
-"create some structure which many departments can keep their own information "
-"current easily."
+"create some structure which allows many departments to easily keep their own "
+"information current."
 msgstr ""
 
-# af17ee6f6f384c07af8f2cf17c237a14
-#: how-to-open-up-data/make-it-discoverable.rst:39
+# 1757f1be8e5742458c359bec0c771c2f
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:39
 msgid ""
 "Resist the urge to build the software to support the catalogue from scratch. "
 "There are many free and open source software solutions which have been "
 "adopted by many dozens of governments already. Investing in another platform "
-"will be a waste of resource."
+"will be a waste of resources."
 msgstr ""
 
-# 392ac02376824f509dfcd2e01fa784cb
-#: how-to-open-up-data/make-it-discoverable.rst:44
+# a218b7bde4ee40b6abbddd37c4357474
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:44
 msgid ""
 "There are a few things that most open data catalogues miss. Your programme "
 "could consider the following:"
 msgstr ""
 
-# 48937e7cccec49aa870783e2af91fc06
-#: how-to-open-up-data/make-it-discoverable.rst:47
+# 0bae9c269fcc4b6f85eccd605a3c52a1
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:47
 msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
 "data. It may be worthwhile to think of the catalogue as the region's "
 "catalogue, rather than the regional government's."
 msgstr ""
 
-# a0da7ac0ec9b4bacae61cdf50a7b32a7
-#: how-to-open-up-data/make-it-discoverable.rst:50
+# b6e8f0c0ba7e48deba570d7a4f1b10fb
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:50
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
 "be catalogued. For example, someone may geocode addresses and may wish to "
@@ -1470,34 +1305,34 @@ msgid ""
 "datasets, these improvements remain hidden."
 msgstr ""
 
-# fbd18ad2539e496c9dbcdb6e51093123
-#: how-to-open-up-data/make-it-discoverable.rst:54
+# 9dd49b710504436dae561e68e53283a6
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Be tolerant of your data appearing elsewhere. That is, content is likely to "
 "be duplicated to communities of interest. If you have river level monitoring "
 "data available, then your data may appear in a catalogue for hydrologists."
 msgstr ""
 
-# 174548a845ff4c1ea048d8e2be3a2584
-#: how-to-open-up-data/make-it-discoverable.rst:58
+# e46a38bd4eb844d3a026d51c9ef3a469
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
 msgid ""
-"Ensure that access is equitible. Do not create a priviledged level of access "
+"Ensure that access is equitable. Do not create a privileged level of access "
 "for officials or tenured researchers. This will cause resentment and "
 "ultimately undermine the goals that you are seeking to achive."
 msgstr ""
 
-# 3380b8d38cbe48cba09d543feb2420fc
-#: how-to-open-up-data/make-it-discoverable.rst:64
+# 826e51f434b342958a96bddfd7a0157c
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:64
 msgid "For civil society"
 msgstr ""
 
-# 3c6799a07da54f22a1495c820da29488
-#: how-to-open-up-data/make-it-discoverable.rst:66
+# 07048f21b2fe46ad8ff07b0183defc5c
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:66
 msgid "Be willing to create a supplementary catalogue for non-official data."
 msgstr ""
 
-# ae619626021f458b90dcaf7d64d051cc
-#: how-to-open-up-data/make-it-discoverable.rst:68
+# a59a572aefd448129cb77abaa97cb9a4
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:68
 msgid ""
 "It is very rare for governments to associate with unofficial or non-"
 "authoritative sources. Officials have often gone to great expense to ensure "
@@ -1505,8 +1340,8 @@ msgid ""
 "misuse or overreliance on data."
 msgstr ""
 
-# 35f9bb4a6a054af59e31873702af4fce
-#: how-to-open-up-data/make-it-discoverable.rst:73
+# 3801ae01f23041ac9807e18bb7afea44
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:73
 msgid ""
 "Moreover, governments are unlikely to be willing to support activities that "
 "mesh their information with information from businesses. Governments are "
@@ -1514,86 +1349,86 @@ msgid ""
 "for community groups, businesses and others may be warranted."
 msgstr ""
 
-# 0b39523e9bf84652a3916dc60ea45374
-#: following-up/getting-folks-in-a-room.rst:3
+# d9abf93274ab499d8abb60f7330dcb40
+#: ../../source/following-up/getting-folks-in-a-room.rst:3
 msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
 msgstr ""
 
-# 08f7a4b788d54968bcb55f03df4c851e
-#: following-up/getting-folks-in-a-room.rst:5
+# 8dc5e25ebfcb4d2a910dc8e1f75d09ac
+#: ../../source/following-up/getting-folks-in-a-room.rst:5
 msgid ""
 "Face-to-face events can be a very effective way to encourage others to use "
 "your data. Reasons that you may consider putting on an event include:"
 msgstr ""
 
-# aff6d6b00e64471eb4536dde9eb114d6
-#: following-up/getting-folks-in-a-room.rst:7
+# 06b38721e4a04348a87e41f9b0522c0c
+#: ../../source/following-up/getting-folks-in-a-room.rst:9
 msgid "Finding out more about prospective reusers"
 msgstr ""
 
-# 83f8cce765634af8bc198d8a55017439
-#: following-up/getting-folks-in-a-room.rst:8
+# bc9f433863da41099fad821251acd439
+#: ../../source/following-up/getting-folks-in-a-room.rst:10
 msgid "Finding out more about demand for different datasets"
 msgstr ""
 
-# 01995b57719646f1bba70564e63681e4
-#: following-up/getting-folks-in-a-room.rst:9
+# 1a622c5adfb946c580f683411edb31f3
+#: ../../source/following-up/getting-folks-in-a-room.rst:11
 msgid "Finding out more about how people want to reuse your data"
 msgstr ""
 
-# 405302bfe0fa42bd951a4ad7725b9f15
-#: following-up/getting-folks-in-a-room.rst:10
+# f0e427def1754f8d99c5375eece70f7e
+#: ../../source/following-up/getting-folks-in-a-room.rst:12
 msgid "Enabling prospective reusers to find out more about what data you have"
 msgstr ""
 
-# 60850530643d4a3b8689cad43e5f5984
-#: following-up/getting-folks-in-a-room.rst:11
+# 2f23eb75b502460e82e2618aea14ec1f
+#: ../../source/following-up/getting-folks-in-a-room.rst:14
 msgid ""
 "Enabling prospective users to meet each other (e.g. so they can collaborate)"
 msgstr ""
 
-# 95d7f633b55e4b97af7e2e0099951e5a
-#: following-up/getting-folks-in-a-room.rst:12
+# 737fdc05e94241e88ecdc3c5c5ec3ad5
+#: ../../source/following-up/getting-folks-in-a-room.rst:16
 msgid ""
 "Exposing your data to a wider audience (e.g. from blog posts or media "
 "coverage that the event may help to generate)"
 msgstr ""
 
-# 9f9eda98ecc344c28586e4a91f3c562e
-#: following-up/getting-folks-in-a-room.rst:15
+# 2ebe7bb2059f4789ad1a2cda08d845ca
+#: ../../source/following-up/getting-folks-in-a-room.rst:19
 msgid ""
 "There are also lots of different ways of running events, and different types "
-"of events, depending on what your aim to achieve. As well as more "
+"of events, depending on what aim you want to achieve. As well as more "
 "traditional conference models,  which will include things like preprepared "
 "formal talks, presentations and demonstrations, there are also various kinds "
 "of participant driven events, where those who turn up may:"
 msgstr ""
 
-# 6becc0c59b5040a8abe2578d8e7c5393
-#: following-up/getting-folks-in-a-room.rst:17
+# fe05826c0c9d4335a01c3c0670c48432
+#: ../../source/following-up/getting-folks-in-a-room.rst:26
 msgid "Guide or define the agenda for the event"
 msgstr ""
 
-# 371514e108af4a298319b33a04dbfb78
-#: following-up/getting-folks-in-a-room.rst:18
+# ed0e9521fd624966b4592c31bb94a716
+#: ../../source/following-up/getting-folks-in-a-room.rst:27
 msgid ""
 "Introduce themselves, talk about what they’re interested in and what they’re "
 "working on, on an ad hoc basis"
 msgstr ""
 
-# a24f6765cacf4481ae0e090cefdbe15c
-#: following-up/getting-folks-in-a-room.rst:19
+# d4384807d39e439fad4c534052573728
+#: ../../source/following-up/getting-folks-in-a-room.rst:29
 msgid ""
 "Give impromptu micro-short presentations on something they are working on"
 msgstr ""
 
-# 3d2946a3f1a9484c98742da7d8b1e843
-#: following-up/getting-folks-in-a-room.rst:20
+# 1de4efb55fdd454fb60f6dc50e8cc173
+#: ../../source/following-up/getting-folks-in-a-room.rst:31
 msgid "Lead sessions on something they are interested in"
 msgstr ""
 
-# 3561aa1858be4810b2a8b2cc24199947
-#: following-up/getting-folks-in-a-room.rst:23
+# 00da90e1214841a397781795414ee2f4
+#: ../../source/following-up/getting-folks-in-a-room.rst:33
 msgid ""
 "There is plenty of documentation online about how to run these kinds of "
 "events, which you can find by searching for things like: ‘unconference’, "
@@ -1601,256 +1436,255 @@ msgid ""
 "find it worthwhile to contact people who have run these kinds of events in "
 "other countries, who will most likely be keen to help you out and to advise "
 "you on your event. It may be valuable to partner with another organisation "
-"(e.g. a civic society organisation, a news organisation or and educational "
-"institution) to broaden your base participants and to increase your "
-"exposure. Following are several relevant examples."
+"(e.g. a civic society organisation, a news organisation or an educational "
+"institution) to broaden your base participants and to increase your exposure."
 msgstr ""
 
-# 60f130d6aae249eda6e4f74eda690ab8
-#: following-up/index.rst:3
+# 150531c12f7c4eb0b02dd7f6b3b1e55c
+#: ../../source/following-up/index.rst:3
 msgid "So I’ve Opened Up Some Data, Now What?"
 msgstr ""
 
-# e2bcb7bf0a614a89bbeb43f8239c5864
-#: following-up/index.rst:5
+# b96b0e763b4444acaf8965dd5f070825
+#: ../../source/following-up/index.rst:5
 msgid ""
 "We’ve looked at how to make government information legally and technically "
 "reusable. The next step is to encourage others to make use of that data."
 msgstr ""
 
-# 79eb57151a0b4cdb8066b5d2e096b24c
-#: following-up/index.rst:9
+# d827490caff544899da75edcb97b6d79
+#: ../../source/following-up/index.rst:9
 msgid ""
-"This section looks at additional things which can be done to promote data "
-"reuse."
+"This section looks at additional things which can be done to promote data re-"
+"use."
 msgstr ""
 
-# 207a951c88704d69a53cd7ad14c6c7b4
-#: following-up/making-things.rst:3
+# 1fa1dddcacc14241a352e27eb69f174b
+#: ../../source/following-up/making-things.rst:3
 msgid "Making things! Hackdays, prizes and prototypes"
 msgstr ""
 
-# addea879587a444ea7e726815243a236
-#: following-up/making-things.rst:5
+# df271df103af42488ced5a9bdc0e0b0c
+#: ../../source/following-up/making-things.rst:5
 msgid ""
 "The structure of these competitions is that a number of datasets are "
-"released and programmers participate within a short time-frame, running from "
-"as little as 48 hours to a few weeks, to develop applications. A prize is "
-"then awarded to the best application. Competitions have been held in a "
-"number of countries including the UK, the US, Norway, Australia, Spain, "
+"released and programmers then have a short time-frame - running from as "
+"little as 48 hours to a few weeks - to develop applications using the data. "
+"A prize is then awarded to the best application. Competitions have been held "
+"in a number of countries including the UK, the US, Norway, Australia, Spain, "
 "Denmark and Finland."
 msgstr ""
 
-# ea33533ed2124b6a94353ca204d4a0ad
-#: following-up/making-things.rst:8
+# b6ccae73b580413ba1bd165be8fc6759
+#: ../../source/following-up/making-things.rst:13
 msgid "Examples for Competitions"
 msgstr ""
 
-# 1d09cc6f46f64156b534a498162d7ed3
-#: following-up/making-things.rst:10
+# e0e4707e7f1c4106a00bf115f2d59832
+#: ../../source/following-up/making-things.rst:15
 msgid ""
-"**Show us a better way**, was the first such competition in the world. It "
-"was initiated by the UK Government’s “The Power of Information Taskforce” "
-"headed by Cabinet Office Minister Tom Watson in March 2008. This competition "
-"asked “What would you create with public information?” and was open to "
-"programmers from around the world, with a tempting £80,000 prize for the "
-"five best applications."
+"**Show us a better way** was the first such competition in the world. It was "
+"initiated by the UK Government’s “The Power of Information Taskforce” headed "
+"by Cabinet Office Minister Tom Watson in March 2008. This competition asked "
+"“What would you create with public information?” and was open to programmers "
+"from around the world, with a tempting £80,000 prize for the five best "
+"applications."
 msgstr ""
 
-# 0c059deb48214d798356ba0ba44feb30
-#: following-up/making-things.rst:12
+# 4c88d90f557f4fa6bfa9ae4530b71dc1
+#: ../../source/following-up/making-things.rst:22
 msgid ""
 "**Apps for Democracy**, one of the first competitions in the United States, "
 "was launched in October 2008 by Vivek Kundra, at the time Chief Technology "
 "Officer (CTO) of the District of Columbia (DC) Government. Kundra had "
 "developed the groundbreaking DC data catalogue, http://data.octo.dc.gov/, "
-"which included datasets such as real-time crime feeds, school test       "
-"scores, and poverty indicators. It was at the time the most comprehensive "
-"local data catalogue in the world. The challenge was to make it useful for "
-"citizens, visitors, businesses and government agencies of Washington, DC."
+"which included datasets such as real-time crime feeds, school test scores, "
+"and poverty indicators. It was at the time the most comprehensive local data "
+"catalogue in the world. The challenge was to make it useful for citizens, "
+"visitors, businesses and government agencies of Washington, DC."
 msgstr ""
 
-# 6c1a4b707990400b99294e07cfa51d00
-#: following-up/making-things.rst:14
+# 840b5a66f84d4734985a01d36a5b6eba
+#: ../../source/following-up/making-things.rst:32
 msgid ""
 "The creative solution was to create the Apps for Democracy contest. The "
 "strategy was to ask people to build applications using the data from the "
 "freshly launched data catalogue. It included an online submission for "
-"applications, small but many prices instead of big but few prizes, and "
-"several different categories as well as a “People’s Choice” prize. The "
-"competition was open for 30 days and cost the DC government $50,000. In "
-"return, a total of 47 iPhone, Facebook and web applications were developed "
-"with an estimated value in excess of $2,600,000 for the local economy."
+"applications, many small prizes rather than a few large ones, and several "
+"different categories as well as a “People’s Choice” prize. The competition "
+"was open for 30 days and cost the DC government $50,000. In return, a total "
+"of 47 iPhone, Facebook and web applications were developed with an estimated "
+"value in excess of $2,600,000 for the local economy."
 msgstr ""
 
-# af71c36e4fbd47d8ad0ed40dd1ba347b
-#: following-up/making-things.rst:16
+# a0bc16061514478db91e0159bc9bf481
+#: ../../source/following-up/making-things.rst:42
 msgid ""
 "**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, "
 "this contest invited developers to  create open source applications making "
-"use of public data in just 48    hours. The competition had 29 teams of "
-"participants which developed applications that included a mobile phone "
+"use of public data in just 48 hours. The competition had 29 teams of "
+"participants who developed applications that included a mobile phone "
 "programme for accessing traffic information in the Basque Country, and for "
 "accessing data on buses and bus stops in Madrid, which won the first and "
-"second prizes         of €3,000 and €2,000 respectively."
+"second prizes of €3,000 and €2,000 respectively."
 msgstr ""
 
-# e6a44713d4ef4e82bdfbf215f48d4279
-#: following-up/making-things.rst:18
+# fe353a3b52284b039fa852f5b5393e5d
+#: ../../source/following-up/making-things.rst:50
 msgid ""
 "**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government "
-"Administration    held \"Nettskap 2.0\". Norwegian developers - companies, "
-"public agencies or individuals - were challenged to come up with web-based "
-"project ideas in the areas of service development,    efficient work "
-"processes, and increased democratic participation. The use of government "
-"data was explicitly encouraged. Though the application deadline was just a "
-"month later, on May 9, the Minister Rigmor Aasrud said the response was "
+"Administration held \"Nettskap 2.0\". Norwegian developers – companies, "
+"public agencies or individuals – were challenged to come up with web-based "
+"project ideas in the areas of service development, efficient work processes, "
+"and increased democratic participation. The use of government data was "
+"explicitly encouraged. Though the application deadline was just a month "
+"later, on May 9, the Minister Rigmor Aasrud said the response was "
 "\"overwhelming\". In total 137 applications were received, no less than 90 "
-"of which build on the reuse of government data. A total amount of NOK 2.5 "
+"of which built on the reuse of government data. A total amount of NOK 2.5 "
 "million was distributed among the 17 winners; while the total amount applied "
 "for by the 137 applications was NOK 28.4 million."
 msgstr ""
 
-# cb21c41799a24e6a918ab2002933c084
-#: following-up/making-things.rst:20
+# 08a52fd6faca4ea3a2bfcbf24fe9c7e6
+#: ../../source/following-up/making-things.rst:63
 msgid ""
 "**Mashup Australia**. The Australian Government 2.0 Taskforce invited "
 "citizens to show why open access to Australian government information would "
 "be positive for the country’s economy and social development. The contest "
 "ran from October 7th to November 13th 2009. The Taskforce released some "
 "datasets under an open licence and in a range of reusable formats. The 82 "
-"applications that entered into the contest are further evidence of the new "
-"and innovative applications which can result from releasing government data "
-"on open terms."
+"applications that were entered into the contest are further evidence of the "
+"new and innovative applications which can result from releasing government "
+"data on open terms."
 msgstr ""
 
-# 3f1be2d6e16c4217ba78014a41352328
-#: following-up/making-things.rst:23
+# e15233b9491e44e78795810d2a034266
+#: ../../source/following-up/making-things.rst:73
 msgid "Conferences, Barcamps, Hackdays"
 msgstr ""
 
-# 917f687e94ba4787bad8b09ca4fb75e2
-#: following-up/making-things.rst:25
+# d5c9d0156f3e4f09b55a306728e61a72
+#: ../../source/following-up/making-things.rst:75
 msgid ""
-"One of the more effective ways for Civil Society Organisations (CSO) to "
+"One of the more effective ways for Civil Society Organisations (CSOs) to "
 "demonstrate to governments the value of opening up their datasets is to show "
-"the multiple ways in which the information can be managed to achieve the "
-"social and economic advantages. CSO that promote reuse have been "
-"instrumental in countries where there have been advances in policy and law "
-"to ensure that datasets are both technically and legally open."
+"the multiple ways in which the information can be managed to achieve social "
+"and economic benefit. CSOs that promote reuse have been instrumental in "
+"countries where there have been advances in policy and law to ensure that "
+"datasets are both technically and legally open."
 msgstr ""
 
-# 7c99faf68b024c69bf9d296f8154df4c
-#: following-up/making-things.rst:27
+# 51ec50924eb24202b37dc68512274cbe
+#: ../../source/following-up/making-things.rst:83
 msgid ""
 "The typical activities which are undertaken as part of these initiatives "
 "normally include competitions, :term:`open government data` conferences, "
 "“unconferences”, workshops and “hack days”. These activities are often "
 "organised by the user community with data that has already been published "
-"proactively or obtained using access to information requests. In other cases "
-"civil society advocates have worked with progressive public officials to "
-"secure new release of datasets that can be used by programmers to create "
+"proactively or obtained using access to information requests. In other "
+"cases, civil society advocates have worked with progressive public officials "
+"to secure new release of datasets that can be used by programmers to create "
 "innovative applications."
 msgstr ""
 
-# ff852464b05f4c0383434ddc0b647ceb
-#: following-up/tell-the-world.rst:3
+# 54c0071c85d8421b93aa6e44ba951414
+#: ../../source/following-up/tell-the-world.rst:3
 msgid "Tell the world!"
 msgstr ""
 
-# 6a8f1920af4d491aa0dea9d885ef14f2
-#: following-up/tell-the-world.rst:5
+# 4fe20da5462b4b0691d12f2fc7fa7326
+#: ../../source/following-up/tell-the-world.rst:5
 msgid ""
 "First and foremost, make sure that you promote the fact that you've embarked "
 "on a campaign to promote :term:`open data` in your area of responsibility."
 msgstr ""
 
-# 146cd919dbc245918002054a2c2a5ec6
-#: following-up/tell-the-world.rst:8
+# c87c3f25fc1f4ac6a330fdc30af4dc03
+#: ../../source/following-up/tell-the-world.rst:9
 msgid ""
 "If you open up a bunch of datasets, it’s definitely worth spending a bit of "
 "time to make sure that people know (or at least can find out) that you’ve "
 "done so."
 msgstr ""
 
-# 8836681a005d4fdbb239d1690fa1b4fb
-#: following-up/tell-the-world.rst:12
+# c0c487685e704675af811c128bd49bcb
+#: ../../source/following-up/tell-the-world.rst:13
 msgid ""
 "In addition to things like press releases, announcements on your website, "
 "and so on, you may consider:"
 msgstr ""
 
-# 0b04974c66204a55bc0ffb624a5adc5b
-#: following-up/tell-the-world.rst:15
+# 07999d11d1054e168f6649267a8bc3d1
+#: ../../source/following-up/tell-the-world.rst:16
 msgid ""
 "Contacting prominent organisations or individuals who work/are interested in "
 "this area"
 msgstr ""
 
-# 12dace730c7746ca8a9dfb6f94162b49
-#: following-up/tell-the-world.rst:16
+# 70c87776ee9b424cba8afbfa06e78574
+#: ../../source/following-up/tell-the-world.rst:18
 msgid "Contacting relevant mailing lists or social networking groups"
 msgstr ""
 
-# 37076baaba1c4529bc2967ab3e2feb86
-#: following-up/tell-the-world.rst:17
+# a3eaaffcbd354bd1ab996394ce0af8da
+#: ../../source/following-up/tell-the-world.rst:19
 msgid ""
-"Directly contacting prospective users you know may be interested in this data"
+"Directly contacting prospective users who you know may be interested in this "
+"data"
 msgstr ""
 
-# 5d9e99006be7439a9c90c2418f9d0a99
-#: following-up/tell-the-world.rst:20
+# b170586a1fca4089a40875f3b8d92b7a
+#: ../../source/following-up/tell-the-world.rst:23
 msgid "Understanding your audience"
 msgstr ""
 
-# f4746953d7444a4fa40dd1550ad48a1a
-#: following-up/tell-the-world.rst:22
+# cb66966033f043aa9bf75202fc04cbb7
+#: ../../source/following-up/tell-the-world.rst:25
 msgid ""
 "Like all public communication, engaging with the data community needs to be "
-"targetted. Like all stakeholder groups, the right message can be wasted if "
-"it is directed to the wrong area."
+"targeted. Like all stakeholder groups, the right message can be wasted if it "
+"is directed to the wrong area."
 msgstr ""
 
-# 13dc7af47c5f425fb2b3ca807667c805
-#: following-up/tell-the-world.rst:26
+# ccb9a5bd99ef411d9641b539d2326ade
+#: ../../source/following-up/tell-the-world.rst:29
 msgid ""
 "Digital communities tend to be very willing to share new information, yet "
 "they very rapidly consume it. Write as if your messages will be skimmed "
 "over, rather than critically examined in-depth."
 msgstr ""
 
-# 0bef2acf0e1545d9bef2a443110edc3c
-#: following-up/tell-the-world.rst:30
+# 6739cf0b5c3d461a90f496dcc32c2b99
+#: ../../source/following-up/tell-the-world.rst:33
 msgid ""
 "Members of the tech community are less likely than the general public to use "
 "MS Windows. This means that you should not save documents in MS Office "
-"formats which can be read offline. There are two resons for this for two "
-"reasons."
+"formats which can be read offline. There are two resons for this:"
 msgstr ""
 
-# 8d241530146c4ca496d24e69efceaad4
-#: following-up/tell-the-world.rst:35
+# 1eed5c4351e24095a0dfaa83be3e5b08
+#: ../../source/following-up/tell-the-world.rst:38
 msgid ""
-"The first is that those documents they will be less accessible. Rather than "
-"the document you see on your screen, readers may see a an imperfect copy "
-"from an alternative."
+"The first is that those documents will be less accessible. Rather than the "
+"document you see on your screen, readers may see an imperfect copy from an "
+"alternative."
 msgstr ""
 
-# 53be3a0d3733469d87e02eca59fc118a
-#: following-up/tell-the-world.rst:38
+# 3a17525d69c348c1ab0b829a3c852e77
+#: ../../source/following-up/tell-the-world.rst:41
 msgid ""
 "Secondly, your agency sends an implicit message that you are unwilling to "
 "take a step towards developers. Instead, you show that you are expecting the "
 "technology community to come to you."
 msgstr ""
 
-# 61a38fc5e79f473593ee0f5f79d16be0
-#: following-up/tell-the-world.rst:44
+# f903f0c4836e4621b46c12199d7d7805
+#: ../../source/following-up/tell-the-world.rst:47
 msgid "Post your material on third-party sites"
 msgstr ""
 
-# 4482bc604bb449a9bcc5151b0c59a6cd
-#: following-up/tell-the-world.rst:46
+# 900146069f484622abfb1d70aa6b8fb4
+#: ../../source/following-up/tell-the-world.rst:49
 msgid ""
 "Many blogs have created a large readership in specialised topic areas. It "
 "may be worthwhile adding an article about your initative on their site. "
@@ -1858,153 +1692,147 @@ msgid ""
 "a free blog post in their topic area."
 msgstr ""
 
-# 4e521921a7a741bebd036b1131279a22
-#: following-up/tell-the-world.rst:53
+# 304e273efd40494b94aa01b52ede4072
+#: ../../source/following-up/tell-the-world.rst:56
 msgid "Making your communications more social-media friendly"
 msgstr ""
 
-# 2e4a77be81a645de990cdf3bd4c53138
-#: following-up/tell-the-world.rst:55
+# 09f7fbfbe00848198d71c26106aa2ee6
+#: ../../source/following-up/tell-the-world.rst:58
 msgid ""
-"It's unrealistic to expect that officials should spend large periods of time "
+"It's unrealistic to expect that officials should spend long periods of time "
 "engaging with social media. However, there are several things that you can "
 "do to make sure that your content can be easily shared between technical "
-"users."
+"users. Some tips:"
 msgstr ""
 
-# 66929f4b84a148938f8e5dcd5f98db9b
-#: following-up/tell-the-world.rst:60
-msgid "Some tips:"
-msgstr ""
-
-# 06a1a7384f5248159bee0aa610ef1b08
-#: following-up/tell-the-world.rst:62
+# 1871650560bb4c8d85feed3a827a3433
+#: ../../source/following-up/tell-the-world.rst:65
 msgid ""
-"Provide unique pages for each piece of content When a message is shared with "
-"others, the recipient of the referral will be looking for the relevant "
-"content quickly."
+"When a message is shared with others, the recipient of the referral will be "
+"looking for the relevant content quickly."
 msgstr ""
 
-# e60e95c014554dc1bbcf5acc118621ee
-#: following-up/tell-the-world.rst:66
+# 2ef92cc52f694b2f93e975ecb925c41b
+#: ../../source/following-up/tell-the-world.rst:70
 msgid ""
-"Avoid making people download your press releases Press releases are fine. "
-"They are concise messages about a particular point. However, if you require "
-"people to download the content and for it to open outside of a web browser, "
-"then fewer people will read it. Search engines are less likely to index the "
-"content. People are less likely to click to download."
+"Press releases are fine. They are concise messages about a particular point. "
+"However, if you require people to download the content and for it to open "
+"outside of a web browser, then fewer people will read it. Search engines are "
+"less likely to index the content. People are less likely to click to "
+"download."
 msgstr ""
 
-# d194d73de8e34ba9b51969b94cd4bad4
-#: following-up/tell-the-world.rst:73
+# cb950933a1234caba177177219824870
+#: ../../source/following-up/tell-the-world.rst:78
 msgid ""
-"Consider using a Creative Commons licence Apart from providing certainty to "
-"people who wish to share your content that this is permissible, you send a "
-"message that your agency understands openness. This is bound to leave an "
-"impression far more significant to proponents of open data than any specific "
-"sentence in your press release."
+"Apart from providing certainty to people who wish to share your content that "
+"this is permissible, you send a message that your agency understands "
+"openness. This is bound to leave an impression far more significant to "
+"proponents of open data than any specific sentence in your press release."
 msgstr ""
 
-# f7bc5eb28dc14a4696b39858e2a1a271
-#: following-up/tell-the-world.rst:81
+# c532be8c8f4e40d4833fd4f5fd6ff0ad
+#: ../../source/following-up/tell-the-world.rst:87
 msgid "Social media"
 msgstr ""
 
-# 4fbce7f903c042d385c03425c09ffa9c
-#: following-up/tell-the-world.rst:83
+# 4ffd7f36f1e4432f89a71207d092a91e
+#: ../../source/following-up/tell-the-world.rst:89
 msgid ""
 "It's inefficient for cash-strapped agencies to spend hours on social media "
 "sites. The most significant way that your voice can be heard through these "
-"fora is by making sure that blog posts are easily sharable. That means, "
+"fora is by making sure that blog posts are easily shareable. That means, "
 "before reading the next section, make sure that you have read the last. With "
 "that in mind, here are a few suggestions:"
 msgstr ""
 
-# c4a4fe22670d4ec28f71caabec698054
-#: following-up/tell-the-world.rst:92
+# 84650f35e5804ddeae34645131f7b9a8
+#: ../../source/following-up/tell-the-world.rst:98
 msgid ""
 "Twitter has emerged as the platform of choice for disseminating information "
 "rapidly. Anything tagged with #opendata will be immediately seen by "
 "thousands."
 msgstr ""
 
-# cb2780d47b134dcd8329a9dc1cc0891e
-#: following-up/tell-the-world.rst:96
+# 63575d1e9cd44e3587002284b385f680
+#: ../../source/following-up/tell-the-world.rst:102
 msgid ""
-"LinkedIn has a large selection of groups which are targetted towards open "
+"LinkedIn has a large selection of groups which are targeted towards open "
 "data."
 msgstr ""
 
-# 1606c9eafbb245719aa79d4b609021e4
-#: following-up/tell-the-world.rst:99
+# dd9c292ff5c544c1a1a17a882c8e4fd2
+#: ../../source/following-up/tell-the-world.rst:105
 msgid ""
 "While Facebook is excellent for a general audience, it has not received a "
 "great deal of attention in the open data community."
 msgstr ""
 
-# 55ee442499464112b2c0816510540980
-#: following-up/tell-the-world.rst:104
+# e3ab3ef9376643f894352e5c23933603
+#: ../../source/following-up/tell-the-world.rst:110
 msgid ""
 "Submit your content to the equivalent of newswires for geeks. Reddit and "
 "Hacker News are the two biggest in this arena at the moment. To a lesser "
 "extent, Slashdot and Digg are also useful tools in this area."
 msgstr ""
 
-# f45f086ef4f745b5a608fb97fc1c2839
-#: following-up/tell-the-world.rst:108
+# 73485629ecde4c02964680d05a0e16d8
+#: ../../source/following-up/tell-the-world.rst:115
 msgid ""
-"These sites have a tendency of driving signficiant traffic to interesting "
-"material. They are also heavily focused on topic areas. Therefore, you"
+"These sites have a tendency to drive signficiant traffic to interesting "
+"material. They are also heavily focused on topic areas."
 msgstr ""
 
-# 8581bcac0caf43268daeb84ffa8e23c1
-#: glossary.rst:3
+# 1d45945943804e66b1dd0e088a725526
+#: ../../source/glossary.rst:3
 msgid "Glossary"
 msgstr ""
 
-# 34c1863b48114220b6e57f1746465e27
-#: glossary.rst:104
+# 203e4913d4584afeb23997c547f0b42a
+#: ../../source/glossary.rst:105
 msgid ""
-"The process of turning data that could result into the identification of "
-"individuals."
+"The process of adapting data so that individuals cannot be identified from "
+"it."
 msgstr ""
 
-# 216013e2391941ea8a5cf891bac4cc82
-#: glossary.rst:101
+# 07cc47e58a844f9584dcd0f6ecd5035a
+#: ../../source/glossary.rst:102
 msgid "See :term:`Anonymisation`."
 msgstr ""
 
-# 6cfe81d05d5f4b4e92e7336e55cf9b16
-#: glossary.rst:64
+# ef230d76443e46259f601c7bb4b484b9
+#: ../../source/glossary.rst:64
 msgid "See :term:`Application Programming Interface`."
 msgstr ""
 
-# c8acf4e1586141d3aa607f653fb1687f
-#: glossary.rst:67
+# 220928e00db74de5b2449e767b0d21be
+#: ../../source/glossary.rst:67
 msgid ""
-"A way computer programmes talk to one another. Can be understood in terms of "
-"how a programmer sends instructions between programmes."
+"A way computer programs talk to one another. Can be understood in terms of "
+"how a programmer sends instructions between programs."
 msgstr ""
 
-# c67ada067627489f92a65eee9df4dcb9
-# b0be3638ca2d49929da40bf283d6dad6
-#: glossary.rst:114, glossary.rst:117
+# 6f2e31b14bd146eb82637c92442aa42e
+# c225015fd14c40ed937e9dcd9420899a
+#: ../../source/glossary.rst:114 ../../source/glossary.rst:117
 msgid "See :term:`Information Asset Register`."
 msgstr ""
 
-# 97d372c624544d20821f751b0050f374
-#: glossary.rst:38
+# c916cfe8061b476eb25e04dec338e30c
+#: ../../source/glossary.rst:38
 msgid ""
-"A licence that requires attributing the original source of the material."
+"A licence that requires that the original source of the licensed material is "
+"cited (attributed)."
 msgstr ""
 
-# 52647fe610034c90a737913d5140b300
-#: glossary.rst:42
+# 8fd8a788b7374b0fbdb702c96a2fb201
+#: ../../source/glossary.rst:42
 msgid "See :term:`Attribution Licence`."
 msgstr ""
 
-# 25623c75ea984940a2c1f327eade5bd0
-#: glossary.rst:24
+# e3214a47c1ab4837823b85c4b8e14548
+#: ../../source/glossary.rst:24
 msgid ""
 "BitTorrent is a protocol for distributing the bandwith for transferring very "
 "large files between the computers which are participating in the transfer. "
@@ -2012,62 +1840,62 @@ msgid ""
 "peers to download from each other."
 msgstr ""
 
-# 0e645f53f91e458d85fbdd1b02c74f1e
-#: glossary.rst:20
+# e85539b7429346adb3bbd7fceeb9edbe
+#: ../../source/glossary.rst:20
 msgid ""
 "Connectivity relates to the ability for communities to connect to the "
 "Internet, especially the World Wide Web."
 msgstr ""
 
-# a6c88bed9f40424ab0134d6ad0f89d2d
-#: glossary.rst:88
+# 51ca6728ca684ba5861073aa7eb14dc2
+#: ../../source/glossary.rst:89
 msgid ""
-"A right for the creators of creative works to restrict others' use of of "
-"those works. An owner of copyright is entitled to determine how others may "
-"use that work."
+"A right for the creators of creative works to restrict others' use of those "
+"works. An owner of copyright is entitled to determine how others may use "
+"that work."
 msgstr ""
 
-# f29c829e28374ff1898bd1795eed3cd2
-#: glossary.rst:31
+# 3accd4c828044addb9b887fc0a4420c2
+#: ../../source/glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
 msgstr ""
 
-# bfb9e29820ef40b3992d18652709c93a
-#: glossary.rst:34
+# 6b2cc83e0a0e4cb8a6fa4fca4449988c
+#: ../../source/glossary.rst:34
 msgid ""
 "A system that allows outsiders to be granted access to databases without "
 "overloading either system."
 msgstr ""
 
-# d63beb18c19a47b4811fa9257c334643
-#: glossary.rst:45
+# 12d8c5f66a5949c98875518a2ebb9ed4
+#: ../../source/glossary.rst:45
 msgid ""
-"Data protection legislation is not about protecting the data, but the right "
-"of citizens to live without doubt of the consequences that might come if "
-"information of their private lives becomes public. The law protects the "
-"privacy (such as information about a person economic status, health and "
-"political position) and other rights such as the right to freedom of "
-"movement and assembly. For example, in Finland a travel card system used "
-"record all instances when the card was shown to the reader machine on "
-"different public transport lines. This raised a debate from the perspective "
-"of freedom of movement and the travel card data collection was abandoned "
-"based on the data protection legislation."
+"Data protection legislation is not about protecting the data, but about "
+"protecting the right of citizens to live without fear that information about "
+"their private lives might become public. The law protects privacy (such as "
+"information about a person's economic status, health and political position) "
+"and other rights such as the right to freedom of movement and assembly. For "
+"example, in Finland a travel card system was used to record all instances "
+"when the card was shown to the reader machine on different public transport "
+"lines. This raised a debate from the perspective of freedom of movement and "
+"the travel card data collection was abandoned based on the data protection "
+"legislation."
 msgstr ""
 
-# 689fee79764c484cb8495c7e734041e0
-#: glossary.rst:84
+# a0919bc93c194f6fa793652157632129
+#: ../../source/glossary.rst:85
 msgid ""
 "A right to prevent others from extracting and reusing content from a "
 "database. Exists mainly in European jurisdictions."
 msgstr ""
 
-# e76f4838932d444a8891883f233b4771
-#: glossary.rst:120
+# 033ff7cd17b94a76aee3ff1954f33d08
+#: ../../source/glossary.rst:120
 msgid "European Union."
 msgstr ""
 
-# 2173cce89b45476095f423ba4aba43c1
-#: glossary.rst:123
+# 4e2fbd5fd4394039862147c0848371f1
+#: ../../source/glossary.rst:123
 msgid ""
 "The *Directive on the re-use of public sector information*, 2003/98/EC. "
 "\"deals with the way public sector bodies should enhance re-use of their "
@@ -2076,8 +1904,8 @@ msgid ""
 "htm>`_"
 msgstr ""
 
-# f252b97ad98f410091a2bc576552a1ae
-#: glossary.rst:128
+# b9dc4f940d3c4d0b9fcc55b329082eb7
+#: ../../source/glossary.rst:129
 msgid ""
 "IARs are registers specifically set up to capture and organise meta-data "
 "about the vast quantities of information held by government departments and "
@@ -2085,56 +1913,57 @@ msgid ""
 "electronic files, collections of statistics, research and so forth."
 msgstr ""
 
-# eb931b0547654da896a56f4d78ed961c
-#: glossary.rst:134
+# 8fe435cc062d4e00877887fcf190c60b
+#: ../../source/glossary.rst:135
 msgid ""
 "The :term:`EU PSI Directive` recognises the importance of asset registers "
-"for prospective re-users of public information. It requires that member "
-"states provide lists, portals, or something similar. It states::"
+"for prospective re-users of public information. It requires member states to "
+"provide lists, portals, or something similar. It states::"
 msgstr ""
 
-# 8b87e51ea1dd46d49da368c2e62299d5
-#: glossary.rst:149
+# 93de1a27037c4d8f87c4451d5adf0e39
+#: ../../source/glossary.rst:151
 msgid ""
 "IARs can be developed in different ways. Government departments can develop "
-"their own IARs and these can be linked to a national IARs. IARs can include "
+"their own IARs and these can be linked to national IARs. IARs can include "
 "information which is held by public bodies but which has not yet been – and "
 "maybe will not be – proactively published. Hence they allow members of the "
 "public to identify information which exists and which can be requested."
 msgstr ""
 
-# 422b37a8afc04ce180151292ece3d446
-#: glossary.rst:156
+# a3a63e3b4db84ea59d2cb22b6453b532
+#: ../../source/glossary.rst:158
 msgid ""
 "For the public to make use of these IARs, it is important that any registers "
-"of information held be as complete as possible in order to be able to have "
-"confidence that documents can be found. The lack of completeness of some "
+"of information held should be as complete as possible in order to be able to "
+"have confidence that documents can be found. The incompleteness of some "
 "registers is a significant problem as it creates a degree of unreliability "
 "which may discourage some from using the registers to search for information."
 msgstr ""
 
-# 566d3ce5e6154f3780b89f42df1d4c4d
-#: glossary.rst:163
+# a146aacf314546b4a54990ebd24f7f9a
+#: ../../source/glossary.rst:165
 msgid ""
-"It is essential that the metadata in the IARs be comprehensive so that "
-"search engines can function effectively. In the spirit of open government "
-"data, public bodies should make available their IARs to the general public "
-"as raw data under an open licence so that civic hackers can make use of the "
-"data, for example by building search engines and user interfaces."
+"It is essential that the metadata in the IARs should be comprehensive so "
+"that search engines can function effectively. In the spirit of open "
+"government data, public bodies should make their IARs available to the "
+"general public as raw data under an open licence so that civic hackers can "
+"make use of the data, for example by building search engines and user "
+"interfaces."
 msgstr ""
 
-# bfef5a0183e1436eae343e66df81e216
-#: glossary.rst:111
+# 79cce7b9b73246d48dde256625c1302e
+#: ../../source/glossary.rst:111
 msgid "Monopolies granted to individuals for intellectual creations."
 msgstr ""
 
-# e004ea3d0e0345668d6ed7dfa9fd47e6
-#: glossary.rst:108
+# 181439bc43b3438cada402da9c3c423a
+#: ../../source/glossary.rst:108
 msgid "See :term:`Intellectual property rights`."
 msgstr ""
 
-# 168593c8a4074eb9a7e88bf04cf4b34f
-#: glossary.rst:13
+# d2fa7be6b945458b988c98bc57c3feff
+#: ../../source/glossary.rst:13
 msgid ""
 "Formats that are machine readable are ones which are able to have their data "
 "extracted by computer programs easily. PDF documents are not machine "
@@ -2142,15 +1971,15 @@ msgid ""
 "understanding the context that surrounds the text."
 msgstr ""
 
-# a6f189e62ba1428f819b6298ffcef3ae
-#: glossary.rst:9
+# cefbeb81fd214fe68db78852173f88b5
+#: ../../source/glossary.rst:9
 msgid ""
 "Open data are able to be used for any purpose. More details can be read at "
 "`opendefinition.org <http://www.opendefinition.org/>`_."
 msgstr ""
 
-# ec60d3f95fa84c468b63b277d562daec
-#: glossary.rst:171
+# 809f7eb518884ee687501f19faff20dd
+#: ../../source/glossary.rst:173
 msgid ""
 ":term:`Open data` produced by the government. This is generally accepted to "
 "be data gathered during the course of business as usual activities which do "
@@ -2159,145 +1988,145 @@ msgid ""
 "scope. See http://opengovernmentdata.org for details."
 msgstr ""
 
-# 63ceea65f0034fb1979851d46a38c957
-#: glossary.rst:96
+# d1b0c8bd94554b7cbf3834000510a7b0
+#: ../../source/glossary.rst:97
 msgid ""
 "Generally understood as technical standards which are free from licencing "
 "restrictions. Can also be interpreted to mean standards which are developed "
 "in a vendor-neutral manner."
 msgstr ""
 
-# 6d822e6c8ad34e169ee50ed25da645b1
-#: glossary.rst:58
+# 97b26f13d3d54c2ab14f31a197f17df0
+#: ../../source/glossary.rst:58
 msgid "See :term:`Public Sector Information`."
 msgstr ""
 
-# 696b5311003f44679f96c10a79d90853
-#: glossary.rst:81
+# f7340d47572a41d5b03621ee4849c09d
+#: ../../source/glossary.rst:81
 msgid "No copyright exists over the work. Does not exist in all jurisdictions."
 msgstr ""
 
-# 9dafd32f34444c028b75a9a617f3b82e
-#: glossary.rst:61
+# 8b36d27e918c4ad38c87b595a5474fcb
+#: ../../source/glossary.rst:61
 msgid "Information collected or controlled by the public sector."
 msgstr ""
 
-# ce85e3859d2140d08c23884d99eb96f3
-#: glossary.rst:93
+# ec9e42de87cd4426b2f320804b6970b4
+#: ../../source/glossary.rst:94
 msgid "Use of content outside of its original intention."
 msgstr ""
 
-# e38eb833ee234acb8fab6b6e028fd2a8
-#: glossary.rst:77
+# b4cf55f252d743698d5ba50cf63060ea
+#: ../../source/glossary.rst:77
 msgid ""
 "A licence that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
 msgstr ""
 
-# 6f0846ac5cd54731be16aefd446133c1
-#: glossary.rst:74
+# dbf3b9127b71430d971ab2b99341786b
+#: ../../source/glossary.rst:74
 msgid "See :term:`Share-alike Licence`."
 msgstr ""
 
-# 7e3cb31861d24f92b6f8482fa2e76245
-#: glossary.rst:179
+# 4dec667c323e4b99887fcf81fed37ec0
+#: ../../source/glossary.rst:181
 msgid ""
 "Tab-seperated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term:"
 "`machine-readable`."
 msgstr ""
 
-# 06d72f4f757e46c2a85789857694a0ef
-#: glossary.rst:71
+# bd03ad112aee4947916bdb2142fcfa35
+#: ../../source/glossary.rst:71
 msgid "An :term:`API` that is designed to work over the Internet."
 msgstr ""
 
-# ea638c544fab427e847201d7f1eee1e6
-#: appendix/file-formats.rst:3
+# ddaac0bb99be456eb1b13c2a110931ef
+#: ../../source/appendices/file-formats.rst:3
 msgid "File Formats"
 msgstr ""
 
-# d8ef04d8a34c4c3f85b573e73ab987e5
-#: appendix/file-formats.rst:6
+# 9f3c5948f32c435287cf489f81e1420f
+#: ../../source/appendices/file-formats.rst:6
 msgid "An Overview of File Formats"
 msgstr ""
 
-# e682f06d39884f6aadc560a81c8c87c3
-#: appendix/file-formats.rst:9
+# c54de1c067c44cb9947bb0164c944584
+#: ../../source/appendices/file-formats.rst:9
 msgid "JSON"
 msgstr ""
 
-# 4071e2dbed7644168b2c39ee7edd7677
-#: appendix/file-formats.rst:11
+# be9d244ddf094570843023b541465f8e
+#: ../../source/appendices/file-formats.rst:11
 msgid ""
-"JSON  is a very simple file format that is very easy for any programming "
-"language to read. Its simplicity means that is generally easier for "
-"computers to process than others, such as XML."
+"JSON is a simple file format that is very easy for any programming language "
+"to read. Its simplicity means that it is generally easier for computers to "
+"process than others, such as XML."
 msgstr ""
 
-# 1ce93017efa14ba1a4e9f9df5d966528
-#: appendix/file-formats.rst:14
+# e6db0f4b1e414e0fa4dd68aff2027c43
+#: ../../source/appendices/file-formats.rst:16
 msgid "XML"
 msgstr ""
 
-# 4e54c606645841a19e1bfdc4f3b56dfe
-#: appendix/file-formats.rst:16
+# b6877083b3e549328d32fc7761e0897b
+#: ../../source/appendices/file-formats.rst:18
 msgid ""
 "XML is a widely used format for data exchange because it gives good "
-"opportunities to keep the structure in the data and the way files is built "
-"on, lets developers write parts of the documentation in with the data "
-"without interfering with the reading of them."
+"opportunities to keep the structure in the data and the way files are built "
+"on, and allows developers to write parts of the documentation in with the "
+"data without interfering with the reading of them."
 msgstr ""
 
-# 899985cfc8a14fc8a4ac30616f73ed87
-#: appendix/file-formats.rst:19
+# b2247d349f9044f1926dc87201fb13b1
+#: ../../source/appendices/file-formats.rst:24
 msgid "RDF"
 msgstr ""
 
-# aedbd5d6174847de9a738b75c4329d70
-#: appendix/file-formats.rst:21
+# e8dddcf3fe5a4859801811a281d1bc43
+#: ../../source/appendices/file-formats.rst:26
 msgid ""
 "A W3C-recommended format called RDF makes it possible to represent data in a "
 "form that makes it easier to combine data from multiple sources. RDF data "
-"can be encoded in XML and JSON, among other serializations. RDF encourages "
-"the use of URLs as identifiers, which provides for a convenient way to "
-"directly interconnect existing Open Data initiatives on the Web. RDF is "
-"still not widespread, but it has been a trend among Open Government "
-"initiatives, including the British and Spanish Government Linked Open Data "
-"projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a "
-"five-star_ scheme that includes linked RDF data as a goal to be sought for "
-"Open Data initiatives."
+"can be stored in XML and JSON, among other serializations. RDF encourages "
+"the use of URLs as identifiers, which provides a convenient way to directly "
+"interconnect existing :term:`open data` initiatives on the Web. RDF is still "
+"not widespread, but it has been a trend among Open Government initiatives, "
+"including the British and Spanish Government Linked Open Data projects. The "
+"inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
+"scheme that includes linked RDF data as a goal to be sought for open data "
+"initiatives."
 msgstr ""
 
-# 279e585ca0164e9485ca73ce340b90f1
-#: appendix/file-formats.rst:26
+# 2338c8757b064e4b8c06b154990f9402
+#: ../../source/appendices/file-formats.rst:41
 msgid "Spreadsheets"
 msgstr ""
 
-# 5104bb7955304bd5b0c46b80c134138d
-#: appendix/file-formats.rst:28
+# 21bf07bb98e84b968aa574206207a171
+#: ../../source/appendices/file-formats.rst:43
 msgid ""
 "Many authorities have information left in the spreadsheet, for example "
 "Microsoft Excel. This data can often be used immediately with the correct "
 "descriptions of what the different columns mean."
 msgstr ""
 
-# 515c73e626d54aa49a79d3cb16b65122
-#: appendix/file-formats.rst:30
+# 3bab05d728104c11807f770ccb0f2da6
+#: ../../source/appendices/file-formats.rst:47
 msgid ""
-"However, in some cases be macros and formulas in spreadsheets, which may be "
-"somewhat more cumbersome to have to do. It is therefore advisable to "
-"document such calculations next to the spreadsheet, since it is generally "
+"However, in some cases there can be macros and formulas in spreadsheets, "
+"which may be somewhat more cumbersome to handle. It is therefore advisable "
+"to document such calculations next to the spreadsheet, since it is generally "
 "more accessible for users to read."
 msgstr ""
 
-# 59b6ab4fa0c841b9ab3e1d222d16014d
-#: appendix/file-formats.rst:33
+# bdac237613fb4800967fb56d2ea737c3
+#: ../../source/appendices/file-formats.rst:53
 msgid "Comma Separated Files"
 msgstr ""
 
-# 91cd1dd2011c46fe9af7c0c505054021
-#: appendix/file-formats.rst:35
+# 0db22b09acd04ad48854ebfb1a5101e0
+#: ../../source/appendices/file-formats.rst:55
 msgid ""
 "CSV files can be a very useful format because it is compact and thus "
 "suitable to transfer large sets of data with the same structure. However, "
@@ -2307,34 +2136,35 @@ msgid ""
 "formats that documentation of the individual fields are accurate."
 msgstr ""
 
-# 28ea402e9b074c27ad731d0a83bbe14a
-#: appendix/file-formats.rst:37
+# e867ccefd4474cc7a766b5f2a58bc84e
+#: ../../source/appendices/file-formats.rst:63
 msgid ""
-"Furthermore it is essential that the structure of the file are respected, as "
+"Furthermore it is essential that the structure of the file is respected, as "
 "a single omission of a field may disturb the reading of all remaining data "
-"in the file without any real opportunity to rectify it, because it could not "
-"determine how the remaining data must be interpreted ."
+"in the file without any real opportunity to rectify it, because it cannot be "
+"determined how the remaining data should be interpreted."
 msgstr ""
 
-# e7ef46343b1c423893393b58edaa3bb7
-#: appendix/file-formats.rst:40
+# e9e53c87cd07468bba8b5d1101abac4d
+#: ../../source/appendices/file-formats.rst:69
 msgid "Text Document"
 msgstr ""
 
-# 6af34a6e8dff4e55b412d70df55a928a
-#: appendix/file-formats.rst:42
+# 6b815cb52e964cf1bad48e64a6df3fd7
+#: ../../source/appendices/file-formats.rst:71
 msgid ""
 "Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient "
 "to show certain kinds of data - for example, relatively stable mailing lists "
-"or equivalent. It may be cheap to exhibit in, as often is the format data is "
-"born in. The format gives no support to keep the structure consistent, which "
-"often means that it is difficult to enter data by automated means. Be sure "
-"to use templates as the basis of documents that will display data for reuse, "
-"so it requires at least possible to pull information out of documents."
+"or equivalent. It may be cheap to exhibit in, as often it is the format the "
+"data is born in. The format gives no support to keep the structure "
+"consistent, which often means that it is difficult to enter data by "
+"automated means. Be sure to use templates as the basis of documents that "
+"will display data for reuse, so it is at least possible to pull information "
+"out of documents."
 msgstr ""
 
-# 866cbdc0b2934f10895a1188450d7ea3
-#: appendix/file-formats.rst:44
+# e40e6492ca68476892728d3e92b35611
+#: ../../source/appendices/file-formats.rst:80
 msgid ""
 "It can also support the further use of data to use typography markup as much "
 "as possible so that it becomes easier for a machine to distinguish headings "
@@ -2343,35 +2173,35 @@ msgid ""
 "format."
 msgstr ""
 
-# 7db858eff5124f769c456d35f26fe3f2
-#: appendix/file-formats.rst:47
+# 64fcd6e6a2344997b41f452cb04917c5
+#: ../../source/appendices/file-formats.rst:87
 msgid "Plain Text"
 msgstr ""
 
-# fcd5c26827cb4f1385262d53f207d087
-#: appendix/file-formats.rst:49
+# d1a9b26b6bd44225ab9a22e851add39f
+#: ../../source/appendices/file-formats.rst:89
 msgid ""
-"Plain text documents (.txt) are very easy for computers to read, They "
+"Plain text documents (.txt) are very easy for computers to read. They "
 "generally exclude structural metadata from inside the document however, "
 "meaning that developers will need to create a parser that can interpret each "
 "document as it appears."
 msgstr ""
 
-# 576afa252a40454eb842d5e23e54582a
-#: appendix/file-formats.rst:51
+# 9b9a7651d5c746d9a8e4d99c35f77a9b
+#: ../../source/appendices/file-formats.rst:94
 msgid ""
 "Some problems can be caused by switching plain text files between operating "
 "systems. MS Windows, Mac OS X and other Unix variants have their own way of "
 "telling the computer that they have reached the end of the line."
 msgstr ""
 
-# b1234fd70981462090d3c7d68c6030ef
-#: appendix/file-formats.rst:54
+# 51a7898e05d0467383e5900002b76290
+#: ../../source/appendices/file-formats.rst:100
 msgid "Scanned image"
 msgstr ""
 
-# 423359ce9c684c86aeb6a0530de9fb4a
-#: appendix/file-formats.rst:56
+# 6af1fc276aee4ecaa1201a5abf2b8234
+#: ../../source/appendices/file-formats.rst:102
 msgid ""
 "Probably the least suitable form for most data, but both TIFF and JPEG-2000 "
 "can at least mark them with documentation of what is in the picture - right "
@@ -2381,63 +2211,63 @@ msgid ""
 "archival material - and a picture is better than nothing."
 msgstr ""
 
-# 67dd1fe842194cb5b751c8122a370191
-#: appendix/file-formats.rst:59
+# 4ffb2ef30bb34321b194fa652bab8794
+#: ../../source/appendices/file-formats.rst:111
 msgid "Proprietary formats"
 msgstr ""
 
-# 206283f67a5d43baa268965c44b587b5
-#: appendix/file-formats.rst:61
+# e40c4745a6eb4c73a899ff9388742786
+#: ../../source/appendices/file-formats.rst:113
 msgid ""
 "Some dedicated systems, etc. have their own data formats that they can save "
 "or export data in. It can sometimes be enough to expose data in such a "
 "format - especially if it is expected that further use would be in a similar "
-"system as that they come from.It should always be indicated, where you can "
-"find more information on these proprietary formats, for example by providing "
-"a link to the supplier's website. Generally it is recommended to display "
-"data in a non-proprietary formats, where feasible."
+"system as that which they come from. Where further information on these "
+"proprietary formats can be found should always be indicated, for example by "
+"providing a link to the supplier's website. Generally it is recommended to "
+"display data in non-proprietary formats where feasible."
 msgstr ""
 
-# 61a66111ee5e4a3880ca01bf802f3256
-#: appendix/file-formats.rst:65
+# 162164a69fca49849513c817bbd83960
+#: ../../source/appendices/file-formats.rst:123
 msgid "HTML"
 msgstr ""
 
-# 34970c3325534235a4cfc9c1136a7fb8
-#: appendix/file-formats.rst:67
+# 1b6ab2ac10f749d8960dca659025d0fe
+#: ../../source/appendices/file-formats.rst:125
 msgid ""
-"Although many data are now available in HTML format at various sites. This "
-"may well be sufficient since the data are very stable and limited in scope. "
-"In some cases, it could be preferable to have data in a form more easily "
-"download and manipulate, but as it is cheap and easy to refer to a page on a "
-"website, it might be a good starting point in the display of data ."
+"Nowadays much data is available in HTML format on various sites. This may "
+"well be sufficient if the data is very stable and limited in scope. In some "
+"cases, it could be preferable to have data in a form easier to download and "
+"manipulate, but as it is cheap and easy to refer to a page on a website, it "
+"might be a good starting point in the display of data."
 msgstr ""
 
-# a9bed96ebb084e8fb9b37ff6d9cd0868
-#: appendix/file-formats.rst:69
+# e865deb9c5704a9893b9de76c3afe58c
+#: ../../source/appendices/file-formats.rst:132
 msgid ""
-"Typically it would be most appropriate to use tables in HTML documents to "
-"hold data, and here it is important that the various data fields are "
-"displayed, are given IDs which make it easy to find and manipulate data. "
+"Typically, it would be most appropriate to use tables in HTML documents to "
+"hold data, and then it is important that the various data fields are "
+"displayed and are given IDs which make it easy to find and manipulate data. "
 "Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
 "extract structured information from a website, and such tools can do much "
-"more with the data if they are carefully tagged."
+"more with the data if it is carefully tagged."
 msgstr ""
 
-# 349a7e5cbfd84e5ab6b9b7fb7df1b2a9
-#: appendix/file-formats.rst:73
+# 74018705a4c441e49de3d45345c9318e
+#: ../../source/appendices/file-formats.rst:141
 msgid "Open File Formats"
 msgstr ""
 
-# a01c3bf7f9f74795b3b7b2fea3a8e721
-#: appendix/file-formats.rst:75
+# e17b4510580847348172b575ac93ea62
+#: ../../source/appendices/file-formats.rst:143
 msgid ""
 "Even if information is provided in electronic, machine-readable format, and "
 "in detail, there may be issues relating to the format of the file itself."
 msgstr ""
 
-# 19634e5a56564284b17fefcf7cef5157
-#: appendix/file-formats.rst:77
+# 242ed49a2ddc4bf5a4617adb430d890a
+#: ../../source/appendices/file-formats.rst:147
 msgid ""
 "The formats in which information is published – in other words, the digital "
 "base in which the information is stored - can either be “open” or “closed”. "
@@ -2447,8 +2277,8 @@ msgid ""
 "imposed by intellectual property rights."
 msgstr ""
 
-# 3b033a4b2a1b4f309c24e8a580facb7d
-#: appendix/file-formats.rst:79
+# 48ab220fded64a66bc961e84780e2801
+#: ../../source/appendices/file-formats.rst:154
 msgid ""
 "If a file format is “closed”, this may be either because the file format is "
 "proprietary and the specification is not publicly available, or because the "
@@ -2459,38 +2289,39 @@ msgid ""
 "necessary software."
 msgstr ""
 
-# e2542a5b08de4e46a57b46cd0052eba6
-#: appendix/file-formats.rst:81
+# 73c3d87caa5b4cc39e5721bc51990848
+#: ../../source/appendices/file-formats.rst:162
 msgid ""
 "The benefit of open file formats is that they permit developers to produce "
 "multiple software packages and services using these formats. This then "
 "minimises the obstacles to reusing the information they contain."
 msgstr ""
 
-# ac3a9cd78e544a61b55794c29e7ff6db
-#: appendix/file-formats.rst:83
+# 0fd7153058114d2da4be1c2d4092850e
+#: ../../source/appendices/file-formats.rst:167
 msgid ""
 "Using proprietary file formats for which the specification is not publicly "
 "available can create dependence on third-party software or file format "
-"license holders. In worst-case scenarios this can mean that information can "
+"license holders. In worst-case scenarios, this can mean that information can "
 "only be read using certain software packages, which can be prohibitively "
 "expensive, or which may become obsolete."
 msgstr ""
 
-# 1210969c8539474180a21a8b055e42d5
-#: appendix/file-formats.rst:85
+# 1349838c490e43d2894abdcbc9889745
+#: ../../source/appendices/file-formats.rst:173
 msgid ""
-"The preference from the open government data perspective therefore is that "
-"information be released in **open file formats which are machine-readable.**"
+"The preference from the :term:`open government data` perspective therefore "
+"is that information be released in **open file formats which are machine-"
+"readable.**"
 msgstr ""
 
-# 9fd3552e0038474495892633229fe5ba
-#: appendix/file-formats.rst:88
+# 7e7a0f34c6864e3780a6dbc8b409fccd
+#: ../../source/appendices/file-formats.rst:178
 msgid "Example: UK traffic data"
 msgstr ""
 
-# 5e90ac233ea041da8d500b172d8e7d5d
-#: appendix/file-formats.rst:90
+# 019cba6c0b20488cb17b77ca4497c49e
+#: ../../source/appendices/file-formats.rst:180
 msgid ""
 "Andrew Nicolson is a software developer who was involved in an (ultimately "
 "successful) campaign against the construction of a new road, the Westbury "
@@ -2504,201 +2335,201 @@ msgid ""
 "purchase a software license, eventually paying £500 (€600) when making use "
 "of an educational discount. The main software packages on the April 2010 "
 "price list from Saturn start at £13,000 (over €15,000), a price which is "
-"most likely beyond the reach of most ordinary citizens.2"
+"beyond the reach of most ordinary citizens."
 msgstr ""
 
-# 879f4852e58a4215b232e7a2557ed6dd
-#: appendix/file-formats.rst:92
+# a71ea073e22e414da58d4680a3e655c5
+#: ../../source/appendices/file-formats.rst:196
 msgid ""
 "Although no access to information law gives a right of access to information "
 "in open formats, open government data initiatives are starting to be "
 "accompanied by policy documents which stipulate that official information "
 "must be made available in open file formats. Setting the gold standard has "
 "been the Obama Administration, with the Open Government Directive issued in "
-"December 2009, which says that:"
+"December 2009, which says:"
 msgstr ""
 
-# b724d84a2ab1423895adefab167d5b3d
-#: appendix/file-formats.rst:94
+# 954625ccb9bf456e930a1752af8c2159
+#: ../../source/appendices/file-formats.rst:203
 msgid ""
-"To the extent practicable and subject to valid restrictions, agencies should "
-"publish information online in an open format that can be retrieved, "
+"*To the extent practicable and subject to valid restrictions, agencies "
+"should publish information online in an open format that can be retrieved, "
 "downloaded, indexed, and searched by commonly used web search applications. "
 "An open format is one that is platform independent, machine readable, and "
 "made available to the public without restrictions that would impede the re-"
-"use of that information.3"
+"use of that information.*"
 msgstr ""
 
-# 155dbc5abcf947d08710a06b8ef2ffbe
-#: appendix/file-formats.rst:98
+# 9bb75c31475546099d71e467b6ee31b8
+#: ../../source/appendices/file-formats.rst:213
 msgid "How do I use a given format?"
 msgstr ""
 
-# bf682c62ba894b8987ba424b7a5c6cbc
-#: appendix/file-formats.rst:100
+# f09d294acdb4493093a60c3e58e66668
+#: ../../source/appendices/file-formats.rst:215
 msgid ""
-"When Authority must exhibit new data - that data has not been exhibited "
-"before - you should choose the format that provides the best balance between "
+"When an authority must exhibit new data – data that has not been exhibited "
+"before – you should choose the format that provides the best balance between "
 "cost and suitability for purpose. For each format there are some things you "
-"should be aware of, and this section aims to affect them."
+"should be aware of, and this section aims to explain them."
 msgstr ""
 
-# e7dffc60da434da9ae282e78405cd334
-#: appendix/file-formats.rst:102
+# 69768ad3835e496f940280dea254dcdb
+#: ../../source/appendices/file-formats.rst:221
 msgid ""
 "This section focuses only on how the cut surfaces are best arranged so that "
 "machines can access them directly. Advice and guidance about how web sites "
-"and web solutions should be designed, you can find elsewhere."
+"and web solutions should be designed can be found elsewhere."
 msgstr ""
 
-# 30b3eb521ad84cfcb3445a5e6fe30a1d
-#: appendix/file-formats.rst:105
+# a73b2b16d3e4421e866cba7d11aec843
+#: ../../source/appendices/file-formats.rst:227
 msgid "Web services"
 msgstr ""
 
-# f55a5fd0bc50436aab0728d102211fd1
-#: appendix/file-formats.rst:107
+# ca63ca79b98641daa46874a30e513a39
+#: ../../source/appendices/file-formats.rst:229
 msgid ""
-"For data that change frequently, and where each pull is limited in size, it "
+"For data that changes frequently, and where each pull is limited in size, it "
 "is very relevant to expose data through web services. There are several ways "
 "to create a web service, but some of the most used is SOAP and REST. "
 "Generally, SOAP over REST, REST services, but are very easy to develop and "
 "use, so it is a widely used standard."
 msgstr ""
 
-# 9d49662dbe464170aae1cf963065fe28
-#: appendix/file-formats.rst:110
+# 0ebd9d02ede244c9ac9984be422b7767
+#: ../../source/appendices/file-formats.rst:236
 msgid "Database"
 msgstr ""
 
-# e9ffd614997c4d6d9cc864b3dfacc3ed
-#: appendix/file-formats.rst:112
+# fb39c0d691274754a2c6f5abc4390a3e
+#: ../../source/appendices/file-formats.rst:238
 msgid ""
-"Like Web services provide direct database access to access data dynamically. "
+"Like web services, databases provide direct access to data dynamically. "
 "Databases have the advantage that they can allow users to put together just "
-"the extraction, they are interested in."
+"the extraction that they are interested in."
 msgstr ""
 
-# 94d703a040ed4f799b19d239e6d718ba
-#: appendix/file-formats.rst:114
+# dba489e773c749a6bb98cd5ed7af8e34
+#: ../../source/appendices/file-formats.rst:242
 msgid ""
-"There are some security concerns by allowing remote database extraction and "
-"database access is only useful if the structure of the database and the "
-"importance of individual tables and fields are well documented. Often, "
-"relatively simply and inexpensively create Web services that exposes data "
+"There are some security concerns about allowing remote database extraction "
+"and database access is only useful if the structure of the database and the "
+"importance of individual tables and fields are well documented. Often, it is "
+"relatively simple and inexpensive to create web services that expose data "
 "from a database, which can be an easy way to address safety concerns."
 msgstr ""
 
-# 3b22f7b6e2454295b41466fa6b50e11f
-#: appendix/index.rst:3
-msgid "Appendix"
+# 357f716b35e240d1bb69f276ba6ec0cb
+#: ../../source/appendices/index.rst:3
+msgid "Appendices"
 msgstr ""
 
-# 30f1bedd393c4ba5916ad7d0424904be
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:3
+# abce9fd5acc84bc3bb9efbd1f627e04e
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
 msgstr ""
 
-# 29940439299141b69cbc15b367ba3461
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:5
+# cf04d3b14b5c48cdb3845afdc5844b58
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
 msgid ""
-"When talking about data(bases) we first need to be distinguish between the "
+"When talking about data(bases) we first need to distinguish between the "
 "structure and the content of a database (when we use the term 'data' we "
 "shall mean the content of the database itself). Structural elements include "
-"things like the field names and a model for the data -- the organization of "
+"things like the field names and a model for the data – the organization of "
 "these fields and their inter-relation."
 msgstr ""
 
-# 805b59703be6493dbd93262f5cbf6586
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:7
+# a36fbf3c226c4f0aa83024b95b0e01e3
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
 msgid ""
 "In many jurisdictions it is likely that the structural elements of a "
 "database will be covered by copyright (it depends somewhat on the level of "
 "'creativity' involved in creating this structure)."
 msgstr ""
 
-# 8b2c23c28510405aa42673e9fc463ce3
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:9
+# 3405ed2e1c884bfe8dee7e8e1c6fc684
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
 msgid ""
 "However, here we are particularly interested in the data. When we talk of "
 "\"data\" we need to be a bit careful because the word isn't particularly "
-"precise: \"data\" can mean a few or even a single items (for example a "
+"precise: \"data\" can mean a few items or even a single item (for example a "
 "single bibliographic record, a lat/long etc) or \"data\" can mean a large "
 "collection (e.g. all the material in the database). To avoid confusion we "
-"shall reserve the term \"contents\" to mean the individual items, and data "
-"to denote the collection."
+"shall reserve the term \"content\" to mean the individual items, and data to "
+"denote the collection."
 msgstr ""
 
-# c90facf8f714498bb95debc51814635a
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:11
+# fe6e027afa4148fa97f0a815b277b636
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
 msgid ""
-"Unlike for material such as text, music or film the legal situation for data "
-"varies widely across countries but most jurisdictions **do** grant some "
-"rights in the data (as a collection)."
+"Unlike for material such as text, music or film, the legal situation for "
+"data varies widely across countries. However, most jurisdictions **do** "
+"grant some rights in the data (as a collection)."
 msgstr ""
 
-# d566f176ace8476fa493a057825ba8e9
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:13
+# 47307e3a5182471f87c8a8c3a2aaf5b0
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
 msgid ""
-"This distinction between the \"contents\" of a database and the collection "
-"is especially crucial for factual databases since no jurisdiction grants a "
-"monopoly right in the individual facts (the \"contents\") even though it may "
-"grant right(s) in them as a collection. To illustrate, consider the simple "
-"example of a database which lists the melting point of various substances. "
-"While the database as a whole might be protected by law so that one is not "
-"allow to access, reuse or redistribute it without permission this would "
-"never prevent you from stating the fact that substance Y melts at "
+"This distinction between the \"content\" of a database and the collection is "
+"especially crucial for factual databases since no jurisdiction grants a "
+"monopoly right over the individual facts (the \"content\"), even though it "
+"may grant right(s) in them as a collection. To illustrate, consider the "
+"simple example of a database which lists the melting point of various "
+"substances. While the database as a whole might be protected by law so that "
+"one is not allow to access, reuse or redistribute it without permission, "
+"this would never prevent you from stating the fact that substance Y melts at "
 "temperature Z."
 msgstr ""
 
-# e9a334e4ff1f44079499d53dec3ab971
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:15
+# 2fb948d3f4e44ec2a8c3a123be81cb04
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
 msgid "Forms of protection fall broadly into two cases:"
 msgstr ""
 
-# 916e51e762a64f43a42e7ecf6699b1ea
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:17
+# dd647f87931c4a7a8ed3747bf5810e09
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
 msgid "Copyright for compilations"
 msgstr ""
 
-# 6c44798035e44abb9c805fc7e9f9f1a6
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:18
+# 49e7c7312056484cb968ab0a7aaadb75
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
 msgid "A *sui generis* right for collections of data"
 msgstr ""
 
-# 3df236de371d441e835910b2e2f958a8
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:20
+# 1b0e920fb0e448e5ba4be713817a5024
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
 msgid ""
-"As we have already emphasized there are no general rules and the situation "
-"varies by jurisdiction. Thus, below we proceed country by country detailing "
-"which (if any) of these approaches is used in a particular jurisdiction."
+"As we have already emphasized, there are no general rules and the situation "
+"varies by jurisdiction. Thus we proceed country by country detailing which "
+"(if any) of these approaches is used in a particular jurisdiction."
 msgstr ""
 
-# 7f47f9ba93b44a8d896806d059615ad2
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:22
+# 0dd4e8dc78944e9a87f005197efb5752
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
 msgid ""
-"Finally, we should point out that absent any legal protection many providers "
-"of (closed) databases are able to use simple contract combined with legal "
-"provisions prohibiting violation of access-control mechanisms to achieve "
-"similar results to a formal IP right. For example, if X is provider of a "
-"citation database, it can achieve any set of terms of conditions it wants "
-"simply by:"
+"Finally, we should point out that in the absence of any legal protection, "
+"many providers of (closed) databases are able to use a simple contract "
+"combined with legal provisions prohibiting violation of access-control "
+"mechanisms to achieve results similar to a formal IP right. For example, if "
+"X is a provider of a citation database, it can achieve any set of terms of "
+"conditions it wants simply by:"
 msgstr ""
 
-# 9077c68d582d46db83a41b50f7ad810c
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:24
+# b2cfcfbef2e44a35a7f3265ce908ba28
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
 msgid "Requiring users to login with a password"
 msgstr ""
 
-# 455e463f1fd74e4f85f9e01d7eb7f7fb
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:25
+# 67127f0bece74ba69bf5e24c9f1e75c6
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
 msgid ""
-"Only providing a user with an account and password on the condition that the "
-"user agrees to the terms and conditions"
+"(b) Only providing a user with an account and password on the condition that "
+"the user agrees to the terms and conditions"
 msgstr ""
 
-# b08a88feb86b4d4abfed69ff58e88d33
-#: appendix/what-legal-ip-rights-are-there-in-databases.rst:27
+# 1d0c84f875e543f19d26da6b7e67fe07
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
 msgid ""
 "You can read more about the jurisdiction by jurisdiction situation in the "
 "`Guide to Open Data Licensing`_."

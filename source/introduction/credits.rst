@@ -28,13 +28,6 @@ Other sources
 
 -  W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/
 
-Copyright
-~~~~~~~~~
-
-This manual is copyright 2010-2011 of its respective contributors and
-licensed under a `Creative Commons Attribution License`_ (unported and
-all jurisdictions).
-
 .. _Daniel Dietrich: http://ddie.me/
 .. _Jonathan Gray: http://jonathangray.org/
 .. _Tim McNamara: http://timmcnamara.co.nz

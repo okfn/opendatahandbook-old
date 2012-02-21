@@ -102,7 +102,9 @@ sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
 html_theme = 'sphinx-theme-okfn'
 html_theme_options = {
-        }
+        'logo_icon': 'http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png'
+        # 'show_okfn_logo': False
+    }
 
 html_use_modindex = False
 # html_sidebars = {

@@ -54,7 +54,7 @@ any set of terms of conditions it wants simply by:
 
 (a) Requiring users to login with a password
 (b) Only providing a user with an account and password on the 
-condition that the user agrees to the terms and conditions
+    condition that the user agrees to the terms and conditions
 
 You can read more about the jurisdiction by jurisdiction situation 
 in the `Guide to Open Data Licensing`_.

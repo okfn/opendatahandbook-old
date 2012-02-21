@@ -73,7 +73,7 @@ technical users. Some tips:
   Search engines are less likely to index the content. People are less
   likely to click to download.
 
-:Consider using an `Open licence`_ for your content:
+:Consider using an `Open license`_ for your content:
 
   Apart from providing certainty to people who wish to share your 
   content that this is permissible, you send a message that your

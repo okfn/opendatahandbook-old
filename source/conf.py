@@ -107,11 +107,12 @@ html_theme_options = {
         'google_analytics_id': 'UA-8271754-28'
     }
 
-html_use_modindex = False
-# html_sidebars = {
-#    '**':       ['sidebarlogo.html', 'search.html', 'globaltoc.html', 'nav.html',
-#                 'corrections.html', 'openstickers.html', 'okfn-logo.html']
-#}
+html_domain_indices = False
+
+# Custom sidebar templates, maps document names to template names.
+html_sidebars = {
+    '**':  ['globaltoc.html', 'corrections.html']
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -149,9 +150,6 @@ html_static_path = ['_static']
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
 #html_use_smartypants = True
-
-# Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

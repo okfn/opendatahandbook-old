@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.net
+lang_map = en:en_GB,bg:bg-BG
+minimum_perc = 20
+
+[opendatamanual.allpot]
+file_filter = translation/<lang>/LC_MESSAGES/all.po
+source_lang = en_GB
+source_file = translation/all.pot
+

@@ -1,6 +1,6 @@
-====================
+======================
 The Open Data Handbook
-====================
+======================
 
 **This handbook discusses the legal, social and technical aspects of 
 open data.** It can be used by anyone but is especially 
@@ -38,6 +38,5 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 

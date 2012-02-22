@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Open Data Manual documentation build configuration file, created by
+# Open Data Handbook documentation build configuration file, created by
 # sphinx-quickstart on Wed Apr  6 11:00:35 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -37,8 +37,15 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Open Data Manual'
-copyright = u'2011, Open Knowledge Foundation'
+project = u'Open Data Handbook'
+copyright = u'''&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  '''
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -95,13 +102,17 @@ sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
 html_theme = 'sphinx-theme-okfn'
 html_theme_options = {
-        }
+        'logo_icon': 'http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png',
+        # 'show_okfn_logo': False,
+        'google_analytics_id': 'UA-8271754-28'
+    }
 
-html_use_modindex = False
-# html_sidebars = {
-#    '**':       ['sidebarlogo.html', 'search.html', 'globaltoc.html', 'nav.html',
-#                 'corrections.html', 'openstickers.html', 'okfn-logo.html']
-#}
+html_domain_indices = False
+
+# Custom sidebar templates, maps document names to template names.
+html_sidebars = {
+    '**':  ['globaltoc.html', 'corrections.html']
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -113,7 +124,7 @@ html_use_modindex = False
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Open Data Manual"
+html_title = "Open Data Handbook"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -140,9 +151,6 @@ html_static_path = ['_static']
 # typographically correct entities.
 #html_use_smartypants = True
 
-# Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
-
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
 #html_additional_pages = {}
@@ -168,7 +176,7 @@ html_static_path = ['_static']
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OpenDataManualdoc'
+htmlhelp_basename = 'OpenDataHandbookdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -180,9 +188,9 @@ latex_paper_size = 'a4'
 #latex_font_size = '10pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title, author, documentclass [howto/manual]).
+# (source start file, target name, title, author, documentclass [howto/handbook]).
 latex_documents = [
-  ('index', 'OpenDataManual.tex', u'Open Data Manual Documentation',
+  ('index', 'OpenDataHandbook.tex', u'Open Data Handbook Documentation',
    u'Open Knowledge Foundation', 'manual'),
 ]
 

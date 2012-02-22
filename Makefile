@@ -41,8 +41,7 @@ html:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 github:
-	# TODO: excludes _sources, .buildinfo, objects.inv
-	rm -Rf $(BUILDDIR)/_sources
+	# TODO: excludes .buildinfo, objects.inv
 	rm -Rf $(BUILDDIR)/.buildinfo
 	rm -Rf $(BUILDDIR)/objects.inv
 	cp -a $(BUILDDIR)/html/* .

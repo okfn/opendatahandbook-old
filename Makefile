@@ -42,6 +42,9 @@ html:
 
 github:
 	# TODO: excludes _sources, .buildinfo, objects.inv
+	rm -Rf $(BUILDDIR)/_sources
+	rm -Rf $(BUILDDIR)/.buildinfo
+	rm -Rf $(BUILDDIR)/objects.inv
 	cp -a $(BUILDDIR)/html/* .
 	@echo
 	@echo "Copied all material from build to base directory"

@@ -35,7 +35,7 @@ Resources
 :Home Page:     http://wiki.okfn.org/Projects/Open_Data_Handbook
 :Mailing List:  http://lists.okfn.org/mailman/listinfo/open-data-manual
 :Source:        https://github.org/okfn/opendatahandbook
-:Translations:  https://www.transifex.net/projects/p/opendatamanual/
+:Translations:  https://www.transifex.net/projects/p/opendatahandbook/
 
 
 About our tools
@@ -102,14 +102,14 @@ Generating pot files
     make gettext
 
 2. Add or update the ``translated/all.pot`` file as a resource on
-   https://www.transifex.net/projects/p/opendatamanual/.
+   https://www.transifex.net/projects/p/opendatahandbook/.
 
 Adding a new language
 ~~~~~~~~~~~~~~~~~~~~~
 
 We use transifex for this.
 
-1. Go to https://www.transifex.net/projects/p/opendatamanual/
+1. Go to https://www.transifex.net/projects/p/opendatahandbook/
 2. Add translation for specified language (and a team)
 
 Building a translation of the handbook

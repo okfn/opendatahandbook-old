@@ -1,0 +1,267 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Torne os Dados Disponíveis (Abertura Técnica) &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Como Abrir Dados" href="index.html" />
+    <link rel="next" title="Torne os dados localizáveis" href="make-it-discoverable.html" />
+    <link rel="prev" title="Use uma Licença Aberta (Abertura Legal)" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>Torne os Dados Disponíveis (Abertura Técnica)<a class="headerlink" href="#make-data-available-technical-openness" title="Link permanente para este título">¶</a></h1>
+<p><em class="xref std std-term">Dados abertos</em> precisam ser tecnicamente abertos, além de legalmente abertos. Especificamente, os dados precisam estar disponíveis em volume e em um formato <em class="xref std std-term">legível por máquina</em>.</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>Os dados devem ter preço não maior que um custo razoável de reprodução, preferencialmente como um download gratuito na Internet. Esse modelo de precificação é viável porque seu órgão não deve incorrer em qualquer custo ao prover dados para utilização.</dd>
+<dt>In bulk</dt>
+<dd>Os dados devem ser disponibilizados como um conjunto completo. Se você tem um cadastro que é coletado por medida legal, o cadastro total deve estar disponível para download. Uma API web ou serviço similar podem também ser muito úteis, mas não eliminam a necessidade de publicar o volume completo.</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>A reutilização dos dados sob a guarda do setor público não deve ser sujeita a restrições de patente. Mais importante ainda é ter certeza de que você está provendo formatos legíveis por máquina, para permitir ao máximo sua reutilização. Para ilustrar isto, veja essas estatísticas, publicadas como documentos no formato <abbr title="Portable Document Format">PDF</abbr>, frequentemente utilizado para impressão em alta qualidade. As estatísticas podem ser lidas seres por humanos, mas são muito difíceis para um computador usar. Isto limita muito a possibiliade de reutilização dos dados.</dd>
+</dl>
+<p>Seguem algumas políticas que podem trazer grandes benefícios:</p>
+<ul class="simple">
+<li>Seja simples,</li>
+<li>Movimente-se rápido</li>
+<li>Seja pragmático.</li>
+</ul>
+<p>Em particular, é melhor fornecer dados brutos agora que dados perfeitos dentro de seis meses.</p>
+<p>Há muitas maneiras diferentes de disponibilizar dados. A mais natural, na era da Internet, é a publicação online. Há muitas variações nesse modelo. Em sua forma mais básica, os órgãos publicam seus dados em websites e um catálogo central direciona os visitantes para a fonte apropriada. Entretanto, há muitas alternativas.</p>
+<p>Quando a <em class="xref std std-term">conectividade</em> é limitada, ou o volume dos dados é extremamente grande, a distribuição em outros formatos pode ser justificada. Nesta seção também serão discutidas alternativas, que podem funcionar para manter baixo o custo de publicar os dados.</p>
+<div class="section" id="online-methods">
+<h2>Meios online<a class="headerlink" href="#online-methods" title="Link permanente para este título">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>Pelo seu website<a class="headerlink" href="#via-your-existing-website" title="Link permanente para este título">¶</a></h3>
+<p>A maneira mais familiar, para a sua equipe de conteúdo web, é prover arquivos para download de páginas web. Assim como você provê acesso a documentos, arquivos de dados podem ser perfeitamente disponibilizados desta maneira.</p>
+<p>Uma dificuldade nesta abordagem é que é muito difícil para alguém de fora descobrir onde encontrar informações atualizadas. Esta alternativa gera uma sobrecarga para as pessoas que vão criar ferramentas a partir dos seus dados.</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>Por  de sítios de terceiros<a class="headerlink" href="#via-3rd-party-sites" title="Link permanente para este título">¶</a></h3>
+<p>Muitos repositórios têm se tornado pontos centrais de dados sobre assuntos específicos. Por exemplo, pachube.com foi projetado para conectar pessoas com sensores com aqueles que desejam acessar os seus dados. Sítios como Infochimps.com e Talis.com permitem que órgãos do setor público guardem quantidades maciças de dados gratuitamente.</p>
+<p>Sítios de terceiros podem ser muito úteis, principalmente porque já reunem uma comunidade de pessoas interessadas e outros conjuntos de dados. Quando os seus dados fazem parte dessas plataformas, uma forma de interesse conjunto é criada.</p>
+<p>Plataformas completas de dados já provêm uma infraestrutura capaz de suportar a demanda. Muitas vezes elas oferecem informações analíticas e de utilização. Para órgãos do setor público, elas geralmente são gratuitas.</p>
+<p>Essas plataformas podem ter dois custos. O primeiro é a sua independência. Seu órgão precisa ceder o controle a terceiros. Isto é, muitas vezes, política, legal ou operacionalmente difícil. O segundo custo pode ser a abertura. Certifique-se de que a sua plataforma de dados é agnóstica em relação a quem pode acessá-la. Desenvolvedores de software e cientistas usam muitos sistemas operacionais, desde <cite>smart phones</cite> até supercomputadores. Eles todos devem ser capazes de acessar os dados.</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>Por servidores FTP<a class="headerlink" href="#via-ftp-servers" title="Link permanente para este título">¶</a></h3>
+<p>Um método menos elegante de fornecer acesso a arquivos é por Protocolo de Transferência de Arquivos (FTP, na sigla em inglês). Isto pode ser adequado se o seu público-alvo é técnico, tais como desenvolvedores de software ou cientistas. O sistema FTP funciona no lugar do HTTP, mas foi especificamente projetado para dar suporte a transferências de arquivos.</p>
+<p>O FTP caiu em desuso. Navegar por um servidor FTP, em vez de em um website, é como procurar por pastas em um computador. Portanto, embora ele seja adequado ao propósito, há muito menos possibilidades de empresas de desenvolvimento Web cobrarem por customizações.</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>Na forma de torrents<a class="headerlink" href="#as-torrents" title="Link permanente para este título">¶</a></h3>
+<p><a class="reference internal" href="../glossary.html#term-bittorrent"><em class="xref std std-term">BitTorrent</em></a> é um sistema que tornou-se familiar a formuladores de políticas por causa de sua associação com violações de direitos autorais. O BitTorrent utiliza arquivos chamados torrents, que funcionam dividindo o custo de distribuição de arquivos entre todas as pessoas que acessam esses arquivos. Em vez de servidores centralizados e sobrecarregados, a oferta aumenta na medida em que a demanda aumenta. Este é o motivo do sucesso desse sistema no compartilhamento de filmes. É uma maneira incrivelmente eficiente de se distribuir volumes muito grandes de dados.</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>Como uma API<a class="headerlink" href="#as-an-api" title="Link permanente para este título">¶</a></h3>
+<p>Dados podem ser publicados por uma <em class="xref std std-term">Interface de Programação de Aplicações</em> (API, na sigla em inglês). Essas interfaces têm se tornado muito populares. Elas permitem que programadores selecionem partes específicas dos dados, em vez de fornecer todos os dados em um grande arquivo. APIs estão tipicamente conectadas a um banco de dados que é atualizado em tempo real. Isto significa que disponibilizar dados por uma API pode garantir que eles estão atualizados.</p>
+<p>Publicar dados brutos em grande volume deveria ser a preocupação principal de todas as iniciativas de dados abertos. Há vários custos em se fornecer uma API:</p>
+<ol class="arabic simple">
+<li>O preço. Elas exigem muito mais desenvolvimento e manutenção do que o fornecimento de arquivos.</li>
+<li>As expectativas. Para fomentar uma comunidade de usuários por trás do sistema, é importante proporcionar segurança. Quando as coisas dão errado, a expectativa é de que você arque com os custos de consertá-las.</li>
+</ol>
+<p>O acesso a dados em grande volume garante que:</p>
+<ol class="loweralpha simple">
+<li>não há dependência do provedor original dos dados, o que significa que se uma reestruturação ou ciclo orçamentário mudar a situação, os dados ainda estarão disponíveis.</li>
+<li>qualquer outra pessoa pode obter uma cópia e redistribuí-la. Isto reduz o custo da distribuição, afastando-o do órgão de origem, e evita a existência de um único ponto de falha.</li>
+<li>terceiros podem desenvolver seus próprios serviços usando os dados, porque eles têm segurança de que os dados não serão tirados deles.</li>
+</ol>
+<p>Fornecer dados em volume permite a terceiros usar os dados além de seus propósitos originais. Por exemplo, permite que eles sejam convertidos a um novo formato, ligados a outras fontes, ou versionados e arquivados em múltiplos lugares. Embora a versão mais atualizada dos dados possa ser disponibilizada por uma API, os dados brutos devem ser disponibilizados em volume em intervalos regulares.</p>
+<p>O serviço estatístico do Eurostat, por exemplo, tem uma funcionalidade de download em volume que oferece acima de 4000 arquivos de dados. Ele é atualizado duas vezes ao dia, oferece dados em formato <em class="xref std std-term">Valores Separados por Tabulação</em> (TSV, na sigla em inglês) e inclui documentação sobre a funcionalidade de download, bem como sobre os arquivos de dados.</p>
+<p>Outro exemplo é o Catálogo de Dados de OCTO do Distrito de Colúmbia, que permite que os dados sejam descarregados nos formatos CSV e XLS, além de <cite>feeds</cite> em tempo real dos dados.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introdução</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Por que Abrir Dados?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">O que são Dados Abertos?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Como Abrir Dados</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Escolha o(s) Conjunto(s) de Dado(s)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Use uma Licença Aberta (Abertura Legal)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Torne os Dados Disponíveis (Abertura Técnica)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">Meios online</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">Torne os dados localizáveis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Então Eu Abri Alguns Dados, e Agora?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossário</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Apêndices</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

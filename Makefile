@@ -43,11 +43,12 @@ html:
 
 github:
 	# TODO: excludes .buildinfo, objects.inv
-	rm -Rf $(BUILDDIR)/.buildinfo
-	rm -Rf $(BUILDDIR)/objects.inv
-	cp -a $(BUILDDIR)/html/* .
+	rm -Rf $(BUILDDIR)/html/$(lang)/.buildinfo
+	rm -Rf $(BUILDDIR)/html/$(lang)/objects.inv
+	mkdir -p $(lang)
+	cp -a $(BUILDDIR)/html/$(lang)/* $(lang)/
 	@echo
-	@echo "Copied all material from build to base directory"
+	@echo "Copied all material from build to $(lang) directory"
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

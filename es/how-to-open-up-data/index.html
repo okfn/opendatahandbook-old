@@ -1,0 +1,245 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>¿Cómo abrir datos? &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="next" title="Escoger bases de datos" href="choose-datasets.html" />
+    <link rel="prev" title="¿Qué son los datos abiertos?" href="../what-is-open-data/index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="how-to-open-up-data">
+<h1>¿Cómo abrir datos?<a class="headerlink" href="#how-to-open-up-data" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Esta sección constituye el núcleo de este manual. Le da consejos concretos y detallados de cómo los poseedores de datos pueden abrir sus datos. Pasaremos por lo más básico, pero también cubriremos las trampas. Por último, vamos a discutir las cuestiones más sutiles que pueden surgir.</p>
+<p>Existen tres reglas clave que recomendamos seguir en la apertura de datos:</p>
+<blockquote>
+<div><ul>
+<li><p class="first"><strong>Mantenlo simple.</strong> Inicia con lo pequeño, sencillo y rápido. No hay requisito que los conjuntos de datos deben tener en este momento. Inicie abriendo sólo un conjunto de datos, o incluso una parte de un conjunto de datos grande, esta muy bien &#8211; y claro, entre más conjuntos de datos pueda abrir, mejor.</p>
+<p>Recuerda que esto es acerca de la innovación. Moverse tan rápido como puedes es bueno porque significa que puedes crear impulso y aprender de la experiencia &#8211; la innovación es tanto sobre el fracaso como el éxito y no todo dataset será útil.</p>
+</li>
+<li><p class="first"><strong>Comprometerse temprano y comprometerse con frecuencia</strong> Comprometerse con los usuarios reales y potenciales, y en cambio usuarios de los datos tan pronto y tan a menudo como pueda, ya sean ciudadanos, empresas o desarrolladores. Esto asegurará que la próxima versión de su servicio sea tan relevante como pueda ser.</p>
+<p>Es esencial tener en cuenta que gran parte de los datos no llegarán a los usuarios finales directamente, sino que a través de &#8220;info-mediarios&#8221;. Estas son las personas que toman los datos y la transforman para presentarla. Por ejemplo, la mayoría de nosotros no quiere o necesita una gran base de datos de las coordenadas GPS, preferiríamos un mapa. Por lo tanto, comprometerse con infomediarios en primer lugar. Ellos volverán a utilizar y reutilizar el material.</p>
+</li>
+<li><p class="first"><strong>Direcciona temores y malentendidos comunes</strong>. Esto es especialmente importante si usted está trabajando con o dentro de las grandes instituciones como el gobierno. Cuando la apertura de datos se encontrará con un montón de preguntas y temores. Es importante (a) identificar las más importantes y (b) abordar estos problemas en la fase más temprana posible.</p>
+</li>
+</ul>
+</div></blockquote>
+<p>Existen cuatro pasos principales para la creación de Datos Abiertos, cada una será explicada en detalle más abajo. Se encuentran en un orden muy aproximado y pueden ser realizados simultáneamente.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">** Elija el conjunto de datos (s). ** Elija el conjunto de datos (s) que desea hacer público. Tenga en cuenta que usted puede (y puede ser necesario) regresar a este paso si tiene problemas en una etapa posterior.</p>
+</li>
+<li><p class="first"><strong>Utilizar una licencia abierta</strong></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Determine qué derechos de propiedad intelectual existen en la información.</li>
+<li>Aplica una licencia &#8220;abierta&#8221; adecuada que licencie todos esos derecho y soporte la definición de apertura discutida en la sección anterior, en &#8220;Qué es Datos Abiertos&#8221;.</li>
+<li>NB: Si tu no puedes hacer esto, vuelve al paso 1 y prueba con un dataset diferente.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Poner a disposición la información&#8221;</strong>-  en conjunto y en un formato útil. También puedes considerar otras alternativas de hacerla disponible, así como una API.</p>
+</li>
+<li><p class="first"><strong>Hazla visible</strong>- Publicala en la web y quizás organiza un catálogo central que enumera tus datasets abiertos</p>
+</li>
+</ol>
+</div></blockquote>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="choose-datasets.html">Escoger bases de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="apply-an-open-license.html">Solicite una Licencia Abierta (Apertura Legal)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="make-data-available.html">Pon los datos a disposición (Apertura Técnica)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="make-it-discoverable.html">Haga datos detectables.</a></li>
+</ul>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introducción</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">¿Por qué Datos Abiertos?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">¿Qué son los datos abiertos?</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">¿Cómo abrir datos?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Escoger bases de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Solicite una Licencia Abierta (Apertura Legal)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="make-data-available.html">Pon los datos a disposición (Apertura Técnica)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">Haga datos detectables.</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">¿Ya he publicado cierta información, y ahora qué?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glosario</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Apéndices</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

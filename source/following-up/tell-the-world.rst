@@ -47,7 +47,7 @@ Post your material on third-party sites
 ---------------------------------------
 
 Many blogs have created a large readership in specialised topic areas. 
-It may be worthwhile adding an article about your initative on their 
+It may be worthwhile adding an article about your initiative on their 
 site. These can be mutually beneficial. You receive more interest and 
 they receive a free blog post in their topic area.
 
@@ -112,6 +112,6 @@ suggestions:
   moment. To a lesser extent, Slashdot and Digg are also useful tools 
   in this area.
 
-  These sites have a tendency to drive signficiant traffic to 
+  These sites have a tendency to drive significant traffic to 
   interesting material. They are also heavily focused on topic areas. 
 

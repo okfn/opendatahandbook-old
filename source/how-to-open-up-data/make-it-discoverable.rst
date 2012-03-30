@@ -19,15 +19,16 @@ Existing tools
 There are a number of tools which are live on the web that are specifically
 designed to make data more discoverable.
 
-One of the most prominent is the `DataHub <http://thedatahub.org/>` and is a
-catalogue and data store for datasets from around the world. The site makes it
-easy for individuals and organizations to publish material and for data users
-to find material they need.
+One of the most prominent is the DataHub_ and is a catalogue and data store for
+datasets from around the world. The site makes it easy for individuals and
+organizations to publish material and for data users to find material they
+need.
 
 In addition, there are dozens of specialist catalogues for different 
 sectors and places. Many scientific communities have created a catalogue 
 system for their fields, as data are often required for publication.
 
+.. _DataHub: http://thedatahub.org/
 
 For government
 --------------

@@ -62,7 +62,6 @@ could consider the following:
   access for officials or tenured researchers as this will undermine community
   participation and engagement.
 
-
 For civil society
 =================
 
@@ -70,7 +69,7 @@ Be willing to create a supplementary catalogue for non-official data.
 
 It is very rare for governments to associate with unofficial or 
 non-authoritative sources. Officials have often gone to great expense to 
-ensure that there will not be political embarrasment or other harm 
+ensure that there will not be political embarrassment or other harm 
 caused from misuse or overreliance on data.
 
 Moreover, governments are unlikely to be willing to support activities 

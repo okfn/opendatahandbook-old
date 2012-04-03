@@ -64,7 +64,7 @@ was NOK 28.4 million.
 citizens to show why open access to Australian government information 
 would be positive for the country’s economy and social development. 
 The contest ran from October 7th to November 13th 2009. The Taskforce 
-released some datasets under an open licence and in a range of reusable 
+released some datasets under an open license and in a range of reusable 
 formats. The 82 applications that were entered into the contest are further 
 evidence of the new and innovative applications which can result from 
 releasing government data on open terms. 	

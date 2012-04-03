@@ -18,7 +18,7 @@ check in detail whether each dataset is suitable.
 There is **no requirement** to create a comprehensive list of your 
 datasets. The main point to bear in mind is whether it is feasible 
 to publish this data at all (whether openly or otherwise) -  
-see the ‘What Data’ section above.
+see :ref:`this previous section <what-data-can-be-open>`.
 
 Asking the community
 --------------------

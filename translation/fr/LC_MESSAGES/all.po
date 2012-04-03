@@ -7,6 +7,7 @@
 #   <f8full@gmail.com>, 2012.
 #   <madewulf@gmail.com>, 2011, 2012.
 # magik_cypress  <>, 2012.
+# Papa O. Niang <>, 2012.
 #   <sebastien.vigneau@gmail.com>, 2012.
 # Stéphane Vanbellinghen <carnops@yahoo.fr>, 2011.
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-02-15 13:48\n"
-"PO-Revision-Date: 2012-03-14 23:33+0000\n"
+"PO-Revision-Date: 2012-04-03 11:30+0000\n"
 "Last-Translator: sebastien_vigneau <sebastien.vigneau@gmail.com>\n"
 "Language-Team: French (http://www.transifex.net/projects/p/opendatahandbook/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +36,7 @@ msgid ""
 "data.** It can be used by anyone but is especially designed for those "
 "seeking to **open up** data. It discusses the **why, what and how** of open "
 "data -- why to go open, what open is, and the how to 'open' data."
-msgstr ""
+msgstr "**Ce manuel traite des aspects legaux, sociaux, et techniques des donnes publiques/ouvertes.** Il peut etre utilise par n'importe qui, mais il est principalement concu pour ceux qui cherchent a rendre leurs donnees publiques/ouvertes. Il traite du pourquoi, quoi, et comment des donnees ouvertes/publiques -- pourquoi rendre publique, quoi rendre publique, et comment rendre publique."
 
 # 36c781794c2549b3ba3b95d87d7c10c3
 #: ../../source/index.rst:11
@@ -238,7 +239,7 @@ msgstr "Ce manuel vise un public assez large:"
 msgid ""
 "for those who have never heard of open data before and those who consider "
 "themselves seasoned ‘data professionals’"
-msgstr ""
+msgstr "Pour ceux qui n'ont jamais entendu parler des données ouvertes auparavant et pour ceux qui se considèrent comme des \"professionnels des données\" chevronnés"
 
 # 7b011d1528bb433496f6b3e8d62ab44c
 #: ../../source/introduction/index.rst:41
@@ -593,7 +594,7 @@ msgid ""
 "The key point is that when opening up data, the focus is on non-personal "
 "data, that is, data which does not contain information about specific "
 "individuals."
-msgstr "L'aspect essentiel est que, lorsque des données sont \"libérées\", le focus doit être sur les données non-personnelles, c'est-à-dire les données qui ne contiennent pas d'information sur certains individus en particulier."
+msgstr "Le point clé est que, lorsqu'on \"libère\" des données, il faut se focaliser sur les données non-personnelles, c'est-à-dire les données qui ne contiennent pas d'information sur certains individus en particulier."
 
 # c9b6dca41e394c0aa007efae38120059
 #: ../../source/what-is-open-data/index.rst:81
@@ -757,7 +758,7 @@ msgid ""
 "How much money do agencies spend on the collection and maintainence of data "
 "that they hold? If they spend a great deal on a particular set of data, then"
 " it is highly likely that others would like to access it."
-msgstr ""
+msgstr "Combien d'argent les agences dépensent-elles pour la collecte et l'entretien des données qu'elles contrôlent? Si elles dépensent beaucoup pour un fichier de données en particulier, alors il est extrêmement probable que d'autres souhaiteraient y avoir accès."
 
 # 5872f2f035334bbeb48a248911bcad96
 #: ../../source/how-to-open-up-data/choose-datasets.rst:63
@@ -822,7 +823,7 @@ msgstr ""
 # c8f5549c41724126a57621358561ef10
 #: ../../source/how-to-open-up-data/index.rst:10
 msgid "There are three key rules we recommend following when opening up data:"
-msgstr ""
+msgstr "Nous recommandons l'utilisation de trois règles clés lors de la publication de données."
 
 # 5b4444c418fb49809e0fbac128f5fb52
 #: ../../source/how-to-open-up-data/index.rst:12
@@ -1206,7 +1207,7 @@ msgid ""
 "offering over 4000 data files. It is updated twice a day, offers data in "
 ":term:`Tab-separated values` (TSV) format, and includes documentation about "
 "the download facility as well as about the data files."
-msgstr ""
+msgstr "Par exemple, le service de statistiques Eurostat a un plate-forme de téléchargement groupé offrant plus de 4000 fichiers de données. Il est mis à jour deux fois par jour, présente les données dans le format :term:\"Tab-separated values\" (TSV) et inclue une documentation sur la plate-forme de téléchargement, ainsi que sur les fichiers de données."
 
 # 9de2ca6b793b4fe3a2e0ea0c5d66461a
 #: ../../source/how-to-open-up-data/make-data-available.rst:160
@@ -1303,7 +1304,7 @@ msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
 "data. It may be worthwhile to think of the catalogue as the region's "
 "catalogue, rather than the regional government's."
-msgstr ""
+msgstr "Fournir un moyen pour permettre aux secteurs privé et communautaire d'ajouter leurs données. Il peut être utile de penser du catalogue comme un catalogue de la région, plutôt que celui du gouvernement régional."
 
 # b6e8f0c0ba7e48deba570d7a4f1b10fb
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:50
@@ -1423,7 +1424,7 @@ msgstr "Guide ou définition de l'ordre du jour de l'événement"
 msgid ""
 "Introduce themselves, talk about what they’re interested in and what they’re"
 " working on, on an ad hoc basis"
-msgstr ""
+msgstr "Se présenter, parler de ce qui les intéresse et de ce sur quoi ils travaillent, sur une base ad hoc"
 
 # d4384807d39e439fad4c534052573728
 #: ../../source/following-up/getting-folks-in-a-room.rst:29
@@ -1607,7 +1608,7 @@ msgstr "Dites au monde!"
 msgid ""
 "First and foremost, make sure that you promote the fact that you've embarked"
 " on a campaign to promote :term:`open data` in your area of responsibility."
-msgstr ""
+msgstr "En tout premier lieu, prenez soin de promouvoir le fait que vous vous soyez engagé dans une campagne de promotion des :term:\"données ouvertes\" dans votre domaine de responsabilité."
 
 # c87c3f25fc1f4ac6a330fdc30af4dc03
 #: ../../source/following-up/tell-the-world.rst:9
@@ -1979,7 +1980,7 @@ msgid ""
 " extracted by computer programs easily. PDF documents are not machine "
 "readable. Computers can display the text nicely, but have great difficulty "
 "understanding the context that surrounds the text."
-msgstr ""
+msgstr "Les formats exploitables par une machine sont ceux dont les données peuvent être extraites facilement par un ordinateur. Les documents PDF ne sont pas exploitables par une machine. Les ordinateur peuvent afficher le texte sans problème, mais ont beaucoup de difficultés à comprendre le contexte qui entoure le texte."
 
 # cefbeb81fd214fe68db78852173f88b5
 #: ../../source/glossary.rst:9
@@ -2004,7 +2005,7 @@ msgid ""
 "Generally understood as technical standards which are free from licencing "
 "restrictions. Can also be interpreted to mean standards which are developed "
 "in a vendor-neutral manner."
-msgstr ""
+msgstr "Généralement compris comme standards techniques libres de restrictions en terme de licence. Peut également être interprété comme standards développés de manière neutre par rapport au vendeur."
 
 # 97b26f13d3d54c2ab14f31a197f17df0
 #: ../../source/glossary.rst:58
@@ -2204,7 +2205,7 @@ msgid ""
 "Some problems can be caused by switching plain text files between operating "
 "systems. MS Windows, Mac OS X and other Unix variants have their own way of "
 "telling the computer that they have reached the end of the line."
-msgstr ""
+msgstr "Certains problèmes peuvent être liés à la commutation des fichiers texte entre les systèmes d'exploitation. MS Windows, Mac OS X et d'autres variantes d'Unix ont leur propre façon de dire à l'ordinateur qu'ils ont atteint la fin de la ligne."
 
 # 51a7898e05d0467383e5900002b76290
 #: ../../source/appendices/file-formats.rst:100
@@ -2268,7 +2269,7 @@ msgstr ""
 # 74018705a4c441e49de3d45345c9318e
 #: ../../source/appendices/file-formats.rst:141
 msgid "Open File Formats"
-msgstr ""
+msgstr "Formats de Fichier Ouvert"
 
 # e17b4510580847348172b575ac93ea62
 #: ../../source/appendices/file-formats.rst:143
@@ -2306,7 +2307,7 @@ msgid ""
 "The benefit of open file formats is that they permit developers to produce "
 "multiple software packages and services using these formats. This then "
 "minimises the obstacles to reusing the information they contain."
-msgstr ""
+msgstr "Le bénéfice des formats de fichier ouverts est qu'ils permettent aux développeurs de produire une multitude de briques logicielles et de services utilisant ces formats. Cela diminue ainsi les obstacles à la réutilisation des informations qu'ils contiennent."
 
 # 0fd7153058114d2da4be1c2d4092850e
 #: ../../source/appendices/file-formats.rst:167
@@ -2501,7 +2502,7 @@ msgstr "Les formes de protection se répartissent grossièrement en deux cas:"
 # dd647f87931c4a7a8ed3747bf5810e09
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
 msgid "Copyright for compilations"
-msgstr ""
+msgstr "Droit d'auteur pour les compilations"
 
 # 49e7c7312056484cb968ab0a7aaadb75
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41

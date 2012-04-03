@@ -11,7 +11,7 @@
 #   <dario.pagnoni@gmail.com>, 2011.
 # Enrico Damiano <enricodamiano@gmail.com>, 2011.
 #   <luca.iori2@unibo.it>, 2011.
-# Maurizio Napolitano <maurizio.napolitano@okfn.org>, 2011.
+# Maurizio Napolitano <maurizio.napolitano@okfn.org>, 2011, 2012.
 #   <menini.luca@gmail.com>, 2011.
 #   <natywaw@gmail.com>, 2011.
 #   <simona.ferlini@gmail.com>, 2011.
@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-02-15 13:48\n"
-"PO-Revision-Date: 2012-03-18 18:27+0000\n"
-"Last-Translator: Antonio Pandolfi <pando68@gmail.com>\n"
+"PO-Revision-Date: 2012-04-03 12:22+0000\n"
+"Last-Translator: Maurizio Napolitano <maurizio.napolitano@okfn.org>\n"
 "Language-Team: Italian (http://www.transifex.net/projects/p/opendatahandbook/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,7 +179,7 @@ msgid ""
 "This manual is copyright 2010-2011 of its respective contributors and "
 "licensed under a `Creative Commons Attribution License`_ (unported and all "
 "jurisdictions)."
-msgstr ""
+msgstr "Il copyright 2010-2011 di questo manuale è di proprietà dei suoi rispettivi contributori ed è distributo secondo licenza Creative Commons Attribution (Unported a tutte le giurisdizioni)."
 
 # 30bf1cf5d5454342b593b64ba1637d6c
 #: ../../source/introduction/index.rst:3
@@ -1602,7 +1602,7 @@ msgid ""
 "cases, civil society advocates have worked with progressive public officials"
 " to secure new release of datasets that can be used by programmers to create"
 " innovative applications."
-msgstr ""
+msgstr "Le attività intraprese nel quadro di queste iniziative comprendono normalmente concorsi, conferenze sugli :term:`open government data`, \"unconference\", workshop e \"hack day\". Queste attività sono spesso organizzate dalla comunità degli utenti con dati già pubblicati in maniera pro-attiva oppure ottenuti in seguito a specifiche  richieste. In altri casi, i sostenitori della società civile hanno lavorato con funzionari pubblici innovatori per ottenere il rilascio di nuovi dati utilizzabili dai programmatori per creare applicazioni innovative."
 
 # 54c0071c85d8421b93aa6e44ba951414
 #: ../../source/following-up/tell-the-world.rst:3
@@ -1738,7 +1738,7 @@ msgid ""
 "outside of a web browser, then fewer people will read it. Search engines are"
 " less likely to index the content. People are less likely to click to "
 "download."
-msgstr ""
+msgstr "I comunicati stampa sono un buon mezzo. Rappresentano messaggi concisi su un tema specifico. Tuttavia, se si obbligano le persone a scaricarne il testo e ad aprirlo fuori dal browser, si diminuiscono le probabilità che sia letto. Inoltre è meno probabile che i motori di ricerca ne indicizzino il contenuto e che i potenziali interessati clicchino per scaricarlo."
 
 # cb950933a1234caba177177219824870
 #: ../../source/following-up/tell-the-world.rst:78
@@ -1747,7 +1747,7 @@ msgid ""
 " this is permissible, you send a message that your agency understands "
 "openness. This is bound to leave an impression far more significant to "
 "proponents of open data than any specific sentence in your press release."
-msgstr ""
+msgstr "Oltre a rassicurare sul fatto che sia permesso condividerne il contenuto, si invia anche un implicito messaggio di apertura. I sostenitori dell'apertura dei dati riceveranno così un segnale molto più incisivo di qualunque esplicita affermazione del comunicato stampa."
 
 # c532be8c8f4e40d4833fd4f5fd6ff0ad
 #: ../../source/following-up/tell-the-world.rst:87
@@ -1762,7 +1762,7 @@ msgid ""
 "fora is by making sure that blog posts are easily shareable. That means, "
 "before reading the next section, make sure that you have read the last. With"
 " that in mind, here are a few suggestions:"
-msgstr ""
+msgstr "É una scelta inefficace per gli enti con pochi fondi passare ore sui siti di social media. Il modo più importante per essere ascoltato attraverso i social media è di fare in modo che i post sul blog siano facilmente condivisibili. Questo vuol dire che, prima di leggere la sezione successiva, occorre assicurarsi di aver letto la precedente. Tenendo ciò in considerazione, di seguito alcuni suggerimenti:"
 
 # 84650f35e5804ddeae34645131f7b9a8
 #: ../../source/following-up/tell-the-world.rst:98
@@ -1799,7 +1799,7 @@ msgstr "Occorre inviare le comunicazioni all'equivalente delle agenzie di stampa
 msgid ""
 "These sites have a tendency to drive signficiant traffic to interesting "
 "material. They are also heavily focused on topic areas."
-msgstr ""
+msgstr "Questi siti hanno una tendenza a guidare il traffico significativo verso materiali interessanti. Sono anche fortemente focalizzati su aree tematiche."
 
 # 1d45945943804e66b1dd0e088a725526
 #: ../../source/glossary.rst:3
@@ -1811,7 +1811,7 @@ msgstr "Glossario"
 msgid ""
 "The process of adapting data so that individuals cannot be identified from "
 "it."
-msgstr ""
+msgstr "Il processo di adattare i dati in modo che gli individui non possano essere individuati da esso."
 
 # 07cc47e58a844f9584dcd0f6ecd5035a
 #: ../../source/glossary.rst:102
@@ -1828,7 +1828,7 @@ msgstr "Vedi :term:`Application Programming Interface`."
 msgid ""
 "A way computer programs talk to one another. Can be understood in terms of "
 "how a programmer sends instructions between programs."
-msgstr ""
+msgstr "Un modo per i programmi di comunicare tra loro. Si può comprendere nei termini di come un programmatore invia istruzioni tra programmi diversi."
 
 # 6f2e31b14bd146eb82637c92442aa42e
 # c225015fd14c40ed937e9dcd9420899a
@@ -1841,7 +1841,7 @@ msgstr "Vedi :term:`Registro dei dati esistenti`."
 msgid ""
 "A licence that requires that the original source of the licensed material is"
 " cited (attributed)."
-msgstr ""
+msgstr "Una licenza che richiede che venga citata la fonte originale del materiale sottoposto alla licenza (attribuzione)."
 
 # 8fd8a788b7374b0fbdb702c96a2fb201
 #: ../../source/glossary.rst:42
@@ -1870,7 +1870,7 @@ msgid ""
 "A right for the creators of creative works to restrict others' use of those "
 "works. An owner of copyright is entitled to determine how others may use "
 "that work."
-msgstr ""
+msgstr "Diritto per i realizzatori di opere creative a circoscrivere l'utilizzo di quei lavori da parte di altri. Chi possiede il copyright ha titolo per decidere come altri possono utilizzare quel lavoro. "
 
 # 3accd4c828044addb9b887fc0a4420c2
 #: ../../source/glossary.rst:31
@@ -1897,7 +1897,7 @@ msgid ""
 "lines. This raised a debate from the perspective of freedom of movement and "
 "the travel card data collection was abandoned based on the data protection "
 "legislation."
-msgstr ""
+msgstr "La legislazione per la protezione dei dati non riguarda il proteggere i dati, ma il proteggere il diritto dei cittadini a vivere senza il timore che informazioni sulle loro vite private possano diventare pubbliche. La legge protegge la privacy (si pensi alle informazioni sulla posizione economica, la salute e le posizioni politiche di una persona) ed altri diritti quali il diritto alla libertà di movimento e di riunione. Per esempio, in Finlandia un sistema di abbonamenti veniva utilizzato per registrare tutti i casi in cui l'abbonamento veniva mostrato al lettore automatico sulle differenti linee di trasporto pubblico. Ciò sollevò un dibattito dal punto di vista della libertà di movimento e la raccolta dei dati degli abbonamenti fu abbandonata sulla base della legislazione per la protezione dei dati."
 
 # a0919bc93c194f6fa793652157632129
 #: ../../source/glossary.rst:85
@@ -1935,7 +1935,7 @@ msgid ""
 "The :term:`EU PSI Directive` recognises the importance of asset registers "
 "for prospective re-users of public information. It requires member states to"
 " provide lists, portals, or something similar. It states::"
-msgstr ""
+msgstr "La :term:`Direttiva Europea sulla PSI` riconosce l'importanza dei registri per i potenziali utilizzatori delle informazioni pubbliche. Richiede che gli Stati membri forniscano liste, portali, o qualcosa di analogo. Tale direttiva dichiara:"
 
 # 93de1a27037c4d8f87c4451d5adf0e39
 #: ../../source/glossary.rst:151
@@ -1945,7 +1945,7 @@ msgid ""
 "information which is held by public bodies but which has not yet been – and "
 "maybe will not be – proactively published. Hence they allow members of the "
 "public to identify information which exists and which can be requested."
-msgstr ""
+msgstr "Gli IAR possono essere sviluppati in diversi modi. I dipartimenti governativi possono sviluppare i propri cataloghi e collegarli a IAR \nnazionali. Gli IAR possono includere informazioni detenute da enti pubblici, ma che non sono ancora state pubblicate - e forse non lo saranno - in modo proattivo. Di conseguenza consentono al pubblico di individuare informazioni esistenti e che possono essere richieste."
 
 # a3a63e3b4db84ea59d2cb22b6453b532
 #: ../../source/glossary.rst:158
@@ -1956,7 +1956,7 @@ msgid ""
 "registers is a significant problem as it creates a degree of unreliability "
 "which may discourage some from using the registers to search for "
 "information."
-msgstr ""
+msgstr "Perché il pubblico faccia uso degli IAR è importante che questi siano il più possibile completi in modo da fornire la garanzia che i documenti possano essere rinvenuti. La mancata completezza di alcuni registri costituisce un importante problema in quanto genera una percezione di inaffidabilità che potrebbe scoraggiare dall'uso dei registri per la ricerca di informazioni."
 
 # a146aacf314546b4a54990ebd24f7f9a
 #: ../../source/glossary.rst:165
@@ -1967,7 +1967,7 @@ msgid ""
 "general public as raw data under an open licence so that civic hackers can "
 "make use of the data, for example by building search engines and user "
 "interfaces."
-msgstr ""
+msgstr "È essenziale che i meta-dati negli IAR siano completi in modo che i motori di ricerca siano grado di funzionare efficacemente. Nello spirito degli open government data, gli enti pubblici dovrebbero rendere disponibili al pubblico i propri IAR offrendo dati grezzi e con una licenza aperta, in modo che i \"civic hackers\" possano utilizzare i dati, per creare - ad esempio - motori di ricerca e interfacce utente"
 
 # 79cce7b9b73246d48dde256625c1302e
 #: ../../source/glossary.rst:111
@@ -2080,7 +2080,7 @@ msgid ""
 "JSON is a simple file format that is very easy for any programming language "
 "to read. Its simplicity means that it is generally easier for computers to "
 "process than others, such as XML."
-msgstr ""
+msgstr "JSON è un formato di file semplice e molto facile da leggere per tutti i linguaggi di programmazione. La sua semplicità vuol dire che è in generale più facile da elaborare per i computer rispetto ad altri formati, quale l'XML."
 
 # e6db0f4b1e414e0fa4dd68aff2027c43
 #: ../../source/appendices/file-formats.rst:16
@@ -2094,7 +2094,7 @@ msgid ""
 "opportunities to keep the structure in the data and the way files are built "
 "on, and allows developers to write parts of the documentation in with the "
 "data without interfering with the reading of them."
-msgstr ""
+msgstr "XML è un formato ampiamente utilizzato per lo scambio dei dati perché fornisce buone opportunità per conservare la struttura dei dati ed il modo in cui i file sono predisposti, e consente agli sviluppatori di includere parte della documentazione insieme ai dati ma senza interferire con la loro lettura."
 
 # b2247d349f9044f1926dc87201fb13b1
 #: ../../source/appendices/file-formats.rst:24
@@ -2114,7 +2114,7 @@ msgid ""
 "inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
 "scheme that includes linked RDF data as a goal to be sought for open data "
 "initiatives."
-msgstr ""
+msgstr "Un formato raccomandato dal W3C è l' RDF, che consente di rappresentare i dati in una forma che rende facilmente integrabili dati provenienti da fonti diverse. I dati RDF possono essere memorizzati in XML e JSON, oltre che in altri formati. L'RDF incoraggia l'uso di URL come identificatori, provvedendo così un sistema utile per collegare direttamente le iniziative Open Data sul web. L'RDF è ancora poco diffuso, ma il suo uso sta diventando comune fra le iniziative di Open Government, compresi i progetti Linked Open Data dei governi britannico e spagnolo. L'inventore del Web, Tim Berners-Lee, ha proposto una classificazione a cinque stelle che indica i dati RDF come un obiettivo da perseguire nelle iniziative Open Data."
 
 # 2338c8757b064e4b8c06b154990f9402
 #: ../../source/appendices/file-formats.rst:41
@@ -2136,7 +2136,7 @@ msgid ""
 "which may be somewhat more cumbersome to handle. It is therefore advisable "
 "to document such calculations next to the spreadsheet, since it is generally"
 " more accessible for users to read."
-msgstr ""
+msgstr "Tuttavia, in alcuni casi potrebbero esserci macro e formule nei fogli di calcolo, che possono essere scomodi da gestire. Si consiglia pertanto di documentare tali calcoli accanto al foglio elettronico, facilitando la loro accessibilità per gli utenti."
 
 # bdac237613fb4800967fb56d2ea737c3
 #: ../../source/appendices/file-formats.rst:53
@@ -2161,7 +2161,7 @@ msgid ""
 "a single omission of a field may disturb the reading of all remaining data "
 "in the file without any real opportunity to rectify it, because it cannot be"
 " determined how the remaining data should be interpreted."
-msgstr ""
+msgstr "É inoltre essenziale che la struttura del file sia rispettata. L'omissione anche di un solo campo può impedire lettura di tutti i restanti dati del file, senza alcuna possibilità di correzione, in quanto non è possibile interpretare il senso dei campi successivi."
 
 # e9e53c87cd07468bba8b5d1101abac4d
 #: ../../source/appendices/file-formats.rst:69
@@ -2179,7 +2179,7 @@ msgid ""
 "by automated means. Be sure to use templates as the basis of documents that "
 "will display data for reuse, so it is at least possible to pull information "
 "out of documents."
-msgstr ""
+msgstr "Documenti in formati classici come Word, ODF, OOXML, o PDF possono essere sufficienti per mostrare alcuni tipi di dati - ad esempio, mailing list relativamente stabili o loro equivalenti. Possono essere condivisi a basso costo, essendo i formati in cui spesso i dati sono nati. Questi formati non aiutano in alcun modo a mantenere coerente la struttura, e quindi è spesso difficile inserire i dati in modo automatico. Assicuratevi di utilizzare come base dei documenti dei modelli che possano evidenziare i dati per un loro potenziale riutilizzo, in modo che almeno sia possibile estrarre  le informazioni dai documenti."
 
 # e40e6492ca68476892728d3e92b35611
 #: ../../source/appendices/file-formats.rst:80
@@ -2203,7 +2203,7 @@ msgid ""
 "generally exclude structural metadata from inside the document however, "
 "meaning that developers will need to create a parser that can interpret each"
 " document as it appears."
-msgstr ""
+msgstr "I documenti di testo (.txt) sono molto facili da leggere per i computer. Tuttavia generalmente non includono meta-dati strutturali dall'interno del documento, con la conseguenza che gli sviluppatori devono creare un parser/analizzatore in grado di interpretare ogni documento così come appare."
 
 # 9b9a7651d5c746d9a8e4d99c35f77a9b
 #: ../../source/appendices/file-formats.rst:94
@@ -2244,7 +2244,7 @@ msgid ""
 "proprietary formats can be found should always be indicated, for example by "
 "providing a link to the supplier's website. Generally it is recommended to "
 "display data in non-proprietary formats where feasible."
-msgstr ""
+msgstr "Alcuni sistemi specializzati hanno i propri formati di dati in cui possono salvare o esportare dati. A volte può anche essere sufficiente condividere i dati in questi formati - soprattutto se si prevede che l'uso successiva sia fatto in un sistema simile a quello da cui provengono. Dovrebbe sempre essere indicato dove si possono trovare ulteriori informazioni su questi formati proprietari, ad esempio con un link al sito web del fornitore. In generale si consiglia, ove possibile, di condividere dati utilizzando formati non proprietari."
 
 # 162164a69fca49849513c817bbd83960
 #: ../../source/appendices/file-formats.rst:123
@@ -2270,7 +2270,7 @@ msgid ""
 "Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
 "extract structured information from a website, and such tools can do much "
 "more with the data if it is carefully tagged."
-msgstr ""
+msgstr "Tipicamente sarebbe più opportuno utilizzare tabelle nei documenti HTML per contenere i dati, e che i vari campi di dati siano visualizzati e identificati in modo che siano facili da trovare e manipolare. Yahoo ha sviluppato uno strumento (http://developer.yahoo.com/yql/) in grado di estrarre informazioni strutturate da un sito web: tali strumenti possono raggiungere risultati molto migliori se i dati sono accuratamente etichettati."
 
 # 74018705a4c441e49de3d45345c9318e
 #: ../../source/appendices/file-formats.rst:141
@@ -2331,7 +2331,7 @@ msgid ""
 "The preference from the :term:`open government data` perspective therefore "
 "is that information be released in **open file formats which are machine-"
 "readable.**"
-msgstr ""
+msgstr "La preferenza dal punto di vista degli  :term:`open government data`è che l'informazione deve essere rilasciata in **formati di file aperti che sono machine-readalbe.**"
 
 # 7e7a0f34c6864e3780a6dbc8b409fccd
 #: ../../source/appendices/file-formats.rst:178
@@ -2354,7 +2354,7 @@ msgid ""
 "of an educational discount. The main software packages on the April 2010 "
 "price list from Saturn start at £13,000 (over €15,000), a price which is "
 "beyond the reach of most ordinary citizens."
-msgstr ""
+msgstr "Andrew Nicolson è uno sviluppatore software che è stato coinvolto in una campagna (riuscita con successo) contro la costruzione di una nuova strada, la tangenziale Est Westbury, nel Regno Unito. Andrew era interessato ad accedere e utilizzare i dati sul traffico stradale che veniva utilizzati per giustificare le proposte. Riuscì a ottenere alcuni dati interessante attraverso la libertà di richiesta di informazioni, ma il governo locale forniva i dati in un formato proprietario che potevano essere letti solo con il software prodotto dalla società Saturno. Azienda specializzata nella modellazione del traffico e le previsioni.  Non era disponibile una versione in \"sola lettura\" versione del software, obbligando così il gruppo di Andrew gruppo nell'acquisto di una licenza software, scontanto a 500£ (600€)  nella versione per enti educativi. Il pacchetto software principale, nel listi di aprile 2010 di Saturno a partiva da 13.000£  (oltre 15.000€ ), un prezzo fuori dalla portata della maggior parte dei cittadini."
 
 # a71ea073e22e414da58d4680a3e655c5
 #: ../../source/appendices/file-formats.rst:196
@@ -2365,7 +2365,7 @@ msgid ""
 "must be made available in open file formats. Setting the gold standard has "
 "been the Obama Administration, with the Open Government Directive issued in "
 "December 2009, which says:"
-msgstr ""
+msgstr "Sebbene non si abbia accesso all'informazione, la legge dà il diritto di accesso in formati aperti, le iniziative open government data stanno iniziando ad essere accompagnate da documenti programmatici che prevedono che le informazioni ufficiali debbano essere rese disponibili in formati aperti. L'impostazione del gold standard è stata fatta dall'amministrazione Obama, con la direttiva Open Government pubblicata nel dicembre 2009, che dice:"
 
 # 954625ccb9bf456e930a1752af8c2159
 #: ../../source/appendices/file-formats.rst:203
@@ -2376,7 +2376,7 @@ msgid ""
 "An open format is one that is platform independent, machine readable, and "
 "made available to the public without restrictions that would impede the re-"
 "use of that information.*"
-msgstr ""
+msgstr "*Per quanto possibile e soggetti a valide restrizioni, gli enti dovrebbero pubblicare online le informazioni in un formato aperto in modo che possano essere recuperate, scaricate, indicizzate e ricercate da comune applicazioni web di ricerca. Un formato aperto deve essere indipendente dalla piattaforma, machine-readable, e resi disponibili al pubblico senza restrizioni che ne impediscona il riuso.*"
 
 # 9bb75c31475546099d71e467b6ee31b8
 #: ../../source/appendices/file-formats.rst:213
@@ -2390,7 +2390,7 @@ msgid ""
 "before – you should choose the format that provides the best balance between"
 " cost and suitability for purpose. For each format there are some things you"
 " should be aware of, and this section aims to explain them."
-msgstr ""
+msgstr "Quando un ente deve presentare nuovi dati - dati che non sono stati esposti prima - dovrebbe scegliere il formato che offre il miglior equilibrio tra costi e l'idoneità allo scopo. Per ogni formato ci sono alcune cose di cui bisogna essere a conoscenza, e questa sezione mira a spiegarle."
 
 # 69768ad3835e496f940280dea254dcdb
 #: ../../source/appendices/file-formats.rst:221
@@ -2398,7 +2398,7 @@ msgid ""
 "This section focuses only on how the cut surfaces are best arranged so that "
 "machines can access them directly. Advice and guidance about how web sites "
 "and web solutions should be designed can be found elsewhere."
-msgstr ""
+msgstr "Questa sezione si concentra sui servizi di interoperabilità in modo da favorire l'accesso diretto fra macchine. Consigli e indicazioni su come le soluzioni e siti debbano essere progettati può essere trovato altrove."
 
 # a73b2b16d3e4421e866cba7d11aec843
 #: ../../source/appendices/file-formats.rst:227
@@ -2413,7 +2413,7 @@ msgid ""
 "ways to create a web service, but some of the most used is SOAP and REST. "
 "Generally, SOAP over REST, REST services, but are very easy to develop and "
 "use, so it is a widely used standard."
-msgstr ""
+msgstr "Per i dati soggetti a frequenti modifiche, e dove ogni download è limitato nelle dimensioni, è molto utile esporre i dati attraverso web services. Ci sono diversi modi per creare un web service, ma alcuni dei più utilizzati sono SOAP e REST. Generalmente, SOAP su REST, servizi REST, ma sono molto facili da sviluppare e utilizzare, e si tratta pertanto di uno standard ampiamente utilizzato."
 
 # 0ebd9d02ede244c9ac9984be422b7767
 #: ../../source/appendices/file-formats.rst:236
@@ -2436,7 +2436,7 @@ msgid ""
 "importance of individual tables and fields are well documented. Often, it is"
 " relatively simple and inexpensive to create web services that expose data "
 "from a database, which can be an easy way to address safety concerns."
-msgstr ""
+msgstr "Ci sono alcuni problemi di sicurezza nel estrazione remota da un database e l'accesso al database è utile solo se la struttura del database e l'importanza delle singole tabelle e campi sono ben documentati. Spesso, è relativamente semplice e poco costoso per creare servizi web che espongono i dati da un database, risolvendo, in maniera molto semplice i problemi di sicurezza."
 
 # 357f716b35e240d1bb69f276ba6ec0cb
 #: ../../source/appendices/index.rst:3
@@ -2456,7 +2456,7 @@ msgid ""
 "shall mean the content of the database itself). Structural elements include "
 "things like the field names and a model for the data – the organization of "
 "these fields and their inter-relation."
-msgstr ""
+msgstr "Quando si parla di (banche) dati  la prima cosa che dobbiamo distinguere la differenza struttura e contenuto di un database (quando usiamo termine 'dati' intendiamo il contenuto del database stesso). Gli elementi strutturali includono cose come i nomi di campo e un modello per i dati - l'organizzazione di questi campi e la loro inter-relazione."
 
 # a36fbf3c226c4f0aa83024b95b0e01e3
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
@@ -2476,7 +2476,7 @@ msgid ""
 "collection (e.g. all the material in the database). To avoid confusion we "
 "shall reserve the term \"content\" to mean the individual items, and data to"
 " denote the collection."
-msgstr ""
+msgstr "Tuttavia, qui siamo particolarmente interessati ai dati. Quando parliamo di \"dati\" abbiamo bisogno di essere un po' attenti perché la parola non è particolarmente precisa: \"dati\" può significare pochi oggetti o anche un solo elemento (per esempio un singolo record bibliografico, un lat/lon) oppure \"dati\" può significare una grande collezione (ad esempio, tutto il materiale nel database). Per evitare confusione ci riserviamo il termine \"contenuto\" per indicare i singoli elementi e dati per indicare la raccolta."
 
 # fe6e027afa4148fa97f0a815b277b636
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
@@ -2484,7 +2484,7 @@ msgid ""
 "Unlike for material such as text, music or film, the legal situation for "
 "data varies widely across countries. However, most jurisdictions **do** "
 "grant some rights in the data (as a collection)."
-msgstr ""
+msgstr "A differenza di materiale come testo, musica o film, la situazione giuridica per i dati varia notevolmente da paese a paese. Tuttavia, la maggior parte delle giurisdizioni *concede* alcuni diritti sui dati (visti come una collezione)."
 
 # 47307e3a5182471f87c8a8c3a2aaf5b0
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
@@ -2498,7 +2498,7 @@ msgid ""
 "one is not allow to access, reuse or redistribute it without permission, "
 "this would never prevent you from stating the fact that substance Y melts at"
 " temperature Z."
-msgstr ""
+msgstr "Questa distinzione fra il \"contenuto\" di una banca dati e la raccolta è fondamentale soprattutto per i database che raccolgono fatti dal momento che non è giuridicamente valido concedere diritto(i) di monopolio sui singoli fatti (il \"contenuto\"), anche se possono essere concessi diritti in merito alla raccolta. Come chiarimento, consideriamo il semplice esempio di una banca dati che elenca il punto di fusione di varie sostanze. Mentre il database nel suo complesso potrebbe essere protetto dalla legge in modo da non permettere l'acceso, il reimpiego o la redistribuzione senza il permesso, questo non impedisce di affermare il fatto che la sostanza Y fonde alla temperatura Z."
 
 # 2fb948d3f4e44ec2a8c3a123be81cb04
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
@@ -2521,7 +2521,7 @@ msgid ""
 "As we have already emphasized, there are no general rules and the situation "
 "varies by jurisdiction. Thus we proceed country by country detailing which "
 "(if any) of these approaches is used in a particular jurisdiction."
-msgstr ""
+msgstr "Come abbiamo già sottolineato, non ci sono regole generali e la situazione varia a seconda della giurisdizione. Così noi procediamo paese per paese dettagliando quale di questi approcci (se presenti) sono utilizzati in una particolare giurisdizione."
 
 # 0dd4e8dc78944e9a87f005197efb5752
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
@@ -2532,7 +2532,7 @@ msgid ""
 "mechanisms to achieve results similar to a formal IP right. For example, if "
 "X is a provider of a citation database, it can achieve any set of terms of "
 "conditions it wants simply by:"
-msgstr ""
+msgstr "Infine, dobbiamo sottolineare che, in assenza di qualsiasi tutela giuridica, molti fornitori di dati (chiusi) forniscono semplici contratti combinati con alcune disposizioni di legge che generano dei meccanismi di controllo in grado di ottenere risultati simili ad una forma di diritto della proprietà intellettuale. Ad esempio, se X è un fornitore di un database, può ricevere un insieme di termini di utilizzo semplicemente con: "
 
 # b2cfcfbef2e44a35a7f3265ce908ba28
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
@@ -2544,7 +2544,7 @@ msgstr "Richiedendo agli utenti di accedere attraverso una password"
 msgid ""
 "(b) Only providing a user with an account and password on the condition that"
 " the user agrees to the terms and conditions"
-msgstr ""
+msgstr "(b) Fornendo soltanto un utente con un account e una password in modo che accetti termini e condizioni"
 
 # 1d0c84f875e543f19d26da6b7e67fe07
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59

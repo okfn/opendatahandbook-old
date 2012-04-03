@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-02-15 13:48\n"
-"PO-Revision-Date: 2012-03-06 22:07+0000\n"
-"Last-Translator: Maria Jurado <maripijurado@hotmail.com>\n"
+"PO-Revision-Date: 2012-03-28 13:10+0000\n"
+"Last-Translator: Paola Ricaurte <>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/opendatahandbook/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,7 @@ msgstr "Este manual se refiere a los aspectos legales, sociales y técnicos de l
 msgid ""
 "To get started, you may wish to look at the Introduction_. You can navigate "
 "through the report using the Table of Contents (see sidebar or below)."
-msgstr "Para empezar, puede mirar la Introduction_. Usted puede navegar a través del informe utilizando la Tabla de contenido (véase el recuadro o por debajo)."
+msgstr "Para empezar, revise la Introducción. Puede navegar a través del reporte utilizando el Índice (vea la barra lateral o más abajo)."
 
 # 924dca17a4d94350b9550557c7782b33
 #: ../../source/index.rst:17
@@ -58,12 +58,12 @@ msgstr "Damos una cálida bienvenida a los comentarios sobre el texto e incorpor
 # 43a27ec331cb404a873ebe69e00f74ba
 #: ../../source/index.rst:23
 msgid "Table of Contents"
-msgstr "Indice"
+msgstr "Índice"
 
 # 51c17a75ea344da3a0ec4c8dbbcc7120
 #: ../../source/index.rst:38
 msgid "Indices and tables"
-msgstr "Indices and tables"
+msgstr "Índices y tablas"
 
 # 16ae49b2d92c417186201549e25604fd
 #: ../../source/index.rst:40
@@ -73,22 +73,22 @@ msgstr ":ref:`genindex`"
 # 65729c829de34823bf35686bcba5c5ea
 #: ../../source/index.rst:41
 msgid ":ref:`modindex`"
-msgstr "??"
+msgstr ":ref: `modindex`"
 
 # b54af26664504f54ae02787837ac6d57
 #: ../../source/index.rst:42
 msgid ":ref:`search`"
-msgstr "cref: búsqueda"
+msgstr ":ref: `búsqueda`"
 
 # 1b5f67b5c5ef44fc99a8b62230d53fa3
 #: ../../source/introduction/credits.rst:3
 msgid "Credits and Copyright"
-msgstr "Reconocimientos y derechos reservados"
+msgstr "Créditos y derechos reservados"
 
 # 8d7720ecfd3d4d29954cb5a74a617e5b
 #: ../../source/introduction/credits.rst:6
 msgid "Contributing authors"
-msgstr "autores que han contribuído"
+msgstr "Autores"
 
 # 4813ce0efad34e0f9f59a9987e16d1d2
 #: ../../source/introduction/credits.rst:8
@@ -98,7 +98,7 @@ msgstr "`Daniel Dietrich` _"
 # e669f04b04ad45d8a375d825342d581c
 #: ../../source/introduction/credits.rst:9
 msgid "`Jonathan Gray`_"
-msgstr "Jonathan Gray `` _"
+msgstr "Jonathan Gray ` _"
 
 # 2bf37471768c4da189282441070784f8
 #: ../../source/introduction/credits.rst:10
@@ -108,17 +108,17 @@ msgstr "`Tim McNamara` _"
 # 0a0956c9b8844a349a2616cc3d2f6021
 #: ../../source/introduction/credits.rst:11
 msgid "`Antti Poikola`_"
-msgstr "`` _ Antti Poikola"
+msgstr "` _ Antti Poikola"
 
 # 581a9864853548a990f9ef7d0f8b9d58
 #: ../../source/introduction/credits.rst:12
 msgid "`Rufus Pollock`_"
-msgstr "'Rufus Pollock `_"
+msgstr "`Rufus Pollock `_"
 
 # d504f920eb724616990b140e0fe60328
 #: ../../source/introduction/credits.rst:13
 msgid "`Julian Tait`_"
-msgstr "Julian Tait `` _"
+msgstr "`Julian Tait ` _"
 
 # fe2ad6e3c76343a09f8769b13b7ac6f2
 #: ../../source/introduction/credits.rst:14
@@ -128,21 +128,21 @@ msgstr "`Ton Zijlstra` _"
 # 0fd68d80ac03488ab297d645625f9a2b
 #: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
-msgstr "Fuentes existentes usadas directamente"
+msgstr "Fuentes utilizadas"
 
 # 6a98ab12d50a4921ab2eda0e1e9c6940
 #: ../../source/introduction/credits.rst:19
 msgid ""
 "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
 " Group led by Simon Parrish*"
-msgstr "Oferta técnica para cómo se ejecuta IATI. El grupo consultivo técnico del *The IATI llevó por Simon Parrish"
+msgstr "Propuesta técnica para la imprementación de la Iniciativa Internacional para la Transparencia de la Ayuda (IATI, International Aid Transparency Iniciative). *Grupo Consultivo Técnico de IATI dirigido por Simon Parrish*"
 
 # 204fe4b180944db5a25a7d8ae3e6bb43
 #: ../../source/introduction/credits.rst:21
 msgid ""
 "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
 "Gray, Simon Parrish, Jordan Hatcher*"
-msgstr "` Abriendo el potencial de la información de ayuda. *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
+msgstr "` Abriendo el potencial de la información de ayuda`_. *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
 
 # c6912e22d1bb445197c1d7ff9038b3b5
 #: ../../source/introduction/credits.rst:23
@@ -152,12 +152,12 @@ msgstr "Manual finlandés escrito por *Antti Poikola*"
 # 72995ff0c45546fb96001b2d2943b23b
 #: ../../source/introduction/credits.rst:24
 msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
-msgstr "Más allá de informe de acceso. * Informacion de acceso  y la Fundación para el conocimiento abierto*"
+msgstr "Reporte Más allá del acceso. *Información de acceso y Fundación para el Conocimiento Abierto*"
 
 # 1fa7678429dc4e7ba709facce38c5057
 #: ../../source/introduction/credits.rst:27
 msgid "Other sources"
-msgstr "otras fuentes"
+msgstr "Otras fuentes"
 
 # b3444a5473914041904d09a43773aa12
 #: ../../source/introduction/credits.rst:29
@@ -167,7 +167,7 @@ msgstr "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
 # d7cab88e6ce54cd28190a5ab1254f01b
 #: ../../source/introduction/credits.rst:32
 msgid "Copyright"
-msgstr "derechos reservados"
+msgstr "Derechos reservados"
 
 # 4ccd9e0fba5e464ebae847cbae667d17
 #: ../../source/introduction/credits.rst:34
@@ -246,7 +246,7 @@ msgstr "Para ellos que jamás han escuchado anteriormente sobre datos abiertos y
 # 7b011d1528bb433496f6b3e8d62ab44c
 #: ../../source/introduction/index.rst:41
 msgid "for civil servants and for activists"
-msgstr "para los funcionarios y para los activistas"
+msgstr "funcionarios y activistas"
 
 # b3a6a33e29a445d6b486e6c4106b38fb
 #: ../../source/introduction/index.rst:42
@@ -256,12 +256,12 @@ msgstr "para periodistas e investigadores"
 # 996a97cef9a24ab69c1c6a428b12d654
 #: ../../source/introduction/index.rst:43
 msgid "for politicians and developers"
-msgstr "para los políticos y los desarrolladores"
+msgstr "políticos y desarrolladores"
 
 # e1305c5f93f44a0e9fd97520a27a1425
 #: ../../source/introduction/index.rst:44
 msgid "for data geeks and those who have never heard of an API."
-msgstr "para los frikis de los datos y los que nunca han oído hablar de una API."
+msgstr "geeks de los datos y los que nunca han oído hablar de una API."
 
 # 3f4140c618c64105becd774102930937
 #: ../../source/introduction/index.rst:46
@@ -288,7 +288,7 @@ msgstr "Créditos"
 # 7e37bef3a2ea4483b3c6da8ae2188a52
 #: ../../source/why-open-data/index.rst:3
 msgid "Why Open Data?"
-msgstr "¿Por qué Datos Abiertos?"
+msgstr "¿Por qué datos abiertos?"
 
 # 994773af28e640c4b81d17c401e7f429
 #: ../../source/why-open-data/index.rst:5
@@ -359,13 +359,13 @@ msgstr "Mayor eficacia de los servicios públicos"
 # e507066cd7e246f3addecbe7815b71bb
 #: ../../source/why-open-data/index.rst:31
 msgid "Impact measurement of policies"
-msgstr "Medición del impacto de las políticas"
+msgstr "Medición del impacto de políticas"
 
 # a01d04d19acd468e82218ca46082a6ab
 #: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
-msgstr "Nuevos conocimientos a partir de fuentes de datos combinadas y los patrones en grandes volúmenes de datos"
+msgstr "Nuevos conocimientos a partir de fuentes de datos combinadas y patrones en grandes volúmenes de datos"
 
 # 024085f9235341d09d5832815b261faf
 #: ../../source/why-open-data/index.rst:35
@@ -490,7 +490,7 @@ msgid ""
 "*Open data is data that can be freely used, reused and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr "*Los datos abiertos son datos que pueden ser utilizados libremente, reusados y redistribuidos por cualquier persona, y se encuentran sujetos, cuando más, al requerimiento de atribución y de ser compartidos de la misma manera en que aparecen.*"
+msgstr "*Los datos abiertos son datos que pueden ser utilizados, reutilizados y redistribuidos libremente por cualquier persona, y que se encuentran sujetos, cuando más, al requerimiento de atribución y de compartirse de la misma manera en que aparecen.*"
 
 # 34cc718e9c7a4065b75b0ca0cae1f5e8
 #: ../../source/what-is-open-data/index.rst:18
@@ -540,7 +540,7 @@ msgid ""
 "Interoperability denotes the ability of diverse systems and organizations to"
 " work together (inter-operate). In this case, it is the ability to "
 "interoperate - or intermix - different datasets."
-msgstr "La interoperabilidad denota la habilidad de diversos sistemas y organizaciones para trabajar juntos (inter-operar). En este caso, es la habilidad para interoperar o integrar diferentes bases de datos. "
+msgstr "La interoperabilidad denota la habilidad de diversos sistemas y organizaciones para trabajar juntos (interoperar). En este caso, es la habilidad para interoperar o integrar diferentes bases de datos. "
 
 # 06577cee94b34369ae53a67c60c440db
 #: ../../source/what-is-open-data/index.rst:42
@@ -603,7 +603,7 @@ msgstr "La clave es que cuando se trata de abrir datos el foco se pone en inform
 msgid ""
 "Similarly, for some kinds of government data, national security restrictions"
 " may apply."
-msgstr "De manera similar, para algunos tipos de datos gubernamentales, pueden aplicar resticciones nacionales de seguridad."
+msgstr "De manera similar, para algunos tipos de datos gubernamentales, pueden aplicar restricciones nacionales de seguridad."
 
 # c83eb6388c8f4574aef485018a9a5fd7
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:3

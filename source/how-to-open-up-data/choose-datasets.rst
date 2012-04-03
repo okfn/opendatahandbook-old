@@ -31,7 +31,7 @@ a good understanding of which data could be valuable.
    feedback on. It is not essential that this list concurs with 
    your expectations, the main intention is to get a feel for the 
    demand. This could be based on other countries' :term:`open data` 
-   catalogues.
+   catalogs.
 
 2. Create a request for comment.   
 

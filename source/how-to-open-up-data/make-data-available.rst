@@ -40,7 +40,7 @@ six months' time.
 There are many different ways to make data available to others. The most 
 natural in the Internet age is online publication. There are many
 variations to this model. At its most basic, agencies make their data 
-available via their websites and a central catalogue directs visitors
+available via their websites and a central catalog directs visitors
 to the appropriate source.  However, there are alternatives.
 
 When :term:`connectivity` is limited or the size of the data extremely 

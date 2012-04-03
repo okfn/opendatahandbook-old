@@ -57,7 +57,7 @@ be done simultaneously.
       You may also wish to consider alternative ways of making it available 
       such as via an API.
    4. **Make it discoverable** - post on the web and perhaps organize 
-      a central catalogue to list your open datasets.
+      a central catalog to list your open datasets.
 
 ..  toctree::
    :maxdepth: 1

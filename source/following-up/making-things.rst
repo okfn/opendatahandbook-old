@@ -22,16 +22,16 @@ and was open to programmers from around the world, with a tempting
 **Apps for Democracy**, one of the first competitions in the 
 United States, was launched in October 2008 by Vivek Kundra, at the 
 time Chief Technology Officer (CTO) of the District of Columbia (DC) 
-Government. Kundra had developed the groundbreaking DC data catalogue, 
+Government. Kundra had developed the groundbreaking DC data catalog, 
 http://data.octo.dc.gov/, which included datasets such as real-time 
 crime feeds, school test scores, and poverty indicators. It was at the 
-time the most comprehensive local data catalogue in the world. The 
+time the most comprehensive local data catalog in the world. The 
 challenge was to make it useful for citizens, visitors, businesses 
 and government agencies of Washington, DC. 	
 
 The creative solution was to create the Apps for Democracy contest. 
 The strategy was to ask people to build applications using the data 
-from the freshly launched data catalogue. It included an online 
+from the freshly launched data catalog. It included an online 
 submission for applications, many small prizes rather than a few large 
 ones, and several different categories as well as a “People’s 
 Choice” prize. The competition was open for 30 days and cost the DC 

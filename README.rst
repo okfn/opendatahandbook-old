@@ -136,6 +136,11 @@ Building a translation of the handbook
 Updating the Translation with New Source Text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Simple version: just upload a new all.pot to transifex.
+
+WARNING: this will immediately update all translation files and will usually
+discard any translations of strings that have changed however the trivial the
+change is.
 
 
 .. _Open Data Handbook: http://opendatahandbook.org/

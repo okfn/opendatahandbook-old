@@ -55,7 +55,7 @@ work processes, and increased democratic participation. The use of
 government data was explicitly encouraged. Though the application 
 deadline was just a month later, on May 9, the Minister Rigmor Aasrud 
 said the response was "overwhelming". In total 137 applications were 
-received, no less than 90 of which built on the reuse of government 
+received, no less than 90 of which built on the re-use of government 
 data. A total amount of NOK 2.5 million was distributed among the 
 17 winners; while the total amount applied for by the 137 applications 
 was NOK 28.4 million. 
@@ -75,7 +75,7 @@ Conferences, Barcamps, Hackdays
 One of the more effective ways for Civil Society Organisations (CSOs) 
 to demonstrate to governments the value of opening up their datasets 
 is to show the multiple ways in which the information can be managed 
-to achieve social and economic benefit. CSOs that promote reuse 
+to achieve social and economic benefit. CSOs that promote re-use 
 have been instrumental in countries where there have been advances in 
 policy and law to ensure that datasets are both technically and legally 
 open.

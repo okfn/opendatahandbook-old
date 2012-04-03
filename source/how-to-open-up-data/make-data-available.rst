@@ -26,7 +26,7 @@ In an open, machine-readable format
   Format)` 
   documents, often used for high quality printing. While these statistics
   can be read by humans, they are very hard for a computer to use. This
-  greatly limits the ability for others to reuse that data.
+  greatly limits the ability for others to re-use that data.
 
 Here are a few policies that will be of great benefit:
 

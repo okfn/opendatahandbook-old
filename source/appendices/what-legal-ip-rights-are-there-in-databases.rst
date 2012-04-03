@@ -31,7 +31,7 @@ jurisdiction grants a monopoly right over the individual facts (the
 To illustrate, consider the simple example of a database which lists 
 the melting point of various substances. While the database as 
 a whole might be protected by law so that one is not allow to access,
-reuse or redistribute it without permission, this would never 
+re-use or redistribute it without permission, this would never 
 prevent you from stating the fact that substance Y melts at 
 temperature Z.
 

@@ -133,8 +133,47 @@ Building a translation of the handbook
 
     make html lang={lang}
 
+Updating the Translation with New Source Text
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 .. _Open Data Handbook: http://opendatahandbook.org/
 .. _Open Knowledge Foundation: http://okfn.org/
 .. _Sphinx: http://sphinx.pocoo.org/
+
+
+Deploying the Handbook
+----------------------
+
+We use github pages to host the handbook at the present (in the past we have
+used s3 and readthedocs).
+
+As such the exact version of the html we want served should be in the gh-pages
+branch of this repo.
+
+The following as walkthrough of a deployment::
+
+  # change gh-pages branch and get all latest changes to material
+  git checkout gh-pages
+  git merge master
+
+  # build the relevant languages (if not already built)
+  make html lang={your-lang}
+  # copies build version to /{lang}/ so it is right location for website
+  # also does some tidying up (delete files that are not needed)
+  make github lang={your-lang}
+
+  ## now you will want to commit changes
+  # take a look at what has changed
+  git status
+  # add relevant files
+  # e.g. add *all* changes for the lang you updated git add -u {lang}
+  git add {relevant-files}
+  git commit -m "[build][s]: build latest version of language ..."
+
+  # push changes up
+  # this will auto-update http://opendatahandbook.org/
+  # up until this moment nothing will have changed on the website
+  git push
 

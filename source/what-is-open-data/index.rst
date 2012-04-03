@@ -66,6 +66,7 @@ larger systems where the real value lies.**
 .. _`full Open Definition`: http://opendefinition.org/okd/
 
 .. _what-data-can-be-open:
+
 What Data are You Talking About?
 ================================
 

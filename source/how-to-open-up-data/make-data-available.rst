@@ -152,12 +152,16 @@ with other resources, or versioned and archived in multiple
 places. While the latest version of the data may be made available via 
 an API, raw data should be made available in bulk at regular intervals.
 
-For example, the Eurostat statistical service has a bulk download 
+For example, the `Eurostat statistical service`_ has a bulk download 
 facility offering over 4000 data files. It is updated twice a day, offers 
 data in :term:`Tab-separated values` (TSV) format, and includes 
 documentation about the download facility as well as about the data files.
 
-Another example is the District of Columbia OCTO’s Data Catalogue, which 
+.. _Eurostat statistical service: http://epp.eurostat.ec.europa.eu/
+
+Another example is the `District of Columbia Data Catalog`_, which 
 allows data to be downloaded in CSV and XLS format in addition to live 
 feeds of the data.
+
+.. _District of Columbia Data Catalog: http://octo.dc.gov/DC/OCTO/
 

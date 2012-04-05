@@ -171,7 +171,7 @@ Glossary
     Sector Information`, which is broader in scope. 
     See http://opengovernmentdata.org for details.
 
-  Tab-seperated values
-    Tab-seperated values (TSV) are a very common form of text file
+  Tab-separated values
+    Tab-separated values (TSV) are a very common form of text file
     format for sharing tabular data. The format is extremely simple
     and highly :term:`machine-readable`.

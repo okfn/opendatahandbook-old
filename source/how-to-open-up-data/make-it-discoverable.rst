@@ -52,7 +52,7 @@ could consider the following:
   their data. It may be worthwhile to think of the catalog as the region's
   catalog, rather than the regional government's.
 * Facilitating improvement of the data by allowing derivatives of datasets
-  to be catalogd. For example, someone may geocode addresses and may 
+  to be cataloged. For example, someone may geocode addresses and may 
   wish to share those results with everybody. If you only allow single 
   versions of datasets, these improvements remain hidden. 
 * Be tolerant of your data appearing elsewhere. That is, content is likely

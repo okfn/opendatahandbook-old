@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, Open Knowledge Foundation
+# Copyright (C) &copy; 2010-2012, Open Knowledge Foundation
 # This file is distributed under the same license as the Open Data Handbook package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-02-15 13:48\n"
-"PO-Revision-Date: 2012-03-29 23:07+0000\n"
-"Last-Translator: Masahiro Takagi <matakagi@gmail.com>\n"
+"POT-Creation-Date: 2012-04-03 19:24\n"
+"PO-Revision-Date: 2012-04-03 18:31+0000\n"
+"Last-Translator: lauranewman <laura.newman@okfn.org>\n"
 "Language-Team: Japanese (http://www.transifex.net/projects/p/opendatahandbook/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-# f5f30c9dd8144a8eaee616dbb91805f1
+# f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
 msgid "The Open Data Handbook"
 msgstr "オープンデータ・ハンドブック"
 
-# 101a80a0ad4b45e4932984adff389dcf
+# d585ec8bbdd54f2d88e54daa0238f9d2
 #: ../../source/index.rst:5
 msgid ""
 "**This handbook discusses the legal, social and technical aspects of open "
@@ -31,149 +31,132 @@ msgid ""
 "data -- why to go open, what open is, and the how to 'open' data."
 msgstr "**このハンドブックでは、オープンデータの法的・社会的・技術的な側面について議論する。**誰でも使えるが、特に意識している対象読者はデータを **オープンにする**道を探っている人たちである。ここで取り上げるのは、オープンデータに関する**なぜ・なに・どうやって** だ。なぜオープンにするのか、オープンとは何なのか、そしてデータをどうやって 'オープン' にするのか。そういった内容を扱う。"
 
-# 36c781794c2549b3ba3b95d87d7c10c3
+# 3c3f679596a84f43a381f53ce49badeb
 #: ../../source/index.rst:11
 msgid ""
-"To get started, you may wish to look at the Introduction_. You can navigate "
-"through the report using the Table of Contents (see sidebar or below)."
-msgstr "手始めに、まずは Introduction_ から見ていこう。目次を順にたどれば全体を網羅できる(目次はサイドバーかこのページの下にある)。"
+"To get started, you may wish to look at the :doc:`Introduction "
+"<introduction/index.html>`. You can navigate through the report using the "
+"Table of Contents (see sidebar or below)."
+msgstr ""
 
-# 924dca17a4d94350b9550557c7782b33
-#: ../../source/index.rst:17
+# 3115b5512c6e4ecd861e4e84d400523c
+#: ../../source/index.rst:15
 msgid ""
 "We warmly welcome comments on the text and will incorporate feedback as we "
 "go forward. We also welcome contributions or suggestions for additional "
 "sections and areas to examine."
 msgstr "本文の内容についてのコメントは大歓迎だ。いただいたフィードバックを元に、よりよいものを作っていくつもりである。さらに、追加のセクションやもっと取り上げるべき分野について実際に記事を書いてくれる人も歓迎する。もちろん提案だけでもかまわない。"
 
-# 43a27ec331cb404a873ebe69e00f74ba
-#: ../../source/index.rst:23
+# 9e0f00346b0349e29d51083d1dd7a9aa
+#: ../../source/index.rst:21
 msgid "Table of Contents"
 msgstr "目次"
 
-# 51c17a75ea344da3a0ec4c8dbbcc7120
-#: ../../source/index.rst:38
+# 4e947d94bfbe4ecd98c5dee75be312f8
+#: ../../source/index.rst:36
 msgid "Indices and tables"
 msgstr "索引・図表"
 
-# 16ae49b2d92c417186201549e25604fd
-#: ../../source/index.rst:40
+# af87acc3665e428c99dff796e236694a
+#: ../../source/index.rst:38
 msgid ":ref:`genindex`"
 msgstr ""
 
-# 65729c829de34823bf35686bcba5c5ea
-#: ../../source/index.rst:41
-msgid ":ref:`modindex`"
-msgstr ""
-
-# b54af26664504f54ae02787837ac6d57
-#: ../../source/index.rst:42
+# cf589c147b0947639ead7a84a9c78850
+#: ../../source/index.rst:39
 msgid ":ref:`search`"
 msgstr ""
 
-# 1b5f67b5c5ef44fc99a8b62230d53fa3
+# 159dc292955b401cbaa31592c2ae43c1
 #: ../../source/introduction/credits.rst:3
 msgid "Credits and Copyright"
 msgstr ""
 
-# 8d7720ecfd3d4d29954cb5a74a617e5b
+# 138a093ae5b548cb9f07805111c55cfd
 #: ../../source/introduction/credits.rst:6
 msgid "Contributing authors"
 msgstr ""
 
-# 4813ce0efad34e0f9f59a9987e16d1d2
+# c41cf04f647249b9ac59afbca1382129
 #: ../../source/introduction/credits.rst:8
 msgid "`Daniel Dietrich`_"
 msgstr ""
 
-# e669f04b04ad45d8a375d825342d581c
+# 26742a0e756242a2801b0f02ebdd1707
 #: ../../source/introduction/credits.rst:9
 msgid "`Jonathan Gray`_"
 msgstr ""
 
-# 2bf37471768c4da189282441070784f8
+# 1759d73a3a794025b286529b4cc19a17
 #: ../../source/introduction/credits.rst:10
 msgid "`Tim McNamara`_"
 msgstr ""
 
-# 0a0956c9b8844a349a2616cc3d2f6021
+# 015052c54f4d4986b3071cd7ddb02c50
 #: ../../source/introduction/credits.rst:11
 msgid "`Antti Poikola`_"
 msgstr ""
 
-# 581a9864853548a990f9ef7d0f8b9d58
+# a37b96bd575d4c2f8e310f7b9b7dbcd2
 #: ../../source/introduction/credits.rst:12
 msgid "`Rufus Pollock`_"
 msgstr ""
 
-# d504f920eb724616990b140e0fe60328
+# 44242a03508d4ec3b115029c749d38f7
 #: ../../source/introduction/credits.rst:13
 msgid "`Julian Tait`_"
 msgstr ""
 
-# fe2ad6e3c76343a09f8769b13b7ac6f2
+# b489d1a44d854d3c98c0f9a211c8e083
 #: ../../source/introduction/credits.rst:14
 msgid "`Ton Zijlstra`_"
 msgstr ""
 
-# 0fd68d80ac03488ab297d645625f9a2b
+# 8a356ddea3824a2db4c1635a82782883
 #: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
 msgstr ""
 
-# 6a98ab12d50a4921ab2eda0e1e9c6940
+# f4c4a9ca6b2b450696be1a124cfc276b
 #: ../../source/introduction/credits.rst:19
 msgid ""
 "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
 " Group led by Simon Parrish*"
 msgstr ""
 
-# 204fe4b180944db5a25a7d8ae3e6bb43
+# a9cfff5e7e764f63b118c211a551e395
 #: ../../source/introduction/credits.rst:21
 msgid ""
 "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
 "Gray, Simon Parrish, Jordan Hatcher*"
 msgstr ""
 
-# c6912e22d1bb445197c1d7ff9038b3b5
+# 50c8f4db407a45a8894e99e59ef5adef
 #: ../../source/introduction/credits.rst:23
 msgid "Finnish manual authored by *Antti Poikola*"
 msgstr ""
 
-# 72995ff0c45546fb96001b2d2943b23b
+# 912b40b810ef40ab872ba564e1c3a631
 #: ../../source/introduction/credits.rst:24
 msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
 msgstr ""
 
-# 1fa7678429dc4e7ba709facce38c5057
+# 6c2bad4a78ed4069aacfd795a2df0a02
 #: ../../source/introduction/credits.rst:27
 msgid "Other sources"
 msgstr ""
 
-# b3444a5473914041904d09a43773aa12
+# b2509758c71d471e97585141feaee236
 #: ../../source/introduction/credits.rst:29
 msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
 msgstr ""
 
-# d7cab88e6ce54cd28190a5ab1254f01b
-#: ../../source/introduction/credits.rst:32
-msgid "Copyright"
-msgstr ""
-
-# 4ccd9e0fba5e464ebae847cbae667d17
-#: ../../source/introduction/credits.rst:34
-msgid ""
-"This manual is copyright 2010-2011 of its respective contributors and "
-"licensed under a `Creative Commons Attribution License`_ (unported and all "
-"jurisdictions)."
-msgstr ""
-
-# 30bf1cf5d5454342b593b64ba1637d6c
+# 0324e39be1e643bf9c026b6173d4a583
 #: ../../source/introduction/index.rst:3
 msgid "Introduction"
 msgstr "導入"
 
-# 2ff15e409b8c4794bfcae47bf53ee94e
+# 27e4a5b184654c999139c3127056f637
 #: ../../source/introduction/index.rst:5
 msgid ""
 "Do you know exactly how much of your tax money is spent on street lights or "
@@ -184,7 +167,7 @@ msgid ""
 "decisions about topics you deeply care about, and whom should you talk to?"
 msgstr "あなたが納めた税金のうち、交通信号の整備やがん治療の研究に費やされる額がどの程度かご存じだろうか?自宅から職場まで自転車通勤するときに、いちばん距離が短くて安全かつ景色がよいルートは?そして、通勤中に大気中にはどんな物質が含まれている?自宅の近辺で最も求職が多そうな地区は?住民一人あたりのフルーツの木の数が一番多い地区は?とても気にかけている何かのトピックについて、どのタイミングで決断する?そしてそのとき誰に話さなければならない?"
 
-# 49cff96554694579b79eaa0079e3d2a3
+# 03772b8e0b654a2980a166e25f7ce602
 #: ../../source/introduction/index.rst:12
 msgid ""
 "New technologies now make it possible to build the services to answer these "
@@ -196,7 +179,7 @@ msgid ""
 "society work better."
 msgstr "さまざまな新技術のおかげで、今やこれらの問いに自動応答するサービスだって作れるようになった。これらの問いに答えるために必要なデータの大半は公共団体が作成したものである。しかしこれらのデータは、使いやすい形式で公開されていないことが多い。本書で扱うのは、これらの公式データやその他の情報を解き放って新たなサービスを可能にする方法だ。それによって市民の生活を向上させ、政府や社会がうまく回るようにしていくのだ。"
 
-# df05ced0f8b1401fbdf117504804ff27
+# e864d6f9f1fb4632898e4a87c8e14237
 #: ../../source/introduction/index.rst:20
 msgid ""
 "The notion of :term:`open data` and specifically :term:`open government "
@@ -207,7 +190,7 @@ msgid ""
 "opening up their public information."
 msgstr ":term:`オープンデータ` 、より具体的には :term:`オープンガバメントデータ` という概念(公共あるいはそれ以外の情報で、だれでも自由にアクセスできてあらゆる目的で再利用できること)が、ここ数年でよく聞かれるようになった。オープンデータが表舞台に登場したのは2009年。(米国や英国、カナダ、そしてニュージーランドなどの)各国政府が、公共の情報をオープンにするという戦略を打ち出し始めた。"
 
-# f43f3e655139404fae72399ba2c0e68d
+# 772e3651fec74d03808df10160177562
 #: ../../source/introduction/index.rst:28
 msgid ""
 "This book explains the basic concepts of ‘open data’, especially in relation"
@@ -217,44 +200,44 @@ msgid ""
 "produce open data."
 msgstr "本書では、‘オープンデータ’ の基本概念について、特に政治とのかかわりを解説する。オープンデータがどのようにして価値を生み出すのか、そしてどうすればさまざまな分野に好影響を及ぼせるのか、といった内容をカバーする。その背景を解説するだけではない。本書では、オープンデータを公開する方法について具体的な情報も提供する。"
 
-# 1ecbbc0e9ec34b9881346b13011cea06
+# 5d3906c5912447478481d10c2ba8231a
 #: ../../source/introduction/index.rst:35
 msgid "Target Audience"
 msgstr "対象読者"
 
-# cda52756b81c44adb835dcad26da64a7
+# 985f89dcc7c64fef93e53052ddc36ab0
 #: ../../source/introduction/index.rst:37
 msgid "This handbook has a broad audience:"
 msgstr "このハンドブックは、幅広い読者を対象としている。"
 
-# f4b7a5b4423941cf8e0742457183e476
+# 204beca931a640a3a2feb572395bae22
 #: ../../source/introduction/index.rst:39
 msgid ""
 "for those who have never heard of open data before and those who consider "
 "themselves seasoned ‘data professionals’"
 msgstr "これまでにオープンデータという言葉を聞いたこともない自称「データのプロ」たち"
 
-# 7b011d1528bb433496f6b3e8d62ab44c
+# d434b8617ca84b2f812c8b93c72b2b3f
 #: ../../source/introduction/index.rst:41
 msgid "for civil servants and for activists"
 msgstr "公務員や活動家"
 
-# b3a6a33e29a445d6b486e6c4106b38fb
+# 1683ab9a73354d41afc35e5c3dcbab0e
 #: ../../source/introduction/index.rst:42
 msgid "for journalists and researchers"
 msgstr "ジャーナリストや研究者"
 
-# 996a97cef9a24ab69c1c6a428b12d654
+# 2dab3eafd12e452b9326f4b397b20e7e
 #: ../../source/introduction/index.rst:43
 msgid "for politicians and developers"
 msgstr "政治家や開発者"
 
-# e1305c5f93f44a0e9fd97520a27a1425
+# cc5c3df699894d2f9ef476ba048d24ca
 #: ../../source/introduction/index.rst:44
 msgid "for data geeks and those who have never heard of an API."
 msgstr "データマニア、そしてAPIなんて聞いたことがない人たち"
 
-# 3f4140c618c64105becd774102930937
+# b1ae7114f8c247b28261bd8c7a1de1f3
 #: ../../source/introduction/index.rst:46
 msgid ""
 "Most of the information currently provided is focused on data held by the "
@@ -262,7 +245,7 @@ msgid ""
 "permits. You are welcome to participate to help us with that effort."
 msgstr "現在提供されている情報の大半は、公共部門が保持しているデータに集中している。しかし我々執筆者たちは、時間が許す限りこれを広げていきたい。そのための手伝いをしてくれるという人たちは大歓迎だ。"
 
-# cce690ed169543d481b52cd58d52782f
+# 2d06a73d49494b3991c0bb6a62525e9d
 #: ../../source/introduction/index.rst:51
 msgid ""
 "This handbook is intended for those with little or no knowledge of the "
@@ -271,17 +254,17 @@ msgid ""
 "questions) which can be found at the end of the handbook."
 msgstr "このハンドブックは、扱っているトピックに関してほとんど知識がない人たちを対象にしている。読んでいてもし専門用語やよくわからない言葉を見つけたら、詳しい用語集やFAQ(よくある質問とその答え)で確認してほしい。どちらもこのハンドブックの最後のほうにある。"
 
-# f31b2a42a21d4d6a948943908a6aa2fe
+# 977078aaa78c42e7995958d96a21b8a7
 #: ../../source/introduction/index.rst:58
 msgid "Credits"
 msgstr "クレジット"
 
-# 7e37bef3a2ea4483b3c6da8ae2188a52
+# 5cdb697eb85f46e18bdf6edd814a406e
 #: ../../source/why-open-data/index.rst:3
 msgid "Why Open Data?"
 msgstr "なぜオープンデータなのか?"
 
-# 994773af28e640c4b81d17c401e7f429
+# a729d3404ee64614bcec347dead57504
 #: ../../source/why-open-data/index.rst:5
 msgid ""
 ":term:`Open data`, especially :term:`open government data`, is a tremendous "
@@ -293,7 +276,7 @@ msgid ""
 "made open and made available for others to use. Why is that of interest?"
 msgstr ":term:`オープンデータ` 、中でも特に :term:`オープンガバメントデータ`はばかでかいリソースだが、まだその大半が活用されていない。多くの個人や組織が、それぞれさまざまなタイプの幅広いデータを収集して自らのタスクをこなしている。特に、政府にこれが顕著に見られる。その理由のひとつは、彼らが収集するデータが大量であり、かつどれも重要なものであるということだ。しかしそれだけではない。政府が扱うデータの大半は法律上は公用データであり、オープンにして誰でも使えるようにできるはずのものである。なぜそんなことに注目するのかって?"
 
-# aa67d805a50d4545bce96181e46b741a
+# 633202a63b474ebdb6c96289d6ac423d
 #: ../../source/why-open-data/index.rst:14
 msgid ""
 "There are many areas where we can expect open data to be of value, and where"
@@ -305,65 +288,65 @@ msgid ""
 "unlikely places."
 msgstr "オープンデータがその価値を持つであろうと期待できる分野は多く、それを実際の活用例も既に存在する。オープンデータが使えることで恩恵を受けることができる団体や組織も多い。もちろん政府自身だってそのひとつだ。しかしその一方、その恩恵を将来どこでどんなふうに得られるかを正確に予測するのは不可能だ。イノベーションというものは、たいてい予期せぬところから生まれるものなのだから。"
 
-# 40eb68f6b0424304b66a3dbf38ee418e
+# 00a897c5defd4db5a4339f04fdc80d69
 #: ../../source/why-open-data/index.rst:21
 msgid ""
 "It is already possible to point to a large number of areas where open "
 "government data is creating value. Some of these areas include:"
 msgstr "オープンガバメントデータが既に価値を生み出している分野も数多くある。その一部を以下にまとめる。"
 
-# 811b4b2aee514f17bc081d99bad107e9
+# 5a1635520561424aa295c26cd3a948d1
 #: ../../source/why-open-data/index.rst:24
 msgid "Transparency and democratic control"
 msgstr ""
 
-# 4cc054af40464d92872ef0b9b3533dd2
+# 4351bd20d2a14fbeaa41c82bc514ac95
 #: ../../source/why-open-data/index.rst:25
 msgid "Participation"
 msgstr ""
 
-# 0cefdd805a6b41eaa982f7328034f319
+# 234738d1ab8642818c4073300935017e
 #: ../../source/why-open-data/index.rst:26
 msgid "Self-empowerment"
 msgstr ""
 
-# b139c6a2c6144e2f979b7c88f9af922f
+# c1c63445907c4955948f3a0fe823118a
 #: ../../source/why-open-data/index.rst:27
 msgid "Improved or new private products and services"
 msgstr ""
 
-# e8638ed5e26640a5ba683e07ab9a9ede
+# 1fcf56a9d6aa4bedb3a1e64ca8a3b15c
 #: ../../source/why-open-data/index.rst:28
 msgid "Innovation"
 msgstr ""
 
-# 59bd7464bf9f45aab8f14eabb85c924d
+# 1cf354f7245a4e09b32be3c8bbbcaa12
 #: ../../source/why-open-data/index.rst:29
 msgid "Improved efficiency of government services"
 msgstr ""
 
-# 416c2a74985f4618a03187c4fe525e90
+# becfeefd9faf4cf5a9b54fd289d0af5f
 #: ../../source/why-open-data/index.rst:30
 msgid "Improved effectiveness of government services"
 msgstr ""
 
-# e507066cd7e246f3addecbe7815b71bb
+# 56661952af514a6783404034e39e9145
 #: ../../source/why-open-data/index.rst:31
 msgid "Impact measurement of policies"
 msgstr ""
 
-# a01d04d19acd468e82218ca46082a6ab
+# 81a1d8c9c8de42a38b06e212e26a18eb
 #: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
 msgstr ""
 
-# 024085f9235341d09d5832815b261faf
+# 653cba4974784fc397e901d402246323
 #: ../../source/why-open-data/index.rst:35
 msgid "Examples exist for most of these areas."
 msgstr "これらの分野のほとんどについて、実例が存在する。"
 
-# 7a8fcaf138c54b0bb03e3023b8d7f89e
+# 9483b02f9be049e5aae8b43b3c1ee9e0
 #: ../../source/why-open-data/index.rst:37
 msgid ""
 "In terms of transparency, projects such as the Finnish ‘tax tree’ and "
@@ -375,7 +358,7 @@ msgid ""
 "involved."
 msgstr "透明性の観点からは、フィンランドの‘tax tree’や英国の‘where does my money go’プロジェクトがあげられる。これらは、納めた税金を政府がどのように使っているのかを見られる仕組みである。さらにこんな例もある。オープンデータのおかげで、カナダは慈善基金詐欺に関する出費を32億ドル減らしたのだ。それ以外にもさまざまなウェブサイトがある。たとえばデンマークのfolketsting.dk は国会の活動や立法プロセスを監視しており、いま何が起ころうとしているのかやそれにかかわっている議員が誰なのかといった情報を得られる。"
 
-# 393884d9cda247488f05b53af98b069a
+# 96fa2e2f8d3346ba8f75c1744678079d
 #: ../../source/why-open-data/index.rst:45
 msgid ""
 "Open government data can also help you to make better decisions in your own "
@@ -392,7 +375,7 @@ msgid ""
 "examples use open government data."
 msgstr "オープンガバメントデータを使えばあなた自身の生活に関してよりよい判断ができるようになるし、この社会でもっとアクティブにふるまえるようにもなる。デンマークのある女性が構築した findtoilet.dk ではデンマーク国内のすべての公衆トイレの情報を得られる。そのおかげで、膀胱障害をかかえる彼女の知り合いは安心して外出できるようになった。オランダでは vervuilingsalarm.nl というサービスが使える。このサービスは、翌日の大気環境があらかじめ設定した最低基準に到達しそうなときに警告のメッセージを送ってくれるものだ。ニューヨークでは犬の散歩に適した場所を探すのも簡単だし、同じ公園を利用中の他の人を探すことだってできる。英国には ‘mapumental’ というサービスがあり、ドイツにも同様の ‘mapnificent’ というサービスがある。これは、通勤時間や住宅の価格そして周辺の美しさなどの観点から住む場所を探せるものである。これらすべてが、オープンガバメントデータを使っている。"
 
-# 21fc21f96c914d439e47f4b4f840e654
+# 9d1f0242695c4eb08a8c1bcfcc8d4743
 #: ../../source/why-open-data/index.rst:58
 msgid ""
 "Economically, open data is of great importance as well. Several studies have"
@@ -407,7 +390,7 @@ msgid ""
 "improving its quality of service."
 msgstr "経済的な面でも、オープンデータの重要性は変わらない。複数の研究が推測するところによると、オープンデータの経済的な価値はEU諸国だけで考えても年間数百億ユーロに達するとのことだ。新製品を作ったり会社を興したりするときにはオープンデータを活用する。デンマークの husetsweb.dk は、自宅のエネルギー効率の改善を支援するサービスだ。財務計画から担当業者の選定まで対応してくれる。このサービスは、地籍情報や政府の助成金に関する情報そして周辺の業者一覧情報を再利用している。Google Translateは、欧州各国語で書かれている大量のEUの文書を使って翻訳アルゴリズムを改良している。それによってサービスの品質を向上させるのだ。"
 
-# ead51b4c39ad4220a77d9d22fc8e4e06
+# 457121fdf06c40558e92b439276954b8
 #: ../../source/why-open-data/index.rst:69
 msgid ""
 "Open data is also of value for government itself. For example, it can "
@@ -424,7 +407,7 @@ msgid ""
 "data, but will also ultimately make the department smaller."
 msgstr "オープンデータは、政府自身にとっても価値がある。たとえば、政府の効率を改善するためにも使える。オランダ文部科学省は、教育関連のデータをすべてオンラインで公開して再利用できるようにした。それ以降、国民からの問い合わせの数は減少し、作業量やコストも削減できた。また、問い合わせを受けた職員がそれに答えるのも簡単になった。というのも、その問い合わせに関するデータがどこで得られるのかが明確になったからだ。オープンデータを活用すれば政府をより効率的に運営でき、最終的にコストの削減につなげることができる。オランダの文化遺産事務局は積極的にデータを公開しており、アマチュア歴史家団体やウィキメディア財団などの組織との共同作業でタスクを効率的に進めている。この事例は単にデータの質を向上させるにとどまらず、最終的に事務局をより小さくまとめることにもつながっている。"
 
-# 543ff375966d4a1ea6b5b0f5e5e88d9a
+# 0f11bae8272f45e4b2290c2beef0e248
 #: ../../source/why-open-data/index.rst:83
 msgid ""
 "While there are numerous instances of the ways in which open data is already"
@@ -440,7 +423,7 @@ msgid ""
 "different open data sets."
 msgstr "このように、オープンデータが社会的にも経済的にも価値を生み出しているという実例は多数存在する。しかし、さらにどんな新たなことができるようになるかはまだわからない。各種データの新たな組み合わせは新しい知識や知見をもたらす可能性があり、それはまったく新しい適用場面につながる。我々は過去にそんな例を見てきた。たとえば、スノー博士は19世紀のロンドンで飲料水の汚染とコレラとの相関を発見した。これは、コレラによる死者とロンドンの井戸の位置という二つのデータを組み合わせた結果として得られたものだ。この発見にもとづいてロンドンの下水処理システムが整備され、市民の健康状態は劇的に改善された。さまざまなオープンデータを組み合わせることで思いがけない知見が得られ、その結果としてこんな出来事がふたたび起こるのではないだろうか。"
 
-# c746c06ac240423eb1e0f3ba920572c0
+# db07f40141dc4077a0390c1699f892ea
 #: ../../source/why-open-data/index.rst:94
 msgid ""
 "This untapped potential can be unleashed if we turn public government data "
@@ -451,46 +434,46 @@ msgid ""
 " potential to be realized, public data needs to be open data."
 msgstr "政府の公用データをオープンデータにすれば、こういった手つかずの可能性を解き放てるだろう。しかしそうなるには、真の意味でオープンであり誰でも無制限に(法的にも金額的にも技術的にも制約を受けず)再利用できるようにしなければならない。あらゆる制約は公用データの再利用から人を遠ざけ、それを使って何か価値のあることができないか模索するのが困難になる。その可能性を認識させるには、公用データをオープンデータにする必要がある。"
 
-# 7221ec1474264809903a2ee20ddafa32
+# ec853486f23a49c69f29cf7a961642d7
 #: ../../source/what-is-open-data/index.rst:3
 msgid "What is Open Data?"
 msgstr "オープンデータとは何か?"
 
-# a11724f7cd1048d9b211c2238dbc91df
+# efa5f439bd844c199263171e3b7221e5
 #: ../../source/what-is-open-data/index.rst:5
 msgid ""
 "This handbook is about *open data* but what exactly is it? In particular "
 "what makes *open* data open, and what sorts of data are we talking about?"
 msgstr "このハンドブックで扱うのは *オープンデータ* だが、実際のところそれは何なのだろうか?特に、オープンデータの *オープン* とはどういう意味で、どんな類のデータを想定しているのだろうか?"
 
-# e36bdcc032f94ceaaa745d775bef021f
+# 0d5a24d826714df497b1f531ec72438c
 #: ../../source/what-is-open-data/index.rst:9
 msgid "What is Open?"
 msgstr "オープンとは?"
 
-# eba02b735a704f2882238599ed77a152
+# 284d03bb80b14254bb9219ad19d33070
 #: ../../source/what-is-open-data/index.rst:11
 msgid ""
 "This handbook is about open data - but what exactly is *open* data? For our "
 "purposes, open data is as defined by the `Open Definition`_:"
 msgstr "このハンドブックで扱うのはオープンデータである。ところで、実際のところ *オープン*なデータとは何なのだろう? 本書では、 `Open Definition`_ の定義に従うデータをオープンデータと呼ぶことにする。"
 
-# c21c55d63009425cb7836de7ce7a5369
+# 0ec56db1f5bd4d16844482d013167141
 #: ../../source/what-is-open-data/index.rst:14
 msgid ""
-"*Open data is data that can be freely used, reused and redistributed by "
+"*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr "*オープンデータとは、自由に使えて再利用もでき、かつ誰でも再配布できるようなデータのことだ。従うべき決まりは、せいぜい「作者のクレジットを残す」あるいは「同じ条件で配布する」程度である。*"
+msgstr ""
 
-# 34cc718e9c7a4065b75b0ca0cae1f5e8
+# de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
 msgid ""
 "The `full Open Definition`_ gives precise details as to what this means. To "
 "summarize the most important:"
 msgstr "`full Open Definition`_ に、その意味するところの明確な説明がある。まとめると、最も大切なのはこの三点である。"
 
-# d48453af378440f3a23b77396319520e
+# d6661c08a66e4657baccc415e4d94d85
 #: ../../source/what-is-open-data/index.rst:21
 msgid ""
 "**Availability and Access:** the data must be available as a whole and at no"
@@ -499,25 +482,25 @@ msgid ""
 " form."
 msgstr "**利用できる、そしてアクセスできる**データ全体を丸ごと使えないといけないし、再作成に必要以上のコストがかかってはいけない。望ましいのは、インターネット経由でダウンロードできるようにすることだ。また、データは使いやすく変更可能な形式で存在しなければならない。"
 
-# 19becdd31e424664923f7210850921a5
+# 69c79a7dbacb4a3f8901fde80bc925f3
 #: ../../source/what-is-open-data/index.rst:25
 msgid ""
-"**Reuse and Redistribution:** the data must be provided under terms that "
-"permit reuse and redistribution including the intermixing with other "
+"**Re-use and Redistribution:** the data must be provided under terms that "
+"permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr "**再利用と再配布ができる** データを提供するにあたって、再利用や再配布を許可しなければならない。また、他のデータセットと組み合わせて使うことも許可しなければならない。"
+msgstr ""
 
-# 1a0d9c5de3734dcc83ccfe558beb4264
+# ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
 msgid ""
-"**Universal Participation:** everyone must be able to use, reuse and "
+"**Universal Participation:** everyone must be able to use, re-use and "
 "redistribute - there should be no discrimination against fields of endeavour"
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr "**誰でも使える** 誰もが利用、再利用、再配布をできなければならない。データの使い道、人種、所属団体などによる差別をしてはいけない。たとえば「非営利目的での利用に限る」などという制限をすると商用での利用を制限してしまうし「教育目的での利用に限る」などの制限も許されない。"
+msgstr ""
 
-# 0da7fa2e5da342c6904e9adf818a04cf
+# 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
 msgid ""
 "If you’re wondering why it is so important to be clear about what open means"
@@ -525,7 +508,7 @@ msgid ""
 "**interoperability.**"
 msgstr "なぜそこまでして「オープン」の意味をはっきりさせたいの?なぜその定義を使うことにしたの?その答えは、一言で表すと **相互運用性** だ。"
 
-# e30c2ff348d844c9977a723cca84fb6a
+# dfe720d0914442ad96bfd683d39a3a0d
 #: ../../source/what-is-open-data/index.rst:38
 msgid ""
 "Interoperability denotes the ability of diverse systems and organizations to"
@@ -533,7 +516,7 @@ msgid ""
 "interoperate - or intermix - different datasets."
 msgstr "相互運用性とは、さまざまなシステムや組織が共同で作業を進められることを意味する。今回の場合は、さまざまなデータセットを組み合わせて混ぜて使えるということを表す。"
 
-# 06577cee94b34369ae53a67c60c440db
+# 04e5ebc429754b8f8335a6f36f11f348
 #: ../../source/what-is-open-data/index.rst:42
 msgid ""
 "Interoperability is important because it allows for different components to "
@@ -545,7 +528,7 @@ msgid ""
 "effort."
 msgstr "相互運用性が大切な理由は、さまざまなコンポーネントを組み合わせて使えるようになるからだ。コンポーネントにまとめてそれらを「つなぎ合わせて」使うという仕組みは、大規模で複雑なシステムを構築するときに欠かせない。相互運用性がなければ、これは事実上不可能だ。かの有名なバベルの塔の神話が示すとおり、お互いにコミュニケーションができなければ塔を建築する作業は完全に崩壊してしまう。"
 
-# a3b60439b3db4d4aa01b5448af4e26ba
+# a27e57d5f3414020af50c490a0fc4717
 #: ../../source/what-is-open-data/index.rst:50
 msgid ""
 "We face a similar situation with regard to data. The core of a “commons” of "
@@ -557,7 +540,7 @@ msgid ""
 " discussed in more detail in the section on ‘why’ open data)."
 msgstr "データに関しても、私たちは同じような状況に直面している。データ(あるいはコード)の「公共性」の鍵となるのは、そこに含まれる「オープンな」素材が別の「オープンな」素材と自由に組み合わせられるということである。この相互運用性が、データをオープンにすることで得られる現実的な利益を理解するための鍵となる。他のデータセットと組み合わせて使うことが劇的に容易になり、そのおかげでより優れた製品やサービスを生み出せるようになる(これらのメリットについては「なぜ」オープンデータなのかに関するセクションで詳述する)。"
 
-# 7e417a131b264627af2cd80ff87d1946
+# 9613f20a0c754c988418bb739c6bf147
 #: ../../source/what-is-open-data/index.rst:59
 msgid ""
 "Providing a clear definition of openness ensures that when you get two open "
@@ -567,13 +550,13 @@ msgid ""
 "systems where the real value lies.**"
 msgstr "オープンであることについての明確な定義を用意すれば、別々の場所から二つのオープンデータセットを入手したときにそれを組み合わせて使えるようになる。そして **「バベルの塔」状態、つまり大量のデータセットがあるのにそれを組み合わせて(真の価値を持つ)大規模なシステムを作れない状態になってしまうことを回避できる。**"
 
-# 70d6991d99ae4c65b60e842024c3d7fc
-#: ../../source/what-is-open-data/index.rst:70
+# 3a713e7bdcd744efa87d1f18017c2fc2
+#: ../../source/what-is-open-data/index.rst:71
 msgid "What Data are You Talking About?"
 msgstr "どんなデータを取り上げる?"
 
-# beb5a97a14d047638f296dedcf37b375
-#: ../../source/what-is-open-data/index.rst:72
+# e425f13a261d4556bb1961b71da2bdd8
+#: ../../source/what-is-open-data/index.rst:73
 msgid ""
 "Readers have already seen examples of the sorts of data that are or may "
 "become open - and they will see more examples below. However, it will be "
@@ -581,27 +564,27 @@ msgid ""
 "equally importantly, what won’t be open."
 msgstr "ここまでで、既にオープンな(あるいはオープンになる)データの例をいくつか紹介してきた。この後もさらに例を紹介する。しかし、どんなデータがオープンなのか、あるいはオープンになり得るのかをざっと見分けられれば便利だろう。そしてそれと同じくらいに重要なのが、どんなデータがオープンにならないのかを知ることだ。"
 
-# eb8af388249a4952bd11ed57fab75c89
-#: ../../source/what-is-open-data/index.rst:77
+# b3184f4d4cd74be7a8bb72c19ae59d0a
+#: ../../source/what-is-open-data/index.rst:78
 msgid ""
 "The key point is that when opening up data, the focus is on non-personal "
 "data, that is, data which does not contain information about specific "
 "individuals."
 msgstr "ポイントとなるのは、データをオープンにするときの注意点として個人的なデータを含まないようにするということだ。つまり、特定の個人に関する情報を含まないデータでなければならないということである。"
 
-# c9b6dca41e394c0aa007efae38120059
-#: ../../source/what-is-open-data/index.rst:81
+# a71aa0d4b7d444c8b67cc9b635b54c45
+#: ../../source/what-is-open-data/index.rst:82
 msgid ""
 "Similarly, for some kinds of government data, national security restrictions"
 " may apply."
 msgstr "同様に、ある種の政府のデータに関しては、国家機密に関連する制限が適用されることもあり得るだろう。"
 
-# c83eb6388c8f4574aef485018a9a5fd7
+# 35a624b81cd14bc09c5646f0b348179e
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
 msgid "Apply an Open License (Legal Openness)"
 msgstr "オープンなライセンスを適用する(法的にオープンにする)"
 
-# 172f36b8cd80480d80232d9690ba83ac
+# e7dcffe8d7d44c5d93225ccf279b1ee6
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
 msgid ""
 "In most jurisdictions there are intellectual property rights in data that "
@@ -613,7 +596,7 @@ msgid ""
 " more important."
 msgstr "多くの司法機関ではデータに対する知的財産権が存在し、第三者によるデータの利用や再利用そして再配布などには明示的な許可を要する。知的財産権が存在するかどうかが不確かな場合でも、何らかのライセンスを適用して明確にしておくことが大切だ。したがって、 **データを公開するつもりなら、それに何らかのライセンスを適用しなければならない。** データを `open`_ にするつもりなら、さらにそれが重要となる。"
 
-# ab9384e851a14317944b402e139a487f
+# 5e7dc13604fa4f95890ca0e9b8144d81
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
 msgid ""
 "What licenses can you use? We recommend that for 'open' data you use one of "
@@ -621,29 +604,29 @@ msgid ""
 "for data. This list (along with instructions for usage) can be found at:"
 msgstr "では、いったいどんなライセンスが使えるのだろう? 'オープン' データに適用するライセンスとしておすすめするのは、 `Open Definition`_ に準拠したライセンスの中でデータに適しているとされているものだ。その一覧(および利用方法)は、ここで見ることができる。"
 
-# 2e93b116c6f347dea0fabdc3c4781ea3
+# 6c204c0188eb4967bd7ec5c9b9e29663
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
 msgid "http://opendefinition.org/licenses/"
 msgstr "http://opendefinition.org/licenses/"
 
-# e8cf683fe5734f72883b7af7f114be6e
+# 81d0ed1bbb9b4221a6dfad0b8984cdd7
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:22
 msgid ""
 "A short 1-page instruction guide to applying an open data license can be "
 "found on the Open Data Commons site:"
 msgstr "オープンデータにライセンスを適用する際の簡単な手引きがOpen Data Commonsのサイトで公開されている。"
 
-# 0fe34b8161b84b868a94a1d8ec5e05ae
+# 134eda3fcb1e4ea9a9a3849ab64bdf61
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
 msgid "http://opendatacommons.org/guide/"
 msgstr "http://opendatacommons.org/guide/"
 
-# e1449bd80f064c09b2a52c6178ab2b68
+# b747964567d643b082dc522af2471c0f
 #: ../../source/how-to-open-up-data/choose-datasets.rst:3
 msgid "Choose Dataset(s)"
 msgstr "データセットを選ぶ"
 
-# 6c9824ed825545c48a159aa5fdb68886
+# 6fb7221c6835486c8ba3a96616edf6b8
 #: ../../source/how-to-open-up-data/choose-datasets.rst:5
 msgid ""
 "Choosing the dataset(s) you plan to make open is the first step – though "
@@ -651,7 +634,7 @@ msgid ""
 "return to this step if you encounter problems later on."
 msgstr "オープンにしたいデータセットを選ぶのが第一段階だ。とはいえ、データをオープンにする手順はイテレーティブなものであり、後の段階で問題が発生したらいつでもここまで戻ってこられることを覚えておこう。"
 
-# 8bb4eab06a2d484abc04dd551901cf87
+# 4a60d2eea7674a6daa86b7d785936908
 #: ../../source/how-to-open-up-data/choose-datasets.rst:9
 msgid ""
 "If you already know exactly what dataset(s) you plan to open up you can move"
@@ -660,7 +643,7 @@ msgid ""
 "should one proceed in this case?"
 msgstr "もしオープンにしたいデータセットが既にはっきりしているのなら、そのまま次のセクションまで進もう。しかしたいていの場合は、特に大規模な組織内においては、どのデータセットに注目するかを決めるのは難しい。そんな場合はどうすればいいのだろうか?"
 
-# b32b0a64c7dc48dea542c0673ba54ada
+# 562f01d73511431eb5923bbd318fb284
 #: ../../source/how-to-open-up-data/choose-datasets.rst:14
 msgid ""
 "Creating this list should be a quick process that identifies which datasets "
@@ -668,21 +651,21 @@ msgid ""
 "check in detail whether each dataset is suitable."
 msgstr "このリストが、どのデータセットをオープンにできるかを特定するための最初の一歩となるだろう。この後の段階で、個々のデータセットが適切かどうかをより詳しくチェックするときがくる。"
 
-# f3f4b7fc7cb24431b1a2dd1afd2c08db
+# 0da9e433147142ec890f7d6ea919d666
 #: ../../source/how-to-open-up-data/choose-datasets.rst:18
 msgid ""
 "There is **no requirement** to create a comprehensive list of your datasets."
 " The main point to bear in mind is whether it is feasible to publish this "
-"data at all (whether openly or otherwise) - see the ‘What Data’ section "
-"above."
-msgstr "データセットの完全なリストを作ることは **必須ではない。** ポイントとなるのは、そのデータを(オープンな形で、あるはそれ以外の方式で)公開できるのかどうかだ。先ほどの「オープンデータとは何か?」を見直してみよう。"
+"data at all (whether openly or otherwise) - see :ref:`this previous section "
+"<what-data-can-be-open>`."
+msgstr ""
 
-# 3e02b54e9e0a4d09ac121312283fb9c8
+# e56d16680b2846ab8ababb059eaaf4cb
 #: ../../source/how-to-open-up-data/choose-datasets.rst:24
 msgid "Asking the community"
 msgstr "コミュニティに尋ねる"
 
-# df94b60d92e447958f7ae9f0b509d263
+# a01321c596e048ac890c7771648a27c9
 #: ../../source/how-to-open-up-data/choose-datasets.rst:26
 msgid ""
 "We recommend that you ask the community in the first instance. That is the "
@@ -690,21 +673,21 @@ msgid ""
 "a good understanding of which data could be valuable."
 msgstr "まずはじめに、コミュニティに聞いてみることをおすすめする。コミュニティとは、実際にそのデータにアクセスしたりデータを使ったりしている人のことである。彼らはきっと、どのデータに価値があるかをよく知っているだろう。"
 
-# d5b1d0174c61410282fe307cd2bbcfcd
+# 444b3c328660471c8c6dc51d89d0cc2c
 #: ../../source/how-to-open-up-data/choose-datasets.rst:30
 msgid ""
 "Prepare a short list of potential datasets that you would like feedback on. "
 "It is not essential that this list concurs with your expectations, the main "
 "intention is to get a feel for the demand. This could be based on other "
-"countries' :term:`open data` catalogues."
-msgstr "コミュニティに意見を聞いてみたいデータセットについての簡単なリストを準備する。このリストはあなたが期待するものと一致していなくてもかまわない。主目的は、要望を引き出すことである。このリストは、他国の :term:`オープンデータ` カタログを参考にしたものでもよい。"
+"countries' :term:`open data` catalogs."
+msgstr ""
 
-# f04493d053ac4d378907df7ba8d79cdb
+# 6cd8b5c44b4f49ccabbe7a1087df9d11
 #: ../../source/how-to-open-up-data/choose-datasets.rst:36
 msgid "Create a request for comment."
 msgstr "提案文書を作成する。"
 
-# 2d70adf716644aeba2269cbf65526523
+# 477a8715f16743f3b88eeddaa380d236
 #: ../../source/how-to-open-up-data/choose-datasets.rst:38
 msgid ""
 "Publicise your request with a webpage. Make sure that it is possible to "
@@ -712,40 +695,40 @@ msgid ""
 "media, the request can be easily found."
 msgstr "提案文書をウェブページに公開する。その提案を指す一意なURLを用意し、直接アクセスできるようにしておこう。そうすればソーシャルメディアでの共有がしやすくなり、提案が発見されやすくなる。"
 
-# 0716b860729f4fadad308a6313ecd708
+# 5fe5f7e31b1a478f8889730e3eb81077
 #: ../../source/how-to-open-up-data/choose-datasets.rst:42
 msgid ""
 "Provide easy ways to submit responses. Avoid requiring registration, as it "
 "reduces the number of responses."
 msgstr "簡単に意見を表明できる方法を提供する。登録をしないと意見を投稿できないなどということはやめよう。そんなことをすれば、反応が少なくなってしまう。"
 
-# b2040ae28b324208b0770b3827628f7f
+# 26a1ebc54df04e69b875a56e46711d39
 #: ../../source/how-to-open-up-data/choose-datasets.rst:45
 msgid ""
 "Circulate the request to relevant mailing lists, forums and individuals, "
 "pointing back to the main webpage."
 msgstr "関連するメーリングリストやフォーラムなどに提案文書の情報を拡散させ、文書のあるウェブページの場所を広める。"
 
-# d829d961a84c44d59a07b87704cd6ed0
+# b2f5c26e2d4b490bb6b7a5072214a765
 #: ../../source/how-to-open-up-data/choose-datasets.rst:48
 msgid ""
 "Run a consultation event. Make sure you run it at a convenient time where "
 "the average business person, data wrangler and official can attend."
 msgstr "打ち合わせの場を設ける。平均的な会社員、データを扱う人、そして役人などが参加しやすいような日時で開催すること。"
 
-# cb18fed19f1b4f24bd66e54e264e60ff
+# fe8082ba724f4e2481a8ab2a42544a98
 #: ../../source/how-to-open-up-data/choose-datasets.rst:52
 msgid ""
 "Ask a politician to speak on your agency's behalf. Open data is very likely "
 "to be part of a wider policy of increasing access to government information."
 msgstr "あなたの所属機関の立場を代弁してもらうよう、政治家に依頼する。オープンデータは、政府の情報にアクセスしやすくする政策の一部となるだろう。"
 
-# 87fe915e84bd4635ba0000c19142d844
+# 97be10325f6e46a0a18c93844711c295
 #: ../../source/how-to-open-up-data/choose-datasets.rst:57
 msgid "Cost basis"
 msgstr "コストについて"
 
-# 3b1cc713f9ca4a048a31409bd4d6f9ac
+# c546923078d14fe782f517d573aac12a
 #: ../../source/how-to-open-up-data/choose-datasets.rst:59
 msgid ""
 "How much money do agencies spend on the collection and maintainence of data "
@@ -753,7 +736,7 @@ msgid ""
 " it is highly likely that others would like to access it."
 msgstr "政府機関が自ら保持するデータの収集や保守にかける費用は、どの程度になるだろう?もし特定のデータセットに対して多くの費用をつぎ込んでいるのなら、それはきっと他の人たちも利用したくなるものだろう。"
 
-# 5872f2f035334bbeb48a248911bcad96
+# cdc1c699f81641e3b62d4c407ef2fc83
 #: ../../source/how-to-open-up-data/choose-datasets.rst:63
 msgid ""
 "This argument may be fairly susceptible to concerns of freeriding. The "
@@ -764,12 +747,12 @@ msgid ""
 "approximately nothing. Therefore, they should be charged nothing."
 msgstr "この主張は、ただ乗りしようとする人たちを考慮せずには行えない。きっと「こんなに金をかけて集めた情報を、どうして無料で開放してやる必要があるんだ?」という問いが出てくるはずで、それに答えられなければならない。その答えは、特定の役割を果たす公営企業にコストを吸収させるということだ。いったん収集したデータを第三者に送信するためのコストは、事実上ゼロに等しい。したがって、それに対して課金すべきではない。"
 
-# be9d57405b914529b8085dd704642479
+# b7978bdbcba74480b3aedfb5aa436caf
 #: ../../source/how-to-open-up-data/choose-datasets.rst:71
 msgid "Ease of release"
 msgstr "公開の容易性"
 
-# ff77e92ce6bb4c7db9a369d701053323
+# a00a368d4f5947028e1a024cd556e3c7
 #: ../../source/how-to-open-up-data/choose-datasets.rst:73
 msgid ""
 "Sometimes, rather than deciding which data would be most valuable, it could "
@@ -778,7 +761,7 @@ msgid ""
 "change within organisations."
 msgstr "どのデータに価値があるのかを判断するよりも、むしろ一般公開しやすいのはどのデータなのかという基準で考えたほうがよいこともある。公開しやすい小さなデータを公開することで、その組織の行動を変えさせるきっかけにすることができる。"
 
-# 47e1ecfca72f4007bb711f526677e475
+# 11fb95c47b6d469aaef863cffe3dea1e
 #: ../../source/how-to-open-up-data/choose-datasets.rst:78
 msgid ""
 "Be careful with this approach however. It may be the case that these small "
@@ -786,12 +769,12 @@ msgid ""
 "occurs, faith in the entire project could be undermined."
 msgstr "しかし、この方式を使うときは注意を要する。そういった小さなデータを公開してもその効果がほとんど目に見えず、結局何も変わらないままということもあり得る。もしそうなったら、組織内での信頼も落ちてしまう。"
 
-# ee63c4ed21f349739c3abdccd765d7cf
+# 19b8f9cee4d241ea81e431a7e622c64d
 #: ../../source/how-to-open-up-data/choose-datasets.rst:83
 msgid "Observe peers"
 msgstr "周りを見渡す"
 
-# e37b1cd9bc184065ad9df11a76e63629
+# 005598dfe6924292a200665f62057f50
 #: ../../source/how-to-open-up-data/choose-datasets.rst:85
 msgid ""
 "Open data is a growing movement. There are likely to be many people in your "
@@ -799,12 +782,12 @@ msgid ""
 "basis of what those agencies are doing."
 msgstr "オープンデータは今も成長段階のムーブメントだ。あなたのまわりには、他の分野での動きに詳しい人もきっと多いだろう。他の機関がやっていることを元にしてデータをリストアップするといい。"
 
-# ee413b2f922642339ceab3289032c37a
+# 05c79f3133614f7abb43130e787bca43
 #: ../../source/how-to-open-up-data/index.rst:3
 msgid "How to Open up Data"
 msgstr "データをオープンにするには"
 
-# 2dafc5b53d0b44bf814cd6a5ccd878f7
+# 7fe3e18cfac749f5befd9ab2576d33f1
 #: ../../source/how-to-open-up-data/index.rst:5
 msgid ""
 "This section forms the core of this handbook. It gives concrete, detailed "
@@ -813,12 +796,12 @@ msgid ""
 "that can arise."
 msgstr "このセクションがこのハンドブックの肝となるところだ。データを持っている人はそれをどうやってオープンにすればいいのか、具体的な方法を詳しく説明する。基本的なところを解説していくが、陥りがちな罠についても紹介する。最後に、考えうるもっと細かい問題について取り上げる。"
 
-# c8f5549c41724126a57621358561ef10
+# 205ae0d7b0dc40bebc2303b798613a7f
 #: ../../source/how-to-open-up-data/index.rst:10
 msgid "There are three key rules we recommend following when opening up data:"
 msgstr "データをオープンにするにあたっては、これらのルールに従うことをおすすめする。"
 
-# 5b4444c418fb49809e0fbac128f5fb52
+# e090cea16cc645abb77158774b0a3643
 #: ../../source/how-to-open-up-data/index.rst:12
 msgid ""
 "**Keep it simple.** Start out small, simple and fast. There is no "
@@ -827,7 +810,7 @@ msgid ""
 " of course, the more datasets you can open up the better."
 msgstr "**シンプルに保つ。** ちいさいところからシンプルに始め、素早く進める。すべてのデータセットを今この場ですぐにオープンにする必要はない。とりあえずまずはひとつのデータセットだけとか、あるいは大きなデータセットの一部だけをオープンにするというところから始めるのでもかまわない。 -- もちろん、より多くのデータセットをオープンにできたほうがよいのだが。"
 
-# 4e32e699a2394809ac2eeaf10a606e91
+# cf62d646dd164d08be12466ae86a4cb5
 #: ../../source/how-to-open-up-data/index.rst:17
 msgid ""
 "Remember this is about innovation. Moving as rapidly as possible is good "
@@ -836,16 +819,16 @@ msgid ""
 " useful."
 msgstr "これはイノベーションなんだ。動き出すのが早ければ早いほどいい。そのほうが勢いをつけやすいし、実際にやってみて初めて気づくことだってある。 -- イノベーションが成功するか失敗するかは五分五分だし、すべてのデータセットが有用だとは限らない。"
 
-# 7c0266e38a3e4fd290cada8d75790567
+# ef4cadde787044f6bb05cdbdbee8438e
 #: ../../source/how-to-open-up-data/index.rst:22
 msgid ""
 "**Engage early and engage often.** Engage with actual and potential users "
-"and reusers of the data as early and as often as you can, be they citizens, "
-"businesses or developers. This will ensure that the next iteration of your "
+"and re-users of the data as early and as often as you can, be they citizens,"
+" businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
-msgstr "**早めに巻き込み、頻繁にかかわらせる。** 実際にデータを使ったり使う可能性があったりする人たちを早めに巻き込んでいこう。一般市民だったり企業だったり、開発者だったりするだろう。そうすれば、あなたのサービスはあるべき姿により近づいていく。"
+msgstr ""
 
-# 0fbbc6494edf467293a83edb8d09e37a
+# ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
 msgid ""
 "It is essential to bear in mind that much of the data will not reach "
@@ -853,10 +836,10 @@ msgid ""
 "people who take the data and transform or remix it to be presented. For "
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
-" reuse and repurpose the material."
-msgstr "心しておきたいのは、データの大半は最終的なユーザーに直接届くわけではないということだ。たいていは「情報メディア」を経由して届くことになる。データを受け取り、それを変換したりリミックスしたりして見せ方を変える人たちがいるのだ。たとえば、GPSの座標の大規模なデータベースを直接読みたいという人はほとんどいない。私たちが欲しいのは、そんなものではなく地図だ。というわけで、まずは情報メディアを巻き込もう。彼らがデータを活用し、目的にあわせて形を変えてくれる。"
+" re-use and repurpose the material."
+msgstr ""
 
-# 1acc107458a444a6b1c96a80577926f7
+# ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
 msgid ""
 "**Address common fears and misunderstandings**. This is especially important"
@@ -866,7 +849,7 @@ msgid ""
 "as early a stage as possible."
 msgstr "**ありがちな不安や誤解に対応する。** これが特に重要になるのは、たとえば政府のような大規模な機関で働いている場合だ。データをオープンにするや否や、大量の問い合わせや不安がる声を受けることになる。このとき大切なことは、鍵を握る人物がだれかを見極めて、できるだけ早い段階から彼らに対応するということだ。"
 
-# e3adf249507d4661809ce59a22975942
+# 85ecf275551b4e6ea01de1f75da7cac0
 #: ../../source/how-to-open-up-data/index.rst:40
 msgid ""
 "There are four main steps in making data open, each of which will be covered"
@@ -874,7 +857,7 @@ msgid ""
 "can be done simultaneously."
 msgstr "データをオープンにする手順は、大きく分けると四段階になる。それぞれについて、以下で詳しく説明する。並び順はあくまでも大まかなものであり、これらの手順の多くは同時進行で進めることもできる。"
 
-# 390a93c593f24713a3d20e30d462efe3
+# 58824e15e3d34b518d630239f299912d
 #: ../../source/how-to-open-up-data/index.rst:44
 msgid ""
 "**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
@@ -882,17 +865,17 @@ msgid ""
 "encounter problems at a later stage."
 msgstr "**データセットを選ぶ。** - オープンにしようとしているデータセットを選ぶ。今後もし何か問題が起こったら、いつでもこの段階まで戻れる(というか、戻らざるを得なくなる)ことを覚えておこう。"
 
-# 40fbf659b8da46f7bd461110e4193971
+# e60fff59384142ceb4865b5956701aaf
 #: ../../source/how-to-open-up-data/index.rst:47
 msgid "**Apply an open license.**"
 msgstr "**オープンなライセンスを適用する。**"
 
-# a03655d63104404297a99935132d137a
+# 8e71c0ccfdb64981b4cadfb21e412387
 #: ../../source/how-to-open-up-data/index.rst:49
 msgid "Determine what intellectual property rights exist in the data."
 msgstr "そのデータにどんな知的財産権が存在するかを確かめる。"
 
-# 684ebd06f53046b88740ce8c53d9de61
+# 40cb98538dfc486c838b0cd5baef35db
 #: ../../source/how-to-open-up-data/index.rst:50
 msgid ""
 "Apply a suitable ‘open’ license that licenses all of these rights and "
@@ -900,32 +883,32 @@ msgid ""
 "Open Data’"
 msgstr "適切な「オープン」ライセンスを選んですべての知財をライセンスし、先ほど「オープンデータとは何か」で議論したオープン性の定義に対応する。"
 
-# 1d9fe4d4d404456a96abd010db0bcb58
+# ff2d1c558ae64d3ea092b313b0a7c854
 #: ../../source/how-to-open-up-data/index.rst:53
 msgid ""
 "NB: if you can't do this go back to step 1 and try a different dataset."
 msgstr "注意: もしこれが不可能なら、ステップ1に戻って別のデータセットを試してみよう。"
 
-# a68c0ed54c614487b7606a3416e44921
+# e7dfde372d704525b9baac515e235e2b
 #: ../../source/how-to-open-up-data/index.rst:56
 msgid ""
 "**Make the data available** - in bulk and in a useful format. You may also "
 "wish to consider alternative ways of making it available such as via an API."
 msgstr "**データを公開する。** - 有用なフォーマットで、まとめて公開する。別の方法での公開、たとえばAPI経由で使えるようにするなどの方法を検討してもかまわない。"
 
-# 73cb444e0c9a488d88d4631d6177f7aa
+# e9ecca180f4649b4a06c3a524060f3e7
 #: ../../source/how-to-open-up-data/index.rst:59
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
-"catalogue to list your open datasets."
-msgstr "**データを発見してもらう。** - ウェブに投稿したり中央カタログをまとめたりして、オープンデータセットを発見してもらえるようにする。"
+"catalog to list your open datasets."
+msgstr ""
 
-# 500737835c9b4153b7c9ec0ae88d3bcf
+# 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
 msgid "Make Data Available (Technical Openness)"
 msgstr "データを公開する(技術的にオープンにする)"
 
-# ae86634c5b254f31b15aff3c2ca601a3
+# b09db3670c724b4cbae550f365a90988
 #: ../../source/how-to-open-up-data/make-data-available.rst:5
 msgid ""
 ":term:`Open data` needs to be technically open as well as legally open. "
@@ -933,7 +916,7 @@ msgid ""
 "readable` format."
 msgstr ":term:`オープンデータ` というからには、法的にオープンにするだけではなく技術的にもオープンにしなければならない。特に大切なのは、データをまとめて公開する際に :term:`機械可読` 形式にしておくことだ。"
 
-# f86252a9de1049338b9382ee885cf58b
+# b9d7515dde2043ac876fd4836fae1473
 #: ../../source/how-to-open-up-data/make-data-available.rst:10
 msgid ""
 "Data should be priced at no more than a reasonable cost of reproduction, "
@@ -942,7 +925,7 @@ msgid ""
 "data for use."
 msgstr "データを公開するにあたって、複製するための実費を超える値段をつけてはいけない。インターネットから無料でダウンロードできるようにするのがおすすめだ。この価格体系を実現できる理由は、データを提供するにあたってその組織がよけいなコストをかけるべきではないからだ。"
 
-# 93550619c36d4913952b72505cc3d07c
+# 402e6b5680ef47a9b0690b72d93f77da
 #: ../../source/how-to-open-up-data/make-data-available.rst:16
 msgid ""
 "The data should be available as a complete set. If you have a register which"
@@ -951,7 +934,7 @@ msgid ""
 " not a substitutes for bulk access."
 msgstr "データは完全なセットとして公開しなければならない。法の下で収集された記録を持っているのなら、その一部ではなく全体をダウンロードできるようにする必要がある。Web APIなどのサービスも便利ではあるが、一括アクセスの代替にはならない。"
 
-# 2b20724041fe40fb8ea7fcfd82c13b61
+# b3a61f61587d4cfe810a5c957f8af97e
 #: ../../source/how-to-open-up-data/make-data-available.rst:22
 msgid ""
 "Re-use of data held by the public sector should not be subject to patent "
@@ -960,47 +943,47 @@ msgid ""
 "statistics published as :abbr:`PDF (Portable Document Format)` documents, "
 "often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
-"ability for others to reuse that data."
-msgstr "公営企業の持つデータの再利用が特許による制限を受けるようではいけない。より重要なのは、データを機械可読形式で提供して再利用をしやすくすることだ。具体例として、 :abbr:`PDF (Portable Document Format)` 形式で提供されている統計情報を考えてみよう。この形式は、きれいに印刷するための手段としてよく用いられる。確かにこの統計情報は、人間にとっては読みやすい。しかし、コンピュータでの再利用は非常に難しい。したがって、データの再利用が大きく制限されてしまう。"
+"ability for others to re-use that data."
+msgstr ""
 
-# 0c95f9f66f7e4d7ba0ec437ac03a47f9
+# 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
 msgid "Here are a few policies that will be of great benefit:"
 msgstr "次の原則に従えば、多大な恩恵を受けられる。"
 
-# 1cb2c7f4d810485391e0dc8aab9c92bc
+# 63d8a323d7e04da6bba2f412cc5842af
 #: ../../source/how-to-open-up-data/make-data-available.rst:33
 msgid "Keep it simple,"
 msgstr "シンプルに保つ"
 
-# f67a53ad8d03492185c42e2b1d64967c
+# 4978a2c4ac1f4d0482cd0a5c18899676
 #: ../../source/how-to-open-up-data/make-data-available.rst:34
 msgid "Move fast"
 msgstr "すばやく動く"
 
-# 720b2c4ccee74eb1b5f62992a5837727
+# 7e3d34dbf9b349dbbfd5874681a3b9e9
 #: ../../source/how-to-open-up-data/make-data-available.rst:35
 msgid "Be pragmatic."
 msgstr "実利的であることを心がける"
 
-# b234c270a6304ff6a189dbc6a1aea8c4
+# 344dec649a454a349a892dce337d2360
 #: ../../source/how-to-open-up-data/make-data-available.rst:37
 msgid ""
 "In particular it is better to give out raw data now than perfect data in six"
 " months' time."
 msgstr "具体的には、生のデータを今この時点で公開するほうが、きちんとまとめたものを半年後に公開するよりもよいということだ。"
 
-# 6d4f8a550a1c488a9108c26aa4930743
+# c6673f81b9724b8c95778b12ce344bec
 #: ../../source/how-to-open-up-data/make-data-available.rst:40
 msgid ""
 "There are many different ways to make data available to others. The most "
 "natural in the Internet age is online publication. There are many variations"
 " to this model. At its most basic, agencies make their data available via "
-"their websites and a central catalogue directs visitors to the appropriate "
+"their websites and a central catalog directs visitors to the appropriate "
 "source.  However, there are alternatives."
-msgstr "データを他の人たちに公開するには、さまざまな方法がある。インターネット世代の人たちにとっていちばん自然なのは、オンラインで公開することだ。この方式にも様々なバリエーションがある。最も基本的なやり方は、その組織自身のウェブサイトからデータを取得できるようにし、中央カタログから直接その場所を指すようにするという方法だ。しかし、それ以外にも方法はある。"
+msgstr ""
 
-# 18435d35120b47d88eb697a92a4e08ad
+# ac1bf932ff0d46c8982fb9e01fa36836
 #: ../../source/how-to-open-up-data/make-data-available.rst:46
 msgid ""
 "When :term:`connectivity` is limited or the size of the data extremely "
@@ -1008,17 +991,17 @@ msgid ""
 "also discuss alternatives, which can act to keep prices very low."
 msgstr ":term:`接続性` に制限があったりデータのサイズがあまりにも大きかったりする場合には、他のフォーマットでの配布もあり得る。このセクションではそういった代替手段についても扱う。これらは価格を低く抑えるために使える。"
 
-# be03f7ae29a74aa1b3f93fd7f603f5c8
+# d14f19bd711547458714a36deb87b608
 #: ../../source/how-to-open-up-data/make-data-available.rst:51
 msgid "Online methods"
 msgstr "オンラインでの公開"
 
-# e06d7ec92b3249d7aebffb93ca11d1d2
+# c5885ee8faca4693a840729a94e548a0
 #: ../../source/how-to-open-up-data/make-data-available.rst:54
 msgid "Via your existing website"
 msgstr "既存のウェブサイト経由で"
 
-# 52379d1ea5914f008a1cb06b4550282c
+# 4698a33b199f4dc7893cc0b7f999880d
 #: ../../source/how-to-open-up-data/make-data-available.rst:56
 msgid ""
 "The system which will be most familiar to your web content team is to "
@@ -1027,7 +1010,7 @@ msgid ""
 "available this way."
 msgstr "ウェブコンテンツチームにとって一番なじみのある方式は、ファイルをウェブページからダウンロードできるようにすることだろう。いつも会議の議事録を公開しているのと同じように、データファイルもまったく同じ方式で公開すればよい。"
 
-# df8ccfb7c74047b5a74561e16c3b9170
+# 680a3fdd6ee74160bfd3f0ba94456f73
 #: ../../source/how-to-open-up-data/make-data-available.rst:61
 msgid ""
 "One difficulty with this approach is that it is very difficult for an "
@@ -1035,12 +1018,12 @@ msgid ""
 "some burden on the people creating tools with your data."
 msgstr "この方式の問題のひとつは、情報がどこにアップロードされたのかを外部の人が探しにくいということだ。また、公開されたデータを利用するツールを作る人たちにかかる負担も多くなる。"
 
-# 07b0be084b3b4f09a9277abe69b8420e
+# 28ec978c25d5464caef60764ccd26193
 #: ../../source/how-to-open-up-data/make-data-available.rst:67
 msgid "Via 3rd party sites"
 msgstr "第三者のサイト経由で"
 
-# c4c0b584230a41e6a723cd542d0000c5
+# bc1c7a24e2fc40369a8d6fee3b547452
 #: ../../source/how-to-open-up-data/make-data-available.rst:69
 msgid ""
 "Many repositories have become hubs of data in particular fields. For "
@@ -1049,7 +1032,7 @@ msgid ""
 "allow public sector agencies to store massive quantities of data for free."
 msgstr "さまざまな分野で、データのハブとなるリポジトリが多数存在する。たとえばpachube.comは、測定機器とその測定値にアクセスしたい人たちとをつなげるために作られている。また、Infochimps.comやTalis.comといったサイトは、公共機関が大量のデータを保管して自由に使えるようにしている。"
 
-# 1badcbc75c074cf0a25baca16b4fb558
+# 79fec3171d0b43e7924a9661d86ed5bb
 #: ../../source/how-to-open-up-data/make-data-available.rst:75
 msgid ""
 "Third party sites can be very useful. The main reason for this is that they "
@@ -1058,7 +1041,7 @@ msgid ""
 "compound interest is created."
 msgstr "第三者のサイトは非常に有用に使える。その主な理由は、特定の分野に興味のある人たちや同じ分野の他のデータセットが既にそこに集まっているからである。こういったプラットフォームにデータを追加すれば、相乗効果によってよりよい結果を得られる。"
 
-# 1ab2249a041b4a6d8e604942f707041e
+# e27ac253acf04e4895092c606f5d6c84
 #: ../../source/how-to-open-up-data/make-data-available.rst:80
 msgid ""
 "Wholesale data platforms already provide the infrastructure which can "
@@ -1066,7 +1049,7 @@ msgid ""
 "public sector agencies, they are generally free."
 msgstr "大規模データプラットフォームは、既に要件を満たす基盤を提供している。多くの場合、統計情報や利用状況なども得られる。公的機関の場合は、無料で使えることが一般的だ。"
 
-# 71f1dccff0274c8fac36ed035ac69cd6
+# cc7000380ec64929b7aacfcc5761b05f
 #: ../../source/how-to-open-up-data/make-data-available.rst:84
 msgid ""
 "These platforms can have two costs. The first is independence. Your agency "
@@ -1077,12 +1060,12 @@ msgid ""
 "supercomputers. They should all be able to access the data."
 msgstr "これらのプラットフォームには二種類のコストがかかる。まずは独立性。自分の組織のデータを他社に委ねてしまうことになる。たいていの場合、政治的・法的・あるいは運営上の理由でそれは難しい。もうひとつのコストはオープン性だ。データを預けたプラットフォームに対して誰がアクセスできるかは把握できないということを認識する必要がある。ソフトウェア開発者や科学者たちが使うOSは幅広く、スマートフォンの場合もあればスーパーコンピューターの場合もある。どんな環境からでもデータにアクセスできなければならない。"
 
-# 15bc0e4701c74fc5b59619711036950f
+# 45ec5a433d49473d8bd8e8aa732d3790
 #: ../../source/how-to-open-up-data/make-data-available.rst:94
 msgid "Via FTP servers"
 msgstr "FTPサーバーから"
 
-# 8f92cc3a6e9c4ecfbb011127cd9cd398
+# b76866767adf434e9e413aa9dd09bcc1
 #: ../../source/how-to-open-up-data/make-data-available.rst:96
 msgid ""
 "A less fashionable method for providing access to files is via the File "
@@ -1091,7 +1074,7 @@ msgid ""
 "of HTTP, but is specifically designed to support file transfers."
 msgstr "最近ではあまりはやらなくなったが、File Transfer Protocol (FTP)を使ってファイルにアクセスさせる方式もある。この方式が適しているのは、ソフトウェア開発者や科学者などの技術分野を相手にする場合だ。FTPはHTTPのかわりに使うことができ、ファイルの転送に特化して設計されている。"
 
-# f0b2274ff0844d99ae08aac8d21d6325
+# 2b926a03ce794f8782e74bd0013c2b2e
 #: ../../source/how-to-open-up-data/make-data-available.rst:102
 msgid ""
 "FTP has fallen out of favour. Rather than providing a website, looking "
@@ -1100,12 +1083,12 @@ msgid ""
 " web development firms to charge for customisation."
 msgstr "FTPにはかつてほどの人気はなくなった。ウェブサイトを提供するのに比べると、FTPサーバーを扱うというのはコンピューター上のフォルダを扱うのに似ている。したがって、たとえそれが目的にかなっていたとしても、そのカスタマイズを請け負えるウェブ開発会社はあまりいないだろう。"
 
-# 27fd7ac4d90e4e10881c9c9db22d6441
+# c42b8894bbc54326b66238f06c086570
 #: ../../source/how-to-open-up-data/make-data-available.rst:108
 msgid "As torrents"
 msgstr "torrentで"
 
-# 4c0b1d9be6554fd3886ffb55558af219
+# 759eb86f2e4d480eaaecdaac50273050
 #: ../../source/how-to-open-up-data/make-data-available.rst:110
 msgid ""
 ":term:`BitTorrent` is a system which has become familiar to policy makers "
@@ -1117,12 +1100,12 @@ msgid ""
 "wonderfully efficient way to distribute very large volumes of data."
 msgstr ":term:`BitTorrent` は、政府の人間にはおなじみになりつつあるシステムだろう。というのも、著作権違反に関連して語られることが多くなったからである。BitTorrentは、torrentsというファイルを利用するシステムであり、ファイルにアクセスしようとする人たちにコストを分散させる仕組みがある。サーバーにだけ負荷をかけるのではなく、需要が増加するのにあわせて供給も増やすようにしている。だからこそ、このシステムは動画の共有の世界で成功したのだ。大規模なデータを配布するためのシステムとして、これは非常に効率的なものだ。"
 
-# 3859d734873c4a8fa9897afba8c33394
+# 129e68dafdf54f6e97919fba6fdc5c70
 #: ../../source/how-to-open-up-data/make-data-available.rst:119
 msgid "As an API"
 msgstr "APIとして"
 
-# ea16e8378a5b4011b9347e91e3a80730
+# d6c7831d05704f01b2bedc502d6a50c1
 #: ../../source/how-to-open-up-data/make-data-available.rst:121
 msgid ""
 "Data can be published via an :term:`Application Programming Interface` "
@@ -1133,21 +1116,21 @@ msgid ""
 "via an API can ensure that it is up to date."
 msgstr "データの公開を :term:`Application Programming Interface` (API)で行うこともできる。この方式は、近年はやりつつある。すべてのデータを巨大なファイルで一括提供するのではなく、プログラマー側で特定の箇所を選んで取得できるようにする仕組みだ。APIは一般的にデータベースにつながっており、データはリアルタイムに更新される。つまり、情報をAPI経由で公開しておけばそれが常に最新であることを保証できるというわけだ。"
 
-# 54a12ec81ccb43bd9e6c21f1362d73f2
+# a04d09c10e634e4e95e64172d7f3df48
 #: ../../source/how-to-open-up-data/make-data-available.rst:129
 msgid ""
 "Publishing raw data in bulk should be the primary concern of all open data "
 "intiatives. There are a number of costs to providing an API:"
 msgstr "すべてのデータに対する主導権を握るには、一括で公開することをまず考えなければならない。APIとして提供すれば、次のようなコストが発生する。"
 
-# 81966c07fbff4d49bb399faf766a95fb
+# 3c28e8cb66dc4a3cb88e41a7b60106b4
 #: ../../source/how-to-open-up-data/make-data-available.rst:132
 msgid ""
 "The price. They require much more development and maintainence than "
 "providing files."
 msgstr "金額。ファイルで提供することに比べて、その仕組みを開発したり保守したりするための資金を要する。"
 
-# e021912e886f49cf9c68b43187a2c922
+# 14dd153713774331a0312cbefb6d28d1
 #: ../../source/how-to-open-up-data/make-data-available.rst:134
 msgid ""
 "The expectations. In order to foster a community of users behind the system,"
@@ -1155,12 +1138,12 @@ msgid ""
 "expected to incur the costs of fixing them."
 msgstr "期待。そのシステムの利用者のコミュニティを育てるには、APIを確実に提供することが重要だ。何か問題が発生すれば、それは自分たちが修正しなければならない。"
 
-# c6d88ea33a2b44868a693bc7b17006e8
+# ca23faca90d744b397f92d458f218d1c
 #: ../../source/how-to-open-up-data/make-data-available.rst:138
 msgid "Access to bulk data ensures that:"
 msgstr "データへの一括アクセスを提供すれば、次のようなことを保証できる。"
 
-# fba61209684b4661b95ea5dab5e8f6af
+# ae5f19aec9fc42828d27deb2b2c9c146
 #: ../../source/how-to-open-up-data/make-data-available.rst:140
 msgid ""
 "there is no dependency on the original provider of the data, meaning that if"
@@ -1168,7 +1151,7 @@ msgid ""
 "available."
 msgstr "データの提供者の事情に依存しない。つまり、仮に組織の編成や予算などの状況が変わったとしても、データはそのまま使える。"
 
-# dd276762ced9409a947bdc12acce032f
+# 3022f0749b794dc59af9b4b12e4fd380
 #: ../../source/how-to-open-up-data/make-data-available.rst:143
 msgid ""
 "anyone else can obtain a copy and redistribute it. This reduces the cost of "
@@ -1176,14 +1159,14 @@ msgid ""
 "point of failure."
 msgstr "誰でも複製して再配布できる。これによって元の所有者が各所に配布するコストを削減でき、単一障害点がなくなる。"
 
-# efc1bfa1ad9f42f7a243600fad275274
+# 362360c6bac64db5b350ca2f2b96d48e
 #: ../../source/how-to-open-up-data/make-data-available.rst:146
 msgid ""
 "others can develop their own services using the data, because they have "
 "certainty that the data will not be taken away from them."
 msgstr "そのデータを使って第三者が自分でサービスを開発できる。データが手元から離れないことを確信できるからだ。"
 
-# 5b3ed2f22979499c9efd6668709c231e
+# 92b96832e25848bea4ba68895e02480f
 #: ../../source/how-to-open-up-data/make-data-available.rst:149
 msgid ""
 "Providing data in bulk allows others to use the data beyond its original "
@@ -1193,29 +1176,29 @@ msgid ""
 "data should be made available in bulk at regular intervals."
 msgstr "データを一括で提供すれば、他の人たちが本来の目的を超えてデータを活用できるようになる。たとえば別のフォーマットに変換したり他のリソースとリンクさせたり、バージョン管理して複数の場所でアーカイブしたりといった具合だ。最新版のデータがAPI経由で取得できるようにしたとしても、生のデータも定期的に一括公開しておくべきだ。"
 
-# a9ef54a067224579a9e9faa75fb905df
+# 19cd648b3bcb47a69b7b467e23035209
 #: ../../source/how-to-open-up-data/make-data-available.rst:155
 msgid ""
-"For example, the Eurostat statistical service has a bulk download facility "
-"offering over 4000 data files. It is updated twice a day, offers data in "
-":term:`Tab-separated values` (TSV) format, and includes documentation about "
-"the download facility as well as about the data files."
-msgstr "たとえば、統計データのサービスであるEurostatは一括ダウンロード機能を提供しており、4000を超えるデータファイルを一括ダウンロードできるようにしている。このデータは一日に二回更新され、 :term:`タブ区切り` (TSV) 形式で提供される。また、データファイルだけでなくダウンロード機能に関するドキュメントも用意している。"
+"For example, the `Eurostat statistical service`_ has a bulk download "
+"facility offering over 4000 data files. It is updated twice a day, offers "
+"data in :term:`Tab-separated values` (TSV) format, and includes "
+"documentation about the download facility as well as about the data files."
+msgstr ""
 
-# 9de2ca6b793b4fe3a2e0ea0c5d66461a
-#: ../../source/how-to-open-up-data/make-data-available.rst:160
+# e41c10ed0631425c909b8ebfb4a7c800
+#: ../../source/how-to-open-up-data/make-data-available.rst:162
 msgid ""
-"Another example is the District of Columbia OCTO’s Data Catalogue, which "
-"allows data to be downloaded in CSV and XLS format in addition to live feeds"
-" of the data."
-msgstr "もうひとつの例が、ワシントンD.C.のCTO室のデータカタログだ。ここではデータをCSVあるいはXLS形式でダウンロードでき、さらにデータのライブフィードも提供している。"
+"Another example is the `District of Columbia Data Catalog`_, which allows "
+"data to be downloaded in CSV and XLS format in addition to live feeds of the"
+" data."
+msgstr ""
 
-# f3599db9db8340d793e10946301bc152
+# 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
 msgid "Make data discoverable"
 msgstr "データを発見してもらう"
 
-# 754f764aed9d4874bc2cae49215e06e6
+# 1a2ce7b8aac042e9a2f48a21660610d0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
 msgid ""
 ":term:`Open data` is nothing without users. You need to be able to make sure"
@@ -1223,7 +1206,7 @@ msgid ""
 " approaches."
 msgstr ":term:`オープンデータ` は、ユーザーなしでは存在し得ない。他の人たちがそのデータを発見できるようにする必要がある。このセクションでは、そのための様々な手法を取り上げる。"
 
-# a13faf8f6c7f4e8eb1d69042767596e7
+# 4becb2ab91af48f190e5067c39b98b97
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
 msgid ""
 "The most important thing is to provide a neutral space which can overcome "
@@ -1233,171 +1216,173 @@ msgid ""
 "outsiders to discover data, the faster new and useful tools will be built."
 msgstr "最も大切なことは、中立な場所で公開することだ。そうすれば、組織内の勢力争いや予算の都合などに振り回されずに済む。司法の管轄をまたがった協力は難しいことだろう。しかし、うまく協力すればかなりの恩恵を受けられる。他の人たちがデータを発見しやすくなればなるほど、新しい便利なツールが早く作られるようになる。"
 
-# 360233059514438c91015e171853f5c5
+# 512c9d4d09dd44a68e1beae3b2f882b6
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
 msgid "Existing tools"
 msgstr "既存のツール"
 
-# 9d96632c42524cb989e2a3be6fd1882c
+# 2adc1adf902d44b497f75a0eafa83915
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
-"designed to make data most discoverable."
-msgstr "さまざまなツールがウェブ上に存在する。データを発見されやすくすることに特化したものである。"
+"designed to make data more discoverable."
+msgstr ""
 
-# 32656e4f1e0b44fcbc7c1b5a71fd2761
+# ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
 msgid ""
-"The most prominent is CKAN.net. CKAN stands for the Comprehensive Knowledge "
-"Archive Network, and is a catalogue of all datasets in the world. The site "
-"makes it very easy for developers to find the material that they're seeking."
-msgstr "中でも突出するのがCKAN.netだ。CKANはComprehensive Knowledge Archive Networkの略で、世界中のすべてのデータセットのカタログとなる。このサイトを使えば、開発者が自分の欲しいデータを見つけるのが容易になる。"
+"One of the most prominent is the DataHub_ and is a catalog and data store "
+"for datasets from around the world. The site makes it easy for individuals "
+"and organizations to publish material and for data users to find material "
+"they need."
+msgstr ""
 
-# d2e8ff2a152944e2b3b15e006ea2e81d
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:26
+# 2558aac60a2e4327ad698877cc2142f9
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
 msgid ""
-"In addition, there are dozens of specialist catalogues for different sectors"
-" and places. Many scientific communities have created a catalogue system for"
-" their fields, as data are often required for publication."
-msgstr "さらに、さまざまな機関や場所に特化したカタログも数多く存在する。科学者のコミュニティの多くは個々の分野のカタログシステムを構築しており、公開用のデータを求めている。"
+"In addition, there are dozens of specialist catalogs for different sectors "
+"and places. Many scientific communities have created a catalog system for "
+"their fields, as data are often required for publication."
+msgstr ""
 
-# 904f43afc8f84502ba9971e55a3637a3
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:32
+# 3813a2f6a87b44bda881d2dc1047e8e0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
 msgid "For government"
 msgstr "政府の皆さんへ"
 
-# 9d1340b6754c49078840593a864c7f10
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
+# dd24b7fc5a0e4264a0a4224b5aab6293
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
 msgid ""
 "As it has emerged, orthodox practice is for a lead agency to create a "
-"catalogue for the government's data. When establishing a catalogue, try to "
+"catalog for the government's data. When establishing a catalog, try to "
 "create some structure which allows many departments to easily keep their own"
 " information current."
-msgstr "ここまでで明らかになったとおり、正統な方法はその機関自身に政府のデータを扱うカタログを作らせることだ。カタログを構築する際には、各部署が自分の情報を最新に保ちやすいような仕組みを作るようにしよう。"
+msgstr ""
 
-# 1757f1be8e5742458c359bec0c771c2f
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:39
+# e6a628d1c2b340f2bdd128c31a4febba
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
 msgid ""
-"Resist the urge to build the software to support the catalogue from scratch."
-" There are many free and open source software solutions which have been "
-"adopted by many dozens of governments already. Investing in another platform"
-" will be a waste of resources."
-msgstr "カタログを支援するソフトウェアをゼロから作り上げるという誘惑には負けないように。フリーでオープンソースなソフトウェアによるソリューションが数多く存在しており、何十カ国もの政府が既にそれを採用している。そんな中で独自プラットフォームの作成に資金を投じるのはリソースの無駄遣いだ。"
+"Resist the urge to build the software to support the catalog from scratch. "
+"There are free and open source software solutions (such as CKAN_) which have"
+" been adopted by many governments already. As such, investing in another "
+"platform may not be needed."
+msgstr ""
 
-# a218b7bde4ee40b6abbddd37c4357474
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:44
+# 219db6ba9b784128a2be95191a104858
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
 msgid ""
-"There are a few things that most open data catalogues miss. Your programme "
+"There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
-msgstr "多くのオープンデータカタログが見落としている点をいくつか取り上げる。プログラムを作る場合にはこれらを検討しよう。"
+msgstr ""
 
-# 0bae9c269fcc4b6f85eccd605a3c52a1
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:47
+# d738b775cba84d92ac1ed6ec7c0840c5
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
 msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
-"data. It may be worthwhile to think of the catalogue as the region's "
-"catalogue, rather than the regional government's."
-msgstr "個人やコミュニティがデータを追加できるような手段を提供する。地域政府のカタログというよりはむしろ、その地域のカタログととらえたほうが有益だろう。"
+"data. It may be worthwhile to think of the catalog as the region's catalog, "
+"rather than the regional government's."
+msgstr ""
 
-# b6e8f0c0ba7e48deba570d7a4f1b10fb
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:50
+# 507082d1a6244462beb7af124cfe0fda
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogued. For example, someone may geocode addresses and may wish to "
+"be catalogd. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
-msgstr "データの改良を促すために、データセットの派生物の掲載を許可する。たとえば、誰かが住所データにジオコーディングを施してその結果を共有してくれるかもしれない。データセットの派生物を禁止してしまうと、こういった改良が表に出なくなる。"
+msgstr ""
 
-# 9dd49b710504436dae561e68e53283a6
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
+# e8ad70e351d34a9caf7bc7cf0409f67d
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
 msgid ""
 "Be tolerant of your data appearing elsewhere. That is, content is likely to "
 "be duplicated to communities of interest. If you have river level monitoring"
-" data available, then your data may appear in a catalogue for hydrologists."
-msgstr "データが他の場所に転載されることに対して寛容になる。そうすれば、興味を持つ人たちの間でデータが複製されることになる。河川の水位観測データを公開すれば、そのデータは水文学者のカタログにも掲載されるだろう。"
+" data available, then your data may appear in a catalog for hydrologists."
+msgstr ""
 
-# e46a38bd4eb844d3a026d51c9ef3a469
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
+# 04da7586b2474affab2a4d56bb5dc900
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
 msgid ""
-"Ensure that access is equitable. Do not create a privileged level of access "
-"for officials or tenured researchers. This will cause resentment and "
-"ultimately undermine the goals that you are seeking to achive."
-msgstr "誰でも公平にアクセスできるようにする。職員や終身在職権を持つ研究員だけに特別な権限を与えるなどということがあってはならない。これは恨みの元となり、最終的な到達目標を達成しにくくなるだろう。"
+"Ensure that access is equitable. Try to avoid creating a privileged level of"
+" access for officials or tenured researchers as this will undermine "
+"community participation and engagement."
+msgstr ""
 
-# 826e51f434b342958a96bddfd7a0157c
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:64
+# 19cfcba241ba49da8fa2cd7e12ffcdfe
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
 msgid "For civil society"
 msgstr "市民の皆さんへ"
 
-# 07048f21b2fe46ad8ff07b0183defc5c
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:66
-msgid "Be willing to create a supplementary catalogue for non-official data."
-msgstr "別のカタログを作って、非公式なデータをそこにまとめるようにしよう。"
+# 82151482120d4eb38a6d0aafff09e1ed
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
+msgid "Be willing to create a supplementary catalog for non-official data."
+msgstr ""
 
-# a59a572aefd448129cb77abaa97cb9a4
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:68
+# 4d3c4cafa15d46b49cdf98fb5cdd40fb
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
 msgid ""
 "It is very rare for governments to associate with unofficial or non-"
 "authoritative sources. Officials have often gone to great expense to ensure "
-"that there will not be political embarrasment or other harm caused from "
+"that there will not be political embarrassment or other harm caused from "
 "misuse or overreliance on data."
-msgstr "政府にとって、非公式なソースや非公認のソースと連携することは希である。役人たちは、多額の費用をかけてでも、データの誤用や過度の依存にもとづく政治的な問題が起こらないようにするものだ。"
+msgstr ""
 
-# 3801ae01f23041ac9807e18bb7afea44
-#: ../../source/how-to-open-up-data/make-it-discoverable.rst:73
+# dc1fa133f5ff4c1f91bc4f7593f4b2e2
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
 msgid ""
 "Moreover, governments are unlikely to be willing to support activities that "
 "mesh their information with information from businesses. Governments are "
-"rightfully skeptical of profit motives. Therefore, an independent catalogue "
+"rightfully skeptical of profit motives. Therefore, an independent catalog "
 "for community groups, businesses and others may be warranted."
-msgstr "さらに政府は、自ら保持する情報に対して営利企業からの情報の影響が及ぶことになるような活動を支援しないだろう。政府は営利活動に懐疑的になるのももっともだ。したがって、コミュニティや業界団体などによる独自のカタログも必要になるはずだ。"
+msgstr ""
 
-# d9abf93274ab499d8abb60f7330dcb40
+# 0eece90a6b18435fbada8a71dce59bb8
 #: ../../source/following-up/getting-folks-in-a-room.rst:3
 msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
 msgstr ""
 
-# 8dc5e25ebfcb4d2a910dc8e1f75d09ac
+# d517fbbe51ea4d1889ad1ea4f9b6c34e
 #: ../../source/following-up/getting-folks-in-a-room.rst:5
 msgid ""
 "Face-to-face events can be a very effective way to encourage others to use "
 "your data. Reasons that you may consider putting on an event include:"
 msgstr ""
 
-# 06b38721e4a04348a87e41f9b0522c0c
+# ed4a924635be427d84e5e73aa156036b
 #: ../../source/following-up/getting-folks-in-a-room.rst:9
-msgid "Finding out more about prospective reusers"
+msgid "Finding out more about prospective re-users"
 msgstr ""
 
-# bc9f433863da41099fad821251acd439
+# 5f00d7f9fe5f4d88908a571cd17d7583
 #: ../../source/following-up/getting-folks-in-a-room.rst:10
 msgid "Finding out more about demand for different datasets"
 msgstr ""
 
-# 1a622c5adfb946c580f683411edb31f3
+# 44afdf6e36d943ddabf744660e0cd998
 #: ../../source/following-up/getting-folks-in-a-room.rst:11
-msgid "Finding out more about how people want to reuse your data"
+msgid "Finding out more about how people want to re-use your data"
 msgstr ""
 
-# f0e427def1754f8d99c5375eece70f7e
+# 40fc2cc37de34edc951bb527c703bed8
 #: ../../source/following-up/getting-folks-in-a-room.rst:12
-msgid "Enabling prospective reusers to find out more about what data you have"
+msgid ""
+"Enabling prospective re-users to find out more about what data you have"
 msgstr ""
 
-# 2f23eb75b502460e82e2618aea14ec1f
+# 521cf351ccf04741bcad75ab2ebed8fc
 #: ../../source/following-up/getting-folks-in-a-room.rst:14
 msgid ""
 "Enabling prospective users to meet each other (e.g. so they can collaborate)"
 msgstr ""
 
-# 737fdc05e94241e88ecdc3c5c5ec3ad5
+# 48964c3745d54c21947431d3f9dfa392
 #: ../../source/following-up/getting-folks-in-a-room.rst:16
 msgid ""
 "Exposing your data to a wider audience (e.g. from blog posts or media "
 "coverage that the event may help to generate)"
 msgstr ""
 
-# 2ebe7bb2059f4789ad1a2cda08d845ca
+# 4d90aabe7a734c3f805647604033d11a
 #: ../../source/following-up/getting-folks-in-a-room.rst:19
 msgid ""
 "There are also lots of different ways of running events, and different types"
@@ -1407,30 +1392,30 @@ msgid ""
 " of participant driven events, where those who turn up may:"
 msgstr ""
 
-# fe05826c0c9d4335a01c3c0670c48432
+# a50b011fdb8840dc9d8f2efd3ab44a4c
 #: ../../source/following-up/getting-folks-in-a-room.rst:26
 msgid "Guide or define the agenda for the event"
 msgstr ""
 
-# ed0e9521fd624966b4592c31bb94a716
+# fa476ad8536242b5b8bf48aea215e13c
 #: ../../source/following-up/getting-folks-in-a-room.rst:27
 msgid ""
 "Introduce themselves, talk about what they’re interested in and what they’re"
 " working on, on an ad hoc basis"
 msgstr ""
 
-# d4384807d39e439fad4c534052573728
+# a32292b0cdf147238a040b8e1264e482
 #: ../../source/following-up/getting-folks-in-a-room.rst:29
 msgid ""
 "Give impromptu micro-short presentations on something they are working on"
 msgstr ""
 
-# 1de4efb55fdd454fb60f6dc50e8cc173
+# 2337543daa9b44a8b8774ac488b32296
 #: ../../source/following-up/getting-folks-in-a-room.rst:31
 msgid "Lead sessions on something they are interested in"
 msgstr ""
 
-# 00da90e1214841a397781795414ee2f4
+# 64065d778f9946ba94319f8241c9e573
 #: ../../source/following-up/getting-folks-in-a-room.rst:33
 msgid ""
 "There is plenty of documentation online about how to run these kinds of "
@@ -1444,31 +1429,31 @@ msgid ""
 "exposure."
 msgstr ""
 
-# 150531c12f7c4eb0b02dd7f6b3b1e55c
+# 462828d03e674930afd7dba17f214303
 #: ../../source/following-up/index.rst:3
 msgid "So I’ve Opened Up Some Data, Now What?"
 msgstr "データはオープンにした。それからどうする?"
 
-# b96b0e763b4444acaf8965dd5f070825
+# 00e250fc1e7143fdaf4d5ee13df433dd
 #: ../../source/following-up/index.rst:5
 msgid ""
 "We’ve looked at how to make government information legally and technically "
 "reusable. The next step is to encourage others to make use of that data."
 msgstr "ここまでは、政府の持つ情報を法的にも技術的にも再利用可能にする方法について見てきた。その次の段階として、公開したデータを多くの人に使ってもらうためにはどうすればいいのかを考えよう。"
 
-# d827490caff544899da75edcb97b6d79
+# ea104e8ec1424383ab1ad41895ec4913
 #: ../../source/following-up/index.rst:9
 msgid ""
 "This section looks at additional things which can be done to promote data "
 "re-use."
 msgstr "このセクションでは、データの再利用を促すためにできるいくつかのことを取り上げる。"
 
-# 1fa1dddcacc14241a352e27eb69f174b
+# 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
 msgid "Making things! Hackdays, prizes and prototypes"
 msgstr ""
 
-# df271df103af42488ced5a9bdc0e0b0c
+# 060111852eda4d8ab3c3be81956860cd
 #: ../../source/following-up/making-things.rst:5
 msgid ""
 "The structure of these competitions is that a number of datasets are "
@@ -1479,12 +1464,12 @@ msgid ""
 "Spain, Denmark and Finland."
 msgstr ""
 
-# b6ccae73b580413ba1bd165be8fc6759
+# 4023683f993e487e8a36414c0e231b52
 #: ../../source/following-up/making-things.rst:13
 msgid "Examples for Competitions"
 msgstr ""
 
-# e0e4707e7f1c4106a00bf115f2d59832
+# 49b7ac024e12489b949a4e96788136cc
 #: ../../source/following-up/making-things.rst:15
 msgid ""
 "**Show us a better way** was the first such competition in the world. It was"
@@ -1495,25 +1480,25 @@ msgid ""
 "five best applications."
 msgstr ""
 
-# 4c88d90f557f4fa6bfa9ae4530b71dc1
+# 4173635b18804fe2afc29007068f6172
 #: ../../source/following-up/making-things.rst:22
 msgid ""
 "**Apps for Democracy**, one of the first competitions in the United States, "
 "was launched in October 2008 by Vivek Kundra, at the time Chief Technology "
 "Officer (CTO) of the District of Columbia (DC) Government. Kundra had "
-"developed the groundbreaking DC data catalogue, http://data.octo.dc.gov/, "
+"developed the groundbreaking DC data catalog, http://data.octo.dc.gov/, "
 "which included datasets such as real-time crime feeds, school test scores, "
 "and poverty indicators. It was at the time the most comprehensive local data"
-" catalogue in the world. The challenge was to make it useful for citizens, "
+" catalog in the world. The challenge was to make it useful for citizens, "
 "visitors, businesses and government agencies of Washington, DC."
 msgstr ""
 
-# 840b5a66f84d4734985a01d36a5b6eba
+# 8d21825195c3490fb0c824541222f572
 #: ../../source/following-up/making-things.rst:32
 msgid ""
 "The creative solution was to create the Apps for Democracy contest. The "
 "strategy was to ask people to build applications using the data from the "
-"freshly launched data catalogue. It included an online submission for "
+"freshly launched data catalog. It included an online submission for "
 "applications, many small prizes rather than a few large ones, and several "
 "different categories as well as a “People’s Choice” prize. The competition "
 "was open for 30 days and cost the DC government $50,000. In return, a total "
@@ -1521,7 +1506,7 @@ msgid ""
 " value in excess of $2,600,000 for the local economy."
 msgstr ""
 
-# a0bc16061514478db91e0159bc9bf481
+# f146ea81d3f149b4abf0590d80f27b1c
 #: ../../source/following-up/making-things.rst:42
 msgid ""
 "**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, "
@@ -1533,7 +1518,7 @@ msgid ""
 "second prizes of €3,000 and €2,000 respectively."
 msgstr ""
 
-# fe353a3b52284b039fa852f5b5393e5d
+# 1db8e290e0aa405ea64d0162ab6128e6
 #: ../../source/following-up/making-things.rst:50
 msgid ""
 "**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government "
@@ -1544,41 +1529,41 @@ msgid ""
 "explicitly encouraged. Though the application deadline was just a month "
 "later, on May 9, the Minister Rigmor Aasrud said the response was "
 "\"overwhelming\". In total 137 applications were received, no less than 90 "
-"of which built on the reuse of government data. A total amount of NOK 2.5 "
+"of which built on the re-use of government data. A total amount of NOK 2.5 "
 "million was distributed among the 17 winners; while the total amount applied"
 " for by the 137 applications was NOK 28.4 million."
 msgstr ""
 
-# 08a52fd6faca4ea3a2bfcbf24fe9c7e6
+# 14cbc29030354b309e4c0acf0e56aef3
 #: ../../source/following-up/making-things.rst:63
 msgid ""
 "**Mashup Australia**. The Australian Government 2.0 Taskforce invited "
 "citizens to show why open access to Australian government information would "
 "be positive for the country’s economy and social development. The contest "
 "ran from October 7th to November 13th 2009. The Taskforce released some "
-"datasets under an open licence and in a range of reusable formats. The 82 "
+"datasets under an open license and in a range of reusable formats. The 82 "
 "applications that were entered into the contest are further evidence of the "
 "new and innovative applications which can result from releasing government "
 "data on open terms."
 msgstr ""
 
-# e15233b9491e44e78795810d2a034266
+# 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
 msgid "Conferences, Barcamps, Hackdays"
 msgstr ""
 
-# d5c9d0156f3e4f09b55a306728e61a72
+# 09e8f1bbc1b6444aa9605ae502caef64
 #: ../../source/following-up/making-things.rst:75
 msgid ""
 "One of the more effective ways for Civil Society Organisations (CSOs) to "
 "demonstrate to governments the value of opening up their datasets is to show"
 " the multiple ways in which the information can be managed to achieve social"
-" and economic benefit. CSOs that promote reuse have been instrumental in "
+" and economic benefit. CSOs that promote re-use have been instrumental in "
 "countries where there have been advances in policy and law to ensure that "
 "datasets are both technically and legally open."
 msgstr ""
 
-# 51ec50924eb24202b37dc68512274cbe
+# 60c702f98efb4c9aa510e6198b1428db
 #: ../../source/following-up/making-things.rst:83
 msgid ""
 "The typical activities which are undertaken as part of these initiatives "
@@ -1591,19 +1576,19 @@ msgid ""
 " innovative applications."
 msgstr ""
 
-# 54c0071c85d8421b93aa6e44ba951414
+# c85468b1156d4b76b60e1af0a6c15d37
 #: ../../source/following-up/tell-the-world.rst:3
 msgid "Tell the world!"
 msgstr "広めよう!"
 
-# 4fe20da5462b4b0691d12f2fc7fa7326
+# f7b8c06459e444fe94462d69f5643a3f
 #: ../../source/following-up/tell-the-world.rst:5
 msgid ""
 "First and foremost, make sure that you promote the fact that you've embarked"
 " on a campaign to promote :term:`open data` in your area of responsibility."
 msgstr "何よりもまず大切なのは、あなたの担当分野で :term:`オープンデータ` の活用に乗り出したという事実を知らせることだ。"
 
-# c87c3f25fc1f4ac6a330fdc30af4dc03
+# 9f1b5341b9e842f493d4aaf04dc35fcb
 #: ../../source/following-up/tell-the-world.rst:9
 msgid ""
 "If you open up a bunch of datasets, it’s definitely worth spending a bit of "
@@ -1611,38 +1596,38 @@ msgid ""
 "done so."
 msgstr "大量のデータセットを公開したのなら、ある程度手間をかけてでもその事実を人々に告知する(少なくとも発見してもらえるようにする)価値がある。"
 
-# c0c487685e704675af811c128bd49bcb
+# f9ce3d51005c4023a7fd16dd964b1eff
 #: ../../source/following-up/tell-the-world.rst:13
 msgid ""
 "In addition to things like press releases, announcements on your website, "
 "and so on, you may consider:"
 msgstr "プレスリリースやウェブサイトでの告知などのほかにも、次のようなこともできる。"
 
-# 07999d11d1054e168f6649267a8bc3d1
+# 05f10ba54c2b46e1a53127ab505be87c
 #: ../../source/following-up/tell-the-world.rst:16
 msgid ""
 "Contacting prominent organisations or individuals who work/are interested in"
 " this area"
 msgstr "その地域で働いていたり興味を持っていたりする著名な組織や人などと連絡をとる"
 
-# 70c87776ee9b424cba8afbfa06e78574
+# a2b3bc1ebe674b0ea69ffd4da3745791
 #: ../../source/following-up/tell-the-world.rst:18
 msgid "Contacting relevant mailing lists or social networking groups"
 msgstr "関連するメーリングリストやソーシャルネットワークを活用する"
 
-# a3eaaffcbd354bd1ab996394ce0af8da
+# 7b7cc9acb2a745ceacf815065d7ef058
 #: ../../source/following-up/tell-the-world.rst:19
 msgid ""
 "Directly contacting prospective users who you know may be interested in this"
 " data"
 msgstr "そのデータに関心を持ってもらえるであろう人たちと直接連絡をとる"
 
-# b170586a1fca4089a40875f3b8d92b7a
+# 1e00595b53124d30a532470f0c12b6cc
 #: ../../source/following-up/tell-the-world.rst:23
 msgid "Understanding your audience"
 msgstr "対象者について理解する"
 
-# cb66966033f043aa9bf75202fc04cbb7
+# 528fc19bc9384914bff7b326a5690865
 #: ../../source/following-up/tell-the-world.rst:25
 msgid ""
 "Like all public communication, engaging with the data community needs to be "
@@ -1650,7 +1635,7 @@ msgid ""
 " is directed to the wrong area."
 msgstr "あらゆる広告と同様、データコミュニティへの広告もきちんと対象を絞り込む必要がある。あらゆるステークホルダーと同様、いくら正しいメッセージでも送り先を間違えれば見落とされてしまう。"
 
-# ccb9a5bd99ef411d9641b539d2326ade
+# 5cee9f066f764747a01b13daa677806d
 #: ../../source/following-up/tell-the-world.rst:29
 msgid ""
 "Digital communities tend to be very willing to share new information, yet "
@@ -1658,7 +1643,7 @@ msgid ""
 "over, rather than critically examined in-depth."
 msgstr "デジタル世代は新たな情報を共有したがる傾向が強い。しかしその情報を消費するのも速い。自分が書いたメッセージはさっと流し読みされるものだと考えよう。きちんと熟読されることはない。"
 
-# 6739cf0b5c3d461a90f496dcc32c2b99
+# 18c9101dca504db9accaddb84ade088c
 #: ../../source/following-up/tell-the-world.rst:33
 msgid ""
 "Members of the tech community are less likely than the general public to use"
@@ -1666,7 +1651,7 @@ msgid ""
 "formats which can be read offline. There are two resons for this:"
 msgstr "技術者のコミュニティでは、一般大衆に比べてMS Windowsの使用率が低い。つまり、オフラインでも読めるようにドキュメントをMS Officeフォーマットで保存するなどしてはいけないということだ。理由は次の二点である。"
 
-# 1eed5c4351e24095a0dfaa83be3e5b08
+# 19ec177bb4064fd4afc752564dcd6876
 #: ../../source/following-up/tell-the-world.rst:38
 msgid ""
 "The first is that those documents will be less accessible. Rather than the "
@@ -1674,7 +1659,7 @@ msgid ""
 "alternative."
 msgstr "まず、そのドキュメントのアクセシビリティが下がる。あなたが今画面上で見ているドキュメントではなく、ユーザーが見るのは代替手段を使って何とか見えるようにした劣化コピーになるだろう。"
 
-# 3a17525d69c348c1ab0b829a3c852e77
+# 2bf9658ad33c45e597c924d5f98773d9
 #: ../../source/following-up/tell-the-world.rst:41
 msgid ""
 "Secondly, your agency sends an implicit message that you are unwilling to "
@@ -1682,26 +1667,26 @@ msgid ""
 " technology community to come to you."
 msgstr "次に、そんなことをすれば「開発者たちに歩み寄る気はない」という暗黙のメッセージを送ることになってしまう。そうではなく「技術者のコミュニティのほうから自分たちに歩み寄れ」という考えを示すことになる。"
 
-# f903f0c4836e4621b46c12199d7d7805
+# 844e5bf617e74753bc0dd1c7cac6f9f0
 #: ../../source/following-up/tell-the-world.rst:47
 msgid "Post your material on third-party sites"
 msgstr "サードパーティのサイトに投稿する"
 
-# 900146069f484622abfb1d70aa6b8fb4
+# 6a83365938d94f77b222dc567c79b43d
 #: ../../source/following-up/tell-the-world.rst:49
 msgid ""
 "Many blogs have created a large readership in specialised topic areas. It "
-"may be worthwhile adding an article about your initative on their site. "
+"may be worthwhile adding an article about your initiative on their site. "
 "These can be mutually beneficial. You receive more interest and they receive"
 " a free blog post in their topic area."
-msgstr "特定の分野で大きな影響力を持つようなブログが数多く存在する。あなたの取り組みについての記事をそういったサイトに投稿する価値はあるだろう。それはお互いにとって有益になり得る。あなたはより多くの人の興味を引けるし、サイト側としてはその分野に関する記事をタダで一本増やせる。"
+msgstr ""
 
-# 304e273efd40494b94aa01b52ede4072
+# 9b230b80b65d485d86d252226dd302ec
 #: ../../source/following-up/tell-the-world.rst:56
 msgid "Making your communications more social-media friendly"
 msgstr "ソーシャルメディアで広めやすくするための方法"
 
-# 09f7fbfbe00848198d71c26106aa2ee6
+# 4bead5ae1fe74d96a269bf59a3ca032d
 #: ../../source/following-up/tell-the-world.rst:58
 msgid ""
 "It's unrealistic to expect that officials should spend long periods of time "
@@ -1710,14 +1695,14 @@ msgid ""
 "users. Some tips:"
 msgstr "職員がソーシャルメディアに入り浸って宣伝するべきだと期待するのは非現実的だ。しかし、テクニカルなユーザーの間でコンテンツを共有しやすくさせるためにできることはいくつかある。そのコツをまとめた。"
 
-# 1871650560bb4c8d85feed3a827a3433
+# f4f2dab2b9ac404cb9d9bbad4a3bf3b9
 #: ../../source/following-up/tell-the-world.rst:65
 msgid ""
 "When a message is shared with others, the recipient of the referral will be "
 "looking for the relevant content quickly."
 msgstr "メッセージを共有するときに、それを受け取った人がより素早くコンテンツにたどり着けるようになる。"
 
-# 2ef92cc52f694b2f93e975ecb925c41b
+# 52f00dd496ae41b3896cfd0f84c83303
 #: ../../source/following-up/tell-the-world.rst:70
 msgid ""
 "Press releases are fine. They are concise messages about a particular point."
@@ -1727,7 +1712,7 @@ msgid ""
 "download."
 msgstr "プレスリリース自体はよいことだ。要点をまとめた簡潔なメッセージとなる。しかし、ダウンロードして別のソフトで開かないと読めないようなプレスリリースなら、それを読む人は少なくなるだろう。サーチエンジンに捕捉されにくくなるし、わざわざクリックしてダウンロードしようとする人も少なくなる。"
 
-# cb950933a1234caba177177219824870
+# 5f48a5a973b64166af65a56fee9e2af3
 #: ../../source/following-up/tell-the-world.rst:78
 msgid ""
 "Apart from providing certainty to people who wish to share your content that"
@@ -1736,12 +1721,12 @@ msgid ""
 "proponents of open data than any specific sentence in your press release."
 msgstr "コンテンツを共有したいと考える人たちに対して共有可能であることを明示するだけでなく、コンテンツを提供する組織が「オープンであること」について理解しているというメッセージにもなる。そのほうが、オープンデータに賛同する人たちに対してより大きな印象を残せる。プレスリリースにどんな文言を載せるよりも、その効果はずっと大きい。"
 
-# c532be8c8f4e40d4833fd4f5fd6ff0ad
+# ced1e4dd38e54c148906380a97dd58ef
 #: ../../source/following-up/tell-the-world.rst:87
 msgid "Social media"
 msgstr "ソーシャルメディア"
 
-# 4ffd7f36f1e4432f89a71207d092a91e
+# 574f80f4359f48efbb593e6eec284c9e
 #: ../../source/following-up/tell-the-world.rst:89
 msgid ""
 "It's inefficient for cash-strapped agencies to spend hours on social media "
@@ -1751,7 +1736,7 @@ msgid ""
 " that in mind, here are a few suggestions:"
 msgstr "厳しい財政状況の組織がソーシャルメディアサイトに時間を費やすのは非効率的だ。ソーシャルメディアサイトのフォーラム上で話題を広めるための最も効率的な方法は、ブログに投稿した記事を共有しやすくしておくことだ。そのためには、次のセクションに進む前にこれを読んでおこう。ここで、いくつかの案を示す。"
 
-# 84650f35e5804ddeae34645131f7b9a8
+# f847a5e41c65478796cb6b6f71cbf686
 #: ../../source/following-up/tell-the-world.rst:98
 msgid ""
 "Twitter has emerged as the platform of choice for disseminating information "
@@ -1759,21 +1744,21 @@ msgid ""
 "thousands."
 msgstr "Twitterは、情報を手早く広めるための選択肢としての地位を確立している。#opendata タグをつけておけば、すぐに何千人もの目に留まる。"
 
-# 63575d1e9cd44e3587002284b385f680
+# 73647b69ba61434dbc71b406d5ae5259
 #: ../../source/following-up/tell-the-world.rst:102
 msgid ""
 "LinkedIn has a large selection of groups which are targeted towards open "
 "data."
 msgstr "LinkedInには、オープンデータに興味をもちそうなグループが多数存在する。"
 
-# dd9c292ff5c544c1a1a17a882c8e4fd2
+# b0aafaffa0234c4989d2b2666ba136a5
 #: ../../source/following-up/tell-the-world.rst:105
 msgid ""
 "While Facebook is excellent for a general audience, it has not received a "
 "great deal of attention in the open data community."
 msgstr "Facebookはごく一般的な人たち向けには優れているが、オープンデータコミュニティの中での認知度はそれほどではない。"
 
-# e3ab3ef9376643f894352e5c23933603
+# b3381b7656bf4f3dbe210f7e88d3202b
 #: ../../source/following-up/tell-the-world.rst:110
 msgid ""
 "Submit your content to the equivalent of newswires for geeks. Reddit and "
@@ -1781,61 +1766,56 @@ msgid ""
 "extent, Slashdot and Digg are also useful tools in this area."
 msgstr "ギーク向けのニュースサイトにコンテンツを投稿する。RedditとHacker Newsが、現時点での二大巨頭だ。それには及ばないが、SlashdotやDiggもそれなりに有用なサイトである。"
 
-# 73485629ecde4c02964680d05a0e16d8
+# 8c7beae1caaa43b99c59bec2e4e1160d
 #: ../../source/following-up/tell-the-world.rst:115
 msgid ""
-"These sites have a tendency to drive signficiant traffic to interesting "
+"These sites have a tendency to drive significant traffic to interesting "
 "material. They are also heavily focused on topic areas."
-msgstr "これらのサイトには、興味深いサイトへのトラフィックを激増させる効果がある。また、特定のトピックに話題が集中している。"
+msgstr ""
 
-# 1d45945943804e66b1dd0e088a725526
+# 8d913877e7a6456b84c5481aa375fa49
 #: ../../source/glossary.rst:3
 msgid "Glossary"
 msgstr ""
 
-# 203e4913d4584afeb23997c547f0b42a
-#: ../../source/glossary.rst:105
+# 7f11b625ef3e418ebce8fa73d6df5007
+#: ../../source/glossary.rst:99
 msgid ""
 "The process of adapting data so that individuals cannot be identified from "
 "it."
 msgstr ""
 
-# 07cc47e58a844f9584dcd0f6ecd5035a
-#: ../../source/glossary.rst:102
+# a05e26862bfa42af9de59456bb406ca0
+#: ../../source/glossary.rst:96
 msgid "See :term:`Anonymisation`."
 msgstr ""
 
-# ef230d76443e46259f601c7bb4b484b9
-#: ../../source/glossary.rst:64
+# a178837206844dcd9c3f961ffb9ec065
+#: ../../source/glossary.rst:61
 msgid "See :term:`Application Programming Interface`."
 msgstr ""
 
-# 220928e00db74de5b2449e767b0d21be
-#: ../../source/glossary.rst:67
+# b2d454de54a34ff3ac26f9a9b95cfc1d
+#: ../../source/glossary.rst:64
 msgid ""
 "A way computer programs talk to one another. Can be understood in terms of "
 "how a programmer sends instructions between programs."
 msgstr ""
 
-# 6f2e31b14bd146eb82637c92442aa42e
-# c225015fd14c40ed937e9dcd9420899a
-#: ../../source/glossary.rst:114 ../../source/glossary.rst:117
+# ed5e720c502945a5890bd78c53722041
+# 006ce3eeb6f6494e89126a9fee36fa6b
+#: ../../source/glossary.rst:108 ../../source/glossary.rst:111
 msgid "See :term:`Information Asset Register`."
 msgstr ""
 
-# c916cfe8061b476eb25e04dec338e30c
+# d7005be4c2644ffd95650d9a7fa33c09
 #: ../../source/glossary.rst:38
 msgid ""
-"A licence that requires that the original source of the licensed material is"
+"A license that requires that the original source of the licensed material is"
 " cited (attributed)."
 msgstr ""
 
-# 8fd8a788b7374b0fbdb702c96a2fb201
-#: ../../source/glossary.rst:42
-msgid "See :term:`Attribution Licence`."
-msgstr ""
-
-# e3214a47c1ab4837823b85c4b8e14548
+# a66abef10b4b433d93031aa2c2017898
 #: ../../source/glossary.rst:24
 msgid ""
 "BitTorrent is a protocol for distributing the bandwith for transferring very"
@@ -1844,35 +1824,35 @@ msgid ""
 "peers to download from each other."
 msgstr ""
 
-# e85539b7429346adb3bbd7fceeb9edbe
+# 612e73147c2c40fdbe744433e7db9a57
 #: ../../source/glossary.rst:20
 msgid ""
 "Connectivity relates to the ability for communities to connect to the "
 "Internet, especially the World Wide Web."
 msgstr ""
 
-# 51ca6728ca684ba5861073aa7eb14dc2
-#: ../../source/glossary.rst:89
+# 2c5484b9a96740bfbc9f3afcc208576a
+#: ../../source/glossary.rst:83
 msgid ""
 "A right for the creators of creative works to restrict others' use of those "
 "works. An owner of copyright is entitled to determine how others may use "
 "that work."
 msgstr ""
 
-# 3accd4c828044addb9b887fc0a4420c2
+# 905eb11579234bb1a44c8bf10af73af7
 #: ../../source/glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
 msgstr ""
 
-# 6b2cc83e0a0e4cb8a6fa4fca4449988c
+# df25ad55a2cd4441b7c2a9fa5fb62877
 #: ../../source/glossary.rst:34
 msgid ""
 "A system that allows outsiders to be granted access to databases without "
 "overloading either system."
 msgstr ""
 
-# 12d8c5f66a5949c98875518a2ebb9ed4
-#: ../../source/glossary.rst:45
+# 9d30078f305e4260bfee0cfdd8fc931b
+#: ../../source/glossary.rst:42
 msgid ""
 "Data protection legislation is not about protecting the data, but about "
 "protecting the right of citizens to live without fear that information about"
@@ -1886,20 +1866,20 @@ msgid ""
 "legislation."
 msgstr ""
 
-# a0919bc93c194f6fa793652157632129
-#: ../../source/glossary.rst:85
+# 86c8b18def8d4ee1b79d75ad066b4b8f
+#: ../../source/glossary.rst:79
 msgid ""
 "A right to prevent others from extracting and reusing content from a "
 "database. Exists mainly in European jurisdictions."
 msgstr ""
 
-# 033ff7cd17b94a76aee3ff1954f33d08
-#: ../../source/glossary.rst:120
+# ec3378ceb3a748ccad2951202612480a
+#: ../../source/glossary.rst:114
 msgid "European Union."
 msgstr ""
 
-# 4e2fbd5fd4394039862147c0848371f1
-#: ../../source/glossary.rst:123
+# 5ad96f170d4d4c57b91fd25c109b9d1f
+#: ../../source/glossary.rst:117
 msgid ""
 "The *Directive on the re-use of public sector information*, 2003/98/EC. "
 "\"deals with the way public sector bodies should enhance re-use of their "
@@ -1907,8 +1887,8 @@ msgid ""
 "<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
 msgstr ""
 
-# b9dc4f940d3c4d0b9fcc55b329082eb7
-#: ../../source/glossary.rst:129
+# 31dae10cf39d414c9c3bc877c742864f
+#: ../../source/glossary.rst:123
 msgid ""
 "IARs are registers specifically set up to capture and organise meta-data "
 "about the vast quantities of information held by government departments and "
@@ -1916,16 +1896,16 @@ msgid ""
 "electronic files, collections of statistics, research and so forth."
 msgstr ""
 
-# 8fe435cc062d4e00877887fcf190c60b
-#: ../../source/glossary.rst:135
+# fbabda3fc9f146ac9a749e3d391ff817
+#: ../../source/glossary.rst:129
 msgid ""
 "The :term:`EU PSI Directive` recognises the importance of asset registers "
 "for prospective re-users of public information. It requires member states to"
 " provide lists, portals, or something similar. It states::"
 msgstr ""
 
-# 93de1a27037c4d8f87c4451d5adf0e39
-#: ../../source/glossary.rst:151
+# 815da74bce80419d83a67e6fddc5fe7b
+#: ../../source/glossary.rst:145
 msgid ""
 "IARs can be developed in different ways. Government departments can develop "
 "their own IARs and these can be linked to national IARs. IARs can include "
@@ -1934,8 +1914,8 @@ msgid ""
 "public to identify information which exists and which can be requested."
 msgstr ""
 
-# a3a63e3b4db84ea59d2cb22b6453b532
-#: ../../source/glossary.rst:158
+# 338ebff07b91405ba99bcd2e705da064
+#: ../../source/glossary.rst:152
 msgid ""
 "For the public to make use of these IARs, it is important that any registers"
 " of information held should be as complete as possible in order to be able "
@@ -1945,28 +1925,28 @@ msgid ""
 "information."
 msgstr ""
 
-# a146aacf314546b4a54990ebd24f7f9a
-#: ../../source/glossary.rst:165
+# 27218b7ea50843d393655598df958338
+#: ../../source/glossary.rst:159
 msgid ""
 "It is essential that the metadata in the IARs should be comprehensive so "
 "that search engines can function effectively. In the spirit of open "
 "government data, public bodies should make their IARs available to the "
-"general public as raw data under an open licence so that civic hackers can "
+"general public as raw data under an open license so that civic hackers can "
 "make use of the data, for example by building search engines and user "
 "interfaces."
 msgstr ""
 
-# 79cce7b9b73246d48dde256625c1302e
-#: ../../source/glossary.rst:111
+# 4feb4d19a60642078f320e8d8dd612be
+#: ../../source/glossary.rst:105
 msgid "Monopolies granted to individuals for intellectual creations."
 msgstr ""
 
-# 181439bc43b3438cada402da9c3c423a
-#: ../../source/glossary.rst:108
+# 89ef221be02d4278bab95a677f310469
+#: ../../source/glossary.rst:102
 msgid "See :term:`Intellectual property rights`."
 msgstr ""
 
-# d2fa7be6b945458b988c98bc57c3feff
+# 58a3235843654c3282894e72502ef67d
 #: ../../source/glossary.rst:13
 msgid ""
 "Formats that are machine readable are ones which are able to have their data"
@@ -1975,15 +1955,15 @@ msgid ""
 "understanding the context that surrounds the text."
 msgstr ""
 
-# cefbeb81fd214fe68db78852173f88b5
+# 2dc4522d8fcb4013b942b47615c50aa3
 #: ../../source/glossary.rst:9
 msgid ""
 "Open data are able to be used for any purpose. More details can be read at "
 "`opendefinition.org <http://www.opendefinition.org/>`_."
 msgstr ""
 
-# 809f7eb518884ee687501f19faff20dd
-#: ../../source/glossary.rst:173
+# 5de57f6ce9f24f3ebbbcb86481d101fb
+#: ../../source/glossary.rst:167
 msgid ""
 ":term:`Open data` produced by the government. This is generally accepted to "
 "be data gathered during the course of business as usual activities which do "
@@ -1992,76 +1972,71 @@ msgid ""
 "scope. See http://opengovernmentdata.org for details."
 msgstr ""
 
-# d1b0c8bd94554b7cbf3834000510a7b0
-#: ../../source/glossary.rst:97
+# fd67964c3c0c4d829d84d0289821fa98
+#: ../../source/glossary.rst:91
 msgid ""
 "Generally understood as technical standards which are free from licencing "
 "restrictions. Can also be interpreted to mean standards which are developed "
 "in a vendor-neutral manner."
 msgstr ""
 
-# 97b26f13d3d54c2ab14f31a197f17df0
-#: ../../source/glossary.rst:58
+# 69cae7a7b1ba4c2ab1feefaa40340b8e
+#: ../../source/glossary.rst:55
 msgid "See :term:`Public Sector Information`."
 msgstr ""
 
-# f7340d47572a41d5b03621ee4849c09d
-#: ../../source/glossary.rst:81
+# a2ce148a2a73420b9acd40b9063f3f43
+#: ../../source/glossary.rst:75
 msgid ""
 "No copyright exists over the work. Does not exist in all jurisdictions."
 msgstr ""
 
-# 8b36d27e918c4ad38c87b595a5474fcb
-#: ../../source/glossary.rst:61
+# 2f2e8085f2cc4398947dfcaa3f7ab3b8
+#: ../../source/glossary.rst:58
 msgid "Information collected or controlled by the public sector."
 msgstr ""
 
-# ec9e42de87cd4426b2f320804b6970b4
-#: ../../source/glossary.rst:94
+# bb27435fccc543f49295bce4ed47215a
+#: ../../source/glossary.rst:88
 msgid "Use of content outside of its original intention."
 msgstr ""
 
-# b4cf55f252d743698d5ba50cf63060ea
-#: ../../source/glossary.rst:77
+# b82b98ba6b7f4fc1aacfe2d19a7bda99
+#: ../../source/glossary.rst:71
 msgid ""
-"A licence that requires users of a work to provide the content under the "
+"A license that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
 msgstr ""
 
-# dbf3b9127b71430d971ab2b99341786b
-#: ../../source/glossary.rst:74
-msgid "See :term:`Share-alike Licence`."
-msgstr ""
-
-# 4dec667c323e4b99887fcf81fed37ec0
-#: ../../source/glossary.rst:181
+# fd0aa49e25734202a7c30036e68ef957
+#: ../../source/glossary.rst:175
 msgid ""
 "Tab-seperated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
 msgstr ""
 
-# bd03ad112aee4947916bdb2142fcfa35
-#: ../../source/glossary.rst:71
+# c51eb47f3b384fb4b0bfbe917fa42d1e
+#: ../../source/glossary.rst:68
 msgid "An :term:`API` that is designed to work over the Internet."
 msgstr ""
 
-# ddaac0bb99be456eb1b13c2a110931ef
+# 7132f49bacf446729745b0e8e0d9a192
 #: ../../source/appendices/file-formats.rst:3
 msgid "File Formats"
 msgstr ""
 
-# 9f3c5948f32c435287cf489f81e1420f
+# 510002baa9d748f68d35f6436604f3fb
 #: ../../source/appendices/file-formats.rst:6
 msgid "An Overview of File Formats"
 msgstr ""
 
-# c54de1c067c44cb9947bb0164c944584
+# 635ed34ea4614e81860363d399eb473a
 #: ../../source/appendices/file-formats.rst:9
 msgid "JSON"
 msgstr ""
 
-# be9d244ddf094570843023b541465f8e
+# 3deb8b74834d42b1bdb11e40d2be3d28
 #: ../../source/appendices/file-formats.rst:11
 msgid ""
 "JSON is a simple file format that is very easy for any programming language "
@@ -2069,12 +2044,12 @@ msgid ""
 "process than others, such as XML."
 msgstr ""
 
-# e6db0f4b1e414e0fa4dd68aff2027c43
+# 8a8590a390d84558833340d36e1f1b61
 #: ../../source/appendices/file-formats.rst:16
 msgid "XML"
 msgstr ""
 
-# b6877083b3e549328d32fc7761e0897b
+# 8bfafd0051d24a888453f01d8ba314e4
 #: ../../source/appendices/file-formats.rst:18
 msgid ""
 "XML is a widely used format for data exchange because it gives good "
@@ -2083,12 +2058,12 @@ msgid ""
 "data without interfering with the reading of them."
 msgstr ""
 
-# b2247d349f9044f1926dc87201fb13b1
+# 516202713787406d9afba417d89fc548
 #: ../../source/appendices/file-formats.rst:24
 msgid "RDF"
 msgstr ""
 
-# e8dddcf3fe5a4859801811a281d1bc43
+# dbea0450c3c74ee5b999d5b3aec5cdc9
 #: ../../source/appendices/file-formats.rst:26
 msgid ""
 "A W3C-recommended format called RDF makes it possible to represent data in a"
@@ -2103,12 +2078,12 @@ msgid ""
 "initiatives."
 msgstr ""
 
-# 2338c8757b064e4b8c06b154990f9402
+# 36ba7f18a648422ea3301c59ce1cdcaf
 #: ../../source/appendices/file-formats.rst:41
 msgid "Spreadsheets"
 msgstr ""
 
-# 21bf07bb98e84b968aa574206207a171
+# f71a98416abb41dabc2dc7023eaea6b8
 #: ../../source/appendices/file-formats.rst:43
 msgid ""
 "Many authorities have information left in the spreadsheet, for example "
@@ -2116,7 +2091,7 @@ msgid ""
 "descriptions of what the different columns mean."
 msgstr ""
 
-# 3bab05d728104c11807f770ccb0f2da6
+# 7e508d6674dc4676b48234f74c63791c
 #: ../../source/appendices/file-formats.rst:47
 msgid ""
 "However, in some cases there can be macros and formulas in spreadsheets, "
@@ -2125,12 +2100,12 @@ msgid ""
 " more accessible for users to read."
 msgstr ""
 
-# bdac237613fb4800967fb56d2ea737c3
+# 72147ad3a13f4e96a0da72ca09dca722
 #: ../../source/appendices/file-formats.rst:53
 msgid "Comma Separated Files"
 msgstr ""
 
-# 0db22b09acd04ad48854ebfb1a5101e0
+# 3d3c193e05ac423a8ec608988bc74bcc
 #: ../../source/appendices/file-formats.rst:55
 msgid ""
 "CSV files can be a very useful format because it is compact and thus "
@@ -2141,7 +2116,7 @@ msgid ""
 "formats that documentation of the individual fields are accurate."
 msgstr ""
 
-# e867ccefd4474cc7a766b5f2a58bc84e
+# eb505d33966845db9b5cd9db528d86e8
 #: ../../source/appendices/file-formats.rst:63
 msgid ""
 "Furthermore it is essential that the structure of the file is respected, as "
@@ -2150,12 +2125,12 @@ msgid ""
 " determined how the remaining data should be interpreted."
 msgstr ""
 
-# e9e53c87cd07468bba8b5d1101abac4d
+# 00b93bc63b524d138137f8a1498d4eed
 #: ../../source/appendices/file-formats.rst:69
 msgid "Text Document"
 msgstr ""
 
-# 6b815cb52e964cf1bad48e64a6df3fd7
+# db72a1c2afd6485cb9364dba5947a8f8
 #: ../../source/appendices/file-formats.rst:71
 msgid ""
 "Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient"
@@ -2164,11 +2139,11 @@ msgid ""
 "format the data is born in. The format gives no support to keep the "
 "structure consistent, which often means that it is difficult to enter data "
 "by automated means. Be sure to use templates as the basis of documents that "
-"will display data for reuse, so it is at least possible to pull information "
-"out of documents."
+"will display data for re-use, so it is at least possible to pull information"
+" out of documents."
 msgstr ""
 
-# e40e6492ca68476892728d3e92b35611
+# 3ca8da150fd3448e9c91b7f4e8f08c92
 #: ../../source/appendices/file-formats.rst:80
 msgid ""
 "It can also support the further use of data to use typography markup as much"
@@ -2178,12 +2153,12 @@ msgid ""
 "different format."
 msgstr ""
 
-# 64fcd6e6a2344997b41f452cb04917c5
+# 1e222acd868a4836989075cb0ff8845f
 #: ../../source/appendices/file-formats.rst:87
 msgid "Plain Text"
 msgstr ""
 
-# d1a9b26b6bd44225ab9a22e851add39f
+# d063aa3fc40b4accbd3b368bc0ce5490
 #: ../../source/appendices/file-formats.rst:89
 msgid ""
 "Plain text documents (.txt) are very easy for computers to read. They "
@@ -2192,7 +2167,7 @@ msgid ""
 " document as it appears."
 msgstr ""
 
-# 9b9a7651d5c746d9a8e4d99c35f77a9b
+# 7b4a3b6ee9404cfc873e4cac5c9a8390
 #: ../../source/appendices/file-formats.rst:94
 msgid ""
 "Some problems can be caused by switching plain text files between operating "
@@ -2200,12 +2175,12 @@ msgid ""
 "telling the computer that they have reached the end of the line."
 msgstr ""
 
-# 51a7898e05d0467383e5900002b76290
+# 86000271a8184337a739b0937ae22f75
 #: ../../source/appendices/file-formats.rst:100
 msgid "Scanned image"
 msgstr ""
 
-# 6af1fc276aee4ecaa1201a5abf2b8234
+# 6a115f8899a94bffb8d9578c13c53e1e
 #: ../../source/appendices/file-formats.rst:102
 msgid ""
 "Probably the least suitable form for most data, but both TIFF and JPEG-2000 "
@@ -2216,12 +2191,12 @@ msgid ""
 " archival material - and a picture is better than nothing."
 msgstr ""
 
-# 4ffb2ef30bb34321b194fa652bab8794
+# 5e9d83d67fbe465a8c002bf40eeb9205
 #: ../../source/appendices/file-formats.rst:111
 msgid "Proprietary formats"
 msgstr ""
 
-# e40c4745a6eb4c73a899ff9388742786
+# dcac01c71eb645498af1bc5b949be4cc
 #: ../../source/appendices/file-formats.rst:113
 msgid ""
 "Some dedicated systems, etc. have their own data formats that they can save "
@@ -2233,12 +2208,12 @@ msgid ""
 "display data in non-proprietary formats where feasible."
 msgstr ""
 
-# 162164a69fca49849513c817bbd83960
+# ebfcd7577aa94ce9a921e9cf6c78a6a5
 #: ../../source/appendices/file-formats.rst:123
 msgid "HTML"
 msgstr ""
 
-# 1b6ab2ac10f749d8960dca659025d0fe
+# 0bbba5786b824723848c6b7a3e3e6b87
 #: ../../source/appendices/file-formats.rst:125
 msgid ""
 "Nowadays much data is available in HTML format on various sites. This may "
@@ -2248,7 +2223,7 @@ msgid ""
 "might be a good starting point in the display of data."
 msgstr ""
 
-# e865deb9c5704a9893b9de76c3afe58c
+# 905921990dc542df9e22c0a368727e8b
 #: ../../source/appendices/file-formats.rst:132
 msgid ""
 "Typically, it would be most appropriate to use tables in HTML documents to "
@@ -2259,42 +2234,42 @@ msgid ""
 "more with the data if it is carefully tagged."
 msgstr ""
 
-# 74018705a4c441e49de3d45345c9318e
+# 749bccb614ec4d75b626f3a91f7c20fd
 #: ../../source/appendices/file-formats.rst:141
 msgid "Open File Formats"
 msgstr ""
 
-# e17b4510580847348172b575ac93ea62
+# 2268600ee3b34664913b2eaaf2c0b83e
 #: ../../source/appendices/file-formats.rst:143
 msgid ""
 "Even if information is provided in electronic, machine-readable format, and "
 "in detail, there may be issues relating to the format of the file itself."
 msgstr ""
 
-# 242ed49a2ddc4bf5a4617adb430d890a
+# a1e9a630c82c497685a5d40d2375be05
 #: ../../source/appendices/file-formats.rst:147
 msgid ""
 "The formats in which information is published – in other words, the digital "
 "base in which the information is stored - can either be “open” or “closed”. "
 "An open format is one where the specifications for the software are "
 "available to anyone, free of charge, so that anyone can use these "
-"specifications in their own software without any limitations on reuse "
+"specifications in their own software without any limitations on re-use "
 "imposed by intellectual property rights."
 msgstr ""
 
-# 48ab220fded64a66bc961e84780e2801
+# 11373b39254144f4bb062a40e7813a85
 #: ../../source/appendices/file-formats.rst:154
 msgid ""
 "If a file format is “closed”, this may be either because the file format is "
 "proprietary and the specification is not publicly available, or because the "
 "file format is proprietary and even though the specification has been made "
-"public, reuse is limited. If information is released in a closed file "
+"public, re-use is limited. If information is released in a closed file "
 "format, this can cause significant obstacles to reusing the information "
 "encoded in it, forcing those who wish to use the information to buy the "
 "necessary software."
 msgstr ""
 
-# 73c3d87caa5b4cc39e5721bc51990848
+# c8855b8342e64d1b8377d55893c94f9a
 #: ../../source/appendices/file-formats.rst:162
 msgid ""
 "The benefit of open file formats is that they permit developers to produce "
@@ -2302,7 +2277,7 @@ msgid ""
 "minimises the obstacles to reusing the information they contain."
 msgstr ""
 
-# 0fd7153058114d2da4be1c2d4092850e
+# 14e8ba3e856d439eb9372a107b327b45
 #: ../../source/appendices/file-formats.rst:167
 msgid ""
 "Using proprietary file formats for which the specification is not publicly "
@@ -2312,7 +2287,7 @@ msgid ""
 "expensive, or which may become obsolete."
 msgstr ""
 
-# 1349838c490e43d2894abdcbc9889745
+# becd5c5379ad46a6a4495bf228bc2072
 #: ../../source/appendices/file-formats.rst:173
 msgid ""
 "The preference from the :term:`open government data` perspective therefore "
@@ -2320,12 +2295,12 @@ msgid ""
 "readable.**"
 msgstr ""
 
-# 7e7a0f34c6864e3780a6dbc8b409fccd
+# 0706964f49444783b06ccb6d8e40ec6c
 #: ../../source/appendices/file-formats.rst:178
 msgid "Example: UK traffic data"
 msgstr ""
 
-# 019cba6c0b20488cb17b77ca4497c49e
+# 06406a590c564ab9a7dd69b5e9869377
 #: ../../source/appendices/file-formats.rst:180
 msgid ""
 "Andrew Nicolson is a software developer who was involved in an (ultimately "
@@ -2343,7 +2318,7 @@ msgid ""
 "beyond the reach of most ordinary citizens."
 msgstr ""
 
-# a71ea073e22e414da58d4680a3e655c5
+# 9e78cdb7b65b44568400fc075a25128b
 #: ../../source/appendices/file-formats.rst:196
 msgid ""
 "Although no access to information law gives a right of access to information"
@@ -2354,7 +2329,7 @@ msgid ""
 "December 2009, which says:"
 msgstr ""
 
-# 954625ccb9bf456e930a1752af8c2159
+# 5a4a5dad6cfe4c26809846d46065d8e4
 #: ../../source/appendices/file-formats.rst:203
 msgid ""
 "*To the extent practicable and subject to valid restrictions, agencies "
@@ -2365,12 +2340,12 @@ msgid ""
 "use of that information.*"
 msgstr ""
 
-# 9bb75c31475546099d71e467b6ee31b8
+# 5cc8e6283aea4bb5af1a2c416989abc4
 #: ../../source/appendices/file-formats.rst:213
 msgid "How do I use a given format?"
 msgstr ""
 
-# f09d294acdb4493093a60c3e58e66668
+# 568a5625c2f94452af6abe3cc66878ad
 #: ../../source/appendices/file-formats.rst:215
 msgid ""
 "When an authority must exhibit new data – data that has not been exhibited "
@@ -2379,7 +2354,7 @@ msgid ""
 " should be aware of, and this section aims to explain them."
 msgstr ""
 
-# 69768ad3835e496f940280dea254dcdb
+# 42b8a5c50e0b45eb89c4a26f7ea8a060
 #: ../../source/appendices/file-formats.rst:221
 msgid ""
 "This section focuses only on how the cut surfaces are best arranged so that "
@@ -2387,12 +2362,12 @@ msgid ""
 "and web solutions should be designed can be found elsewhere."
 msgstr ""
 
-# a73b2b16d3e4421e866cba7d11aec843
+# 1897adda256e49e99d665b5f5343e008
 #: ../../source/appendices/file-formats.rst:227
 msgid "Web services"
 msgstr ""
 
-# ca63ca79b98641daa46874a30e513a39
+# a9d6a586198648dcb05c316a24713fc9
 #: ../../source/appendices/file-formats.rst:229
 msgid ""
 "For data that changes frequently, and where each pull is limited in size, it"
@@ -2402,12 +2377,12 @@ msgid ""
 "use, so it is a widely used standard."
 msgstr ""
 
-# 0ebd9d02ede244c9ac9984be422b7767
+# 1832cd0456254e3c8affb21673553fe5
 #: ../../source/appendices/file-formats.rst:236
 msgid "Database"
 msgstr ""
 
-# fb39c0d691274754a2c6f5abc4390a3e
+# 1ca36a963713464dbd753b7f60bd0661
 #: ../../source/appendices/file-formats.rst:238
 msgid ""
 "Like web services, databases provide direct access to data dynamically. "
@@ -2415,7 +2390,7 @@ msgid ""
 "the extraction that they are interested in."
 msgstr ""
 
-# dba489e773c749a6bb98cd5ed7af8e34
+# efc3834bf47c482eb7a3bdc3da8faaa0
 #: ../../source/appendices/file-formats.rst:242
 msgid ""
 "There are some security concerns about allowing remote database extraction "
@@ -2425,17 +2400,17 @@ msgid ""
 "from a database, which can be an easy way to address safety concerns."
 msgstr ""
 
-# 357f716b35e240d1bb69f276ba6ec0cb
+# 51c683e25e5a4ce4be6978d9dc1a4705
 #: ../../source/appendices/index.rst:3
 msgid "Appendices"
 msgstr ""
 
-# abce9fd5acc84bc3bb9efbd1f627e04e
+# b67d88179b824185a34209f86dcc580c
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
 msgstr ""
 
-# cf04d3b14b5c48cdb3845afdc5844b58
+# 5f9216bdba044ff28822b1d6bf5783bd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
 msgid ""
 "When talking about data(bases) we first need to distinguish between the "
@@ -2445,7 +2420,7 @@ msgid ""
 "these fields and their inter-relation."
 msgstr ""
 
-# a36fbf3c226c4f0aa83024b95b0e01e3
+# c4e85f3fa8b94ae08375d9c817d14e32
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
 msgid ""
 "In many jurisdictions it is likely that the structural elements of a "
@@ -2453,7 +2428,7 @@ msgid ""
 "'creativity' involved in creating this structure)."
 msgstr ""
 
-# 3405ed2e1c884bfe8dee7e8e1c6fc684
+# 395c38e545b949b2bd4f6cdf184a4ed4
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
 msgid ""
 "However, here we are particularly interested in the data. When we talk of "
@@ -2465,7 +2440,7 @@ msgid ""
 " denote the collection."
 msgstr ""
 
-# fe6e027afa4148fa97f0a815b277b636
+# 73c5a4d2fd6648f68879b5a83b6f30bc
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
 msgid ""
 "Unlike for material such as text, music or film, the legal situation for "
@@ -2473,7 +2448,7 @@ msgid ""
 "grant some rights in the data (as a collection)."
 msgstr ""
 
-# 47307e3a5182471f87c8a8c3a2aaf5b0
+# 6a4c03a757064662932a79988f81f0c8
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
 msgid ""
 "This distinction between the \"content\" of a database and the collection is"
@@ -2482,27 +2457,27 @@ msgid ""
 "may grant right(s) in them as a collection. To illustrate, consider the "
 "simple example of a database which lists the melting point of various "
 "substances. While the database as a whole might be protected by law so that "
-"one is not allow to access, reuse or redistribute it without permission, "
+"one is not allow to access, re-use or redistribute it without permission, "
 "this would never prevent you from stating the fact that substance Y melts at"
 " temperature Z."
 msgstr ""
 
-# 2fb948d3f4e44ec2a8c3a123be81cb04
+# e45e4794fcde4db08aa676c867ef5314
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
 msgid "Forms of protection fall broadly into two cases:"
 msgstr ""
 
-# dd647f87931c4a7a8ed3747bf5810e09
+# 3bdda233812049c49e24ee9e8fe29390
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
 msgid "Copyright for compilations"
 msgstr ""
 
-# 49e7c7312056484cb968ab0a7aaadb75
+# ae7ced23b0b54fff97a2a9712c475acd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
 msgid "A *sui generis* right for collections of data"
 msgstr ""
 
-# 1b0e920fb0e448e5ba4be713817a5024
+# e3cc883dcae4410daec23ba229274207
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
 msgid ""
 "As we have already emphasized, there are no general rules and the situation "
@@ -2510,7 +2485,7 @@ msgid ""
 "(if any) of these approaches is used in a particular jurisdiction."
 msgstr ""
 
-# 0dd4e8dc78944e9a87f005197efb5752
+# 09a81bf2720345df93aaa77e5ba404f9
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
 msgid ""
 "Finally, we should point out that in the absence of any legal protection, "
@@ -2521,19 +2496,19 @@ msgid ""
 "conditions it wants simply by:"
 msgstr ""
 
-# b2cfcfbef2e44a35a7f3265ce908ba28
+# 4ed11a4688a84f7c94a40d1dc70293f2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
 msgid "Requiring users to login with a password"
 msgstr ""
 
-# 67127f0bece74ba69bf5e24c9f1e75c6
+# 2cf4c090400d49da993a256268b4a8d4
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
 msgid ""
-"(b) Only providing a user with an account and password on the condition that"
-" the user agrees to the terms and conditions"
+"Only providing a user with an account and password on the condition that the"
+" user agrees to the terms and conditions"
 msgstr ""
 
-# 1d0c84f875e543f19d26da6b7e67fe07
+# 16481e4fc1ed45ac846dc7dc4e553da2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
 msgid ""
 "You can read more about the jurisdiction by jurisdiction situation in the "

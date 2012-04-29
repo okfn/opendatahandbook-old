@@ -30,9 +30,9 @@
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
     <link rel="top" title="Open Data Handbook" href="../index.html" />
-    <link rel="up" title="Appendices" href="index.html" />
+    <link rel="up" title="Приложения" href="index.html" />
     <link rel="next" title="Какие интеллектуальные права существуют для данных (баз данных)" href="what-legal-ip-rights-are-there-in-databases.html" />
-    <link rel="prev" title="Appendices" href="index.html" />
+    <link rel="prev" title="Приложения" href="index.html" />
 
   </head>
   <body>
@@ -77,103 +77,44 @@
 </div>
 <div class="section" id="xml">
 <h3>XML<a class="headerlink" href="#xml" title="Ссылка на этот заголовок">¶</a></h3>
-<p>XML is a widely used format for data exchange because it gives good
-opportunities to keep the structure in the data and the way files
-are built on, and allows developers to write parts of the documentation in
-with the data without interfering with the reading of them.</p>
+<p>XML широко используется для обмена данными, поскольку позволяет сохранять структуру в данных и способе их сохранения в файлах, а также позволяет разработчикам хранить части документации вместе с данными, не мешая их чтению.</p>
 </div>
 <div class="section" id="rdf">
 <h3>RDF<a class="headerlink" href="#rdf" title="Ссылка на этот заголовок">¶</a></h3>
-<p>A W3C-recommended format called RDF makes it possible to represent
-data in a form that makes it easier to combine data from multiple
-sources. RDF data can be stored in XML and JSON, among other
-serializations. RDF encourages the use of URLs as identifiers,
-which provides a convenient way to directly interconnect existing
-<a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">open data</em></a> initiatives on the Web. RDF is still not widespread,
-but it has been a trend among Open Government initiatives, including
-the British and Spanish Government Linked Open Data projects. The
-inventor of the Web, Tim Berners-Lee, has recently proposed a
-<a class="reference external" href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/">five-star</a> scheme that includes linked RDF data as a goal to be
-sought for open data initiatives.</p>
+<p>Консорциум W3C рекомендует формат под названием RDF.  В нём информацию можно представить таким образом, чтобы данные из разных источников можно было легко комбинировать.  Данные RDF могут храниться в XML и JSON, помимо прочих представлений.  RDF поощряет идентификацию через URL, благодаря чему <em class="xref std std-term">открытые данные</em> можно удобно обменивать через сеть.  RDF пока ещё мало распространён, но стал тенденцией инициатив в области открытого правительства, включая британский и испанский проекты в области связанных данных.  Изобретатель Веб, Тим Бернерс-Ли, недавно предложил <a href="#id1"><span class="problematic" id="id2">пятизвёздную_</span></a> схему, в которой связанные данные RDF значатся одной из целей для инициатив в области открытых данных.</p>
 </div>
 <div class="section" id="spreadsheets">
 <h3>Электронные таблицы<a class="headerlink" href="#spreadsheets" title="Ссылка на этот заголовок">¶</a></h3>
 <p>Многие чиновники располагают информацией, хранимой в электронных таблицах, таких, например, как Microsoft Excel. Эти данные могут использоваться сразу после выполнения корректного описания значений каждого столбца.</p>
-<p>However, in some cases there can be macros and formulas in spreadsheets,
-which may be somewhat more cumbersome to handle. It is therefore
-advisable to document such calculations next to the spreadsheet,
-since it is generally more accessible for users to read.</p>
+<p>Однако, в электронных таблицах порой встречаются макросы и формулы, из-за чего работать с ними может быть затруднительно.  Поэтому лучше хранить описания подобных вычислений вместе с таблицами — таким образом, пользователям будет проще их прочесть.</p>
 </div>
 <div class="section" id="comma-separated-files">
 <h3>Файлы с разделителями<a class="headerlink" href="#comma-separated-files" title="Ссылка на этот заголовок">¶</a></h3>
 <p>CSV - очень полезный формат благодаря своей компактности, что позволяет передавать большие наборы данных с одинаковой структурой. Однако, этот формат настолько простой, что данные в нем часто бесполезны без документации, объясняющей что есть что. Наличие такой документации и ее актуальность для подобных форматов особенна важна.</p>
-<p>Furthermore it is essential that the structure of the file is respected,
-as a single omission of a field may disturb the reading of all remaining
-data in the file without any real opportunity to rectify it, because
-it cannot be determined how the remaining data should be interpreted.</p>
+<p>Важно также соблюдать структуру файла, так как из-за пропуска одного-единственного поля все остальные данные в файле могут быть прочитаны неверно, без всякой надежды на исправление, поскольку определить, как правильно интерпретировать остальные данные, будет невозможно.</p>
 </div>
 <div class="section" id="text-document">
 <h3>Текстовый документ<a class="headerlink" href="#text-document" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Classic documents in formats like Word, ODF, OOXML, or PDF may be
-sufficient to show certain kinds of data - for example, relatively
-stable mailing lists or equivalent. It may be cheap to exhibit in,
-as often it is the format the data is born in. The format gives no
-support to keep the structure consistent, which often means that it is
-difficult to enter data by automated means. Be sure to use templates
-as the basis of documents that will display data for re-use, so it is
-at least possible to pull information out of documents.</p>
-<p>It can also support the further use of data to use typography markup
-as much as possible so that it becomes easier for a machine to
-distinguish headings (any type specified) from the content and so on.
-Generally it is recommended not to exhibit in word processing format,
-if data exists in a different format.</p>
+<p>Для демонстрации многих типов данных, к примеру, — относительно стабильных списков рассылки или чего-то подобного, — может быть достаточно обычных форматов типа Word, ODF, OOXML или PDF.  Их распространение может быть недорогим, поскольку зачастую именно в этом формате данные и производятся на свет.  Формат не предоставляет никаких средств контроля за структурой, из-за чего ввести данные автоматически зачастую бывает трудно.  Старайтесь использовать шаблоны для документов, которые будут показывать данные для повторного использования, так чтобы их, по крайней мере, можно было извлечь.</p>
+<p>Кроме того, для последующего использования данных было бы полезно максимально возможное использование типографской разметки, поскольку это облегчает машине задачу отличить заголовки от информации и т.п.  Обычно не рекомендуется выкладывать данные в формате текстового процессора, если они имеются в другом формате.</p>
 </div>
 <div class="section" id="plain-text">
 <h3>Простой текст<a class="headerlink" href="#plain-text" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Plain text documents (.txt) are very easy for computers to read.
-They generally exclude structural metadata from inside the document
-however, meaning that developers will need to create a parser that
-can interpret each document as it appears.</p>
-<p>Some problems can be caused by switching plain text files between
-operating systems. MS Windows, Mac OS X and other Unix variants have
-their own way of telling the computer that they have reached the end
-of the line.</p>
+<p>Компьютеры легко читают документы в формате простого текста (.txt).  Однако, метаданные о структуре в них, как правило, отсутствуют, из-за чего разработчикам приходится писать парсер для разбора документа.</p>
+<p>При обмене текстовыми файлами между операционными системами возможны проблемы.  MS Windows, Mac OS и прочие Unix-подобные ОС по-разному сообщают компьютеру, что достигли конца строки.</p>
 </div>
 <div class="section" id="scanned-image">
-<h3>Отсканированное изображение<a class="headerlink" href="#scanned-image" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Probably the least suitable form for most data, but both TIFF and
-JPEG-2000 can at least mark them with documentation of what is in
-the picture - right up to mark up an image of a document with full
-text content of the document. It may be relevant to their displaying
-data as images whose data are not born electronically - an obvious
-example is the old church records and other archival material - and
-a picture is better than nothing.</p>
+<h3>Сканы документов<a class="headerlink" href="#scanned-image" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Пожалуй, наименее подходящая форма для большинства данных.  Впрочем, TIFF и JPEG-2000 по крайней мере позволяют документировать, что на картинке — вплоть до того, чтобы хранить полный контекст документа вместе с его фотокопией.  Может пригодиться для отображения данных, которые не были рождены в электронной форме (типичным примером может послужить старые церковные записи и другой архивный материал) — картинка лучше, чем ничего.</p>
 </div>
 <div class="section" id="proprietary-formats">
 <h3>Проприетарные форматы<a class="headerlink" href="#proprietary-formats" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Some dedicated systems, etc. have their own data formats that they
-can save or export data in. It can sometimes be enough to expose data
-in such a format - especially if it is expected that further use would
-be in a similar system as that which they come from. Where further
-information on these proprietary formats can be found should always be
-indicated, for example by providing a link to the supplier&#8217;s website.
-Generally it is recommended to display data in non-proprietary formats
-where feasible.</p>
+<p>Некоторые специализированные системы и т.п. имеют собственные форматы, в которых они сохраняют данные.  Порой достаточно выложить данные в таком формате — особенно если предполагается, что и в дальнейшем их будут обрабатывать в подобной же системе.  Всегда следует отмечать, где можно найти дальнейшую информацию об этом проприетарном формате — например, дав ссылку на сайт компании-производителя.  Чаще всего стоит выкладывать данные в свободном формате, если это возможно.</p>
 </div>
 <div class="section" id="html">
 <h3>HTML<a class="headerlink" href="#html" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Nowadays much data is available in HTML format on various sites. This
-may well be sufficient if the data is very stable and limited in scope.
-In some cases, it could be preferable to have data in a form easier
-to download and manipulate, but as it is cheap and easy to refer
-to a page on a website, it might be a good starting point in the
-display of data.</p>
-<p>Typically, it would be most appropriate to use tables in HTML documents
-to hold data, and then it is important that the various data fields are
-displayed and are given IDs which make it easy to find and manipulate
-data. Yahoo has developed a tool (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>)
-that can extract structured information from a website, and such tools
-can do much more with the data if it is carefully tagged.</p>
+<p>В наши дни данные часто выкладываются на сайты в формате HTML.  Для достаточно редко меняющихся данных с небольшим охватом этого бывает достаточно.  Порой лучше иметь данные в формате, позволяющем легко их скачать и легко ими манипулировать, зато на страницу на веб-сайте проще ссылаться, она может быть хорошим местом для первоначального отображения данных.</p>
+<p>Обычно лучше всего хранить данные в HTML-таблицах; также важно, чтобы разные поля данных отображались с заданными идентификаторами, благодаря которым их можно будет легко найти и обработать.  Yahoo разработала инструмент (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>), который добывает структурированную информацию с вебсайтов; подобный инструмент может гораздо больше, если данные правильно разметить.</p>
 </div>
 </div>
 <div class="section" id="open-file-formats">
@@ -195,29 +136,15 @@ can do much more with the data if it is carefully tagged.</p>
 <div class="section" id="how-do-i-use-a-given-format">
 <h2>Как используется этот формат?<a class="headerlink" href="#how-do-i-use-a-given-format" title="Ссылка на этот заголовок">¶</a></h2>
 <p>Когда властям приходится публиковать новые данные — данные, которые ранее не публиковались — старайтесь выбрать формат, исходя из баланса между ценой и пригодностью к вашей цели.  Для каждого формата есть несколько вещей, которые вам следовало бы знать; цель этого раздела — объяснить их.</p>
-<p>This section focuses only on how the cut surfaces are best arranged
-so that machines can access them directly. Advice and guidance about
-how web sites and web solutions should be designed can be found
-elsewhere.</p>
+<p>В этом разделе говориться только о том, как лучше всего распространять срезы данных, предназначенные для машинной обработки.  Советы и инструкции по разработке веб-сайтов и веб-приложений см. в других разделах.</p>
 <div class="section" id="web-services">
 <h3>Веб-сервисы<a class="headerlink" href="#web-services" title="Ссылка на этот заголовок">¶</a></h3>
-<p>For data that changes frequently, and where each pull is limited
-in size, it is very relevant to expose data through web services.
-There are several ways to create a web service, but some of the
-most used is SOAP and REST. Generally, SOAP over REST, REST services,
-but are very easy to develop and use, so it is a widely used standard.</p>
+<p>Если данные часто меняются, а размер каждой порции ограничена, стоит открыть к ним доступ через веб-сервисы.  Есть несколько способов создания веб-сервисов, но чаще всего используют SOAP и REST.  Обычно SOAP предпочтительнее, зато REST-сервисы очень легко разрабатывать и использовать, так что этот стандарт используется очень широко.</p>
 </div>
 <div class="section" id="database">
 <h3>База данных<a class="headerlink" href="#database" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Like web services, databases provide direct access to data dynamically.
-Databases have the advantage that they can allow users to put together
-just the extraction that they are interested in.</p>
-<p>There are some security concerns about allowing remote database
-extraction and database access is only useful if the structure of
-the database and the importance of individual tables and fields are
-well documented. Often, it is relatively simple and inexpensive
-to create web services that expose data from a database, which can be
-an easy way to address safety concerns.</p>
+<p>Базы данных, как и веб-сервисы, дают прямой динамический доступ к данным.  Преимущество баз данных состоит в том, что они позволяют пользователям выбирать именно те куски, которые их интересуют.</p>
+<p>Удалённый доступ к данным вызывает определённые проблемы с безопасностью; кроме того, доступ к данным имеет смысл только если структура базы данных и значения отдельных полей и записей хорошо документированы.  Зачастую самый простой и недорогой способ решить проблемы безопасности — создать веб-сервис для демонстрации данных.</p>
 </div>
 </div>
 </div>
@@ -239,7 +166,7 @@ an easy way to address safety concerns.</p>
 <li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">Как открывать данные</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Итак, я открыл данные, что дальше?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../glossary.html">Глоссарий</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Appendices</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Приложения</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="">Форматы файлов</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">Обзор форматов файлов</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#open-file-formats">Открытые форматы файлов</a></li>

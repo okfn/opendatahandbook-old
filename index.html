@@ -1,107 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>The Open Data Handbook</title>
-  <meta name="description" content="">
-  <meta name="author" content="Open Knowledge Foundation">
+  <head>
+    <meta charset="utf-8">
 
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <title>The Open Data Handbook &mdash; Open Data Handbook</title>
 
-  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
-  <style type="text/css">
-    html, body {
-      background-color: #eee;
-    }
-    body {
-      padding-top: 40px;
-    }
+    <link rel="stylesheet" href="en/_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="en/_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="en/_static/bootstrap-sphinx.css" type="text/css" />
 
-    .content {
-      background-color: #fff;
-      padding: 20px;
-      margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-         -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-              box-shadow: 0 1px 2px rgba(0,0,0,.15);
-    }
+    <link rel="top" title="Open Data Handbook" href="#" />
+    <link rel="next" title="Introduction" href="introduction/index.html" />
 
-    .hero-unit {
-      width: 800px;
-      margin: 30px auto 50px;
-    }
-    
-    .hero-unit h1 {
-      margin-bottom: 15px;
-    }
+    <style type="text/css">
+      .hero-unit {
+        width: 800px;
+        margin: 30px auto 50px;
+      }
 
-    .hero-unit h1 img {
-      height: 48px;
-      margin-bottom: -2px;
-    }
+      .hero-unit h1 {
+        margin-bottom: 15px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
 
-    .hero-unit .abstract {
-      margin-bottom: 20px;
-    }
+      .hero-unit h1 img {
+        height: 48px;
+        margin-bottom: -2px;
+      }
 
-    footer {
-      background-color: #f5f5f5;
-      padding: 20px 20px 20px;
-      margin: 15px -20px -20px;
-      border-top: solid 1px #eee;
-    }
+      .hero-unit .abstract {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
 
-    .nav-logo img {
-      margin-top: 4px;
-      margin-right: 8px;
-    }
-  </style>
-  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css">
-</head>
-<body>
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="nav-logo pull-left" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
-        <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
-      </a>
-      <a class="brand" href="#">The Open Data Handbook</a>
-      <ul class="nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            Choose language
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="en/">English</a></li>
-            <li><a href="de/">Deutsch</a></li>
-            <li><a href="el/">Ελληνικά</a></li>
-            <li><a href="es/">Español/Castellano</a></li>
-            <li><a href="fr/">Français</a></li>
-            <li><a href="is/">Íslenska</a></li>
-            <li><a href="it/">Italiano</a></li>
-            <li><a href="ja/">日本語</a></li>
-            <li><a href="lv/">Latviešu</a></li>
-            <li><a href="nl_BE/">Nederlands (Belgisch)</a></li>
-            <li><a href="pt_BR/">Português Brasileiro</a></li>
-            <li><a href="ru/">Pyccĸий</a></li>
-            <li><a href="zh_TW/">繁體中文</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav pull-right">
-        <li><a href="http://okfn.org/contact">Contact</a></li>
-        <li><a href="http://okfn.org/support/donate">Donate</a></li>
-      </ul>
+
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+
+        <a class="logo-icon pull-left" href="#"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+
+        <a class="brand" href="#">Open Data Handbook</a>
+        <ul class="nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Choose language
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="en/">English</a></li>
+              <li><a href="de/">Deutsch</a></li>
+              <li><a href="el/">Ελληνικά</a></li>
+              <li><a href="es/">Español/Castellano</a></li>
+              <li><a href="fr/">Français</a></li>
+              <li><a href="is/">Íslenska</a></li>
+              <li><a href="it/">Italiano</a></li>
+              <li><a href="ja/">日本語</a></li>
+              <li><a href="lv/">Latviešu</a></li>
+              <li><a href="nl_BE/">Nederlands (Belgisch)</a></li>
+              <li><a href="pt_BR/">Português Brasileiro</a></li>
+              <li><a href="ru/">Pyccĸий</a></li>
+              <li><a href="zh_TW/">繁體中文</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+
+
+
+        <form class="pull-right navbar-search" action="en/search.html" method="get">
+          <input type="text" name="q" placeholder="Search" class="search-query span2" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+
+      </div>
     </div>
   </div>
-</div>
+
 
 <div class="container">
-<div class="content">
   <div class="hero-unit">
     <h1>
       <img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png" alt="Logo" />
@@ -110,25 +94,65 @@
     <p class="abstract">This handbook introduces you to the <strong>legal, social and technical aspects</strong> of open data. It can be used by <strong>anyone</strong> but is especially useful for those working with government data. It discusses the <strong>why, what and how</strong> of open data – <strong>why to go open, what open is, and the how to do open</strong>.</p>
     <p><a class="btn btn-primary btn-large" href="en/">Start reading &raquo;</a></p>
   </div>
+</div>
 
-  <footer>
-    <p>
-      This handbook was created by the <a href="http://okfn.org">Open
-        Knowledge Foundation</a>.
-      <a href="http://github.com/okfn/opendatahandbook">Source</a>.
-    </p>
-    <p>
-      <a href="http://opendefinition.org/okd/" title="Open Content">
-        <img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="" border="" />
-      </a>
-    </p>
-  </footer>
-  </div><!-- /content -->
-</div><!-- /container -->
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0"
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script src="bootstrap-dropdown.js"></script>
 
-</body>
-</html>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

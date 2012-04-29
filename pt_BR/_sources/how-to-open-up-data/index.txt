@@ -20,7 +20,7 @@ There are three key rules we recommend following when opening up data:
    will be useful.
 
  * **Engage early and engage often.** Engage with actual and potential 
-   users and reusers of the data as early and as often as you can, be 
+   users and re-users of the data as early and as often as you can, be 
    they citizens, businesses or developers. This will ensure that the next 
    iteration of your service is as relevant as it can be.
 
@@ -29,7 +29,7 @@ There are three key rules we recommend following when opening up data:
    people who take the data and transform or remix it to be presented. 
    For example, most of us don’t want or need a large database of GPS 
    coordinates, we would much prefer a map. Thus, engage with infomediaries 
-   first. They will reuse and repurpose the material.
+   first. They will re-use and repurpose the material.
 
  * **Address common fears and misunderstandings**. This is especially 
    important if you are working with or within large institutions such as 
@@ -57,7 +57,7 @@ be done simultaneously.
       You may also wish to consider alternative ways of making it available 
       such as via an API.
    4. **Make it discoverable** - post on the web and perhaps organize 
-      a central catalogue to list your open datasets.
+      a central catalog to list your open datasets.
 
 ..  toctree::
    :maxdepth: 1

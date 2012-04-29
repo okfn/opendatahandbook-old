@@ -1,0 +1,190 @@
+/*
+* bootstrap-sphinx.css
+* ~~~~~~~~~~~~~~~~~~~~
+*
+* Sphinx stylesheet -- Twitter Bootstrap theme.
+*/
+html, body {
+  background-color: #eee;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+/**************** Typo *************************/
+
+body, p, blockquote p {
+  font-family: Palatino, georgia, 'times new roman', serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+li {
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  line-height: 50px;
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #005580;
+}
+
+
+/****************** Simpler Navbar *********************/
+
+.navbar-inner {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.navbar .brand,
+.navbar-search .search-query,
+.navbar-search .search-query:hover {
+}
+
+.navbar a.brand {
+  font-weight: bold;
+}
+
+/**************** Sidebar **********************/
+
+div.sphinxsidebar {
+  float: none;
+  width: auto;
+  margin-left: auto;
+  font-size: inherit;
+}
+
+div.sphinxsidebarwrapper {
+  padding: 0;
+}
+
+div.sphinxsidebar, div.sphinxsidebar p {
+  font-size: 14px;
+}
+
+.toc > ul {
+  margin-left: 0;
+}
+
+.toc li a.current {
+  display: block;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #0088cc;
+  margin-left: -19px;
+  margin-right: -19px;
+  padding-left: 19px;
+}
+
+
+/**************** Main Page **********************/
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+footer {
+  margin: 15px 0px;
+}
+
+div.documentwrapper {
+  float: left;
+  width: 100%;
+}
+
+.navbar .logo-icon img {
+  float: left;
+  max-height: 28px;
+  padding: 5px 10px 0 0;
+}
+
+.navbar .okfn-logo img {
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+/* OKFN Footer */
+
+body {
+  padding-bottom: 0px;
+}
+
+footer {
+  margin-bottom: 0px;
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('font/opensans/opensans-light-webfont.eot');
+  src: url('font/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('font/opensans/opensans-light-webfont.woff') format('woff'), url('font/opensans/opensans-light-webfont.ttf') format('truetype'), url('font/opensans/opensans-light-webfont.svg#OpenSansLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSansSemibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url("font/opensans/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("font/opensans/opensans-semibold-webfont.woff") format("woff"), url("font/opensans/opensans-semibold-webfont.ttf") format("truetype"), url("font/opensans/opensans-semibold-webfont.svg#OpenSansLight") format("svg");
+}
+
+.navbar {
+  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+footer,
+footer p {
+  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+footer {
+  background: #222222 url('img/okfn-watermark.png') top right no-repeat;
+  margin-top: 50px;
+  padding: 0;
+}
+
+footer > .inner {
+  background: url('img/footer-bevel.png') top repeat-x;
+  padding: 10px 0 30px 0;
+  color: #fff;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+  min-height: 190px;
+}
+
+footer ul.footer-links {
+}
+
+footer a, footer a:hover {
+  color: #AEEBDF;
+}
+
+

@@ -1,0 +1,223 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Γιατί Ανοιχτά Δεδομένα; Οι νέες τεχνολογίες καθιστούν πλέον δυνατή την ανάπτυξη υπηρεσιών που μπορούν να δώσουν απαντήσεις σε αυτά τα ερωτήματα, αυτόματα. Πολλά, όμως, από τα απαραίτητα δεδομένα δεν είναι ακόμα διαθέσιμα σε μορφή εύκολη προς χρήση. Αυτό το εγχειρίδιο προσδοκεί να αναδείξει τις δυνατότητες που προσφέρονται, από τις επίσημες και μη πληροφορίες, στην ενεργοποίηση νέων υπηρεσιών που θα βελτιώσουν τις συνθήκες διαβίωσης των πολιτών και θα συμβάλλουν στην καλύτερη λειτουργία της πολιτείας και της κοινωνίας. Η έννοια των «Ανοιχτών Δεδομένων» και, πιο συγκεκριμένα, των ανοιχτών κυβερνητικών δεδομένων (πληροφορίες, δημόσιες και μη, τις οποίες ο καθένας έχει τη δυνατότητα να προσπελάσει και να επαναχρησιμοποιήσει για οποιοδήποτε σκοπό) έχει επικρατήσει τα τελευταία χρόνια. Το 2009, τα Ανοιχτά Δεδομένα άρχισαν να αναδεικνύονται, με πολλές κυβερνήσεις (όπως οι ΗΠΑ, το Ηνωμένο Βασίλειο, ο Καναδάς και η Νέα Ζηλανδία) να ανακοινώνουν τις πρωτοβουλίες τους προς την κατεύθυνση του «ανοίγματος» των δημοσίων πληροφοριών. Αυτό το εγχειρίδιο επεξηγεί τη βασική έννοια των «Ανοιχτών Δεδομένων» και ιδιαίτερα των κυβερνητικών. Παρουσιάζει την αξία που προσδίδουν τα Ανοιχτά Δεδομένα και το θετικό αντίκτυπο που έχουν σε πολλούς και διαφορετικούς τομείς. Εκτός από την διερεύνηση του υπόβαθρου, αυτό το εγχειρίδιο αποσκοπεί να προσφέρει συγκεκριμένες πληροφορίες σχετικά με το πώς πρέπει να «παράγονται» τα Ανοιχτά Δεδομένα. &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="next" title="What is Open Data?" href="../what-is-open-data/index.html" />
+    <link rel="prev" title="Συντελεστές και Πνευματικά Δικαιώματα" href="../introduction/credits.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="why-open-data">
+<h1>Γιατί Ανοιχτά Δεδομένα;
+Οι νέες τεχνολογίες καθιστούν πλέον δυνατή την ανάπτυξη υπηρεσιών που μπορούν να δώσουν απαντήσεις σε αυτά τα ερωτήματα, αυτόματα. Πολλά, όμως, από τα απαραίτητα δεδομένα δεν είναι ακόμα διαθέσιμα σε μορφή εύκολη προς χρήση. Αυτό το εγχειρίδιο προσδοκεί να αναδείξει τις δυνατότητες που προσφέρονται, από τις επίσημες και μη πληροφορίες, στην ενεργοποίηση νέων υπηρεσιών που θα βελτιώσουν τις συνθήκες διαβίωσης των πολιτών και θα συμβάλλουν στην καλύτερη λειτουργία της πολιτείας και της κοινωνίας.
+Η έννοια των «Ανοιχτών Δεδομένων» και, πιο συγκεκριμένα, των ανοιχτών κυβερνητικών δεδομένων (πληροφορίες, δημόσιες και μη, τις οποίες ο καθένας έχει τη δυνατότητα να προσπελάσει και να επαναχρησιμοποιήσει για οποιοδήποτε σκοπό) έχει επικρατήσει τα τελευταία χρόνια. Το 2009, τα Ανοιχτά Δεδομένα άρχισαν να αναδεικνύονται, με πολλές κυβερνήσεις (όπως οι ΗΠΑ, το Ηνωμένο Βασίλειο, ο Καναδάς και η Νέα Ζηλανδία) να ανακοινώνουν τις πρωτοβουλίες τους προς την κατεύθυνση του «ανοίγματος» των δημοσίων πληροφοριών.
+Αυτό το εγχειρίδιο επεξηγεί τη βασική έννοια των «Ανοιχτών Δεδομένων» και ιδιαίτερα των κυβερνητικών. Παρουσιάζει την αξία που προσδίδουν τα Ανοιχτά Δεδομένα και το θετικό αντίκτυπο που έχουν σε πολλούς και διαφορετικούς τομείς. Εκτός από την διερεύνηση του υπόβαθρου, αυτό το εγχειρίδιο αποσκοπεί να προσφέρει συγκεκριμένες πληροφορίες σχετικά με το πώς πρέπει να «παράγονται» τα Ανοιχτά Δεδομένα.<a class="headerlink" href="#why-open-data" title="Permalink to this headline">¶</a></h1>
+<p>Τα <em class="xref std std-term">Ανοιχτά Δεδομένα</em> και ειδικότερα τα <em class="xref std std-term">Ανοιχτά Κυβερνητικά Δεδομένα</em>, είναι μια τεράστια πηγή δεδομένων που δεν έχει ακόμα αξιοποιηθεί. Πολλά μεμονωμένα άτομα, αλλά και οργανισμοί, συλλέγουν ένα ευρύ φάσμα διαφορετικών τύπων δεδομένων, προκειμένου να εκπληρώσουν τις εργασίες τους. Τα κυβερνητικά δεδομένα είναι ιδιαίτερα σημαντικά από αυτήν την άποψη, τόσο λόγω της ποσότητας και της καθολικότητάς τους, όσο και λόγω του ότι αυτά τα δεδομένα είναι, από νομικής άποψης, δημόσια δεδομένα και συνεπώς θα μπορούσαν να είναι ανοιχτά και διαθέσιμα σε άλλους να τα χρησιμοποιήσουν. Αλλά γιατί αυτό μπορεί να έχει ενδιαφέρον;</p>
+<p>Υπάρχουν πολλοί τομείς που μπορούμε να περιμένουμε πως τα Ανοιχτά Δεδομένα μπορούν να έχουν αξία και υπάρχουν ήδη παραδείγματα που αναδεικνύουν πώς αυτά έχουν χρησιμοποιηθεί. Υπάρχουν, επίσης, πολλές ομάδες ανθρώπων και οργανισμών που μπορούν να επωφεληθούν από τη διαθεσιμότητα των ανοιχτών δεδομένων, συμπεριλαμβανομένων των ίδιων των κυβερνήσεων. Την ίδια στιγμή, είναι αδυνατόν να προβλέψουμε με ακρίβεια πώς και πού μπορούν να προσδώσουν αξία μελλοντικά. Άλλωστε, αυτή είναι η φύση της καινοτομίας: πολλές φορές, οι εξελίξεις προκύπτουν από εκεί που δεν το περιμένουμε.</p>
+<p>Είναι ήδη δυνατό να χρησιμοποιήσουμε ως σημεία αναφοράς τομείς, όπου τα ανοιχτά κυβερνητικά δεδομένα έχουν δημιουργήσει αξία. Ορισμένοι από αυτούς είναι:</p>
+<ul class="simple">
+<li>Διαφάνεια και δημοκρατικός έλεγχος</li>
+<li>Συμμετοχή</li>
+<li>Αυτό-ενδυνάμωση</li>
+<li>Βελτιστοποίηση νέων ιδιωτικών προϊόντων και υπηρεσιών</li>
+<li>Καινοτομία</li>
+<li>Βελτιωμένη αποδοτικότητα των κυβερνητικών υπηρεσιών</li>
+<li>Βελτιωμένη αποτελεσματικότητα των κυβερνητικών υπηρεσιών</li>
+<li>Μέτρηση του αντίκτυπου των πολιτικών που εφαρμόζονται</li>
+<li>Νέα γνώση από συνδυασμό διαφορετικών πηγών σε μεγάλους όγκους δεδομένων</li>
+</ul>
+<p>Ακολοθούν ήδη υπάρχοντα παραδείγματα από αυτούς τους τομείς:</p>
+<p>Όσον αφορά τη διαφάνεια, προγράμματα όπως το Φινλανδικό ‘tax tree’ (το δέντρο των φόρων) και το βρετανικό ‘where does my money go’ (πού πάνε τα λεφτά μου) δείχνουν με ποιον τρόπο χρησιμοποιούνται από τις κυβερνήσεις τα χρήματα των φορολογουμένων. Επιπλέον, υπάρχει το παράδειγμα του Καναδά που, χάρη στα Ανοιχτά Δεδομένα, κατάφερε να εξοικονομήσει $3,2 δισεκατομμύρια, από φορολογικές απάτες μέσω φιλανθρωπιών. Επίσης, πολλές ιστοσελίδες, όπως η δανέζικη folketsting.dk, καταγράφουν τη δραστηριότητα στο κοινοβούλιο και τη διαδικασία ψήφισης νόμων, ώστε ο καθένας να μπορεί να παρακολουθεί τι γίνεται και ποιοι βουλευτές εμπλέκονται.</p>
+<p>Τα ανοιχτά κυβερνητικά δεδομένα μπορούν, επίσης, να βοηθήσουν στη λήψη καλύτερων αποφάσεων στην ιδιωτική ζωή κάποιου, ή να τον ωθήσουν ώστε να είναι πιο ενεργός πολίτης. Μία γυναίκα στη Δανία δημιούργησε το findtoilet.dk, που προβάλλει όλες τις δανέζικες δημόσιες τουαλέτες, έτσι ώστε οι γνωστοί της με κυστικά προβλήματα να μπορούν να νιώθουν περισσότερη σιγουριά όταν κυκλοφορούν. Στην Ολλανδία, υπάρχει διαθέσιμη η υπηρεσία vervuilingsalarm.nl, που σε προειδοποιεί με ένα μήνυμα εάν η ποιότητα της ατμόσφαιρας στη γύρω περιοχή θα ξεπεράσει, την επόμενη μέρα, ένα όριο που μπορεί κανείς να ορίσει. Στη Νέα Υόρκη, μπορεί κάποιος εύκολα να βρει μέρη για να βγάλει βόλτα το σκύλο του, καθώς και άλλους ανθρώπους που χρησιμοποιούν τα ίδια πάρκα. Άλλες υπηρεσίες, όπως η ‘mapumental’ στο Ηνωμένο Βασίλειο και η ‘mapnificent’ στη Γερμανία, επιτρέπουν την εύρεση κατοικιών, λαμβάνοντας υπόψη τη διάρκεια της εργασίας, τις τιμές των ακινήτων και το πόσο όμορφη είναι μια περιοχή. Όλα αυτά τα παραδείγματα χρησιμοποιούν ανοιχτά κυβερνητικά δεδομένα.</p>
+<p>Από οικονομικής άποψης, τα Ανοιχτά Δεδομένα έχουν, επίσης μεγάλη σημασία. Πολλές μελέτες εκτίμησαν την οικονομική αξία των Ανοιχτών Δεδομένων σε αρκετές δεκάδες δισεκατομμύρια ευρώ ετησίως, μόνο στην Ευρωπαική Ένωση. Νέα προϊόντα και εταιρείες επανα-χρησιμοποιούν τα Ανοιχτά Δεδομένα. Η δανέζικη husetsweb.dk βοηθά να βρει κανείς τρόπους ώστε να βελτιώσει την ενεργειακή αποδοτικότητα του σπιτιού του, συμπεριλαμβάνοντας τον οικονομικό προγραμματισμό και την εύρεση εργατών που μπορούν να υλοποιήσουν τις εργασίες. Βασίζεται στην επανα-χρησιμοποίηση κτηματολογικών πληροφοριών,πληροφοριών σχετικά με κυβερνητικές επιδοτήσεις, όπως επίσης και πληροφορίες από το τοπικό Εμπορικό Επιμελητήριο. Το Google Translate χρησιμοποιεί τον τεράστιο όγκο των ευρωπαϊκών εγγράφων, που υπάρχουν σε όλες τις ευρωπαϊκές γλώσσες, για την «εκπαίδευση» των αλγορίθμων του, βελτιώνοντας, συνεπώς, την ποιότητα των υπηρεσιών του.</p>
+<p>Τα Ανοιχτά Δεδομένα έχουν μεγάλη αξία και για τις ίδιες τις κυβερνήσεις, αφού μπορούν να αυξήσουν την αποδοτικότητά τους. Το Ολλανδικό Υπουργείο Παιδείας δημοσιοποιεί όλα τα δεδομένα σχετικά με την εκπαίδευση στο διαδίκτυο, για επαναχρησιμοποίηση. Από τότε, ο αριθμός των ερωτήσεων που δέχονται μειώθηκε, μειώνοντας μαζί τον φόρτο εργασίας και το κόστος από τη μια μεριά, ενώ από την άλλη μεριά, οι εναπομείνασες ερωτήσεις είναι πλέον ευκολότερο να απαντηθούν από τους υπαλλήλους, αφού είναι απλούστερο να βρουν τα σχετικά δεδομένα. Τα Ανοιχτά Δεδομένα κάνουν τις κυβερνήσεις αποτελεσματικότερες, περιορίζοντας το κόστος λειτουργίας τους. Το ολλανδικό Υπουργείο Πολιτιστικής Κληρονομιάς ασχολείται ενεργά με την δημοσιοποίηση των δεδομένων του και συνεργάζεται με ερασιτεχνικές ομάδες ιστορικών, όπως η Wikimedia Foundation, προκειμένου να φέρει εις πέρας τις δικές τις εργασίες, πιο αποτελεσματικά. Αυτό, όχι μόνο συμβάλλει στη βελτίωση της ποιότητας των δεδομένων της, αλλά θα συντελέσει τελικά και στο περιορισμό του μεγέθους του.</p>
+<p>Ενώ υπάρχουν αμέτρητες περιπτώσεις όπου τα ανοιχτά δεδομένα προσθέτουν αξία τόσο κοινωνικά όσο και οικονομικά, στην πραγματικότητα δεν είμαστε σε θέση να γνωρίζουμε ποιες νέες ευκαιρίες θα εμφανιστούν. Νέοι συνδυασμοί δεδομένων δημιουργούν νέα γνώση και ιδέες, που μπορεί να οδηγήσουν σε ολότελα νέες περιοχές εφαρμογής. Κάτι τέτοιο έχει συμβεί και στο παρελθόν όταν, για παράδειγμα, ο Δρ Snow ανακάλυψε τη σχέση μεταξύ της πόσης μολυσμένου νερού και της χολέρας στο Λονδίνο του 19ου αιώνα, συνδυάζοντας δεδομένα σχετικά με τους θανάτους από χολέρα με δεδομένα για τη θέση των πηγαδιών. Αυτό οδήγησε στην κατασκευή του λονδρέζικου αποχετευτικού συστήματος, που βελτίωσε αισθητά την υγεία του πληθυσμού. Είναι πολύ πιθανό να δούμε τέτοιες εξελίξεις να συμβαίνουν ξανά, ως απροσδόκητες λογικές συνεπαγωγές, από το συνδυασμό διαφορετικών συνόλων Ανοιχτών Δεδομένων.</p>
+<p>Αυτά τα ανεκμετάλλευτα ενδεχόμενα θα μπορέσουν να πυροδοτηθούν εάν εμείς μετατρέψουμε τα δημόσια κυβερνητικά δεδομένα σε Ανοιχτά Δεδομένα. Ωστόσο, αυτό θα μπορέσει να συμβεί, μόνο αν είναι πραγματικά ανοιχτά, δηλαδή αν δεν υπάρχουν περιορισμοί (νομικοί, οικονομικοί ή τεχνολογικοί) στην επαναχρησιμοποίησή τους από άλλους. Κάθε περιορισμός θα καταστήσει δυσκολότερη την εύρεση αξιόλογων τρόπων επαναχρησιμοποίησής τους και θα οδηγήσει στον αποκλεισμό των ανθρώπων από αυτήν. Προκειμένου να γίνουν αυτές οι δυνατότητες πραγματικότητα, τα δημόσια δεδομένα πρέπει να είναι Ανοιχτά Δεδομένα.</p>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Εισαγωγή</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Γιατί Ανοιχτά Δεδομένα;
+Οι νέες τεχνολογίες καθιστούν πλέον δυνατή την ανάπτυξη υπηρεσιών που μπορούν να δώσουν απαντήσεις σε αυτά τα ερωτήματα, αυτόματα. Πολλά, όμως, από τα απαραίτητα δεδομένα δεν είναι ακόμα διαθέσιμα σε μορφή εύκολη προς χρήση. Αυτό το εγχειρίδιο προσδοκεί να αναδείξει τις δυνατότητες που προσφέρονται, από τις επίσημες και μη πληροφορίες, στην ενεργοποίηση νέων υπηρεσιών που θα βελτιώσουν τις συνθήκες διαβίωσης των πολιτών και θα συμβάλλουν στην καλύτερη λειτουργία της πολιτείας και της κοινωνίας.
+Η έννοια των «Ανοιχτών Δεδομένων» και, πιο συγκεκριμένα, των ανοιχτών κυβερνητικών δεδομένων (πληροφορίες, δημόσιες και μη, τις οποίες ο καθένας έχει τη δυνατότητα να προσπελάσει και να επαναχρησιμοποιήσει για οποιοδήποτε σκοπό) έχει επικρατήσει τα τελευταία χρόνια. Το 2009, τα Ανοιχτά Δεδομένα άρχισαν να αναδεικνύονται, με πολλές κυβερνήσεις (όπως οι ΗΠΑ, το Ηνωμένο Βασίλειο, ο Καναδάς και η Νέα Ζηλανδία) να ανακοινώνουν τις πρωτοβουλίες τους προς την κατεύθυνση του «ανοίγματος» των δημοσίων πληροφοριών.
+Αυτό το εγχειρίδιο επεξηγεί τη βασική έννοια των «Ανοιχτών Δεδομένων» και ιδιαίτερα των κυβερνητικών. Παρουσιάζει την αξία που προσδίδουν τα Ανοιχτά Δεδομένα και το θετικό αντίκτυπο που έχουν σε πολλούς και διαφορετικούς τομείς. Εκτός από την διερεύνηση του υπόβαθρου, αυτό το εγχειρίδιο αποσκοπεί να προσφέρει συγκεκριμένες πληροφορίες σχετικά με το πώς πρέπει να «παράγονται» τα Ανοιχτά Δεδομένα.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">What is Open Data?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">Πώς μπορεί κανείς να «ανοίξει» τα δεδομένα;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Και τώρα, που «άνοιξα» τα Δεδομένα μου, τι γίνεται;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Γλωσσάρι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Παραρτήματα</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

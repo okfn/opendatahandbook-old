@@ -34,12 +34,9 @@ Glossary
     A system that allows outsiders to be granted access to databases 
     without overloading either system.
 
-  Attribution Licence
-    A licence that requires that the original source
-    of the licensed material is cited (attributed).
-  
   Attribution License
-    See :term:`Attribution Licence`.
+    A license that requires that the original source
+    of the licensed material is cited (attributed).
 
   Data protection legislation
     Data protection legislation is not about protecting the data, 
@@ -71,10 +68,7 @@ Glossary
     An :term:`API` that is designed to work over the Internet.
 
   Share-alike License
-   See :term:`Share-alike Licence`.
-
-  Share-alike Licence
-    A licence that requires users of a work to provide the content 
+    A license that requires users of a work to provide the content 
     under the same or similar conditions as the original.
 
   Public domain
@@ -165,7 +159,7 @@ Glossary
     It is essential that the metadata in the IARs should be comprehensive so 
     that search engines can function effectively. In the spirit of 
     open government data, public bodies should make their IARs  
-    available to the general public as raw data under an open licence so 
+    available to the general public as raw data under an open license so 
     that civic hackers can make use of the data, for example by building 
     search engines and user interfaces.
 
@@ -177,7 +171,7 @@ Glossary
     Sector Information`, which is broader in scope. 
     See http://opengovernmentdata.org for details.
 
-  Tab-seperated values
-    Tab-seperated values (TSV) are a very common form of text file
+  Tab-separated values
+    Tab-separated values (TSV) are a very common form of text file
     format for sharing tabular data. The format is extremely simple
     and highly :term:`machine-readable`.

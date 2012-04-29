@@ -22,16 +22,16 @@ and was open to programmers from around the world, with a tempting
 **Apps for Democracy**, one of the first competitions in the 
 United States, was launched in October 2008 by Vivek Kundra, at the 
 time Chief Technology Officer (CTO) of the District of Columbia (DC) 
-Government. Kundra had developed the groundbreaking DC data catalogue, 
+Government. Kundra had developed the groundbreaking DC data catalog, 
 http://data.octo.dc.gov/, which included datasets such as real-time 
 crime feeds, school test scores, and poverty indicators. It was at the 
-time the most comprehensive local data catalogue in the world. The 
+time the most comprehensive local data catalog in the world. The 
 challenge was to make it useful for citizens, visitors, businesses 
 and government agencies of Washington, DC. 	
 
 The creative solution was to create the Apps for Democracy contest. 
 The strategy was to ask people to build applications using the data 
-from the freshly launched data catalogue. It included an online 
+from the freshly launched data catalog. It included an online 
 submission for applications, many small prizes rather than a few large 
 ones, and several different categories as well as a “People’s 
 Choice” prize. The competition was open for 30 days and cost the DC 
@@ -55,7 +55,7 @@ work processes, and increased democratic participation. The use of
 government data was explicitly encouraged. Though the application 
 deadline was just a month later, on May 9, the Minister Rigmor Aasrud 
 said the response was "overwhelming". In total 137 applications were 
-received, no less than 90 of which built on the reuse of government 
+received, no less than 90 of which built on the re-use of government 
 data. A total amount of NOK 2.5 million was distributed among the 
 17 winners; while the total amount applied for by the 137 applications 
 was NOK 28.4 million. 
@@ -64,7 +64,7 @@ was NOK 28.4 million.
 citizens to show why open access to Australian government information 
 would be positive for the country’s economy and social development. 
 The contest ran from October 7th to November 13th 2009. The Taskforce 
-released some datasets under an open licence and in a range of reusable 
+released some datasets under an open license and in a range of reusable 
 formats. The 82 applications that were entered into the contest are further 
 evidence of the new and innovative applications which can result from 
 releasing government data on open terms. 	
@@ -75,7 +75,7 @@ Conferences, Barcamps, Hackdays
 One of the more effective ways for Civil Society Organisations (CSOs) 
 to demonstrate to governments the value of opening up their datasets 
 is to show the multiple ways in which the information can be managed 
-to achieve social and economic benefit. CSOs that promote reuse 
+to achieve social and economic benefit. CSOs that promote re-use 
 have been instrumental in countries where there have been advances in 
 policy and law to ensure that datasets are both technically and legally 
 open.

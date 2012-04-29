@@ -1,0 +1,286 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Machen sie die Daten verfügbar (technische Offenheit) &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Wie kann ich (als Behörde, Verwaltung, Organisation, ...) eigentlich Daten öffnen?" href="index.html" />
+    <link rel="next" title="die Daten werden auffindbar" href="make-it-discoverable.html" />
+    <link rel="prev" title="Nutze eine offene Lizenz (juristische Offenheit)" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>Machen sie die Daten verfügbar (technische Offenheit)<a class="headerlink" href="#make-data-available-technical-openness" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p><a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">Open data</em></a> needs to be technically open as well as legally open.
+Specifically, the data needs to be available in bulk in a
+<a class="reference internal" href="../glossary.html#term-machine-readable"><em class="xref std std-term">machine-readable</em></a> format.</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>Verfügbar - zu einem höchstens geringen Kostenaufwand, der die Reproduktionskosten deckt, bevorzugt als kostenloser Download über das Intenet. Grundsätzlich gilt: Veröffentlichen sie ihre Daten im Internet, wenn immer möglich.</dd>
+<dt>In bulk</dt>
+<dd>Machen sie die Daten verfügbar - als Massen-Download und in nützlichen Formaten. Bedenken sie auch die Veröffentlichung auf alternativen Wegen wie z.B. über eine API.</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>Re-use of data held by the public sector should not be subject to patent
+restrictions. More importantly, making sure that you are providing
+machine-readable formats allows for greatest re-use. To illustrate this,
+consider statistics published as <abbr title="Portable Document Format">PDF</abbr>
+documents, often used for high quality printing. While these statistics
+can be read by humans, they are very hard for a computer to use. This
+greatly limits the ability for others to re-use that data.</dd>
+</dl>
+<p>Die Hauptsache sollte sein:</p>
+<ul class="simple">
+<li>Halten SIe es einfach!</li>
+<li>Seien Sie schnell!</li>
+<li>Seien Sie pragmatisch!</li>
+</ul>
+<p>Es ist besser, heute Rohdaten zu veröffentlichen, als perfekte Daten erst in sechs Monaten.</p>
+<p>Es gibt viele Möglichkeiten, um Daten verfügbar zu machen. Im Zeitalter des Internets ist es naheliegend, das Internet als Weg für die Verteilung zu wählen. Je nachdem, wie umfangreich die Daten sind, die sie zur Verfügung stellen wollen, könnten jedoch auch andere Wege wie DVDs oder USB-Speicher eine Rolle spielen.</p>
+<p>Bei besonders großen Datensätzen oder schlechten Internetverbindungen sollte über alternative Verteilungsformen nachgedacht werden, um die Kosten niedrig zu halten und gleichzeitig eine große Verbreitung sicherzustellen.</p>
+<div class="section" id="online-methods">
+<h2>Downloads in einfachen, universell maschinenlesbaren Formaten wie XML und CSV stellen sicher, dass eine möglichst breite Nutzergruppe die Daten weiterverwenden kann.<a class="headerlink" href="#online-methods" title="Permalink zu dieser Überschrift">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>Über die bestehende Website<a class="headerlink" href="#via-your-existing-website" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Genau wie herkömliche Dokumente können Sie auch größere Dateien zum einfachen Download auf ihrer Seite anbieten.</p>
+<p>Das einzige Problem bei dieser Vorgehensweise: für &#8216;Outsider&#8217; kann es schwierig sein an neue Informationen zu gelangen.</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>Über Seiten dritter<a class="headerlink" href="#via-3rd-party-sites" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Viele Verzeichnisse haben sich zu &#8216;Datenhubs&#8217; in ihrem Bereich entwickelt. Pachube.com verbindet Menschen mit Senoren mit solchen die Daten von ihnen haben wollen. Seiten wir Infochimps.com oder Talis.com erlauben es öffentlichen Verwaltungen große Mengen an Daten kostenlos zu hosten.</p>
+<p>Solche Seiten können sehr sinnvoll sein. Insbesondere wenn sich dort schon Communities zu bestimmten Themen gebildet haben, sollten Sie darüber nachdenken Ihre Daten dort zur Verfügung zu stellen.</p>
+<p>Umfassende Datenplattformen stellen eine Infrastruktur bereit die dem Bedarf gerecht werden kann. Oftmals werden auch Statistiken und Hilfen für die Nutzung der Daten bereit gestellt.</p>
+<p>Plattformen anderer können, gerade für Ministerien, Probleme bergen. Es wird ein Stückweit die eigene Kompetenz bzw. Handlungsfähigkeit aufgegeben, was gerade bei Ministerien zu Problemen führen kann. Es sollte immer Sichergestellte werden, dass die Plattform auf offenen Standards basiert, damit möglichst viele Menschen darauf zugreifen können.</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>Über FTP-Server<a class="headerlink" href="#via-ftp-servers" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Eine weniger moderen Art der Bereitstellung von Daten ist das &#8216;File-Transfer-Protocol (FTP)&#8217;. FTP ist geeignet für die bedürfnisse technisch versierter Nutzer wie Software-Entwickler und Wissenschaftler.</p>
+<p>Aber FTP ist nicht beliebt. Statt Informationen auf einer Website abzurufen, müssen Nutzer sich durch Daten- und Ordnerwüsten kämpfen - wie auf ihrem alten PC. Auch wenn es also technisch durchaus geeignet ist hat FTP nicht das Potenzial zu einer beliebten Datenplattform zu werden.</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>als Torrents<a class="headerlink" href="#as-torrents" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p><a class="reference internal" href="../glossary.html#term-bittorrent"><em class="xref std std-term">BitTorrent</em></a> is a system which has become familiar to policy makers
+because of its association with copyright infringement. BitTorrent uses
+files called torrents, which work by splitting the cost of distributing
+files between all of the people accessing those files. Instead of servers
+becoming overloaded, the supply increases with the demand increases. This is
+the reason that this system is so successful for sharing movies. It is a
+wonderfully efficient way to distribute very large volumes of data.</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>Als API<a class="headerlink" href="#as-an-api" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Daten können über eine API veröffentlicht werden. APIs sindSchnittstellen, die es Programmierern erlauben gezielt auf bestimmte Datenbestände zuzugreifen. APIs sind in der Regel mit Datenbanken verbunden, die Informationen in echtzeit zur Verfügung stellen.</p>
+<p>Offene Daten möglichst unverarbeitet zum Download anzubieten sollte die höchste Priorität aller Open Data Initiativen sein. Eine API ist interessant und nützlich, hat aber ihre eigenen Herausforderungen:</p>
+<ol class="arabic simple">
+<li>Die Kosten: Eine API erfordert mehr Entwicklungsaufwand und regelmäßige Wartung und Pflege.</li>
+<li>Die Erwartungen: Um eine aktive Community zu pflegen ist es wichtig Sicherheit und Verlässlichkeit zu geben. Wenn etwas schief geht erwartet die Community, dass diese Probleme möglichst schnell behoben werden. In vielen Fällen werden Mitglieder der Community bereit sein zu helfen.</li>
+</ol>
+<p>Zugang zu Datenrepositories stellt sicher, dass:</p>
+<ol class="loweralpha simple">
+<li>es gibt keine Abhängigkeit zum ursprünglichen Bereitsteller der Daten, d.h. auch bei restrukturierungen oder finanzierungsengpässen bleiben die Daten weiterhin verfügbar.</li>
+<li>jeder sich eine Kopie der Daten beschaffen und weiterverteilen kann. Dies reduziert die Kosten der Weiterverteilung für die ausgebende Behörde, außerdem gibt es keinen &#8220;single point of failure&#8221; mehr.</li>
+<li>andere können neue Dienstleistungen mit den Daten entwickeln, da sichergestellt ist, dass die Daten nicht von heute auf morgen wieder verschwinden.</li>
+</ol>
+<p>Daten als komplett Paket zum Download anzubieten erlaubt es anderen, diese Daten abseits ihrer ursprünglichen Zwecke zu nutzen. Daten können z.B. in ein anderes Format gebracht werden oder mit anderen Daten zusammengestellt werden.</p>
+<p>For example, the <a class="reference external" href="http://epp.eurostat.ec.europa.eu/">Eurostat statistical service</a> has a bulk download
+facility offering over 4000 data files. It is updated twice a day, offers
+data in <a class="reference internal" href="../glossary.html#term-tab-separated-values"><em class="xref std std-term">Tab-separated values</em></a> (TSV) format, and includes
+documentation about the download facility as well as about the data files.</p>
+<p>Another example is the <a class="reference external" href="http://octo.dc.gov/DC/OCTO/">District of Columbia Data Catalog</a>, which
+allows data to be downloaded in CSV and XLS format in addition to live
+feeds of the data.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Einleitung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Wieso eigentlich offene Daten?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Was ist Open Data?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Wie kann ich (als Behörde, Verwaltung, Organisation, ...) eigentlich Daten öffnen?</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Such dir ein Datenset!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Nutze eine offene Lizenz (juristische Offenheit)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Machen sie die Daten verfügbar (technische Offenheit)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">Downloads in einfachen, universell maschinenlesbaren Formaten wie XML und CSV stellen sicher, dass eine möglichst breite Nutzergruppe die Daten weiterverwenden kann.</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">die Daten werden auffindbar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Die Daten sind offen, was nun?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Anhang</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

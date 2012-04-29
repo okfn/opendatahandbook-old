@@ -1,0 +1,269 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Καταστήστε διαθέσιμα τα Δεδομένα (Τεχνικό «Άνοιγμα») &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Πώς μπορεί κανείς να «ανοίξει» τα δεδομένα;" href="index.html" />
+    <link rel="next" title="Καταστήστε τα δεδομένα εύκολα εντοπίσιμα" href="make-it-discoverable.html" />
+    <link rel="prev" title="Εφαρμόστε μία «Ανοιχτή» Άδεια (νομική ανοικτότητα)" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>Καταστήστε διαθέσιμα τα Δεδομένα (Τεχνικό «Άνοιγμα»)<a class="headerlink" href="#make-data-available-technical-openness" title="Permalink to this headline">¶</a></h1>
+<p>Τα <em class="xref std std-term">Ανοιχτά Δεδομένα</em> πρέπει να είναι ανοιχτά τόσο από νομικής άποψης, όσο και από τεχνικής. Ειδικότερα, τα δεδομένα πρέπει να είναι διαθέσιμα αυτούσια στο σύνολο τους, αλλά και σε μορφή αναγνωρίσιμη από τις μηχανές.</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>Τα δεδομένα δε θα πρέπει να τιμολογούνται πάνω από ένα κόστος λογικό για την αναπαραγωγή τους, προτιμότερη, δε, είναι η ελεύθερη λήψη τους από το Διαδίκτυο. Αυτή η τιμολογιακή πολιτική ακολουθείται επειδή η υπηρεσία σας δε θα πρέπει να αναλαμβάνει κανένα επιπλέον κόστος όταν παρέχει δεδομένα για χρήση.</dd>
+<dt>In bulk</dt>
+<dd>Τα δεδομένα θα πρέπει να είναι διαθέσιμα ως ένα πλήρες σύνολο. Εάν διαθέτετε ένα μητρώο που συλλέγεται βάσει καταστατικού, ολόκληρο το μητρώο θα πρέπει να είναι διαθέσιμο για λήψη. Ένα API διαθέσιμο στο Διαδίκτυο ή κάποια παρόμοια υπηρεσία θα μπορούσε επίσης να φανούν χρήσιμα, αλλά σε καμία περίπτωση δεν μπορούν να υποκαταστήσουν την εξολοκλήρου πρόσβαση στο σύνολο δεδομένων.</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>Η επαναχρησιμοποίηση των δεδομένων που ανήκουν στο δημόσιο τομέα δε θα πρέπει να υπόκειται σε περιορισμούς ευρεσιτεχνίας. Ακόμα πιο σημαντικό είναι να φροντίσετε ώστε τα δεδομένα να είναι διαθέσιμα σε μορφή αναγνωρίσιμη από τις μηχανές, κάτι το οποίο επιτρέπει ακόμα μεγαλύτερη επαναχρησιμοποίηση. Συγκεκριμένα, έστω ότι υπάρχουν κάποια στατιστικά στοιχεία δημοσιοποιημένα, σε μορφή <abbr title="Portable Document Format">PDF</abbr>  που χρησιμοποιείται συχνά για εκτυπώσεις υψηλής ποιότητας. Ενώ αυτά τα στατιστικά στοιχεία μπορούν να αναγνωστούν από τους ανθρώπους, καθίσταται πολύ δύσκολη η προσπέλαση τους από μία μηχανή. Αυτό έχει ως αποτέλεσμα τον έντονο περιορισμό της επαναχρησιμοποίησης των δεδομένων.</dd>
+</dl>
+<p>Οι τακτικές που πρέπει να ακολουθήσετε συνοψίζεται στα εξής:</p>
+<ul class="simple">
+<li>απλά</li>
+<li>γρήγορα</li>
+<li>ρεαλιστικά</li>
+</ul>
+<p>Ιδιαίτερα σημαντικό είναι να προσφέρετε άμεσα ακατέργαστα δεδομένα, αντί για άψογα δεδομένα, αλλά σε έξι μήνες.</p>
+<p>Υπάρχουν πολλοί διαφορετικοί τρόποι να καταστήσετε τα δεδομένα διαθέσιμα σε άλλους. Το πιο φυσιολογικό στην εποχή του Διαδικτύου είναι η Διαδικτυακή δημοσιοποίησή τους. Υπάρχουν πολλές παραλλαγές σε αυτό το πρότυπο. Στην πιο βασική εκδοχή τους, οι υπηρεσίες καθιστούν τα δεδομένα τους διαθέσιμα μέσω της ιστοσελίδας τους και ένας κεντρικός κατάλογος κατευθύνει τους επισκέπτες στις αντίστοιχες πηγές. Ωστόσο, υπάρχουν και εναλλακτικές προσεγγίσεις.</p>
+<p>Όταν η <em class="xref std std-term">διασυνδεσιμότητα</em> είναι περιορισμένη ή το μέγεθος των δεδομένων είναι εξαιρετικά μεγάλο, ενδείκνυται η διανομή μέσω εναλλακτικών μορφών. Σε αυτήν την ενότητα, θα συζητηθούν εναλλακτικές προσεγγίσεις που μπορεί να λειτουργήσουν καθοριστικά στη διατήρηση του κόστους σε χαμηλό επίπεδο.</p>
+<div class="section" id="online-methods">
+<h2>Διαδικτυακές μέθοδοι<a class="headerlink" href="#online-methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>Μέσω της υπάρχουσας ιστοσελίδας<a class="headerlink" href="#via-your-existing-website" title="Permalink to this headline">¶</a></h3>
+<p>Ο πιο οικείος τρόπος για να παρέχετε τα δεδομένα στην ομάδα για το Διαδικτυακό περιεχόμενο είναι σε αρχεία προς λήψη, διαθέσιμα στην ιστοσελίδα. Ακριβώς όπως, επί του παρόντος, προσφέρετε πρόσβαση σε έγγραφα αναφορών, τα αρχεία δεδομένων μπορούν να καταστούν διαθέσιμα με τον ίδιο τρόπο.</p>
+<p>Μία δυσκολία που συναντάται σε αυτήν την περίπτωση είναι η δυσχέρεια που συχνά αντιμετωπίζουν οι χρήστες στο να ανακαλύψουν ενημερωμένες πληροφορίες. Το επιπλέον πρόβλημα που προκύπτει με αυτή τη προσέγγιση είναι ότι προστίθεται επιπλέον φόρτος σε αυτούς που προσπαθούν να δημιουργήσουν εργαλεία χρησιμοποιώντας τα δεδομένα σας.</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>Μέσω τρίτων, συμβαλλόμενων ιστοσελίδων<a class="headerlink" href="#via-3rd-party-sites" title="Permalink to this headline">¶</a></h3>
+<p>Πολλά αποθετήρια δεδομένων μετατράπηκαν σε κομβικά σημεία αναφοράς για ορισμένους τομείς. Για παράδειγμα, το pachube.com σχεδιάστηκε για να φέρνει σε επαφή τους ανθρώπους με αισθητήρες, εφόσον επιθυμούν να έχουν πρόσβαση σε δεδομένα που προέρχονται από αυτούς. Άλλες ιστοσελίδες, όπως η Infochimps.com και η Talis.com, επιτρέπουν σε υπηρεσίες του δημοσίου τομέα να αποθηκεύουν μαζικές ποσότητες δεδομένων, χωρίς χρέωση.</p>
+<p>Οι Ιστοσελίδες τρίτων συμβαλλομένων μπορεί να αποδειχθούν χρήσιμες. Ο κύριος λόγος που συμβαίνει αυτό είναι ότι έχουν ήδη καταφέρει να συγκεντρώσουν, σε κοινότητες, τα ενδιαφερόμενα άτομα μαζί με πολλά άλλα σύνολα δεδομένων. Όταν και τα δικά σας δεδομένα γίνονται μέρος αυτών των πλατφορμών, αναπτύσσεται μια μορφή θετικού ενδιαφέροντος για αυτά.</p>
+<p>Οι πλατφόρμες δεδομένων παρέχουν ήδη την υποδομή που μπορεί να υποστηρίξει τη ζήτηση. Συχνά προσφέρουν αναλύσεις και στατιστικές πληροφορίες σχετικά με τη χρήση τους. Η χρησιμοποίηση τέτοιων πλατφορμών από το δημόσιο τομέα γίνεται, συνήθως, δωρεάν.</p>
+<p>Όμως, αυτού του είδους οι πλατφόρμες μπορεί να έχουν διπλό κόστος. Το πρώτο είναι η ανεξαρτησία. Η υπηρεσία μπορεί να επιθυμεί να είναι σε θέση να αποδίδει έλεγχο σε άλλους. Αυτό πολλές φορές είναι πολιτικά, νομικά ή λειτουργικά δύσκολο. Το δεύτερο κόστος μπορεί να είναι η «Ανοιχτότητα». Επιβεβαιώστε ότι η πλατφόρμα δεν κάνει διακρίσεις στις συσκευές που έχουν πρόσβαση σε αυτήν. Οι προγραμματιστές λογισμικού και οι επιστήμονες χρησιμοποιούν πολλά λειτουργικά συστήματα, από smart phones μέχρι υπερυπολογιστές. Όλοι θα πρέπει να είναι σε θέση να έχουν πρόσβαση στα δεδομένα.</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>Μέσω FTP διακομιστών<a class="headerlink" href="#via-ftp-servers" title="Permalink to this headline">¶</a></h3>
+<p>Ένας λιγότερο δημοφιλής τρόπος για την παροχή πρόσβασης στα αρχεία σας είναι μέσω του FTP πρωτοκόλλου. Αυτό μπορεί να είναι κατάλληλο αν το κοινό σας είναι τεχνικά καταρτισμένο, όπως προγραμματιστές εφαρμογών και επιστήμονες. Το σύστημα FTP λειτουργεί στη θέση του HTTP, αλλά είναι ειδικά σχεδιασμένο ώστε να υποστηρίζει μεταφορές αρχείων.</p>
+<p>Το πρωτόκολλο FTP έχει παγιωθεί και δεν αναπτύσσεται. Σε αντίθεση με την παροχή μίας ιστοσελίδας, η χρήση ενός FTP διακομιστή θυμίζει περισσότερο την όψη των φακέλων στους υπολογιστές. Συνεπώς, αν και είναι κατάλληλο για το σκοπό που χρησιμοποιείται, υπάρχει πολύ χαμηλότερη δυνατότητα για εταιρείες ανάπτυξης Διαδικτυακών εφαρμογών να χρεώσουν επιπλέον για την παραμετροποίησή του.</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>Ως torrents<a class="headerlink" href="#as-torrents" title="Permalink to this headline">¶</a></h3>
+<p>Το <a class="reference internal" href="../glossary.html#term-bittorrent"><em class="xref std std-term">BitTorrent</em></a> είναι ένα σύστημα που έχει γίνει οικείο στους φορείς χάραξης πολιτικής λόγω της σύνδεσής του με την καταπάτηση των πνευματικών δικαιωμάτων. Το BitTorrent χρησιμοποιεί αρχεία που λέγονται torrents, και η λειτουργία του βασίζεται στον καταμερισμό του κόστους της διανομής των αρχείων, μεταξύ των ανθρώπων που έχουν πρόσβαση σε αυτά. Οπότε, αντί για διακομιστές που υπερφορτώνονται, σε αυτήν την περίπτωση, αυξάνεται η προσφορά με την αύξηση της ζήτησης. Αυτός είναι ο λόγος που αυτό το σύστημα είναι πολύ δημοφιλές για το διαμοιρασμό ταινιών. Είναι ένας αποτελεσματικός τρόπος για τη διανομή πολύ μεγάλων όγκων δεδομένων.</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>Ως ένα API<a class="headerlink" href="#as-an-api" title="Permalink to this headline">¶</a></h3>
+<p>Τα δεδομένα πρέπει να είναι δημοσιοποιημένα μέσω ενός Application Programming Interface (API). Αυτές οι διεπαφές έχουν γίνει πολύ διάσημες. Επιτρέπουν στους προγραμματιστές να επιλέγουν συγκεκριμένες ποσότητες δεδομένων, αντί να τους παρέχουν όλα τα δεδομένα μαζικά, σε μεγάλα αρχεία. Τα APIs είναι συνήθως διασυνδεδεμένα με μία βάση δεδομένων η οποία ενημερώνεται σε πραγματικό χρόνο. Αυτό σημαίνει ότι, όταν οι πληροφορίες παρέχονται μέσω ενός API, μπορεί να είναι κανείς σίγουρος ότι έχει πρόσβαση στα πιο ενημερωμένα δεδομένα.</p>
+<p>Η δημοσιοποίηση ακατέργαστων δεδομένων θα πρέπει να είναι πρωταρχικής σημασίας για όλες τις πρωτοβουλίες για τα Ανοιχτά Δεδομένα. Άλλωστε, υπάρχουν κάποια κόστη που σχετίζονται με την παροχή ενός API:</p>
+<ol class="arabic simple">
+<li>Η τιμή: Απαιτεί πιο περίπλοκη ανάπτυξη εφαρμογών και συντήρηση από ότι η παροχή απλών αρχείων.</li>
+<li>Οι προσδοκίες: Για να ενθαρρυνθεί η κοινότητα χρηστών ενός σύστηματος, είναι σημαντικό να παρέχεται βεβαιότητα. Όταν κάτι σταματήσει να λειτουργεί σωστά, τότε το κόστος της διόρθωσης δε θα πρέπει να επιβαρύνει την κοινότητα.</li>
+</ol>
+<p>Η πρόσβαση σε μαζικά δεδομένα εξασφαλίζει ότι:</p>
+<ol class="loweralpha simple">
+<li>Δεν υπάρχει εξάρτηση από τον αρχικό πάροχο των δεδομένων, με την έννοια ότι, αν συμβεί κάποια αναδιάρθρωση ή ο οικονομικός προυπολογισμός αλλάξει την κατάσταση, τα δεδομένα θα είναι ακόμα διαθέσιμα.</li>
+<li>Ο καθένας μπορεί να έχει ένα αντίγραφο και να το αναδιανείμει. Αυτό μειώνει το κόστος διανομής πέρα από την υπηρεσία που λειτουργεί σαν πηγή και σημαίνει πως δεν υπάρχει μοναδικό σημείο αποτυχίας.</li>
+<li>Οι άλλοι μπορούν να αναπτύξουν τις δικές τους υπηρεσίες χρησιμοποιώντας τα δεδομένα, επειδή έχουν τη βεβαιότητα ότι δε θα τα στερηθούν.</li>
+</ol>
+<p>Η προσφορά μαζικών δεδομένων επιτρέπει σε τρίτους να τα χρησιμοποιήσουν πέρα από τον αρχικό τους σκοπό. Για παράδειγμα, επιτρέπει τη μετατροπή σε νέα μορφή, τη διασύνδεση με άλλες πηγές ή άλλες εκδόσεις και την αποθήκευσή τους σε περισσότερες τοποθεσίες. Ενώ η νεότερη έκδοση των δεδομένων μπορεί να καταστεί άμεσα διαθέσιμη από το ΑΡΙ, τα ακατέργαστα δεδομένα θα πρέπει να είναι μαζικά διαθέσιμα ανά τακτά χρονικά διαστήματα.</p>
+<p>Παράδειγμα αποτελέι η περίπτωση της ευρωπαικής στατιστικής υπηρεσίας (Eurostat) που προσφέρει μαζική λήψη 4000 αρχείων δεδομένων. Ενημερώνεται δύο φορές την ημέρα, ενώ παρέχει τα δεδομένα σε μορφή Tab-separated values (TSV), περιλαμβάνοντας και έγγραφα σχετικά με την υπηρεσία λήψης και τα ληφθέντα αρχεία.</p>
+<p>Ένα άλλο παράδειγμα αποτελεί το District of Columbia OCTO’s Data Catalogue που επιτρέπει στα δεδομένα να ληφθούν σε CSV και XLS μορφή και επιπλέον σε ζωντανή ρόη.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Εισαγωγή</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Γιατί Ανοιχτά Δεδομένα;
+Οι νέες τεχνολογίες καθιστούν πλέον δυνατή την ανάπτυξη υπηρεσιών που μπορούν να δώσουν απαντήσεις σε αυτά τα ερωτήματα, αυτόματα. Πολλά, όμως, από τα απαραίτητα δεδομένα δεν είναι ακόμα διαθέσιμα σε μορφή εύκολη προς χρήση. Αυτό το εγχειρίδιο προσδοκεί να αναδείξει τις δυνατότητες που προσφέρονται, από τις επίσημες και μη πληροφορίες, στην ενεργοποίηση νέων υπηρεσιών που θα βελτιώσουν τις συνθήκες διαβίωσης των πολιτών και θα συμβάλλουν στην καλύτερη λειτουργία της πολιτείας και της κοινωνίας.
+Η έννοια των «Ανοιχτών Δεδομένων» και, πιο συγκεκριμένα, των ανοιχτών κυβερνητικών δεδομένων (πληροφορίες, δημόσιες και μη, τις οποίες ο καθένας έχει τη δυνατότητα να προσπελάσει και να επαναχρησιμοποιήσει για οποιοδήποτε σκοπό) έχει επικρατήσει τα τελευταία χρόνια. Το 2009, τα Ανοιχτά Δεδομένα άρχισαν να αναδεικνύονται, με πολλές κυβερνήσεις (όπως οι ΗΠΑ, το Ηνωμένο Βασίλειο, ο Καναδάς και η Νέα Ζηλανδία) να ανακοινώνουν τις πρωτοβουλίες τους προς την κατεύθυνση του «ανοίγματος» των δημοσίων πληροφοριών.
+Αυτό το εγχειρίδιο επεξηγεί τη βασική έννοια των «Ανοιχτών Δεδομένων» και ιδιαίτερα των κυβερνητικών. Παρουσιάζει την αξία που προσδίδουν τα Ανοιχτά Δεδομένα και το θετικό αντίκτυπο που έχουν σε πολλούς και διαφορετικούς τομείς. Εκτός από την διερεύνηση του υπόβαθρου, αυτό το εγχειρίδιο αποσκοπεί να προσφέρει συγκεκριμένες πληροφορίες σχετικά με το πώς πρέπει να «παράγονται» τα Ανοιχτά Δεδομένα.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">What is Open Data?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Πώς μπορεί κανείς να «ανοίξει» τα δεδομένα;</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Επιλέξτε τα σύνολα των δεδομένων</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Εφαρμόστε μία «Ανοιχτή» Άδεια (νομική ανοικτότητα)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Καταστήστε διαθέσιμα τα Δεδομένα (Τεχνικό «Άνοιγμα»)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">Διαδικτυακές μέθοδοι</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">Καταστήστε τα δεδομένα εύκολα εντοπίσιμα</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Και τώρα, που «άνοιξα» τα Δεδομένα μου, τι γίνεται;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Γλωσσάρι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Παραρτήματα</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

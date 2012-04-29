@@ -1,0 +1,303 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Formati dei file &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Appendici" href="index.html" />
+    <link rel="next" title="Quali diritti (proprietà intellettuale) sussistono sulle (banche) dati" href="what-legal-ip-rights-are-there-in-databases.html" />
+    <link rel="prev" title="Appendici" href="index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="file-formats">
+<h1>Formati dei file<a class="headerlink" href="#file-formats" title="link permanente per questa intestazione">¶</a></h1>
+<div class="section" id="an-overview-of-file-formats">
+<h2>Una panoramica sui formati di file<a class="headerlink" href="#an-overview-of-file-formats" title="link permanente per questa intestazione">¶</a></h2>
+<div class="section" id="json">
+<h3>JSON<a class="headerlink" href="#json" title="link permanente per questa intestazione">¶</a></h3>
+<p>JSON è un formato di file semplice e molto facile da leggere per tutti i linguaggi di programmazione. La sua semplicità vuol dire che è in generale più facile da elaborare per i computer rispetto ad altri formati, quale l&#8217;XML.</p>
+</div>
+<div class="section" id="xml">
+<h3>XML<a class="headerlink" href="#xml" title="link permanente per questa intestazione">¶</a></h3>
+<p>XML è un formato ampiamente utilizzato per lo scambio dei dati perché fornisce buone opportunità per conservare la struttura dei dati ed il modo in cui i file sono predisposti, e consente agli sviluppatori di includere parte della documentazione insieme ai dati ma senza interferire con la loro lettura.</p>
+</div>
+<div class="section" id="rdf">
+<h3>RDF<a class="headerlink" href="#rdf" title="link permanente per questa intestazione">¶</a></h3>
+<p>Un formato raccomandato dal W3C è l&#8217; RDF, che consente di rappresentare i dati in una forma che rende facilmente integrabili dati provenienti da fonti diverse. I dati RDF possono essere memorizzati in XML e JSON, oltre che in altri formati. L&#8217;RDF incoraggia l&#8217;uso di URL come identificatori, provvedendo così un sistema utile per collegare direttamente le iniziative Open Data sul web. L&#8217;RDF è ancora poco diffuso, ma il suo uso sta diventando comune fra le iniziative di Open Government, compresi i progetti Linked Open Data dei governi britannico e spagnolo. L&#8217;inventore del Web, Tim Berners-Lee, ha proposto una classificazione a cinque stelle che indica i dati RDF come un obiettivo da perseguire nelle iniziative Open Data.</p>
+</div>
+<div class="section" id="spreadsheets">
+<h3>Fogli di calcolo<a class="headerlink" href="#spreadsheets" title="link permanente per questa intestazione">¶</a></h3>
+<p>Molte autorità hanno informazioni archiviate in fogli di calcolo, come ad esempio Microsoft Excel. Questi dati possono spesso essere utilizzati immediatamente assieme alla corretta descrizione di ciò che le varie colonne rappresentano.</p>
+<p>Tuttavia, in alcuni casi potrebbero esserci macro e formule nei fogli di calcolo, che possono essere scomodi da gestire. Si consiglia pertanto di documentare tali calcoli accanto al foglio elettronico, facilitando la loro accessibilità per gli utenti.</p>
+</div>
+<div class="section" id="comma-separated-files">
+<h3>Comma Separated File - Dati Separati da Virgola<a class="headerlink" href="#comma-separated-files" title="link permanente per questa intestazione">¶</a></h3>
+<p>I file CSV possono essere un formato molto utile perché compatti e quindi adatti per trasferire grandi insiemi di dati con la stessa struttura. Tuttavia, il formato è così spartano che i dati, senza documentazione, sono spesso inutili dal momento che diventa quasi impossibile identificare il significato delle diverse colonne. È pertanto fondamentale che sia fornita un&#8217;appropriata documentazione insieme ai file in formato CSV.</p>
+<p>É inoltre essenziale che la struttura del file sia rispettata. L&#8217;omissione anche di un solo campo può impedire lettura di tutti i restanti dati del file, senza alcuna possibilità di correzione, in quanto non è possibile interpretare il senso dei campi successivi.</p>
+</div>
+<div class="section" id="text-document">
+<h3>Documento di testo<a class="headerlink" href="#text-document" title="link permanente per questa intestazione">¶</a></h3>
+<p>Classic documents in formats like Word, ODF, OOXML, or PDF may be
+sufficient to show certain kinds of data - for example, relatively
+stable mailing lists or equivalent. It may be cheap to exhibit in,
+as often it is the format the data is born in. The format gives no
+support to keep the structure consistent, which often means that it is
+difficult to enter data by automated means. Be sure to use templates
+as the basis of documents that will display data for re-use, so it is
+at least possible to pull information out of documents.</p>
+<p>Il successivo utilizzo di dati può anche essere favorito da markup tipografici, che rendono più facile per una macchina distinguere le intestazioni (di qualsiasi specifico tipo) dal contenuto e così via. Generalmente si raccomanda di non proporre i dati in formato word processing, se i dati sono disponibili in formato diverso.</p>
+</div>
+<div class="section" id="plain-text">
+<h3>Testo semplice<a class="headerlink" href="#plain-text" title="link permanente per questa intestazione">¶</a></h3>
+<p>I documenti di testo (.txt) sono molto facili da leggere per i computer. Tuttavia generalmente non includono meta-dati strutturali dall&#8217;interno del documento, con la conseguenza che gli sviluppatori devono creare un parser/analizzatore in grado di interpretare ogni documento così come appare.</p>
+<p>Alcuni problemi possono nascere quando i file di testo sono scambiati tra sistemi operativi diversi. MS Windows, Mac OS X e altre varianti di Unix hanno un proprio modo di istruire il computer sul raggiungimento del fine - rigo.</p>
+</div>
+<div class="section" id="scanned-image">
+<h3>Immagine acquisita (scanner)<a class="headerlink" href="#scanned-image" title="link permanente per questa intestazione">¶</a></h3>
+<p>Probabilmente la forma meno adatta per la maggior parte dei dati, ma sia TIFF che JPEG-2000 sono in grado di aggiungere dettagli su ciò che è rappresentato nella foto - fino anche a inserire nell&#8217;immagine un contenuto con del testo integrale del documento. Possono essere utili per la visualizzazione come immagini di quei dati che non sono stati originati elettronicamente - un esempio immediato è il materiale di una vecchia chiesa e altri archivi - e una foto è meglio di niente.</p>
+</div>
+<div class="section" id="proprietary-formats">
+<h3>Formati proprietari<a class="headerlink" href="#proprietary-formats" title="link permanente per questa intestazione">¶</a></h3>
+<p>Alcuni sistemi specializzati hanno i propri formati di dati in cui possono salvare o esportare dati. A volte può anche essere sufficiente condividere i dati in questi formati - soprattutto se si prevede che l&#8217;uso successiva sia fatto in un sistema simile a quello da cui provengono. Dovrebbe sempre essere indicato dove si possono trovare ulteriori informazioni su questi formati proprietari, ad esempio con un link al sito web del fornitore. In generale si consiglia, ove possibile, di condividere dati utilizzando formati non proprietari.</p>
+</div>
+<div class="section" id="html">
+<h3>HTML<a class="headerlink" href="#html" title="link permanente per questa intestazione">¶</a></h3>
+<p>Oggi una gran quantità di dati è disponibile nel formato HTML su vari siti. Ciò sarebbe senz&#8217;altro sufficiente se i dati fossero molto stabili e i e riguardas un ambito limitato. In qualche caso sarebbe preferibile avere i dati in un formato più semplice da scaricare e manipolare, ma visto che è semplice ed economico fare riferimento ad una pagina di un sito web, quello potrebbe essere un buon punto di partenza per mostrare i dati.</p>
+<p>Tipicamente sarebbe più opportuno utilizzare tabelle nei documenti HTML per contenere i dati, e che i vari campi di dati siano visualizzati e identificati in modo che siano facili da trovare e manipolare. Yahoo ha sviluppato uno strumento (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>) in grado di estrarre informazioni strutturate da un sito web: tali strumenti possono raggiungere risultati molto migliori se i dati sono accuratamente etichettati.</p>
+</div>
+</div>
+<div class="section" id="open-file-formats">
+<h2>Formati di file aperti<a class="headerlink" href="#open-file-formats" title="link permanente per questa intestazione">¶</a></h2>
+<p>Anche se le informazioni sono fornite in formato elettronico, in formato leggibile dalla macchina e nel dettaglio, ci possono essere questioni relative al formato del file stesso.</p>
+<p>The formats in which information is published – in other words, the
+digital base in which the information is stored - can either be “open”
+or “closed”. An open format is one where the specifications for the
+software are available to anyone, free of charge, so that anyone can
+use these specifications in their own software without any limitations
+on re-use imposed by intellectual property rights.</p>
+<p>If a file format is “closed”, this may be either because the file
+format is proprietary and the specification is not publicly available,
+or because the file format is proprietary and even though the
+specification has been made public, re-use is limited. If information
+is released in a closed file format, this can cause significant
+obstacles to reusing the information encoded in it, forcing those
+who wish to use the information to buy the necessary software.</p>
+<p>Il vantaggio dei formati di file aperto è che permettono agli sviluppatori di produrre software e servizi multipli utilizzando tali formati. Questo riduce al minimo gli ostacoli per riutilizzare le informazioni in essi contenute.</p>
+<p>Usare per i file formati proprietari, per i quali le specifiche non sono disponibili pubblicamente, può creare dipendenza dal software di terzi o dai detentori della licenza del formato. Nel caso peggiore questo può significare che l&#8217;informazione può essere letta soltanto utilizzando un certo pacchetto software - che può avere un costo proibitivo, o potrebbe divenire obsoleto.</p>
+<p>La preferenza dal punto di vista degli  :term:<a href="#id1"><span class="problematic" id="id2">`</span></a>open government data`è che l&#8217;informazione deve essere rilasciata in <strong>formati di file aperti che sono machine-readalbe.</strong></p>
+<div class="section" id="example-uk-traffic-data">
+<h3>Esempio: i dati sul traffico nel Regno Unito<a class="headerlink" href="#example-uk-traffic-data" title="link permanente per questa intestazione">¶</a></h3>
+<p>Andrew Nicolson è uno sviluppatore software che è stato coinvolto in una campagna (riuscita con successo) contro la costruzione di una nuova strada, la tangenziale Est Westbury, nel Regno Unito. Andrew era interessato ad accedere e utilizzare i dati sul traffico stradale che veniva utilizzati per giustificare le proposte. Riuscì a ottenere alcuni dati interessante attraverso la libertà di richiesta di informazioni, ma il governo locale forniva i dati in un formato proprietario che potevano essere letti solo con il software prodotto dalla società Saturno. Azienda specializzata nella modellazione del traffico e le previsioni.  Non era disponibile una versione in &#8220;sola lettura&#8221; versione del software, obbligando così il gruppo di Andrew gruppo nell&#8217;acquisto di una licenza software, scontanto a 500£ (600€)  nella versione per enti educativi. Il pacchetto software principale, nel listi di aprile 2010 di Saturno a partiva da 13.000£  (oltre 15.000€ ), un prezzo fuori dalla portata della maggior parte dei cittadini.</p>
+<p>Sebbene non si abbia accesso all&#8217;informazione, la legge dà il diritto di accesso in formati aperti, le iniziative open government data stanno iniziando ad essere accompagnate da documenti programmatici che prevedono che le informazioni ufficiali debbano essere rese disponibili in formati aperti. L&#8217;impostazione del gold standard è stata fatta dall&#8217;amministrazione Obama, con la direttiva Open Government pubblicata nel dicembre 2009, che dice:</p>
+<blockquote>
+<div><em>Per quanto possibile e soggetti a valide restrizioni, gli enti dovrebbero pubblicare online le informazioni in un formato aperto in modo che possano essere recuperate, scaricate, indicizzate e ricercate da comune applicazioni web di ricerca. Un formato aperto deve essere indipendente dalla piattaforma, machine-readable, e resi disponibili al pubblico senza restrizioni che ne impediscona il riuso.</em></div></blockquote>
+</div>
+</div>
+<div class="section" id="how-do-i-use-a-given-format">
+<h2>Come si fa ad usare un determinato formato?<a class="headerlink" href="#how-do-i-use-a-given-format" title="link permanente per questa intestazione">¶</a></h2>
+<p>Quando un ente deve presentare nuovi dati - dati che non sono stati esposti prima - dovrebbe scegliere il formato che offre il miglior equilibrio tra costi e l&#8217;idoneità allo scopo. Per ogni formato ci sono alcune cose di cui bisogna essere a conoscenza, e questa sezione mira a spiegarle.</p>
+<p>Questa sezione si concentra sui servizi di interoperabilità in modo da favorire l&#8217;accesso diretto fra macchine. Consigli e indicazioni su come le soluzioni e siti debbano essere progettati può essere trovato altrove.</p>
+<div class="section" id="web-services">
+<h3>Servizi web - web services<a class="headerlink" href="#web-services" title="link permanente per questa intestazione">¶</a></h3>
+<p>Per i dati soggetti a frequenti modifiche, e dove ogni download è limitato nelle dimensioni, è molto utile esporre i dati attraverso web services. Ci sono diversi modi per creare un web service, ma alcuni dei più utilizzati sono SOAP e REST. Generalmente, SOAP su REST, servizi REST, ma sono molto facili da sviluppare e utilizzare, e si tratta pertanto di uno standard ampiamente utilizzato.</p>
+</div>
+<div class="section" id="database">
+<h3>Database<a class="headerlink" href="#database" title="link permanente per questa intestazione">¶</a></h3>
+<p>Al pari dei web service, i database consentono dinamicamente un accesso diretto ai dati. I database hanno il vantaggio di poter consentire agli utenti di mettere insieme ed estrarre soltanto ciò a cui sono interessati.</p>
+<p>Ci sono alcuni problemi di sicurezza nel estrazione remota da un database e l&#8217;accesso al database è utile solo se la struttura del database e l&#8217;importanza delle singole tabelle e campi sono ben documentati. Spesso, è relativamente semplice e poco costoso per creare servizi web che espongono i dati da un database, risolvendo, in maniera molto semplice i problemi di sicurezza.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduzione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Perché dati aperti (open data)?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Cosa sono i dati aperti (open data)?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">Come aprire i dati</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Cosi, adesso abbiamo aperto alcuni dati. E ora che si fa?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossario</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Appendici</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Formati dei file</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">Una panoramica sui formati di file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">Formati di file aperti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">Come si fa ad usare un determinato formato?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">Quali diritti (proprietà intellettuale) sussistono sulle (banche) dati</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

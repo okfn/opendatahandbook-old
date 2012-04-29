@@ -6,10 +6,10 @@ Face-to-face events can be a very effective way to encourage others
 to use your data. Reasons that you may consider putting on an event 
 include:
 
-* Finding out more about prospective reusers
+* Finding out more about prospective re-users
 * Finding out more about demand for different datasets
-* Finding out more about how people want to reuse your data
-* Enabling prospective reusers to find out more about what data 
+* Finding out more about how people want to re-use your data
+* Enabling prospective re-users to find out more about what data 
   you have
 * Enabling prospective users to meet each other (e.g. so they 
   can collaborate)

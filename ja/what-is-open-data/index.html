@@ -1,0 +1,232 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>オープンデータとは何か? &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="next" title="データをオープンにするには" href="../how-to-open-up-data/index.html" />
+    <link rel="prev" title="なぜオープンデータなのか?" href="../why-open-data/index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="what-is-open-data">
+<h1>オープンデータとは何か?<a class="headerlink" href="#what-is-open-data" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>このハンドブックで扱うのは <em>オープンデータ</em> だが、実際のところそれは何なのだろうか?特に、オープンデータの <em>オープン</em> とはどういう意味で、どんな類のデータを想定しているのだろうか?</p>
+<div class="section" id="what-is-open">
+<h2>オープンとは?<a class="headerlink" href="#what-is-open" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>このハンドブックで扱うのはオープンデータである。ところで、実際のところ <a href="#id1"><span class="problematic" id="id2">*</span></a>オープン*なデータとは何なのだろう? 本書では、 <a class="reference internal" href="#open-definition">Open Definition</a> の定義に従うデータをオープンデータと呼ぶことにする。</p>
+<p><em>Open data is data that can be freely used, re-used and redistributed by
+anyone - subject only, at most, to the requirement to attribute and
+sharealike.</em></p>
+<p><a class="reference internal" href="#full-open-definition">full Open Definition</a> に、その意味するところの明確な説明がある。まとめると、最も大切なのはこの三点である。</p>
+<ul class="simple">
+<li><a href="#id1"><span class="problematic" id="id2">**</span></a>利用できる、そしてアクセスできる**データ全体を丸ごと使えないといけないし、再作成に必要以上のコストがかかってはいけない。望ましいのは、インターネット経由でダウンロードできるようにすることだ。また、データは使いやすく変更可能な形式で存在しなければならない。</li>
+<li><strong>Re-use and Redistribution:</strong> the data must be provided under terms
+that permit re-use and redistribution including the intermixing with
+other datasets.</li>
+<li><strong>Universal Participation:</strong> everyone must be able to use, re-use and
+redistribute - there should be no discrimination against fields of
+endeavour or against persons or groups. For example, ‘non-commercial’
+restrictions that would prevent ‘commercial’ use, or restrictions of
+use for certain purposes (e.g. only in education), are not allowed.</li>
+</ul>
+<p>なぜそこまでして「オープン」の意味をはっきりさせたいの?なぜその定義を使うことにしたの?その答えは、一言で表すと <strong>相互運用性</strong> だ。</p>
+<p>相互運用性とは、さまざまなシステムや組織が共同で作業を進められることを意味する。今回の場合は、さまざまなデータセットを組み合わせて混ぜて使えるということを表す。</p>
+<p>相互運用性が大切な理由は、さまざまなコンポーネントを組み合わせて使えるようになるからだ。コンポーネントにまとめてそれらを「つなぎ合わせて」使うという仕組みは、大規模で複雑なシステムを構築するときに欠かせない。相互運用性がなければ、これは事実上不可能だ。かの有名なバベルの塔の神話が示すとおり、お互いにコミュニケーションができなければ塔を建築する作業は完全に崩壊してしまう。</p>
+<p>データに関しても、私たちは同じような状況に直面している。データ(あるいはコード)の「公共性」の鍵となるのは、そこに含まれる「オープンな」素材が別の「オープンな」素材と自由に組み合わせられるということである。この相互運用性が、データをオープンにすることで得られる現実的な利益を理解するための鍵となる。他のデータセットと組み合わせて使うことが劇的に容易になり、そのおかげでより優れた製品やサービスを生み出せるようになる(これらのメリットについては「なぜ」オープンデータなのかに関するセクションで詳述する)。</p>
+<p>オープンであることについての明確な定義を用意すれば、別々の場所から二つのオープンデータセットを入手したときにそれを組み合わせて使えるようになる。そして <strong>「バベルの塔」状態、つまり大量のデータセットがあるのにそれを組み合わせて(真の価値を持つ)大規模なシステムを作れない状態になってしまうことを回避できる。</strong></p>
+</div>
+<div class="section" id="what-data-are-you-talking-about">
+<span id="what-data-can-be-open"></span><h2>どんなデータを取り上げる?<a class="headerlink" href="#what-data-are-you-talking-about" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ここまでで、既にオープンな(あるいはオープンになる)データの例をいくつか紹介してきた。この後もさらに例を紹介する。しかし、どんなデータがオープンなのか、あるいはオープンになり得るのかをざっと見分けられれば便利だろう。そしてそれと同じくらいに重要なのが、どんなデータがオープンにならないのかを知ることだ。</p>
+<p>ポイントとなるのは、データをオープンにするときの注意点として個人的なデータを含まないようにするということだ。つまり、特定の個人に関する情報を含まないデータでなければならないということである。</p>
+<p>同様に、ある種の政府のデータに関しては、国家機密に関連する制限が適用されることもあり得るだろう。</p>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">導入</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">なぜオープンデータなのか?</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">オープンデータとは何か?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-open">オープンとは?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-data-are-you-talking-about">どんなデータを取り上げる?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">データをオープンにするには</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">データはオープンにした。それからどうする?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Appendices</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+    Licensed under <a
+    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+    Attribution (Unported) v3.0 License</a>.<br />
+    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+      alt="{{ _('Open Content') }}" /></a>
+  <br/>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://thedatahub.org/">TheDataHub.org</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://datapatterns.org">DataPatterns.org</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

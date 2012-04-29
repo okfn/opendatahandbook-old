@@ -18,7 +18,7 @@ check in detail whether each dataset is suitable.
 There is **no requirement** to create a comprehensive list of your 
 datasets. The main point to bear in mind is whether it is feasible 
 to publish this data at all (whether openly or otherwise) -  
-see the ‘What Data’ section above.
+see :ref:`this previous section <what-data-can-be-open>`.
 
 Asking the community
 --------------------
@@ -31,7 +31,7 @@ a good understanding of which data could be valuable.
    feedback on. It is not essential that this list concurs with 
    your expectations, the main intention is to get a feel for the 
    demand. This could be based on other countries' :term:`open data` 
-   catalogues.
+   catalogs.
 
 2. Create a request for comment.   
 

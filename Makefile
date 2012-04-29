@@ -108,11 +108,6 @@ doctest:
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
-# TODO: allow argument so you can choose language you are uploading for
-upload:
-	s3cmd sync --acl-public --delete-removed $(BUILDDIR)/html/$(lang)/ s3://opendatamanual.org/$(lang)/
-	@echo "Uploaded html to website"
-
 TRANSLATIONDIR = translation
 BASEDIR = $(TRANSLATIONDIR)/$(lang)/LC_MESSAGES
 POTFILES = index introduction why-open-data what-is-open-data how-to-open-up-data following-up glossary appendices
@@ -121,9 +116,11 @@ gettext:
 	$(SPHINXBUILD) -b gettext source build/i18npot
 	msgcat -o translation/all.pot build/i18npot/index.pot build/i18npot/introduction.pot build/i18npot/why-open-data.pot build/i18npot/what-is-open-data.pot build/i18npot/how-to-open-up-data.pot build/i18npot/following-up.pot build/i18npot/glossary.pot build/i18npot/appendices.pot
 
+msgfmt:
+	msgfmt $(BASEDIR)/all.po -o $(BASEDIR)/all.mo
+
 linkpot:
 	for potfile in $(POTFILES); do \
 		ln -s all.mo $(BASEDIR)/$$potfile.mo; \
 	done
-	@echo "Setup a specific lang"
 

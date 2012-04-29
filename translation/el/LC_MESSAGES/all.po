@@ -1,0 +1,2518 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) &copy; 2010-2012, Open Knowledge Foundation
+# This file is distributed under the same license as the Open Data Handbook package.
+# 
+# Translators:
+#   <larjohn@gmail.com>, 2012.
+# OKFN Greece <>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Data Handbook\n"
+"Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-09 11:51+0000\n"
+"Last-Translator: larjohn <larjohn@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.net/projects/p/opendatahandbook/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+# f8bfb8659a0c4cb5948b1ef5e84ad7d1
+#: ../../source/index.rst:3
+msgid "The Open Data Handbook"
+msgstr "Εγχειρίδιο Ανοικτών Δεδομένων"
+
+# d585ec8bbdd54f2d88e54daa0238f9d2
+#: ../../source/index.rst:5
+msgid ""
+"**This handbook discusses the legal, social and technical aspects of open "
+"data.** It can be used by anyone but is especially designed for those "
+"seeking to **open up** data. It discusses the **why, what and how** of open "
+"data -- why to go open, what open is, and the how to 'open' data."
+msgstr "Αυτό το εγχειρίδιο ασχολείται με τις νομικές, κοινωνικές και τεχνικές πτυχές των Ανοιχτών Δεδομένων. Μπορεί να χρησιμοποιηθεί από οποιονδήποτε, αλλά είναι ειδικά σχεδιασμένο για όσους αποσκοπούν να «ανοίξουν» τα δεδομένα τους. Ασχολείται με το γιατί, το τι και το πώς των ανοιχτών δεδομένων – Γιατί να προχωρήσουμε σε ανοιχτά δεδομένα, τι είναι τα ανοιχτά δεδομένα και πώς να «ανοίξουμε» τα δεδομένα."
+
+# 3c3f679596a84f43a381f53ce49badeb
+#: ../../source/index.rst:11
+msgid ""
+"To get started, you may wish to look at the :doc:`Introduction "
+"<introduction/index.html>`. You can navigate through the report using the "
+"Table of Contents (see sidebar or below)."
+msgstr "Για να ξεκινήσετε, ρίξτε μια ματιά στην :doc:`Εισαγωγή <introduction/index.html>`. Μπορείτε να ποληγηθείτε στο εγχειρίδιο χρησιμοποιώντας τον Πίνακα Περιεχομένων (δείτε στην πλευρική μπάρα ή στο κάτω μέρος)."
+
+# 3115b5512c6e4ecd861e4e84d400523c
+#: ../../source/index.rst:15
+msgid ""
+"We warmly welcome comments on the text and will incorporate feedback as we "
+"go forward. We also welcome contributions or suggestions for additional "
+"sections and areas to examine."
+msgstr "Δεχόμαστε ευχαρίστως σχόλια πάνω στο κείμενο και θα τα ενσωματώσουμε καθώς προσωρούμε. Επίσης, δεχόμαστε συνεισφορές ή προτάσεις για πρόσθετες ενόητητες και περιοχές που πρέπει να εξετασθούν."
+
+# 9e0f00346b0349e29d51083d1dd7a9aa
+#: ../../source/index.rst:21
+msgid "Table of Contents"
+msgstr "Πίνακας Περιεχομένων"
+
+# 4e947d94bfbe4ecd98c5dee75be312f8
+#: ../../source/index.rst:36
+msgid "Indices and tables"
+msgstr "Ευρετήρια και πίνακες"
+
+# af87acc3665e428c99dff796e236694a
+#: ../../source/index.rst:38
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+# cf589c147b0947639ead7a84a9c78850
+#: ../../source/index.rst:39
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+
+# 159dc292955b401cbaa31592c2ae43c1
+#: ../../source/introduction/credits.rst:3
+msgid "Credits and Copyright"
+msgstr "Συντελεστές και Πνευματικά Δικαιώματα "
+
+# 138a093ae5b548cb9f07805111c55cfd
+#: ../../source/introduction/credits.rst:6
+msgid "Contributing authors"
+msgstr "Συγγραφείς"
+
+# c41cf04f647249b9ac59afbca1382129
+#: ../../source/introduction/credits.rst:8
+msgid "`Daniel Dietrich`_"
+msgstr "`Daniel Dietrich`_"
+
+# 26742a0e756242a2801b0f02ebdd1707
+#: ../../source/introduction/credits.rst:9
+msgid "`Jonathan Gray`_"
+msgstr "`Jonathan Gray`_"
+
+# 1759d73a3a794025b286529b4cc19a17
+#: ../../source/introduction/credits.rst:10
+msgid "`Tim McNamara`_"
+msgstr "`Tim McNamara`_"
+
+# 015052c54f4d4986b3071cd7ddb02c50
+#: ../../source/introduction/credits.rst:11
+msgid "`Antti Poikola`_"
+msgstr "`Antti Poikola`_"
+
+# a37b96bd575d4c2f8e310f7b9b7dbcd2
+#: ../../source/introduction/credits.rst:12
+msgid "`Rufus Pollock`_"
+msgstr "`Rufus Pollock`_"
+
+# 44242a03508d4ec3b115029c749d38f7
+#: ../../source/introduction/credits.rst:13
+msgid "`Julian Tait`_"
+msgstr "`Julian Tait`_"
+
+# b489d1a44d854d3c98c0f9a211c8e083
+#: ../../source/introduction/credits.rst:14
+msgid "`Ton Zijlstra`_"
+msgstr "`Ton Zijlstra`_"
+
+# 8a356ddea3824a2db4c1635a82782883
+#: ../../source/introduction/credits.rst:17
+msgid "Existing sources directly used"
+msgstr "Υπάρχουσες πηγές που χρησιμοποιηθήκαν άμεσα"
+
+# f4c4a9ca6b2b450696be1a124cfc276b
+#: ../../source/introduction/credits.rst:19
+msgid ""
+"Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
+" Group led by Simon Parrish*"
+msgstr "Τεχνική πρόταση σχετικά με τη χρήση των IATI. *Η τεχνική συμβουλευτική ομάδα IATI, της οποίας ηγείται ο Simon Parrish*"
+
+# a9cfff5e7e764f63b118c211a551e395
+#: ../../source/introduction/credits.rst:21
+msgid ""
+"`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
+"Gray, Simon Parrish, Jordan Hatcher*"
+msgstr "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
+
+# 50c8f4db407a45a8894e99e59ef5adef
+#: ../../source/introduction/credits.rst:23
+msgid "Finnish manual authored by *Antti Poikola*"
+msgstr "Φινλανδικό εγχειρίδιο, συνταχθέν από την *Antti Poikola*"
+
+# 912b40b810ef40ab872ba564e1c3a631
+#: ../../source/introduction/credits.rst:24
+msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
+msgstr "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
+
+# 6c2bad4a78ed4069aacfd795a2df0a02
+#: ../../source/introduction/credits.rst:27
+msgid "Other sources"
+msgstr "Άλλες πηγές"
+
+# b2509758c71d471e97585141feaee236
+#: ../../source/introduction/credits.rst:29
+msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+msgstr "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+
+# 0324e39be1e643bf9c026b6173d4a583
+#: ../../source/introduction/index.rst:3
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+# 27e4a5b184654c999139c3127056f637
+#: ../../source/introduction/index.rst:5
+msgid ""
+"Do you know exactly how much of your tax money is spent on street lights or "
+"on cancer research? What is the shortest, safest and most scenic bicycle "
+"route from your home to your work? And what is in the air that you breathe "
+"along the way? Where in your region will you find the best job opportunities"
+" and the highest number of fruit trees per capita? When can you influence "
+"decisions about topics you deeply care about, and whom should you talk to?"
+msgstr "Γνωρίζετε ακριβώς πόσα από τα χρήματά σας ξοδεύονται στο φωτισμό των δρόμων ή στην έρευνα για τον καρκίνο; Ποιος είναι ο συντομότερος, ασφαλέστερος και πιο γραφικός ποδηλατοδρόμος από το σπίτι σας προς το χώρο εργασίας σας; Τι υπάρχει στην ατμόσφαιρα, στο δρόμο που διανύετε; Πού μπορείτε να βρείτε, στη γειτονιά σας, τις καλύτερες ευκαιρίες εργασίας και πού τον υψηλότερο αριθμό οπωροφόρων δέντρων κατά κεφαλή; Πότε μπορείτε να επηρεάσετε τις αποφάσεις σχετικά με θέματα που σας ενδιαφέρουν έντονα και σε ποιον θα πρέπει να απευθυνθείτε;"
+
+# 03772b8e0b654a2980a166e25f7ce602
+#: ../../source/introduction/index.rst:12
+msgid ""
+"New technologies now make it possible to build the services to answer these "
+"questions automatically. Much of the data you would need to answer these "
+"questions is generated by public bodies. However, often the data required is"
+" not yet available in a form which is easy to use. This book is about how to"
+" unlock the potential of official and other information to enable new "
+"services, to improve the lives of citizens and to make government and "
+"society work better."
+msgstr "Οι νέες τεχνολογίες καθιστούν πλέον δυνατή την ανάπτυξη υπηρεσιών που μπορούν να δώσουν απαντήσεις σε αυτά τα ερωτήματα, αυτόματα. Πολλά, όμως, από τα απαραίτητα δεδομένα δεν είναι ακόμα διαθέσιμα σε μορφή εύκολη προς χρήση. Αυτό το εγχειρίδιο προσδοκεί να αναδείξει τις δυνατότητες που προσφέρονται, από τις επίσημες και μη πληροφορίες, στην ενεργοποίηση νέων υπηρεσιών που θα βελτιώσουν τις συνθήκες διαβίωσης των πολιτών και θα συμβάλλουν στην καλύτερη λειτουργία της πολιτείας και της κοινωνίας."
+
+# e864d6f9f1fb4632898e4a87c8e14237
+#: ../../source/introduction/index.rst:20
+msgid ""
+"The notion of :term:`open data` and specifically :term:`open government "
+"data` - information, public or otherwise, which anyone is free to access and"
+" re-use for any purpose - has been around for some years. In 2009 open data "
+"started to become visible in the mainstream, with various governments (such "
+"as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
+"opening up their public information."
+msgstr "Η έννοια των :term:`«Ανοιχτών Δεδομένων»` και, πιο συγκεκριμένα, των :term:`ανοιχτών κυβερνητικών δεδομένων` (πληροφορίες, δημόσιες και μη, τις οποίες ο καθένας έχει τη δυνατότητα να προσπελάσει και να επαναχρησιμοποιήσει για οποιοδήποτε σκοπό) έχει επικρατήσει τα τελευταία χρόνια. Το 2009, τα Ανοιχτά Δεδομένα άρχισαν να αναδεικνύονται, με πολλές κυβερνήσεις (όπως οι ΗΠΑ, το Ηνωμένο Βασίλειο, ο Καναδάς και η Νέα Ζηλανδία) να ανακοινώνουν τις πρωτοβουλίες τους προς την κατεύθυνση του «ανοίγματος» των δημοσίων πληροφοριών. "
+
+# 772e3651fec74d03808df10160177562
+#: ../../source/introduction/index.rst:28
+msgid ""
+"This book explains the basic concepts of ‘open data’, especially in relation"
+" to government. It covers how open data creates value and can have a "
+"positive impact in many different areas. In addition to exploring the "
+"background, the handbook also provides concrete information on how to "
+"produce open data."
+msgstr "Αυτό το εγχειρίδιο επεξηγεί τη βασική έννοια των «Ανοιχτών Δεδομένων» και ιδιαίτερα των κυβερνητικών. Παρουσιάζει την αξία που προσδίδουν τα Ανοιχτά Δεδομένα και το θετικό αντίκτυπο που έχουν σε πολλούς και διαφορετικούς τομείς. Εκτός από την διερεύνηση του υπόβαθρου, αυτό το εγχειρίδιο αποσκοπεί να προσφέρει συγκεκριμένες πληροφορίες σχετικά με το πώς πρέπει να «παράγονται» τα Ανοιχτά Δεδομένα. "
+
+# 5d3906c5912447478481d10c2ba8231a
+#: ../../source/introduction/index.rst:35
+msgid "Target Audience"
+msgstr "Προσδοκώμενο κοινό"
+
+# 985f89dcc7c64fef93e53052ddc36ab0
+#: ../../source/introduction/index.rst:37
+msgid "This handbook has a broad audience:"
+msgstr "Το εγχειρίδιο απευθύνεται σε ευρύ κοινό. Μπορεί να φανεί χρήσιμο:"
+
+# 204beca931a640a3a2feb572395bae22
+#: ../../source/introduction/index.rst:39
+msgid ""
+"for those who have never heard of open data before and those who consider "
+"themselves seasoned ‘data professionals’"
+msgstr "Σε αυτούς που δεν έχουν ξανακούσει για Ανοιχτά Δεδομένα στο παρελθόν και σε αυτούς που θεωρούν τους εαυτούς τους έμπειρους «επαγγελματίες των Δεδομένων»"
+
+# d434b8617ca84b2f812c8b93c72b2b3f
+#: ../../source/introduction/index.rst:41
+msgid "for civil servants and for activists"
+msgstr "Σε δημοσίους υπαλλήλους και σε ακτιβιστές"
+
+# 1683ab9a73354d41afc35e5c3dcbab0e
+#: ../../source/introduction/index.rst:42
+msgid "for journalists and researchers"
+msgstr "Σε δημοσιογράφους και σε ερευνητές"
+
+# 2dab3eafd12e452b9326f4b397b20e7e
+#: ../../source/introduction/index.rst:43
+msgid "for politicians and developers"
+msgstr "Σε πολιτικούς και σε προγραμματιστές"
+
+# cc5c3df699894d2f9ef476ba048d24ca
+#: ../../source/introduction/index.rst:44
+msgid "for data geeks and those who have never heard of an API."
+msgstr "Σε ειδικούς για τα δεδομένα και σε αυτούς που δεν έχουν ακούσει ποτέ τη λέξη ‘API’"
+
+# b1ae7114f8c247b28261bd8c7a1de1f3
+#: ../../source/introduction/index.rst:46
+msgid ""
+"Most of the information currently provided is focused on data held by the "
+"public sector. However, the authors intentions are to broaden this as time "
+"permits. You are welcome to participate to help us with that effort."
+msgstr "Οι περισσότερες, μέχρι σήμερα, διαθέσιμες πληροφορίες επικεντρώνονται σε δεδομένα που διατίθενται από το δημόσιο τομέα. Ωστόσο, οι προθέσεις των συγγραφέων αυτού του εγχειριδίου αποσκοπούν στη διεύρυνσή τους με το πέρασμα του χρόνου. Είστε, λοιπόν, ευπρόσδεκτοι να συμμετέχετε και να στηρίξετε τις προσπάθειές μας."
+
+# 2d06a73d49494b3991c0bb6a62525e9d
+#: ../../source/introduction/index.rst:51
+msgid ""
+"This handbook is intended for those with little or no knowledge of the "
+"topic. If you do find a piece of jargon or terminology with which you aren't"
+" familiar, please see the detailed Glossary and FAQs (frequently asked "
+"questions) which can be found at the end of the handbook."
+msgstr "Αυτό το εγχειρίδιο στοχεύει σε αυτούς που έχουν λίγες ή καθόλου γνώσεις επί του θέματος. Αν εντοπίσετε κάποια ορολογία ή αργκό που δεν κατανοείτε, σας παρακαλούμε, συμβουλευτείτε το Γλωσσάρι που μπορείτε να βρείτε στο τέλος αυτού του εγχειριδίου. "
+
+# 977078aaa78c42e7995958d96a21b8a7
+#: ../../source/introduction/index.rst:58
+msgid "Credits"
+msgstr "Συντελεστές "
+
+# 5cdb697eb85f46e18bdf6edd814a406e
+#: ../../source/why-open-data/index.rst:3
+msgid "Why Open Data?"
+msgstr "Γιατί Ανοιχτά Δεδομένα;\nΟι νέες τεχνολογίες καθιστούν πλέον δυνατή την ανάπτυξη υπηρεσιών που μπορούν να δώσουν απαντήσεις σε αυτά τα ερωτήματα, αυτόματα. Πολλά, όμως, από τα απαραίτητα δεδομένα δεν είναι ακόμα διαθέσιμα σε μορφή εύκολη προς χρήση. Αυτό το εγχειρίδιο προσδοκεί να αναδείξει τις δυνατότητες που προσφέρονται, από τις επίσημες και μη πληροφορίες, στην ενεργοποίηση νέων υπηρεσιών που θα βελτιώσουν τις συνθήκες διαβίωσης των πολιτών και θα συμβάλλουν στην καλύτερη λειτουργία της πολιτείας και της κοινωνίας.\nΗ έννοια των «Ανοιχτών Δεδομένων» και, πιο συγκεκριμένα, των ανοιχτών κυβερνητικών δεδομένων (πληροφορίες, δημόσιες και μη, τις οποίες ο καθένας έχει τη δυνατότητα να προσπελάσει και να επαναχρησιμοποιήσει για οποιοδήποτε σκοπό) έχει επικρατήσει τα τελευταία χρόνια. Το 2009, τα Ανοιχτά Δεδομένα άρχισαν να αναδεικνύονται, με πολλές κυβερνήσεις (όπως οι ΗΠΑ, το Ηνωμένο Βασίλειο, ο Καναδάς και η Νέα Ζηλανδία) να ανακοινώνουν τις πρωτοβουλίες τους προς την κατεύθυνση του «ανοίγματος» των δημοσίων πληροφοριών. \nΑυτό το εγχειρίδιο επεξηγεί τη βασική έννοια των «Ανοιχτών Δεδομένων» και ιδιαίτερα των κυβερνητικών. Παρουσιάζει την αξία που προσδίδουν τα Ανοιχτά Δεδομένα και το θετικό αντίκτυπο που έχουν σε πολλούς και διαφορετικούς τομείς. Εκτός από την διερεύνηση του υπόβαθρου, αυτό το εγχειρίδιο αποσκοπεί να προσφέρει συγκεκριμένες πληροφορίες σχετικά με το πώς πρέπει να «παράγονται» τα Ανοιχτά Δεδομένα."
+
+# a729d3404ee64614bcec347dead57504
+#: ../../source/why-open-data/index.rst:5
+msgid ""
+":term:`Open data`, especially :term:`open government data`, is a tremendous "
+"resource that is as yet largely untapped. Many individuals and organisations"
+" collect a broad range of different types of data in order to perform their "
+"tasks. Government is particularly significant in this respect, both because "
+"of the quantity and centrality of the data it collects, but also because "
+"most of that government data is public data by law, and therefore could be "
+"made open and made available for others to use. Why is that of interest?"
+msgstr "Τα :term:`Ανοιχτά Δεδομένα` και ειδικότερα τα :term:`Ανοιχτά Κυβερνητικά Δεδομένα`, είναι μια τεράστια πηγή δεδομένων που δεν έχει ακόμα αξιοποιηθεί. Πολλά μεμονωμένα άτομα, αλλά και οργανισμοί, συλλέγουν ένα ευρύ φάσμα διαφορετικών τύπων δεδομένων, προκειμένου να εκπληρώσουν τις εργασίες τους. Τα κυβερνητικά δεδομένα είναι ιδιαίτερα σημαντικά από αυτήν την άποψη, τόσο λόγω της ποσότητας και της καθολικότητάς τους, όσο και λόγω του ότι αυτά τα δεδομένα είναι, από νομικής άποψης, δημόσια δεδομένα και συνεπώς θα μπορούσαν να είναι ανοιχτά και διαθέσιμα σε άλλους να τα χρησιμοποιήσουν. Αλλά γιατί αυτό μπορεί να έχει ενδιαφέρον;"
+
+# 633202a63b474ebdb6c96289d6ac423d
+#: ../../source/why-open-data/index.rst:14
+msgid ""
+"There are many areas where we can expect open data to be of value, and where"
+" examples of how it has been used already exist. There are also many "
+"different groups of people and organisations who can benefit from the "
+"availability of open data, including government itself. At the same time it "
+"is impossible to predict precisely how and where value will be created in "
+"the future. The nature of innovation is that developments often comes from "
+"unlikely places."
+msgstr "Υπάρχουν πολλοί τομείς που μπορούμε να περιμένουμε πως τα Ανοιχτά Δεδομένα μπορούν να έχουν αξία και υπάρχουν ήδη παραδείγματα που αναδεικνύουν πώς αυτά έχουν χρησιμοποιηθεί. Υπάρχουν, επίσης, πολλές ομάδες ανθρώπων και οργανισμών που μπορούν να επωφεληθούν από τη διαθεσιμότητα των ανοιχτών δεδομένων, συμπεριλαμβανομένων των ίδιων των κυβερνήσεων. Την ίδια στιγμή, είναι αδυνατόν να προβλέψουμε με ακρίβεια πώς και πού μπορούν να προσδώσουν αξία μελλοντικά. Άλλωστε, αυτή είναι η φύση της καινοτομίας: πολλές φορές, οι εξελίξεις προκύπτουν από εκεί που δεν το περιμένουμε. "
+
+# 00a897c5defd4db5a4339f04fdc80d69
+#: ../../source/why-open-data/index.rst:21
+msgid ""
+"It is already possible to point to a large number of areas where open "
+"government data is creating value. Some of these areas include:"
+msgstr "Είναι ήδη δυνατό να χρησιμοποιήσουμε ως σημεία αναφοράς τομείς, όπου τα ανοιχτά κυβερνητικά δεδομένα έχουν δημιουργήσει αξία. Ορισμένοι από αυτούς είναι: "
+
+# 5a1635520561424aa295c26cd3a948d1
+#: ../../source/why-open-data/index.rst:24
+msgid "Transparency and democratic control"
+msgstr "Διαφάνεια και δημοκρατικός έλεγχος"
+
+# 4351bd20d2a14fbeaa41c82bc514ac95
+#: ../../source/why-open-data/index.rst:25
+msgid "Participation"
+msgstr "Συμμετοχή"
+
+# 234738d1ab8642818c4073300935017e
+#: ../../source/why-open-data/index.rst:26
+msgid "Self-empowerment"
+msgstr "Αυτό-ενδυνάμωση"
+
+# c1c63445907c4955948f3a0fe823118a
+#: ../../source/why-open-data/index.rst:27
+msgid "Improved or new private products and services"
+msgstr "Βελτιστοποίηση νέων ιδιωτικών προϊόντων και υπηρεσιών"
+
+# 1fcf56a9d6aa4bedb3a1e64ca8a3b15c
+#: ../../source/why-open-data/index.rst:28
+msgid "Innovation"
+msgstr "Καινοτομία"
+
+# 1cf354f7245a4e09b32be3c8bbbcaa12
+#: ../../source/why-open-data/index.rst:29
+msgid "Improved efficiency of government services"
+msgstr "Βελτιωμένη αποδοτικότητα των κυβερνητικών υπηρεσιών"
+
+# becfeefd9faf4cf5a9b54fd289d0af5f
+#: ../../source/why-open-data/index.rst:30
+msgid "Improved effectiveness of government services"
+msgstr "Βελτιωμένη αποτελεσματικότητα των κυβερνητικών υπηρεσιών"
+
+# 56661952af514a6783404034e39e9145
+#: ../../source/why-open-data/index.rst:31
+msgid "Impact measurement of policies"
+msgstr "Μέτρηση του αντίκτυπου των πολιτικών που εφαρμόζονται"
+
+# 81a1d8c9c8de42a38b06e212e26a18eb
+#: ../../source/why-open-data/index.rst:32
+msgid ""
+"New knowledge from combined data sources and patterns in large data volumes"
+msgstr "Νέα γνώση από συνδυασμό διαφορετικών πηγών σε μεγάλους όγκους δεδομένων"
+
+# 653cba4974784fc397e901d402246323
+#: ../../source/why-open-data/index.rst:35
+msgid "Examples exist for most of these areas."
+msgstr "Ακολοθούν ήδη υπάρχοντα παραδείγματα από αυτούς τους τομείς:"
+
+# 9483b02f9be049e5aae8b43b3c1ee9e0
+#: ../../source/why-open-data/index.rst:37
+msgid ""
+"In terms of transparency, projects such as the Finnish ‘tax tree’ and "
+"British ‘where does my money go’ show how your tax money is being spent by "
+"the government. And there’s the example of how open data saved Canada $3.2 "
+"billion in charity tax fraud. Also various websites such as the Danish "
+"folketsting.dk track activity in parliament and the law making processes, so"
+" you can see what exactly is happening, and which parliamentarians are "
+"involved."
+msgstr "Όσον αφορά τη διαφάνεια, προγράμματα όπως το Φινλανδικό ‘tax tree’ (το δέντρο των φόρων) και το βρετανικό ‘where does my money go’ (πού πάνε τα λεφτά μου) δείχνουν με ποιον τρόπο χρησιμοποιούνται από τις κυβερνήσεις τα χρήματα των φορολογουμένων. Επιπλέον, υπάρχει το παράδειγμα του Καναδά που, χάρη στα Ανοιχτά Δεδομένα, κατάφερε να εξοικονομήσει $3,2 δισεκατομμύρια, από φορολογικές απάτες μέσω φιλανθρωπιών. Επίσης, πολλές ιστοσελίδες, όπως η δανέζικη folketsting.dk, καταγράφουν τη δραστηριότητα στο κοινοβούλιο και τη διαδικασία ψήφισης νόμων, ώστε ο καθένας να μπορεί να παρακολουθεί τι γίνεται και ποιοι βουλευτές εμπλέκονται. "
+
+# 96fa2e2f8d3346ba8f75c1744678079d
+#: ../../source/why-open-data/index.rst:45
+msgid ""
+"Open government data can also help you to make better decisions in your own "
+"life, or enable you to be more active in society. A woman in Denmark built "
+"findtoilet.dk, which showed all the Danish public toilets, so that people "
+"she knew with bladder problems can now trust themselves to go out more "
+"again. In the Netherlands a service, vervuilingsalarm.nl, is available which"
+" warns you with a message if the air-quality in your vicinity is going to "
+"reach a self-defined threshold tomorrow. In New York you can easily find out"
+" where you can walk your dog, as well as find other people who use the same "
+"parks. Services like ‘mapumental’ in the UK and ‘mapnificent’ in Germany "
+"allow you to find places to live, taking into account the duration of your "
+"commute to work, housing prices, and how beautiful an area is. All these "
+"examples use open government data."
+msgstr "Τα ανοιχτά κυβερνητικά δεδομένα μπορούν, επίσης, να βοηθήσουν στη λήψη καλύτερων αποφάσεων στην ιδιωτική ζωή κάποιου, ή να τον ωθήσουν ώστε να είναι πιο ενεργός πολίτης. Μία γυναίκα στη Δανία δημιούργησε το findtoilet.dk, που προβάλλει όλες τις δανέζικες δημόσιες τουαλέτες, έτσι ώστε οι γνωστοί της με κυστικά προβλήματα να μπορούν να νιώθουν περισσότερη σιγουριά όταν κυκλοφορούν. Στην Ολλανδία, υπάρχει διαθέσιμη η υπηρεσία vervuilingsalarm.nl, που σε προειδοποιεί με ένα μήνυμα εάν η ποιότητα της ατμόσφαιρας στη γύρω περιοχή θα ξεπεράσει, την επόμενη μέρα, ένα όριο που μπορεί κανείς να ορίσει. Στη Νέα Υόρκη, μπορεί κάποιος εύκολα να βρει μέρη για να βγάλει βόλτα το σκύλο του, καθώς και άλλους ανθρώπους που χρησιμοποιούν τα ίδια πάρκα. Άλλες υπηρεσίες, όπως η ‘mapumental’ στο Ηνωμένο Βασίλειο και η ‘mapnificent’ στη Γερμανία, επιτρέπουν την εύρεση κατοικιών, λαμβάνοντας υπόψη τη διάρκεια της εργασίας, τις τιμές των ακινήτων και το πόσο όμορφη είναι μια περιοχή. Όλα αυτά τα παραδείγματα χρησιμοποιούν ανοιχτά κυβερνητικά δεδομένα. "
+
+# 9d1f0242695c4eb08a8c1bcfcc8d4743
+#: ../../source/why-open-data/index.rst:58
+msgid ""
+"Economically, open data is of great importance as well. Several studies have"
+" estimated the economic value of open data at several tens of billions of "
+"Euros annually in the EU alone. New products and companies are re-using open"
+" data. The Danish husetsweb.dk helps you to find ways of improving the "
+"energy efficiency of your home, including financial planning and finding "
+"builders who can do the work. It is based on re-using cadastral information "
+"and information about government subsidies, as well as the local trade "
+"register. Google Translate uses the enormous volume of EU documents that "
+"appear in all European languages to train the translation algorithms, thus "
+"improving its quality of service."
+msgstr "Από οικονομικής άποψης, τα Ανοιχτά Δεδομένα έχουν, επίσης μεγάλη σημασία. Πολλές μελέτες εκτίμησαν την οικονομική αξία των Ανοιχτών Δεδομένων σε αρκετές δεκάδες δισεκατομμύρια ευρώ ετησίως, μόνο στην Ευρωπαική Ένωση. Νέα προϊόντα και εταιρείες επανα-χρησιμοποιούν τα Ανοιχτά Δεδομένα. Η δανέζικη husetsweb.dk βοηθά να βρει κανείς τρόπους ώστε να βελτιώσει την ενεργειακή αποδοτικότητα του σπιτιού του, συμπεριλαμβάνοντας τον οικονομικό προγραμματισμό και την εύρεση εργατών που μπορούν να υλοποιήσουν τις εργασίες. Βασίζεται στην επανα-χρησιμοποίηση κτηματολογικών πληροφοριών,πληροφοριών σχετικά με κυβερνητικές επιδοτήσεις, όπως επίσης και πληροφορίες από το τοπικό Εμπορικό Επιμελητήριο. Το Google Translate χρησιμοποιεί τον τεράστιο όγκο των ευρωπαϊκών εγγράφων, που υπάρχουν σε όλες τις ευρωπαϊκές γλώσσες, για την «εκπαίδευση» των αλγορίθμων του, βελτιώνοντας, συνεπώς, την ποιότητα των υπηρεσιών του. "
+
+# 457121fdf06c40558e92b439276954b8
+#: ../../source/why-open-data/index.rst:69
+msgid ""
+"Open data is also of value for government itself. For example, it can "
+"increase government efficiency. The Dutch Ministry of Education has "
+"published all of their education-related data online for re-use. Since then,"
+" the number of questions they receive has dropped, reducing work-load and "
+"costs, and the remaining questions are now also easier for civil servants to"
+" answer, because it is clear where the relevant data can be found. Open data"
+" is also making government more effective, which ultimately also reduces "
+"costs. The Dutch department for cultural heritage is actively releasing "
+"their data and collaborating with amateur historical societies and groups "
+"such as the Wikimedia Foundation in order to execute their own tasks more "
+"effectively. This not only results in improvements to the quality of their "
+"data, but will also ultimately make the department smaller."
+msgstr "Τα Ανοιχτά Δεδομένα έχουν μεγάλη αξία και για τις ίδιες τις κυβερνήσεις, αφού μπορούν να αυξήσουν την αποδοτικότητά τους. Το Ολλανδικό Υπουργείο Παιδείας δημοσιοποιεί όλα τα δεδομένα σχετικά με την εκπαίδευση στο διαδίκτυο, για επαναχρησιμοποίηση. Από τότε, ο αριθμός των ερωτήσεων που δέχονται μειώθηκε, μειώνοντας μαζί τον φόρτο εργασίας και το κόστος από τη μια μεριά, ενώ από την άλλη μεριά, οι εναπομείνασες ερωτήσεις είναι πλέον ευκολότερο να απαντηθούν από τους υπαλλήλους, αφού είναι απλούστερο να βρουν τα σχετικά δεδομένα. Τα Ανοιχτά Δεδομένα κάνουν τις κυβερνήσεις αποτελεσματικότερες, περιορίζοντας το κόστος λειτουργίας τους. Το ολλανδικό Υπουργείο Πολιτιστικής Κληρονομιάς ασχολείται ενεργά με την δημοσιοποίηση των δεδομένων του και συνεργάζεται με ερασιτεχνικές ομάδες ιστορικών, όπως η Wikimedia Foundation, προκειμένου να φέρει εις πέρας τις δικές τις εργασίες, πιο αποτελεσματικά. Αυτό, όχι μόνο συμβάλλει στη βελτίωση της ποιότητας των δεδομένων της, αλλά θα συντελέσει τελικά και στο περιορισμό του μεγέθους του."
+
+# 0f11bae8272f45e4b2290c2beef0e248
+#: ../../source/why-open-data/index.rst:83
+msgid ""
+"While there are numerous instances of the ways in which open data is already"
+" creating both social and economic value, we don’t yet know what new things "
+"will become possible. New combinations of data can create new knowledge and "
+"insights, which can lead to whole new fields of application. We have seen "
+"this in the past, for example when Dr. Snow discovered the relationship "
+"between drinking water pollution and cholera in London in the 19th century, "
+"by combining data about cholera deaths with the location of water wells. "
+"This led to the building of London’s sewage systems, and hugely improved the"
+" general health of the population. We are likely to see such developments "
+"happening again as unexpected insights flow from the combination of "
+"different open data sets."
+msgstr "Ενώ υπάρχουν αμέτρητες περιπτώσεις όπου τα ανοιχτά δεδομένα προσθέτουν αξία τόσο κοινωνικά όσο και οικονομικά, στην πραγματικότητα δεν είμαστε σε θέση να γνωρίζουμε ποιες νέες ευκαιρίες θα εμφανιστούν. Νέοι συνδυασμοί δεδομένων δημιουργούν νέα γνώση και ιδέες, που μπορεί να οδηγήσουν σε ολότελα νέες περιοχές εφαρμογής. Κάτι τέτοιο έχει συμβεί και στο παρελθόν όταν, για παράδειγμα, ο Δρ Snow ανακάλυψε τη σχέση μεταξύ της πόσης μολυσμένου νερού και της χολέρας στο Λονδίνο του 19ου αιώνα, συνδυάζοντας δεδομένα σχετικά με τους θανάτους από χολέρα με δεδομένα για τη θέση των πηγαδιών. Αυτό οδήγησε στην κατασκευή του λονδρέζικου αποχετευτικού συστήματος, που βελτίωσε αισθητά την υγεία του πληθυσμού. Είναι πολύ πιθανό να δούμε τέτοιες εξελίξεις να συμβαίνουν ξανά, ως απροσδόκητες λογικές συνεπαγωγές, από το συνδυασμό διαφορετικών συνόλων Ανοιχτών Δεδομένων. "
+
+# db07f40141dc4077a0390c1699f892ea
+#: ../../source/why-open-data/index.rst:94
+msgid ""
+"This untapped potential can be unleashed if we turn public government data "
+"into open data. This will only happen, however, if it is really open, i.e. "
+"if there are no restrictions (legal, financial or technological) to its re-"
+"use by others. Every restriction will exclude people from re-using the "
+"public data, and make it harder to find valuable ways of doing that. For the"
+" potential to be realized, public data needs to be open data."
+msgstr "Αυτά τα ανεκμετάλλευτα ενδεχόμενα θα μπορέσουν να πυροδοτηθούν εάν εμείς μετατρέψουμε τα δημόσια κυβερνητικά δεδομένα σε Ανοιχτά Δεδομένα. Ωστόσο, αυτό θα μπορέσει να συμβεί, μόνο αν είναι πραγματικά ανοιχτά, δηλαδή αν δεν υπάρχουν περιορισμοί (νομικοί, οικονομικοί ή τεχνολογικοί) στην επαναχρησιμοποίησή τους από άλλους. Κάθε περιορισμός θα καταστήσει δυσκολότερη την εύρεση αξιόλογων τρόπων επαναχρησιμοποίησής τους και θα οδηγήσει στον αποκλεισμό των ανθρώπων από αυτήν. Προκειμένου να γίνουν αυτές οι δυνατότητες πραγματικότητα, τα δημόσια δεδομένα πρέπει να είναι Ανοιχτά Δεδομένα. "
+
+# ec853486f23a49c69f29cf7a961642d7
+#: ../../source/what-is-open-data/index.rst:3
+msgid "What is Open Data?"
+msgstr "    Τι είναι τα Ανοιχτά Δεδομένα;"
+
+# efa5f439bd844c199263171e3b7221e5
+#: ../../source/what-is-open-data/index.rst:5
+msgid ""
+"This handbook is about *open data* but what exactly is it? In particular "
+"what makes *open* data open, and what sorts of data are we talking about?"
+msgstr "Αυτό το εγχειρίδιο αφορά τα *Ανοιχτά Δεδομένα*, αλλά τι ακριβώς είναι τα Ανοιχτά Δεδομένα; Ειδικότερα, τι κάνει τα *Ανοιχτά* Δεδομένα «ανοιχτά» και σε τι είδη δεδομένων αναφερόμαστε;"
+
+# 0d5a24d826714df497b1f531ec72438c
+#: ../../source/what-is-open-data/index.rst:9
+msgid "What is Open?"
+msgstr "Τι είναι ανοιχτά;"
+
+# 284d03bb80b14254bb9219ad19d33070
+#: ../../source/what-is-open-data/index.rst:11
+msgid ""
+"This handbook is about open data - but what exactly is *open* data? For our "
+"purposes, open data is as defined by the `Open Definition`_:"
+msgstr "Αυτό το εγχειρίδιο αφορά τα *Ανοιχτά Δεδομένα*, αλλά τι ακριβώς είναι τα Ανοιχτά Δεδομένα; Για τους σκοπούς μας, τα ανοικτά δεδομένα ορίζονται από τον  \"Ανοικτό Ορισμό\"_:"
+
+# 0ec56db1f5bd4d16844482d013167141
+#: ../../source/what-is-open-data/index.rst:14
+msgid ""
+"*Open data is data that can be freely used, re-used and redistributed by "
+"anyone - subject only, at most, to the requirement to attribute and "
+"sharealike.*"
+msgstr "Ανοιχτά είναι τα δεδομένα που μπορούν ελεύθερα να χρησιμοποιηθούν, να επαναχρησιμοποιηθούν και να αναδιανεμηθούν από οποιονδήποτε – υπό τον όρο να γίνεται αναφορά στους δημιουργούς και να διατίθενται, με τη σειρά τους, υπό τους ίδιους όρους. "
+
+# de8b334143c446fa9ca118ec924cdaba
+#: ../../source/what-is-open-data/index.rst:18
+msgid ""
+"The `full Open Definition`_ gives precise details as to what this means. To "
+"summarize the most important:"
+msgstr "Ο πλήρης ορισμός, που βρίσκεται στο \"Open Definition\", προσφέρει περισσότερες πληροφορίες. Συνοψίζοντας τις σημαντικότερες: "
+
+# d6661c08a66e4657baccc415e4d94d85
+#: ../../source/what-is-open-data/index.rst:21
+msgid ""
+"**Availability and Access:** the data must be available as a whole and at no"
+" more than a reasonable reproduction cost, preferably by downloading over "
+"the internet. The data must also be available in a convenient and modifiable"
+" form."
+msgstr "**Διαθεσιμότητα και Προσβασιμότητα**: Τα δεδομένα πρέπει να είναι διαθέσιμα αυτούσια, να έχουν ένα λογικό κόστος αναπαραγωγής, και κατά προτίμηση να είναι διαθέσιμα για λήψη από το Διαδίκτυο. Επίσης, πρέπει να είναι διαθέσιμα σε κάποια μορφή πρακτικά αναγνώσιμη."
+
+# 69c79a7dbacb4a3f8901fde80bc925f3
+#: ../../source/what-is-open-data/index.rst:25
+msgid ""
+"**Re-use and Redistribution:** the data must be provided under terms that "
+"permit re-use and redistribution including the intermixing with other "
+"datasets."
+msgstr "**Επαναχρησιμοποίηση και Αναδιανομή*: Τα δεδομένα θα πρέπει να είναι διαθέσιμα υπό όρους που επιτρέπουν την επαναχρησιμοποίηση και την αναδιανομή τους, συμπεριλαμβανομένης και της ανάμειξης με άλλα σύνολα δεδομένων. "
+
+# ccbddaecb0324318960d141f73934293
+#: ../../source/what-is-open-data/index.rst:28
+msgid ""
+"**Universal Participation:** everyone must be able to use, re-use and "
+"redistribute - there should be no discrimination against fields of endeavour"
+" or against persons or groups. For example, ‘non-commercial’ restrictions "
+"that would prevent ‘commercial’ use, or restrictions of use for certain "
+"purposes (e.g. only in education), are not allowed."
+msgstr "**Καθολική Συμμετοχή**: Καθένας πρέπει να μπορεί να χρησιμοποιήσει, να επαναχρησιμοποιήσει και να αναδιανείμει τα δεδομένα. Δεν πρέπει αυτά να υπόκεινται σε διακρίσεις με βάση τον τομέα δραστηριότητας ή τα πρόσωπα και τις ομάδες. Για παράδειγμα, περιορισμοί για «μη-εμπορική χρήση» ή περιορισμοί για χρήση μόνο για συγκεκριμένους σκοπούς (π.χ. μόνο στην εκπαίδευση) δεν είναι επιτρεπτοί. "
+
+# 0feddc4ae9b748dfbac21561a011623d
+#: ../../source/what-is-open-data/index.rst:34
+msgid ""
+"If you’re wondering why it is so important to be clear about what open means"
+" and why this definition is used, there’s a simple answer: "
+"**interoperability.**"
+msgstr "Αν κάποιος αναρωτιέται γιατί είναι τόσο σημαντικό να είναι σαφές τι σημαίνει Ανοιχτά Δεδομένα και σε τι είναι χρήσιμος αυτός ο ορισμός, υπάρχει μια απλή απάντηση: η διαλειτουργικότητα."
+
+# dfe720d0914442ad96bfd683d39a3a0d
+#: ../../source/what-is-open-data/index.rst:38
+msgid ""
+"Interoperability denotes the ability of diverse systems and organizations to"
+" work together (inter-operate). In this case, it is the ability to "
+"interoperate - or intermix - different datasets."
+msgstr "Η διαλειτουργικότητα δηλώνει τη δυνατότητα διαφορετικών συστημάτων να λειτουργούν μαζί (διαλειτουργούν). Σε αυτή τη συγκεκριμένη περίπτωση, γίνεται αναφορά στη δυνατότητα να διαλειτουργούν –ή να αναμειγνύουν- διαφορετικά σύνολα δεδομένων. "
+
+# 04e5ebc429754b8f8335a6f36f11f348
+#: ../../source/what-is-open-data/index.rst:42
+msgid ""
+"Interoperability is important because it allows for different components to "
+"work together. This ability to componentize and to ‘plug together’ "
+"components is essential to building large, complex systems. Without "
+"interoperability this becomes near impossible — as evidenced in the most "
+"famous myth of the Tower of Babel where the (in)ability to communicate (to "
+"interoperate) resulted in the complete breakdown of the tower-building "
+"effort."
+msgstr "Η διαλειτουργικότητα είναι σημαντική επειδή επιτρέπει στις διαφορετικές συνιστώσες να λειτουργούν μαζί. Αυτή η δυνατότητα διαμοίρασης και σύνδεσης συνιστωσών έχει θεμελιώδη σημασία για τη δόμηση μεγαλύτερων και πιο πολύπλοκων συστημάτων. Χωρίς τη δυνατότητα διαλειτουργικότητας αυτό γίνεται σχεδόν αδύνατο – απόδειξη η διάσημη ιστορία του Πύργου της Βαβέλ, όπου η αδυναμία επικοινωνίας (διαλειτουργίας) οδήγησε στην ολοκληρωτική κατάρρευση της προσπάθειας οικοδόμησής του."
+
+# a27e57d5f3414020af50c490a0fc4717
+#: ../../source/what-is-open-data/index.rst:50
+msgid ""
+"We face a similar situation with regard to data. The core of a “commons” of "
+"data (or code) is that one piece of “open” material contained therein can be"
+" freely intermixed with other “open” material. This interoperability is "
+"absolutely key to realizing the main practical benefits of “openness”: the "
+"dramatically enhanced ability to combine different datasets together and "
+"thereby to develop more and better products and services (these benefits are"
+" discussed in more detail in the section on ‘why’ open data)."
+msgstr "Παρόμοιες προκλήσεις αντιμετωπίζονται και σε σχέση με τα δεδομένα. Ο πυρήνας της «κοινής ωφέλειας» που βρίσκεται σε δεδομένα (ή κώδικα) έγκειται στο γεγονός ότι ένα τμήμα ανοικτού υλικού που περιέχουν μπορεί να αναμειχθεί με άλλο ανοικτό υλικό. Αυτή η διαλειτουργικότητα είναι το απαραίτητο κλειδί για τη πραγματοποίηση των κύριων πρακτικών πλεονεκτημάτων της έννοιας «Ανοιχτά», δηλαδή τη δραματικά εμπλουτισμένη δυνατότητα να συνδυάζεις διαφορετικά σύνολα δεδομένων και ως εκ τούτου να αναπτύσσεις περισσότερα και καλύτερα προϊόντα και υπηρεσίες. Αυτά τα πλεονεκτήματα συζητούνται περισσότερο στην ενότητα «Γιατί Ανοιχτά Δεδομένα»."
+
+# 9613f20a0c754c988418bb739c6bf147
+#: ../../source/what-is-open-data/index.rst:59
+msgid ""
+"Providing a clear definition of openness ensures that when you get two open "
+"datasets from two different sources, you will be able to combine them "
+"together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
+"datasets but little or no ability to combine them together into the larger "
+"systems where the real value lies.**"
+msgstr "Ένας σαφής ορισμός για την έννοια «Ανοιχτά» εγγυάται ότι, όταν κάποιος θα έχει δύο ανοιχτά σύνολα δεδομένων από δύο διαφορετικές πηγές, θα είναι σε θέση να τα συνδυάσει και, επίσης, εγγυάται ότι **αποφεύγουμε το δικό μας Πύργο της Βαβέλ: πολλά δεδομένα αλλά περιορισμένη ή καθόλου δυνατότητα για το συνδυασμό τους σε μεγαλύτερα συστήματα, όπου αναδεικνύεται η πραγματική τους αξία.**"
+
+# 3a713e7bdcd744efa87d1f18017c2fc2
+#: ../../source/what-is-open-data/index.rst:71
+msgid "What Data are You Talking About?"
+msgstr "Σε τι δεδομένα αναφερόμαστε; "
+
+# e425f13a261d4556bb1961b71da2bdd8
+#: ../../source/what-is-open-data/index.rst:73
+msgid ""
+"Readers have already seen examples of the sorts of data that are or may "
+"become open - and they will see more examples below. However, it will be "
+"useful to quickly outline what sorts of data are, or could be, open -- and, "
+"equally importantly, what won’t be open."
+msgstr "Οι αναγνώστες αυτού του εγχειριδίου έχουν ήδη διαβάσει αρκετά παραδείγματα από διαφορετικά είδη δεδομένων που είναι ή μπορούν να γίνουν «Ανοιχτά» - και θα διαβάσουν περισσότερα παραδείγματα, παρακάτω. Ωστόσο, θα ήταν χρήσιμο να γίνει, σε αυτό το σημείο, μία σύντομη σκιαγράφηση των ειδών των δεδομένων που είναι ή που μπορεί να είναι ανοιχτά – και, εξίσου σημαντικό είναι να αναφερθούν ποια δεδομένα δε μπορούν να είναι «Ανοιχτά»."
+
+# b3184f4d4cd74be7a8bb72c19ae59d0a
+#: ../../source/what-is-open-data/index.rst:78
+msgid ""
+"The key point is that when opening up data, the focus is on non-personal "
+"data, that is, data which does not contain information about specific "
+"individuals."
+msgstr "Το σημείο κλειδί έγκειται στο ότι, όταν «ανοίγει» κάποιος τα δεδομένα, στο επίκεντρο πρέπει να βρίσκονται μόνο μη-προσωπικά δεδομένα, δηλαδή δεδομένα που δεν περιέχουν πληροφορίες για συγκεκριμένα άτομα. "
+
+# a71aa0d4b7d444c8b67cc9b635b54c45
+#: ../../source/what-is-open-data/index.rst:82
+msgid ""
+"Similarly, for some kinds of government data, national security restrictions"
+" may apply."
+msgstr "Όμοια, για ορισμένα είδη κυβερνητικών δεδομένων, μπορεί να ισχύουν περιορισμοί εθνικής ασφάλειας. "
+
+# 35a624b81cd14bc09c5646f0b348179e
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
+msgid "Apply an Open License (Legal Openness)"
+msgstr "Εφαρμόστε μία «Ανοιχτή» Άδεια (νομική ανοικτότητα)"
+
+# e7dcffe8d7d44c5d93225ccf279b1ee6
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
+msgid ""
+"In most jurisdictions there are intellectual property rights in data that "
+"prevent third-parties from using, reusing and redistributing data without "
+"explicit permission. Even in places where the existence of rights is "
+"uncertain, it is important to apply a license simply for the sake of "
+"clarity. Thus, **if you are planning to make your data available you should "
+"put a license on it** – and if you want your data to be `open`_ this is even"
+" more important."
+msgstr "Στους περισσότερους τομείς, τα δεδομένα προστατεύονται από δικαιώματα περί πνευματικής ιδιοκτησίας, αποτρέποντας τη χρήση, επαναχρησιμοποίηση και αναδιανομή από τρίτους, χωρίς ρητή άδεια. Ακόμα και στις περιπτώσεις όπου η ύπαρξη σχετικών δικαιωμάτων είναι αβέβαιη, είναι σημαντικό να εφαρμοστεί κάποια άδεια απλά και μόνο για λόγους σαφήνειας. Συνεπώς, αν σκοπεύετε να καταστήσετε τα δεδομένα σας διαθέσιμα, θα πρέπει να εφαρμόσετε κάποια άδεια σε αυτά και αν επιθυμείτε τα δεδομένα σας να είναι ανοιχτά, αυτό είναι ακόμα πιο σημαντικό."
+
+# 5e7dc13604fa4f95890ca0e9b8144d81
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
+msgid ""
+"What licenses can you use? We recommend that for 'open' data you use one of "
+"the licenses conformant with the `Open Definition`_ and marked as suitable "
+"for data. This list (along with instructions for usage) can be found at:"
+msgstr "Τι είδους άδειες μπορείτε να χρησιμοποιήσετε; Συνίσταται για Ανοιχτά Δεδομένα να χρησιμοποιήσετε μία από τις άδειες που συμμορφώνεται με το “Open Definition” και είναι καταγεγραμμένη ως κατάλληλη για δεδομένα. Η λίστα (μαζί με τις οδηγίες χρήσης) μπορεί να βρεθεί στην ακόλουθη διεύθυνση:"
+
+# 6c204c0188eb4967bd7ec5c9b9e29663
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
+msgid "http://opendefinition.org/licenses/"
+msgstr "http://opendefinition.org/licenses/"
+
+# 81d0ed1bbb9b4221a6dfad0b8984cdd7
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:22
+msgid ""
+"A short 1-page instruction guide to applying an open data license can be "
+"found on the Open Data Commons site:"
+msgstr "Σύντομες, μονοσέλιδες οδηγίες για την εφαρμογή μίας άδειας για Ανοιχτά Δεδομένα μπορούν να βρεθούν στην ιστοσελίδα του Open Data Commons: "
+
+# 134eda3fcb1e4ea9a9a3849ab64bdf61
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
+msgid "http://opendatacommons.org/guide/"
+msgstr "http://opendatacommons.org/guide/"
+
+# b747964567d643b082dc522af2471c0f
+#: ../../source/how-to-open-up-data/choose-datasets.rst:3
+msgid "Choose Dataset(s)"
+msgstr "Επιλέξτε τα σύνολα των δεδομένων"
+
+# 6fb7221c6835486c8ba3a96616edf6b8
+#: ../../source/how-to-open-up-data/choose-datasets.rst:5
+msgid ""
+"Choosing the dataset(s) you plan to make open is the first step – though "
+"remember that the whole process of opening up data is iterative and you can "
+"return to this step if you encounter problems later on."
+msgstr "Η επιλογή των συνόλων των δεδομένων που επιθυμείτε να «ανοίξετε» είναι το πρώτο βήμα. Μην ξεχνάτε ότι όλη η διαδικασία του ανοίγματος των δεδομενών είναι επαναληπτική και μπορεί να χρειαστεί να επιστρέψετε σε αυτό το βήμα εάν αντιμετωπίσετε κάποιο πρόβλημα αργότερα. "
+
+# 4a60d2eea7674a6daa86b7d785936908
+#: ../../source/how-to-open-up-data/choose-datasets.rst:9
+msgid ""
+"If you already know exactly what dataset(s) you plan to open up you can move"
+" straight on to the next section. However, in many cases, especially for "
+"large institutions, choosing which datasets to focus on is a challenge. How "
+"should one proceed in this case?"
+msgstr "Εάν γνωρίζετε ήδη ποια ακριβώς δεδομένα σκοπεύετε να «ανοίξετε», μπορείτε να προχωρήσετε απευθείας στην επόμενη ενότητα. Ωστόσο, σε πολλές περιπτώσεις, ειδικά σε μεγάλους οργανισμούς, η επιλογή των δεδομένων, στα οποία θα επικεντρωθείτε, είναι πρόκληση. Πώς θα πρέπει να προχωρήσει κανείς σε τέτοιες περιπτώσεις;"
+
+# 562f01d73511431eb5923bbd318fb284
+#: ../../source/how-to-open-up-data/choose-datasets.rst:14
+msgid ""
+"Creating this list should be a quick process that identifies which datasets "
+"could be made open to start with. There will be time at later stages to "
+"check in detail whether each dataset is suitable."
+msgstr "Η ανάπτυξη μιας λίστας συνόλων δεδομένων θα πρέπει να είναι μια γρήγορη διαδικασία, που θα αναγνωρίζει ποια σύνολα δεδομένων θα ήταν προτιμότερο να γίνουν πρώτα «ανοιχτά». Αργότερα, θα υπάρχουν τα περιθώρια να ελέγξετε αν κάθε σύνολο δεδομένων είναι κατάλληλο ή όχι, για να γίνει «ανοιχτό» "
+
+# 0da9e433147142ec890f7d6ea919d666
+#: ../../source/how-to-open-up-data/choose-datasets.rst:18
+msgid ""
+"There is **no requirement** to create a comprehensive list of your datasets."
+" The main point to bear in mind is whether it is feasible to publish this "
+"data at all (whether openly or otherwise) - see :ref:`this previous section "
+"<what-data-can-be-open>`."
+msgstr "**Δεν είναι προαπαιτούμενο να αναπτυχθεί μια διεξοδική λίστα με όλα τα σύνολα δεδομένων σας. Ο κεντρικός στόχος είναι η δημοσιοποίηση αυτών των δεδομένων (είτε «ανοιχτά» είτε όχι) – δείτε την ενότητα «Τι είναι τα Ανοιχτά Δεδομένα» παραπάνω."
+
+# e56d16680b2846ab8ababb059eaaf4cb
+#: ../../source/how-to-open-up-data/choose-datasets.rst:24
+msgid "Asking the community"
+msgstr "Επικοινωνώντας με την κοινότητα"
+
+# a01321c596e048ac890c7771648a27c9
+#: ../../source/how-to-open-up-data/choose-datasets.rst:26
+msgid ""
+"We recommend that you ask the community in the first instance. That is the "
+"people who will be accessing and using the data, as they are likely to have "
+"a good understanding of which data could be valuable."
+msgstr "Η επικοινωνία με την κοινότητα συνίσταται από την πρώτη στιγμή. Επικοινωνήστε με τους ανθρώπους που πρόκειται να χρησιμοποιήσουν τα δεδομένα και είναι σε θέση να κατανοούν καλύτερα ποια δεδομένα είναι πολύτιμα."
+
+# 444b3c328660471c8c6dc51d89d0cc2c
+#: ../../source/how-to-open-up-data/choose-datasets.rst:30
+msgid ""
+"Prepare a short list of potential datasets that you would like feedback on. "
+"It is not essential that this list concurs with your expectations, the main "
+"intention is to get a feel for the demand. This could be based on other "
+"countries' :term:`open data` catalogs."
+msgstr "Προετοιμάστε μία σύντομη λίστα με πιθανά σύνολα δεδομένων για τα οποία θα σας ενδιέφερε να έχετε ανάδραση (feedback). Δεν είναι απαραίτητο η λίστα αυτή να συμφωνεί με τις προσδοκίες σας. Η κύρια πρόθεσή σας είναι να κατανοήσετε τις ανάγκες. Η λίστα θα μπορούσε να βασιστεί και σε καταλόγους :term:`«ανοιχτών» δεδομένων` από άλλες χώρες. "
+
+# 6cd8b5c44b4f49ccabbe7a1087df9d11
+#: ../../source/how-to-open-up-data/choose-datasets.rst:36
+msgid "Create a request for comment."
+msgstr "Σχεδιάστε μια πρόσκληση για σχόλια."
+
+# 477a8715f16743f3b88eeddaa380d236
+#: ../../source/how-to-open-up-data/choose-datasets.rst:38
+msgid ""
+"Publicise your request with a webpage. Make sure that it is possible to "
+"access the request through its own URL. That way, when shared via social "
+"media, the request can be easily found."
+msgstr "Δημοσιοποιήστε την πρόσκλησή σας σε μία ιστοσελίδα. Φροντίστε η πρόσκληση να είναι προσβάσιμη με το δικό της URL. Με αυτόν τον τρόπο, όταν διαμοιράζεται από τα social media, το URL είναι εύκολο να βρεθεί."
+
+# 5fe5f7e31b1a478f8889730e3eb81077
+#: ../../source/how-to-open-up-data/choose-datasets.rst:42
+msgid ""
+"Provide easy ways to submit responses. Avoid requiring registration, as it "
+"reduces the number of responses."
+msgstr "Προσφέρετε εύκολους τρόπους υποβολής απαντήσεων. Αποφύγετε την απαίτηση εγγραφής, καθώς αυτό μειώνει των αριθμό των απαντήσεων. "
+
+# 26a1ebc54df04e69b875a56e46711d39
+#: ../../source/how-to-open-up-data/choose-datasets.rst:45
+msgid ""
+"Circulate the request to relevant mailing lists, forums and individuals, "
+"pointing back to the main webpage."
+msgstr "Διανέμετε την πρόσκληση σε σχετικές mailing lists, forums και μεμονωμένα άτομα, επισημαίνοντας την κύρια ιστοσελίδα."
+
+# b2f5c26e2d4b490bb6b7a5072214a765
+#: ../../source/how-to-open-up-data/choose-datasets.rst:48
+msgid ""
+"Run a consultation event. Make sure you run it at a convenient time where "
+"the average business person, data wrangler and official can attend."
+msgstr "Οργανώστε μία συνάντηση για διαβούλευση. Βεβαιωθείτε ότι το οργανώσατε σε κατάλληλη ώρα, ώστε να μπορεί να το παρακολουθήσει ο μέσος επιχειρηματίας, ο ειδικός στα δεδομένα (data wrangler) ή ο υπάλληλος κτλ."
+
+# fe8082ba724f4e2481a8ab2a42544a98
+#: ../../source/how-to-open-up-data/choose-datasets.rst:52
+msgid ""
+"Ask a politician to speak on your agency's behalf. Open data is very likely "
+"to be part of a wider policy of increasing access to government information."
+msgstr "Ζητήστε συνάντηση με κάποιον πολιτικό, για να μιλήσετε εκ μέρους της υπηρεσίας σας. Τα ανοιχτά δεδομένα είναι πολύ πιθανό να αποτελούν μέρος μιας ευρύτερης πολιτικής για αυξανόμενη πρόσβαση στις κυβερνητικές πληροφορίες."
+
+# 97be10325f6e46a0a18c93844711c295
+#: ../../source/how-to-open-up-data/choose-datasets.rst:57
+msgid "Cost basis"
+msgstr "Βάση κόστους"
+
+# c546923078d14fe782f517d573aac12a
+#: ../../source/how-to-open-up-data/choose-datasets.rst:59
+msgid ""
+"How much money do agencies spend on the collection and maintainence of data "
+"that they hold? If they spend a great deal on a particular set of data, then"
+" it is highly likely that others would like to access it."
+msgstr "Πόσο κόστος έχει για τις υπηρεσίες να συλλέξουν και να συντηρήσουν τα δεδομένα που κατέχουν; Αν όντως το κόστος για ένα συγκεκριμένο σύνολο δεδομένων είναι υψηλό, τότε είναι πολύ πιθανόν υπάρχουν τρίτοι που επιθυμούν να το χρησιμοποιήσουν."
+
+# cdc1c699f81641e3b62d4c407ef2fc83
+#: ../../source/how-to-open-up-data/choose-datasets.rst:63
+msgid ""
+"This argument may be fairly susceptible to concerns of freeriding. The "
+"question you will need to respond to is, \"Why should other people get "
+"information for free that is so expensive?\". The answer is that the expense"
+" is absorbed by the public sector to perform a particular function. The cost"
+" of sending that data, once it has been collected, to a third party is "
+"approximately nothing. Therefore, they should be charged nothing."
+msgstr "Αυτό το επιχείρημα μπορεί να είναι αρκετά ευάλωτο στις ανησυχίες για καιροσκοπική εκμετάλλευση. Η ερώτηση που ενδεχομένως να χρήζει απάντησης είναι: «Γιατί τρίτοι θα πρέπει να μπορούν να έχουν δωρεάν πρόσβαση σε πληροφορίες που είναι τόσο ακριβές;». Η απάντηση έχει ως εξής: Η δαπάνη καλύπτεται από το δημόσιο τομέα για να εκτελεστει κάποια ειδική λειτουργία. Το κόστος της αποστολής των δεδομένων σε τρίτους, όταν πια έχουν συλλεχθεί, είναι σχεδόν μηδαμινό. Συνεπώς, δε θα έπρεπε να έχουν κάποια χρέωση. "
+
+# b7978bdbcba74480b3aedfb5aa436caf
+#: ../../source/how-to-open-up-data/choose-datasets.rst:71
+msgid "Ease of release"
+msgstr "Εύκολη διανομή"
+
+# a00a368d4f5947028e1a024cd556e3c7
+#: ../../source/how-to-open-up-data/choose-datasets.rst:73
+msgid ""
+"Sometimes, rather than deciding which data would be most valuable, it could "
+"be useful to take a look at which data is easiest to get into the public's "
+"hands. Small, easy releases can act as the catalyst for larger behavioural "
+"change within organisations."
+msgstr "Ορισμένες φορές, αντί να αποφασισθεί απευθείας ποια δεδομένα είναι πιο πολύτιμα, θα ήταν χρήσιμο να επικεντρωθείτε στα δεδομένα που είναι ευκολότερο να βρεθούν σε «δημόσια χέρια». Οι περιορισμένες αλλά εύκολες διανομές θα μπορούσαν να παίξουν καταλυτικό ρόλο στην αλλαγή της νοοτροπίας σε έναν οργανισμό."
+
+# 11fb95c47b6d469aaef863cffe3dea1e
+#: ../../source/how-to-open-up-data/choose-datasets.rst:78
+msgid ""
+"Be careful with this approach however. It may be the case that these small "
+"releases are of so little value that nothing is built from them. If this "
+"occurs, faith in the entire project could be undermined."
+msgstr "Παραμείνετε προσεχτικοί, ωστόσο, σε αυτήν την περίπτωση. Μπορεί αυτές οι περιορισμένες διανομές να έχουν τόσο μικρή αξία, που εν τέλει να μη δομηθεί τίποτα πάνω σε αυτές. Αν συμβεί αυτό, η πίστη στο σχεδιασμό σας θα μπορούσε να υπονομευθεί."
+
+# 19b8f9cee4d241ea81e431a7e622c64d
+#: ../../source/how-to-open-up-data/choose-datasets.rst:83
+msgid "Observe peers"
+msgstr "Παρατηρώντας τους εμπλεκόμενους"
+
+# 005598dfe6924292a200665f62057f50
+#: ../../source/how-to-open-up-data/choose-datasets.rst:85
+msgid ""
+"Open data is a growing movement. There are likely to be many people in your "
+"area who understand what other areas are doing. Formulate a list on the "
+"basis of what those agencies are doing."
+msgstr "Τα Ανοιχτά Δεδομένα είναι ένα ανερχόμενο ρεύμα. Είναι πιθανό να υπάρχουν πολλοί άνθρωποι στον τομέα σας που να μπορούν να κατανοήσουν με τι ασχολούνται άλλοι τομείς. Αναπτύξτε μία λίστα με βάση τις δραστηριότητες αυτών των υπηρεσιών."
+
+# 05c79f3133614f7abb43130e787bca43
+#: ../../source/how-to-open-up-data/index.rst:3
+msgid "How to Open up Data"
+msgstr "Πώς μπορεί κανείς να «ανοίξει» τα δεδομένα; "
+
+# 7fe3e18cfac749f5befd9ab2576d33f1
+#: ../../source/how-to-open-up-data/index.rst:5
+msgid ""
+"This section forms the core of this handbook. It gives concrete, detailed "
+"advice on how data holders can open up data. We’ll go through the basics, "
+"but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
+"that can arise."
+msgstr "Αυτή η ενότητα αποτελεί τον πυρήνα του εγχειριδίου. Προσφέρει συγκεκριμένες, λεπτομερείς συμβουλές σχετικά με το πώς οι κάτοχοι δεδομένων μπορούν να «ανοίξουν» τα δεδομένα τους. Θα καλυφθούν τα βασικά σημεία, αλλά και οι «παγίδες» που κρύβει η διαδικασία. Τέλος, θα ακολουθήσει συζήτηση σχετικά με πιο περίπλοκα ζητήματα που μπορεί να προκύψουν. "
+
+# 205ae0d7b0dc40bebc2303b798613a7f
+#: ../../source/how-to-open-up-data/index.rst:10
+msgid "There are three key rules we recommend following when opening up data:"
+msgstr "Υπάρχουν τρεις βασικοί κανόνες που συνιστώνται κατά το «άνοιγμα» των δεδομένων:"
+
+# e090cea16cc645abb77158774b0a3643
+#: ../../source/how-to-open-up-data/index.rst:12
+msgid ""
+"**Keep it simple.** Start out small, simple and fast. There is no "
+"requirement that every dataset must be made open right now. Starting out by "
+"opening up just one dataset, or even one part of a large dataset, is fine --"
+" of course, the more datasets you can open up the better."
+msgstr "**Απλότητα.** Ξεκινήστε με ένα μικρό σύνολο δεδομένων, απλά και γρήγορα. Δεν είναι προαπαιτούμενο ότι κάθε σύνολο δεδομένων πρέπει να γίνει άμεσα ανοιχτό. Είναι αρκετό να αρχίσετε ανοίγοντας μόνο ένα μέρος του μεγαλύτερου συνόλου. Φυσικά, όσο περισσότερα σύνολα δεδομένων μπορούν να «ανοιχτούν», τόσο το καλύτερο."
+
+# cf62d646dd164d08be12466ae86a4cb5
+#: ../../source/how-to-open-up-data/index.rst:17
+msgid ""
+"Remember this is about innovation. Moving as rapidly as possible is good "
+"because it means you can build momentum and learn from experience -- "
+"innovation is as much about failure as success and not every dataset will be"
+" useful."
+msgstr "Να θυμάστε ότι πρόκειται για καινοτομία. Είναι σημαντικό να εξελίσσεστε το γρηγορότερο δυνατόν. Όσο πιο γρήγορα κινηθείτε, τόσο καλύτερα, γιατί αυτό σημαίνει ότι δίνετε ώθηση και μαθαίνετε καθώς εξασκείστε. Η καινοτομία αφορά τόσο την αποτυχία όσο και την επιτυχία και αυτό σημαίνει πως κάθε σύνολο δεδομένων δεν θα είναι απαραίτητα χρήσιμο. "
+
+# ef4cadde787044f6bb05cdbdbee8438e
+#: ../../source/how-to-open-up-data/index.rst:22
+msgid ""
+"**Engage early and engage often.** Engage with actual and potential users "
+"and re-users of the data as early and as often as you can, be they citizens,"
+" businesses or developers. This will ensure that the next iteration of your "
+"service is as relevant as it can be."
+msgstr "**Εμπλακείτε νωρίς και συχνά.** Εμπλακείτε με πραγματικούς και δυναμικούς χρήστες των δεδομένων, συμπεριλαμβανομένων και αυτών που επαναχρησιμοποιούν τα δεδομένα, όσο γίνεται νωρίτερα κι όσο γίνεται συχνότερα, είτε αυτοί είναι πολίτες, επιχειρηματίες ή προγραμματιστές. Αυτό εξασφαλίζει ότι η επόμενη έκδοση της υπηρεσίας σας θα είναι όσο το δυνατόν πιο στοχευμένη."
+
+# ce7b75398cac46e2abc2c039fcf31686
+#: ../../source/how-to-open-up-data/index.rst:27
+msgid ""
+"It is essential to bear in mind that much of the data will not reach "
+"ultimate users directly, but rather via ‘info-mediaries’. These are the "
+"people who take the data and transform or remix it to be presented. For "
+"example, most of us don’t want or need a large database of GPS coordinates, "
+"we would much prefer a map. Thus, engage with infomediaries first. They will"
+" re-use and repurpose the material."
+msgstr "Είναι ουσιαστικό να θυμάστε ότι πολλά δεδομένα δε θα καταφέρουν να προσεγγίσουν άμεσα τους τελικούς χρήστες, παρά μόνο μέσω ενδιάμεσων συντακτών πληροφορίας. Αυτοί είναι άνθρωποι που παίρνουν τα δεδομένα και τα μετατρέπουν ή τα αναμειγνύουν, για να μπορούν να δημοσιοποιηθούν. Για παράδειγμα, οι περισσότεροι άνθρωποι δεν επιθυμούν ένα μεγάλο σύνολο δεδομένων με συντεταγμένες για GPS, θα προτιμούσαν όμως ένα χάρτη. Έτσι, εμπλέκεται κανείς με τους ενδιαμέσους, αφού αυτοί θα χρησιμοποιήσουν και θα επανεξετάσουν το υλικό."
+
+# ff224ceb8d5e44db8fff4cbdb8b84a1b
+#: ../../source/how-to-open-up-data/index.rst:34
+msgid ""
+"**Address common fears and misunderstandings**. This is especially important"
+" if you are working with or within large institutions such as government. "
+"When opening up data you will encounter plenty of questions and fears. It is"
+" important to (a) identify the most important ones and (b) address them at "
+"as early a stage as possible."
+msgstr "**Διευθετήστε κοινές φοβίες και παρανοήσεις**. Αυτό είναι ιδιαίτερα σημαντικό, αν κάποιος εργάζεται σε κάποιο μεγάλο οργανισμό, όπως μία κυβέρνηση. Όταν «ανοίξουν» τα δεδομένα, θα βρεθείτε αντιμέτωποι με πολλές ερωτήσεις και φοβίες. Είναι σημαντικό (α) να αναγνωρίζετε τις πιο σημαντικές και (β) να τις διευθετήσετε σε όσο το δυνατόν πιο πρώιμο στάδιο."
+
+# 85ecf275551b4e6ea01de1f75da7cac0
+#: ../../source/how-to-open-up-data/index.rst:40
+msgid ""
+"There are four main steps in making data open, each of which will be covered"
+" in detail below. These are in very approximate order - many of the steps "
+"can be done simultaneously."
+msgstr "Υπάρχουν τέσσερα κύρια στάδια στη μετατροπή των δεδομένων σε ανοιχτά, καθένα από τα οποία καλύπτεται λεπτομερώς παρακάτω. Η σειρά έχει οριστεί κατά προσέγγιση αφού πολλά από τα βήματα αυτά μπορούν να καλυφθούν ταυτόχρονα. "
+
+# 58824e15e3d34b518d630239f299912d
+#: ../../source/how-to-open-up-data/index.rst:44
+msgid ""
+"**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
+"Keep in mind that you can (and may need to) return to this step if you "
+"encounter problems at a later stage."
+msgstr "**Επιλέξτε το σύνολο των δεδομένων σας**. Επιλέξτε το σύνολο των δεδομένων που πρόκειται να «ανοίξετε». Έχετε κατά νου ότι μπορεί (και ίσως χρειαστεί) να επιστρέψετε σε αυτό το βήμα αν αντιμετωπίσετε προβλήματα σε επόμενο στάδιο."
+
+# e60fff59384142ceb4865b5956701aaf
+#: ../../source/how-to-open-up-data/index.rst:47
+msgid "**Apply an open license.**"
+msgstr "**Εφαρμόστε μια ανοιχτή άδεια.**"
+
+# 8e71c0ccfdb64981b4cadfb21e412387
+#: ../../source/how-to-open-up-data/index.rst:49
+msgid "Determine what intellectual property rights exist in the data."
+msgstr "Προσδιορίστε τι πνευματικά δικαιώματα ενυπάρχουν στα δεδομένα. "
+
+# 40cb98538dfc486c838b0cd5baef35db
+#: ../../source/how-to-open-up-data/index.rst:50
+msgid ""
+"Apply a suitable ‘open’ license that licenses all of these rights and "
+"supports the definition of openness discussed in the section above on ‘What "
+"Open Data’"
+msgstr "Εφαρμόστε μια κατάλληλη «ανοιχτή» άδεια που καλύπτει όλα τα δικαιώματα και υποστηρίζει τον ορισμό της «ανοικτότητας», όπως συζητήθηκε στην προαναφερθείσα ενότητα «Τι είναι τα ανοιχτά Δεδομένα»"
+
+# ff2d1c558ae64d3ea092b313b0a7c854
+#: ../../source/how-to-open-up-data/index.rst:53
+msgid ""
+"NB: if you can't do this go back to step 1 and try a different dataset."
+msgstr "Αν δεν μπορείτε να ολοκληρώσετε το δεύτερο βήμα, επιστρέψτε στο 1ο βήμα και προσπαθήστε με ένα διαφορετικό σύνολο δεδομένων. "
+
+# e7dfde372d704525b9baac515e235e2b
+#: ../../source/how-to-open-up-data/index.rst:56
+msgid ""
+"**Make the data available** - in bulk and in a useful format. You may also "
+"wish to consider alternative ways of making it available such as via an API."
+msgstr "**Καταστήστε τα δεδομένα σας διαθέσιμα**, τόσο συνολικά στην αρχική τους μορφή, όσο και σε κάποια πιο χρήσιμη μορφή. Θα μπορούσατε επίσης να φροντίσετε, ώστε να είναι διαθέσιμα και σε περισσότερες εναλλακτικές μορφές, όπως μέσω ενός API."
+
+# e9ecca180f4649b4a06c3a524060f3e7
+#: ../../source/how-to-open-up-data/index.rst:59
+msgid ""
+"**Make it discoverable** - post on the web and perhaps organize a central "
+"catalog to list your open datasets."
+msgstr "**Καταστήστε το σύνολο των δεδομένων σας εντοπίσιμο** – δημοσιοποιήστε τα στο Διαδίκτυο και οργανώστε κεντρικούς καταλόγους, όπου θα καταγράψετε την πλήρη λίστα με όλα τα ανοιχτά σύνολα δεδομένων που διαθέτετε. "
+
+# 5adf4d4d1e4c4adb91f58d1920c3af87
+#: ../../source/how-to-open-up-data/make-data-available.rst:3
+msgid "Make Data Available (Technical Openness)"
+msgstr "Καταστήστε διαθέσιμα τα Δεδομένα (Τεχνικό «Άνοιγμα»)"
+
+# b09db3670c724b4cbae550f365a90988
+#: ../../source/how-to-open-up-data/make-data-available.rst:5
+msgid ""
+":term:`Open data` needs to be technically open as well as legally open. "
+"Specifically, the data needs to be available in bulk in a :term:`machine-"
+"readable` format."
+msgstr "Τα :term:`Ανοιχτά Δεδομένα` πρέπει να είναι ανοιχτά τόσο από νομικής άποψης, όσο και από τεχνικής. Ειδικότερα, τα δεδομένα πρέπει να είναι διαθέσιμα αυτούσια στο σύνολο τους, αλλά και σε μορφή αναγνωρίσιμη από τις μηχανές. "
+
+# b9d7515dde2043ac876fd4836fae1473
+#: ../../source/how-to-open-up-data/make-data-available.rst:10
+msgid ""
+"Data should be priced at no more than a reasonable cost of reproduction, "
+"preferably as a free download from the Internet. This pricing model is "
+"achieved because your agency should not undertake any cost when it provides "
+"data for use."
+msgstr "Τα δεδομένα δε θα πρέπει να τιμολογούνται πάνω από ένα κόστος λογικό για την αναπαραγωγή τους, προτιμότερη, δε, είναι η ελεύθερη λήψη τους από το Διαδίκτυο. Αυτή η τιμολογιακή πολιτική ακολουθείται επειδή η υπηρεσία σας δε θα πρέπει να αναλαμβάνει κανένα επιπλέον κόστος όταν παρέχει δεδομένα για χρήση. "
+
+# 402e6b5680ef47a9b0690b72d93f77da
+#: ../../source/how-to-open-up-data/make-data-available.rst:16
+msgid ""
+"The data should be available as a complete set. If you have a register which"
+" is collected under statute, the entire register should be available for "
+"download. A web API or similar service may also be very useful, but they are"
+" not a substitutes for bulk access."
+msgstr "Τα δεδομένα θα πρέπει να είναι διαθέσιμα ως ένα πλήρες σύνολο. Εάν διαθέτετε ένα μητρώο που συλλέγεται βάσει καταστατικού, ολόκληρο το μητρώο θα πρέπει να είναι διαθέσιμο για λήψη. Ένα API διαθέσιμο στο Διαδίκτυο ή κάποια παρόμοια υπηρεσία θα μπορούσε επίσης να φανούν χρήσιμα, αλλά σε καμία περίπτωση δεν μπορούν να υποκαταστήσουν την εξολοκλήρου πρόσβαση στο σύνολο δεδομένων. "
+
+# b3a61f61587d4cfe810a5c957f8af97e
+#: ../../source/how-to-open-up-data/make-data-available.rst:22
+msgid ""
+"Re-use of data held by the public sector should not be subject to patent "
+"restrictions. More importantly, making sure that you are providing machine-"
+"readable formats allows for greatest re-use. To illustrate this, consider "
+"statistics published as :abbr:`PDF (Portable Document Format)` documents, "
+"often used for high quality printing. While these statistics can be read by "
+"humans, they are very hard for a computer to use. This greatly limits the "
+"ability for others to re-use that data."
+msgstr "Η επαναχρησιμοποίηση των δεδομένων που ανήκουν στο δημόσιο τομέα δε θα πρέπει να υπόκειται σε περιορισμούς ευρεσιτεχνίας. Ακόμα πιο σημαντικό είναι να φροντίσετε ώστε τα δεδομένα να είναι διαθέσιμα σε μορφή αναγνωρίσιμη από τις μηχανές, κάτι το οποίο επιτρέπει ακόμα μεγαλύτερη επαναχρησιμοποίηση. Συγκεκριμένα, έστω ότι υπάρχουν κάποια στατιστικά στοιχεία δημοσιοποιημένα, σε μορφή :abbr:`PDF (Portable Document Format)`  που χρησιμοποιείται συχνά για εκτυπώσεις υψηλής ποιότητας. Ενώ αυτά τα στατιστικά στοιχεία μπορούν να αναγνωστούν από τους ανθρώπους, καθίσταται πολύ δύσκολη η προσπέλαση τους από μία μηχανή. Αυτό έχει ως αποτέλεσμα τον έντονο περιορισμό της επαναχρησιμοποίησης των δεδομένων. "
+
+# 190bf209b2644133b99a232d147ee714
+#: ../../source/how-to-open-up-data/make-data-available.rst:31
+msgid "Here are a few policies that will be of great benefit:"
+msgstr "Οι τακτικές που πρέπει να ακολουθήσετε συνοψίζεται στα εξής:"
+
+# 63d8a323d7e04da6bba2f412cc5842af
+#: ../../source/how-to-open-up-data/make-data-available.rst:33
+msgid "Keep it simple,"
+msgstr "απλά"
+
+# 4978a2c4ac1f4d0482cd0a5c18899676
+#: ../../source/how-to-open-up-data/make-data-available.rst:34
+msgid "Move fast"
+msgstr "γρήγορα"
+
+# 7e3d34dbf9b349dbbfd5874681a3b9e9
+#: ../../source/how-to-open-up-data/make-data-available.rst:35
+msgid "Be pragmatic."
+msgstr "ρεαλιστικά"
+
+# 344dec649a454a349a892dce337d2360
+#: ../../source/how-to-open-up-data/make-data-available.rst:37
+msgid ""
+"In particular it is better to give out raw data now than perfect data in six"
+" months' time."
+msgstr "Ιδιαίτερα σημαντικό είναι να προσφέρετε άμεσα ακατέργαστα δεδομένα, αντί για άψογα δεδομένα, αλλά σε έξι μήνες."
+
+# c6673f81b9724b8c95778b12ce344bec
+#: ../../source/how-to-open-up-data/make-data-available.rst:40
+msgid ""
+"There are many different ways to make data available to others. The most "
+"natural in the Internet age is online publication. There are many variations"
+" to this model. At its most basic, agencies make their data available via "
+"their websites and a central catalog directs visitors to the appropriate "
+"source.  However, there are alternatives."
+msgstr "Υπάρχουν πολλοί διαφορετικοί τρόποι να καταστήσετε τα δεδομένα διαθέσιμα σε άλλους. Το πιο φυσιολογικό στην εποχή του Διαδικτύου είναι η Διαδικτυακή δημοσιοποίησή τους. Υπάρχουν πολλές παραλλαγές σε αυτό το πρότυπο. Στην πιο βασική εκδοχή τους, οι υπηρεσίες καθιστούν τα δεδομένα τους διαθέσιμα μέσω της ιστοσελίδας τους και ένας κεντρικός κατάλογος κατευθύνει τους επισκέπτες στις αντίστοιχες πηγές. Ωστόσο, υπάρχουν και εναλλακτικές προσεγγίσεις."
+
+# ac1bf932ff0d46c8982fb9e01fa36836
+#: ../../source/how-to-open-up-data/make-data-available.rst:46
+msgid ""
+"When :term:`connectivity` is limited or the size of the data extremely "
+"large, distribution via other formats can be warranted. This section will "
+"also discuss alternatives, which can act to keep prices very low."
+msgstr "Όταν η :term:`διασυνδεσιμότητα` είναι περιορισμένη ή το μέγεθος των δεδομένων είναι εξαιρετικά μεγάλο, ενδείκνυται η διανομή μέσω εναλλακτικών μορφών. Σε αυτήν την ενότητα, θα συζητηθούν εναλλακτικές προσεγγίσεις που μπορεί να λειτουργήσουν καθοριστικά στη διατήρηση του κόστους σε χαμηλό επίπεδο. "
+
+# d14f19bd711547458714a36deb87b608
+#: ../../source/how-to-open-up-data/make-data-available.rst:51
+msgid "Online methods"
+msgstr "Διαδικτυακές μέθοδοι"
+
+# c5885ee8faca4693a840729a94e548a0
+#: ../../source/how-to-open-up-data/make-data-available.rst:54
+msgid "Via your existing website"
+msgstr "Μέσω της υπάρχουσας ιστοσελίδας"
+
+# 4698a33b199f4dc7893cc0b7f999880d
+#: ../../source/how-to-open-up-data/make-data-available.rst:56
+msgid ""
+"The system which will be most familiar to your web content team is to "
+"provide files for download from webpages. Just as you currently provide "
+"access to discussion documents, data files are perfectly happy to be made "
+"available this way."
+msgstr "Ο πιο οικείος τρόπος για να παρέχετε τα δεδομένα στην ομάδα για το Διαδικτυακό περιεχόμενο είναι σε αρχεία προς λήψη, διαθέσιμα στην ιστοσελίδα. Ακριβώς όπως, επί του παρόντος, προσφέρετε πρόσβαση σε έγγραφα αναφορών, τα αρχεία δεδομένων μπορούν να καταστούν διαθέσιμα με τον ίδιο τρόπο. "
+
+# 680a3fdd6ee74160bfd3f0ba94456f73
+#: ../../source/how-to-open-up-data/make-data-available.rst:61
+msgid ""
+"One difficulty with this approach is that it is very difficult for an "
+"outsider to discover where to find updated information. This option places "
+"some burden on the people creating tools with your data."
+msgstr "Μία δυσκολία που συναντάται σε αυτήν την περίπτωση είναι η δυσχέρεια που συχνά αντιμετωπίζουν οι χρήστες στο να ανακαλύψουν ενημερωμένες πληροφορίες. Το επιπλέον πρόβλημα που προκύπτει με αυτή τη προσέγγιση είναι ότι προστίθεται επιπλέον φόρτος σε αυτούς που προσπαθούν να δημιουργήσουν εργαλεία χρησιμοποιώντας τα δεδομένα σας. "
+
+# 28ec978c25d5464caef60764ccd26193
+#: ../../source/how-to-open-up-data/make-data-available.rst:67
+msgid "Via 3rd party sites"
+msgstr "Μέσω τρίτων, συμβαλλόμενων ιστοσελίδων"
+
+# bc1c7a24e2fc40369a8d6fee3b547452
+#: ../../source/how-to-open-up-data/make-data-available.rst:69
+msgid ""
+"Many repositories have become hubs of data in particular fields. For "
+"example, pachube.com is designed to connect people with sensors to those who"
+" wish to access data from them. Sites like Infochimps.com and Talis.com "
+"allow public sector agencies to store massive quantities of data for free."
+msgstr "Πολλά αποθετήρια δεδομένων μετατράπηκαν σε κομβικά σημεία αναφοράς για ορισμένους τομείς. Για παράδειγμα, το pachube.com σχεδιάστηκε για να φέρνει σε επαφή τους ανθρώπους με αισθητήρες, εφόσον επιθυμούν να έχουν πρόσβαση σε δεδομένα που προέρχονται από αυτούς. Άλλες ιστοσελίδες, όπως η Infochimps.com και η Talis.com, επιτρέπουν σε υπηρεσίες του δημοσίου τομέα να αποθηκεύουν μαζικές ποσότητες δεδομένων, χωρίς χρέωση. "
+
+# 79fec3171d0b43e7924a9661d86ed5bb
+#: ../../source/how-to-open-up-data/make-data-available.rst:75
+msgid ""
+"Third party sites can be very useful. The main reason for this is that they "
+"have already pooled together a community of interested people and other sets"
+" of data. When your data is part of these platforms, a type of positive "
+"compound interest is created."
+msgstr "Οι Ιστοσελίδες τρίτων συμβαλλομένων μπορεί να αποδειχθούν χρήσιμες. Ο κύριος λόγος που συμβαίνει αυτό είναι ότι έχουν ήδη καταφέρει να συγκεντρώσουν, σε κοινότητες, τα ενδιαφερόμενα άτομα μαζί με πολλά άλλα σύνολα δεδομένων. Όταν και τα δικά σας δεδομένα γίνονται μέρος αυτών των πλατφορμών, αναπτύσσεται μια μορφή θετικού ενδιαφέροντος για αυτά."
+
+# e27ac253acf04e4895092c606f5d6c84
+#: ../../source/how-to-open-up-data/make-data-available.rst:80
+msgid ""
+"Wholesale data platforms already provide the infrastructure which can "
+"support the demand. They often provide analytics and usage information. For "
+"public sector agencies, they are generally free."
+msgstr "Οι πλατφόρμες δεδομένων παρέχουν ήδη την υποδομή που μπορεί να υποστηρίξει τη ζήτηση. Συχνά προσφέρουν αναλύσεις και στατιστικές πληροφορίες σχετικά με τη χρήση τους. Η χρησιμοποίηση τέτοιων πλατφορμών από το δημόσιο τομέα γίνεται, συνήθως, δωρεάν. "
+
+# cc7000380ec64929b7aacfcc5761b05f
+#: ../../source/how-to-open-up-data/make-data-available.rst:84
+msgid ""
+"These platforms can have two costs. The first is independence. Your agency "
+"needs to be able to yield control to others. This is often politically, "
+"legally or operationally difficult. The second cost may be openness. Ensure "
+"that your data platform is agnostic about who can access it. Software "
+"developers and scientists use many operating sytems, from smart phones to "
+"supercomputers. They should all be able to access the data."
+msgstr "Όμως, αυτού του είδους οι πλατφόρμες μπορεί να έχουν διπλό κόστος. Το πρώτο είναι η ανεξαρτησία. Η υπηρεσία μπορεί να επιθυμεί να είναι σε θέση να αποδίδει έλεγχο σε άλλους. Αυτό πολλές φορές είναι πολιτικά, νομικά ή λειτουργικά δύσκολο. Το δεύτερο κόστος μπορεί να είναι η «Ανοιχτότητα». Επιβεβαιώστε ότι η πλατφόρμα δεν κάνει διακρίσεις στις συσκευές που έχουν πρόσβαση σε αυτήν. Οι προγραμματιστές λογισμικού και οι επιστήμονες χρησιμοποιούν πολλά λειτουργικά συστήματα, από smart phones μέχρι υπερυπολογιστές. Όλοι θα πρέπει να είναι σε θέση να έχουν πρόσβαση στα δεδομένα. "
+
+# 45ec5a433d49473d8bd8e8aa732d3790
+#: ../../source/how-to-open-up-data/make-data-available.rst:94
+msgid "Via FTP servers"
+msgstr "Μέσω FTP διακομιστών"
+
+# b76866767adf434e9e413aa9dd09bcc1
+#: ../../source/how-to-open-up-data/make-data-available.rst:96
+msgid ""
+"A less fashionable method for providing access to files is via the File "
+"Transfer Protocol (FTP). This may be suitable if your audience is technical,"
+" such as software developers and scientists. The FTP system works in place "
+"of HTTP, but is specifically designed to support file transfers."
+msgstr "Ένας λιγότερο δημοφιλής τρόπος για την παροχή πρόσβασης στα αρχεία σας είναι μέσω του FTP πρωτοκόλλου. Αυτό μπορεί να είναι κατάλληλο αν το κοινό σας είναι τεχνικά καταρτισμένο, όπως προγραμματιστές εφαρμογών και επιστήμονες. Το σύστημα FTP λειτουργεί στη θέση του HTTP, αλλά είναι ειδικά σχεδιασμένο ώστε να υποστηρίζει μεταφορές αρχείων. "
+
+# 2b926a03ce794f8782e74bd0013c2b2e
+#: ../../source/how-to-open-up-data/make-data-available.rst:102
+msgid ""
+"FTP has fallen out of favour. Rather than providing a website, looking "
+"through an FTP server is much like looking through folders on a computer. "
+"Therefore, even though it is fit for purpose, there is far less capacity for"
+" web development firms to charge for customisation."
+msgstr "Το πρωτόκολλο FTP έχει παγιωθεί και δεν αναπτύσσεται. Σε αντίθεση με την παροχή μίας ιστοσελίδας, η χρήση ενός FTP διακομιστή θυμίζει περισσότερο την όψη των φακέλων στους υπολογιστές. Συνεπώς, αν και είναι κατάλληλο για το σκοπό που χρησιμοποιείται, υπάρχει πολύ χαμηλότερη δυνατότητα για εταιρείες ανάπτυξης Διαδικτυακών εφαρμογών να χρεώσουν επιπλέον για την παραμετροποίησή του."
+
+# c42b8894bbc54326b66238f06c086570
+#: ../../source/how-to-open-up-data/make-data-available.rst:108
+msgid "As torrents"
+msgstr "Ως torrents"
+
+# 759eb86f2e4d480eaaecdaac50273050
+#: ../../source/how-to-open-up-data/make-data-available.rst:110
+msgid ""
+":term:`BitTorrent` is a system which has become familiar to policy makers "
+"because of its association with copyright infringement. BitTorrent uses "
+"files called torrents, which work by splitting the cost of distributing "
+"files between all of the people accessing those files. Instead of servers "
+"becoming overloaded, the supply increases with the demand increases. This is"
+" the reason that this system is so successful for sharing movies. It is a "
+"wonderfully efficient way to distribute very large volumes of data."
+msgstr "Το :term:`BitTorrent` είναι ένα σύστημα που έχει γίνει οικείο στους φορείς χάραξης πολιτικής λόγω της σύνδεσής του με την καταπάτηση των πνευματικών δικαιωμάτων. Το BitTorrent χρησιμοποιεί αρχεία που λέγονται torrents, και η λειτουργία του βασίζεται στον καταμερισμό του κόστους της διανομής των αρχείων, μεταξύ των ανθρώπων που έχουν πρόσβαση σε αυτά. Οπότε, αντί για διακομιστές που υπερφορτώνονται, σε αυτήν την περίπτωση, αυξάνεται η προσφορά με την αύξηση της ζήτησης. Αυτός είναι ο λόγος που αυτό το σύστημα είναι πολύ δημοφιλές για το διαμοιρασμό ταινιών. Είναι ένας αποτελεσματικός τρόπος για τη διανομή πολύ μεγάλων όγκων δεδομένων. "
+
+# 129e68dafdf54f6e97919fba6fdc5c70
+#: ../../source/how-to-open-up-data/make-data-available.rst:119
+msgid "As an API"
+msgstr "Ως ένα API"
+
+# d6c7831d05704f01b2bedc502d6a50c1
+#: ../../source/how-to-open-up-data/make-data-available.rst:121
+msgid ""
+"Data can be published via an :term:`Application Programming Interface` "
+"(API). These interfaces have become very popular. They allow programmers to "
+"select specific portions of the data, rather than providing all of the data "
+"in bulk as a large file. APIs are typically connected to a database which is"
+" being updated in real-time. This means that making information available "
+"via an API can ensure that it is up to date."
+msgstr "Τα δεδομένα πρέπει να είναι δημοσιοποιημένα μέσω ενός Application Programming Interface (API). Αυτές οι διεπαφές έχουν γίνει πολύ διάσημες. Επιτρέπουν στους προγραμματιστές να επιλέγουν συγκεκριμένες ποσότητες δεδομένων, αντί να τους παρέχουν όλα τα δεδομένα μαζικά, σε μεγάλα αρχεία. Τα APIs είναι συνήθως διασυνδεδεμένα με μία βάση δεδομένων η οποία ενημερώνεται σε πραγματικό χρόνο. Αυτό σημαίνει ότι, όταν οι πληροφορίες παρέχονται μέσω ενός API, μπορεί να είναι κανείς σίγουρος ότι έχει πρόσβαση στα πιο ενημερωμένα δεδομένα. "
+
+# a04d09c10e634e4e95e64172d7f3df48
+#: ../../source/how-to-open-up-data/make-data-available.rst:129
+msgid ""
+"Publishing raw data in bulk should be the primary concern of all open data "
+"intiatives. There are a number of costs to providing an API:"
+msgstr "Η δημοσιοποίηση ακατέργαστων δεδομένων θα πρέπει να είναι πρωταρχικής σημασίας για όλες τις πρωτοβουλίες για τα Ανοιχτά Δεδομένα. Άλλωστε, υπάρχουν κάποια κόστη που σχετίζονται με την παροχή ενός API:"
+
+# 3c28e8cb66dc4a3cb88e41a7b60106b4
+#: ../../source/how-to-open-up-data/make-data-available.rst:132
+msgid ""
+"The price. They require much more development and maintainence than "
+"providing files."
+msgstr "Η τιμή: Απαιτεί πιο περίπλοκη ανάπτυξη εφαρμογών και συντήρηση από ότι η παροχή απλών αρχείων. "
+
+# 14dd153713774331a0312cbefb6d28d1
+#: ../../source/how-to-open-up-data/make-data-available.rst:134
+msgid ""
+"The expectations. In order to foster a community of users behind the system,"
+" it is important to provide certainty. When things go wrong, you will be "
+"expected to incur the costs of fixing them."
+msgstr "Οι προσδοκίες: Για να ενθαρρυνθεί η κοινότητα χρηστών ενός σύστηματος, είναι σημαντικό να παρέχεται βεβαιότητα. Όταν κάτι σταματήσει να λειτουργεί σωστά, τότε το κόστος της διόρθωσης δε θα πρέπει να επιβαρύνει την κοινότητα. "
+
+# ca23faca90d744b397f92d458f218d1c
+#: ../../source/how-to-open-up-data/make-data-available.rst:138
+msgid "Access to bulk data ensures that:"
+msgstr "Η πρόσβαση σε μαζικά δεδομένα εξασφαλίζει ότι:"
+
+# ae5f19aec9fc42828d27deb2b2c9c146
+#: ../../source/how-to-open-up-data/make-data-available.rst:140
+msgid ""
+"there is no dependency on the original provider of the data, meaning that if"
+" a restructure or budget cycle changes the situation, the data are still "
+"available."
+msgstr "Δεν υπάρχει εξάρτηση από τον αρχικό πάροχο των δεδομένων, με την έννοια ότι, αν συμβεί κάποια αναδιάρθρωση ή ο οικονομικός προυπολογισμός αλλάξει την κατάσταση, τα δεδομένα θα είναι ακόμα διαθέσιμα."
+
+# 3022f0749b794dc59af9b4b12e4fd380
+#: ../../source/how-to-open-up-data/make-data-available.rst:143
+msgid ""
+"anyone else can obtain a copy and redistribute it. This reduces the cost of "
+"distribution away from the source agency and means that there is no single "
+"point of failure."
+msgstr "Ο καθένας μπορεί να έχει ένα αντίγραφο και να το αναδιανείμει. Αυτό μειώνει το κόστος διανομής πέρα από την υπηρεσία που λειτουργεί σαν πηγή και σημαίνει πως δεν υπάρχει μοναδικό σημείο αποτυχίας. "
+
+# 362360c6bac64db5b350ca2f2b96d48e
+#: ../../source/how-to-open-up-data/make-data-available.rst:146
+msgid ""
+"others can develop their own services using the data, because they have "
+"certainty that the data will not be taken away from them."
+msgstr "Οι άλλοι μπορούν να αναπτύξουν τις δικές τους υπηρεσίες χρησιμοποιώντας τα δεδομένα, επειδή έχουν τη βεβαιότητα ότι δε θα τα στερηθούν."
+
+# 92b96832e25848bea4ba68895e02480f
+#: ../../source/how-to-open-up-data/make-data-available.rst:149
+msgid ""
+"Providing data in bulk allows others to use the data beyond its original "
+"purposes. For example, it allows it to be converted into a new format, "
+"linked with other resources, or versioned and archived in multiple places. "
+"While the latest version of the data may be made available via an API, raw "
+"data should be made available in bulk at regular intervals."
+msgstr "Η προσφορά μαζικών δεδομένων επιτρέπει σε τρίτους να τα χρησιμοποιήσουν πέρα από τον αρχικό τους σκοπό. Για παράδειγμα, επιτρέπει τη μετατροπή σε νέα μορφή, τη διασύνδεση με άλλες πηγές ή άλλες εκδόσεις και την αποθήκευσή τους σε περισσότερες τοποθεσίες. Ενώ η νεότερη έκδοση των δεδομένων μπορεί να καταστεί άμεσα διαθέσιμη από το ΑΡΙ, τα ακατέργαστα δεδομένα θα πρέπει να είναι μαζικά διαθέσιμα ανά τακτά χρονικά διαστήματα. "
+
+# 19cd648b3bcb47a69b7b467e23035209
+#: ../../source/how-to-open-up-data/make-data-available.rst:155
+msgid ""
+"For example, the `Eurostat statistical service`_ has a bulk download "
+"facility offering over 4000 data files. It is updated twice a day, offers "
+"data in :term:`Tab-separated values` (TSV) format, and includes "
+"documentation about the download facility as well as about the data files."
+msgstr "Παράδειγμα αποτελέι η περίπτωση της ευρωπαικής στατιστικής υπηρεσίας (Eurostat) που προσφέρει μαζική λήψη 4000 αρχείων δεδομένων. Ενημερώνεται δύο φορές την ημέρα, ενώ παρέχει τα δεδομένα σε μορφή Tab-separated values (TSV), περιλαμβάνοντας και έγγραφα σχετικά με την υπηρεσία λήψης και τα ληφθέντα αρχεία."
+
+# e41c10ed0631425c909b8ebfb4a7c800
+#: ../../source/how-to-open-up-data/make-data-available.rst:162
+msgid ""
+"Another example is the `District of Columbia Data Catalog`_, which allows "
+"data to be downloaded in CSV and XLS format in addition to live feeds of the"
+" data."
+msgstr "Ένα άλλο παράδειγμα αποτελεί το District of Columbia OCTO’s Data Catalogue που επιτρέπει στα δεδομένα να ληφθούν σε CSV και XLS μορφή και επιπλέον σε ζωντανή ρόη."
+
+# 5b114f4280384ceb84d9a7ccda241a62
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
+msgid "Make data discoverable"
+msgstr "Καταστήστε τα δεδομένα εύκολα εντοπίσιμα"
+
+# 1a2ce7b8aac042e9a2f48a21660610d0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
+msgid ""
+":term:`Open data` is nothing without users. You need to be able to make sure"
+" that people can find the source material. This section will cover different"
+" approaches."
+msgstr "Τα «Ανοιχτά Δεδομένα» δεν είναι τίποτα χωρίς τους χρήστες. Χρειάζεται να φροντίσετε ώστε το πρωτογενές υλικό να μπορεί να εντοπιστεί από τους χρήστες. Αυτή η ενότητα θα καλύψει κάποιες εναλλακτικές προσεγγίσεις. "
+
+# 4becb2ab91af48f190e5067c39b98b97
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
+msgid ""
+"The most important thing is to provide a neutral space which can overcome "
+"both inter-agency politics and future budget cycles. Jurisdictional borders,"
+" whether sectorial or geographical, can make cooperation difficult. However,"
+" there are significant benefits in joining forces. The easier it is for "
+"outsiders to discover data, the faster new and useful tools will be built."
+msgstr "Το πιο σημαντικό είναι να παρέχετε έναν ουδέτερο χώρο, που μπορεί να αντέξει τόσο σε αντικρουόμενες πολιτικές μεταξύ των υπηρεσιών, όσο και σε σκαμπανεβάσματα του προϋπολογισμού. Τα όρια των δικαιοδοσιών, είτε τομεακά είτε γεωγραφικά, μπορεί να καταστήσουν δύσκολη την συνεργασία. Ωστόσο, υπάρχουν αξιοσημείωτα πλεονεκτήματα στη συνένωση των δυνάμεων. Όσο πιο εύκολο είναι για τρίτους να ανακαλύψουν κάποια δεδομένα, τόσο γρηγορότερα θα αναπτυχθούν νέα και χρήσιμα εργαλεία. "
+
+# 512c9d4d09dd44a68e1beae3b2f882b6
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
+msgid "Existing tools"
+msgstr "Υπάρχοντα εργαλεία"
+
+# 2adc1adf902d44b497f75a0eafa83915
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
+msgid ""
+"There are a number of tools which are live on the web that are specifically "
+"designed to make data more discoverable."
+msgstr "Υπάρχουν αρκετά εργαλεία που είναι διαθέσιμα στο Διαδίκτυο και είναι ειδικά σχεδιασμένα ώστε να κάνουν τα δεδομένα πιο εντοπίσιμα. "
+
+# ae9ed98469a341feb0c8d16f3e4c4715
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
+msgid ""
+"One of the most prominent is the DataHub_ and is a catalog and data store "
+"for datasets from around the world. The site makes it easy for individuals "
+"and organizations to publish material and for data users to find material "
+"they need."
+msgstr "Ένα από τα εξέχοντα είναι το CKAN.net. Το CKAN είναι αρκτικόλεξο του Comprehensive Knowledge Archive Network και αποτελεί τον κατάλογο όλων των συνόλων δεδομένων στον κόσμο. Η ιστοσελίδα καθιστά δυνατό για τους προγραμματιστές εφαρμογών να βρούν εύκολα το υλικό που αναζητούν. "
+
+# 2558aac60a2e4327ad698877cc2142f9
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
+msgid ""
+"In addition, there are dozens of specialist catalogs for different sectors "
+"and places. Many scientific communities have created a catalog system for "
+"their fields, as data are often required for publication."
+msgstr "Επιπλέον, υπάρχουν δεκάδες ειδικοί κατάλογοι για διαφορετικούς τομείς και περιοχές. Πολλές επιστημονικές κοινότητες έχουν δημιουργήσει ένα σύστημα καταλόγου για τα πεδία τους, δεδομένου ότι οι πληροφορίες απαιτούν συχνά δημοσιοποίηση. "
+
+# 3813a2f6a87b44bda881d2dc1047e8e0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
+msgid "For government"
+msgstr "Για τις κυβερνήσεις"
+
+# dd24b7fc5a0e4264a0a4224b5aab6293
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
+msgid ""
+"As it has emerged, orthodox practice is for a lead agency to create a "
+"catalog for the government's data. When establishing a catalog, try to "
+"create some structure which allows many departments to easily keep their own"
+" information current."
+msgstr "Όπως αποδείχθηκε, είναι ορθολογική πρακτική για μια υπηρεσία να δημιουργήσει έναν κατάλογο για τα κυβερνητικά δεδομένα. Όταν θα καθιερωθεί ο κατάλογος, φροντίστε να οργανώσετε μία δομή που να επιτρέπει στα τμήματα να διατηρούν εύκολα τις δικές τους πληροφορίες ενημερωμένες."
+
+# e6a628d1c2b340f2bdd128c31a4febba
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
+msgid ""
+"Resist the urge to build the software to support the catalog from scratch. "
+"There are free and open source software solutions (such as CKAN_) which have"
+" been adopted by many governments already. As such, investing in another "
+"platform may not be needed."
+msgstr "Αντισταθείτε στον πειρασμό να αναπτύξετε εκ του μηδενός λογισμικό που να υποστηρίζει τον κατάλογο. Υπάρχουν πολλά δωρεάν και ανοιχτά πακέτα λογισμικού που υιοθετήθηκαν ήδη από πολλές δεκάδες κυβερνήσεων. Η επένδυση σε μία άλλη πλατφόρμα, θα είναι σπατάλη πόρων."
+
+# 219db6ba9b784128a2be95191a104858
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
+msgid ""
+"There are a few things that most open data catalogs miss. Your programme "
+"could consider the following:"
+msgstr "Υπάρχουν κάποια στοιχεία που οι περισσότεροι κατάλογοι Ανοιχτών Δεδομένων δεν έχουν. Το πρόγραμμά σας θα μπορούσε να εξετάσει τα ακόλουθα: "
+
+# d738b775cba84d92ac1ed6ec7c0840c5
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
+msgid ""
+"Providing an avenue to allow the private and community sectors to add their "
+"data. It may be worthwhile to think of the catalog as the region's catalog, "
+"rather than the regional government's."
+msgstr "Προσφέρετε ένα τρόπο ώστε να διευκολύνετε τον ιδιωτικό τομέα και τις κοινότητες να προσθέσουν τα δεδομένα τους. Μπορεί να αξίζει να σκεφτείτε τον κατάλογο ως «κατάλογο της περιφέρειας», παρά σαν κατάλογο της «περιφερειακής διοίκησης»."
+
+# 507082d1a6244462beb7af124cfe0fda
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
+msgid ""
+"Facilitating improvement of the data by allowing derivatives of datasets to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
+"share those results with everybody. If you only allow single versions of "
+"datasets, these improvements remain hidden."
+msgstr "Διευκολύνετε τη βελτίωση των δεδομένων, επιτρέποντας τα παράγωγα υποσύνολα να καταχωρούνται στον κατάλογο. Για παράδειγμα, μπορεί κάποιος να διαθέτει διευθύνσεις γεωκωδικοποίησης και να επιθυμεί να μοιραστεί αυτά τα δεδομένα με όλους. Αν δημοσιεύετε μια και μοναδική έκδοση των συνόλων δεδομένων, αυτές οι βελτιώσεις παραμένουν «θαμμένες». "
+
+# e8ad70e351d34a9caf7bc7cf0409f67d
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
+msgid ""
+"Be tolerant of your data appearing elsewhere. That is, content is likely to "
+"be duplicated to communities of interest. If you have river level monitoring"
+" data available, then your data may appear in a catalog for hydrologists."
+msgstr "Παραμείνετε ανεκτικοί αν τα δεδομένα σας εμφανίζονται αλλού. Αυτό σημαίνει ότι το περιεχόμενο μπορεί να επαναχρησιμοποιηθεί από άλλες κοινότητες, οι οποίες ενδιαφέρονται για αυτό. Αν διαθέτετε δεδομένα σχετικά με τον έλεγχο της στάθμης των ποταμών, τότε τα δεδομένα σας μπορεί να εμφανιστούν και σε κατάλογο που διατίθεται από υδρολόγους. "
+
+# 04da7586b2474affab2a4d56bb5dc900
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
+msgid ""
+"Ensure that access is equitable. Try to avoid creating a privileged level of"
+" access for officials or tenured researchers as this will undermine "
+"community participation and engagement."
+msgstr "Βεβαιωθείτε ότι η πρόσβαση είναι δίκαιη. Μην δημιουργείτε πλεονεκτήματα στο επίπεδο της πρόσβασης για υπαλλήλους ή μόνιμους ερευνητές. Αυτό θα προκαλέσει δυσαρέσκεια και τελικά θα υπονομεύσει τους στόχους που επιθυμείτε να επιτύχετε. "
+
+# 19cfcba241ba49da8fa2cd7e12ffcdfe
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
+msgid "For civil society"
+msgstr "Για την κοινωνία των πολιτών"
+
+# 82151482120d4eb38a6d0aafff09e1ed
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
+msgid "Be willing to create a supplementary catalog for non-official data."
+msgstr "Να είστε πρόθυμοι να αναπτύξετε ένα συμπληρωματικό κατάλογο για μη κυβερνητικά δεδομένα. "
+
+# 4d3c4cafa15d46b49cdf98fb5cdd40fb
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
+msgid ""
+"It is very rare for governments to associate with unofficial or non-"
+"authoritative sources. Officials have often gone to great expense to ensure "
+"that there will not be political embarrassment or other harm caused from "
+"misuse or overreliance on data."
+msgstr "Είναι σπάνιο κυβερνητικές πηγές να συνδέονται με ανεπίσημες ή με μη εξουσιοδοτημένες πηγές. Οι υπεύθυνοι έχουν πολλές φορές επωμιστεί μεγάλη προσπάθεια για να διασφαλίσουν οτι δεν θα υπάρξει πολιτικό κόστος από κακοδιαχείριση η υπέρμετρη εμπιστοσύνη στα δεδομένα αυτά."
+
+# dc1fa133f5ff4c1f91bc4f7593f4b2e2
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
+msgid ""
+"Moreover, governments are unlikely to be willing to support activities that "
+"mesh their information with information from businesses. Governments are "
+"rightfully skeptical of profit motives. Therefore, an independent catalog "
+"for community groups, businesses and others may be warranted."
+msgstr "Εκτός αυτού, οι κυβερνήσεις είναι απίθανο να επιθυμούν να υποστηρίξουν δραστηριότητες που αναμειγνύουν τις πληροφορίες τους με πληροφορίες από επιχειρήσεις. Οι κυβερνήσεις, δικαιωματικά, παραμένουν σκεπτικές όσον αφορά τα κίνητρα κέρδους. Ως εκ τούτου, ένας ανεξάρτητος κατάλογος για κοινότητες, επιχειρήσεις και άλλες ομάδες μπορεί να αποδειχθεί χρήσιμος."
+
+# 0eece90a6b18435fbada8a71dce59bb8
+#: ../../source/following-up/getting-folks-in-a-room.rst:3
+msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
+msgstr "Συγκεντρώνοντας τους ομοϊδεάτες: Ελεύθερες συγκεντρώσεις, συναντήσεις και συμμετοχικές δράσεις"
+
+# d517fbbe51ea4d1889ad1ea4f9b6c34e
+#: ../../source/following-up/getting-folks-in-a-room.rst:5
+msgid ""
+"Face-to-face events can be a very effective way to encourage others to use "
+"your data. Reasons that you may consider putting on an event include:"
+msgstr "Οι εκδηλώσεις όπου υποστηρίζεται η επικοινωνία πρόσωπο-με-πρόσωπο μπορεί να αποδειχθούν ένας πολύ αποτελεσματικός τρόπος να ενθαρρύνετε τον κόσμο να χρησιμοποιήσει τα δεδομένα σας. Οι λόγοι που μπορεί να σας παρακινήσουν να οργανώσετε μία εκδήλωση μπορεί να είναι:"
+
+# ed4a924635be427d84e5e73aa156036b
+#: ../../source/following-up/getting-folks-in-a-room.rst:9
+msgid "Finding out more about prospective re-users"
+msgstr "Να ανακαλύψετε νέους πιθανούς χρήστες που πρόκειται να επαναχρησιμοποιήσουν τα δεδομένα σας"
+
+# 5f00d7f9fe5f4d88908a571cd17d7583
+#: ../../source/following-up/getting-folks-in-a-room.rst:10
+msgid "Finding out more about demand for different datasets"
+msgstr "Να ανακαλύψετε περισσότερες απαιτήσεις για διαφορετικά σύνολα δεδομένων"
+
+# 44afdf6e36d943ddabf744660e0cd998
+#: ../../source/following-up/getting-folks-in-a-room.rst:11
+msgid "Finding out more about how people want to re-use your data"
+msgstr "Να ανακαλύψετε περισσότερα για το πώς ο κόσμος επιθυμεί να επαναχρησιμοποιήσει τα δεδομένα σας"
+
+# 40fc2cc37de34edc951bb527c703bed8
+#: ../../source/following-up/getting-folks-in-a-room.rst:12
+msgid ""
+"Enabling prospective re-users to find out more about what data you have"
+msgstr "Να ενεργοποιήσετε πιθανούς, περαιτέρω χρήστες, ώστε να μάθουν περισσότερα για τα δεδομένα που διαθέτετε"
+
+# 521cf351ccf04741bcad75ab2ebed8fc
+#: ../../source/following-up/getting-folks-in-a-room.rst:14
+msgid ""
+"Enabling prospective users to meet each other (e.g. so they can collaborate)"
+msgstr "Να βοθήσετε επιπλέον χρήστες να συναντήσουν ο ένας τον άλλον, για να συνεργαστούν"
+
+# 48964c3745d54c21947431d3f9dfa392
+#: ../../source/following-up/getting-folks-in-a-room.rst:16
+msgid ""
+"Exposing your data to a wider audience (e.g. from blog posts or media "
+"coverage that the event may help to generate)"
+msgstr "Να εκθέσετε τα δεδομένα σας σε ένα ευρύτερο κοινό (π.χ. κάλυψη σε μέσα ενημέρωσης ή αναρτήσεις σε ιστολόγια που η εκδήλωση μπορεί να εμπνεύσει)"
+
+# 4d90aabe7a734c3f805647604033d11a
+#: ../../source/following-up/getting-folks-in-a-room.rst:19
+msgid ""
+"There are also lots of different ways of running events, and different types"
+" of events, depending on what aim you want to achieve. As well as more "
+"traditional conference models,  which will include things like preprepared "
+"formal talks, presentations and demonstrations, there are also various kinds"
+" of participant driven events, where those who turn up may:"
+msgstr "Υπάρχουν ποικίλοι τρόποι να οργανωθούν εκδηλώσεις διάφορων τύπων, ανάλογα με το σκοπό που επιθυμείτε να επιτύχετε. Όπως, για παράδειγμα, παραδοσιακά συνεδριακά μοντέλα, που μπορεί να περιλαμβάνουν δραστηριότητες, επίσημες ομιλίες, παρουσιάσεις και εκθέσεις, αλλά και πλήθος εκδηλώσεων, καθοδηγούμενων από τους συμμετέχοντες, όπου, όσοι εμφανιστούν, μπορούν:"
+
+# a50b011fdb8840dc9d8f2efd3ab44a4c
+#: ../../source/following-up/getting-folks-in-a-room.rst:26
+msgid "Guide or define the agenda for the event"
+msgstr "Να καθοδηγήσουν ή να ορίσουν την ατζέντα της εκδήλωσης"
+
+# fa476ad8536242b5b8bf48aea215e13c
+#: ../../source/following-up/getting-folks-in-a-room.rst:27
+msgid ""
+"Introduce themselves, talk about what they’re interested in and what they’re"
+" working on, on an ad hoc basis"
+msgstr "Να παρουσιάσουν τους εαυτούς τους και να συζητήσουν αυτά που τους ενδιαφέρουν και αυτά πάνω στα οποία εργάζονται"
+
+# a32292b0cdf147238a040b8e1264e482
+#: ../../source/following-up/getting-folks-in-a-room.rst:29
+msgid ""
+"Give impromptu micro-short presentations on something they are working on"
+msgstr "Να δώσουν αυτοσχέδιες παρουσιάσεις σε κάποιο ζήτημα πάνω στο οποίο εργάζονται"
+
+# 2337543daa9b44a8b8774ac488b32296
+#: ../../source/following-up/getting-folks-in-a-room.rst:31
+msgid "Lead sessions on something they are interested in"
+msgstr "Να ξεκινήσουν συζητήσεις πάνω σε κάτι για το οποίο ενδιαφέρονται"
+
+# 64065d778f9946ba94319f8241c9e573
+#: ../../source/following-up/getting-folks-in-a-room.rst:33
+msgid ""
+"There is plenty of documentation online about how to run these kinds of "
+"events, which you can find by searching for things like: ‘unconference’, "
+"‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’, and so on. You may also "
+"find it worthwhile to contact people who have run these kinds of events in "
+"other countries, who will most likely be keen to help you out and to advise "
+"you on your event. It may be valuable to partner with another organisation "
+"(e.g. a civic society organisation, a news organisation or an educational "
+"institution) to broaden your base participants and to increase your "
+"exposure."
+msgstr "Υπάρχει πληθώρα δεδομένων στο Διαδίκτυο σχετικά με το πώς να οργανωθούν τέτοιου είδους εκδηλώσεις, όπου μπορείτε να βρείτε δραστηριότητες όπως: ‘unconference’, ‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’ κ.τ.λ. Μπορεί, επίσης, να φανεί χρήσιμο να επικοινωνήσετε με ανθρώπους που έχουν οργανώσει τέτοιες εκδηλώσεις, σε άλλες χώρες, και που πιθανότατα θα είναι πρόθυμοι να σας βοηθήσουν και να σας συμβουλέψουν για την εκδήλωση. Μπορεί να αποδειχθεί πολύτιμο να συνεργαστείτε με κάποιον άλλον οργανισμό (πχ. ένας οργανισμός για την κοινωνία των πολιτών, ένα οργανισμός για ειδήσεις ή ένα εκπαιδευτικό ινστιτούτο), ώστε να διευρύνετε τους βασικούς σας συμμετέχοντες και να αυξήσετε την έκθεσή σας στους πολίτες"
+
+# 462828d03e674930afd7dba17f214303
+#: ../../source/following-up/index.rst:3
+msgid "So I’ve Opened Up Some Data, Now What?"
+msgstr "Και τώρα, που «άνοιξα» τα Δεδομένα μου, τι γίνεται;"
+
+# 00e250fc1e7143fdaf4d5ee13df433dd
+#: ../../source/following-up/index.rst:5
+msgid ""
+"We’ve looked at how to make government information legally and technically "
+"reusable. The next step is to encourage others to make use of that data."
+msgstr "Ενδιαφερθήκαμε να καταστήσουμε τις κυβερνητικές πληροφορίες νομικά και τεχνικά επαναχρησιμοποιήσιμες. Το επόμενο στάδιο είναι να ενθαρρύνουμε τους άλλους να χρησιμοποιήσουν αυτά τα δεδομένα. "
+
+# ea104e8ec1424383ab1ad41895ec4913
+#: ../../source/following-up/index.rst:9
+msgid ""
+"This section looks at additional things which can be done to promote data "
+"re-use."
+msgstr "Αυτή η ενότητα επικεντρώνεται σε επιπλέον ενέργειες που μπορούν να προωθήσουν την επαναχρησιμοποίηση των δεδομένων."
+
+# 120ddfec9cfe474eb54d102baa82fa32
+#: ../../source/following-up/making-things.rst:3
+msgid "Making things! Hackdays, prizes and prototypes"
+msgstr "Φτιάξτε πράγματα! Hackdays, βραβεία και πρωτότυπα"
+
+# 060111852eda4d8ab3c3be81956860cd
+#: ../../source/following-up/making-things.rst:5
+msgid ""
+"The structure of these competitions is that a number of datasets are "
+"released and programmers then have a short time-frame - running from as "
+"little as 48 hours to a few weeks - to develop applications using the data. "
+"A prize is then awarded to the best application. Competitions have been held"
+" in a number of countries including the UK, the US, Norway, Australia, "
+"Spain, Denmark and Finland."
+msgstr "Η δομή αυτών των εκδηλώσεων έχουν ως εξής: κυκλοφορούν μερικά σύνολα δεδομένων και οι προγραμματιστές έχουν ένα σύντομο χρονικό διάστημα –από 48 ώρες μέχρι μερικές εβδομάδες–να αναπτύξουν εφαρμογές χρησιμοποιώντας αυτά τα δεδομένα. Στην καλύτερη εφαρμογή, απονέμεται ένα βραβείο. Τέτοιες εκδηλώσεις έλαβαν χώρα σε διάφορα κράτη συμπεριλαμβανομένων του Ηνωμένου Βασιλείου, των Η.Π.Α, της Νορβηγίας, της Αυστραλίας, της Ισπανίας, της Δανίας και της Φινλανδίας."
+
+# 4023683f993e487e8a36414c0e231b52
+#: ../../source/following-up/making-things.rst:13
+msgid "Examples for Competitions"
+msgstr "Παραδείγματα εκδηλώσεων"
+
+# 49b7ac024e12489b949a4e96788136cc
+#: ../../source/following-up/making-things.rst:15
+msgid ""
+"**Show us a better way** was the first such competition in the world. It was"
+" initiated by the UK Government’s “The Power of Information Taskforce” "
+"headed by Cabinet Office Minister Tom Watson in March 2008. This competition"
+" asked “What would you create with public information?” and was open to "
+"programmers from around the world, with a tempting £80,000 prize for the "
+"five best applications."
+msgstr "Το **Show us a better way** - Δείξτε μας έναν καλύτερο τρόπο- ήταν η πρώτη τέτοια διοργάνωση στον κόσμο. Ξεκίνησε από την ομάδα δράσης «The Power of Information Taskforce» της κυβέρνησης του Ηνωμένου Βασιλείου, με επικεφαλής τον υπουργό Tom Watson, το Μάρτιο του 2008. Σε αυτήν τη διοργάνωση το ερώτημα ήταν «Τι θα δημιουργήσετε με τη δημόσια πληροφορία;» και ήταν ανοιχτό σε προγραμματιστές από όλον τον κόσμο, με το δελεαστικό βραβείο των £80.000 για τις πέντε καλύτερες εφαρμογές. "
+
+# 4173635b18804fe2afc29007068f6172
+#: ../../source/following-up/making-things.rst:22
+msgid ""
+"**Apps for Democracy**, one of the first competitions in the United States, "
+"was launched in October 2008 by Vivek Kundra, at the time Chief Technology "
+"Officer (CTO) of the District of Columbia (DC) Government. Kundra had "
+"developed the groundbreaking DC data catalog, http://data.octo.dc.gov/, "
+"which included datasets such as real-time crime feeds, school test scores, "
+"and poverty indicators. It was at the time the most comprehensive local data"
+" catalog in the world. The challenge was to make it useful for citizens, "
+"visitors, businesses and government agencies of Washington, DC."
+msgstr "Το **Apps for Democracy**, Εφαρμογές για τη Δημοκρατία, ήταν μία από τις πρώτες διοργανώσεις στις Ηνωμένες Πολιτείες, η οποία πραγματοποιήθηκε τον Οκτώβριο του 2008 και εγκαινιάστηκε από τον Vivek Kundra, τότε Γενικό Διευθυντή Τεχνολογίας (CTO) στην περιοχή της Columbia (DC). Ο Kundra ανέπτυξε τον πρωτοποριακό κατάλογο των DC δεδομένων http://data.octo.dc.gov/,. Ο κατάλογος αυτός ήταν τότε ο πιο περιεκτικός κατάλογος σε όλον τον κόσμο. Η πρόκληση ήταν να καταστεί χρήσιμος για τους κατοίκους, τους επισκέπτες και τις κυβερνητικές υπηρεσίες της Washington."
+
+# 8d21825195c3490fb0c824541222f572
+#: ../../source/following-up/making-things.rst:32
+msgid ""
+"The creative solution was to create the Apps for Democracy contest. The "
+"strategy was to ask people to build applications using the data from the "
+"freshly launched data catalog. It included an online submission for "
+"applications, many small prizes rather than a few large ones, and several "
+"different categories as well as a “People’s Choice” prize. The competition "
+"was open for 30 days and cost the DC government $50,000. In return, a total "
+"of 47 iPhone, Facebook and web applications were developed with an estimated"
+" value in excess of $2,600,000 for the local economy."
+msgstr "Η δημιουργική λύση που προτάθηκε ήταν να κατασκευαστούν εφαρμογές για τη Δημοκρατία. Η στρατηγική ήταν να ζητηθεί από τους προγραμματιστές να αναπτύξουν εφαρμογές, χρησιμοποιώντας δεδομένα από τον πρόσφατα εγκαινιασμένο κατάλογο. Περιλάμβανε μια διαδικτυακή φόρμα υποβολής αιτήσεων, πολλά μικρά βραβεία, αντί για μερικά μεγάλα και πολλές διαφορετικές κατηγορίες, καθώς και ένα βραβείο «People’s Choice». Η διοργάνωση ήταν ανοιχτή για 30 μέρες και κόστισε στην κυβέρνηση της DC $50.000. Σε αντάλλαγμα, αναπτύχθηκαν συνολικά 47 εφαρμογές για το iPhone, το Facebook και το Web, με εκτιμώμενη αξία που εξέχει των $2.600.000, για την ενίσχυση της τοπικής οικονομίας."
+
+# f146ea81d3f149b4abf0590d80f27b1c
+#: ../../source/following-up/making-things.rst:42
+msgid ""
+"**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, "
+"this contest invited developers to  create open source applications making "
+"use of public data in just 48 hours. The competition had 29 teams of "
+"participants who developed applications that included a mobile phone "
+"programme for accessing traffic information in the Basque Country, and for "
+"accessing data on buses and bus stops in Madrid, which won the first and "
+"second prizes of €3,000 and €2,000 respectively."
+msgstr "**The Abre Datos (Open Data) Challenge 2010**. Πραγματοποιήθηκε τον Απρίλιο του 2010 στην Ισπανία. Σε αυτήν τη διοργάνωση, οι προγραμματιστές κλήθηκαν να αναπτύξουν ανοιχτού κώδικα λογισμικό, χρησιμοποιώντας δημόσια δεδομένα, μέσα σε 48 μόνον ώρες. Στο διαγωνισμό συμμετείχαν 29 ομάδες οι οποίες ανέπτυξαν εφαρμογές που συμπεριλάμβαναν εφαρμογές για κινητές συσκευές, οι οποίες προσέφεραν πρόσβαση σε πληροφορίες για την κίνηση στη Βασκωνία και για λεωφορεία και στάσεις στη Μαδρίτη και κέρδισαν το πρώτο και το δεύτερο βραβείο των €3.000 και €2.000 αντίστοιχα."
+
+# 1db8e290e0aa405ea64d0162ab6128e6
+#: ../../source/following-up/making-things.rst:50
+msgid ""
+"**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government "
+"Administration held \"Nettskap 2.0\". Norwegian developers – companies, "
+"public agencies or individuals – were challenged to come up with web-based "
+"project ideas in the areas of service development, efficient work processes,"
+" and increased democratic participation. The use of government data was "
+"explicitly encouraged. Though the application deadline was just a month "
+"later, on May 9, the Minister Rigmor Aasrud said the response was "
+"\"overwhelming\". In total 137 applications were received, no less than 90 "
+"of which built on the re-use of government data. A total amount of NOK 2.5 "
+"million was distributed among the 17 winners; while the total amount applied"
+" for by the 137 applications was NOK 28.4 million."
+msgstr "**Nettskap 2.0**.  Τον Απρίλιο του 2010, το νορβηγικό υπουργείο δημόσιας διοίκησης διοργάνωσε το “Nettskap 2.0”. Νορβηγοί προγραμματιστές –εταιρείες, δημόσιες υπηρεσίες και μεμονωμένα άτομα– προσκλήθηκαν να υποβάλλουν ιδέες για διαδικτυακές εφαρμογές στους τομείς της ανάπτυξης υπηρεσιών, της αποδοτικότερης εργασίας και της αυξημένης δημοκρατικής συμμετοχής. Η χρήση των κυβερνητικών δεδομένων ενθαρρύνθηκε ρητά. Αν και η προθεσμία έληγε μόλις ένα μήνα μετά, στις 9 Μαΐου, η υπουργός Rigmor Aasrud δήλωσε πως η ανταπόκριση ήταν εντυπωσιακή. Παραλήφθηκαν 137 εφαρμογές, εκ των οποίων, τουλάχιστον 90 ήταν ανεπτυγμένες με σκοπό την επαναχρησιμοποίηση των κυβερνητικών δεδομένων. Μεταξύ των 17 νικητών διανεμήθηκε το ποσό των 2.5 εκατομμυρίων NOK, ενώ το συνολικό ποσό για τις 137 που έκαναν αίτηση ήταν 28.4 εκατομμύρια NOK."
+
+# 14cbc29030354b309e4c0acf0e56aef3
+#: ../../source/following-up/making-things.rst:63
+msgid ""
+"**Mashup Australia**. The Australian Government 2.0 Taskforce invited "
+"citizens to show why open access to Australian government information would "
+"be positive for the country’s economy and social development. The contest "
+"ran from October 7th to November 13th 2009. The Taskforce released some "
+"datasets under an open license and in a range of reusable formats. The 82 "
+"applications that were entered into the contest are further evidence of the "
+"new and innovative applications which can result from releasing government "
+"data on open terms."
+msgstr "**Mashup Australia**. Η ομάδα εργασίας «Australian Government 2.0 Taskforce» κάλεσε τους κατοίκους να δείξουν γιατί η ανοιχτή πρόσβαση στις πληροφορίες της αυστραλιανής κυβέρνησης θα ήταν θετική για την οικονομική και την κοινωνική ανάπτυξη της χώρας. Ο διαγωνισμός διήρκησε από τις 7 Οκτωβρίου ως τις 13 Νοεμβρίου του 2009. Η διοργανώτρια αρχή κυκλοφόρησε μερικά σύνολα δεδομένων, υπό μια ανοιχτή άδεια και σε ένα εύρος επαναχρησιμοποιήσιμων μορφών. Οι 82 εφαρμογές που συμμετείχαν στο διαγωνισμό αποδεικνύουν ακόμα περισσότερο ότι νέες και καινοτόμες εφαρμογές μπορούν να προκύψουν με την κυκλοφορία των κυβερνητικών δεδομένων υπό ανοιχτούς όρους. "
+
+# 7abfb909efeb422099a3cc361c47d784
+#: ../../source/following-up/making-things.rst:73
+msgid "Conferences, Barcamps, Hackdays"
+msgstr "Conferences, Barcamps, Hackdays"
+
+# 09e8f1bbc1b6444aa9605ae502caef64
+#: ../../source/following-up/making-things.rst:75
+msgid ""
+"One of the more effective ways for Civil Society Organisations (CSOs) to "
+"demonstrate to governments the value of opening up their datasets is to show"
+" the multiple ways in which the information can be managed to achieve social"
+" and economic benefit. CSOs that promote re-use have been instrumental in "
+"countries where there have been advances in policy and law to ensure that "
+"datasets are both technically and legally open."
+msgstr "Ένας από τους πιο αποτελεσματικούς τρόπους για τις οργανώσεις της κοινωνίας των πολιτών, ( Civil Society Organisation CSOs)  ώστε να αποδείξουν στις κυβερνήσεις την αξία του «ανοίγματος» των συνόλων δεδομένων, είναι να αναδείξουν τους πολλαπλούς τρόπους με τους οποίους οι πληροφορίες μπορούν να διαχειριστούν και να αποφέρουν κοινωνικό και οικονομικό όφελος. Οι οργανώσεις που προωθούν την επαναχρησιμοποίηση έπαιξαν αποφασιστικό ρόλο στην πρόοδο της στρατηγικής και της νομοθεσίας για να εξασφαλιστεί ότι το σύνολο των δεδομένων είναι και τεχνολογικά και νομοθετικά ανοιχτό. "
+
+# 60c702f98efb4c9aa510e6198b1428db
+#: ../../source/following-up/making-things.rst:83
+msgid ""
+"The typical activities which are undertaken as part of these initiatives "
+"normally include competitions, :term:`open government data` conferences, "
+"“unconferences”, workshops and “hack days”. These activities are often "
+"organised by the user community with data that has already been published "
+"proactively or obtained using access to information requests. In other "
+"cases, civil society advocates have worked with progressive public officials"
+" to secure new release of datasets that can be used by programmers to create"
+" innovative applications."
+msgstr "Οι συνηθισμένες δραστηριότητες που λαμβάνουν μέρος σε αυτές τις πρωτοβουλίες περιλαμβάνουν διαγωνισμούς, συνέδρια για τα ανοιχτά κυβερνητικά δεδομένα, “unconferences”, workshops και “hack days”. Αυτές οι δραστηριότητες συχνά διοργανώνονται από την κοινότητα των χρηστών με δεδομένα που έχουν ήδη δημοσιευτεί εκ των προτέρων ή που λαμβάνονται χρησιμοποιώντας την πρόσβαση σε αιτήματα για πληροφορίες. Σε άλλες περιπτώσεις, οι υπέρμαχοι της κοινωνίας της πληροφορίας συνεργάζονται με προοδευτικούς αρμοδίους ώστε να διασφαλίσουν νέες κυκλοφορίες του συνόλου των δεδομένων, που μπορουν να χρησιμοποιηθούν από τους προγραμματιστές, για να αναπτύξουν καινοτόμες εφαρμογές."
+
+# c85468b1156d4b76b60e1af0a6c15d37
+#: ../../source/following-up/tell-the-world.rst:3
+msgid "Tell the world!"
+msgstr "Ενημερώστε τον κόσμο! "
+
+# f7b8c06459e444fe94462d69f5643a3f
+#: ../../source/following-up/tell-the-world.rst:5
+msgid ""
+"First and foremost, make sure that you promote the fact that you've embarked"
+" on a campaign to promote :term:`open data` in your area of responsibility."
+msgstr "Πρώτο και κυριότερο, φροντίστε να γνωστοποιήσετε το γεγονός ότι έχετε ξεκινήσει μία εκστρατεία για να προωθήσετε τα Ανοιχτά Δεδομένα στην περιοχή ευθύνης σας. "
+
+# 9f1b5341b9e842f493d4aaf04dc35fcb
+#: ../../source/following-up/tell-the-world.rst:9
+msgid ""
+"If you open up a bunch of datasets, it’s definitely worth spending a bit of "
+"time to make sure that people know (or at least can find out) that you’ve "
+"done so."
+msgstr "Αν «ανοίξατε» ένα μεγάλο όγκο δεδομένων, αξίζει σίγουρα να αφιερώσετε λίγο χρόνο, ώστε να είστε σίγουροι ότι ο κόσμος το γνωρίζει (ή τουλάχιστον μπορεί να το ανακαλύψει)."
+
+# f9ce3d51005c4023a7fd16dd964b1eff
+#: ../../source/following-up/tell-the-world.rst:13
+msgid ""
+"In addition to things like press releases, announcements on your website, "
+"and so on, you may consider:"
+msgstr "Επιπλέον από τα δελτία τύπου, τις ανακοινώσεις στην ιστοσελίδα σας κτλ, θα πρέπει να λάβετε υπόψη σας: "
+
+# 05f10ba54c2b46e1a53127ab505be87c
+#: ../../source/following-up/tell-the-world.rst:16
+msgid ""
+"Contacting prominent organisations or individuals who work/are interested in"
+" this area"
+msgstr "Την επικοινωνία με εξέχοντες οργανισμούς και μεμονωμένα άτομα που εργάζονται / ενδιαφέρονται για το πεδίο."
+
+# a2b3bc1ebe674b0ea69ffd4da3745791
+#: ../../source/following-up/tell-the-world.rst:18
+msgid "Contacting relevant mailing lists or social networking groups"
+msgstr "Διανέμετε την πρόσκληση σε σχετικές mailing lists, forums και μεμονωμένα άτομα, επισημαίνοντας την κύρια ιστοσελίδα."
+
+# 7b7cc9acb2a745ceacf815065d7ef058
+#: ../../source/following-up/tell-the-world.rst:19
+msgid ""
+"Directly contacting prospective users who you know may be interested in this"
+" data"
+msgstr "Την άμεση επικοινωνία με υποψήφιους χρήστες που γνωρίζετε ότι μπορεί να ενδιαφέρονται γι’ αυτά τα δεδομένα. "
+
+# 1e00595b53124d30a532470f0c12b6cc
+#: ../../source/following-up/tell-the-world.rst:23
+msgid "Understanding your audience"
+msgstr "Κατανοήστε το κοινό σας"
+
+# 528fc19bc9384914bff7b326a5690865
+#: ../../source/following-up/tell-the-world.rst:25
+msgid ""
+"Like all public communication, engaging with the data community needs to be "
+"targeted. Like all stakeholder groups, the right message can be wasted if it"
+" is directed to the wrong area."
+msgstr "Όπως συμβαίνει με κάθε δημόσια επικοινωνία, η εμπλοκή με την κοινότητα χρειάζεται να είναι στοχευόμενη. Όπως σε όλες τις ομάδες ενδιαφέροντος, ένα σωστό μήνυμα μπορεί να χαθεί αν απευθύνεται σε λάθος περιοχή. "
+
+# 5cee9f066f764747a01b13daa677806d
+#: ../../source/following-up/tell-the-world.rst:29
+msgid ""
+"Digital communities tend to be very willing to share new information, yet "
+"they very rapidly consume it. Write as if your messages will be skimmed "
+"over, rather than critically examined in-depth."
+msgstr "Οι ψηφιακές κοινότητες τείνουν να επιθυμούν να μοιραστούν νέες πληροφορίες, όμως τις καταναλώνουν πολύ βιαστικά. Γράψτε τα μηνύματα σας σαν να πρόκειται να διαβαστούν επιφανειακά, παρά για να εξετασθούν σε βάθος. "
+
+# 18c9101dca504db9accaddb84ade088c
+#: ../../source/following-up/tell-the-world.rst:33
+msgid ""
+"Members of the tech community are less likely than the general public to use"
+" MS Windows. This means that you should not save documents in MS Office "
+"formats which can be read offline. There are two resons for this:"
+msgstr "Τα μέλη της τεχνολογικής κοινότητας είναι λιγότερο πιθανό να χρησιμοποιήσουν Microsoft Windows, σε σχέση με το ευρύ κοινό. Αυτό σημαίνει ότι δεν πρέπει να αποθηκεύετε τα κείμενα σας σε μορφή Microsoft Office που πρόκειται να αναγνωστεί εκτός σύνδεσης. Υπάρχουν δύο καλοί λόγοι για αυτό:"
+
+# 19ec177bb4064fd4afc752564dcd6876
+#: ../../source/following-up/tell-the-world.rst:38
+msgid ""
+"The first is that those documents will be less accessible. Rather than the "
+"document you see on your screen, readers may see an imperfect copy from an "
+"alternative."
+msgstr "Ο πρώτος λόγος είναι ότι αυτά τα έγγραφα θα είναι λιγότερο προσβάσιμα. Αντί για το κείμενο που εσείς διαβάζετε στην οθόνη σας, οι αναγνώστες σας μπορεί να διαβάζουν ένα ατελές αντίγραφο ενός εναλλακτικού."
+
+# 2bf9658ad33c45e597c924d5f98773d9
+#: ../../source/following-up/tell-the-world.rst:41
+msgid ""
+"Secondly, your agency sends an implicit message that you are unwilling to "
+"take a step towards developers. Instead, you show that you are expecting the"
+" technology community to come to you."
+msgstr "Δεύτερον, η υπηρεσία σας στέλνει, έτσι, ένα σιωπηρό μήνυμα ότι δε διατίθεται να προχωρήσει ένα βήμα παραπέρα, προς τους προγραμματιστές. Αντίθετα, δείχνετε ότι προσδοκείτε από την τεχνολογική κοινότητα να σας πλησιάσει μόνη της. "
+
+# 844e5bf617e74753bc0dd1c7cac6f9f0
+#: ../../source/following-up/tell-the-world.rst:47
+msgid "Post your material on third-party sites"
+msgstr "Αναρτήστε το υλικό σας σε ιστοσελίδες τρίτων"
+
+# 6a83365938d94f77b222dc567c79b43d
+#: ../../source/following-up/tell-the-world.rst:49
+msgid ""
+"Many blogs have created a large readership in specialised topic areas. It "
+"may be worthwhile adding an article about your initiative on their site. "
+"These can be mutually beneficial. You receive more interest and they receive"
+" a free blog post in their topic area."
+msgstr "Πολλά ιστολόγια ανέπτυξαν ευρύ αναγνωστικό κοινό σε ειδικευμένα πεδία. Μπορεί να αξίζει να προσθέσετε άρθρα σχετικά με την πρωτοβουλία σας στην ιστοσελίδα τους. Αυτό μπορεί να φέρει αμοιβαία οφέλη. Εσείς, από τη μεριά σας, λαμβάνετε περισσότερο ενδιαφέρον και αυτοί, από τη δική τους, μία καταχώρηση στο ιστολόγιο τους, στο πεδίο που τους ενδιαφέρει. "
+
+# 9b230b80b65d485d86d252226dd302ec
+#: ../../source/following-up/tell-the-world.rst:56
+msgid "Making your communications more social-media friendly"
+msgstr "Κάντε την κοινότητά σας περισσότερο φιλική με τα κοινωνικά μέσα ενημέρωσης"
+
+# 4bead5ae1fe74d96a269bf59a3ca032d
+#: ../../source/following-up/tell-the-world.rst:58
+msgid ""
+"It's unrealistic to expect that officials should spend long periods of time "
+"engaging with social media. However, there are several things that you can "
+"do to make sure that your content can be easily shared between technical "
+"users. Some tips:"
+msgstr "Δεν είναι ρεαλιστικό να προσδοκείτε ότι οι υπάλληλοι μπορούν να διαθέσουν πολύ χρόνο στα κοινωνικά μέσα ενημέρωσης. Ωστόσο, υπάρχουν πολλά πράγματα που μπορεί να κάνετε ώστε να βεβαιωθείτε ότι το περιεχόμενό σας μπορεί εύκολα να διαμοιραστεί μεταξύ χρηστών με τεχνολογικό προσανατολισμό. Ακολουθούν κάποιες συμβουλές:"
+
+# f4f2dab2b9ac404cb9d9bbad4a3bf3b9
+#: ../../source/following-up/tell-the-world.rst:65
+msgid ""
+"When a message is shared with others, the recipient of the referral will be "
+"looking for the relevant content quickly."
+msgstr "Όταν κάποιος διαμοιράζει ένα μήνυμα σε άλλους, ο παραλήπτης του αναζητά για σχετικό υλικό άμεσα και γρήγορα. "
+
+# 52f00dd496ae41b3896cfd0f84c83303
+#: ../../source/following-up/tell-the-world.rst:70
+msgid ""
+"Press releases are fine. They are concise messages about a particular point."
+" However, if you require people to download the content and for it to open "
+"outside of a web browser, then fewer people will read it. Search engines are"
+" less likely to index the content. People are less likely to click to "
+"download."
+msgstr "Τα δελτία τύπου είναι σημαντικά. Είναι περιεκτικά μηνύματα σχετικά με κάποιο ειδικό ζήτημα. Ωστόσο, αν χρειάζεται το κοινό σας να «κατεβάσει» το περιεχόμενο και να το ανοίξει με κάποιο πρόγραμμα πέραν του φυλλομετρητή (browser), τότε, λιγότεροι χρήστες θα το διαβάσουν. Επίσης, οι μηχανές αναζήτησης είναι λιγότερο πιθανό να καταχωρήσουν το περιεχόμενο. Συνεπώς, ακόμα λιγότεροι είναι αυτοί που θα δοκιμάσουν να το «κατεβάσουν»."
+
+# 5f48a5a973b64166af65a56fee9e2af3
+#: ../../source/following-up/tell-the-world.rst:78
+msgid ""
+"Apart from providing certainty to people who wish to share your content that"
+" this is permissible, you send a message that your agency understands "
+"openness. This is bound to leave an impression far more significant to "
+"proponents of open data than any specific sentence in your press release."
+msgstr "Εκτός από το ότι παρέχετε την βεβαιότητα στους χρήστες που επιθυμούν να μοιραστούν το περιεχόμενο, πως αυτό είναι επιτρεπτό, στέλνετε και ένα μήνυμα ότι η υπηρεσία σας κατανοεί την έννοια της «ανοιχτότητας». Αυτό είναι βέβαιο ότι μπορεί να δημιουργήσει πολύ σημαντικότερες εντυπώσεις για τα Ανοιχτά Δεδομένα παρά κάθε άλλη αναφορά στο δελτίο τύπου. "
+
+# ced1e4dd38e54c148906380a97dd58ef
+#: ../../source/following-up/tell-the-world.rst:87
+msgid "Social media"
+msgstr "Κοινωνικά Μέσα Μαζικής Ενημέρωσης"
+
+# 574f80f4359f48efbb593e6eec284c9e
+#: ../../source/following-up/tell-the-world.rst:89
+msgid ""
+"It's inefficient for cash-strapped agencies to spend hours on social media "
+"sites. The most significant way that your voice can be heard through these "
+"fora is by making sure that blog posts are easily shareable. That means, "
+"before reading the next section, make sure that you have read the last. With"
+" that in mind, here are a few suggestions:"
+msgstr "Είναι αναποτελεσματικό για μια υπηρεσία με περιορισμένη χρηματοδότηση να αφιερώνει ώρες στα κοινωνικά δίκτυα μαζικής ενημέρωσης. Ο πιο εκφραστικός τρόπος να ακουστεί η φωνή σας μέσω αυτών των μέσων διακίνησης ιδεών είναι να φροντίσετε, ώστε οι αναρτήσεις στο ιστολόγιό σας να είναι εύκολα διαμοιράσιμες. Έχοντας αυτό υπόψη, ακολουθούν ορισμένες υποδείξεις. "
+
+# f847a5e41c65478796cb6b6f71cbf686
+#: ../../source/following-up/tell-the-world.rst:98
+msgid ""
+"Twitter has emerged as the platform of choice for disseminating information "
+"rapidly. Anything tagged with #opendata will be immediately seen by "
+"thousands."
+msgstr "Το twitter εξελίχθηκε σε πλατφόρμα για την ταχεία διάδοση των πληροφοριών. Οτιδήποτε έχει την ετικέτα #opendata μπορεί άμεσα να διαβαστεί από χιλιάδες χρήστες. "
+
+# 73647b69ba61434dbc71b406d5ae5259
+#: ../../source/following-up/tell-the-world.rst:102
+msgid ""
+"LinkedIn has a large selection of groups which are targeted towards open "
+"data."
+msgstr "Το LinkedIn προσφέρει μια μεγάλη ποικιλία ομάδων που απευθύνονται στα Ανοιχτά Δεδομένα. "
+
+# b0aafaffa0234c4989d2b2666ba136a5
+#: ../../source/following-up/tell-the-world.rst:105
+msgid ""
+"While Facebook is excellent for a general audience, it has not received a "
+"great deal of attention in the open data community."
+msgstr "Το Facebook, ενώ είναι εξαιρετικό για το ευρύ κοινό, δεν έχει καταφέρει να κερδίσει μεγάλο μερίδιο της κοινότητας των Ανοιχτών Δεδομένων. "
+
+# b3381b7656bf4f3dbe210f7e88d3202b
+#: ../../source/following-up/tell-the-world.rst:110
+msgid ""
+"Submit your content to the equivalent of newswires for geeks. Reddit and "
+"Hacker News are the two biggest in this arena at the moment. To a lesser "
+"extent, Slashdot and Digg are also useful tools in this area."
+msgstr "Υποβάλλετε το περιεχόμενό σας στις ροές ειδήσεων για geeks. Το Reddit και το Hacker News είναι δύο από τις σημαντικότερες, αυτήν την περίοδο. Σε μικρότερο βαθμό, το Slashdot και το Digg είναι, επίσης, δύο χρήσιμα εργαλεία. "
+
+# 8c7beae1caaa43b99c59bec2e4e1160d
+#: ../../source/following-up/tell-the-world.rst:115
+msgid ""
+"These sites have a tendency to drive significant traffic to interesting "
+"material. They are also heavily focused on topic areas."
+msgstr "Αυτές οι ιστοσελίδες έχουν την τάση να προωθούν σημαντική κίνηση σε ενδιαφέρον υλικό. Είναι επίσης, σε μεγάλο βαθμό, προσανατολισμένες σε συγκεκριμένα θέματα. "
+
+# 8d913877e7a6456b84c5481aa375fa49
+#: ../../source/glossary.rst:3
+msgid "Glossary"
+msgstr "Γλωσσάρι"
+
+# 7f11b625ef3e418ebce8fa73d6df5007
+#: ../../source/glossary.rst:99
+msgid ""
+"The process of adapting data so that individuals cannot be identified from "
+"it."
+msgstr "Η διαδικασία προσαρμογής των δεδομένων ώστε μεμονωμένα πρόσωπα να μην μπορούν να αναγνωρισθούν ύστερα από αυτήν."
+
+# a05e26862bfa42af9de59456bb406ca0
+#: ../../source/glossary.rst:96
+msgid "See :term:`Anonymisation`."
+msgstr "See :term:`Anonymisation`."
+
+# a178837206844dcd9c3f961ffb9ec065
+#: ../../source/glossary.rst:61
+msgid "See :term:`Application Programming Interface`."
+msgstr "See :term:`Application Programming Interface`."
+
+# b2d454de54a34ff3ac26f9a9b95cfc1d
+#: ../../source/glossary.rst:64
+msgid ""
+"A way computer programs talk to one another. Can be understood in terms of "
+"how a programmer sends instructions between programs."
+msgstr "Τρόπος επικοινωνίας μεταξύ διαφορετικών ηλεκτρονικών υπολογιστών. Μπορεί να εννοηθεί, κυρίως, σε σχέση με την αποστολή εντολών μεταξύ προγραμμάτων"
+
+# ed5e720c502945a5890bd78c53722041
+# 006ce3eeb6f6494e89126a9fee36fa6b
+#: ../../source/glossary.rst:108 ../../source/glossary.rst:111
+msgid "See :term:`Information Asset Register`."
+msgstr "See :term:`Information Asset Register`."
+
+# d7005be4c2644ffd95650d9a7fa33c09
+#: ../../source/glossary.rst:38
+msgid ""
+"A license that requires that the original source of the licensed material is"
+" cited (attributed)."
+msgstr "Είδος άδειας που απαιτεί την αναφορά στην αρχική πηγή του υλικού που αναφέρεται. "
+
+# a66abef10b4b433d93031aa2c2017898
+#: ../../source/glossary.rst:24
+msgid ""
+"BitTorrent is a protocol for distributing the bandwith for transferring very"
+" large files between the computers which are participating in the transfer. "
+"Rather than downloading a file from a specific source, BitTorrent allows "
+"peers to download from each other."
+msgstr "Το BitTorrent είναι ένα πρωτόκολλο για την κατανομή του εύρους ζώνης κατά τη μεταφορά πολύ μεγάλων αρχείων, μεταξύ των υπολογιστών που συμμετέχουν στη μεταφορά. Αντί να λαμβάνεται ένα αρχείο από μια συγκεκριμένη πηγή, με το BitTorrent, κάθε παραλήπτης λαμβάνει από τους υπόλοιπους."
+
+# 612e73147c2c40fdbe744433e7db9a57
+#: ../../source/glossary.rst:20
+msgid ""
+"Connectivity relates to the ability for communities to connect to the "
+"Internet, especially the World Wide Web."
+msgstr "Η δυνατότητα που έχουν οι κοινωνίες να συνδεθούν στο Διαδίκτυο, ειδικότερα στον Παγκόσμιο Ιστό. "
+
+# 2c5484b9a96740bfbc9f3afcc208576a
+#: ../../source/glossary.rst:83
+msgid ""
+"A right for the creators of creative works to restrict others' use of those "
+"works. An owner of copyright is entitled to determine how others may use "
+"that work."
+msgstr "Το δικαίωμα που έχουν οι δημιουργοί πνευματικών εργασιών να περιορίσουν τη χρήση τους από άλλους. Ο ιδιοκτήτης των πνευματικών δικαιωμάτων δικαιούται να καθορίσει πως οι άλλοι μπορούν να χρησιμοποιήσουν αυτήν τη δουλειά."
+
+# 905eb11579234bb1a44c8bf10af73af7
+#: ../../source/glossary.rst:31
+msgid "See :term:`Data Access Protocol`."
+msgstr "See :term:`Data Access Protocol`."
+
+# df25ad55a2cd4441b7c2a9fa5fb62877
+#: ../../source/glossary.rst:34
+msgid ""
+"A system that allows outsiders to be granted access to databases without "
+"overloading either system."
+msgstr "Ένα σύστημα που επιτρέπει σε τρίτους να έχουν πρόσβαση σε βάσεις δεδομένων χωρίς να υπερφορτώνουν κανένα σύστημα,"
+
+# 9d30078f305e4260bfee0cfdd8fc931b
+#: ../../source/glossary.rst:42
+msgid ""
+"Data protection legislation is not about protecting the data, but about "
+"protecting the right of citizens to live without fear that information about"
+" their private lives might become public. The law protects privacy (such as "
+"information about a person's economic status, health and political position)"
+" and other rights such as the right to freedom of movement and assembly. For"
+" example, in Finland a travel card system was used to record all instances "
+"when the card was shown to the reader machine on different public transport "
+"lines. This raised a debate from the perspective of freedom of movement and "
+"the travel card data collection was abandoned based on the data protection "
+"legislation."
+msgstr "Η νομοθεσία για τα προσωπικά δεδομένα δεν αφορά την προστασία των δεδομένων, αλλά προστατεύει το δικαίωμα των πολιτών να ζουν χωρίς φόβο ότι οι πληροφορίες για την προσωπική τους ζωή μπορεί να γίνουν δημόσια διαθέσιμες. Η νομοθεσία προστατεύει την προστασία της ιδιωτικής ζωής (όπως πληροφορίες για την οικονομική τους κατάσταση, την υγεία και την πολιτική τους τοποθέτηση) και άλλα δικαιώματα όπως το δικαίωμα στην ελευθερία των μετακινήσεων. Για παράδειγμα, στη Φινλανδία, το σύστημα ταξιδιωτικών καρτών χρησιμοποιούνταν για να καταγράφει όλες τις κινήσεις όταν μία κάρτα επιδεικνύονταν σε μηχανή ανάγνωσης των καρτών σε διάφορες γραμμές των δημόσιων μέσων μετακίνησης. Αυτό ξεσήκωσε διάλογο από την άποψη της ελευθερίας των μετακινήσεων και συνεπώς η συλλογή των δεδομένων στην κάρτα εγκαταλείφθηκε λόγω της νομοθεσίας για την προστασία των δεδομένων"
+
+# 86c8b18def8d4ee1b79d75ad066b4b8f
+#: ../../source/glossary.rst:79
+msgid ""
+"A right to prevent others from extracting and reusing content from a "
+"database. Exists mainly in European jurisdictions."
+msgstr "Το δικαίωμα να αποτρέπεις άλλους από το να εξάγουν και να επαναχρησιμοποιούν το περιεχόμενο μίας βάσης δεδομένων. Υπάρχει κατά κύριο λόγο στην Ευρωπαϊκή επικράτεια."
+
+# ec3378ceb3a748ccad2951202612480a
+#: ../../source/glossary.rst:114
+msgid "European Union."
+msgstr "Ευρωπαϊκή Ένωση"
+
+# 5ad96f170d4d4c57b91fd25c109b9d1f
+#: ../../source/glossary.rst:117
+msgid ""
+"The *Directive on the re-use of public sector information*, 2003/98/EC. "
+"\"deals with the way public sector bodies should enhance re-use of their "
+"information resources.\" `Legislative Actions - PSI Directive "
+"<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+msgstr "Η *οδηγία για την επαναχρησιμοποίηση των πληροφοριών για το δημόσιο τομέα*, 2003/98/EC. Διαπραγματεύεται τον τρόπο με τον οποίο τα σώματα του δημοσίου τομέα πρέπει να βελτιώσουν την επαναχρησιμοποίηση των πληροφοριακών πηγών. Νομοθετικές δράσεις - PSI οδηγία <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+
+# 31dae10cf39d414c9c3bc877c742864f
+#: ../../source/glossary.rst:123
+msgid ""
+"IARs are registers specifically set up to capture and organise meta-data "
+"about the vast quantities of information held by government departments and "
+"agencies. A comprehensive IAR includes databases, old sets of files, recent "
+"electronic files, collections of statistics, research and so forth."
+msgstr "Τα IARs είναι καταχωρητές που έχουν ειδικά συσταθεί να καταγράψουν και να οργανώσουν μετα-δεδομένα σχετικά με τις τεράστιες ποσότητες των πληροφοριών που διατηρούνται από τα τμήματα και τις υπηρεσίες του δημόσιου τομέα. Ένα εκτενές IAR περιλαμβάνει βάσεις δεδομένων, παλιά σύνολα αρχείων, πρόσφατα ηλεκτρονικά αρχεία, συλλογές στατιστικών, έρευνες κτλ. "
+
+# fbabda3fc9f146ac9a749e3d391ff817
+#: ../../source/glossary.rst:129
+msgid ""
+"The :term:`EU PSI Directive` recognises the importance of asset registers "
+"for prospective re-users of public information. It requires member states to"
+" provide lists, portals, or something similar. It states::"
+msgstr "Η :term:`οδηγία της ΕΕ για το PSI` αναγνωρίζει τη σπουδαιότητα των καταχωρημένων στοιχείων για πιθανούς μελλοντικούς χρήστες των δημόσιων πληροφοριών. Απαιτεί οι χώρες μέλη να παρέχουν λίστες, δικτυακές πύλες ή κάτι παρόμοιο. Δηλώνει ότι:"
+
+# 815da74bce80419d83a67e6fddc5fe7b
+#: ../../source/glossary.rst:145
+msgid ""
+"IARs can be developed in different ways. Government departments can develop "
+"their own IARs and these can be linked to national IARs. IARs can include "
+"information which is held by public bodies but which has not yet been – and "
+"maybe will not be – proactively published. Hence they allow members of the "
+"public to identify information which exists and which can be requested."
+msgstr "Τα IARs μπορεί να αναπτυχθούν με διαφορετικούς τρόπους. Τα διάφορα κυβερνητικά τμήματα μπορούν να αναπτύξουν τα δικά τους IARs και αυτά να διασυνδεθούν με τα εθνικά IARs. Τα IARs μπορεί να περιλαμβάνουν πληροφορίες που συγκεντρώνονται από δημόσια σώματα αλλά τα οποία δεν είναι –και ίσως να μη γίνουν- προληπτικά δημοσιοποιημένα. Ως εκ τούτου, επιτρέπουν στα μέλη να αναγνωρίσουν πληροφορίες που υπάρχουν και που μπορεί να ζητηθούν"
+
+# 338ebff07b91405ba99bcd2e705da064
+#: ../../source/glossary.rst:152
+msgid ""
+"For the public to make use of these IARs, it is important that any registers"
+" of information held should be as complete as possible in order to be able "
+"to have confidence that documents can be found. The incompleteness of some "
+"registers is a significant problem as it creates a degree of unreliability "
+"which may discourage some from using the registers to search for "
+"information."
+msgstr "Για να μπορέσει το κοινό να τα χρησιμοποιήσει, είναι σημαντικό ότι κάθε καταχώρηση πληροφοριών που εισάγεται θα πρέπει να είναι όσο πιο πλήρης γίνεται ώστε να υπάρχει ελπίδα τα έγγραφα να μπορούν να είναι αναζητήσιμα. Η ατέλεια κάποιων καταχωρήσεων είναι ένα σημαντικό πρόβλημα αφού δημιουργεί ένα βαθμό αβεβαιότητας που αποθαρρύνει τη χρησιμοποίηση των καταχωρήσεων για αναζήτηση πληροφοριών. "
+
+# 27218b7ea50843d393655598df958338
+#: ../../source/glossary.rst:159
+msgid ""
+"It is essential that the metadata in the IARs should be comprehensive so "
+"that search engines can function effectively. In the spirit of open "
+"government data, public bodies should make their IARs available to the "
+"general public as raw data under an open license so that civic hackers can "
+"make use of the data, for example by building search engines and user "
+"interfaces."
+msgstr "Είναι σημαντικό τα μεταδεδομένα στα IARs να είναι λεπτομερή έτσι ώστε οι μηχανές αναζήτησης να μπορούν να λειτουργούν αποτελεσματικά. Στο πνεύμα των Ανοιχτών κυβερνητικών δεδομένων, τα δημόσια σώματα πρέπει να κάνουν τα IARs τους διαθέσιμα στο γενικό κοινό σαν ακατέργαστα δεδομένα υπό κάποια ανοιχτή άδεια ώστε οι απλοί hackers να μπορούν να τα χρησιμοποιήσουν, για παράδειγμα υλοποιώντας μηχανές αναζήτησης και φιλικές προς το χρήστη διεπαφές."
+
+# 4feb4d19a60642078f320e8d8dd612be
+#: ../../source/glossary.rst:105
+msgid "Monopolies granted to individuals for intellectual creations."
+msgstr "Μονοπώλια που χορηγούνται σε άτομα για πνευματικές δημιουργίες."
+
+# 89ef221be02d4278bab95a677f310469
+#: ../../source/glossary.rst:102
+msgid "See :term:`Intellectual property rights`."
+msgstr "See :term:`Intellectual property rights`."
+
+# 58a3235843654c3282894e72502ef67d
+#: ../../source/glossary.rst:13
+msgid ""
+"Formats that are machine readable are ones which are able to have their data"
+" extracted by computer programs easily. PDF documents are not machine "
+"readable. Computers can display the text nicely, but have great difficulty "
+"understanding the context that surrounds the text."
+msgstr "Μορφή που είναι αναγνωρίσιμη από τη μηχανή, από την οποία είναι δυνατό να εξαχθούν τα δεδομένα, εύκολα, χρησιμοποιώντας προγράμματα υπολογιστών. Τα PDF έγγραφα δεν είναι αναγνώσιμα από τις μηχανές. Οι υπολογιστές μπορούν να προβάλουν το κείμενο όμορφα, αλλά έχουν μεγάλες δυσκολίες να κατανοήσουν το περιεχόμενο που περιβάλλει το κείμενο."
+
+# 2dc4522d8fcb4013b942b47615c50aa3
+#: ../../source/glossary.rst:9
+msgid ""
+"Open data are able to be used for any purpose. More details can be read at "
+"`opendefinition.org <http://www.opendefinition.org/>`_."
+msgstr "Τα Ανοιχτά Δεδομένα μπορούν να χρησιμοποιηθούν σε πολλές περιπτώσεις. Πολλές λεπτομέρειες μπορούν να αναγνωστούν στο `opendefinition.org<http://www.opendefinition.org/>`_."
+
+# 5de57f6ce9f24f3ebbbcb86481d101fb
+#: ../../source/glossary.rst:167
+msgid ""
+":term:`Open data` produced by the government. This is generally accepted to "
+"be data gathered during the course of business as usual activities which do "
+"not identify individuals or breach commercial sensitivity. Open government "
+"data is a subset of :term:`Public Sector Information`, which is broader in "
+"scope. See http://opengovernmentdata.org for details."
+msgstr "Είναι τα Ανοιχτά Δεδομένα που παράγονται από τις κυβερνήσεις. Πρόκειται για δεδομένα που συλλέγονται προς όφελος της υπηρεσίας και δεν περιέχουν προσωπικά στοιχεία ή εταιρικά μυστικά. Τα ανοικτά κυβερνητικά δεδομένα είναι ένα υποσύνολο των Δεδομένων του Δημοσίου Τομέα, που είναι ευρύτερα σε εμβέλεια. Δείτε το http://opengovernmentdata.org για λεπτομέρειες."
+
+# fd67964c3c0c4d829d84d0289821fa98
+#: ../../source/glossary.rst:91
+msgid ""
+"Generally understood as technical standards which are free from licencing "
+"restrictions. Can also be interpreted to mean standards which are developed "
+"in a vendor-neutral manner."
+msgstr "Γενικά, κατανοητά σαν τεχνολογικά πρότυπα που είναι απαλλαγμένα από περιορισμούς αδειών. Μπορούν, επίσης, να ερμηνευτούν σαν πρότυπα που αναπτύχθηκαν με έναν τρόπο ουδέτερο προς τους κατασκευαστές. "
+
+# 69cae7a7b1ba4c2ab1feefaa40340b8e
+#: ../../source/glossary.rst:55
+msgid "See :term:`Public Sector Information`."
+msgstr "See :term:`Public Sector Information`."
+
+# a2ce148a2a73420b9acd40b9063f3f43
+#: ../../source/glossary.rst:75
+msgid ""
+"No copyright exists over the work. Does not exist in all jurisdictions."
+msgstr "Δεν υφίστανται πνευματικά δικαιώματα σε όλη την έκταση του έργου. Ο όρος αυτός δεν ισχύει σε όλες τις περιοχές."
+
+# 2f2e8085f2cc4398947dfcaa3f7ab3b8
+#: ../../source/glossary.rst:58
+msgid "Information collected or controlled by the public sector."
+msgstr "Πληροφορίες που συγκεντρώνονται ή ελέγχονται από το δημόσιο τομέα"
+
+# bb27435fccc543f49295bce4ed47215a
+#: ../../source/glossary.rst:88
+msgid "Use of content outside of its original intention."
+msgstr "Χρήση του περιεχομένου πέρα από τις αρχικές προθέσεις χρήσης του."
+
+# b82b98ba6b7f4fc1aacfe2d19a7bda99
+#: ../../source/glossary.rst:71
+msgid ""
+"A license that requires users of a work to provide the content under the "
+"same or similar conditions as the original."
+msgstr "Μία άδεια που απαιτεί οι χρήστες του έργου να παρέχουν το περιεχόμενο υπό τους ίδιους όρους ή παρόμοιες συνθήκες όπως το αρχικό."
+
+# fd0aa49e25734202a7c30036e68ef957
+#: ../../source/glossary.rst:175
+msgid ""
+"Tab-separated values (TSV) are a very common form of text file format for "
+"sharing tabular data. The format is extremely simple and highly :term"
+":`machine-readable`."
+msgstr "Η μορφή Tab-seperated values (TSV) είναι μια πολύ συνηθισμένη μορφή αρχείου κειμένου για το διαμοιρασμό πινάκων δεδομένων. Η μορφή είναι εξαιρετικά απλή και εύκολα αναγνώσιμη από τις μηχανές. "
+
+# c51eb47f3b384fb4b0bfbe917fa42d1e
+#: ../../source/glossary.rst:68
+msgid "An :term:`API` that is designed to work over the Internet."
+msgstr "Ένα :term:`API` που σχεδιάστηκε για να λειτουργεί στο Διαδίκτυο. "
+
+# 7132f49bacf446729745b0e8e0d9a192
+#: ../../source/appendices/file-formats.rst:3
+msgid "File Formats"
+msgstr "Μορφές αρχείων"
+
+# 510002baa9d748f68d35f6436604f3fb
+#: ../../source/appendices/file-formats.rst:6
+msgid "An Overview of File Formats"
+msgstr "Επισκόπηση των μορφών αρχείων"
+
+# 635ed34ea4614e81860363d399eb473a
+#: ../../source/appendices/file-formats.rst:9
+msgid "JSON"
+msgstr "JSON"
+
+# 3deb8b74834d42b1bdb11e40d2be3d28
+#: ../../source/appendices/file-formats.rst:11
+msgid ""
+"JSON is a simple file format that is very easy for any programming language "
+"to read. Its simplicity means that it is generally easier for computers to "
+"process than others, such as XML."
+msgstr "Η JSON είναι μια απλή μορφή αρχείων η οποία διαβάζεται εύκολα από οποιαδήποτε γλώσσα προγραμματισμού. Η απλότητά της σημαίνει ότι είναι γενικά απλούστερο για τους υπολογιστές να την επεξεργασθούν, σε σύγκριση με άλλες, όπως η XML."
+
+# 8a8590a390d84558833340d36e1f1b61
+#: ../../source/appendices/file-formats.rst:16
+msgid "XML"
+msgstr "XML"
+
+# 8bfafd0051d24a888453f01d8ba314e4
+#: ../../source/appendices/file-formats.rst:18
+msgid ""
+"XML is a widely used format for data exchange because it gives good "
+"opportunities to keep the structure in the data and the way files are built "
+"on, and allows developers to write parts of the documentation in with the "
+"data without interfering with the reading of them."
+msgstr "Η XML χρησιμοποιείται ευρέως για την ανταλλαγή δεδομένων επειδή προσφέρει καλές προϋποθέσεις ώστε να διατηρηθεί η δομή στα δεδομένα και στον τρόπο που δομούνται τα αρχεία, και επιτρέπει στους προγραμματιστές να τεκμηριώνουν επιτόπου τα δεδομένα χωρίς να επιδρούν στην ανάγνωσή τους."
+
+# 516202713787406d9afba417d89fc548
+#: ../../source/appendices/file-formats.rst:24
+msgid "RDF"
+msgstr "RDF"
+
+# dbea0450c3c74ee5b999d5b3aec5cdc9
+#: ../../source/appendices/file-formats.rst:26
+msgid ""
+"A W3C-recommended format called RDF makes it possible to represent data in a"
+" form that makes it easier to combine data from multiple sources. RDF data "
+"can be stored in XML and JSON, among other serializations. RDF encourages "
+"the use of URLs as identifiers, which provides a convenient way to directly "
+"interconnect existing :term:`open data` initiatives on the Web. RDF is still"
+" not widespread, but it has been a trend among Open Government initiatives, "
+"including the British and Spanish Government Linked Open Data projects. The "
+"inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
+"scheme that includes linked RDF data as a goal to be sought for open data "
+"initiatives."
+msgstr "Η μορφή RDF, που προτείνεται από το W3C, επιτρέπει την αναπαράσταση των δεδομένων σε μορφή που κάνει ευκολότερο το συνδυασμό δεδομένων από πολλαπλές πηγές. Η RDF ενθαρρύνει τη χρήση των URL ως αναγνωριστικών, τα οποία παρέχουν έναν αξιόπιστο τρόπο διασύνδεσης υπάρχοντων :term:`ανοικτών δεδομένων` από τον Ιστό. Η RDF δεν είναι προς το παρόν ευρέως διαδεδομένη, όμως είναι μια δημοφιλής τάση στις πρωτοβουλίες της Ανοικτής Διακυβέρνησης, συμπεριλαμβανομένων των έργων Συνδεδεμένων Ανοικτών Δεδομένων της Ισπανικής και της Βρετανικής Κυβέρνησης. Ο εφευρέτης του Ιστού, Tim Berners-Lee, πρόσφατα πρότεινε ένα σχήμα 5 αστέρων, το οποίο περιλαμβάνει τα διασυνδεδεμένα RDF δεδομένα ως στόχο που πρέπει να επιτευχθεί για τις πρωτοβουλίες ανοικτών δεδομένων."
+
+# 36ba7f18a648422ea3301c59ce1cdcaf
+#: ../../source/appendices/file-formats.rst:41
+msgid "Spreadsheets"
+msgstr "Λογιστικά φύλλα"
+
+# f71a98416abb41dabc2dc7023eaea6b8
+#: ../../source/appendices/file-formats.rst:43
+msgid ""
+"Many authorities have information left in the spreadsheet, for example "
+"Microsoft Excel. This data can often be used immediately with the correct "
+"descriptions of what the different columns mean."
+msgstr "Πολλές υπηρεσίες αφήνουν πληροφορίες στο λογιστικό φύλλο, πχ στο Microsoft Excel. Αυτά τα δεδομένα μπορούν συνήθως να χρησιμοποιηθούν άμεσα για την περιγραφή του τι αναπαριστούν οι διάφορες στήλες."
+
+# 7e508d6674dc4676b48234f74c63791c
+#: ../../source/appendices/file-formats.rst:47
+msgid ""
+"However, in some cases there can be macros and formulas in spreadsheets, "
+"which may be somewhat more cumbersome to handle. It is therefore advisable "
+"to document such calculations next to the spreadsheet, since it is generally"
+" more accessible for users to read."
+msgstr "Ωστόσο, σε μερικές περιπτώσεις, μπορεί να ενσωματώνονται μακροεντολές και τύποι στα λογιστικά φύλλα, τα οποία μπορεί να είναι δύσκολα στο χειρισμό. Είναι, συνεπώς, καλή τακτική να τεκμηριώνετε αυτούς τους υπολογισμούς δίπλα από το λογιστικό φύλλο, κάνοντάς το πιο προσβάσιμο για τους χρήστες που θα το διαβάσουν."
+
+# 72147ad3a13f4e96a0da72ca09dca722
+#: ../../source/appendices/file-formats.rst:53
+msgid "Comma Separated Files"
+msgstr "Αρχεία διαχωρισμένα με κόμματα."
+
+# 3d3c193e05ac423a8ec608988bc74bcc
+#: ../../source/appendices/file-formats.rst:55
+msgid ""
+"CSV files can be a very useful format because it is compact and thus "
+"suitable to transfer large sets of data with the same structure. However, "
+"the format is so spartan that data are often useless without documentation "
+"since it can be almost impossible to guess the significance of the different"
+" columns. It is therefore particularly important for the comma-separated "
+"formats that documentation of the individual fields are accurate."
+msgstr "Τα αρχεία CSV αποτελούν μια πολύ χρήσιμη μορφή αρχείων, επειδή είναι συμπαγή και επομένως κατάλληλα για τη μεταφορά μεγάλων συνόλων δεδομένων που έχουν την ίδια δομή. Ωστόσο, η μορφή είναι τόσο λιτή, που τα δεδομένα είναι συνήθως άχρηστα χωρίς τεκμηρίωση, αφού είναι σχεδόν αδύνατο να μαντέψει κάποιος την σημασία των διαδόρων στηλών. Είναι, συνεπώς, εξαιρετικά σημαντικό για τη μορφή αυτή, η τεκμηρίωση των διαφορετικών πεδίων να είναι ακριβής."
+
+# eb505d33966845db9b5cd9db528d86e8
+#: ../../source/appendices/file-formats.rst:63
+msgid ""
+"Furthermore it is essential that the structure of the file is respected, as "
+"a single omission of a field may disturb the reading of all remaining data "
+"in the file without any real opportunity to rectify it, because it cannot be"
+" determined how the remaining data should be interpreted."
+msgstr "Επομένως είναι σημαντικό ότι η δομή του αρχείου πρέπει να ακολουθηθεί πιστά, εφόσον η παράλειψη ενός και μόνον πεδίου μπορεί να επηρεάσει αρνητικά όλα τα εναπομείναντα δεδομένα στο αρχείο, χωρίς δυνατότητα να γίνει διόρθωση, αφού δε μπορεί να υπολογιστεί πώς θα ερμηνευτούν τα εναπομείναντα δεδομένα."
+
+# 00b93bc63b524d138137f8a1498d4eed
+#: ../../source/appendices/file-formats.rst:69
+msgid "Text Document"
+msgstr "Έγγραφο κειμένου"
+
+# db72a1c2afd6485cb9364dba5947a8f8
+#: ../../source/appendices/file-formats.rst:71
+msgid ""
+"Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient"
+" to show certain kinds of data - for example, relatively stable mailing "
+"lists or equivalent. It may be cheap to exhibit in, as often it is the "
+"format the data is born in. The format gives no support to keep the "
+"structure consistent, which often means that it is difficult to enter data "
+"by automated means. Be sure to use templates as the basis of documents that "
+"will display data for re-use, so it is at least possible to pull information"
+" out of documents."
+msgstr "Οι κλασικές μορφές εγγράφων όπως Word, ODF, OOXML, ή το PDF μπορεί να είναι επαρκείς για να προβάλλετε κάποια είδη δεδομένων, όπως για παράδειγμα, mailing lists που αλλάζουν σπάνια. Μπορεί να είναι φθηνό να τις χρησιμοποιείτε, εφόσον είναι συνήθως η μορφή στην οποία τα δεδομένα πρωτογράφονται. Η μορφή δεν παρέχει υποστήριξη για τη διατήρηση της δομής των δεδομένων, το οποίο συχνά σημαίνει ότι είναι δύσκολο να εισαχθούν δεδομένα με αυτόματο τρόπο. Βεβαιωθείτε ότι χρησιμοποιείτε πρότυπα σαν βάση των εγγράφων που θα απεικονίσουν δεδομένα για επαναχρησιμοποίηση, ώστε να είναι τουλάχιστο δυνατό να εξαχθούν πληροφορίες από το έγγραφο."
+
+# 3ca8da150fd3448e9c91b7f4e8f08c92
+#: ../../source/appendices/file-formats.rst:80
+msgid ""
+"It can also support the further use of data to use typography markup as much"
+" as possible so that it becomes easier for a machine to distinguish headings"
+" (any type specified) from the content and so on. Generally it is "
+"recommended not to exhibit in word processing format, if data exists in a "
+"different format."
+msgstr "Μπορεί επίσης να υποστηρίξει την τυπογραφική μοροφοποίηση ώστε να γίνει ευκολότερο για μια μηχανή να αναγνωρίσει τις επικεφαλίδες από το περιεχόμενο (ανεξάρτητα από τη γραμματοσειρά) και ούτω καθ' εξής. Γενικά, προτείνεται να μην διανέμετε τα δεδομένα σε μορφή εγγράφου κειμένου, εφόσον υπάρχουν σε κάποια άλλη μορφή."
+
+# 1e222acd868a4836989075cb0ff8845f
+#: ../../source/appendices/file-formats.rst:87
+msgid "Plain Text"
+msgstr "Απλό κείμενο"
+
+# d063aa3fc40b4accbd3b368bc0ce5490
+#: ../../source/appendices/file-formats.rst:89
+msgid ""
+"Plain text documents (.txt) are very easy for computers to read. They "
+"generally exclude structural metadata from inside the document however, "
+"meaning that developers will need to create a parser that can interpret each"
+" document as it appears."
+msgstr "Τα έγγραφα απλού  κειμένου είναι πολύ εύκολα αναγνώσιμα για τους υπολογιστές. Στη γενική περίπτωση δεν περιέχουν μεταδεδομένα δομής μέσα στο έγγραφο, κάτι που σημαίνει ότι οι προγραμματιστές πρέπει να δημιουργήσουν ειδικό αναλυτή που θα μεταγλωτίζει κάθε έγγραφο, με το που γίνεται διαθέσιμο."
+
+# 7b4a3b6ee9404cfc873e4cac5c9a8390
+#: ../../source/appendices/file-formats.rst:94
+msgid ""
+"Some problems can be caused by switching plain text files between operating "
+"systems. MS Windows, Mac OS X and other Unix variants have their own way of "
+"telling the computer that they have reached the end of the line."
+msgstr "Κάποια προβλήματα μπορεί να προκληθούν όταν ανταλλάσσονται αρχεία απλού κειμένου μεταξύ διαφορετικών λειτουργικών συστημάτων. Τα Microsoft Windows, το Mac OS X και άλλες παραλλαγές του Unix έχουν το δικό τους τρόπο να αναγνωρίζουν ότι το κείμενο αλλάζει γραμμή."
+
+# 86000271a8184337a739b0937ae22f75
+#: ../../source/appendices/file-formats.rst:100
+msgid "Scanned image"
+msgstr "Σαρωμένη εικόνα"
+
+# 6a115f8899a94bffb8d9578c13c53e1e
+#: ../../source/appendices/file-formats.rst:102
+msgid ""
+"Probably the least suitable form for most data, but both TIFF and JPEG-2000 "
+"can at least mark them with documentation of what is in the picture - right "
+"up to mark up an image of a document with full text content of the document."
+" It may be relevant to their displaying data as images whose data are not "
+"born electronically - an obvious example is the old church records and other"
+" archival material - and a picture is better than nothing."
+msgstr "Πιθανότατα η πιο ακατάλληλη μορφή για τα περισσότερα δεδομένα, ωστόσο η μορφές TIFF και JPEG-2000 μπορούν τουλάχισστο να συνοδεύσουν τις εικόνες με τεκμηρίωση σχετική με το τι περιέχουν - ακόμα και να συνοδεύσουν ένα σαρωμένο έγγραφο με το πλήρες περιεχόμενό του σε κείμενο. Μπορεί να είναι καλή λύση στην απεικόνιση δεδομένων τα οποία δεν δημιουργήθηκαν ηλεκτρονικά - ένα προφανές παράδειγμα είναι οι παλιές καταχωρήσεις της Εκκλησίας και άλλο αρχειακό υλικό, όπου μια εικόνα είναι καλυτερα από το τίποτα."
+
+# 5e9d83d67fbe465a8c002bf40eeb9205
+#: ../../source/appendices/file-formats.rst:111
+msgid "Proprietary formats"
+msgstr "Ιδιόκτητες μορφές"
+
+# dcac01c71eb645498af1bc5b949be4cc
+#: ../../source/appendices/file-formats.rst:113
+msgid ""
+"Some dedicated systems, etc. have their own data formats that they can save "
+"or export data in. It can sometimes be enough to expose data in such a "
+"format - especially if it is expected that further use would be in a similar"
+" system as that which they come from. Where further information on these "
+"proprietary formats can be found should always be indicated, for example by "
+"providing a link to the supplier's website. Generally it is recommended to "
+"display data in non-proprietary formats where feasible."
+msgstr "Κάποια ειδικά συστήματα, έχουν τις δικές τους μορφές δεδομένων, με τις οποίες διαβάζουν και γράφουν αρχεία. Μερικές φορές, ίσως είναι αρκετό να εκθέτετε τα δεδομένα σε τέτοια μορφή, ειδικά αν αναμένεται να χρησιμοποιηθούν σε σύστημα παρόμοιο με αυτό από το οποίο προήλθαν. Όταν είναι δυνατό να προσφερθούν επιπλέον πληροφορίες σχετικά με τέτοιες ιδιόκτητες μορφές, πρέπει να δίνονται πάντοτε, για παράδειγμα με έναν σύνδεσμο στην ιστοσελίδα του προμηθευτή. Γενικά, προτείνεται να παρέχετε τα δεδομένα σε μη ιδιόκτητες μορφές, όπου αυτό είναι δυνατόν."
+
+# ebfcd7577aa94ce9a921e9cf6c78a6a5
+#: ../../source/appendices/file-formats.rst:123
+msgid "HTML"
+msgstr "HTML"
+
+# 0bbba5786b824723848c6b7a3e3e6b87
+#: ../../source/appendices/file-formats.rst:125
+msgid ""
+"Nowadays much data is available in HTML format on various sites. This may "
+"well be sufficient if the data is very stable and limited in scope. In some "
+"cases, it could be preferable to have data in a form easier to download and "
+"manipulate, but as it is cheap and easy to refer to a page on a website, it "
+"might be a good starting point in the display of data."
+msgstr "Στις μέρες μας, πολλά δεδομένα είναι διαθέσιμα σε μορφή HTML, σε διάφορες ιστοσελίδες. Αυτό μπορεί να είναι παραπάνω από επαρκές, εάν τα δεδομένα είναι γενικά στατικά και περιορισμένης εμβέλειας. Σε μερικές περιπτώσεις, θα ήταν προτιμότερο να υπάρχουν τα δεδομένα σε μια μορφή ευκολότερη να ληφθεί τοπικά και να τροποποιηθεί, αλλά εφόσον είναι φθηνό και εύκολο να αναφερθεί κανείς σε μια σελίδα στον Ιστό, μπορεί αυτό να είναι ενα καλό ξεκίνημα για την δημοσίευση των δεδομένων."
+
+# 905921990dc542df9e22c0a368727e8b
+#: ../../source/appendices/file-formats.rst:132
+msgid ""
+"Typically, it would be most appropriate to use tables in HTML documents to "
+"hold data, and then it is important that the various data fields are "
+"displayed and are given IDs which make it easy to find and manipulate data. "
+"Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
+"extract structured information from a website, and such tools can do much "
+"more with the data if it is carefully tagged."
+msgstr "Τυπικά, θα ήταν σωστότερο να χρησιμοποιηθούν στα έγγραφα HTML πίνακες που θα περιέχουν τα δεδομένα, και μετά να δωθούν στα διάφορα πεδία αναγνωριστικά, τα οποία θα έκαναν ευκολότερη την εύρεση και την τροποποίηση των δεδομένων. Η Yahoo έχει αναπτύξει ένα εργαλείο (http://developer.yahoo.com/yql/) που μπορεί να εξάγει δομική πληροφορία από μια ιστοσελίδα, και τέτοια εργαλεία μπορούν να κάνουν πολλά περισσότερα, αν η πληροφορία είναι προσεκτικά επισημασμένη."
+
+# 749bccb614ec4d75b626f3a91f7c20fd
+#: ../../source/appendices/file-formats.rst:141
+msgid "Open File Formats"
+msgstr "Ανοικτές μορφές αρχείων"
+
+# 2268600ee3b34664913b2eaaf2c0b83e
+#: ../../source/appendices/file-formats.rst:143
+msgid ""
+"Even if information is provided in electronic, machine-readable format, and "
+"in detail, there may be issues relating to the format of the file itself."
+msgstr "Ακόμα και αν η πληροφορία παρέχεται σε ηλεκτρονική, αναγνώσιμη από μηχανές μορφή, και είναι λεπτομερής, μπορεί να υπάρχουν προβλήματα που σχετίζονται με την ίδια τη μορφή του αρχείου."
+
+# a1e9a630c82c497685a5d40d2375be05
+#: ../../source/appendices/file-formats.rst:147
+msgid ""
+"The formats in which information is published – in other words, the digital "
+"base in which the information is stored - can either be “open” or “closed”. "
+"An open format is one where the specifications for the software are "
+"available to anyone, free of charge, so that anyone can use these "
+"specifications in their own software without any limitations on re-use "
+"imposed by intellectual property rights."
+msgstr "Οι μορφές στις οποίες δημοσιεύεται η πληροφορία -με άλλα λόγια, η ψηφιακή βάση, με την οποία αποθηκεύεται η πληροφορία - μπορούν να είναι είτε \"ανοικτές\" είτε \"κλειστές\". Ανοικτή είναι η μορφή για την οποία η τεκμηρίωση και το λογισμικό είναι διαθέσιμα σε όλους, χωρίς χρέωση, ώστε ο καθένας να μπορεί να χρησιμοποιήσει αυτήν την τεκμηρίωση στο δικό του λογισμικό, χωρίς περιορισμούς στην επαναχρησιμοποίηση, που να προέρχονται από δικαιώματα πνευματικής ιδιοκτησίας. "
+
+# 11373b39254144f4bb062a40e7813a85
+#: ../../source/appendices/file-formats.rst:154
+msgid ""
+"If a file format is “closed”, this may be either because the file format is "
+"proprietary and the specification is not publicly available, or because the "
+"file format is proprietary and even though the specification has been made "
+"public, re-use is limited. If information is released in a closed file "
+"format, this can cause significant obstacles to reusing the information "
+"encoded in it, forcing those who wish to use the information to buy the "
+"necessary software."
+msgstr "Το ότι η μορφή αρχείου είναι \"κλειστή\", μπορεί να συμβαίνει επειδή είναι ιδιόκτητη και η τεκμηρίωσή της δεν είναι διαθέσιμη στο κοινό, ή επειδή, παρόλο που η τεκμηρίωσή της είναι διαθέσιμη, η επαναχρησιμοποίηση είναι περιορισμένη. Εάν η πληροφορία δημοσιεύεται σε κλειστή μορφή αρχείου, μπορεί να προκύψουν σημαντικά εμπόδια στην επαναχρησιμοποίησή της, αναγκάζοντας αυτούς που θέλουν να την χρησιμοποιήσουν να αγοράσουν το απαραίτητο λογισμικό."
+
+# c8855b8342e64d1b8377d55893c94f9a
+#: ../../source/appendices/file-formats.rst:162
+msgid ""
+"The benefit of open file formats is that they permit developers to produce "
+"multiple software packages and services using these formats. This then "
+"minimises the obstacles to reusing the information they contain."
+msgstr "Το όφελος των ανοικτών μορφών αρχείων είναι ότι επιτρέπουν στους προγραμματιστές να παράγουν πολλαπλά πακέτα εφαρμογών και υπηρεσιών χρησιμοποώντας τες. Αυτό κατόπιν ελαχιστοποιεί τα εμπόδια στο να επαναχρησιμοποιηθούν οι πληροφορίες που περιέχονται."
+
+# 14e8ba3e856d439eb9372a107b327b45
+#: ../../source/appendices/file-formats.rst:167
+msgid ""
+"Using proprietary file formats for which the specification is not publicly "
+"available can create dependence on third-party software or file format "
+"license holders. In worst-case scenarios, this can mean that information can"
+" only be read using certain software packages, which can be prohibitively "
+"expensive, or which may become obsolete."
+msgstr "Η χρήση ιδιόκτητων μορφών αρχείων, για τις οποίες η τεκμηρίωση δεν είναι διαθέσιμη δημόσια, μπορεί να δημιουργήσει εξάρτηση από λογισμικό ή από κατόχους αδειών. Στην χειρότερη περίπτωση, αυτό μπορεί να σημαίνει ότι η πληροφορία μπορεί να αναγνωσθεί μόνον χρησιμοποιώντας συγκεκριμένα πακέτα λογισμικού, τα οποία μπορεί να είναι απαγορευτικά ακριβά, ή τα οποία μπορεί να απαρχαιωθούν."
+
+# becd5c5379ad46a6a4495bf228bc2072
+#: ../../source/appendices/file-formats.rst:173
+msgid ""
+"The preference from the :term:`open government data` perspective therefore "
+"is that information be released in **open file formats which are machine-"
+"readable.**"
+msgstr "Ο όρος :term:`ανοικτά κυβερνητικά δεδομένα` υποδηλώνει ότι η πληροφορία πρέπει να δημοσιεύεται σε **ανοικτές μορφές δεδομένων που είναι αναγνώσιμες από τις μηχανές**"
+
+# 0706964f49444783b06ccb6d8e40ec6c
+#: ../../source/appendices/file-formats.rst:178
+msgid "Example: UK traffic data"
+msgstr "Παράδειγμα: Δεδομένα για την κυκλοφορία στο Ηνωμένο Βασίλειο"
+
+# 06406a590c564ab9a7dd69b5e9869377
+#: ../../source/appendices/file-formats.rst:180
+msgid ""
+"Andrew Nicolson is a software developer who was involved in an (ultimately "
+"successful) campaign against the construction of a new road, the Westbury "
+"Eastern bypass, in the UK. Andrew was interested in accessing and using the "
+"road traffic data that was being used to justify the proposals. He managed "
+"to obtain some of the relevant data via freedom of information requests, but"
+" the local government provided the data in a proprietary format which can "
+"only be read using software produced by a company called Saturn, who "
+"specialise in traffic modelling and forecasting. There is no provision for a"
+" “read only” version of the software, so Andrew's group had no choice but to"
+" purchase a software license, eventually paying £500 (€600) when making use "
+"of an educational discount. The main software packages on the April 2010 "
+"price list from Saturn start at £13,000 (over €15,000), a price which is "
+"beyond the reach of most ordinary citizens."
+msgstr "Ο Andrew Nicolson είναι ένας προγραμματιστής λογισμικού που ενεπλάκη σε μια (απολύτως επιτυχή) εκστρατεία εναντίον της δημιουργίας ενός καινούριου δρόμου, της Ανατολικής παράκαμψης του WestBury, στο Ηνωμένο Βασίλειο."
+
+# 9e78cdb7b65b44568400fc075a25128b
+#: ../../source/appendices/file-formats.rst:196
+msgid ""
+"Although no access to information law gives a right of access to information"
+" in open formats, open government data initiatives are starting to be "
+"accompanied by policy documents which stipulate that official information "
+"must be made available in open file formats. Setting the gold standard has "
+"been the Obama Administration, with the Open Government Directive issued in "
+"December 2009, which says:"
+msgstr "Παρόλο που δεν υπάρχει νόμος σχετικός με την πρόσβαση στην πληροφορία που να δίνει δικαίωμα πρόσβασης σε ανοικτές μορφές, οι πρωτοβουλίες για τα ανοικτά κυβερνητικά δεδομένα, άρχισαν να συνοδεύονται από έγγραφα πολιτικής που απαιτούν οι επίσημες πληροφορίες να διατίθενται σε ανοικτές μορφές. Η αρχή έγινε από τη Διοίκηση Obama, με την Οδηγία για τα Ανοικτά Κυβερνητικά Δεδομένα, που εκδόθηκε το Δεκέμβριο του 2009, και αναφέρει:"
+
+# 5a4a5dad6cfe4c26809846d46065d8e4
+#: ../../source/appendices/file-formats.rst:203
+msgid ""
+"*To the extent practicable and subject to valid restrictions, agencies "
+"should publish information online in an open format that can be retrieved, "
+"downloaded, indexed, and searched by commonly used web search applications. "
+"An open format is one that is platform independent, machine readable, and "
+"made available to the public without restrictions that would impede the re-"
+"use of that information.*"
+msgstr "* Στο βαθμό που αυτό μπορεί να είναι πρακτικό και μέσα στους υπάρχοντες περιορισμούς, οι υπηρεσίες πρέπει να δημοσιεύουν τις πληροφορίες στο Διαδίκτυο σε ανοικτή μορφή που μπορεί να ανακτηθεί, να ληφθεί, να δεικτοδοτηθεί και να αναζητηθεί από κοινές εφαρμογές αναζήτησης στον Ιστό. Ανοικτή μορφή θεωρείται εκείνεη που είναι ανεξάρτητη από την πλατφόρμα, αναγνώσιμη από μηχανές, και που είναι διαθέσιμη στο κοινό χωρίς περιορισμούς που θα εμπόδιζαν την επαναχρησιμοποίηση αυτής της πληροφορίας.*"
+
+# 5cc8e6283aea4bb5af1a2c416989abc4
+#: ../../source/appendices/file-formats.rst:213
+msgid "How do I use a given format?"
+msgstr "Πώς χρησιμοποιώ μια συγκεκριμένη μορφή;"
+
+# 568a5625c2f94452af6abe3cc66878ad
+#: ../../source/appendices/file-formats.rst:215
+msgid ""
+"When an authority must exhibit new data – data that has not been exhibited "
+"before – you should choose the format that provides the best balance between"
+" cost and suitability for purpose. For each format there are some things you"
+" should be aware of, and this section aims to explain them."
+msgstr "Όταν μια υπηρεσία πρέπει να εκθέσει νέα δεδομένα, δεδομένα που δεν έχουν εκτεθεί πρωτύτερα, πρέπει να επιλεγεί η μορφή που παρέχει την καλυτερη ισορροπία μεταξύ κόσοτυς και βιωσιμότητας. Για κάθε μορφή, υπάρχουν κάποια πράγματα που πρέπει να γνωρίζετε, και αυτή η ενότητα στοχεύει να τα περιγράψει."
+
+# 42b8a5c50e0b45eb89c4a26f7ea8a060
+#: ../../source/appendices/file-formats.rst:221
+msgid ""
+"This section focuses only on how the cut surfaces are best arranged so that "
+"machines can access them directly. Advice and guidance about how web sites "
+"and web solutions should be designed can be found elsewhere."
+msgstr "Αυτή η ενότητα εστιάζει μόνο στο πως θα φροντίσετε ώστε οι μηχανές να έχουν απευθείας πρόσβαση στα δεδομένα σας. Συμβουλές και καθοδήγηση για το πως θα σχεδιάσετε και ιστοσελίδες και εφαρμογές Ιστού, μπορούν να βρεθούν αλλού."
+
+# 1897adda256e49e99d665b5f5343e008
+#: ../../source/appendices/file-formats.rst:227
+msgid "Web services"
+msgstr "Υπηρεσίες Ιστού"
+
+# a9d6a586198648dcb05c316a24713fc9
+#: ../../source/appendices/file-formats.rst:229
+msgid ""
+"For data that changes frequently, and where each pull is limited in size, it"
+" is very relevant to expose data through web services. There are several "
+"ways to create a web service, but some of the most used is SOAP and REST. "
+"Generally, SOAP over REST, REST services, but are very easy to develop and "
+"use, so it is a widely used standard."
+msgstr "Για δεδομένα που αλλάζουν συχνά, και που κάθε ανάκτηση είναι μικρή σε μέγεθος, είναι καλό να εκτίθενται μέσα από Υπηρεσίες Ιστού. Υπάρχουν πολλοί τρόποι να δημιουργήσετε μια Υπηρεσία Ιστού, αλλά κάποιοι από τους πιο συχνά χρησιμοποιούμενους είναι το SOAP και το REST. Γενικά, προτιμήστε το REST, αν και τα δύο είναι εύκολα να αναπτυχθούν και χρησιμοποιούνται ευρέως."
+
+# 1832cd0456254e3c8affb21673553fe5
+#: ../../source/appendices/file-formats.rst:236
+msgid "Database"
+msgstr "Βάση Δεδομένων"
+
+# 1ca36a963713464dbd753b7f60bd0661
+#: ../../source/appendices/file-formats.rst:238
+msgid ""
+"Like web services, databases provide direct access to data dynamically. "
+"Databases have the advantage that they can allow users to put together just "
+"the extraction that they are interested in."
+msgstr "Όπως οι υπηρεσίες Ιστού, οι βάσεις δεδομένων παρέχουν άμεση πρόσβαση στα δεδομένα, δυναμικά. Οι βάσεις δεδομένων έχουν το πλεονέκτημα ότι μπορούν να επιτρέπουν τους χρήστες να ανακτούν μόνον τα δεδομένα για τα οποία ενδιαφέρονται."
+
+# efc3834bf47c482eb7a3bdc3da8faaa0
+#: ../../source/appendices/file-formats.rst:242
+msgid ""
+"There are some security concerns about allowing remote database extraction "
+"and database access is only useful if the structure of the database and the "
+"importance of individual tables and fields are well documented. Often, it is"
+" relatively simple and inexpensive to create web services that expose data "
+"from a database, which can be an easy way to address safety concerns."
+msgstr "Υπάρχουν κάποια θέματα ασφάλειας σχετικά με την παραχώρηση δικαιωμάτων εξαγωγής και η πρόσβαση σε απομακρυσμένες βάσεις δεδομένων είναι χρήσιμη μόνο αν η δομή της βάσης και η σημασία των επιμέρους πινάκων και πεδίων είναι καλά τεκμηριωμένη. Συχνά, είναι σχετικά απλό και φθηνό να δημιουργηθούν υπηρεσίες Ιστού που εκθέτουν δεδομένα από μια βάση, κάτι που μπορεί να αποτελέσει εύκολη λύση για τα θέματα ασφάλειας."
+
+# 51c683e25e5a4ce4be6978d9dc1a4705
+#: ../../source/appendices/index.rst:3
+msgid "Appendices"
+msgstr "Παραρτήματα"
+
+# b67d88179b824185a34209f86dcc580c
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
+msgid "What Legal (IP) Rights Are There in Data(bases)"
+msgstr "Τι Νομικά (Πνευματικά) Δικαιώματα υπάρχουν στις Βάσεις Δεδομένων;"
+
+# 5f9216bdba044ff28822b1d6bf5783bd
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
+msgid ""
+"When talking about data(bases) we first need to distinguish between the "
+"structure and the content of a database (when we use the term 'data' we "
+"shall mean the content of the database itself). Structural elements include "
+"things like the field names and a model for the data – the organization of "
+"these fields and their inter-relation."
+msgstr "Όταν μιλάμε για βάσεις δεδομένων, πρέπει πρώτα να διαχωρίσουμε τη δομή και το περιεχόμενο μια βάσεις (όταν χρησιμοποιούμε τον όρο 'δεδομένα' πρέπει να εννοούμε το περιεχόμενο της βάσης). Τα δομικά στοιχεία περιλαμβάνουν πράγματα όπως τα ονόματα των πεδίων και ένα μοντέλο για τα δεδομένα, την οργάνωση δηλαδη αυτών των πεδίων και τις συσχετίσεις τους."
+
+# c4e85f3fa8b94ae08375d9c817d14e32
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
+msgid ""
+"In many jurisdictions it is likely that the structural elements of a "
+"database will be covered by copyright (it depends somewhat on the level of "
+"'creativity' involved in creating this structure)."
+msgstr "Σε μερικές περιοχές είναι πιθανόν ότι τα δομικά στοιχεία μιας βάσης δεδομένων θα προστατεύονται από πνευματικά δικαιώματα (εξαρτάται κάπως από το βαθμο δημιουργικότητας που υπήρξε κατά τη δημιουργία της δομής)"
+
+# 395c38e545b949b2bd4f6cdf184a4ed4
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
+msgid ""
+"However, here we are particularly interested in the data. When we talk of "
+"\"data\" we need to be a bit careful because the word isn't particularly "
+"precise: \"data\" can mean a few items or even a single item (for example a "
+"single bibliographic record, a lat/long etc) or \"data\" can mean a large "
+"collection (e.g. all the material in the database). To avoid confusion we "
+"shall reserve the term \"content\" to mean the individual items, and data to"
+" denote the collection."
+msgstr "Ωστόσο, εδώ ενδιαφερόμαστε κυρίως για τα δεδομένα. όταν μιλάμε για δεδομένα, πρέπει να είμαστε κάπως προσεκτικοί, καθώς η λέξη δεν είναι πάντα ορισμένη με ακρίβεια: δεδομένα μπορεί να είναι ένα ή περισσότερα στοιχεία (π.χ. μια βιβλιογραφική καταχώρηση, ένα ζεύγος γεωγραφικού μήκους και πλάτους κλπ) ή ένα μεγάλο σύνολο (π.χ. όλο το υλικό σε μια βάση δεδομένων). Για να αποφευχθεί η παρανόηση, θα χρησιμοποιήσουμε τη λέξη \"περιεχόμενο\" για να συμβολίσουμε τα επιμέρους στοιχεία, και τη λέξη \"δεδομένα\" για να συμβολίσουμε τη συλλογή."
+
+# 73c5a4d2fd6648f68879b5a83b6f30bc
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
+msgid ""
+"Unlike for material such as text, music or film, the legal situation for "
+"data varies widely across countries. However, most jurisdictions **do** "
+"grant some rights in the data (as a collection)."
+msgstr "Αντίθετα από ότι ισχύει για υλικό όπως κείμενο, μουσική, ή ταινίες, η νομική κατάσταση για τα δεδομένα, ποικίλει ανά χώρα. Ωστόσο, οι περισσότερες περιοχές **όντως** παρέχουν κάποια δικαιώματα για τα δεδομένα (ως σύνολο)."
+
+# 6a4c03a757064662932a79988f81f0c8
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
+msgid ""
+"This distinction between the \"content\" of a database and the collection is"
+" especially crucial for factual databases since no jurisdiction grants a "
+"monopoly right over the individual facts (the \"content\"), even though it "
+"may grant right(s) in them as a collection. To illustrate, consider the "
+"simple example of a database which lists the melting point of various "
+"substances. While the database as a whole might be protected by law so that "
+"one is not allow to access, re-use or redistribute it without permission, "
+"this would never prevent you from stating the fact that substance Y melts at"
+" temperature Z."
+msgstr "Η διάκριση μεταξύ του \"περιεχομένου\" μιας βάσης δεδομένων και της συλλογής των δεδομένων είναι ιδιαίτερα σημαντική για τις πραγματικές βάσεις, εφόσον σε καμία περιοχή δεν υφίσταται μονοπώλιο για τα χωριστά στοιχεία (το \"περιεχόμενο\"), ακόμα και αν υπάρχουν τέτοια δικαιώματα για τη συλλογή τους. Για να το κάνουμε πιο σαφές, πάρτε το απλό παράδειγμα μια βάσης δεδομένων που περιέχει τα σημεία τήξης διάφορων ουσιών. Ενώ η βάση δεδομένων σαν σύνολο μπορεί να προστατεύεται από το νόμο, ώστε για κάποιους να μην επιτρέπεται η πρόσβαση, η επαναχρησιμοποίηση και η αναδιανομή της χωρίς άδεια, αυτό δε θα σας εμπόδιζε να δηλώσετε ότι η ουσία Υ λιώνει σε θερμοκρασία Ζ."
+
+# e45e4794fcde4db08aa676c867ef5314
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
+msgid "Forms of protection fall broadly into two cases:"
+msgstr "Οι τύποι προστασίας εμπίπτουν γενικά σε μια από τις δύο περιπτώσεις:"
+
+# 3bdda233812049c49e24ee9e8fe29390
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
+msgid "Copyright for compilations"
+msgstr "Πνευματικά δικαιώματα για συμπερίληψη"
+
+# ae7ced23b0b54fff97a2a9712c475acd
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
+msgid "A *sui generis* right for collections of data"
+msgstr "Ένα *sui generis* δικαίωμα για συλλογές δεδομένων"
+
+# e3cc883dcae4410daec23ba229274207
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
+msgid ""
+"As we have already emphasized, there are no general rules and the situation "
+"varies by jurisdiction. Thus we proceed country by country detailing which "
+"(if any) of these approaches is used in a particular jurisdiction."
+msgstr "Όπως έχουμε ήδη τονίσει, δεν υπάρχουν γενικοί κανόνες και η κατάσταση διαφέρει ανά χώρα. Επομένως, προχωρούμε σε κάθε χώρα χωριστά, παρέχοντας λεπτομέρεις (αν υπάρχουν) για τις συγκεκριμένες προσεγγίσεις που υφίστανται εκεί."
+
+# 09a81bf2720345df93aaa77e5ba404f9
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
+msgid ""
+"Finally, we should point out that in the absence of any legal protection, "
+"many providers of (closed) databases are able to use a simple contract "
+"combined with legal provisions prohibiting violation of access-control "
+"mechanisms to achieve results similar to a formal IP right. For example, if "
+"X is a provider of a citation database, it can achieve any set of terms of "
+"conditions it wants simply by:"
+msgstr "Τέλος, θα πρέπει να τονίσουμε ότι ελλείψει οποιασδήποτε νομικής προστασίας, πολλοί πάροχοι κλειστών βάσεων δεδομένων, είναι δυνατό να χρησιμοποιήσουν ένα απλό συμβόλαιο σε συνδυασμό με νομικές διατάξεις που απαγορεύον την παραβίαση μηχανισμών ελέγχου πρόσβασης, για να επιτύχουν αποτελέσματα παρόμοια με αυτά που θα είχαν από επίσημα δικαιώματα πνευματικής ιδιοκτησίας. Για παράδειγμα, αν ο Χ είναι πάροχος μιας βάσης δεδομένων με βιβλιογραφικές αναφορές, μπορεί να επιτύχει οποιουσδήποτε όρους επιθυμεί, κάνοντας απλά τα παρακάτω:"
+
+# 4ed11a4688a84f7c94a40d1dc70293f2
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
+msgid "Requiring users to login with a password"
+msgstr "Η απαίτηση από τους χρήστες να συνδεθούν με συνθηματικό"
+
+# 2cf4c090400d49da993a256268b4a8d4
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
+msgid ""
+"Only providing a user with an account and password on the condition that the"
+" user agrees to the terms and conditions"
+msgstr "Παρέχοντας στο χρήστη λογαριασμό και συνθηματικό, με την προϋπόθεση ότι αποδέχεται τους όρους."
+
+# 16481e4fc1ed45ac846dc7dc4e553da2
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
+msgid ""
+"You can read more about the jurisdiction by jurisdiction situation in the "
+"`Guide to Open Data Licensing`_."
+msgstr "Μπορείτε να διαβάσετε περισότερο για την κατάσταση ανά περιοχή, στον `Οδηγό για την αδειοδότηση των Ανοικτών Δεδομένων`_."

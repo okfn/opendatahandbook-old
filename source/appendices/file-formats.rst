@@ -74,7 +74,7 @@ stable mailing lists or equivalent. It may be cheap to exhibit in,
 as often it is the format the data is born in. The format gives no 
 support to keep the structure consistent, which often means that it is 
 difficult to enter data by automated means. Be sure to use templates 
-as the basis of documents that will display data for reuse, so it is 
+as the basis of documents that will display data for re-use, so it is 
 at least possible to pull information out of documents.
 
 It can also support the further use of data to use typography markup 
@@ -149,12 +149,12 @@ digital base in which the information is stored - can either be “open”
 or “closed”. An open format is one where the specifications for the 
 software are available to anyone, free of charge, so that anyone can 
 use these specifications in their own software without any limitations 
-on reuse imposed by intellectual property rights.
+on re-use imposed by intellectual property rights.
 
 If a file format is “closed”, this may be either because the file 
 format is proprietary and the specification is not publicly available, 
 or because the file format is proprietary and even though the 
-specification has been made public, reuse is limited. If information 
+specification has been made public, re-use is limited. If information 
 is released in a closed file format, this can cause significant 
 obstacles to reusing the information encoded in it, forcing those 
 who wish to use the information to buy the necessary software.

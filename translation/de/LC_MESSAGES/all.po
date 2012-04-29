@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-04-03 19:24\n"
-"PO-Revision-Date: 2012-04-04 10:54+0000\n"
-"Last-Translator: lauranewman <laura.newman@okfn.org>\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-26 17:32+0000\n"
+"Last-Translator: haukegierow <hauke.gierow@okfn.org>\n"
 "Language-Team: German (http://www.transifex.net/projects/p/opendatahandbook/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -948,7 +948,7 @@ msgid ""
 "often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to re-use that data."
-msgstr ""
+msgstr "Eine Weiterverarbeitung von Daten des öffentlichen Sektors sollte keinen Patentschutz oder anderen Schutzrechten unterliegen. Ebenso wichtig: stellen Sie sicher, dass die maschinenlesbare Formate verwenden um die bestmögliche Weiterverwendung zu gewährleisten. Statistiken die als 'PDF (Portable Document Format') veröffentlicht werden sind meistens auf eine gute Druckqualität hin optimiert. Diese Dateien können von Menschen sehr gut gelesen werden, doch Computer können in der Regel nur wenig damit anfangen. Dies schränkt die Möglichkeiten der Weiterverwendung deutlich ein."
 
 # 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
@@ -1187,7 +1187,7 @@ msgid ""
 "facility offering over 4000 data files. It is updated twice a day, offers "
 "data in :term:`Tab-separated values` (TSV) format, and includes "
 "documentation about the download facility as well as about the data files."
-msgstr ""
+msgstr "Die `Server von Eurostat <http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/>` bieten mehr als 4000 Dateien zum Download an. Diese werden zweimal täglich aktualisiert und bieten Daten im :term:`Tab-separated values` (TSV) Format an. Außerdem ist eine umfangreiche Dokumentation beigefügt. "
 
 # e41c10ed0631425c909b8ebfb4a7c800
 #: ../../source/how-to-open-up-data/make-data-available.rst:162
@@ -1195,7 +1195,7 @@ msgid ""
 "Another example is the `District of Columbia Data Catalog`_, which allows "
 "data to be downloaded in CSV and XLS format in addition to live feeds of the"
 " data."
-msgstr ""
+msgstr "Ein anders Beispiel ist der `Daten Katalog von Washington D.C. <http://octo.dc.gov/DC/OCTO/>`, der die Daten neben CSV und XLS auch als Live-Feed zum Download anbietet."
 
 # 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
@@ -1239,7 +1239,7 @@ msgid ""
 "for datasets from around the world. The site makes it easy for individuals "
 "and organizations to publish material and for data users to find material "
 "they need."
-msgstr ""
+msgstr "Einer der bekanntesten ist der DataHub_. Dieser ist ein Katalog für Datensätze aus der ganzen Welt. Die Website ermöglicht es Datensätze zu veröffentlichen und wiederzufinden."
 
 # 2558aac60a2e4327ad698877cc2142f9
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
@@ -1261,7 +1261,7 @@ msgid ""
 "catalog for the government's data. When establishing a catalog, try to "
 "create some structure which allows many departments to easily keep their own"
 " information current."
-msgstr ""
+msgstr "Es hat sich bewährt, dass eine Organisation innerhalb der Regierung eine Führungsrolle übernimmt und einen Datenkatalog anlegt. Dieser sollte so strukturiert sein, dass viele Ministerien und andere staatliche Stellen ihre Daten einfach einstellen und aktualisieren können."
 
 # e6a628d1c2b340f2bdd128c31a4febba
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
@@ -1270,7 +1270,7 @@ msgid ""
 "There are free and open source software solutions (such as CKAN_) which have"
 " been adopted by many governments already. As such, investing in another "
 "platform may not be needed."
-msgstr ""
+msgstr "Versuchen Sie nicht, das Rad noch einmal zu erfinden! Es gibt freie und offene Software für Datenkataloge (wie z.B. CKAN_) die bereits von vielen Regierungen verwendet werden. "
 
 # 219db6ba9b784128a2be95191a104858
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
@@ -1291,10 +1291,10 @@ msgstr "Eine Schnittstelle für Firmen und Bürger schaffen, um Ihre Daten dem K
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogd. For example, someone may geocode addresses and may wish to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
-msgstr ""
+msgstr "Die Weiterentwicklung von Daten unterstützen indem Änderungen an den Daten erlaubt werden. So kann z.B. jemand Adressen öffentlicher Ämter in einem Verzeichnis Geokodieren und so diese Ämter auf einer Karte darstellen. Wird die Bearbeitung von Daten unterbunden bleiben solche Verbesserungen aus."
 
 # e8ad70e351d34a9caf7bc7cf0409f67d
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
@@ -1310,7 +1310,7 @@ msgid ""
 "Ensure that access is equitable. Try to avoid creating a privileged level of"
 " access for officials or tenured researchers as this will undermine "
 "community participation and engagement."
-msgstr ""
+msgstr "Stellen Sie einen gleichberechtigten Zugang sicher. Vergeben Sie keine exklusiven Zugangsrechte für Verwaltungsmitarbeiter oder bekannte Wissenschaftler, da dies zivil-gesellschaftlichem Engagement schaden kann."
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
@@ -1536,7 +1536,7 @@ msgid ""
 "of which built on the re-use of government data. A total amount of NOK 2.5 "
 "million was distributed among the 17 winners; while the total amount applied"
 " for by the 137 applications was NOK 28.4 million."
-msgstr ""
+msgstr "**Nettskap 2.0** Im April 2010 veranstaltete die norwegische Regierung den \"Nettskap 2.0\" Wettbewerb. Norwegische Entwickler - Firmen, öffentliche Verwaltung aber auch Einzelpersonen - waren aufgerufen web-basierte Projekte oder Ideen im Bereich Service-Entwicklung, effizientere Arbeitsprozesse und bessere demokratische Partizipation zu entwickeln und vorzustellen. Dazu sollten, wo sinnvoll, Regierungsdaten verwendet werden. Schon vor dem offiziellen Wettbewerbsende zeigte sich Minister Rugmor Aasrud begeistert. 137 Anwendungen wurden eingereicht, 90 davon verwendeten öffentliche Daten. Insgesamt wurden 2,5 millionen NOK an die Gewinner ausgeschüttet."
 
 # 14cbc29030354b309e4c0acf0e56aef3
 #: ../../source/following-up/making-things.rst:63
@@ -1549,7 +1549,7 @@ msgid ""
 "applications that were entered into the contest are further evidence of the "
 "new and innovative applications which can result from releasing government "
 "data on open terms."
-msgstr ""
+msgstr "**Mashup Australia** Die australische 'Regierung 2.0' Taskforce lud die Bürger des Landes ein zu demonstrieren, warum offener Zugang zu Regierungsdaten ein Mehrwert für die wirtschaftliche und soziale Entwicklung Australiens ist. Insgesamt wurden 82 Anwendungen eingereicht."
 
 # 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
@@ -1565,7 +1565,7 @@ msgid ""
 " and economic benefit. CSOs that promote re-use have been instrumental in "
 "countries where there have been advances in policy and law to ensure that "
 "datasets are both technically and legally open."
-msgstr ""
+msgstr "Um den Wert offener Daten aufzuzeigen sollten zivil-gesellschaftliche Organisationen vor allem darauf hinweisen, wie diese Daten sozialen und wirtschaftlichen Fortschritt unterstützen können. NGOs die sich für eine verbesserte Weiterverwendung von Daten aussprechen haben in vielen Ländern eine wichtige Rolle gespielt um sicherzustellen dass offene Daten sowohl in technischer als auch in juristischer Hinsicht 'offen' sind."
 
 # 60c702f98efb4c9aa510e6198b1428db
 #: ../../source/following-up/making-things.rst:83
@@ -1938,7 +1938,7 @@ msgid ""
 "general public as raw data under an open license so that civic hackers can "
 "make use of the data, for example by building search engines and user "
 "interfaces."
-msgstr ""
+msgstr "Es ist wichtig, dass die Metdaten von Informationsregistern (Information Asset Registers, IAR) vollständig und aktuell sind. Ist dies nicht der Fall können Suchmaschinen diese Daten nur schwer auffinden. Im Geiste von 'Open Data' sollten öffentliche Stellen ihre IARs der Öffentlichkeit als Rohdaten und unter einer offenen Lizenz zur Verfügung stellen."
 
 # 4feb4d19a60642078f320e8d8dd612be
 #: ../../source/glossary.rst:105
@@ -2015,10 +2015,10 @@ msgstr "Eine Lizenz, die vorgibt, dass Inhalte unter der gleichen Lizenz weiterv
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
 msgid ""
-"Tab-seperated values (TSV) are a very common form of text file format for "
+"Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
-msgstr "TAB-separated values (TSV) ist ein gebräuchliches Text-Format um Tabellen weiterzureichen. Das Format ist sehr einfach aufgebaut und gut :term:'Maschinenlesbar' ."
+msgstr "TAB-separated values (TSV) ist ein gebräuchliches Text-Format um Tabellen weiterzureichen. Das Format ist sehr einfach aufgebaut und gut :term:`{Maschinenlesbar} {Machine-readable}`."
 
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68

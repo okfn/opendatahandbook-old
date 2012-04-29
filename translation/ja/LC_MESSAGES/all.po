@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the Open Data Handbook package.
 # 
 # Translators:
+#   <laura.newman@okfn.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-04-03 19:24\n"
-"PO-Revision-Date: 2012-04-03 18:31+0000\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-05 17:15+0000\n"
 "Last-Translator: lauranewman <laura.newman@okfn.org>\n"
 "Language-Team: Japanese (http://www.transifex.net/projects/p/opendatahandbook/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -464,7 +465,7 @@ msgid ""
 "*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr ""
+msgstr "*オープンデータとは、自由に使えて再利用もでき、かつ誰でも再配布できるようなデータのことだ。従うべき決まりは、せいぜい「作者のクレジットを残す」あるいは「同じ条件で配布する」程度である。*"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
@@ -488,7 +489,7 @@ msgid ""
 "**Re-use and Redistribution:** the data must be provided under terms that "
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr ""
+msgstr "**再利用と再配布ができる** データを提供するにあたって、再利用や再配布を許可しなければならない。また、他のデータセットと組み合わせて使うことも許可しなければならない。"
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -498,7 +499,7 @@ msgid ""
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr ""
+msgstr "**誰でも使える** 誰もが利用、再利用、再配布をできなければならない。データの使い道、人種、所属団体などによる差別をしてはいけない。たとえば「非営利目的での利用に限る」などという制限をすると商用での利用を制限してしまうし「教育目的での利用に限る」などの制限も許されない。"
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -826,7 +827,7 @@ msgid ""
 "and re-users of the data as early and as often as you can, be they citizens,"
 " businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
-msgstr ""
+msgstr "**早めに巻き込み、頻繁にかかわらせる。** 実際にデータを使ったり使う可能性があったりする人たちを早めに巻き込んでいこう。一般市民だったり企業だったり、開発者だったりするだろう。そうすれば、あなたのサービスはあるべき姿により近づいていく。"
 
 # ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
@@ -837,7 +838,7 @@ msgid ""
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
 " re-use and repurpose the material."
-msgstr ""
+msgstr "心しておきたいのは、データの大半は最終的なユーザーに直接届くわけではないということだ。たいていは「情報メディア」を経由して届くことになる。データを受け取り、それを変換したりリミックスしたりして見せ方を変える人たちがいるのだ。たとえば、GPSの座標の大規模なデータベースを直接読みたいという人はほとんどいない。私たちが欲しいのは、そんなものではなく地図だ。というわけで、まずは情報メディアを巻き込もう。彼らがデータを活用し、目的にあわせて形を変えてくれる。"
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -901,7 +902,7 @@ msgstr "**データを公開する。** - 有用なフォーマットで、ま�
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
-msgstr ""
+msgstr "**データを発見してもらう。** - ウェブに投稿したり中央カタログをまとめたりして、オープンデータセットを発見してもらえるようにする。"
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
@@ -981,7 +982,7 @@ msgid ""
 " to this model. At its most basic, agencies make their data available via "
 "their websites and a central catalog directs visitors to the appropriate "
 "source.  However, there are alternatives."
-msgstr ""
+msgstr "データを他の人たちに公開するには、さまざまな方法がある。インターネット世代の人たちにとっていちばん自然なのは、オンラインで公開することだ。この方式にも様々なバリエーションがある。最も基本的なやり方は、その組織自身のウェブサイトからデータを取得できるようにし、中央カタログから直接その場所を指すようにするという方法だ。しかし、それ以外にも方法はある。"
 
 # ac1bf932ff0d46c8982fb9e01fa36836
 #: ../../source/how-to-open-up-data/make-data-available.rst:46
@@ -1226,7 +1227,7 @@ msgstr "既存のツール"
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data more discoverable."
-msgstr ""
+msgstr "さまざまなツールがウェブ上に存在する。データを発見されやすくすることに特化したものである。"
 
 # ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
@@ -1243,7 +1244,7 @@ msgid ""
 "In addition, there are dozens of specialist catalogs for different sectors "
 "and places. Many scientific communities have created a catalog system for "
 "their fields, as data are often required for publication."
-msgstr ""
+msgstr "さらに、さまざまな機関や場所に特化したカタログも数多く存在する。科学者のコミュニティの多くは個々の分野のカタログシステムを構築しており、公開用のデータを求めている。"
 
 # 3813a2f6a87b44bda881d2dc1047e8e0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
@@ -1257,7 +1258,7 @@ msgid ""
 "catalog for the government's data. When establishing a catalog, try to "
 "create some structure which allows many departments to easily keep their own"
 " information current."
-msgstr ""
+msgstr "ここまでで明らかになったとおり、正統な方法はその機関自身に政府のデータを扱うカタログを作らせることだ。カタログを構築する際には、各部署が自分の情報を最新に保ちやすいような仕組みを作るようにしよう。"
 
 # e6a628d1c2b340f2bdd128c31a4febba
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
@@ -1273,7 +1274,7 @@ msgstr ""
 msgid ""
 "There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
-msgstr ""
+msgstr "多くのオープンデータカタログが見落としている点をいくつか取り上げる。プログラムを作る場合にはこれらを検討しよう。"
 
 # d738b775cba84d92ac1ed6ec7c0840c5
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
@@ -1287,7 +1288,7 @@ msgstr ""
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogd. For example, someone may geocode addresses and may wish to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
 msgstr ""
@@ -2011,7 +2012,7 @@ msgstr ""
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
 msgid ""
-"Tab-seperated values (TSV) are a very common form of text file format for "
+"Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
 msgstr ""

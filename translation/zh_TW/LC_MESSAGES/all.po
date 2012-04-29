@@ -3,14 +3,16 @@
 # This file is distributed under the same license as the Open Data Handbook package.
 # 
 # Translators:
+# Dennis Chen <>, 2012.
+#   <laura.newman@okfn.org>, 2012.
 # TH Schee <info@motomosa.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-04-03 19:24\n"
-"PO-Revision-Date: 2012-04-03 18:31+0000\n"
-"Last-Translator: lauranewman <laura.newman@okfn.org>\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-27 10:09+0000\n"
+"Last-Translator: Dennis Chen <>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.net/projects/p/opendatahandbook/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -340,7 +342,7 @@ msgstr "政策影響的度量"
 #: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
-msgstr "從大量的資料中將資料來源與模式經由分析與結合產生的新知識"
+msgstr "經由分析與結合，從大量的資料中將資料來源與模式，產生的新知識"
 
 # 653cba4974784fc397e901d402246323
 #: ../../source/why-open-data/index.rst:35
@@ -389,7 +391,7 @@ msgid ""
 "register. Google Translate uses the enormous volume of EU documents that "
 "appear in all European languages to train the translation algorithms, thus "
 "improving its quality of service."
-msgstr "從經濟上來說，open data 也是一樣非常重要。許多研究都估計 Open Data 能帶來的經濟價值光是在歐洲共同市場就可達到每年數百億歐元。新的產品與企業正在使用開放資料。丹麥的 husetsweb.dk 可幫助您找到改善居家能源在使用上的效率，包含財務規劃與找到施工承包商等。這個服務除了使用了地價資訊，還使用了政府補助資訊和地方商業登記資訊。Google 的翻譯器大量使用歐盟產出包含多國語言的文件來訓練他們的翻譯演算法和改善服務的品質。"
+msgstr "從經濟上來說，open data 也是一樣非常重要。許多研究都估計，光是在歐洲共同市場，Open Data 能帶來的經濟價值就可達到每年數百億歐元。新的產品與新企業正在使用開放資料。丹麥的 husetsweb.dk 可幫助您找到改善居家能源在使用上的效率，包含財務規劃與找到施工承包商等。這個服務除了使用了地價資訊，還使用了政府補助資訊和地方商業登記資訊。Google 翻譯大量使用歐盟產出包含多國語言的文件來調校他們的翻譯演算法，進而改善服務品質。"
 
 # 457121fdf06c40558e92b439276954b8
 #: ../../source/why-open-data/index.rst:69
@@ -422,7 +424,7 @@ msgid ""
 " general health of the population. We are likely to see such developments "
 "happening again as unexpected insights flow from the combination of "
 "different open data sets."
-msgstr "雖然我們已經看到許多資料開放的運用所帶來的，在許多不同的領域，不管是在社會上或是經濟上的效應，我們依然不知道在未來還會有什麼創新。資料的重新組合可以創造出新的知識與對事物的理解，而這一切都可帶來在全新的領域上的運用。這在以前已經發生過了，例如，19 世紀時，透過因為黑死病引起的死亡病例與各地方水井的所在地的連結，當 Dr Snow 在倫敦發現了飲用水的污染和黑死病之間的關連，這個發現也讓倫敦興建了地下污水系統，並為市民的公眾衛生帶來極大的改善。經由開放資料產生的連結，我們也可期待對於這個社會與世界能有新的認知與發現。"
+msgstr "在許多不同的領域裡，雖然我們已經看到許多資料開放的運用所帶來，不管是在社會上或是經濟上的效應，我們依然不知道在未來還會有什麼創新。資料的重新組合可以創造出新的知識與對事物的理解，而這一切都可帶來在全新的領域上的運用。這在以前已經發生過了，例如，19 世紀時，透過因黑死病而死亡的病例與各地方水井的所在地建立連結，讓 Dr Snow 在倫敦發現了飲用水的污染和黑死病之間的關連。這個發現也讓倫敦興建了地下污水系統，並為市民的公眾衛生帶來極大的改善。經由開放資料產生的連結，我們也可期待對於這個社會與世界能有新的認知與發現。"
 
 # db07f40141dc4077a0390c1699f892ea
 #: ../../source/why-open-data/index.rst:94
@@ -433,7 +435,7 @@ msgid ""
 "use by others. Every restriction will exclude people from re-using the "
 "public data, and make it harder to find valuable ways of doing that. For the"
 " potential to be realized, public data needs to be open data."
-msgstr "這些未開發的潛能可以被釋放出來如果我們將政府公共資訊轉為開放資料。但是，只有當這一切真正開放，也就是沒有任何限制（法令上的，財務上的，或是技術上的）讓他人可以自由重新使用。任何一種限制都只會造成某一部分的人無法使用這些公共資料，並降低找到新的價值的可能性與方法。要讓這個潛能被釋放出來，公共資料必須成為開放資料。"
+msgstr "如果我們將政府公共資訊轉為開放資料，這些未開發的潛能就能夠被進一步釋放出來。但是，只有當這一切真正開放，也就是沒有任何限制（法令上的，財務上的，或是技術上的），才能讓他人可以自由重新使用。任何一種限制都只會造成某一部分的人無法使用這些公共資料，並降低找到新的價值的可能性與方法。要讓這個潛能被釋放出來，公共資料必須成為開放資料。"
 
 # ec853486f23a49c69f29cf7a961642d7
 #: ../../source/what-is-open-data/index.rst:3
@@ -465,7 +467,7 @@ msgid ""
 "*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr ""
+msgstr "開放資料指的是資料可以被任何人自由使用，重複使用和散佈 - 在其限制上，最多我們只能要求使用者標示資料來源與所有人。"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
@@ -489,7 +491,7 @@ msgid ""
 "**Re-use and Redistribution:** the data must be provided under terms that "
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr ""
+msgstr "重複使用與散佈: 資料必須使用允許重複使用和散佈並包含可以與其他資料集混和使用的授權聲明。"
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -499,7 +501,7 @@ msgid ""
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr ""
+msgstr "**Universal Participation／普及的參與**：任何人都能自由使用，重複使用和散佈。所以就不能禁止全面使用，以及限制特定人或團體的使用權利。舉例來說，\"非商業使用\"限制\"不能用在商業\"用途，或者只能在特定目的下使用（例如只限教育用途）。"
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -515,7 +517,7 @@ msgid ""
 "Interoperability denotes the ability of diverse systems and organizations to"
 " work together (inter-operate). In this case, it is the ability to "
 "interoperate - or intermix - different datasets."
-msgstr ""
+msgstr "互用性讓不同體系及組織能夠合作（交互運作）。在這種情況，互用性能讓不同資料集交互運作及互相混用。"
 
 # 04e5ebc429754b8f8335a6f36f11f348
 #: ../../source/what-is-open-data/index.rst:42
@@ -527,7 +529,7 @@ msgid ""
 "famous myth of the Tower of Babel where the (in)ability to communicate (to "
 "interoperate) resulted in the complete breakdown of the tower-building "
 "effort."
-msgstr ""
+msgstr "互用性很重要，因為允許不同元件彼此混搭。這種模組化、\"拚搭\"的元件，是構成規模龐大、複雜系統的基本元素。如果沒有了互用性這上述一切都不可能，就像巴比倫搭的故事告訴我們的－當拿走你溝通（互用）的能力，導致建塔工程失敗。"
 
 # a27e57d5f3414020af50c490a0fc4717
 #: ../../source/what-is-open-data/index.rst:50
@@ -539,7 +541,7 @@ msgid ""
 "dramatically enhanced ability to combine different datasets together and "
 "thereby to develop more and better products and services (these benefits are"
 " discussed in more detail in the section on ‘why’ open data)."
-msgstr ""
+msgstr "關於資料，我們面臨類似情況。屬於公有資源的開放資料（或程式碼）核心價值，在與能夠和其他\"開放\"資料相混搭。這種互用性對於理解\"開放\"的資料，具有關鍵性：一套資料集能夠與其他\"\"開放\"材料彼此組合，而且藉此開發更多更好的產品及服務，（關於這些好處我們會在為什麼\"開放\"資料一節詳談）。"
 
 # 9613f20a0c754c988418bb739c6bf147
 #: ../../source/what-is-open-data/index.rst:59
@@ -549,7 +551,7 @@ msgid ""
 "together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
-msgstr ""
+msgstr "對於開放這個辭彙提供清礎的定議，將確保能夠混合兩個不同來源的資料集。而且保證讓我們**避免自己建造'巴別塔'：有很多單獨的資料集，集合起來才能顯示價值，卻因故不能將他們混在一起。**"
 
 # 3a713e7bdcd744efa87d1f18017c2fc2
 #: ../../source/what-is-open-data/index.rst:71
@@ -827,7 +829,7 @@ msgid ""
 "and re-users of the data as early and as often as you can, be they citizens,"
 " businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
-msgstr ""
+msgstr "**盡早與頻繁地吸收有興趣的人** 盡可能早點將對於資料的使用或是重複使用的族群或是可能的對象吸收進來，同時越頻繁越好。不管他們是一般公民，商業人士或是程式開發者。這將確保您接著要推出的服務能有最大的效能和影響。"
 
 # ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
@@ -838,7 +840,7 @@ msgid ""
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
 " re-use and repurpose the material."
-msgstr ""
+msgstr "我們要時常記得，絕大部分的資料不會直接就交由最終使用者使用。這些資料一般都會先透過一個資訊中間者來傳送。這些資訊中間商的工作就是將資料取回並轉換或是與其他資料重組後再呈現出來。例如，我們絕大部分人對於 GPS 定位系統的大量資料沒有那種需求或是不想要處理。我們比較樂於使用地圖。所以，先將資訊中間者拉進來。他們將可把開放出來的資料重新使用和整理後重新推出新產品。"
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -902,7 +904,7 @@ msgstr "**將資料釋放出來** - 以原始和可用的模式釋出。您或�
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
-msgstr ""
+msgstr "**讓資料可被搜獲** - 將資料放上網路和或許建立一個目錄中心列出所有你開放出來的資料集。"
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
@@ -1205,7 +1207,7 @@ msgid ""
 ":term:`Open data` is nothing without users. You need to be able to make sure"
 " that people can find the source material. This section will cover different"
 " approaches."
-msgstr ""
+msgstr ":term:`開放資料`無法自外於使用者。你必須確保使用者能夠找到來源素材。這一節將會談到如何著手。"
 
 # 4becb2ab91af48f190e5067c39b98b97
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
@@ -1215,7 +1217,7 @@ msgid ""
 " whether sectorial or geographical, can make cooperation difficult. However,"
 " there are significant benefits in joining forces. The easier it is for "
 "outsiders to discover data, the faster new and useful tools will be built."
-msgstr ""
+msgstr "最重要的是提供中立的空間，客服局處室之間的政治以及預算週期所造成的困擾。不論是部門上或是地理上的司法管轄範圍，都會對合作造成困擾。但是，但團結合作還是有明顯好處。資料越容易讓外界人找到，那麼新的好用的工具也就越快出現。"
 
 # 512c9d4d09dd44a68e1beae3b2f882b6
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
@@ -1288,7 +1290,7 @@ msgstr ""
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogd. For example, someone may geocode addresses and may wish to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
 msgstr ""
@@ -2012,7 +2014,7 @@ msgstr ""
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
 msgid ""
-"Tab-seperated values (TSV) are a very common form of text file format for "
+"Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
 msgstr ""
@@ -2020,7 +2022,7 @@ msgstr ""
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68
 msgid "An :term:`API` that is designed to work over the Internet."
-msgstr ""
+msgstr "An :term:`API` "
 
 # 7132f49bacf446729745b0e8e0d9a192
 #: ../../source/appendices/file-formats.rst:3

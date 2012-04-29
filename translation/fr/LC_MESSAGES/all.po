@@ -5,6 +5,7 @@
 # Translators:
 #   <carolinelemoign@gmail.com>, 2012.
 #   <f8full@gmail.com>, 2012.
+#   <laura.newman@okfn.org>, 2012.
 #   <madewulf@gmail.com>, 2011, 2012.
 # magik_cypress  <>, 2012.
 # Papa O. Niang <>, 2012.
@@ -14,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-04-03 19:24\n"
-"PO-Revision-Date: 2012-04-05 02:21+0000\n"
-"Last-Translator: sebastien_vigneau <sebastien.vigneau@gmail.com>\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-05 17:10+0000\n"
+"Last-Translator: lauranewman <laura.newman@okfn.org>\n"
 "Language-Team: French (http://www.transifex.net/projects/p/opendatahandbook/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +45,7 @@ msgid ""
 "To get started, you may wish to look at the :doc:`Introduction "
 "<introduction/index.html>`. You can navigate through the report using the "
 "Table of Contents (see sidebar or below)."
-msgstr ""
+msgstr "Pour commencer, vous pourriez lire :doc: `l'Introduction <introduction/index.html>`. Vous pouvez naviguez dans le document en utilisant la table des matières (voir dans la barre latérale ou ci-dessous)."
 
 # 3115b5512c6e4ecd861e4e84d400523c
 #: ../../source/index.rst:15
@@ -471,7 +472,7 @@ msgid ""
 "*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr ""
+msgstr "*Une donnée ouverte est une donnée qui peut être librement utilisée, réutilisée et redistribuée par quiconque - sujette seulement, au plus, à une exigence d'attribution et de partage à l'identique.*"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
@@ -495,7 +496,7 @@ msgid ""
 "**Re-use and Redistribution:** the data must be provided under terms that "
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr ""
+msgstr "**Réutilisation et Redistribution** Les données doivent être disponibles sous une license autorisant la réutilisation et la redistribution incluant le croisement avec d'autres ensembles de données."
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -505,7 +506,7 @@ msgid ""
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr ""
+msgstr "** Participation universelle: ** tout le monde doit être en mesure d'utiliser, de réutiliser et redistribuer - il ne devrait y avoir aucune discimination contre les champs de l'activité ou contre des personnes ou des groupes. Pour exemple, des restrictions ‘non-commercial’ qui empêcheraient les utilisations ‘commercial‘ ou des restrictions d'utilisation à certaines fins (par exemple seulement dans l'éducation) ne sont pas autorisés."
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -665,7 +666,7 @@ msgid ""
 " The main point to bear in mind is whether it is feasible to publish this "
 "data at all (whether openly or otherwise) - see :ref:`this previous section "
 "<what-data-can-be-open>`."
-msgstr ""
+msgstr "Il n'y a **aucune exigeance** pour créer une liste complète de vos jeu de données. Le principal point à garder à l'esprit est de savoir si il est possible de publier ces données à tous (que ce soit ouvertement ou non) - voir par exemple :ref: `cette section <what-data-can-be-open>`."
 
 # e56d16680b2846ab8ababb059eaaf4cb
 #: ../../source/how-to-open-up-data/choose-datasets.rst:24
@@ -908,7 +909,7 @@ msgstr "**Rendez les données disponibles** - en gros ensembles et dans des form
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
-msgstr ""
+msgstr "**Rendre les données disponibles** - en vrac et dans un format utile. Vous pouvez également envisager une alternative pour rendre disponible les données par exemple via une API."
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
@@ -1190,7 +1191,7 @@ msgid ""
 "facility offering over 4000 data files. It is updated twice a day, offers "
 "data in :term:`Tab-separated values` (TSV) format, and includes "
 "documentation about the download facility as well as about the data files."
-msgstr ""
+msgstr "Par exemple, le `service de statistiques Eurostat <http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/>` a un plate-forme de téléchargement groupé offrant plus de 4000 fichiers de données. Il est mis à jour deux fois par jour, présente les données dans le format :term:`Tab-separated values` (TSV) et inclue une documentation sur la plate-forme de téléchargement, ainsi que sur les fichiers de données."
 
 # e41c10ed0631425c909b8ebfb4a7c800
 #: ../../source/how-to-open-up-data/make-data-available.rst:162
@@ -1233,7 +1234,7 @@ msgstr "Outils existants"
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data more discoverable."
-msgstr ""
+msgstr "Il y a un certain nombre d'outils sur présent sur le web spécifiquement conçus pour rendre les données plus détectable."
 
 # ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
@@ -1250,7 +1251,7 @@ msgid ""
 "In addition, there are dozens of specialist catalogs for different sectors "
 "and places. Many scientific communities have created a catalog system for "
 "their fields, as data are often required for publication."
-msgstr ""
+msgstr "En outre, il y a des dizaines de catalogues spécialisés pour les différents secteurs et les lieux. De nombreuses communautés scientifiques ont créé un système de catalogue de leurs spécialités, car les données sont souvent nécessaires pour la publication."
 
 # 3813a2f6a87b44bda881d2dc1047e8e0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
@@ -1280,7 +1281,7 @@ msgstr ""
 msgid ""
 "There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
-msgstr ""
+msgstr "Il y a plusieurs choses manquantes dans la plupart des catalogues de données ouvertes. Votre programme pourrait tenir compte de ce qui suit:"
 
 # d738b775cba84d92ac1ed6ec7c0840c5
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
@@ -1288,13 +1289,13 @@ msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
 "data. It may be worthwhile to think of the catalog as the region's catalog, "
 "rather than the regional government's."
-msgstr ""
+msgstr "Fournir un moyen pour permettre aux secteurs privé et communautaire d'ajouter leurs données. Il peut être utile de penser du catalogue comme un catalogue de la région, plutôt que celui du gouvernement régional."
 
 # 507082d1a6244462beb7af124cfe0fda
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogd. For example, someone may geocode addresses and may wish to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
 msgstr ""
@@ -2018,7 +2019,7 @@ msgstr ""
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
 msgid ""
-"Tab-seperated values (TSV) are a very common form of text file format for "
+"Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
 msgstr ""

@@ -1,18 +1,15 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
+    <meta charset="utf-8">
+
     <title>The Open Data Handbook &mdash; Open Data Handbook</title>
-    
+
     <link rel="stylesheet" href="en/_static/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="en/_static/css/bootstrap-responsive.css" type="text/css" />
     <link rel="stylesheet" href="en/_static/bootstrap-sphinx.css" type="text/css" />
-    
+
     <link rel="top" title="Open Data Handbook" href="#" />
     <link rel="next" title="Introduction" href="introduction/index.html" />
 
@@ -21,7 +18,7 @@
         width: 800px;
         margin: 30px auto 50px;
       }
-      
+
       .hero-unit h1 {
         margin-bottom: 15px;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -38,33 +35,51 @@
     </style>
   </head>
   <body>
-  
-  
+
+
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
-        
+
         <a class="logo-icon pull-left" href="#"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
-        
+
         <a class="brand" href="#">Open Data Handbook</a>
         <ul class="nav">
-          <li><a href="en/">English</a></li>
-          <li><a href="es/">Español</a></li>
-          <li><a href="pt_BR/">Português Brasileiro</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Choose language
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="en/">English</a></li>
+              <li><a href="de/">Deutsch</a></li>
+              <li><a href="el/">Ελληνικά</a></li>
+              <li><a href="es/">Español/Castellano</a></li>
+              <li><a href="fr/">Français</a></li>
+              <li><a href="is/">Íslenska</a></li>
+              <li><a href="it/">Italiano</a></li>
+              <li><a href="ja/">日本語</a></li>
+              <li><a href="lv/">Latviešu</a></li>
+              <li><a href="nl_BE/">Nederlands (Belgisch)</a></li>
+              <li><a href="pt_BR/">Português Brasileiro</a></li>
+              <li><a href="ru/">Pyccĸий</a></li>
+              <li><a href="zh_TW/">繁體中文</a></li>
+            </ul>
+          </li>
         </ul>
-        
+
         <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
           <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
         </a>
-        
-        
-          
-<form class="pull-right navbar-search" action="en/search.html" method="get">
-  <input type="text" name="q" placeholder="Search" class="search-query span2" />
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-        
+
+
+
+        <form class="pull-right navbar-search" action="en/search.html" method="get">
+          <input type="text" name="q" placeholder="Search" class="search-query span2" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+
       </div>
     </div>
   </div>
@@ -92,7 +107,7 @@
     href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
     Attribution (Unported) v3.0 License</a>.<br />
     <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
-    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
+    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0"
       alt="{{ _('Open Content') }}" /></a>
   <br/>
 </p>
@@ -124,7 +139,8 @@ Related Projects:
   </div>
 </footer>
 
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="bootstrap-dropdown.js"></script>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];

@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-04-03 19:24\n"
-"PO-Revision-Date: 2012-04-04 20:55+0000\n"
-"Last-Translator: lauranewman <laura.newman@okfn.org>\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-05 18:08+0000\n"
+"Last-Translator: Paola Ricaurte <>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/opendatahandbook/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -690,7 +690,7 @@ msgid ""
 "It is not essential that this list concurs with your expectations, the main "
 "intention is to get a feel for the demand. This could be based on other "
 "countries' :term:`open data` catalogs."
-msgstr ""
+msgstr "Prepare una pequeña lista de los potenciales conjuntos de datos de los cuales desea tener comentarios. No es esencial que esta lista coincida con sus expectativas, la principal intención es obtener una idea de la demanda. Esto podría estar basado en otros catálogos de :term:`{Datos Abiertos}{open data}` de otros países. "
 
 # 6cd8b5c44b4f49ccabbe7a1087df9d11
 #: ../../source/how-to-open-up-data/choose-datasets.rst:36
@@ -710,7 +710,7 @@ msgstr "Publique su petición en una página web. Asegúrese de que es posible a
 msgid ""
 "Provide easy ways to submit responses. Avoid requiring registration, as it "
 "reduces the number of responses."
-msgstr "Provea formas sencillas de responder. Evite el requisito de registro, puesto que reduce el número de respuestas."
+msgstr "Provea formas sencillas de enviar respuestas. Evite el requisito de registro, puesto que reduce el número de respuestas."
 
 # 26a1ebc54df04e69b875a56e46711d39
 #: ../../source/how-to-open-up-data/choose-datasets.rst:45
@@ -724,14 +724,14 @@ msgstr "Circule la petición a listas de correos relevantes, foros y participant
 msgid ""
 "Run a consultation event. Make sure you run it at a convenient time where "
 "the average business person, data wrangler and official can attend."
-msgstr "Ejecutar un evento de consulta. Asegúrese de que se realice a una hora conveniente, donde el hombre de negocios promedio, los datos de Wrangler y el representante del gobierno pueden asistir."
+msgstr "Ejecute un evento de consulta. Asegúrese de que se realice a una hora conveniente, donde el hombre de negocios promedio, los interesados en los datos y el representante del gobierno pueden asistir."
 
 # fe8082ba724f4e2481a8ab2a42544a98
 #: ../../source/how-to-open-up-data/choose-datasets.rst:52
 msgid ""
 "Ask a politician to speak on your agency's behalf. Open data is very likely "
 "to be part of a wider policy of increasing access to government information."
-msgstr "Pídele a un político que hable en nombre de tu agencia. Es muy posible que Datos Abiertos sea parte de una política mayor de incremento del acceso a la información gubernamental."
+msgstr "Pídale a un político que hable en nombre de su agencia. Es muy posible que Datos Abiertos sea parte de una política mayor de incremento del acceso a la información gubernamental."
 
 # 97be10325f6e46a0a18c93844711c295
 #: ../../source/how-to-open-up-data/choose-datasets.rst:57
@@ -954,7 +954,7 @@ msgid ""
 "often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to re-use that data."
-msgstr ""
+msgstr "Re-uso de los datos en poder del sector público no debe estar sujeto a restricciones de patentes. Más importante aún, es asegurarse de que usted está proporcionando los formatos legibles que permitan una mayor reutilización. Para ilustrar esto, considere las estadísticas publicadas como :abbr: `PDF (Portable Document Format)` documentos, a menudo usados ​​para la impresión de alta calidad. Aunque estas estadísticas pueden ser leídas por los seres humanos, son muy difíciles para un ordenador usarlas. Esto limita enormemente la capacidad para que otros puedan volver a utilizar esos datos."
 
 # 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
@@ -1245,7 +1245,7 @@ msgid ""
 "for datasets from around the world. The site makes it easy for individuals "
 "and organizations to publish material and for data users to find material "
 "they need."
-msgstr ""
+msgstr "Uno de los más prominentes es el DataHub, un catálogo y almacén de bases de datos de todo el mundo. El sitio facilita a los individuos y a las organizaciones publicar materiales y a los usuarios de los datos encontrar el material que necesitan. "
 
 # 2558aac60a2e4327ad698877cc2142f9
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
@@ -1276,7 +1276,7 @@ msgid ""
 "There are free and open source software solutions (such as CKAN_) which have"
 " been adopted by many governments already. As such, investing in another "
 "platform may not be needed."
-msgstr ""
+msgstr "Resista la tentación de producir software para generar el catálogo. Existen soluciones de software libre y de código abierto (como CKAN) que han sido adoptadas por muchos gobiernos. Invertir en otra plataforma puede que no sea necesario."
 
 # 219db6ba9b784128a2be95191a104858
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
@@ -1297,7 +1297,7 @@ msgstr "Proporcionar un canal para que los privados y sectores de la comunidad a
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogd. For example, someone may geocode addresses and may wish to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
 msgstr "Facilitar la mejora de la información permitiendo la catalogación de derivados de los conjuntos de datos. Por ejemplo, alguien podría geocodificar direcciones y compartir los resultados con todos. Si sólo permites versiones individuales de conjuntos de datos, estas mejoras podrían permanecer escondidas. "
@@ -1316,7 +1316,7 @@ msgid ""
 "Ensure that access is equitable. Try to avoid creating a privileged level of"
 " access for officials or tenured researchers as this will undermine "
 "community participation and engagement."
-msgstr ""
+msgstr "Asegure que el acceso sea equitativo. Evite crear niveles privilegiados de acceso para funcionarios o investigadores, puesto que afectará la participación y el involucramiento de la comunidad."
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
@@ -1335,7 +1335,7 @@ msgid ""
 "authoritative sources. Officials have often gone to great expense to ensure "
 "that there will not be political embarrassment or other harm caused from "
 "misuse or overreliance on data."
-msgstr ""
+msgstr "Es muy raro que los gobiernos se asocien con fuentes no oficiales o sin autoridad. Los funcionarios han invertido mucho para asegurarse de que no existan implicaciones políticas u otro tipo de daños asociados con el uso inadecuado de los datos."
 
 # dc1fa133f5ff4c1f91bc4f7593f4b2e2
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
@@ -2016,15 +2016,15 @@ msgstr "Uso de contenido por fuera de su intención original."
 msgid ""
 "A license that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
-msgstr ""
+msgstr "Una licencia que requiere que los usuarios de un trabajo provean el contenido bajo condiciones similares o iguales a las del trabajo original. "
 
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
 msgid ""
-"Tab-seperated values (TSV) are a very common form of text file format for "
+"Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
-msgstr "Los valores-separados por tabulador (TSV) son una muy común formato de archivo de texto para compartir datos tabulares. Este formato es extremadamente simple y altamente 'leible por la máquina'"
+msgstr "Los valores-separados por tabulador (TSV) son una muy común formato de archivo de texto para compartir datos tabulares. Este formato es extremadamente simple y altamente :term:`{leible por la máquina}{machine-readable}`"
 
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68

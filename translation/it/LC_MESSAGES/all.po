@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
-"POT-Creation-Date: 2012-04-03 19:24\n"
-"PO-Revision-Date: 2012-04-04 11:25+0000\n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2012-04-06 12:22+0000\n"
 "Last-Translator: Maurizio Napolitano <maurizio.napolitano@okfn.org>\n"
 "Language-Team: Italian (http://www.transifex.net/projects/p/opendatahandbook/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -477,7 +477,7 @@ msgid ""
 "*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr ""
+msgstr "lauranewman\n*I dati aperti sono dati che possono essere liberamente utilizzati, riutilizzati e ridistribuiti da chiunque, soggetti eventualmente alla necessità di citarne la fonte e di condividerli con lo stesso tipo di licenza con cui sono stati originariamente rilasciati.*"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
@@ -501,7 +501,7 @@ msgid ""
 "**Re-use and Redistribution:** the data must be provided under terms that "
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr ""
+msgstr "**Riutilizzo e ridistribuzione:** i dati devono essere forniti a condizioni tali da permetterne il riutilizzo e la ridistribuzione. Ciò comprende la possibilità di combinarli con altre basi di dati."
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -511,7 +511,7 @@ msgid ""
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr ""
+msgstr "**Partecipazione universale:* tutti devono essere in grado di usare, riutilizzare e ridistribuire i dati. Non ci devono essere discriminazioni né di ambito di iniziativa né contro soggetti o gruppi. Ad esempio, la clausola 'non commerciale', che vieta l'uso a fini commerciali o restringe l'utilizzo solo per determinati scopi (es. quello educativo) non è ammessa."
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -671,7 +671,7 @@ msgid ""
 " The main point to bear in mind is whether it is feasible to publish this "
 "data at all (whether openly or otherwise) - see :ref:`this previous section "
 "<what-data-can-be-open>`."
-msgstr ""
+msgstr "Non vi è **alcun obbligo** di creare un elenco completo dei dataset. Il punto principale da considerare è se sia possibile pubblicare questi dati o meno (qualsiasi sia l’approccio scelto, aperto o meno) - si veda :ref:`la sezione <quali-dati-possono-essere-aperti>`."
 
 # e56d16680b2846ab8ababb059eaaf4cb
 #: ../../source/how-to-open-up-data/choose-datasets.rst:24
@@ -693,7 +693,7 @@ msgid ""
 "It is not essential that this list concurs with your expectations, the main "
 "intention is to get a feel for the demand. This could be based on other "
 "countries' :term:`open data` catalogs."
-msgstr ""
+msgstr "Si può preparare un breve elenco di dataset potenziali su cui si desidera avere un feedback. Non è indispensabile che questa lista coincida con le vostre aspettative, l’intento principale è quello di avere una prima idea delle esigenze. L’elenco potrebbe ad esempio ispirarsi a cataloghi di :term:`open data` di altri paesi."
 
 # 6cd8b5c44b4f49ccabbe7a1087df9d11
 #: ../../source/how-to-open-up-data/choose-datasets.rst:36
@@ -839,7 +839,7 @@ msgid ""
 "and re-users of the data as early and as often as you can, be they citizens,"
 " businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
-msgstr ""
+msgstr "**Coinvolgere gli utenti fin dall’inizio e coinvolgerli spesso.** Cercare presto e spesso il confronto con i potenziali utilizzatori dei dati fra cittadini, imprese o sviluppatori Ciò aumenterà la rilevanza dell’iniziativa durante tutto il suo percorso."
 
 # ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
@@ -850,7 +850,7 @@ msgid ""
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
 " re-use and repurpose the material."
-msgstr ""
+msgstr "È essenziale tenere presente che gran parte dei dati non raggiungeranno gli utenti finali direttamente, ma tramite 'info-intermediari'. Queste sono le persone che prendono i dati e li trasformano o li remixano per la presentazione. Ad esempio, la maggior parte di noi non vuole o non ha bisogno di un grande database di coordinate GPS, preferiamo decisamente una mappa. Così coinvolgete da subito gli info-intermediari, in modo che essi possano riutilizzare e riadattare i vostri dati."
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -914,7 +914,7 @@ msgstr "**Rendere i dati disponibili** - in gran quantità e in un formato utile
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
-msgstr ""
+msgstr "**Renderlo disponibile** - pubblicare sul Web e forse organizzando un catalogo centrale dove elencare l'insieme dei dati aperti."
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
@@ -957,7 +957,7 @@ msgid ""
 "often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to re-use that data."
-msgstr ""
+msgstr "Il ri-uso dei dati in possesso del settore pubblico non dovrebbe essere soggetto a restrizioni di brevetto. E, ancora più importante, fornire i dati in formato \"machine-readable\" consente un loro maggior riutilizzo. Per chiarire ciò, si consideri il caso di statistiche pubblicate come documenti :abbr:`PDF (Portable Document Format)`, spesso utilizzati per la stampa di alta qualità. Anche se queste statistiche possono essere lette da esseri umani, è molto difficile renderle utilizzabili dai computer e questo limita pesantemente la capacità da parte di altri di riutilizzare quei dati."
 
 # 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
@@ -994,7 +994,7 @@ msgid ""
 " to this model. At its most basic, agencies make their data available via "
 "their websites and a central catalog directs visitors to the appropriate "
 "source.  However, there are alternatives."
-msgstr ""
+msgstr "Ci sono molti modi per rendere i dati disponibili per gli altri. Il più naturale nell'era di Internet è la pubblicazione online. Ci sono molte varianti a questo modello. Nella sua forma elementare, gli enti pubblici rendono disponibili i loro dati attraverso i loro siti web e un catalogo centrale convoglia i visitatori verso la fonte appropriata. Tuttavia, esistono diverse alternative."
 
 # ac1bf932ff0d46c8982fb9e01fa36836
 #: ../../source/how-to-open-up-data/make-data-available.rst:46
@@ -1196,7 +1196,7 @@ msgid ""
 "facility offering over 4000 data files. It is updated twice a day, offers "
 "data in :term:`Tab-separated values` (TSV) format, and includes "
 "documentation about the download facility as well as about the data files."
-msgstr ""
+msgstr "Ad esempio, il servizio statistico Eurostat ha un servizio che permette di scaricare oltre 4000 file di dati. È aggiornato due volte al giorno, offre dati in formato :term:`valori separati da tabulatore (TSV)`, e include documentazione sulle modalità di download e sui dati."
 
 # e41c10ed0631425c909b8ebfb4a7c800
 #: ../../source/how-to-open-up-data/make-data-available.rst:162
@@ -1204,7 +1204,7 @@ msgid ""
 "Another example is the `District of Columbia Data Catalog`_, which allows "
 "data to be downloaded in CSV and XLS format in addition to live feeds of the"
 " data."
-msgstr ""
+msgstr "Un altro esempio è il `Catalogo dati del distretto di Columbia`_, che consente di scaricare i dati in formato CSV ed XLS in aggiunta ad un feed in tempo reale dei dati."
 
 # 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
@@ -1239,7 +1239,7 @@ msgstr "Strumenti esistenti"
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data more discoverable."
-msgstr ""
+msgstr "Esistono una serie di strumenti già presenti sul web che sono specificamente progettati per rendere i dati facilmente trovabili."
 
 # ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
@@ -1248,7 +1248,7 @@ msgid ""
 "for datasets from around the world. The site makes it easy for individuals "
 "and organizations to publish material and for data users to find material "
 "they need."
-msgstr ""
+msgstr "Uno di quelli di maggior successo è DataHub_ ed è un catalogo e deposito di dati di dataset provenienti da ogni parte del mondo. Il sito rende facile, per singole persone ed organizzazioni il modo di pubblicare il materiale e agli utenti di trovare i dati che a loro servono. "
 
 # 2558aac60a2e4327ad698877cc2142f9
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
@@ -1256,7 +1256,7 @@ msgid ""
 "In addition, there are dozens of specialist catalogs for different sectors "
 "and places. Many scientific communities have created a catalog system for "
 "their fields, as data are often required for publication."
-msgstr ""
+msgstr "In aggiunta, ci sono decine di cataloghi specializzati per settori e luoghi differenti. Molte comunità scientifiche hanno creato un sistema di catalogo per i loro campi, visto che spesso è obbligatorio pubblicare i dati delle loro ricerche."
 
 # 3813a2f6a87b44bda881d2dc1047e8e0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
@@ -1270,7 +1270,7 @@ msgid ""
 "catalog for the government's data. When establishing a catalog, try to "
 "create some structure which allows many departments to easily keep their own"
 " information current."
-msgstr ""
+msgstr "È diventata comune la pratica di avere un'ente capofila che crei un catalogo dei dati pubblici. Durante la creazione di questo catalogo, è opportuno creare una qualche struttura che consenta ai vari Dipartimenti di mantenere aggiornate le loro informazioni."
 
 # e6a628d1c2b340f2bdd128c31a4febba
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
@@ -1279,14 +1279,14 @@ msgid ""
 "There are free and open source software solutions (such as CKAN_) which have"
 " been adopted by many governments already. As such, investing in another "
 "platform may not be needed."
-msgstr ""
+msgstr "Resistete alla tentazione di costruire il software per supportare il catalogo da zero. Ci sono soluzioni di software libero open source (come ad esempio CKAN_) che sono state scelte da molti governi. Per tale motivo, investire in un'altra piattaforma potrebbe essere non necessario."
 
 # 219db6ba9b784128a2be95191a104858
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
 msgid ""
 "There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
-msgstr ""
+msgstr "Ci sono molte cose che mancano nella maggior parte dei cataloghi open data. La piattaforma da implementare dovrebbe considerare quanto segue:"
 
 # d738b775cba84d92ac1ed6ec7c0840c5
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
@@ -1294,16 +1294,16 @@ msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
 "data. It may be worthwhile to think of the catalog as the region's catalog, "
 "rather than the regional government's."
-msgstr ""
+msgstr "Offrire la possibilità ai privati o comunità di aggiungere i propri dati. Può essere utile pensare al catalogo come il catalogo della regione, piuttosto che del Governo della Regione."
 
 # 507082d1a6244462beb7af124cfe0fda
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
 msgid ""
 "Facilitating improvement of the data by allowing derivatives of datasets to "
-"be catalogd. For example, someone may geocode addresses and may wish to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
-msgstr ""
+msgstr "Facilitando il miglioramento dei dati permettendo derivati dei dataset da catalogare. Per esempio, qualcuno potrebbe geocodificare gli indirizzi e probabilmente voler condividere questo risultati con altri. Se si permettono versioni singoli di dataset, questi miglioramenti rimarranno nascosti."
 
 # e8ad70e351d34a9caf7bc7cf0409f67d
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
@@ -1311,7 +1311,7 @@ msgid ""
 "Be tolerant of your data appearing elsewhere. That is, content is likely to "
 "be duplicated to communities of interest. If you have river level monitoring"
 " data available, then your data may appear in a catalog for hydrologists."
-msgstr ""
+msgstr "Essere tolleranti se i dati appaiono altrove. Questo vuol dire che il contenuto probabilmente si troverà duplicato nelle comunità di interesse. Se si dispone di dati sul monitoraggio dei livelli de fiume, è probabile che i dati appariranno in un catalogo per idrologi."
 
 # 04da7586b2474affab2a4d56bb5dc900
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
@@ -1319,7 +1319,7 @@ msgid ""
 "Ensure that access is equitable. Try to avoid creating a privileged level of"
 " access for officials or tenured researchers as this will undermine "
 "community participation and engagement."
-msgstr ""
+msgstr "Garantire un accesso equo. Evitare di creare un livello privilegiato di accesso per funzionari pubblici o ricercatori di ruolo questo potrebbe mettere in difficoltà la partecipazione e la crescita della comunità."
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
@@ -1329,7 +1329,7 @@ msgstr "Per la società civile"
 # 82151482120d4eb38a6d0aafff09e1ed
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
 msgid "Be willing to create a supplementary catalog for non-official data."
-msgstr ""
+msgstr "Bisogna essere disponibili a creare un catalogo supplementare con dati non-ufficiali."
 
 # 4d3c4cafa15d46b49cdf98fb5cdd40fb
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
@@ -1338,7 +1338,7 @@ msgid ""
 "authoritative sources. Officials have often gone to great expense to ensure "
 "that there will not be political embarrassment or other harm caused from "
 "misuse or overreliance on data."
-msgstr ""
+msgstr "È molto raro che i governi si associno a fonti non ufficiali o non autorevoli. I funzionari sostengono spesso spese considerevoli per essere sicuri di evitare l'imbarazzo politico o altri danni causati da un uso improprio o sovrastimato dei dati."
 
 # dc1fa133f5ff4c1f91bc4f7593f4b2e2
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
@@ -1347,7 +1347,7 @@ msgid ""
 "mesh their information with information from businesses. Governments are "
 "rightfully skeptical of profit motives. Therefore, an independent catalog "
 "for community groups, businesses and others may be warranted."
-msgstr ""
+msgstr "Inoltre, è improbabile che i governi siano disposti a sostenere attività che mescolano le proprie informazioni con quelle provenienti da ambiti commerciali. I governi sono giustamente scettici sui moventi legati al profitto. Pertanto, un catalogo indipendente per i gruppi relativi a comunità, imprese e altri soggetti potrebbe essere giustificato."
 
 # 0eece90a6b18435fbada8a71dce59bb8
 #: ../../source/following-up/getting-folks-in-a-room.rst:3
@@ -1364,7 +1364,7 @@ msgstr "Gli incontri faccia-a-faccia sono un modo molto efficace per incoraggiar
 # ed4a924635be427d84e5e73aa156036b
 #: ../../source/following-up/getting-folks-in-a-room.rst:9
 msgid "Finding out more about prospective re-users"
-msgstr ""
+msgstr "Scoprire di più su potenziali riutilizzatori"
 
 # 5f00d7f9fe5f4d88908a571cd17d7583
 #: ../../source/following-up/getting-folks-in-a-room.rst:10
@@ -1374,13 +1374,13 @@ msgstr "Saperne di più sulla domanda relativa ai vari set di dati"
 # 44afdf6e36d943ddabf744660e0cd998
 #: ../../source/following-up/getting-folks-in-a-room.rst:11
 msgid "Finding out more about how people want to re-use your data"
-msgstr ""
+msgstr "Scoprire di più su come la gente intende riutilizzare i dati"
 
 # 40fc2cc37de34edc951bb527c703bed8
 #: ../../source/following-up/getting-folks-in-a-room.rst:12
 msgid ""
 "Enabling prospective re-users to find out more about what data you have"
-msgstr ""
+msgstr "Mettere i potenziali riutilizzatori nelle condizioni di saperne di più su dati disponibili"
 
 # 521cf351ccf04741bcad75ab2ebed8fc
 #: ../../source/following-up/getting-folks-in-a-room.rst:14
@@ -1504,7 +1504,7 @@ msgid ""
 "and poverty indicators. It was at the time the most comprehensive local data"
 " catalog in the world. The challenge was to make it useful for citizens, "
 "visitors, businesses and government agencies of Washington, DC."
-msgstr ""
+msgstr "**Apps for Democracy**, uno dei primi concorsi negli Stati Uniti, fu lanciato nell'ottobre del 2008 da Viviek Kundra, all'epoca Responsabile dei sistemi informativi (CTO) del governo del Distretto di Columbia (DC). Kundra ha sviluppato il pionieristico catalogo dati del distretto, http://data.octo.dc.gov/, che includeva dataset quali feed sulla criminalità in tempo reale, risultati dei test scolastici, e indicatori di povertà. All'epoca era il più ampio catalogo al mondo per i dati locali. La sfida era di renderlo utile per cittadini, visitatori, imprese e agenzie governative di Washington, DC."
 
 # 8d21825195c3490fb0c824541222f572
 #: ../../source/following-up/making-things.rst:32
@@ -1517,7 +1517,7 @@ msgid ""
 "was open for 30 days and cost the DC government $50,000. In return, a total "
 "of 47 iPhone, Facebook and web applications were developed with an estimated"
 " value in excess of $2,600,000 for the local economy."
-msgstr ""
+msgstr "La soluzione creativa fu di metter su il contest Apps for Democracy. La strategia era quella di chiedere alla gente di costruire applicazioni utilizzando i dati del catalogo appena lanciato. Vi erano la candidatura online delle applicazioni, molti premi di importo contenuto anziché pochi di grande ammontare, e categorie differenti insieme ad un premio \"Giuria popolare\". La gara rimase aperta per 30 giorni e costò al governo del distretto federale della Columbia 50.000 dollari. In cambio, furono sviluppate in totale 47 applicazioni per iPhone, r iPhone e per il web, con un valore aggiunto per l'economia locale di 2.600.000 dollari."
 
 # f146ea81d3f149b4abf0590d80f27b1c
 #: ../../source/following-up/making-things.rst:42
@@ -1545,7 +1545,7 @@ msgid ""
 "of which built on the re-use of government data. A total amount of NOK 2.5 "
 "million was distributed among the 17 winners; while the total amount applied"
 " for by the 137 applications was NOK 28.4 million."
-msgstr ""
+msgstr "**Nettskap 2.0**. Nell'aprile del 2010 il ministero per la pubblica amministrazione della Norvegia lanciò \"Nettskap 2.0\". Gli sviluppatori norvegesi – aziende private, agenzie pubbliche o singoli individui – furono sfidati a presentare idee progettuali web-based in materia di sviluppo di servizi, processi efficienti di lavoro, e maggiore partecipazione democratica. L'utilizzo di dati pubblici venne incoraggiato esplicitamente. Anche se la chiusura del concorso era a distanza di appena un mese, il 9 maggio il Ministro Rigmor Aasrud disse che la risposta era \"travolgente\". Furono ricevute in tutto 137 applicazioni, delle quali non meno di 90 costruite sul riuso di dati pubblici. Tra i 17 vincitori furono distribuiti in totale 2,5 milioni di corone norvegesi; mentre la somma complessiva distribuita per le 137 applicazioni fu di 28,4 milioni di corone."
 
 # 14cbc29030354b309e4c0acf0e56aef3
 #: ../../source/following-up/making-things.rst:63
@@ -1558,7 +1558,7 @@ msgid ""
 "applications that were entered into the contest are further evidence of the "
 "new and innovative applications which can result from releasing government "
 "data on open terms."
-msgstr ""
+msgstr "**Mashup Australia**. La Government 2.0 Taskforce australiana invitò i cittadini a mostrare perché il libero accesso alle informazioni del governo australiano sarebbe stato positivo per lo sviluppo economico e sociale del paese. Il concorso si svolse dal 7 ottobre al 13 novembre 2009. La Taskforce rese disponibili alcuni dataset con una licenza open ed in un ventaglio di formati riusabili. Le 82 applicazioni ammesse al concorso sono una ulteriore evidenza delle applicazioni nuove ed innovative che possono emergere una volta resi disponibili dati pubblici con licenze aperte."
 
 # 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
@@ -1574,7 +1574,7 @@ msgid ""
 " and economic benefit. CSOs that promote re-use have been instrumental in "
 "countries where there have been advances in policy and law to ensure that "
 "datasets are both technically and legally open."
-msgstr ""
+msgstr "Mostrare i tanti modi in cui l'informazione può essere gestita per ottenere benefici sociali ed economici è uno dei modi più efficaci in cui le Organizzazioni della Società Civile (OSC) possono dimostrare ai governi il valore che c'è nell'aprire i loro dataset. Le OSC che promuovono il riuso hanno dato un contributo decisivo, nei paesi dove ci sono stati passi in avanti nella politica e nella e nella legislazione, per assicurare che i dataset vengano aperti sia dal punto di vista tecnico che da quello legale."
 
 # 60c702f98efb4c9aa510e6198b1428db
 #: ../../source/following-up/making-things.rst:83
@@ -1692,7 +1692,7 @@ msgid ""
 "may be worthwhile adding an article about your initiative on their site. "
 "These can be mutually beneficial. You receive more interest and they receive"
 " a free blog post in their topic area."
-msgstr ""
+msgstr "Molti blog hanno creato un grande pubblico di lettori in determinati settori specialistici. Può essere utile aggiungere un articolo sulle proprie iniziative open data su questi siti. Ciò crea una situazione di reciproco vantaggio. Da un lato l'iniziativa riceve più attenzione, e dall'altro il blog specializzato riceve un articolo gratis."
 
 # 9b230b80b65d485d86d252226dd302ec
 #: ../../source/following-up/tell-the-world.rst:56
@@ -1947,7 +1947,7 @@ msgid ""
 "general public as raw data under an open license so that civic hackers can "
 "make use of the data, for example by building search engines and user "
 "interfaces."
-msgstr ""
+msgstr "È essenziale che i meta-dati negli IAR siano completi in modo che i motori di ricerca siano grado di funzionare efficacemente. Nello spirito degli open government data, gli enti pubblici dovrebbero rendere disponibili al pubblico i propri IAR offrendo dati grezzi e con una licenza aperta, in modo che i \"civic hackers\" possano utilizzare i dati, per creare - ad esempio - motori di ricerca e interfacce utente"
 
 # 4feb4d19a60642078f320e8d8dd612be
 #: ../../source/glossary.rst:105
@@ -2019,12 +2019,12 @@ msgstr "Utilizzo di contenuti al di fuori della loro finalità originaria."
 msgid ""
 "A license that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
-msgstr ""
+msgstr "Una licenza che richiede che un'opera derivata sia protetta alle stesse condizioni o termini simile a quelle dell'opera originale."
 
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
 msgid ""
-"Tab-seperated values (TSV) are a very common form of text file format for "
+"Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
 msgstr "I valori separati da tabulazione (TSV) sono un formato di file testuale per condividere dati tabellari. Il formato è estremamente semplice e altamente :term:`machine-readable`."
@@ -2154,7 +2154,7 @@ msgid ""
 "by automated means. Be sure to use templates as the basis of documents that "
 "will display data for re-use, so it is at least possible to pull information"
 " out of documents."
-msgstr ""
+msgstr "Documenti in formati classici come Word, ODF, OOXML, o PDF possono essere sufficienti per mostrare alcuni tipi di dati - ad esempio, mailing list relativamente stabili o loro equivalenti. Possono essere condivisi a basso costo, essendo i formati in cui spesso i dati sono nati. Questi formati non aiutano in alcun modo a mantenere coerente la struttura, e quindi è spesso difficile inserire i dati in modo automatico. Assicuratevi di utilizzare come base dei documenti dei modelli che possano evidenziare i dati per un loro potenziale riutilizzo, in modo che almeno sia possibile estrarre  le informazioni dai documenti."
 
 # 3ca8da150fd3448e9c91b7f4e8f08c92
 #: ../../source/appendices/file-formats.rst:80
@@ -2268,7 +2268,7 @@ msgid ""
 "available to anyone, free of charge, so that anyone can use these "
 "specifications in their own software without any limitations on re-use "
 "imposed by intellectual property rights."
-msgstr ""
+msgstr "I formati in cui le informazioni sono pubblicate - in altre parole, la base digitale in cui sono memorizzate le informazioni - può essere \"aperto\" o \"chiuso\". Un formato aperto è quello in cui le specifiche per il software sono a disposizione di chiunque, gratuitamente, in modo che chiunque possa utilizzarle nel proprio software senza alcuna limitazione di riutilizzo imposto attraverso diritti di proprietà intellettuale."
 
 # 11373b39254144f4bb062a40e7813a85
 #: ../../source/appendices/file-formats.rst:154
@@ -2280,7 +2280,7 @@ msgid ""
 "format, this can cause significant obstacles to reusing the information "
 "encoded in it, forcing those who wish to use the information to buy the "
 "necessary software."
-msgstr ""
+msgstr "Quando il formato è \"chiuso\", può significare o che il formato è proprietario e le caratteristiche tecniche non sono pubblicamente disponibili, o che il formato del file è proprietario ed anche se le specifiche tecniche sono pubbliche, il riutilizzo è limitato. La pubblicazione dell'informazione in un formato chiuso può causare notevoli ostacoli per la sua riutilizzazione dei dati in essa codificati, costringendo coloro che desiderano utilizzarle ad acquistare il software necessario."
 
 # c8855b8342e64d1b8377d55893c94f9a
 #: ../../source/appendices/file-formats.rst:162
@@ -2473,7 +2473,7 @@ msgid ""
 "one is not allow to access, re-use or redistribute it without permission, "
 "this would never prevent you from stating the fact that substance Y melts at"
 " temperature Z."
-msgstr ""
+msgstr "Questa distinzione fra il \"contenuto\" di una banca dati e la raccolta è fondamentale soprattutto per i database che raccolgono fatti dal momento che non è giuridicamente valido concedere diritto(i) di monopolio sui singoli fatti (il \"contenuto\"), anche se possono essere concessi diritti in merito alla raccolta. Come chiarimento, consideriamo il semplice esempio di una banca dati che elenca il punto di fusione di varie sostanze. Mentre il database nel suo complesso potrebbe essere protetto dalla legge in modo da non permettere l'acceso, il reimpiego o la redistribuzione senza il permesso, questo non impedisce di affermare il fatto che la sostanza Y fonde alla temperatura Z."
 
 # e45e4794fcde4db08aa676c867ef5314
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
@@ -2519,7 +2519,7 @@ msgstr "Richiedendo agli utenti di accedere attraverso una password"
 msgid ""
 "Only providing a user with an account and password on the condition that the"
 " user agrees to the terms and conditions"
-msgstr ""
+msgstr "Fornendo solamente un utente con un account e una password in modo che accetti termini e condizioni"
 
 # 16481e4fc1ed45ac846dc7dc4e553da2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59

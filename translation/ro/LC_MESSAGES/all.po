@@ -1771,7 +1771,7 @@ msgstr ""
 # 8d913877e7a6456b84c5481aa375fa49
 #: ../../source/glossary.rst:3
 msgid "Glossary"
-msgstr ""
+msgstr "Glosar"
 
 # 7f11b625ef3e418ebce8fa73d6df5007
 #: ../../source/glossary.rst:99
@@ -1779,6 +1779,8 @@ msgid ""
 "The process of adapting data so that individuals cannot be identified from "
 "it."
 msgstr ""
+"Procesul de adaptare a datelor astfel încât să nu se mai poată reconstitui "
+"identitatea indivizilor."
 
 # a05e26862bfa42af9de59456bb406ca0
 #: ../../source/glossary.rst:96
@@ -1795,7 +1797,7 @@ msgstr ""
 msgid ""
 "A way computer programs talk to one another. Can be understood in terms of "
 "how a programmer sends instructions between programs."
-msgstr ""
+msgstr "O metodă prin care programele de calculator pot comunica între ele."
 
 # ed5e720c502945a5890bd78c53722041
 # 006ce3eeb6f6494e89126a9fee36fa6b
@@ -1809,6 +1811,8 @@ msgid ""
 "A license that requires that the original source of the licensed material is "
 "cited (attributed)."
 msgstr ""
+"O licență care obligă utilizatorii să distribuie materialul în "
+"aceleași condiții juridice ca și materialul inițial."
 
 # a66abef10b4b433d93031aa2c2017898
 #: ../../source/glossary.rst:24
@@ -1818,6 +1822,11 @@ msgid ""
 "Rather than downloading a file from a specific source, BitTorrent allows "
 "peers to download from each other."
 msgstr ""
+"BitTorrent este un protocol pentru distribuirea capacității de "
+"transfer între calculatoarele care participă în tansfer. În loc "
+"să descarce un fișier de la o sursă anume, BitTorrent permite "
+"participanților să descarce fragmente ale fișierului unii de la "
+"alții."
 
 # 612e73147c2c40fdbe744433e7db9a57
 #: ../../source/glossary.rst:20
@@ -1825,6 +1834,8 @@ msgid ""
 "Connectivity relates to the ability for communities to connect to the "
 "Internet, especially the World Wide Web."
 msgstr ""
+"Conectivitatea se referă la posibilitatea comunităților de a se "
+"conecta la Internet, în special World Wide Web."
 
 # 2c5484b9a96740bfbc9f3afcc208576a
 #: ../../source/glossary.rst:83
@@ -1833,11 +1844,14 @@ msgid ""
 "works. An owner of copyright is entitled to determine how others may use "
 "that work."
 msgstr ""
+"Un drept pentru creatorii de opere pentru a nu permite altor "
+"persoane utilizarea operelor lor. Titularul dreptului de autor poate "
+"să decidă cum pot alte persoane să utilizeze acea operă."
 
 # 905eb11579234bb1a44c8bf10af73af7
 #: ../../source/glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
-msgstr ""
+msgstr "Vezi :term:`Protocol de accesare a datelor`."
 
 # df25ad55a2cd4441b7c2a9fa5fb62877
 #: ../../source/glossary.rst:34
@@ -1845,6 +1859,8 @@ msgid ""
 "A system that allows outsiders to be granted access to databases without "
 "overloading either system."
 msgstr ""
+"Un sistem care permite utilizatorilor externi să acceseze baze de "
+"date fără a supraîncărca sistemul."
 
 # 9d30078f305e4260bfee0cfdd8fc931b
 #: ../../source/glossary.rst:42
@@ -1860,6 +1876,16 @@ msgid ""
 "the travel card data collection was abandoned based on the data protection "
 "legislation."
 msgstr ""
+"Legislația nu se referă la protejarea datelor, ci mai degrabă "
+"protejarea drepturilor cetățenilor să trăiască fără grija că viețile "
+"lor pot deveni publice. Legea protejează intimitatea (cum ar fi "
+"informație despre situația economică a persoanei, sănătate și "
+"convingere politică) și alte drepturi cum ar fi dreptul la "
+"libertatea de circulație și de întrunire. De exemplu, în Finlanda a "
+"funcționat un sistem de carduri care înregistra călătoriile "
+"pasagerilor. Sistemul a dat naștere unei dezbateri din perspectiva "
+"libertății de mișcare iar colectarea datelor de călătorie a fost "
+"abandonată în baza legii de protejare a datelor personale."
 
 # 86c8b18def8d4ee1b79d75ad066b4b8f
 #: ../../source/glossary.rst:79
@@ -1867,11 +1893,14 @@ msgid ""
 "A right to prevent others from extracting and reusing content from a "
 "database. Exists mainly in European jurisdictions."
 msgstr ""
+"Un drept de a nu permite altor persoane a extrage și reutiliza "
+"conținut dintr-o bază de date. Există în special în jurisdicțiile "
+"europene."
 
 # ec3378ceb3a748ccad2951202612480a
 #: ../../source/glossary.rst:114
 msgid "European Union."
-msgstr ""
+msgstr "Uniunea Europeană."
 
 # 5ad96f170d4d4c57b91fd25c109b9d1f
 #: ../../source/glossary.rst:117
@@ -1934,12 +1963,12 @@ msgstr ""
 # 4feb4d19a60642078f320e8d8dd612be
 #: ../../source/glossary.rst:105
 msgid "Monopolies granted to individuals for intellectual creations."
-msgstr ""
+msgstr "Monopol atribuit indivizilor pentru creații intelectuale."
 
 # 89ef221be02d4278bab95a677f310469
 #: ../../source/glossary.rst:102
 msgid "See :term:`Intellectual property rights`."
-msgstr ""
+msgstr "Vezi :term:`Drepturi de proprietate intelectuală`."
 
 # 58a3235843654c3282894e72502ef67d
 #: ../../source/glossary.rst:13
@@ -1949,6 +1978,10 @@ msgid ""
 "readable. Computers can display the text nicely, but have great difficulty "
 "understanding the context that surrounds the text."
 msgstr ""
+"Formate citibile automat sunt acele formate din care pot fi extrase "
+"datele ușor de către un calculator. Documentele PDF nu sunt citibile "
+"automat. Caltulatoarele pot afișa text frumos, dar au dificultăți "
+"mari în a înțelege contextul din jurul textului."
 
 # 2dc4522d8fcb4013b942b47615c50aa3
 #: ../../source/glossary.rst:9
@@ -1956,6 +1989,8 @@ msgid ""
 "Open data are able to be used for any purpose. More details can be read at "
 "`opendefinition.org <http://www.opendefinition.org/>`_."
 msgstr ""
+"Datele deschise pot fi folosite în orice scop. Mai multe detalii "
+"pe `opendefinition.org <http://www.opendefinition.org/>`_."
 
 # 5de57f6ce9f24f3ebbbcb86481d101fb
 #: ../../source/glossary.rst:167
@@ -1966,6 +2001,12 @@ msgid ""
 "data is a subset of :term:`Public Sector Information`, which is broader in "
 "scope. See http://opengovernmentdata.org for details."
 msgstr ""
+":term:`Date deschise` produse de guvern. E vorba în general despre "
+"date adunate de către guver în decursul activităților obișnuite, "
+"care nu identifică indivizi și nu afectează interese economice. "
+"Datele guvernamentale deschise sunt parte din :term:`Informații din "
+"sectorul public`. Vezi http://opengovernmentdata.org pentru mai "
+"multe informații."
 
 # fd67964c3c0c4d829d84d0289821fa98
 #: ../../source/glossary.rst:91
@@ -1974,26 +2015,31 @@ msgid ""
 "restrictions. Can also be interpreted to mean standards which are developed "
 "in a vendor-neutral manner."
 msgstr ""
+"Înțeles în general ca standarde tehnice care nu sunt constrânse prin "
+"restricții de licențiere. Poate fi interpretat ca standarde "
+"dezvoltate independent de un anumit furnizor."
 
 # 69cae7a7b1ba4c2ab1feefaa40340b8e
 #: ../../source/glossary.rst:55
 msgid "See :term:`Public Sector Information`."
-msgstr ""
+msgstr "Vezi :term:`Informații din sectorul public`."
 
 # a2ce148a2a73420b9acd40b9063f3f43
 #: ../../source/glossary.rst:75
 msgid "No copyright exists over the work. Does not exist in all jurisdictions."
 msgstr ""
+"Nu există drepturi de autor pentru material. Conceptul nu există "
+"în toate jurisdicțiile."
 
 # 2f2e8085f2cc4398947dfcaa3f7ab3b8
 #: ../../source/glossary.rst:58
 msgid "Information collected or controlled by the public sector."
-msgstr ""
+msgstr "Informații adunate sau controlate de către sectorul public."
 
 # bb27435fccc543f49295bce4ed47215a
 #: ../../source/glossary.rst:88
 msgid "Use of content outside of its original intention."
-msgstr ""
+msgstr "utilizarea conținutului dincolo de scopul original."
 
 # b82b98ba6b7f4fc1aacfe2d19a7bda99
 #: ../../source/glossary.rst:71
@@ -2001,6 +2047,8 @@ msgid ""
 "A license that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
 msgstr ""
+"O licență care obligă utilizatorii să distribuie materialul în "
+"aceleași condiții juridice ca și materialul inițial."
 
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
@@ -2009,11 +2057,14 @@ msgid ""
 "sharing tabular data. The format is extremely simple and highly :term:"
 "`machine-readable`."
 msgstr ""
+"`Tab-separated values` (TSV) este un format comun de fișier text "
+"utilizat pentru distribuția datelor tabulare. Formatul este foarte "
+"simplu și :term:`citibil automat`."
 
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68
 msgid "An :term:`API` that is designed to work over the Internet."
-msgstr ""
+msgstr "Un :term:`API` proiectat să funcționeze prin Internet."
 
 # 7132f49bacf446729745b0e8e0d9a192
 #: ../../source/appendices/file-formats.rst:3

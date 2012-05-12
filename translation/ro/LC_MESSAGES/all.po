@@ -622,7 +622,7 @@ msgstr ""
 # 35a624b81cd14bc09c5646f0b348179e
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
 msgid "Apply an Open License (Legal Openness)"
-msgstr ""
+msgstr "Aplicarea licențelor de tip deschis (libertatea legală)"
 
 # e7dcffe8d7d44c5d93225ccf279b1ee6
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
@@ -635,6 +635,15 @@ msgid ""
 "put a license on it** – and if you want your data to be `open`_ this is even "
 "more important."
 msgstr ""
+"În majoritatea jurisdicțiilor, există drepturi de proprietate intelectuală "
+"referitoare la date, care restricționează terții să utilizeze, reutilizeze "
+"și să distribuie date fără o permisiune explicită. Chiar in zonele unde "
+"existența acestor drepturi este incertă, este importantă existența și "
+"aplicarea unei licențe, pentru a dobândi mai multă transparență și "
+"claritate. **În consecință, dacă plănuiești să dai acces la setul tău de "
+"date, ar trenbui să aplici o licență corespunzătoare** - și dacă dorești "
+"să desemnezi datele ca și date de tip deschis, acest aspect este și mai "
+"important."
 
 # 5e7dc13604fa4f95890ca0e9b8144d81
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
@@ -643,11 +652,15 @@ msgid ""
 "the licenses conformant with the `Open Definition`_ and marked as suitable "
 "for data. This list (along with instructions for usage) can be found at:"
 msgstr ""
+"Ce tip de licență poți utiliza? Recomandăm ca pentru datele de tip deschis, "
+"să utilizezi una dintre licențele în conformitate cu `Open Definition`_ și "
+"să fie marcate in mod corespunzător. Această listă (împreună cu "
+"instrucțiunile de utilizare) poate fi găsită la:"
 
 # 6c204c0188eb4967bd7ec5c9b9e29663
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
 msgid "http://opendefinition.org/licenses/"
-msgstr ""
+msgstr "http://opendefinition.org/licenses/"
 
 # 81d0ed1bbb9b4221a6dfad0b8984cdd7
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:22
@@ -655,11 +668,13 @@ msgid ""
 "A short 1-page instruction guide to applying an open data license can be "
 "found on the Open Data Commons site:"
 msgstr ""
+"Un scurt ghid de instrucțiuni de o pagină referitor la aplicarea licențelor "
+"pentru datele de tip deschis poate fi accesat la site-ul Open Data Commons:"
 
 # 134eda3fcb1e4ea9a9a3849ab64bdf61
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
 msgid "http://opendatacommons.org/guide/"
-msgstr ""
+msgstr "http://opendatacommons.org/guide/"
 
 # b747964567d643b082dc522af2471c0f
 #: ../../source/how-to-open-up-data/choose-datasets.rst:3

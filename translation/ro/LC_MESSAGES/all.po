@@ -1287,7 +1287,7 @@ msgstr ""
 # 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
 msgid "Make data discoverable"
-msgstr ""
+msgstr "Fă datele cât mai ușor de găsit"
 
 # 1a2ce7b8aac042e9a2f48a21660610d0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
@@ -1296,6 +1296,9 @@ msgid ""
 "that people can find the source material. This section will cover different "
 "approaches."
 msgstr ""
+"Datele deschise nu înseamnă nimic fără utilizatori. Trebuie să fii sigur de "
+"faptul că oamenii vor găsi materialul-sursă. Această secțiune va acoperi "
+"diverse abordări de acest gen."
 
 # 4becb2ab91af48f190e5067c39b98b97
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
@@ -1306,11 +1309,18 @@ msgid ""
 "there are significant benefits in joining forces. The easier it is for "
 "outsiders to discover data, the faster new and useful tools will be built."
 msgstr ""
+"Cel mai important lucru este crearea unui spațiu neutru care să poată "
+"depăși atât politicile inter-agenții, cât și ciclurile bugetare viitoare. "
+"Frontierele juridice, atât cele sectoriale, cât și cele geografice, pot "
+"face cooperarea dificilă. Cu toate acestea, există beneficii semnificative "
+"în cazul îmbinării acestor forțe. Cu cât este mai ușor pentru cei din afară "
+"să descopere datele, cu atât mai repede se vor construi instrumente noi și "
+"utile."
 
 # 512c9d4d09dd44a68e1beae3b2f882b6
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
 msgid "Existing tools"
-msgstr ""
+msgstr "Instrumentele existente"
 
 # 2adc1adf902d44b497f75a0eafa83915
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
@@ -1318,6 +1328,8 @@ msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data more discoverable."
 msgstr ""
+"Există un număr de instrumente ce pot fi găsite pe Internet care sunt "
+"create în mod special pentru a face datele mult mai ușor de descoperit."
 
 # ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
@@ -1327,6 +1339,10 @@ msgid ""
 "and organizations to publish material and for data users to find material "
 "they need."
 msgstr ""
+"Unul dintre cele mai proeminente este DataHub, un catalog și un magazin "
+"de date pentru seturi de date din întreaga lume. Acest site facilitează "
+"publicarea materialelor de către persoane fizice și organizații și "
+"descoperirea lor de către utilizatorii de date."
 
 # 2558aac60a2e4327ad698877cc2142f9
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
@@ -1335,11 +1351,15 @@ msgid ""
 "and places. Many scientific communities have created a catalog system for "
 "their fields, as data are often required for publication."
 msgstr ""
+"Mai mult decât atât, există numeroase cataloage specializate din diverse "
+"sectoare și domenii. Multe comunități științifice au creat un sistem de "
+"cataloage pentru domeniile pe care le reprezintă, deoarece adesea sunt "
+"necesare diverse date pentru ca materialele respective să poată fi publicate."
 
 # 3813a2f6a87b44bda881d2dc1047e8e0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
 msgid "For government"
-msgstr ""
+msgstr "Pentru guvern"
 
 # dd24b7fc5a0e4264a0a4224b5aab6293
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
@@ -1349,6 +1369,10 @@ msgid ""
 "create some structure which allows many departments to easily keep their own "
 "information current."
 msgstr ""
+"Pentru o agenție de top, crearea unui catalog pentru datele provenite de la "
+"guvern reprezintă o practică ortodoxă. Atunci când creezi un catalog, "
+"încearcă să stabilești niște structuri care să le permită numeroaselor "
+"departamente să-și actualizeze informația ușor."
 
 # e6a628d1c2b340f2bdd128c31a4febba
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
@@ -1358,6 +1382,10 @@ msgid ""
 "been adopted by many governments already. As such, investing in another "
 "platform may not be needed."
 msgstr ""
+"Rezistă tentației de a construi un software care să împiedice deteriorarea "
+"catalogului. Există soluții software libere și cu sursă deschisă (FOSS) "
+"care au fost deja adoptate de multe guverne. Prin urmare, investițiile "
+"într-o altă platformă nu sunt necesare."
 
 # 219db6ba9b784128a2be95191a104858
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
@@ -1365,6 +1393,8 @@ msgid ""
 "There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
 msgstr ""
+"Există câteva lucruri care lipsesc adesea din cataloagele de date deschise. "
+"Programul dumneavoastră le-ar putea lua în considerație pe următoarele:"
 
 # d738b775cba84d92ac1ed6ec7c0840c5
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
@@ -1373,6 +1403,9 @@ msgid ""
 "data. It may be worthwhile to think of the catalog as the region's catalog, "
 "rather than the regional government's."
 msgstr ""
+"Elaborarea unei căi care ar permite sectorului privat și cel comunitar să "
+"adauge propriile lor date. Ar fi util să te gândești la catalogul de date "
+"mai degrabă ca la unul regional decât ca la unul ce aparține guvernului."
 
 # 507082d1a6244462beb7af124cfe0fda
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
@@ -1382,6 +1415,11 @@ msgid ""
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
 msgstr ""
+"Facilitarea îmbunătățirii datelor prin permiterea seturilor derivate de "
+"date de a fi catalogate. De exemplu, cineva ar putea adăuga o geolocație "
+"adreselor și ar dori să împărtășească aceste rezultate cu toată lumea. Dacă "
+"nu vei permite versiuni derivate, ci doar singulare, aceste îmbunătățiri "
+"vor rămâne inaccesibile."
 
 # e8ad70e351d34a9caf7bc7cf0409f67d
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
@@ -1390,6 +1428,11 @@ msgid ""
 "be duplicated to communities of interest. If you have river level monitoring "
 "data available, then your data may appear in a catalog for hydrologists."
 msgstr ""
+"Fii tolerant cu apariția datelor tale oriunde în altă parte. Asta înseamnă "
+"că există posibilitatea ca acest conținut să fie duplicat pentru "
+"comunitățile de interes. Dacă deții date cu privire la monitorizarea "
+"nivelului râurilor, de exemplu, este foarte probabil ca acele date să "
+"apară într-un catalog al hidrologilor."
 
 # 04da7586b2474affab2a4d56bb5dc900
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
@@ -1398,16 +1441,19 @@ msgid ""
 "access for officials or tenured researchers as this will undermine community "
 "participation and engagement."
 msgstr ""
+"Asigură-te că accesul este echitabil. Încearcă să eviți crearea unui nivel "
+"privilegiat de acces pentru oficiali sau cercetători titularizați, deoarece "
+"aceasta va submina participarea și implicarea comunității."
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
 msgid "For civil society"
-msgstr ""
+msgstr "Pentru societatea civilă"
 
 # 82151482120d4eb38a6d0aafff09e1ed
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
 msgid "Be willing to create a supplementary catalog for non-official data."
-msgstr ""
+msgstr "Fii dispus de a crea un catalog suplimentar pentru datele neoficiale."
 
 # 4d3c4cafa15d46b49cdf98fb5cdd40fb
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
@@ -1417,6 +1463,11 @@ msgid ""
 "that there will not be political embarrassment or other harm caused from "
 "misuse or overreliance on data."
 msgstr ""
+"Situațiile în care guvernele se asociază cu surse neoficiale sau "
+"ne-autorizate sunt foarte rare. Adeseori, oficialii au făcut tot posibilul "
+"să se asigure că nu vor exista situații politice stânjenitoare sau nu vor "
+"fi cauzate alte prejudicii din cauza folosirii improprii a datelor sau "
+"încrederii depline în acestea."
 
 # dc1fa133f5ff4c1f91bc4f7593f4b2e2
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
@@ -1426,6 +1477,11 @@ msgid ""
 "rightfully skeptical of profit motives. Therefore, an independent catalog "
 "for community groups, businesses and others may be warranted."
 msgstr ""
+"Mai mult decât atât, e puțin probabil ca guvernele să fie dispuse să "
+"sprijine activități prin care informațiile lor sunt puse laolaltă cu cele "
+"ale întreprinderilor.  Guvernele sunt pe bună dreptate sceptice pe motive "
+"de profit. Așadar, crearea unui catalog independent for grupuri de "
+"comunități, afaceriști sau altele poate fi justificată."
 
 # 0eece90a6b18435fbada8a71dce59bb8
 #: ../../source/following-up/getting-folks-in-a-room.rst:3

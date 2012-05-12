@@ -960,7 +960,7 @@ msgstr ""
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
 msgid "Make Data Available (Technical Openness)"
-msgstr ""
+msgstr "Fă datele accesibile (deschiderea tehnică)"
 
 # b09db3670c724b4cbae550f365a90988
 #: ../../source/how-to-open-up-data/make-data-available.rst:5
@@ -969,6 +969,10 @@ msgid ""
 "Specifically, the data needs to be available in bulk in a :term:`machine-"
 "readable` format."
 msgstr ""
+":term:`Open data` trebuie să fie atât deschise din punct de vedere tehnic "
+"cât și din punct de vedere legal. Mai precis, datele trebuie să fie "
+"disponibile în vrac (bulk), într-un format care poate fi citit de către un "
+"calculator :term:`machine-readable`."
 
 # b9d7515dde2043ac876fd4836fae1473
 #: ../../source/how-to-open-up-data/make-data-available.rst:10
@@ -978,6 +982,10 @@ msgid ""
 "achieved because your agency should not undertake any cost when it provides "
 "data for use."
 msgstr ""
+"Datele trebuie să fie disponibile la un preț mai mic decât costul rezonabil "
+"de reproducere, preferabil ca o descărcare gratuită de pe Internet. S-a "
+"ajuns la acest model de tarifare pentru că agenția ta nu trebuie să suporte "
+"nici un cost atunci când furnizează date utilizatorilor"
 
 # 402e6b5680ef47a9b0690b72d93f77da
 #: ../../source/how-to-open-up-data/make-data-available.rst:16
@@ -987,6 +995,11 @@ msgid ""
 "download. A web API or similar service may also be very useful, but they are "
 "not a substitutes for bulk access."
 msgstr ""
+"Datele ar trebui să fie disponibile sub forma unui set complet. Dacă ai un "
+"registru care este colectat sub această formă, întregul registru trebuie să "
+"fie disponibil pentru descărcare. O interfață de programare (API) web sau un "
+"serviciu similar ar putea fi deasemenea foarte utile, dar ele nu substituie "
+"accesul în vrac."
 
 # b3a61f61587d4cfe810a5c957f8af97e
 #: ../../source/how-to-open-up-data/make-data-available.rst:22
@@ -999,26 +1012,35 @@ msgid ""
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to re-use that data."
 msgstr ""
+"Re-utilizarea datelor deținute de către sectorul public nu trebuie să fie "
+"subiectul unor restricții generate de licențe sau patente. Și mai important, "
+"dacă te asiguri că furnizezi datele in formate care pot fi citite automat, "
+"permiti un grad mai mare de re-utilizare. Pentru a ilustra acest fapt, ia în "
+"considerare datele statistice publicate ca documente în format PDF, un "
+"format ales uzual datorită calității de imprimare ridicat. În timp ce aceste "
+"statistici pot fi citite de către oameni, sunt foarte greu utilizabile de "
+"către un calculator. În acest mod este îngrădită major abilitatea altora de "
+"a re-utiliza datele."
 
 # 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
 msgid "Here are a few policies that will be of great benefit:"
-msgstr ""
+msgstr "Mai jos câteva direcții care vor aduce beneficii majore:"
 
 # 63d8a323d7e04da6bba2f412cc5842af
 #: ../../source/how-to-open-up-data/make-data-available.rst:33
 msgid "Keep it simple,"
-msgstr ""
+msgstr "păstrează o formă simplă,"
 
 # 4978a2c4ac1f4d0482cd0a5c18899676
 #: ../../source/how-to-open-up-data/make-data-available.rst:34
 msgid "Move fast"
-msgstr ""
+msgstr "mișcă-te repede,"
 
 # 7e3d34dbf9b349dbbfd5874681a3b9e9
 #: ../../source/how-to-open-up-data/make-data-available.rst:35
 msgid "Be pragmatic."
-msgstr ""
+msgstr "fii pragmatic."
 
 # 344dec649a454a349a892dce337d2360
 #: ../../source/how-to-open-up-data/make-data-available.rst:37
@@ -1026,6 +1048,8 @@ msgid ""
 "In particular it is better to give out raw data now than perfect data in six "
 "months' time."
 msgstr ""
+"În mod special este mai bine să furnizezi chiar acum datele brute, decât să "
+"furnizezi date într-un format perfect."
 
 # c6673f81b9724b8c95778b12ce344bec
 #: ../../source/how-to-open-up-data/make-data-available.rst:40
@@ -1036,6 +1060,12 @@ msgid ""
 "their websites and a central catalog directs visitors to the appropriate "
 "source.  However, there are alternatives."
 msgstr ""
+"Sunt foarte multe moduri diferite de a face datele accesibile către alții. "
+"Cel mai natural mod, în epoca Internetului, este publicarea online. Există "
+"multe variațiuni ale acestui model. Formula de bază este ca agențiile care "
+"dețin date publice să asigure accesul la date prin intermediul proprilor "
+"sit-uri web, iar un catalog central direcționează vizitatorii către sursa "
+"adecvată. În orice caz, există alternative."
 
 # ac1bf932ff0d46c8982fb9e01fa36836
 #: ../../source/how-to-open-up-data/make-data-available.rst:46
@@ -1044,16 +1074,20 @@ msgid ""
 "large, distribution via other formats can be warranted. This section will "
 "also discuss alternatives, which can act to keep prices very low."
 msgstr ""
+"Când conectivitatea este limitată sau mărimea setului de date este este "
+"extrem de mare, ar putea fi asigurată distribuirea prin intermediul altor "
+"formate. Această secțiune va discuta alternative care ar putea avea un rol "
+"în a menține tarifele foarte scăzute."
 
 # d14f19bd711547458714a36deb87b608
 #: ../../source/how-to-open-up-data/make-data-available.rst:51
 msgid "Online methods"
-msgstr ""
+msgstr "Metode online"
 
 # c5885ee8faca4693a840729a94e548a0
 #: ../../source/how-to-open-up-data/make-data-available.rst:54
 msgid "Via your existing website"
-msgstr ""
+msgstr "Prin intermediul sit-ului tău web deja existent"
 
 # 4698a33b199f4dc7893cc0b7f999880d
 #: ../../source/how-to-open-up-data/make-data-available.rst:56
@@ -1063,6 +1097,9 @@ msgid ""
 "access to discussion documents, data files are perfectly happy to be made "
 "available this way."
 msgstr ""
+"Sistemul care este cel mai familiar echipei tale de conținut web este de a "
+"furniza fișiere pentru a fi descărcate de pe pagini web. La fel cum "
+"furnizezi în acest moment acces la documente [...]"
 
 # 680a3fdd6ee74160bfd3f0ba94456f73
 #: ../../source/how-to-open-up-data/make-data-available.rst:61

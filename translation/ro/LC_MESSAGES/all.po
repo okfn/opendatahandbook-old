@@ -2982,7 +2982,7 @@ msgstr ""
 # b67d88179b824185a34209f86dcc580c
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
-msgstr ""
+msgstr "Ce drepturi (de proprietate intelectuală) există în bazele de date?"
 
 # 5f9216bdba044ff28822b1d6bf5783bd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
@@ -2993,6 +2993,11 @@ msgid ""
 "things like the field names and a model for the data – the organization of "
 "these fields and their inter-relation."
 msgstr ""
+"Când vorbim despre bazele de date, prima oară trebuie să distingem între "
+"structura și conținutul unei baze de date (când folosim termenul de „date” "
+"ne vom referi la conținutul bazei de date însăși). Elementele de structură "
+"includ lucruri cum ar fi câmpurile și un model pentru date – organizarea "
+"acestor câmpuri și inter-relaționarea lor."
 
 # c4e85f3fa8b94ae08375d9c817d14e32
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
@@ -3001,6 +3006,9 @@ msgid ""
 "database will be covered by copyright (it depends somewhat on the level of "
 "'creativity' involved in creating this structure)."
 msgstr ""
+"În multe jurisdicții, este posibil ca elementele structurale ale unei baze "
+"de date să fie protejate de drepturi de autor (copyright) (depinde însă și "
+"de nivelul de „creativitate” în crearea unei structuri)."
 
 # 395c38e545b949b2bd4f6cdf184a4ed4
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
@@ -3013,6 +3021,11 @@ msgid ""
 "shall reserve the term \"content\" to mean the individual items, and data to "
 "denote the collection."
 msgstr ""
+"Totuși în cazul nostru suntem în mod particular interesați de date în sine. "
+"Când vorbim de „date”, trebuie să fim atenți pentru că acest cuvânt nu este "
+"foarte precis: „date” poate să însemne 2 elemente din baza de date (de "
+"exemplu două date bibliografice) sau „date” pot să însemne o colecție "
+"întreagă (de ex. Tot materialul din baza de date)."
 
 # 73c5a4d2fd6648f68879b5a83b6f30bc
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
@@ -3021,6 +3034,10 @@ msgid ""
 "data varies widely across countries. However, most jurisdictions **do** "
 "grant some rights in the data (as a collection)."
 msgstr ""
+"Sper deosebire de alt conținut cum ar fi text, muzică sau film, situația "
+"juridică a datelor depinde mult de la țară la țară. Cu toate acestea, cele "
+"mai multe jurisdicții **acordă** unele drepturi asupra datelor (ca o "
+"colecție)."
 
 # 6a4c03a757064662932a79988f81f0c8
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
@@ -3035,21 +3052,31 @@ msgid ""
 "this would never prevent you from stating the fact that substance Y melts at "
 "temperature Z."
 msgstr ""
+"Distincția între „conținutul” unei baze de date și colecție este în mod "
+"special crucial pentru bazele de date cu informații factuale, pentru că "
+"nicio jurisdicție nu acordă un drept monopolistic pe faptele în sine "
+"(„conținutul”), chiar dacă ar putea acorda drept(uri) asupra lor ca o "
+"colecție. Pentru a exemplifica, să luăm exemplul simplu al unei baze de date "
+"care conține punctele de topire ale diverselor substanțe. Câte vreme baza de "
+"date, ca totalitate, ar putea fi protejată de lege astfel încât o altă "
+"persoană nu are dreptul de a o accesa, reutiliza sau redistrbui fără "
+"permisiune, aceasta nu ar trebui să te împiedice să scrii faptul că "
+"substanța Y se topește la temperatura Z."
 
 # e45e4794fcde4db08aa676c867ef5314
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
 msgid "Forms of protection fall broadly into two cases:"
-msgstr ""
+msgstr "Formele de protecție se încadrează în mod larg în două categorii:"
 
 # 3bdda233812049c49e24ee9e8fe29390
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
 msgid "Copyright for compilations"
-msgstr ""
+msgstr "Dreptul de autor pentru compilații"
 
 # ae7ced23b0b54fff97a2a9712c475acd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
 msgid "A *sui generis* right for collections of data"
-msgstr ""
+msgstr "Un drept *sui generis* pentru colecțiile de date"
 
 # e3cc883dcae4410daec23ba229274207
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
@@ -3058,6 +3085,10 @@ msgid ""
 "varies by jurisdiction. Thus we proceed country by country detailing which "
 "(if any) of these approaches is used in a particular jurisdiction."
 msgstr ""
+"După cum am subliniat deja, nu există reguli generale și situația depinde în "
+"funcție de jurisdicție. Astfel, vom putea doar detalia de la țară la țară "
+"dacă aceste forme de protecție (sau niciuna din ele) este folosită într-o "
+"jurisdicție anume."
 
 # 09a81bf2720345df93aaa77e5ba404f9
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
@@ -3069,11 +3100,18 @@ msgid ""
 "X is a provider of a citation database, it can achieve any set of terms of "
 "conditions it wants simply by:"
 msgstr ""
+"În fine, ar trebui să punctăm faptul că în absența oricărei norme legale, "
+"mulți furnizori de baze de date (închise) au posibilitatea de a folosi un "
+"simplu contract combinat cu o dispozițiile legale care împiedică încălcarea "
+"mecanismelor de control a accesului, pentru a obține rezultate similare cu "
+"un drept formal de proprietate intelectuală. De exemplu, dacă X este un "
+"furnizori de o baza de date de citate, poate obține un contract (termeni și "
+"condiții) pe care îl dorește prin:"
 
 # 4ed11a4688a84f7c94a40d1dc70293f2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
 msgid "Requiring users to login with a password"
-msgstr ""
+msgstr "Cerința ca utilizatorii să se logheze cu o parolă"
 
 # 2cf4c090400d49da993a256268b4a8d4
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
@@ -3081,6 +3119,9 @@ msgid ""
 "Only providing a user with an account and password on the condition that the "
 "user agrees to the terms and conditions"
 msgstr ""
+"Punerea la dispoziție a numelui de utilizator și parola unui noi utilizator "
+"doar cu condiția ca acel utilizator să fie de acord cu termenii și "
+"condițiile."
 
 # 16481e4fc1ed45ac846dc7dc4e553da2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
@@ -3088,3 +3129,6 @@ msgid ""
 "You can read more about the jurisdiction by jurisdiction situation in the "
 "`Guide to Open Data Licensing`_."
 msgstr ""
+"Poți să citești mai multe despre situația în funcție de jurisdicție în "
+"ghidul pentru licențierea datelor deschise (`Guide to Open Data "
+"Licensing`_)."

@@ -1679,7 +1679,7 @@ msgstr ""
 # 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
 msgid "Making things! Hackdays, prizes and prototypes"
-msgstr ""
+msgstr "Făcând lucruri! Hackdays, premii și prototipuri"
 
 # 060111852eda4d8ab3c3be81956860cd
 #: ../../source/following-up/making-things.rst:5
@@ -1691,11 +1691,17 @@ msgid ""
 "in a number of countries including the UK, the US, Norway, Australia, Spain, "
 "Denmark and Finland."
 msgstr ""
+"Structura acestor competiții este constă din faptul că un număr de seturi de "
+"date sunt oferite iar programatorii au la dispoziție apoi o perioadă scurtă "
+"de timp - de la mai puțin de 48 de ore până la câteva săptămâni - pentru a "
+"devolta aplicații folosind aceste date. Apoi este oferit un premiu celei mai "
+"bune aplicații. Competițiile au fost ținute în câteva țări incluzând Marea "
+"Britanie, Statele Unite, Norvegia, Australia, Spania, Danemarca și Finlanda."
 
 # 4023683f993e487e8a36414c0e231b52
 #: ../../source/following-up/making-things.rst:13
 msgid "Examples for Competitions"
-msgstr ""
+msgstr "Exemple de competiții"
 
 # 49b7ac024e12489b949a4e96788136cc
 #: ../../source/following-up/making-things.rst:15
@@ -1707,6 +1713,12 @@ msgid ""
 "from around the world, with a tempting £80,000 prize for the five best "
 "applications."
 msgstr ""
+"**Show us a better way** a fost prima competiție de acest gen. A fost "
+"inițiată de Guvernul Marii Britanii „Grupul Operativ pentru Forța "
+"Informației” condus de Secretarul de Stat Tom Watson în Martie 2008. Această "
+"competiție a pus întrebarea „Ce ai putea crea din informații publice?” și a "
+"fost deschis programatorilor din întreaga lume, având un premiu tentant de "
+"80.000 de lire sterline pentru primele cinci cele mai bune aplicații."
 
 # 4173635b18804fe2afc29007068f6172
 #: ../../source/following-up/making-things.rst:22
@@ -1720,6 +1732,15 @@ msgid ""
 "catalog in the world. The challenge was to make it useful for citizens, "
 "visitors, businesses and government agencies of Washington, DC."
 msgstr ""
+"Una dintre primele competiții din Statele Unite, Apps for Democracy, a fost "
+"lansată în octombrie 2008 de Vivek Kundra, în acel moment Director pentru "
+"Tehnologie (CTO) al Guvernului Local al Columbiei (SUA). Kundra a devoltat "
+"catalogul datelor http://data.octo.dc.gov, o noutate la acel moment, care a "
+"inclus seturi de date acum ar fi fluxuri în timp real privind "
+"criminalitatea, notele elevilor și indicatorii privind pauperitatea. La acel "
+"moment era cel mai complet catalog din întreaga lume. Provocarea a fost de "
+"a-l face util cetățenilor, vizitatorilor, afacerilor și agențiilor "
+"guvernamentale din Wahington, DC."
 
 # 8d21825195c3490fb0c824541222f572
 #: ../../source/following-up/making-things.rst:32
@@ -1733,6 +1754,14 @@ msgid ""
 "of 47 iPhone, Facebook and web applications were developed with an estimated "
 "value in excess of $2,600,000 for the local economy."
 msgstr ""
+"Soluția creativă a fost de a iniția competiția Apps for Democracy. Strategia "
+"a fost de a cere participanților de a elabora aplicații care să folosească "
+"datele din catalogul proaspăt constituit. Exista posibilitatea de depunere "
+"online a aplicațiilor, mai multe premii mici opus câtorva substanțiale și "
+"câteva categorii separate, precum premiul „La Alegerea Publicului”. "
+"Comptetiția a fost deschisă pentru 30 de zile și a costat Guvernul 50.000 de "
+"dolari. În schimb, au fost devoltate 47 de aplicații pentru iPhone, Facebook "
+"și web cu o valoare peste 2.600.000 de dolari pentru economia locală."
 
 # f146ea81d3f149b4abf0590d80f27b1c
 #: ../../source/following-up/making-things.rst:42
@@ -1745,6 +1774,14 @@ msgid ""
 "accessing data on buses and bus stops in Madrid, which won the first and "
 "second prizes of €3,000 and €2,000 respectively."
 msgstr ""
+"**Competiția Abre Datos (Open Data).** Competiția care s-a desfășurat în "
+"Spania în aprilie 2010 a atras devoltatori pentru a crea aplicații cu sursă "
+"deschisă și care să facă uz de date publice în doar 48 de ore. S-au concurat "
+"29 de echipe care au devoltat aplicații ce au inclus un program pentru un "
+"terminal mobil pentru accesarea informațiilor privind traficul din Țara "
+"Bascilor și pentru accesarea datelor privind orarul autobuzelor și stațiile "
+"de autobuz din Madrid, care au și câștigat primul și al doilea premiu în "
+"valoare de 3.000 și 2.000 de euro."
 
 # 1db8e290e0aa405ea64d0162ab6128e6
 #: ../../source/following-up/making-things.rst:50
@@ -1761,6 +1798,18 @@ msgid ""
 "million was distributed among the 17 winners; while the total amount applied "
 "for by the 137 applications was NOK 28.4 million."
 msgstr ""
+"**Nettskap 2.0**. În aprilie 2010 Ministerul Administrației din Norvegia a "
+"inițiat „Nettskap 2.0”. Devoltatorii norvegieni - companii, agenții publice "
+"sau persoane - au fost provocate să vină cu idei bazate pe tehnologii web în "
+"zona devoltării serviciilor, fluxuri de lucru eficiente și creșterea "
+"nivelului de participare democratic. Utilizarea datelor guvernamentale a "
+"fost încurajată în mod explicit. Chiar dacă termenul limită era doar de o "
+"lună, pe 9 mai, Ministrul Rigmor Aasrud a afirmat că răspunsul a fost "
+"„copleșitor”. În total au fost primite 137 de aplicații dintre care nu mai "
+"puțin de 90 s-au axat pe reutilizarea datelor guvernamentale. Un cuantum de "
+"2,5 milioane de coroane norvegiene au fost distribuite între 17 câștigători "
+"în timp ce suma pentru care s-a aplicat de cele 137 de aplicații a fost de "
+"28,4 milioane."
 
 # 14cbc29030354b309e4c0acf0e56aef3
 #: ../../source/following-up/making-things.rst:63
@@ -1774,11 +1823,19 @@ msgid ""
 "new and innovative applications which can result from releasing government "
 "data on open terms."
 msgstr ""
+"**Mashup Australia**. Grupul Operativ 2.0 al Guvernul Australiei au invitat "
+"cetățenii să arate de ce accesul deschis ar fi un lucru bun pentru economia "
+"țării și pentru devoltarea socială. Concursul s-a desfășurat între 7 "
+"octombrie și 13 noiembrie 2009. Grupul Operativ a oferit câteva seturi de "
+"date sub o licență deschisă și într-o gamă variată de formate reutilizabile. "
+"Cele 82 de aplicații care au fost primite constituie o dovadă în plus în "
+"favoarea aplicațiilor noi și inovative care pot reulta din accesarea datelor "
+"guvernamentale în contextul deschiderii."
 
 # 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
 msgid "Conferences, Barcamps, Hackdays"
-msgstr ""
+msgstr "Conferințe, barcam-uri, hackday-uri"
 
 # 09e8f1bbc1b6444aa9605ae502caef64
 #: ../../source/following-up/making-things.rst:75
@@ -1790,6 +1847,14 @@ msgid ""
 "countries where there have been advances in policy and law to ensure that "
 "datasets are both technically and legally open."
 msgstr ""
+"Una din căile mai eficiente pentru ca organizațiile societății civile "
+"(ONG-uri) să demonstreze guvernelor valoarea adusă prin deschiderea "
+"seturilor de date este de a arăta multiplele moduri prin care informația "
+"poate fi gestionată pentru a aduce beneficii sociale și economice. ONG-urile "
+"care promoveaă reutiliarea s-au dovedit a fi instrumentale în țările în care "
+"s-a văzut evoluția în elaborarea politicii și a legislației pentru a asigura "
+"faptul că seturile de date sunt deschise din punct de vedere tehnic cât și "
+"legal."
 
 # 60c702f98efb4c9aa510e6198b1428db
 #: ../../source/following-up/making-things.rst:83
@@ -1803,6 +1868,15 @@ msgid ""
 "to secure new release of datasets that can be used by programmers to create "
 "innovative applications."
 msgstr ""
+"Activitățile tipice care sunt întreprinse ca parte a acestor inițiative, de "
+"regulă includ competiții, conferințe guvernamentale :term:`open government "
+"data`, „unconferințe”, ateliere de lucru și „hack day-uri”. Aceste "
+"activități sunt organiate de regulă de comunitatea utiliatorilor cu date "
+"care deja au fost publicare proactiv sau care au fost obținute prin "
+"solicitări de acces la informații. În alte cazuri, promotorii societății "
+"civile au lucrat împreună cu reprezentanți luminați ai administrației pentru "
+"a asigura noi versiuni ale seturilor de date care pot fi utiliate de "
+"programatori pentru a crea aplicații inovative."
 
 # c85468b1156d4b76b60e1af0a6c15d37
 #: ../../source/following-up/tell-the-world.rst:3

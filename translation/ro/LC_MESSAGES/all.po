@@ -1,20 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) &copy; 2010-2012, Open Knowledge Foundation
 # This file is distributed under the same license as the Open Data Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
+# Translators:
+# Bogdan Grama <bogdan.grama@gmail.com>, 2012.
+# Ștefan Candea <stefancandea@yahoo.de>, 2012.
+# Vdovii Lina <linavdovii@gmail.com>, 2012.
+# Codrina Maria Ilie <codrina@geo-spatial.org>, 2012.
+# Constantinescu Nicolaie <kosson@gmail.com>, 2012.
+# Andra Bucur <abucur@soros.ro>, 2012.
+# Adrian Mogoș <adrian.mogos@gmail.com>, 2012.
+# Adela Danciu <adelada@gmail.com>, 2012.
+# Gordon Freeman <vldbulai@yahoo.com>, 2012.
+# Alex Morega <alex@grep.ro>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook 1.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2012-05-13 17:49+0300\n"
+"Last-Translator: Alex Morega <alex@grep.ro>\n"
+"Language-Team: Romanian (http://www.transifex.net/projects/p/opendatahandbook/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
 
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3

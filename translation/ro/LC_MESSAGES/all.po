@@ -560,7 +560,7 @@ msgstr ""
 # ec853486f23a49c69f29cf7a961642d7
 #: ../../source/what-is-open-data/index.rst:3
 msgid "What is Open Data?"
-msgstr ""
+msgstr "Ce sunt datele deschise?"
 
 # efa5f439bd844c199263171e3b7221e5
 #: ../../source/what-is-open-data/index.rst:5
@@ -568,11 +568,14 @@ msgid ""
 "This handbook is about *open data* but what exactly is it? In particular "
 "what makes *open* data open, and what sorts of data are we talking about?"
 msgstr ""
+"Acest ghid este despre *datele deschise*, dar ce este aceasta mai precis? În "
+"particular ce face datele deschise să fie deschise, și despre ce date e "
+"vorba?"
 
 # 0d5a24d826714df497b1f531ec72438c
 #: ../../source/what-is-open-data/index.rst:9
 msgid "What is Open?"
-msgstr ""
+msgstr "Ce înseamnă deschis?"
 
 # 284d03bb80b14254bb9219ad19d33070
 #: ../../source/what-is-open-data/index.rst:11
@@ -580,6 +583,8 @@ msgid ""
 "This handbook is about open data - but what exactly is *open* data? For our "
 "purposes, open data is as defined by the `Open Definition`_:"
 msgstr ""
+"Acest ghid este despre datele deschise – dar ce sunt datele deschise? Pentru "
+"scopurile noastre, datele deschise sunt definite de către `Open Definition`_:"
 
 # 0ec56db1f5bd4d16844482d013167141
 #: ../../source/what-is-open-data/index.rst:14
@@ -588,6 +593,9 @@ msgid ""
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
 msgstr ""
+"*Datele deschise sunt date ce pot fi utilizate în mod liber, reutilizate și "
+"redistribuite de către oricine – supuse doar, cel mult, la necesitatea "
+"atribuirii în condiții identice.*"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
@@ -595,6 +603,8 @@ msgid ""
 "The `full Open Definition`_ gives precise details as to what this means. To "
 "summarize the most important:"
 msgstr ""
+"Definiția completă a deschiderii (`full Open Definition`_) oferă detalii "
+"precise asupra a ce înseamnă aceasta. Sumarizarea celor mai importante:"
 
 # d6661c08a66e4657baccc415e4d94d85
 #: ../../source/what-is-open-data/index.rst:21
@@ -604,6 +614,10 @@ msgid ""
 "internet. The data must also be available in a convenient and modifiable "
 "form."
 msgstr ""
+"**Valabilitate și acces:** datele trebuie să fie valabile ca un întreg și la "
+"nimic peste un cost rezonabil de reproducere, preferabil prin descărcare de "
+"pe internet. Datele trebuie să fie valabile într-o formă convenabilă și "
+"modificabilă."
 
 # 69c79a7dbacb4a3f8901fde80bc925f3
 #: ../../source/what-is-open-data/index.rst:25
@@ -612,6 +626,9 @@ msgid ""
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
 msgstr ""
+"**Reutilizare și redistribuție:** datele trebuie să fie oferite sub termeni "
+"ce permit reutilizarea și redistribuirea inclusiv combinarea cu alte seturi "
+"de date."
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -622,6 +639,12 @@ msgid ""
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
 msgstr ""
+"**Participare universală:** toată lumea trebuie să poată să utilizeze, "
+"reutilizeze și redistribuie - nu trebuie să existe nicio discriminare "
+"împotriva ariilor de cercetare sau împotriva persoanelor sau grupurilor. De "
+"exemplu, restricții ‘necomerciale’ care ar preveni utilizarea ‘comercială’, "
+"sau restricții asupra utilizării în anumite scopuri(e.g. doar în educație), "
+"nu sunt permise."
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -630,6 +653,9 @@ msgid ""
 "and why this definition is used, there’s a simple answer: **interoperability."
 "**"
 msgstr ""
+"Dacă vă întrebați de ce este atât de important să fim clari asupra a ceea ce "
+"înseamnă deschis și de ce această definiție este folosită, răspunsul este "
+"simplu: **interoperabilitate.**"
 
 # dfe720d0914442ad96bfd683d39a3a0d
 #: ../../source/what-is-open-data/index.rst:38
@@ -638,6 +664,9 @@ msgid ""
 "work together (inter-operate). In this case, it is the ability to "
 "interoperate - or intermix - different datasets."
 msgstr ""
+"Interoperabilitatea denotă abilitatea diverselor sisteme și organizații de a "
+"lucra împreună (inter-opera). În acest caz, este abilitatea de a interopera "
+"- sau combina - diferite seturi de date."
 
 # 04e5ebc429754b8f8335a6f36f11f348
 #: ../../source/what-is-open-data/index.rst:42
@@ -650,6 +679,13 @@ msgid ""
 "interoperate) resulted in the complete breakdown of the tower-building "
 "effort."
 msgstr ""
+"Interoperabilitatea este importantă pentru că permite diferitelor componente "
+"să lucreze împreună. Această abilitate de a componentiza și de a ‘lega’ "
+"componente este esențială pentru a construi sisteme complexe și mari. Fără "
+"interoperabilitate aceasta devine aproape imposibil — după cum este "
+"evidențiat în cel mai faimos mit al Turnului Babel unde (in)abilitatea de a "
+"comunica (de a interopera) a rezultat în prăbușirea completă a construcției "
+"turnului."
 
 # a27e57d5f3414020af50c490a0fc4717
 #: ../../source/what-is-open-data/index.rst:50
@@ -662,6 +698,14 @@ msgid ""
 "thereby to develop more and better products and services (these benefits are "
 "discussed in more detail in the section on ‘why’ open data)."
 msgstr ""
+"Suntem puși în fața unei situații similare cu privire la date. Nucleul unei "
+"“comune” a datelor (sau codurilor) este aceea că o bucată de material "
+"“deschis” conținută poate fi combinată liber cu alte materiale “deschise”. "
+"Această interoperabilitate este cheia absolută în realizarea beneficiilor "
+"practice principale ale “deschiderii”: abilitatea dramatic sporită de a "
+"combina seturi de date diferite și astfel de a crea produse și servicii mai "
+"multe și mai bune (aceste beneficii sunt discutate pe larg în secțiunea ‘de "
+"ce’ date deschise)."
 
 # 9613f20a0c754c988418bb739c6bf147
 #: ../../source/what-is-open-data/index.rst:59
@@ -672,11 +716,16 @@ msgid ""
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
 msgstr ""
+"Oferirea unei definiții clare asupra deschiderii asigură că atunci când faci "
+"rost de două seturi de date deschise din două surse diferite, le vei putea "
+"combina, și asigură **evitarea propriului nostru ‘Turn Babel’: multe seturi "
+"de date dar o abilitate scăzută sau inexistentă de a le combina în sisteme "
+"mari unde se află adevărata valoare.**"
 
 # 3a713e7bdcd744efa87d1f18017c2fc2
 #: ../../source/what-is-open-data/index.rst:71
 msgid "What Data are You Talking About?"
-msgstr ""
+msgstr "Despre ce date este vorba?"
 
 # e425f13a261d4556bb1961b71da2bdd8
 #: ../../source/what-is-open-data/index.rst:73
@@ -686,6 +735,10 @@ msgid ""
 "useful to quickly outline what sorts of data are, or could be, open -- and, "
 "equally importantly, what won’t be open."
 msgstr ""
+"Cititorii au văzut deja exemple de tipuri de date care sunt  sau ar putea "
+"deveni deschise - și vor vedea mai multe exemple mai jos. Însă, va fi util "
+"să schițăm pe scurt ce tipuri de date sunt, sau ar putea fi, deschise -- și, "
+"la fel de important, ce nu va fi deschis."
 
 # b3184f4d4cd74be7a8bb72c19ae59d0a
 #: ../../source/what-is-open-data/index.rst:78
@@ -694,6 +747,9 @@ msgid ""
 "data, that is, data which does not contain information about specific "
 "individuals."
 msgstr ""
+"Punctul cheie este că atunci când datele sunt deschise, accentul este pus pe "
+"datele nepersonale, adică, date ce nu conțin informații despre indivizi "
+"specifici."
 
 # a71aa0d4b7d444c8b67cc9b635b54c45
 #: ../../source/what-is-open-data/index.rst:82
@@ -701,6 +757,8 @@ msgid ""
 "Similarly, for some kinds of government data, national security restrictions "
 "may apply."
 msgstr ""
+"În mod similar, pentru anumite tipuri de date guvernamentale, restricții "
+"privind siguranța națională pot fi aplicate."
 
 # 35a624b81cd14bc09c5646f0b348179e
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:3

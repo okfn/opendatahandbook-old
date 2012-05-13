@@ -1881,7 +1881,7 @@ msgstr ""
 # c85468b1156d4b76b60e1af0a6c15d37
 #: ../../source/following-up/tell-the-world.rst:3
 msgid "Tell the world!"
-msgstr ""
+msgstr "Împărtășește lumii"
 
 # f7b8c06459e444fe94462d69f5643a3f
 #: ../../source/following-up/tell-the-world.rst:5
@@ -1889,6 +1889,8 @@ msgid ""
 "First and foremost, make sure that you promote the fact that you've embarked "
 "on a campaign to promote :term:`open data` in your area of responsibility."
 msgstr ""
+"În primul rând, spune că ai intrat într-o campanie care promovează "
+":term:`open data` în domeniul tău de expertiză."
 
 # 9f1b5341b9e842f493d4aaf04dc35fcb
 #: ../../source/following-up/tell-the-world.rst:9
@@ -1897,6 +1899,9 @@ msgid ""
 "time to make sure that people know (or at least can find out) that you’ve "
 "done so."
 msgstr ""
+"Dacă deschizi mai multe seturi de date, merită să îți răpești puțin din "
+"timpul tău  pentru a le spune și altora, sau să faci în așa fel încât să "
+"poată avea și alții acces la aceste informații."
 
 # f9ce3d51005c4023a7fd16dd964b1eff
 #: ../../source/following-up/tell-the-world.rst:13
@@ -1904,6 +1909,8 @@ msgid ""
 "In addition to things like press releases, announcements on your website, "
 "and so on, you may consider:"
 msgstr ""
+"În plus, pe lângă comunicatele de presă, postările de pe website-ul propriu, "
+"sau alte acțiuni similare, ai putea să iei în calcul:"
 
 # 05f10ba54c2b46e1a53127ab505be87c
 #: ../../source/following-up/tell-the-world.rst:16
@@ -1911,11 +1918,13 @@ msgid ""
 "Contacting prominent organisations or individuals who work/are interested in "
 "this area"
 msgstr ""
+"Contactarea organizațiilor sau a persoanelor care lucrează sau sunt "
+"interesate de acest domeniu"
 
 # a2b3bc1ebe674b0ea69ffd4da3745791
 #: ../../source/following-up/tell-the-world.rst:18
 msgid "Contacting relevant mailing lists or social networking groups"
-msgstr ""
+msgstr "Împărtășește pe liste de discuții și rețele sociale"
 
 # 7b7cc9acb2a745ceacf815065d7ef058
 #: ../../source/following-up/tell-the-world.rst:19
@@ -1923,11 +1932,13 @@ msgid ""
 "Directly contacting prospective users who you know may be interested in this "
 "data"
 msgstr ""
+"Contactează direct potențiali utilizatori, care crezi că ar fi interesați de "
+"aceste date"
 
 # 1e00595b53124d30a532470f0c12b6cc
 #: ../../source/following-up/tell-the-world.rst:23
 msgid "Understanding your audience"
-msgstr ""
+msgstr "Adaptează-te audienței"
 
 # 528fc19bc9384914bff7b326a5690865
 #: ../../source/following-up/tell-the-world.rst:25
@@ -1936,6 +1947,10 @@ msgid ""
 "targeted. Like all stakeholder groups, the right message can be wasted if it "
 "is directed to the wrong area."
 msgstr ""
+"Asemeni oricărei situații de comunicare, mesajul trimis comunității de "
+"utilizatori trebuie să fie individualizat. La fel ca în cazul altor factori "
+"interesați, mesajul poate fi irosit dacă nu este adresat în mod "
+"corespunzător."
 
 # 5cee9f066f764747a01b13daa677806d
 #: ../../source/following-up/tell-the-world.rst:29
@@ -1944,6 +1959,9 @@ msgid ""
 "they very rapidly consume it. Write as if your messages will be skimmed "
 "over, rather than critically examined in-depth."
 msgstr ""
+"Comunitățile digitale sunt deschise în ceea ce privește împărtășirea de noi "
+"informații, dar sunt și consumatori rapizi. Scrieți ca și cum mesajul vostru "
+"ar fi citit pe diagonală, mai degrabă decât să dați toate detaliile."
 
 # 18c9101dca504db9accaddb84ade088c
 #: ../../source/following-up/tell-the-world.rst:33
@@ -1952,6 +1970,10 @@ msgid ""
 "MS Windows. This means that you should not save documents in MS Office "
 "formats which can be read offline. There are two resons for this:"
 msgstr ""
+"Este mai puțin probabil ca mermbrii comunității tehnologice să folosească MS "
+"Windows, folosit îndeosebi de publicul larg. Acest lucru înseamnă că nu ar "
+"trebui salvate documente în formate MS Office care pot fi citite în mod "
+"deconectat. Există două argumente care susțin acest lucru:"
 
 # 19ec177bb4064fd4afc752564dcd6876
 #: ../../source/following-up/tell-the-world.rst:38
@@ -1960,6 +1982,9 @@ msgid ""
 "document you see on your screen, readers may see an imperfect copy from an "
 "alternative."
 msgstr ""
+"Primul este faptul că aceste documente ar fi mai puțin accesibile. Cititorii "
+"vor vedea mai degrabă o copie imperfectă de la o sursă alternativă decât "
+"documentul pe care îl vezi pe ecran."
 
 # 2bf9658ad33c45e597c924d5f98773d9
 #: ../../source/following-up/tell-the-world.rst:41
@@ -1968,11 +1993,14 @@ msgid ""
 "take a step towards developers. Instead, you show that you are expecting the "
 "technology community to come to you."
 msgstr ""
+"În al doilea rând, agenția ta trimite un mesaj implicit că nu ești dispus să "
+"faci un pas înspre dezvoltatori. În schimb, arăți că aștepți comunitatea "
+"tehnologică să vină la tine."
 
 # 844e5bf617e74753bc0dd1c7cac6f9f0
 #: ../../source/following-up/tell-the-world.rst:47
 msgid "Post your material on third-party sites"
-msgstr ""
+msgstr "Postează-ți materialele pe website-urile altor persoanelor"
 
 # 6a83365938d94f77b222dc567c79b43d
 #: ../../source/following-up/tell-the-world.rst:49
@@ -1982,11 +2010,16 @@ msgid ""
 "These can be mutually beneficial. You receive more interest and they receive "
 "a free blog post in their topic area."
 msgstr ""
+"Multe bloguri pe teme specifice au un număr foarte mare de viziualizări. Se "
+"merită să îți postezi articolul despre inițiativa ta pe website-ul lor. "
+"Acest lucru este benefic ambelor părți. În felul acesta tu vei stârni "
+"interesul, iar autorul blogului va beneficia de o postare gratuită pe "
+"domeniul său."
 
 # 9b230b80b65d485d86d252226dd302ec
 #: ../../source/following-up/tell-the-world.rst:56
 msgid "Making your communications more social-media friendly"
-msgstr ""
+msgstr "Folosește rețelele sociale"
 
 # 4bead5ae1fe74d96a269bf59a3ca032d
 #: ../../source/following-up/tell-the-world.rst:58
@@ -1996,6 +2029,10 @@ msgid ""
 "do to make sure that your content can be easily shared between technical "
 "users. Some tips:"
 msgstr ""
+"Este nerealist să te aștepți ca funcționarii să folosească rețelele sociale. "
+"Totuși, există o serie de lucruri pe care le poți face în așa fel încât "
+"conținutul tău să fie împărtășit cu ușurință între utilizatori. Câteva "
+"sfaturi:"
 
 # f4f2dab2b9ac404cb9d9bbad4a3bf3b9
 #: ../../source/following-up/tell-the-world.rst:65
@@ -2003,6 +2040,8 @@ msgid ""
 "When a message is shared with others, the recipient of the referral will be "
 "looking for the relevant content quickly."
 msgstr ""
+"Atunci când un mesaj este partajat cu alții, destinatarul se va uita rapid "
+"peste conținutul relevant."
 
 # 52f00dd496ae41b3896cfd0f84c83303
 #: ../../source/following-up/tell-the-world.rst:70
@@ -2013,6 +2052,12 @@ msgid ""
 "less likely to index the content. People are less likely to click to "
 "download."
 msgstr ""
+"Este bine să dai comunicate de presă. Sunt mesaje concise despre lucruri "
+"punctuale. Totuși, dacă le ceri persoanelor să descarce conținutul și dacă "
+"acesta nu se va deschide într-un browser de web, atunci vor fi mai puțini "
+"cei care îl vor citi. Este puțin probabil ca motoarele de căutare să "
+"indexeze conținutul. Este mai puțin probabil ca persoanele să descarce "
+"printr-un click."
 
 # 5f48a5a973b64166af65a56fee9e2af3
 #: ../../source/following-up/tell-the-world.rst:78
@@ -2022,11 +2067,15 @@ msgid ""
 "openness. This is bound to leave an impression far more significant to "
 "proponents of open data than any specific sentence in your press release."
 msgstr ""
+"Pe lângă asigurarea partajării informației de către persoanele interesate, "
+"trebuie să trimiți un mesaj din care să reiasă că agenția ta înțelege ce "
+"înseamnă deschiderea datelor. Acest lucru va crea un impact mai mare decât "
+"orice altă propoziție din comunicatul de presă."
 
 # ced1e4dd38e54c148906380a97dd58ef
 #: ../../source/following-up/tell-the-world.rst:87
 msgid "Social media"
-msgstr ""
+msgstr "Rețelele sociale"
 
 # 574f80f4359f48efbb593e6eec284c9e
 #: ../../source/following-up/tell-the-world.rst:89
@@ -2037,6 +2086,12 @@ msgid ""
 "before reading the next section, make sure that you have read the last. With "
 "that in mind, here are a few suggestions:"
 msgstr ""
+"Este ineficient pentru agențiile care nu au fonduri să petreacă ore pe "
+"website-urile rețelelor sociale. Pentru a  vă asigura că sunteți auziți prin "
+"intermediul acestor rețele, trebuie ca postările voastre să fie ușor de "
+"preluat. Acest lucru înseamnă că trebuie să vă asigurați că ați citit ultima "
+"secțiune înainte de a trece la următoarea. Rămânând cu acest lucru în minte, "
+"iată câteva sugestii:"
 
 # f847a5e41c65478796cb6b6f71cbf686
 #: ../../source/following-up/tell-the-world.rst:98
@@ -2045,6 +2100,9 @@ msgid ""
 "rapidly. Anything tagged with #opendata will be immediately seen by "
 "thousands."
 msgstr ""
+"Twitter a fost inițiat ca o platformă pentru diseminarea rapidă a "
+"informației. Orice etichetat  #opendata va fi citit imediat de mii de "
+"persoane."
 
 # 73647b69ba61434dbc71b406d5ae5259
 #: ../../source/following-up/tell-the-world.rst:102
@@ -2052,6 +2110,8 @@ msgid ""
 "LinkedIn has a large selection of groups which are targeted towards open "
 "data."
 msgstr ""
+"LinkedIn cuprinde o selecție de grupuri care sunt orientate către datele "
+"deschise."
 
 # b0aafaffa0234c4989d2b2666ba136a5
 #: ../../source/following-up/tell-the-world.rst:105
@@ -2059,6 +2119,8 @@ msgid ""
 "While Facebook is excellent for a general audience, it has not received a "
 "great deal of attention in the open data community."
 msgstr ""
+"În timp ce Facebook este perfect pentru publicul larg, nu a primit prea "
+"multă atenție din partea comunității de date deschise."
 
 # b3381b7656bf4f3dbe210f7e88d3202b
 #: ../../source/following-up/tell-the-world.rst:110
@@ -2067,6 +2129,9 @@ msgid ""
 "Hacker News are the two biggest in this arena at the moment. To a lesser "
 "extent, Slashdot and Digg are also useful tools in this area."
 msgstr ""
+"Pune conținutul pe canale de știri pentru pasionați. Reddit și Hacker News "
+"sunt cele mai mari de acest gen. Slashdot și Digg sunt unelte utile în acest "
+"domeniu."
 
 # 8c7beae1caaa43b99c59bec2e4e1160d
 #: ../../source/following-up/tell-the-world.rst:115
@@ -2074,6 +2139,8 @@ msgid ""
 "These sites have a tendency to drive significant traffic to interesting "
 "material. They are also heavily focused on topic areas."
 msgstr ""
+"Aceste website-uri au tendința de a atrage atenția asupra materialului "
+"interesant. Ele sunt de asemenea focalizate pe teme specifice."
 
 # 8d913877e7a6456b84c5481aa375fa49
 #: ../../source/glossary.rst:3

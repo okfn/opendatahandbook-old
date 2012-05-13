@@ -1048,7 +1048,7 @@ msgstr ""
 # 05c79f3133614f7abb43130e787bca43
 #: ../../source/how-to-open-up-data/index.rst:3
 msgid "How to Open up Data"
-msgstr ""
+msgstr "Cum să deschizi datele"
 
 # 7fe3e18cfac749f5befd9ab2576d33f1
 #: ../../source/how-to-open-up-data/index.rst:5
@@ -1058,11 +1058,15 @@ msgid ""
 "but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
 "that can arise."
 msgstr ""
+"Această secțiune reprezintă partea centrală a acestui ghid. Oferă sfaturi "
+"concrete și detailate pentru deținătorii de date despre cum pot să deschidă "
+"datele. Vom trece prin chestiunile de bază, dar vom arăta și pericolele. "
+"În final, vom discuta despre problemele mai subtile care pot apărea."
 
 # 205ae0d7b0dc40bebc2303b798613a7f
 #: ../../source/how-to-open-up-data/index.rst:10
 msgid "There are three key rules we recommend following when opening up data:"
-msgstr ""
+msgstr "Noi recomandăm să fie urmate trei reguli de bază când se deschid date:"
 
 # e090cea16cc645abb77158774b0a3643
 #: ../../source/how-to-open-up-data/index.rst:12
@@ -1072,6 +1076,12 @@ msgid ""
 "opening up just one dataset, or even one part of a large dataset, is fine -- "
 "of course, the more datasets you can open up the better."
 msgstr ""
+"**Nu complica lucrurile.** E bine să începi cu puține date, pentru că e "
+"simplu și rapid. În acest moment, nu există cerințe să fie deschise toate "
+"seturile de date dintr-o dată. Dacă începi cu deschiderea unui set de date, "
+"sau chiar a unei părți dintr-un set mai mare de date, tot este bine -- "
+"bineînțeles, cu cât poți să deschizi mai multe seturi de date, cu atât "
+"mai bine."
 
 # cf62d646dd164d08be12466ae86a4cb5
 #: ../../source/how-to-open-up-data/index.rst:17
@@ -1081,6 +1091,10 @@ msgid ""
 "innovation is as much about failure as success and not every dataset will be "
 "useful."
 msgstr ""
+"Nu uita că acest proces implică inovație. Este bine să te miști cât de "
+"repede posibil, pentru că înseamnă că poți lua avânt și învăța din "
+"experiență -- inovația poate să ducă la eșec așa cum poate să ducă la "
+"succes și nu orice set de date va fi util."
 
 # ef4cadde787044f6bb05cdbdbee8438e
 #: ../../source/how-to-open-up-data/index.rst:22
@@ -1090,6 +1104,10 @@ msgid ""
 "businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
 msgstr ""
+"**Colaborează devreme și colaborează des.** Colaborează cu utilizatori "
+"reali, potențiali și care refolosesc datele cât mai devreme și cât de des "
+"poți, fie aceștia cetățeni, afaceriști sau dezvoltatori. Astfel te vei "
+"asigura că următoarea iterație a serviciului tău va fi cât mai relevantă."
 
 # ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
@@ -1101,6 +1119,13 @@ msgid ""
 "we would much prefer a map. Thus, engage with infomediaries first. They will "
 "re-use and repurpose the material."
 msgstr ""
+"Este esențial să ai în vedere că o mare pare din date nu va ajunge la "
+"utilizatorii finali în mod direct, ci prin „info-mediari”. Aceștia sunt "
+"oamenii care iau datele și le transformă sau le recombină pentru "
+"prezentare. De exemplu, cei mai mulți dintre noi nu doresc sau nu au "
+"nevoie de o bază mare de date cu coordonate GPS, în schimb preferăm o "
+"hartă. De aceea, e bine să colaborezi prima dată cu infomediarii. Ei "
+"vor refolosi și vor găsi noi utilități materialului."
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -1111,6 +1136,11 @@ msgid ""
 "important to (a) identify the most important ones and (b) address them at as "
 "early a stage as possible."
 msgstr ""
+"**Abordează temerile și confuziile comune.** Acest lucru este foarte "
+"important dacă lucrezi cu sau într-o instituție mare cum sunt cele "
+"guvernamentale. Când deschizi date, te vei lovi de o serie de întrebări "
+"și temeri. Este foarte important (a) să le identifici pe cele mai "
+"importante și (b) să le abordezi, pe cât posibil, din primele etape."
 
 # 85ecf275551b4e6ea01de1f75da7cac0
 #: ../../source/how-to-open-up-data/index.rst:40
@@ -1119,6 +1149,9 @@ msgid ""
 "in detail below. These are in very approximate order - many of the steps can "
 "be done simultaneously."
 msgstr ""
+"Deschiderea datelor presupune efecturarea a patru pași de bază, fiecare "
+"dintre ei fiind acoperiți în detaliu mai jos. Ordinea lor este "
+"aproximativă - mulți dintre acești pași pot fi făcuți simultan."
 
 # 58824e15e3d34b518d630239f299912d
 #: ../../source/how-to-open-up-data/index.rst:44
@@ -1127,16 +1160,20 @@ msgid ""
 "Keep in mind that you can (and may need to) return to this step if you "
 "encounter problems at a later stage."
 msgstr ""
+"**Alege-ți setul (sau seturile) de date.** Alege-ți setul/seturile de "
+"date pe care plănuiești să îl/le deschizi. Ai în vedere că poți (sau chiar "
+"ești nevoit) să te întorci la acest pas dacă întâmpini probleme într-o "
+"etapă ulterioară."
 
 # e60fff59384142ceb4865b5956701aaf
 #: ../../source/how-to-open-up-data/index.rst:47
 msgid "**Apply an open license.**"
-msgstr ""
+msgstr "** Folosește o licență deschisă.**"
 
 # 8e71c0ccfdb64981b4cadfb21e412387
 #: ../../source/how-to-open-up-data/index.rst:49
 msgid "Determine what intellectual property rights exist in the data."
-msgstr ""
+msgstr "Determină ce drepturi de proprietate intelectuală sunt în date."
 
 # 40cb98538dfc486c838b0cd5baef35db
 #: ../../source/how-to-open-up-data/index.rst:50
@@ -1145,11 +1182,16 @@ msgid ""
 "supports the definition of openness discussed in the section above on ‘What "
 "Open Data’"
 msgstr ""
+"Aplică o licență „deschisă” potrivită care cuprinde toate aceste drepturi "
+"și se încadrează la definiția deschiderii care a fost discutată în "
+"secțiunea anterioară despre „Ce sunt datele deschise”."
 
 # ff2d1c558ae64d3ea092b313b0a7c854
 #: ../../source/how-to-open-up-data/index.rst:53
 msgid "NB: if you can't do this go back to step 1 and try a different dataset."
 msgstr ""
+"Observație: dacă nu poți să treci de acest pas, întoarce-te la primul pas "
+"și alege un alt set de date."
 
 # e7dfde372d704525b9baac515e235e2b
 #: ../../source/how-to-open-up-data/index.rst:56
@@ -1157,6 +1199,9 @@ msgid ""
 "**Make the data available** - in bulk and in a useful format. You may also "
 "wish to consider alternative ways of making it available such as via an API."
 msgstr ""
+"**Pune datele la dispoziție** - tot volumul și într-un format accesibil. "
+"S-ar putea să iei în considerare alternative de publicare, cum este, de "
+"exemplu, o interfață de programare."
 
 # e9ecca180f4649b4a06c3a524060f3e7
 #: ../../source/how-to-open-up-data/index.rst:59
@@ -1164,6 +1209,8 @@ msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
 msgstr ""
+"**Fă datele ușor de găsit** - publică pe Internet și eventual organizează "
+"seturile tale de date deschise într-un catalog central care le listează."
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3

@@ -29,7 +29,7 @@ msgstr ""
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
 msgid "The Open Data Handbook"
-msgstr ""
+msgstr "Manualul despre date deschise"
 
 # d585ec8bbdd54f2d88e54daa0238f9d2
 #: ../../source/index.rst:5
@@ -59,72 +59,72 @@ msgstr ""
 # 9e0f00346b0349e29d51083d1dd7a9aa
 #: ../../source/index.rst:21
 msgid "Table of Contents"
-msgstr ""
+msgstr "Cuprins"
 
 # 4e947d94bfbe4ecd98c5dee75be312f8
 #: ../../source/index.rst:36
 msgid "Indices and tables"
-msgstr ""
+msgstr "Indecși și tabele"
 
 # af87acc3665e428c99dff796e236694a
 #: ../../source/index.rst:38
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 # cf589c147b0947639ead7a84a9c78850
 #: ../../source/index.rst:39
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
 
 # 159dc292955b401cbaa31592c2ae43c1
 #: ../../source/introduction/credits.rst:3
 msgid "Credits and Copyright"
-msgstr ""
+msgstr "Credit și drepturi de autor"
 
 # 138a093ae5b548cb9f07805111c55cfd
 #: ../../source/introduction/credits.rst:6
 msgid "Contributing authors"
-msgstr ""
+msgstr "Colaboratori"
 
 # c41cf04f647249b9ac59afbca1382129
 #: ../../source/introduction/credits.rst:8
 msgid "`Daniel Dietrich`_"
-msgstr ""
+msgstr "`Daniel Dietrich`_"
 
 # 26742a0e756242a2801b0f02ebdd1707
 #: ../../source/introduction/credits.rst:9
 msgid "`Jonathan Gray`_"
-msgstr ""
+msgstr "`Jonathan Gray`_"
 
 # 1759d73a3a794025b286529b4cc19a17
 #: ../../source/introduction/credits.rst:10
 msgid "`Tim McNamara`_"
-msgstr ""
+msgstr "`Tim McNamara`_"
 
 # 015052c54f4d4986b3071cd7ddb02c50
 #: ../../source/introduction/credits.rst:11
 msgid "`Antti Poikola`_"
-msgstr ""
+msgstr "`Antti Poikola`_"
 
 # a37b96bd575d4c2f8e310f7b9b7dbcd2
 #: ../../source/introduction/credits.rst:12
 msgid "`Rufus Pollock`_"
-msgstr ""
+msgstr "`Rufus Pollock`_"
 
 # 44242a03508d4ec3b115029c749d38f7
 #: ../../source/introduction/credits.rst:13
 msgid "`Julian Tait`_"
-msgstr ""
+msgstr "`Julian Tait`_"
 
 # b489d1a44d854d3c98c0f9a211c8e083
 #: ../../source/introduction/credits.rst:14
 msgid "`Ton Zijlstra`_"
-msgstr ""
+msgstr "`Ton Zijlstra`_"
 
 # 8a356ddea3824a2db4c1635a82782883
 #: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
-msgstr ""
+msgstr "Surse existente folosite direct"
 
 # f4c4a9ca6b2b450696be1a124cfc276b
 #: ../../source/introduction/credits.rst:19
@@ -132,6 +132,8 @@ msgid ""
 "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory "
 "Group led by Simon Parrish*"
 msgstr ""
+"Propunere tehnică pentru implementarea IATI. *Grupul de consultare tehnică "
+"al IATI condus de Simon Parrish*"
 
 # a9cfff5e7e764f63b118c211a551e395
 #: ../../source/introduction/credits.rst:21
@@ -139,26 +141,28 @@ msgid ""
 "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
 "Gray, Simon Parrish, Jordan Hatcher*"
 msgstr ""
+"`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
+"Gray, Simon Parrish, Jordan Hatcher*"
 
 # 50c8f4db407a45a8894e99e59ef5adef
 #: ../../source/introduction/credits.rst:23
 msgid "Finnish manual authored by *Antti Poikola*"
-msgstr ""
+msgstr "Manual finlandez scris de  *Antti Poikola*"
 
 # 912b40b810ef40ab872ba564e1c3a631
 #: ../../source/introduction/credits.rst:24
 msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
-msgstr ""
+msgstr "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
 
 # 6c2bad4a78ed4069aacfd795a2df0a02
 #: ../../source/introduction/credits.rst:27
 msgid "Other sources"
-msgstr ""
+msgstr "Alte surse"
 
 # b2509758c71d471e97585141feaee236
 #: ../../source/introduction/credits.rst:29
 msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
-msgstr ""
+msgstr "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
 
 # 0324e39be1e643bf9c026b6173d4a583
 #: ../../source/introduction/index.rst:3
@@ -3024,7 +3028,7 @@ msgstr ""
 # 51c683e25e5a4ce4be6978d9dc1a4705
 #: ../../source/appendices/index.rst:3
 msgid "Appendices"
-msgstr ""
+msgstr "Anexe"
 
 # b67d88179b824185a34209f86dcc580c
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3

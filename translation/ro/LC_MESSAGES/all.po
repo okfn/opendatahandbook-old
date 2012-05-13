@@ -2649,17 +2649,17 @@ msgstr "Un :term:`API` proiectat să funcționeze prin Internet."
 # 7132f49bacf446729745b0e8e0d9a192
 #: ../../source/appendices/file-formats.rst:3
 msgid "File Formats"
-msgstr ""
+msgstr "Formate de fișier"
 
 # 510002baa9d748f68d35f6436604f3fb
 #: ../../source/appendices/file-formats.rst:6
 msgid "An Overview of File Formats"
-msgstr ""
+msgstr "O privire de ansamblu asupra formatelor fișierelor"
 
 # 635ed34ea4614e81860363d399eb473a
 #: ../../source/appendices/file-formats.rst:9
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 # 3deb8b74834d42b1bdb11e40d2be3d28
 #: ../../source/appendices/file-formats.rst:11
@@ -2668,11 +2668,14 @@ msgid ""
 "to read. Its simplicity means that it is generally easier for computers to "
 "process than others, such as XML."
 msgstr ""
+"JSON este un format de fișier simplu care este foarte ușor de interpretat "
+"prin orice limbaj de programare. Simplitatea sa constă în ușurința cu care "
+"computerele procesează acest format spre deosebire de altele, cum ar fi XML."
 
 # 8a8590a390d84558833340d36e1f1b61
 #: ../../source/appendices/file-formats.rst:16
 msgid "XML"
-msgstr ""
+msgstr "XML"
 
 # 8bfafd0051d24a888453f01d8ba314e4
 #: ../../source/appendices/file-formats.rst:18
@@ -2682,11 +2685,15 @@ msgid ""
 "on, and allows developers to write parts of the documentation in with the "
 "data without interfering with the reading of them."
 msgstr ""
+"XML este un format pentru schimbul de date folosit pe scară largă, deoarece "
+"oferă oportunități de a păstra structura în date și în modul în care "
+"fișierele sunt construite. De asemenea îngăduie dezvoltatorilor să scrie "
+"părți din documentație fără a interveni asupra modului de citire."
 
 # 516202713787406d9afba417d89fc548
 #: ../../source/appendices/file-formats.rst:24
 msgid "RDF"
-msgstr ""
+msgstr "RDF"
 
 # dbea0450c3c74ee5b999d5b3aec5cdc9
 #: ../../source/appendices/file-formats.rst:26
@@ -2702,11 +2709,21 @@ msgid ""
 "scheme that includes linked RDF data as a goal to be sought for open data "
 "initiatives."
 msgstr ""
+"Un format recomandat de W3C ce face posibilă reprezentarea datelor într-o "
+"formă ce face ușoară combinarea din mai multe surse. Datele RDF pot fi "
+"stocate în XML și JSON, printre altele. RDF încurajează folosirea URL ca "
+"identificatori, care oferă un mod convenabil de a interconecta inițiativele "
+"de :term:`open data` de pe web. RDF nu este încă foarte răspândit, dar a "
+"devenit o tendință printre inițiativele de guvernare deschisă, inclusiv "
+"proiectele de date deschise conectate ale guvernelor Marii Britanii și "
+"Spaniei (British and Spanish Government Linked Open Data). Inventatorul Web, "
+"Tim Berners-Lee, a propus o schemă cinci-stele (five-star_) care include "
+"date RDF conectate ca scop al căutării de inițiative pentru date deschise."
 
 # 36ba7f18a648422ea3301c59ce1cdcaf
 #: ../../source/appendices/file-formats.rst:41
 msgid "Spreadsheets"
-msgstr ""
+msgstr "Foi de Calcul"
 
 # f71a98416abb41dabc2dc7023eaea6b8
 #: ../../source/appendices/file-formats.rst:43
@@ -2715,6 +2732,9 @@ msgid ""
 "Microsoft Excel. This data can often be used immediately with the correct "
 "descriptions of what the different columns mean."
 msgstr ""
+"Multe autorități au informații rămase în foi de calcul, spre exemplu "
+"Microsoft Excel. Aceste date pot fi adeseori utilizate imediat cu descrierea "
+"corectă a ceea ce înseamnă fiecare coloană."
 
 # 7e508d6674dc4676b48234f74c63791c
 #: ../../source/appendices/file-formats.rst:47
@@ -2724,11 +2744,15 @@ msgid ""
 "to document such calculations next to the spreadsheet, since it is generally "
 "more accessible for users to read."
 msgstr ""
+"Cu toate acestea, în unele cazuri pot exista formule în foile de calcul, "
+"care pot fi mai dificile în manevrare. Este recomandată documentarea acestor "
+"formule alături de foile de calcul, pentru a fi în general mai accesibile "
+"utilizatorilor."
 
 # 72147ad3a13f4e96a0da72ca09dca722
 #: ../../source/appendices/file-formats.rst:53
 msgid "Comma Separated Files"
-msgstr ""
+msgstr "Fișiere separate prin virgulă"
 
 # 3d3c193e05ac423a8ec608988bc74bcc
 #: ../../source/appendices/file-formats.rst:55
@@ -2740,6 +2764,12 @@ msgid ""
 "columns. It is therefore particularly important for the comma-separated "
 "formats that documentation of the individual fields are accurate."
 msgstr ""
+"CSV poate fi un format foarte folositor pentru că este compact și deci "
+"potrivit pentru transferul de seturi mari de date cu aceeași structură. "
+"Totuși, formatul este așa de spartan încât datele sunt deseori nefolosibile "
+"fără documentație pentur că este aproape imposibil de ghicit semnificația "
+"diferitelor coloane. Este deci important pentru fișierele separate prin "
+"virgulă ca documentația pentru câmpurile individuale să fie precise."
 
 # eb505d33966845db9b5cd9db528d86e8
 #: ../../source/appendices/file-formats.rst:63
@@ -2749,11 +2779,15 @@ msgid ""
 "in the file without any real opportunity to rectify it, because it cannot be "
 "determined how the remaining data should be interpreted."
 msgstr ""
+"Mai mult este esențial ca structura fișierului să fie respectată, pentru că "
+"o singură omisiune a unui câmp poate îngreuna citirea datelor rămase în "
+"fișier fără vreo posibilitate de a rectifica eroarea, pentru că nu se paote "
+"determina cum trebuies interpretate datele rămase."
 
 # 00b93bc63b524d138137f8a1498d4eed
 #: ../../source/appendices/file-formats.rst:69
 msgid "Text Document"
-msgstr ""
+msgstr "Documente text"
 
 # db72a1c2afd6485cb9364dba5947a8f8
 #: ../../source/appendices/file-formats.rst:71
@@ -2767,6 +2801,15 @@ msgid ""
 "will display data for re-use, so it is at least possible to pull information "
 "out of documents."
 msgstr ""
+"Documentele în formate clasice precum Word, ODF, OOXML sau PDF pot fi "
+"suficiente pentru a expune anumite tipuri de date - spre exemplu, în liste "
+"de mesaje sau altele. Ar putea fi mai ușor să fie prezentate în aceste "
+"formate, pentru că sunt formatele în care datele au fost introduse ințial. "
+"Formatele nu oferă niciun suport pentru a păstra o structură consistentă, "
+"ceea ce de multe ori înseamnă că este dificilă introducerea de date în mod "
+"automat. Folosirea șabloanelor ca bază pentru documentele care vor expune "
+"date pentru refolosire, face posibilă cel puțin extragerea informației din "
+"documente."
 
 # 3ca8da150fd3448e9c91b7f4e8f08c92
 #: ../../source/appendices/file-formats.rst:80
@@ -2777,11 +2820,15 @@ msgid ""
 "not to exhibit in word processing format, if data exists in a different "
 "format."
 msgstr ""
+"De asemenea poate sprijini folosirea ulterioară a formatelor tipografice pe "
+"cât posibil pentru ca astfel să fie mai ușor distingerea antetelor (de orice "
+"tip) de către o mașină din orice conținut. În general este nu recomandată "
+"folosirea formatulelor Word, dacă datele există și în alte formate."
 
 # 1e222acd868a4836989075cb0ff8845f
 #: ../../source/appendices/file-formats.rst:87
 msgid "Plain Text"
-msgstr ""
+msgstr "Text simplu"
 
 # d063aa3fc40b4accbd3b368bc0ce5490
 #: ../../source/appendices/file-formats.rst:89
@@ -2791,6 +2838,11 @@ msgid ""
 "meaning that developers will need to create a parser that can interpret each "
 "document as it appears."
 msgstr ""
+"Documentele în format text simplu (.txt) sunt foarte ușor de citit de către "
+"calculatoarele. În general acestea exclud metadatele din interiorul "
+"documentuli, ceea ce înseamnă că dezvoltatorii vor fi nevoiți să creeze un "
+"program pentru analiză sintactică care poate interpreta fiecare document așa "
+"cum apare."
 
 # 7b4a3b6ee9404cfc873e4cac5c9a8390
 #: ../../source/appendices/file-formats.rst:94
@@ -2799,11 +2851,14 @@ msgid ""
 "systems. MS Windows, Mac OS X and other Unix variants have their own way of "
 "telling the computer that they have reached the end of the line."
 msgstr ""
+"Unele probleme pot fi cauzate de schimbul de fișiere text între sistemele de "
+"operare. MS Windows, Mac OS X și alte variante Unix au fiecare propriul mod "
+"de a spune calculatoarelor că au ajuns la sfârșit de linie."
 
 # 86000271a8184337a739b0937ae22f75
 #: ../../source/appendices/file-formats.rst:100
 msgid "Scanned image"
-msgstr ""
+msgstr "Imagini scanate"
 
 # 6a115f8899a94bffb8d9578c13c53e1e
 #: ../../source/appendices/file-formats.rst:102
@@ -2815,11 +2870,17 @@ msgid ""
 "born electronically - an obvious example is the old church records and other "
 "archival material - and a picture is better than nothing."
 msgstr ""
+"Probabil cel mai puțin potrivit format pentru cele mai multe date, dar "
+"ambele formate TIFF și JPEG-2000 pot cel puțin marca cu documentație ce "
+"anume este în imagine - până acolo încât să marcheze imaginea unui document "
+"cu tot textul acelui document. Poate fi relevantă expunerea datelor ca "
+"imagini pentru acele date care nu au fost create în format electronic, cum "
+"ar fi materialele din arhive, iar o imagine este mai bună decât nimic."
 
 # 5e9d83d67fbe465a8c002bf40eeb9205
 #: ../../source/appendices/file-formats.rst:111
 msgid "Proprietary formats"
-msgstr ""
+msgstr "Formatele proprietărești"
 
 # dcac01c71eb645498af1bc5b949be4cc
 #: ../../source/appendices/file-formats.rst:113
@@ -2832,11 +2893,19 @@ msgid ""
 "providing a link to the supplier's website. Generally it is recommended to "
 "display data in non-proprietary formats where feasible."
 msgstr ""
+"Unele sisteme dedicate au propriile formate de date în care pot salva sau "
+"exporta date. Uneori poate fi suficientă expunerea datelor în astfel de "
+"formate - în special dacă se așteaptă ca utilizările ulterioare să aibă loc "
+"în sisteme similare celor din care provin. Ar trebui întotdeauna indicat "
+"unde anume se pot găsi informații ulterioare despre aceste formate, spre "
+"exemplu o legătură către situl web al distribuitorului. In general se "
+"recomandă expunerea datelor în formate neproprietărești acolo unde este "
+"posibil."
 
 # ebfcd7577aa94ce9a921e9cf6c78a6a5
 #: ../../source/appendices/file-formats.rst:123
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 # 0bbba5786b824723848c6b7a3e3e6b87
 #: ../../source/appendices/file-formats.rst:125
@@ -2847,6 +2916,11 @@ msgid ""
 "manipulate, but as it is cheap and easy to refer to a page on a website, it "
 "might be a good starting point in the display of data."
 msgstr ""
+"În zile noastre majoritatea datelor sunt disponibile în HTML pe diverse "
+"situri. Aceasta poate fi suficient dacă datele sunt stabile și limitate în "
+"scop. În unele cazuri, este de preferat obținerea într-o formă simplă de "
+"descărcat și manevrat, dar este simplu să se ofere o legătură către o pagină "
+"web, ar putea fi un bun punct de plecare în expunerea datelor."
 
 # 905921990dc542df9e22c0a368727e8b
 #: ../../source/appendices/file-formats.rst:132
@@ -2858,11 +2932,17 @@ msgid ""
 "extract structured information from a website, and such tools can do much "
 "more with the data if it is carefully tagged."
 msgstr ""
+"În mod normal, ar fi mai potrivită folosirea tabelelor în documente HTML "
+"pentru a păstra datele, și apoi este important ca diversele câmpuri de date "
+"să fie afișate și să li se dea identificatori care fac ușoară manevrarea "
+"datelor. Yahoo a dezvoltat o unealtă (http://developer.yahoo.com/yql/) care "
+"poate extrage informații structurate dintr-un sit web și astfel de unelte "
+"pot face mai multe cu datele care sunt etichetate cu atenție."
 
 # 749bccb614ec4d75b626f3a91f7c20fd
 #: ../../source/appendices/file-formats.rst:141
 msgid "Open File Formats"
-msgstr ""
+msgstr "Formate de fișier deshise"
 
 # 2268600ee3b34664913b2eaaf2c0b83e
 #: ../../source/appendices/file-formats.rst:143
@@ -2870,6 +2950,9 @@ msgid ""
 "Even if information is provided in electronic, machine-readable format, and "
 "in detail, there may be issues relating to the format of the file itself."
 msgstr ""
+"Chiar dacă informația este oferită în format electronic, în formate ce pot "
+"fi citite automat și în detaliu, pot exista probleme legate de formatul "
+"fișierului."
 
 # a1e9a630c82c497685a5d40d2375be05
 #: ../../source/appendices/file-formats.rst:147
@@ -2881,6 +2964,12 @@ msgid ""
 "specifications in their own software without any limitations on re-use "
 "imposed by intellectual property rights."
 msgstr ""
+"Formatele în care informația este publicată - cu alte cuvinte formatul "
+"digital în care informația este stocată - pot fi „deschise” sau „închise”. "
+"Un format deschis este unul în care specificațiile pentru programe sunt "
+"standardizate, disponibile oricui, astfel încât oricine poate folosi aceste "
+"specificații în propriile programe fără alte limitări in refolosire impuse "
+"de drepturile de proprietate intelectuală."
 
 # 11373b39254144f4bb062a40e7813a85
 #: ../../source/appendices/file-formats.rst:154
@@ -2893,6 +2982,13 @@ msgid ""
 "encoded in it, forcing those who wish to use the information to buy the "
 "necessary software."
 msgstr ""
+"Dacă un format de fișier este „închis”, aceasta poate fi pentru că formatul "
+"este proprietăresc și specificațiile nu sunt public accesibile sau pentru că "
+"formatul este proprietăresc și deși specificațiile au fost făcute publice, "
+"reutilizarea este limitată. Dacă informația este eliberată într-un fișier în "
+"format închis, aceasta poate produce obstacole semnificative în reutilizarea "
+"informației codificată în fișier, forțându-i pe cei care doresc să "
+"folosească informația să cumpere programele necesare."
 
 # c8855b8342e64d1b8377d55893c94f9a
 #: ../../source/appendices/file-formats.rst:162
@@ -2901,6 +2997,9 @@ msgid ""
 "multiple software packages and services using these formats. This then "
 "minimises the obstacles to reusing the information they contain."
 msgstr ""
+"Beneficiul formatelor de fișiere deschise este că ele permit dezvoltatorilor "
+"să producă pachete de programe și servicii folosind aceste formate. Aceasta "
+"minimizează obstacolele refolosirii informației pe care o conțin."
 
 # 14e8ba3e856d439eb9372a107b327b45
 #: ../../source/appendices/file-formats.rst:167
@@ -2911,6 +3010,11 @@ msgid ""
 "only be read using certain software packages, which can be prohibitively "
 "expensive, or which may become obsolete."
 msgstr ""
+"Folosirea formatelor de fișier proprietăresc pentru care specificațiile nu "
+"sunt accesibile pot crea dependențe de terțe programe sau terți deținători "
+"de drepturi asupra formatelor de fișiere. În cel mai rau caz, aceasta "
+"înseamnă că informația poate fi citită doar folosind anumite pachete de "
+"programe, la prețuri neaccesibile, sau care pot deveni depășite."
 
 # becd5c5379ad46a6a4495bf228bc2072
 #: ../../source/appendices/file-formats.rst:173
@@ -2919,11 +3023,13 @@ msgid ""
 "is that information be released in **open file formats which are machine-"
 "readable.**"
 msgstr ""
+"Din perspectiva :term:`open government data` este preferată publicarea "
+"informației în **formate de fișier deschise care pot fi citite automat.**"
 
 # 0706964f49444783b06ccb6d8e40ec6c
 #: ../../source/appendices/file-formats.rst:178
 msgid "Example: UK traffic data"
-msgstr ""
+msgstr "Exemplu: date despre trafic în Regatul Unit"
 
 # 06406a590c564ab9a7dd69b5e9869377
 #: ../../source/appendices/file-formats.rst:180
@@ -2942,6 +3048,21 @@ msgid ""
 "price list from Saturn start at £13,000 (over €15,000), a price which is "
 "beyond the reach of most ordinary citizens."
 msgstr ""
+"Andrew Nicolson este un dezvoltator de programe care a fost implicat într-o "
+"campanie (în cele din urmă de succes) împotriva construirii unei noi străzi, "
+"Westbury Eastern, în Regatul unit. Andrew a fost interesat de accesarea și "
+"folosirea datelor despre trafic ce erau folosite pentru a justifica "
+"propunerile. A reușit să obțină câteva dintre cele mai relevante date prin "
+"cereri bazate pe legislația privind liberul acces la informație, dar "
+"autoritățile locale au oferit datele într-un format proprietăresc ce poate "
+"fi citit doar folosind programe produse de o companie numită Saturn, "
+"specializată în modelarea și anticiparea traficului. Nu era oferită o "
+"versiune „” a programului, așa că grupul lui Andrew nu avut nicio "
+"alternativă, decât să cumpere o licență pentru programe, plătind în final "
+"£500 (€600) utilizând o reducere educatională. Pachete principale de "
+"programe de pe lista de prețuri ale comaniei Saturn, din aprilie 2010, "
+"pornesc de la £13,000 (peste €15,000), un preț care nu este accesibil "
+"cetățenilor obișnuiți."
 
 # 9e78cdb7b65b44568400fc075a25128b
 #: ../../source/appendices/file-formats.rst:196

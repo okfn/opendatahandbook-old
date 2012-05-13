@@ -1227,7 +1227,7 @@ msgstr ""
 ":term:`Open data` trebuie să fie atât deschise din punct de vedere tehnic "
 "cât și din punct de vedere legal. Mai precis, datele trebuie să fie "
 "disponibile în vrac (bulk), într-un format care poate fi citit de către un "
-"calculator :term:`machine-readable`."
+"calculator (:term:`machine-readable`)."
 
 # b9d7515dde2043ac876fd4836fae1473
 #: ../../source/how-to-open-up-data/make-data-available.rst:10
@@ -1329,10 +1329,10 @@ msgid ""
 "large, distribution via other formats can be warranted. This section will "
 "also discuss alternatives, which can act to keep prices very low."
 msgstr ""
-"Când conectivitatea este limitată sau mărimea setului de date este este "
-"extrem de mare, ar putea fi asigurată distribuirea prin intermediul altor "
-"formate. Această secțiune va discuta alternative care ar putea avea un rol "
-"în a menține tarifele foarte scăzute."
+"Când conectivitatea (:term:`connectivity`) este limitată sau mărimea setului "
+"de date este este extrem de mare, ar putea fi asigurată distribuirea prin "
+"intermediul altor formate. Această secțiune va discuta alternative care ar "
+"putea avea un rol în a menține tarifele foarte scăzute."
 
 # d14f19bd711547458714a36deb87b608
 #: ../../source/how-to-open-up-data/make-data-available.rst:51
@@ -1551,9 +1551,9 @@ msgid ""
 "that people can find the source material. This section will cover different "
 "approaches."
 msgstr ""
-"Datele deschise nu înseamnă nimic fără utilizatori. Trebuie să fii sigur de "
-"faptul că oamenii vor găsi materialul-sursă. Această secțiune va acoperi "
-"diverse abordări de acest gen."
+"Datele deschise (:term:`Open data`) nu înseamnă nimic fără utilizatori. "
+"Trebuie să fii sigur de faptul că oamenii vor găsi materialul-sursă. Această "
+"secțiune va acoperi diverse abordări de acest gen."
 
 # 4becb2ab91af48f190e5067c39b98b97
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
@@ -2361,12 +2361,12 @@ msgstr ""
 # a05e26862bfa42af9de59456bb406ca0
 #: ../../source/glossary.rst:96
 msgid "See :term:`Anonymisation`."
-msgstr ""
+msgstr "Vezi :term:`Anonymisation`."
 
 # a178837206844dcd9c3f961ffb9ec065
 #: ../../source/glossary.rst:61
 msgid "See :term:`Application Programming Interface`."
-msgstr ""
+msgstr "Vezi :term:`Application Programming Interface`."
 
 # b2d454de54a34ff3ac26f9a9b95cfc1d
 #: ../../source/glossary.rst:64
@@ -2379,7 +2379,7 @@ msgstr "O metodă prin care programele de calculator pot comunica între ele."
 # 006ce3eeb6f6494e89126a9fee36fa6b
 #: ../../source/glossary.rst:108 ../../source/glossary.rst:111
 msgid "See :term:`Information Asset Register`."
-msgstr ""
+msgstr "Vezi :term:`Information Asset Register`."
 
 # d7005be4c2644ffd95650d9a7fa33c09
 #: ../../source/glossary.rst:38
@@ -2427,7 +2427,7 @@ msgstr ""
 # 905eb11579234bb1a44c8bf10af73af7
 #: ../../source/glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
-msgstr "Vezi :term:`Protocol de accesare a datelor`."
+msgstr "Vezi :term:`Data Access Protocol`."
 
 # df25ad55a2cd4441b7c2a9fa5fb62877
 #: ../../source/glossary.rst:34
@@ -2544,7 +2544,7 @@ msgstr "Monopol atribuit indivizilor pentru creații intelectuale."
 # 89ef221be02d4278bab95a677f310469
 #: ../../source/glossary.rst:102
 msgid "See :term:`Intellectual property rights`."
-msgstr "Vezi :term:`Drepturi de proprietate intelectuală`."
+msgstr "Vezi :term:`Intellectual property rights`."
 
 # 58a3235843654c3282894e72502ef67d
 #: ../../source/glossary.rst:13
@@ -2577,12 +2577,12 @@ msgid ""
 "data is a subset of :term:`Public Sector Information`, which is broader in "
 "scope. See http://opengovernmentdata.org for details."
 msgstr ""
-":term:`Date deschise` produse de guvern. E vorba în general despre "
-"date adunate de către guver în decursul activităților obișnuite, "
-"care nu identifică indivizi și nu afectează interese economice. "
-"Datele guvernamentale deschise sunt parte din :term:`Informații din "
-"sectorul public`. Vezi http://opengovernmentdata.org pentru mai "
-"multe informații."
+"Date deschise (:term:`Open data`) produse de guvern. E vorba în general "
+"despre date adunate de către guvern în decursul activităților obișnuite, "
+"care nu identifică indivizi și nu afectează interese economice. Datele "
+"guvernamentale deschise sunt parte din informații din sectorul public "
+"(:term:`Public Sector Information`). Vezi http://opengovernmentdata.org "
+"pentru mai multe informații."
 
 # fd67964c3c0c4d829d84d0289821fa98
 #: ../../source/glossary.rst:91
@@ -2598,7 +2598,7 @@ msgstr ""
 # 69cae7a7b1ba4c2ab1feefaa40340b8e
 #: ../../source/glossary.rst:55
 msgid "See :term:`Public Sector Information`."
-msgstr "Vezi :term:`Informații din sectorul public`."
+msgstr "Vezi :term:`Public Sector Information`."
 
 # a2ce148a2a73420b9acd40b9063f3f43
 #: ../../source/glossary.rst:75
@@ -2635,7 +2635,7 @@ msgid ""
 msgstr ""
 "`Tab-separated values` (TSV) este un format comun de fișier text "
 "utilizat pentru distribuția datelor tabulare. Formatul este foarte "
-"simplu și :term:`citibil automat`."
+"simplu și citibil automat (:term:`machine-readable`)."
 
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68

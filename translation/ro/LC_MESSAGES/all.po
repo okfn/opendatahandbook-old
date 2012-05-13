@@ -1577,32 +1577,41 @@ msgid ""
 "Face-to-face events can be a very effective way to encourage others to use "
 "your data. Reasons that you may consider putting on an event include:"
 msgstr ""
+"Întâlnirile directe pot fi o soluție foarte eficientă de a-i încuraja pe "
+"alții să folosească datele dumneavoastră. Motivele pe care ați putea "
+"considera să le includeți într-un eveniment:"
 
 # ed4a924635be427d84e5e73aa156036b
 #: ../../source/following-up/getting-folks-in-a-room.rst:9
 msgid "Finding out more about prospective re-users"
-msgstr ""
+msgstr "Aflați mai multe despre potențialii reutilizatori"
 
 # 5f00d7f9fe5f4d88908a571cd17d7583
 #: ../../source/following-up/getting-folks-in-a-room.rst:10
 msgid "Finding out more about demand for different datasets"
-msgstr ""
+msgstr "Aflați mai multe despre cerințele legate de diferite seturi de date"
 
 # 44afdf6e36d943ddabf744660e0cd998
 #: ../../source/following-up/getting-folks-in-a-room.rst:11
 msgid "Finding out more about how people want to re-use your data"
 msgstr ""
+"Aflați mai multe despre cum participanții vor să refolosească datele "
+"dumneavoastră"
 
 # 40fc2cc37de34edc951bb527c703bed8
 #: ../../source/following-up/getting-folks-in-a-room.rst:12
 msgid "Enabling prospective re-users to find out more about what data you have"
 msgstr ""
+"Permiteți posibililor reutilizatori să afle mai multe despre datele pe care "
+"le aveți"
 
 # 521cf351ccf04741bcad75ab2ebed8fc
 #: ../../source/following-up/getting-folks-in-a-room.rst:14
 msgid ""
 "Enabling prospective users to meet each other (e.g. so they can collaborate)"
 msgstr ""
+"Permiteți posibililor reutilizatori să se întâlnească între ei (astfel ei "
+"pot colabora)"
 
 # 48964c3745d54c21947431d3f9dfa392
 #: ../../source/following-up/getting-folks-in-a-room.rst:16
@@ -1610,6 +1619,9 @@ msgid ""
 "Exposing your data to a wider audience (e.g. from blog posts or media "
 "coverage that the event may help to generate)"
 msgstr ""
+"Expuneți datele dumneavoastră unei audiențe mai largi (de exemplu: postările "
+"de pe bloguri sau ceea ce apare în media pe care evenimentul poate ajuta să "
+"le genereze)"
 
 # 4d90aabe7a734c3f805647604033d11a
 #: ../../source/following-up/getting-folks-in-a-room.rst:19
@@ -1620,11 +1632,17 @@ msgid ""
 "formal talks, presentations and demonstrations, there are also various kinds "
 "of participant driven events, where those who turn up may:"
 msgstr ""
+"Există multe modalități diferite de derulare a evenimentelor și diferite "
+"tipuri de evenimente în funcție de ceea ce dumneavoastră țintiți să "
+"obțineți. Din moment ce există multe modele tradiționale de conferințe care "
+"includ chestiuni precum discuții formale pregătite anterior, prezentări și "
+"demonstrații, așa există diferite tipuri de evenimente conduse de "
+"participanți, în care aceia care sunt prezenți pot:"
 
 # a50b011fdb8840dc9d8f2efd3ab44a4c
 #: ../../source/following-up/getting-folks-in-a-room.rst:26
 msgid "Guide or define the agenda for the event"
-msgstr ""
+msgstr "Să îndrume sau definească agenda evenimentului"
 
 # fa476ad8536242b5b8bf48aea215e13c
 #: ../../source/following-up/getting-folks-in-a-room.rst:27
@@ -1632,17 +1650,19 @@ msgid ""
 "Introduce themselves, talk about what they’re interested in and what they’re "
 "working on, on an ad hoc basis"
 msgstr ""
+"Să se prezinte singuri, să vorbească despre ceea ce îi interesează și la ce "
+"anume lucrează, într-un mod ad-hoc"
 
 # a32292b0cdf147238a040b8e1264e482
 #: ../../source/following-up/getting-folks-in-a-room.rst:29
 msgid ""
 "Give impromptu micro-short presentations on something they are working on"
-msgstr ""
+msgstr "Să ofere spontan prezentări scurte despre ceea ce lucrează în prezent"
 
 # 2337543daa9b44a8b8774ac488b32296
 #: ../../source/following-up/getting-folks-in-a-room.rst:31
 msgid "Lead sessions on something they are interested in"
-msgstr ""
+msgstr "Să conducă sesiunile înspre ceea ce ei sunt interesați"
 
 # 64065d778f9946ba94319f8241c9e573
 #: ../../source/following-up/getting-folks-in-a-room.rst:33
@@ -1656,6 +1676,16 @@ msgid ""
 "(e.g. a civic society organisation, a news organisation or an educational "
 "institution) to broaden your base participants and to increase your exposure."
 msgstr ""
+"Există multe documente online despre cum se dirijează astfel de evenimente, "
+"documente pe care le puteți găsi prin căutarea unor cuvinte ca: "
+"“unconference”, “barcamp”, “meetup”, “speedgeek”, “lightning talk” și "
+"altele. Poate fi folositor și contactarea unor persoane din alte țări, care "
+"au condus aceste tipuri de evenimente și care de obicei sunt foarte dornici "
+"să vă ajute și să vă sfătuiască în ceca ce privește evenimentul "
+"dumneavoastră. Un parteneriat cu alte organizații poate fi valoros ( de "
+"exemplu: organizație a societății civile, o organizație media sau instituție "
+"didactică) pentru a vă lărgi baza participanților și pentru a crește "
+"mediatizarea."
 
 # 462828d03e674930afd7dba17f214303
 #: ../../source/following-up/index.rst:3

@@ -3074,6 +3074,12 @@ msgid ""
 "been the Obama Administration, with the Open Government Directive issued in "
 "December 2009, which says:"
 msgstr ""
+"Deși nicio lege pentru accesul la informație nu dă dreptul la accesul în "
+"formate deschise, inițiativele guvernamentale de deschidere a datelor încep "
+"să fie însoțite de documente de politici care stipulează că informațiile "
+"oficiale trebuie să fie disponibile în formate deschise. Standardul înalt "
+"a fost stabilit de administrația Obama, prin Directiva pentru o duvernare "
+"deschisă, din decembrie 2009, care spune:"
 
 # 5a4a5dad6cfe4c26809846d46065d8e4
 #: ../../source/appendices/file-formats.rst:203
@@ -3085,11 +3091,18 @@ msgid ""
 "made available to the public without restrictions that would impede the re-"
 "use of that information.*"
 msgstr ""
+"*Pe cât posibil și în concordanță cu restricțiile valabile, "
+"agențiile ar trebui să publice informația pe internet într-un "
+"format deschis care poate fi găsit, descărcat, indexat și în "
+"care se poate căuta folosind aplicații de căutare web. Un format "
+"deschis este unul care este independent de platformă, se poate "
+"citi automat și poate fi disponibil publicului fără restricții "
+"care ar împiedica refolosirea acelei informații.*"
 
 # 5cc8e6283aea4bb5af1a2c416989abc4
 #: ../../source/appendices/file-formats.rst:213
 msgid "How do I use a given format?"
-msgstr ""
+msgstr "Cum folosesc un anumit format?"
 
 # 568a5625c2f94452af6abe3cc66878ad
 #: ../../source/appendices/file-formats.rst:215
@@ -3099,6 +3112,10 @@ msgid ""
 "cost and suitability for purpose. For each format there are some things you "
 "should be aware of, and this section aims to explain them."
 msgstr ""
+"Când o autoritate trebuie să expună noi date - date care nu au fost expuse "
+"înainte - ar trebui să alegi formatul care oferă cel mai bun balans între "
+"cost și potrivirea cu scopul. Pentru fiecare format există anumite lucruri "
+"de care trebuie să fii conștient și această secțiune încearcă să le explice."
 
 # 42b8a5c50e0b45eb89c4a26f7ea8a060
 #: ../../source/appendices/file-formats.rst:221
@@ -3107,11 +3124,15 @@ msgid ""
 "machines can access them directly. Advice and guidance about how web sites "
 "and web solutions should be designed can be found elsewhere."
 msgstr ""
+"Această secțiune se focalizează doar pe modul în care elementele sunt "
+"îmbinate astfel încât să poată fi accesate automat. Sfaturi și ghiduri "
+"despre cum ar trebui proiectate siturile și serviciile web pot fi găsite "
+"în altă parte."
 
 # 1897adda256e49e99d665b5f5343e008
 #: ../../source/appendices/file-formats.rst:227
 msgid "Web services"
-msgstr ""
+msgstr "Servicii Web"
 
 # a9d6a586198648dcb05c316a24713fc9
 #: ../../source/appendices/file-formats.rst:229
@@ -3122,11 +3143,17 @@ msgid ""
 "Generally, SOAP over REST, REST services, but are very easy to develop and "
 "use, so it is a widely used standard."
 msgstr ""
+"Pentru date care se schimbă frecvent și acolo unde fiecare cerere este "
+"limitată în dimensiune, este relevantă expunerea datelor prin servicii "
+"web. Există mai multe moduri de a crea servicii web, dar unele dintre "
+"cele mai folosite sunt SOAP și REST. În general, SOAP mai mult decât "
+"REST sau servicii REST, dar sunt foarte ușor de dezvoltat și folosit, "
+"așa că sunt standarde folosite pe scară largă."
 
 # 1832cd0456254e3c8affb21673553fe5
 #: ../../source/appendices/file-formats.rst:236
 msgid "Database"
-msgstr ""
+msgstr "Baze de date"
 
 # 1ca36a963713464dbd753b7f60bd0661
 #: ../../source/appendices/file-formats.rst:238
@@ -3135,6 +3162,9 @@ msgid ""
 "Databases have the advantage that they can allow users to put together just "
 "the extraction that they are interested in."
 msgstr ""
+"La fel ca serviciile web, bazele de date oferă acces direct la date în "
+"mod dinamic. Bazele de date au avantajul ca pot îngădui utilizatorilor "
+"să pună la un loc doar extragerile care îi interesează."
 
 # efc3834bf47c482eb7a3bdc3da8faaa0
 #: ../../source/appendices/file-formats.rst:242
@@ -3145,6 +3175,13 @@ msgid ""
 "relatively simple and inexpensive to create web services that expose data "
 "from a database, which can be an easy way to address safety concerns."
 msgstr ""
+"Există unele îngrijorări cu privire la securitate atunci când se îngăduie "
+"acces de la distanță pentru extragerea din bazele de date și accesul la "
+"bazele de date este folositor doar dacă structura bazei de date și "
+"importanța tabelelor individuale și a câmpurilor sunt bine documentate. "
+"Adesea, este relativ simplu și ieftin să se creeze servicii web care "
+"expun date dintr-o bază de date, care poate fi o metodă ușoară de a "
+"aborda îngrijorările cu privire la securitate."
 
 # 51c683e25e5a4ce4be6978d9dc1a4705
 #: ../../source/appendices/index.rst:3

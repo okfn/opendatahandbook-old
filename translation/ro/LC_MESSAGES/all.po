@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the Open Data Handbook package.
 # 
 # Translators:
-# Bogdan Grama <bogdan.grama@gmail.com>, 2012.
-# Ștefan Candea <stefancandea@yahoo.de>, 2012.
-# Vdovii Lina <linavdovii@gmail.com>, 2012.
-# Codrina Maria Ilie <codrina@geo-spatial.org>, 2012.
-# Constantinescu Nicolaie <kosson@gmail.com>, 2012.
-# Andra Bucur <abucur@soros.ro>, 2012.
-# Adrian Mogoș <adrian.mogos@gmail.com>, 2012.
 # Adela Danciu <adelada@gmail.com>, 2012.
-# Gordon Freeman <vldbulai@yahoo.com>, 2012.
+# Adrian Mogoș <adrian.mogos@gmail.com>, 2012.
 # Alex Morega <alex@grep.ro>, 2012.
+# Andra Bucur <abucur@soros.ro>, 2012.
+# Bogdan Grama <bogdan.grama@gmail.com>, 2012.
 # Bogdan Manolea <bogdan@legi-internet.ro>, 2102.
+# Codrina Maria Ilie <codrina@geo-spatial.org>, 2012.
+# Gordon Freeman <vldbulai@yahoo.com>, 2012.
+# Lina Vdovii <linavdovii@gmail.com>, 2012.
+# Nicolaie Constantinescu <kosson@gmail.com>, 2012.
 # Sorin-Mihai Vârgolici <smv@ceata.org>, 2012.
 # Tiberiu C. Turbureanu <tct@ceata.org>, 2012.
+# Ștefan Candea <stefancandea@yahoo.de>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook 1.0\n"

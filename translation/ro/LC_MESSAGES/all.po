@@ -1359,9 +1359,10 @@ msgid ""
 "access to discussion documents, data files are perfectly happy to be made "
 "available this way."
 msgstr ""
-"Sistemul care este cel mai familiar echipei tale de conținut web este de a "
-"furniza fișiere pentru a fi descărcate de pe pagini web. La fel cum "
-"furnizezi în acest moment acces la documente [...]"
+"Sistemul care este cel mai familiar echipei tale de conținut web este de "
+"a furniza fișiere pentru a fi descărcate de pe pagini web. La fel cum "
+"oferiți în acest moment acces la documente pentru discuții, pot fi "
+"oferite și fișierele."
 
 # 680a3fdd6ee74160bfd3f0ba94456f73
 #: ../../source/how-to-open-up-data/make-data-available.rst:61
@@ -1370,11 +1371,14 @@ msgid ""
 "outsider to discover where to find updated information. This option places "
 "some burden on the people creating tools with your data."
 msgstr ""
+"Problema este că este dificil pentru cineva din exterior să descopere "
+"unde poate să găsească informația actualizată. Această opțiune îngreunează "
+"crearea de unelte pentru datele respective, pentru anumite persoane."
 
 # 28ec978c25d5464caef60764ccd26193
 #: ../../source/how-to-open-up-data/make-data-available.rst:67
 msgid "Via 3rd party sites"
-msgstr ""
+msgstr "Prin intermediul sit-urilor altor persoane"
 
 # bc1c7a24e2fc40369a8d6fee3b547452
 #: ../../source/how-to-open-up-data/make-data-available.rst:69
@@ -1384,6 +1388,12 @@ msgid ""
 "wish to access data from them. Sites like Infochimps.com and Talis.com allow "
 "public sector agencies to store massive quantities of data for free."
 msgstr ""
+"Multe depozite au devenit puncte central pentru distribuția datelor în "
+"anumite domenii. De exemplu, pachube.com este creat pentru a facilita "
+"conexiunea între persoanele care folosesc sisteme senzoriale cu cei "
+"doresc să acceseze datele deținute de ele. Sit-uri precum Infochimps.com "
+"și Talis.com permit agențiilor publice să stocheze gratis cantități mari "
+"de date."
 
 # 79fec3171d0b43e7924a9661d86ed5bb
 #: ../../source/how-to-open-up-data/make-data-available.rst:75
@@ -1393,6 +1403,10 @@ msgid ""
 "of data. When your data is part of these platforms, a type of positive "
 "compound interest is created."
 msgstr ""
+"Sit-urile altor persoane sunt foarte utile. Acest lucru se datorează "
+"faptului că ei au adunat deja o comunitate de persoane interesate și "
+"alte seturi de date. Atunci când informațiile tale fac parte din aceste "
+"platforme, se crează un interes comun."
 
 # e27ac253acf04e4895092c606f5d6c84
 #: ../../source/how-to-open-up-data/make-data-available.rst:80
@@ -1401,6 +1415,10 @@ msgid ""
 "support the demand. They often provide analytics and usage information. For "
 "public sector agencies, they are generally free."
 msgstr ""
+"Platforme de date în volum mare oferă infrastructura necesară care "
+"răspunde cererii. Adesea ele furnizează informații statistice și "
+"informații privind utilizarea. Pentru agențiile din sectorul public, "
+"acestea sunt în general gratuite."
 
 # cc7000380ec64929b7aacfcc5761b05f
 #: ../../source/how-to-open-up-data/make-data-available.rst:84
@@ -1412,11 +1430,18 @@ msgid ""
 "developers and scientists use many operating sytems, from smart phones to "
 "supercomputers. They should all be able to access the data."
 msgstr ""
+"Aceste platform implică două tipuri de costuri. Primul este independența. "
+"Agenția ta trebuie să poată preda controlul și altora. Acest lucru este "
+"adesea dificil din punct de vedere politic, legal sau operațional. Al "
+"doilea cost îl implică deschiderea. Asigură-te că platforma ta de date "
+"este accesibilă de către toată lumea. Dezvoltatorii de software și oamenii "
+"de știință folosesc multe sisteme de operare, de la telefoane inteligente "
+"la supercalculatoare. Ar trebui ca toată lumea să poată să acceseze datele."
 
 # 45ec5a433d49473d8bd8e8aa732d3790
 #: ../../source/how-to-open-up-data/make-data-available.rst:94
 msgid "Via FTP servers"
-msgstr ""
+msgstr "Prin intermediul Protocolului pentru Transferul Fișierelor (FTP)"
 
 # b76866767adf434e9e413aa9dd09bcc1
 #: ../../source/how-to-open-up-data/make-data-available.rst:96
@@ -1426,6 +1451,11 @@ msgid ""
 "such as software developers and scientists. The FTP system works in place of "
 "HTTP, but is specifically designed to support file transfers."
 msgstr ""
+"O metodă mai puțin la modă pentru acordarea accesului la fișiere este "
+"prin FTP. Acest lucru este potrivit atunci când audiența ta are "
+"cunoștințe tehnice, precum dezvoltatorii de software și oamenii de "
+"știință. Sistemele FTP înlocuiesc HTTP, dar sunt special create pentru "
+"transferal de fișiere."
 
 # 2b926a03ce794f8782e74bd0013c2b2e
 #: ../../source/how-to-open-up-data/make-data-available.rst:102
@@ -1435,11 +1465,15 @@ msgid ""
 "Therefore, even though it is fit for purpose, there is far less capacity for "
 "web development firms to charge for customisation."
 msgstr ""
+"FTP a ieșit din grații. Mai degrabă decât furnizarea unui sit, să te uiți "
+"printr-un server este ca și cum te-ai uita prin dosare într-un calculator. "
+"Deși este în concordanță cu obiectivul, capacitatea firmelor de dezvolatare "
+"web de a taxa pentru personalizare este mult mai mica."
 
 # c42b8894bbc54326b66238f06c086570
 #: ../../source/how-to-open-up-data/make-data-available.rst:108
 msgid "As torrents"
-msgstr ""
+msgstr "Ca torenți"
 
 # 759eb86f2e4d480eaaecdaac50273050
 #: ../../source/how-to-open-up-data/make-data-available.rst:110
@@ -1452,11 +1486,19 @@ msgid ""
 "the reason that this system is so successful for sharing movies. It is a "
 "wonderfully efficient way to distribute very large volumes of data."
 msgstr ""
+"BitTorrents este un sistem care a devenit familiar celor care conturează "
+"politici datorită asocierii cu încălcarea dreptului de copier. BitTorrent "
+"folosește fișiere numite torenți, care funcționează prin împărțirea "
+"costului de distribuire a fișierelor între toate persoanele care accesează "
+"respectivele fișiere. În loc ca serverele să se supraîncarce, oferta "
+"creștea pe măsură ce creștea cererea. Acesta este motivul pentru care "
+"acest sistem este atât de eficient pentru distribuirea filmelor. Este o "
+"metodă foarte eficientă pentru distribuirea unor volume mari de date."
 
 # 129e68dafdf54f6e97919fba6fdc5c70
 #: ../../source/how-to-open-up-data/make-data-available.rst:119
 msgid "As an API"
-msgstr ""
+msgstr "Ca API"
 
 # d6c7831d05704f01b2bedc502d6a50c1
 #: ../../source/how-to-open-up-data/make-data-available.rst:121
@@ -1468,6 +1510,13 @@ msgid ""
 "being updated in real-time. This means that making information available via "
 "an API can ensure that it is up to date."
 msgstr ""
+"Datele pot fi publicate prin Interfețe de Programare cu Aplicație (API). "
+"Aceste interfețe au devenit foarte cunoscute. Ele permit programatorilor "
+"să selecteze anumite fragmnte de date, mai degrabă decât să furnizeze "
+"toate într-un vrac (bulk), ca fișiere mari. API sunt conectate în mod "
+"obișbuit la o bază de date care este actiualizată în timp real. Acest "
+"lucru înseamnă că a face informația disponibilă prin intermediul unei "
+"API ne asigură că informația este actualizată la zi."
 
 # a04d09c10e634e4e95e64172d7f3df48
 #: ../../source/how-to-open-up-data/make-data-available.rst:129
@@ -1475,6 +1524,9 @@ msgid ""
 "Publishing raw data in bulk should be the primary concern of all open data "
 "intiatives. There are a number of costs to providing an API:"
 msgstr ""
+"Publicarea datelor primare în volum mare ar trebui să fie principala "
+"preocupare a tuturor inițiativelor privind datele deschise. Interfețele "
+"de programare cu aplicație presupun o serie de costuri:"
 
 # 3c28e8cb66dc4a3cb88e41a7b60106b4
 #: ../../source/how-to-open-up-data/make-data-available.rst:132
@@ -1482,6 +1534,7 @@ msgid ""
 "The price. They require much more development and maintainence than "
 "providing files."
 msgstr ""
+"Prețul. Au nevoie de mai multă mentenanță decât furnizarea fișierelor."
 
 # 14dd153713774331a0312cbefb6d28d1
 #: ../../source/how-to-open-up-data/make-data-available.rst:134
@@ -1490,11 +1543,14 @@ msgid ""
 "it is important to provide certainty. When things go wrong, you will be "
 "expected to incur the costs of fixing them."
 msgstr ""
+"Așteptările. Pentru a încuraja o comunitate de utilizatori să folosească "
+"sistemul, este important să ofero certitudine. Atunci când lucrurile nu "
+"merg bine, se va aștepta de la tine să acoperi costul reparațiilor."
 
 # ca23faca90d744b397f92d458f218d1c
 #: ../../source/how-to-open-up-data/make-data-available.rst:138
 msgid "Access to bulk data ensures that:"
-msgstr ""
+msgstr "Accesul la un volum mare de informații asigură că:"
 
 # ae5f19aec9fc42828d27deb2b2c9c146
 #: ../../source/how-to-open-up-data/make-data-available.rst:140
@@ -1503,6 +1559,9 @@ msgid ""
 "a restructure or budget cycle changes the situation, the data are still "
 "available."
 msgstr ""
+"nu există dependență față de furnizorul primar de date, acest lucru "
+"însemnând că, dacă o restructurare sau un ciclu bugetar schimbă "
+"situația, informațiile sunt încă disponibile."
 
 # 3022f0749b794dc59af9b4b12e4fd380
 #: ../../source/how-to-open-up-data/make-data-available.rst:143
@@ -1511,6 +1570,10 @@ msgid ""
 "distribution away from the source agency and means that there is no single "
 "point of failure."
 msgstr ""
+"oricine altcineva poate obține o copie și o poate redistribui. Acest "
+"lucru reduce costurile cu distribuția, luându-le de la agenția sursă "
+"și presupune faptul că nu există un singur loc unde sunt stocate "
+"informațiile (single point of failure)."
 
 # 362360c6bac64db5b350ca2f2b96d48e
 #: ../../source/how-to-open-up-data/make-data-available.rst:146
@@ -1518,6 +1581,8 @@ msgid ""
 "others can develop their own services using the data, because they have "
 "certainty that the data will not be taken away from them."
 msgstr ""
+"alții pot dezvolta propriile servicii folosind informațiile, pentru că "
+"au siguranța că informațiile nu le vor fi luate."
 
 # 92b96832e25848bea4ba68895e02480f
 #: ../../source/how-to-open-up-data/make-data-available.rst:149
@@ -1528,6 +1593,13 @@ msgid ""
 "While the latest version of the data may be made available via an API, raw "
 "data should be made available in bulk at regular intervals."
 msgstr ""
+"Furnizând informațiile în volum mare, le permite altora să folosească "
+"informațiile dincolo se scopul lor primar. De exemplu, permite ca acestea "
+"să fie transformate în formate noi, să fie conectate cu alte surse, sau "
+"să fie create alte versiuni și arhivate în multiple locații. În timp ce "
+"ultima versiune a informației poate fi pusă la dispoziție printr-o API, "
+"datele primare ar trebui puse la dispoziție în volum mare, la intervale "
+"regulate de timp."
 
 # 19cd648b3bcb47a69b7b467e23035209
 #: ../../source/how-to-open-up-data/make-data-available.rst:155
@@ -1537,6 +1609,12 @@ msgid ""
 "data in :term:`Tab-separated values` (TSV) format, and includes "
 "documentation about the download facility as well as about the data files."
 msgstr ""
+"De exemplu, serviciul de statistică Eurostat "
+"(http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/) "
+"conține posibilitatea de a descărca volume mari, oferind peste 4000 de "
+"fișiere de date. Este actualizat de două ori pe zi, oferă date în format "
+"cu valori separate tabular și include documentația privind fișierele de "
+"date și posibilitatea de descărcare."
 
 # e41c10ed0631425c909b8ebfb4a7c800
 #: ../../source/how-to-open-up-data/make-data-available.rst:162
@@ -1545,6 +1623,9 @@ msgid ""
 "data to be downloaded in CSV and XLS format in addition to live feeds of the "
 "data."
 msgstr ""
+"Un alt exemplu este Catalogul de Date al Districtului Columbia (District "
+"of Columbia Data Catalog), care permite ca datele să fie descărcate în "
+"formate CSV și XLS, în plus față de actualizarea în timp real a datelor."
 
 # 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3

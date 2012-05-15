@@ -13,6 +13,9 @@
 # Adela Danciu <adelada@gmail.com>, 2012.
 # Gordon Freeman <vldbulai@yahoo.com>, 2012.
 # Alex Morega <alex@grep.ro>, 2012.
+# Bogdan Manolea <bogdan@legi-internet.ro>, 2102.
+# Sorin-Mihai Vârgolici <smv@ceata.org>, 2012.
+# Tiberiu C. Turbureanu <tct@ceata.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook 1.0\n"

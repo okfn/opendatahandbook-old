@@ -14,8 +14,8 @@
 # Lina Vdovii <linavdovii@gmail.com>, 2012.
 # Nicolaie Constantinescu <kosson@gmail.com>, 2012.
 # Sorin-Mihai Vârgolici <smv@ceata.org>, 2012.
+# Ștefan Cândea <stefancandea@yahoo.de>, 2012.
 # Tiberiu C. Turbureanu <tct@ceata.org>, 2012.
-# Ștefan Candea <stefancandea@yahoo.de>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook 1.0\n"

@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook 1.0\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: 2012-05-13 17:49+0300\n"
-"Last-Translator: Alex Morega <alex@grep.ro>\n"
+"PO-Revision-Date: 2012-05-16 10:45+0200\n"
+"Last-Translator: Sorin-Mihai Vârgolici <smv@ceata.org>\n"
 "Language-Team: Romanian (http://www.transifex.net/projects/p/opendatahandbook/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,6 +42,11 @@ msgid ""
 "seeking to **open up** data. It discusses the **why, what and how** of open "
 "data -- why to go open, what open is, and the how to 'open' data."
 msgstr ""
+"**Acest manual discută aspecte legale, sociale și tehnice ale datelor "
+"deschise.** Poate fi folosit de oricine dar este în special conceput "
+"pentru cei care doresc să **deschidă** date. Discută despre **de ce, "
+"ce anume și cum** se deschid datele -- de ce să deschizi, ce înseamnă "
+"deschis și cum să 'deschizi' datele."
 
 # 3c3f679596a84f43a381f53ce49badeb
 #: ../../source/index.rst:11
@@ -50,6 +55,9 @@ msgid ""
 "index.html>`. You can navigate through the report using the Table of "
 "Contents (see sidebar or below)."
 msgstr ""
+"Pentru a începe, poate vrei să privești la :doc:`Introducere "
+"<introducere/index.html>`. Poți naviga prin raport folosind Tabelul "
+"de conținut (vezi bara laterală sau jos)."
 
 # 3115b5512c6e4ecd861e4e84d400523c
 #: ../../source/index.rst:15
@@ -58,6 +66,9 @@ msgid ""
 "go forward. We also welcome contributions or suggestions for additional "
 "sections and areas to examine."
 msgstr ""
+"Primim călduros observațiile cu privire la text și vom încorpora "
+"reacțiile pe măsură ce înaintăm. De asemenea acceptăm contribuții "
+"și sugestii pentru secțiuni adiționale și zone ce trebuiesc examinate."
 
 # 9e0f00346b0349e29d51083d1dd7a9aa
 #: ../../source/index.rst:21
@@ -412,7 +423,7 @@ msgstr "Evaluarea eficienței politicilor adoptate"
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
 msgstr ""
-"noi informații obținute prin recombinarea surselor de date "
+"Noi informații obținute prin recombinarea surselor de date "
 "cu tiparele existente în seturile mari de date"
 
 # 653cba4974784fc397e901d402246323
@@ -1829,7 +1840,7 @@ msgstr ""
 # 0eece90a6b18435fbada8a71dce59bb8
 #: ../../source/following-up/getting-folks-in-a-room.rst:3
 msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
-msgstr ""
+msgstr "Adunând persoane la un loc: Unconferences, Meetups and Barcamps"
 
 # d517fbbe51ea4d1889ad1ea4f9b6c34e
 #: ../../source/following-up/getting-folks-in-a-room.rst:5
@@ -1950,7 +1961,7 @@ msgstr ""
 # 462828d03e674930afd7dba17f214303
 #: ../../source/following-up/index.rst:3
 msgid "So I’ve Opened Up Some Data, Now What?"
-msgstr ""
+msgstr "Am deschis niște date, și acum?"
 
 # 00e250fc1e7143fdaf4d5ee13df433dd
 #: ../../source/following-up/index.rst:5
@@ -1958,13 +1969,17 @@ msgid ""
 "We’ve looked at how to make government information legally and technically "
 "reusable. The next step is to encourage others to make use of that data."
 msgstr ""
+"Ne-am uitat la cum se face informația guvernamentală legal și tehnic "
+"reutilizabilă. Următorul pas este încurajarea altora să folosească "
+"datele acelea."
 
 # ea104e8ec1424383ab1ad41895ec4913
 #: ../../source/following-up/index.rst:9
 msgid ""
 "This section looks at additional things which can be done to promote data re-"
 "use."
-msgstr ""
+msgstr "Această secțiune privește la lucruri suplimentare ce pot fi "
+"făcute pentru a promova reutilizarea."
 
 # 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
@@ -2575,6 +2590,11 @@ msgid ""
 "europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en."
 "htm>`_"
 msgstr ""
+"*Directiva de reutilizare a informației din sectorul public*, "
+"2003/98/EC. \"se ocupă cu modul în care entități din sectorul public "
+"ar trebui să îmbunătățească reutilizarea resurselor informaționale.\"` "
+"Acțiuni legislative - Directiva PSI "
+"<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
 
 # 31dae10cf39d414c9c3bc877c742864f
 #: ../../source/glossary.rst:123
@@ -2584,6 +2604,11 @@ msgid ""
 "agencies. A comprehensive IAR includes databases, old sets of files, recent "
 "electronic files, collections of statistics, research and so forth."
 msgstr ""
+"IAR sunt regiștri special făcuți pentru a stoca și organiza meta-date "
+"despre vastele cantități de informații deținute de departamentele "
+"guvernamentale și agenții. Un IAR cuprinzător include date de baze, "
+"seturi vechi de fișiere, fișiere electronice recente, colecții de "
+"statistici, cercetare și așa mai departe."
 
 # fbabda3fc9f146ac9a749e3d391ff817
 #: ../../source/glossary.rst:129
@@ -2592,6 +2617,10 @@ msgid ""
 "for prospective re-users of public information. It requires member states to "
 "provide lists, portals, or something similar. It states::"
 msgstr ""
+"Termenul :term:`Directiva Europeană PSI` recunoaște importanța "
+"registrilor de bunuri pentru viitorii reutilizatori de informații "
+"publice. Impune membrilor statelor să furnizeze liste, portaluri, "
+"sau ceva asemănător. Se precizează::"
 
 # 815da74bce80419d83a67e6fddc5fe7b
 #: ../../source/glossary.rst:145
@@ -2602,6 +2631,12 @@ msgid ""
 "maybe will not be – proactively published. Hence they allow members of the "
 "public to identify information which exists and which can be requested."
 msgstr ""
+"IAR pot fi dezvoltate în diferite moduri. Departamentele guvernamentale "
+"pot dezvolta propriile IAR și acestea pot fi legate la IAR naționale. "
+"IAR pot include informații care sunt deținute de entități publice dar "
+"care nu au fost încă – și poate nu vor fi – publicate proactiv. Prin "
+"urmare acestea îngăduie publicului larg să identifice ce informatie "
+"există și poate fi cerută."
 
 # 338ebff07b91405ba99bcd2e705da064
 #: ../../source/glossary.rst:152
@@ -2612,6 +2647,12 @@ msgid ""
 "registers is a significant problem as it creates a degree of unreliability "
 "which may discourage some from using the registers to search for information."
 msgstr ""
+"Pentru ca publicul să folosească aceste IAR, este important ca orice "
+"registre de informații deținute să fie complete, pe cât posibil, "
+"pentru a se avea încredere că documentele pot fi găsite. "
+"Necompletarea unor registre este o problemă însemnată deoarece "
+"creează un grad de nesiguranță care poate descuraja pe unii de "
+"la a folosi registrele pentru a căuta informații."
 
 # 27218b7ea50843d393655598df958338
 #: ../../source/glossary.rst:159
@@ -2623,6 +2664,13 @@ msgid ""
 "make use of the data, for example by building search engines and user "
 "interfaces."
 msgstr ""
+"Este esențial ca metadatele din IAR să fie cuprinzătoare astfel încât "
+"motoarele de căutare să poată funcționa corespunzător. În spiritul "
+"datelor guvernamentale deschise, entitățile publice ar trebui să își "
+"facă IAR disponibile publicului general ca date brute sub o licență "
+"deschisă astfel încât hăcuitorii civici să poată folosi aceste date, "
+"spre exemplu pentru a construi motoare de căutare și interfețe cu "
+"utilizatorul."
 
 # 4feb4d19a60642078f320e8d8dd612be
 #: ../../source/glossary.rst:105

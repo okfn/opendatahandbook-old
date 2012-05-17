@@ -1,0 +1,262 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Fă datele accesibile (deschiderea tehnică) &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Cum să deschizi datele" href="index.html" />
+    <link rel="next" title="Fă datele cât mai ușor de găsit" href="make-it-discoverable.html" />
+    <link rel="prev" title="Aplicarea licențelor de tip deschis (libertatea legală)" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>Fă datele accesibile (deschiderea tehnică)<a class="headerlink" href="#make-data-available-technical-openness" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">Open data</em></a> trebuie să fie atât deschise din punct de vedere tehnic cât și din punct de vedere legal. Mai precis, datele trebuie să fie disponibile în vrac (bulk), într-un format care poate fi citit de către un calculator (<a class="reference internal" href="../glossary.html#term-machine-readable"><em class="xref std std-term">machine-readable</em></a>).</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>Datele trebuie să fie disponibile la un preț mai mic decât costul rezonabil de reproducere, preferabil ca o descărcare gratuită de pe Internet. S-a ajuns la acest model de tarifare pentru că agenția ta nu trebuie să suporte nici un cost atunci când furnizează date utilizatorilor</dd>
+<dt>In bulk</dt>
+<dd>Datele ar trebui să fie disponibile sub forma unui set complet. Dacă ai un registru care este colectat sub această formă, întregul registru trebuie să fie disponibil pentru descărcare. O interfață de programare (API) web sau un serviciu similar ar putea fi deasemenea foarte utile, dar ele nu substituie accesul în vrac.</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>Re-utilizarea datelor deținute de către sectorul public nu trebuie să fie subiectul unor restricții generate de licențe sau patente. Și mai important, dacă te asiguri că furnizezi datele in formate care pot fi citite automat, permiti un grad mai mare de re-utilizare. Pentru a ilustra acest fapt, ia în considerare datele statistice publicate ca documente în format PDF, un format ales uzual datorită calității de imprimare ridicat. În timp ce aceste statistici pot fi citite de către oameni, sunt foarte greu utilizabile de către un calculator. În acest mod este îngrădită major abilitatea altora de a re-utiliza datele.</dd>
+</dl>
+<p>Mai jos câteva direcții care vor aduce beneficii majore:</p>
+<ul class="simple">
+<li>păstrează o formă simplă,</li>
+<li>mișcă-te repede,</li>
+<li>fii pragmatic.</li>
+</ul>
+<p>În mod special este mai bine să furnizezi chiar acum datele brute, decât să furnizezi date într-un format perfect.</p>
+<p>Sunt foarte multe moduri diferite de a face datele accesibile către alții. Cel mai natural mod, în epoca Internetului, este publicarea online. Există multe variațiuni ale acestui model. Formula de bază este ca agențiile care dețin date publice să asigure accesul la date prin intermediul proprilor sit-uri web, iar un catalog central direcționează vizitatorii către sursa adecvată. În orice caz, există alternative.</p>
+<p>Când conectivitatea (<a class="reference internal" href="../glossary.html#term-connectivity"><em class="xref std std-term">connectivity</em></a>) este limitată sau mărimea setului de date este este extrem de mare, ar putea fi asigurată distribuirea prin intermediul altor formate. Această secțiune va discuta alternative care ar putea avea un rol în a menține tarifele foarte scăzute.</p>
+<div class="section" id="online-methods">
+<h2>Metode online<a class="headerlink" href="#online-methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>Prin intermediul sit-ului tău web deja existent<a class="headerlink" href="#via-your-existing-website" title="Permalink to this headline">¶</a></h3>
+<p>Sistemul care este cel mai familiar echipei tale de conținut web este de a furniza fișiere pentru a fi descărcate de pe pagini web. La fel cum oferiți în acest moment acces la documente pentru discuții, pot fi oferite și fișierele.</p>
+<p>Problema este că este dificil pentru cineva din exterior să descopere unde poate să găsească informația actualizată. Această opțiune îngreunează crearea de unelte pentru datele respective, pentru anumite persoane.</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>Prin intermediul sit-urilor altor persoane<a class="headerlink" href="#via-3rd-party-sites" title="Permalink to this headline">¶</a></h3>
+<p>Multe depozite au devenit puncte central pentru distribuția datelor în anumite domenii. De exemplu, pachube.com este creat pentru a facilita conexiunea între persoanele care folosesc sisteme senzoriale cu cei doresc să acceseze datele deținute de ele. Sit-uri precum Infochimps.com și Talis.com permit agențiilor publice să stocheze gratis cantități mari de date.</p>
+<p>Sit-urile altor persoane sunt foarte utile. Acest lucru se datorează faptului că ei au adunat deja o comunitate de persoane interesate și alte seturi de date. Atunci când informațiile tale fac parte din aceste platforme, se crează un interes comun.</p>
+<p>Platforme de date în volum mare oferă infrastructura necesară care răspunde cererii. Adesea ele furnizează informații statistice și informații privind utilizarea. Pentru agențiile din sectorul public, acestea sunt în general gratuite.</p>
+<p>Aceste platform implică două tipuri de costuri. Primul este independența. Agenția ta trebuie să poată preda controlul și altora. Acest lucru este adesea dificil din punct de vedere politic, legal sau operațional. Al doilea cost îl implică deschiderea. Asigură-te că platforma ta de date este accesibilă de către toată lumea. Dezvoltatorii de software și oamenii de știință folosesc multe sisteme de operare, de la telefoane inteligente la supercalculatoare. Ar trebui ca toată lumea să poată să acceseze datele.</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>Prin intermediul Protocolului pentru Transferul Fișierelor (FTP)<a class="headerlink" href="#via-ftp-servers" title="Permalink to this headline">¶</a></h3>
+<p>O metodă mai puțin la modă pentru acordarea accesului la fișiere este prin FTP. Acest lucru este potrivit atunci când audiența ta are cunoștințe tehnice, precum dezvoltatorii de software și oamenii de știință. Sistemele FTP înlocuiesc HTTP, dar sunt special create pentru transferal de fișiere.</p>
+<p>FTP a ieșit din grații. Mai degrabă decât furnizarea unui sit, să te uiți printr-un server este ca și cum te-ai uita prin dosare într-un calculator. Deși este în concordanță cu obiectivul, capacitatea firmelor de dezvolatare web de a taxa pentru personalizare este mult mai mica.</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>Ca torenți<a class="headerlink" href="#as-torrents" title="Permalink to this headline">¶</a></h3>
+<p>BitTorrents este un sistem care a devenit familiar celor care conturează politici datorită asocierii cu încălcarea dreptului de copier. BitTorrent folosește fișiere numite torenți, care funcționează prin împărțirea costului de distribuire a fișierelor între toate persoanele care accesează respectivele fișiere. În loc ca serverele să se supraîncarce, oferta creștea pe măsură ce creștea cererea. Acesta este motivul pentru care acest sistem este atât de eficient pentru distribuirea filmelor. Este o metodă foarte eficientă pentru distribuirea unor volume mari de date.</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>Ca API<a class="headerlink" href="#as-an-api" title="Permalink to this headline">¶</a></h3>
+<p>Datele pot fi publicate prin Interfețe de Programare cu Aplicație (API). Aceste interfețe au devenit foarte cunoscute. Ele permit programatorilor să selecteze anumite fragmnte de date, mai degrabă decât să furnizeze toate într-un vrac (bulk), ca fișiere mari. API sunt conectate în mod obișbuit la o bază de date care este actiualizată în timp real. Acest lucru înseamnă că a face informația disponibilă prin intermediul unei API ne asigură că informația este actualizată la zi.</p>
+<p>Publicarea datelor primare în volum mare ar trebui să fie principala preocupare a tuturor inițiativelor privind datele deschise. Interfețele de programare cu aplicație presupun o serie de costuri:</p>
+<ol class="arabic simple">
+<li>Prețul. Au nevoie de mai multă mentenanță decât furnizarea fișierelor.</li>
+<li>Așteptările. Pentru a încuraja o comunitate de utilizatori să folosească sistemul, este important să ofero certitudine. Atunci când lucrurile nu merg bine, se va aștepta de la tine să acoperi costul reparațiilor.</li>
+</ol>
+<p>Accesul la un volum mare de informații asigură că:</p>
+<ol class="loweralpha simple">
+<li>nu există dependență față de furnizorul primar de date, acest lucru însemnând că, dacă o restructurare sau un ciclu bugetar schimbă situația, informațiile sunt încă disponibile.</li>
+<li>oricine altcineva poate obține o copie și o poate redistribui. Acest lucru reduce costurile cu distribuția, luându-le de la agenția sursă și presupune faptul că nu există un singur loc unde sunt stocate informațiile (single point of failure).</li>
+<li>alții pot dezvolta propriile servicii folosind informațiile, pentru că au siguranța că informațiile nu le vor fi luate.</li>
+</ol>
+<p>Furnizând informațiile în volum mare, le permite altora să folosească informațiile dincolo se scopul lor primar. De exemplu, permite ca acestea să fie transformate în formate noi, să fie conectate cu alte surse, sau să fie create alte versiuni și arhivate în multiple locații. În timp ce ultima versiune a informației poate fi pusă la dispoziție printr-o API, datele primare ar trebui puse la dispoziție în volum mare, la intervale regulate de timp.</p>
+<p>De exemplu, serviciul de statistică Eurostat (<a class="reference external" href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/">http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/</a>) conține posibilitatea de a descărca volume mari, oferind peste 4000 de fișiere de date. Este actualizat de două ori pe zi, oferă date în format cu valori separate tabular și include documentația privind fișierele de date și posibilitatea de descărcare.</p>
+<p>Un alt exemplu este Catalogul de Date al Districtului Columbia (District of Columbia Data Catalog), care permite ca datele să fie descărcate în formate CSV și XLS, în plus față de actualizarea în timp real a datelor.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introducere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">De ce date libere?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Ce sunt datele deschise?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Cum să deschizi datele</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Alegerea setului (seturilor) de date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Aplicarea licențelor de tip deschis (libertatea legală)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Fă datele accesibile (deschiderea tehnică)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">Metode online</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">Fă datele cât mai ușor de găsit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Am deschis niște date, și acum?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glosar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Anexe</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

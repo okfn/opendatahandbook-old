@@ -1,0 +1,280 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Formate de fișier &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Anexe" href="index.html" />
+    <link rel="next" title="Ce drepturi (de proprietate intelectuală) există în bazele de date?" href="what-legal-ip-rights-are-there-in-databases.html" />
+    <link rel="prev" title="Anexe" href="index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="file-formats">
+<h1>Formate de fișier<a class="headerlink" href="#file-formats" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="an-overview-of-file-formats">
+<h2>O privire de ansamblu asupra formatelor fișierelor<a class="headerlink" href="#an-overview-of-file-formats" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="json">
+<h3>JSON<a class="headerlink" href="#json" title="Permalink to this headline">¶</a></h3>
+<p>JSON este un format de fișier simplu care este foarte ușor de interpretat prin orice limbaj de programare. Simplitatea sa constă în ușurința cu care computerele procesează acest format spre deosebire de altele, cum ar fi XML.</p>
+</div>
+<div class="section" id="xml">
+<h3>XML<a class="headerlink" href="#xml" title="Permalink to this headline">¶</a></h3>
+<p>XML este un format pentru schimbul de date folosit pe scară largă, deoarece oferă oportunități de a păstra structura în date și în modul în care fișierele sunt construite. De asemenea îngăduie dezvoltatorilor să scrie părți din documentație fără a interveni asupra modului de citire.</p>
+</div>
+<div class="section" id="rdf">
+<h3>RDF<a class="headerlink" href="#rdf" title="Permalink to this headline">¶</a></h3>
+<p>Un format recomandat de W3C ce face posibilă reprezentarea datelor într-o formă ce face ușoară combinarea din mai multe surse. Datele RDF pot fi stocate în XML și JSON, printre altele. RDF încurajează folosirea URL ca identificatori, care oferă un mod convenabil de a interconecta inițiativele de <a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">open data</em></a> de pe web. RDF nu este încă foarte răspândit, dar a devenit o tendință printre inițiativele de guvernare deschisă, inclusiv proiectele de date deschise conectate ale guvernelor Marii Britanii și Spaniei (British and Spanish Government Linked Open Data). Inventatorul Web, Tim Berners-Lee, a propus o schemă cinci-stele (<a class="reference internal" href="#five-star">five-star</a>) care include date RDF conectate ca scop al căutării de inițiative pentru date deschise.</p>
+</div>
+<div class="section" id="spreadsheets">
+<h3>Foi de Calcul<a class="headerlink" href="#spreadsheets" title="Permalink to this headline">¶</a></h3>
+<p>Multe autorități au informații rămase în foi de calcul, spre exemplu Microsoft Excel. Aceste date pot fi adeseori utilizate imediat cu descrierea corectă a ceea ce înseamnă fiecare coloană.</p>
+<p>Cu toate acestea, în unele cazuri pot exista formule în foile de calcul, care pot fi mai dificile în manevrare. Este recomandată documentarea acestor formule alături de foile de calcul, pentru a fi în general mai accesibile utilizatorilor.</p>
+</div>
+<div class="section" id="comma-separated-files">
+<h3>Fișiere separate prin virgulă<a class="headerlink" href="#comma-separated-files" title="Permalink to this headline">¶</a></h3>
+<p>CSV poate fi un format foarte folositor pentru că este compact și deci potrivit pentru transferul de seturi mari de date cu aceeași structură. Totuși, formatul este așa de spartan încât datele sunt deseori nefolosibile fără documentație pentur că este aproape imposibil de ghicit semnificația diferitelor coloane. Este deci important pentru fișierele separate prin virgulă ca documentația pentru câmpurile individuale să fie precise.</p>
+<p>Mai mult este esențial ca structura fișierului să fie respectată, pentru că o singură omisiune a unui câmp poate îngreuna citirea datelor rămase în fișier fără vreo posibilitate de a rectifica eroarea, pentru că nu se paote determina cum trebuies interpretate datele rămase.</p>
+</div>
+<div class="section" id="text-document">
+<h3>Documente text<a class="headerlink" href="#text-document" title="Permalink to this headline">¶</a></h3>
+<p>Documentele în formate clasice precum Word, ODF, OOXML sau PDF pot fi suficiente pentru a expune anumite tipuri de date - spre exemplu, în liste de mesaje sau altele. Ar putea fi mai ușor să fie prezentate în aceste formate, pentru că sunt formatele în care datele au fost introduse ințial. Formatele nu oferă niciun suport pentru a păstra o structură consistentă, ceea ce de multe ori înseamnă că este dificilă introducerea de date în mod automat. Folosirea șabloanelor ca bază pentru documentele care vor expune date pentru refolosire, face posibilă cel puțin extragerea informației din documente.</p>
+<p>De asemenea poate sprijini folosirea ulterioară a formatelor tipografice pe cât posibil pentru ca astfel să fie mai ușor distingerea antetelor (de orice tip) de către o mașină din orice conținut. În general este nu recomandată folosirea formatulelor Word, dacă datele există și în alte formate.</p>
+</div>
+<div class="section" id="plain-text">
+<h3>Text simplu<a class="headerlink" href="#plain-text" title="Permalink to this headline">¶</a></h3>
+<p>Documentele în format text simplu (.txt) sunt foarte ușor de citit de către calculatoarele. În general acestea exclud metadatele din interiorul documentuli, ceea ce înseamnă că dezvoltatorii vor fi nevoiți să creeze un program pentru analiză sintactică care poate interpreta fiecare document așa cum apare.</p>
+<p>Unele probleme pot fi cauzate de schimbul de fișiere text între sistemele de operare. MS Windows, Mac OS X și alte variante Unix au fiecare propriul mod de a spune calculatoarelor că au ajuns la sfârșit de linie.</p>
+</div>
+<div class="section" id="scanned-image">
+<h3>Imagini scanate<a class="headerlink" href="#scanned-image" title="Permalink to this headline">¶</a></h3>
+<p>Probabil cel mai puțin potrivit format pentru cele mai multe date, dar ambele formate TIFF și JPEG-2000 pot cel puțin marca cu documentație ce anume este în imagine - până acolo încât să marcheze imaginea unui document cu tot textul acelui document. Poate fi relevantă expunerea datelor ca imagini pentru acele date care nu au fost create în format electronic, cum ar fi materialele din arhive, iar o imagine este mai bună decât nimic.</p>
+</div>
+<div class="section" id="proprietary-formats">
+<h3>Formatele proprietărești<a class="headerlink" href="#proprietary-formats" title="Permalink to this headline">¶</a></h3>
+<p>Unele sisteme dedicate au propriile formate de date în care pot salva sau exporta date. Uneori poate fi suficientă expunerea datelor în astfel de formate - în special dacă se așteaptă ca utilizările ulterioare să aibă loc în sisteme similare celor din care provin. Ar trebui întotdeauna indicat unde anume se pot găsi informații ulterioare despre aceste formate, spre exemplu o legătură către situl web al distribuitorului. In general se recomandă expunerea datelor în formate neproprietărești acolo unde este posibil.</p>
+</div>
+<div class="section" id="html">
+<h3>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h3>
+<p>În zile noastre majoritatea datelor sunt disponibile în HTML pe diverse situri. Aceasta poate fi suficient dacă datele sunt stabile și limitate în scop. În unele cazuri, este de preferat obținerea într-o formă simplă de descărcat și manevrat, dar este simplu să se ofere o legătură către o pagină web, ar putea fi un bun punct de plecare în expunerea datelor.</p>
+<p>În mod normal, ar fi mai potrivită folosirea tabelelor în documente HTML pentru a păstra datele, și apoi este important ca diversele câmpuri de date să fie afișate și să li se dea identificatori care fac ușoară manevrarea datelor. Yahoo a dezvoltat o unealtă (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>) care poate extrage informații structurate dintr-un sit web și astfel de unelte pot face mai multe cu datele care sunt etichetate cu atenție.</p>
+</div>
+</div>
+<div class="section" id="open-file-formats">
+<h2>Formate de fișier deshise<a class="headerlink" href="#open-file-formats" title="Permalink to this headline">¶</a></h2>
+<p>Chiar dacă informația este oferită în format electronic, în formate ce pot fi citite automat și în detaliu, pot exista probleme legate de formatul fișierului.</p>
+<p>Formatele în care informația este publicată - cu alte cuvinte formatul digital în care informația este stocată - pot fi „deschise” sau „închise”. Un format deschis este unul în care specificațiile pentru programe sunt standardizate, disponibile oricui, astfel încât oricine poate folosi aceste specificații în propriile programe fără alte limitări in refolosire impuse de drepturile de proprietate intelectuală.</p>
+<p>Dacă un format de fișier este „închis”, aceasta poate fi pentru că formatul este proprietăresc și specificațiile nu sunt public accesibile sau pentru că formatul este proprietăresc și deși specificațiile au fost făcute publice, reutilizarea este limitată. Dacă informația este eliberată într-un fișier în format închis, aceasta poate produce obstacole semnificative în reutilizarea informației codificată în fișier, forțându-i pe cei care doresc să folosească informația să cumpere programele necesare.</p>
+<p>Beneficiul formatelor de fișiere deschise este că ele permit dezvoltatorilor să producă pachete de programe și servicii folosind aceste formate. Aceasta minimizează obstacolele refolosirii informației pe care o conțin.</p>
+<p>Folosirea formatelor de fișier proprietăresc pentru care specificațiile nu sunt accesibile pot crea dependențe de terțe programe sau terți deținători de drepturi asupra formatelor de fișiere. În cel mai rau caz, aceasta înseamnă că informația poate fi citită doar folosind anumite pachete de programe, la prețuri neaccesibile, sau care pot deveni depășite.</p>
+<p>Din perspectiva <a class="reference internal" href="../glossary.html#term-open-government-data"><em class="xref std std-term">open government data</em></a> este preferată publicarea informației în <strong>formate de fișier deschise care pot fi citite automat.</strong></p>
+<div class="section" id="example-uk-traffic-data">
+<h3>Exemplu: date despre trafic în Regatul Unit<a class="headerlink" href="#example-uk-traffic-data" title="Permalink to this headline">¶</a></h3>
+<p>Andrew Nicolson este un dezvoltator de programe care a fost implicat într-o campanie (în cele din urmă de succes) împotriva construirii unei noi străzi, Westbury Eastern, în Regatul unit. Andrew a fost interesat de accesarea și folosirea datelor despre trafic ce erau folosite pentru a justifica propunerile. A reușit să obțină câteva dintre cele mai relevante date prin cereri bazate pe legislația privind liberul acces la informație, dar autoritățile locale au oferit datele într-un format proprietăresc ce poate fi citit doar folosind programe produse de o companie numită Saturn, specializată în modelarea și anticiparea traficului. Nu era oferită o versiune „” a programului, așa că grupul lui Andrew nu avut nicio alternativă, decât să cumpere o licență pentru programe, plătind în final £500 (€600) utilizând o reducere educatională. Pachete principale de programe de pe lista de prețuri ale comaniei Saturn, din aprilie 2010, pornesc de la £13,000 (peste €15,000), un preț care nu este accesibil cetățenilor obișnuiți.</p>
+<p>Deși nicio lege pentru accesul la informație nu dă dreptul la accesul în formate deschise, inițiativele guvernamentale de deschidere a datelor încep să fie însoțite de documente de politici care stipulează că informațiile oficiale trebuie să fie disponibile în formate deschise. Standardul înalt a fost stabilit de administrația Obama, prin Directiva pentru o duvernare deschisă, din decembrie 2009, care spune:</p>
+<blockquote>
+<div><em>Pe cât posibil și în concordanță cu restricțiile valabile, agențiile ar trebui să publice informația pe internet într-un format deschis care poate fi găsit, descărcat, indexat și în care se poate căuta folosind aplicații de căutare web. Un format deschis este unul care este independent de platformă, se poate citi automat și poate fi disponibil publicului fără restricții care ar împiedica refolosirea acelei informații.</em></div></blockquote>
+</div>
+</div>
+<div class="section" id="how-do-i-use-a-given-format">
+<h2>Cum folosesc un anumit format?<a class="headerlink" href="#how-do-i-use-a-given-format" title="Permalink to this headline">¶</a></h2>
+<p>Când o autoritate trebuie să expună noi date - date care nu au fost expuse înainte - ar trebui să alegi formatul care oferă cel mai bun balans între cost și potrivirea cu scopul. Pentru fiecare format există anumite lucruri de care trebuie să fii conștient și această secțiune încearcă să le explice.</p>
+<p>Această secțiune se focalizează doar pe modul în care elementele sunt îmbinate astfel încât să poată fi accesate automat. Sfaturi și ghiduri despre cum ar trebui proiectate siturile și serviciile web pot fi găsite în altă parte.</p>
+<div class="section" id="web-services">
+<h3>Servicii Web<a class="headerlink" href="#web-services" title="Permalink to this headline">¶</a></h3>
+<p>Pentru date care se schimbă frecvent și acolo unde fiecare cerere este limitată în dimensiune, este relevantă expunerea datelor prin servicii web. Există mai multe moduri de a crea servicii web, dar unele dintre cele mai folosite sunt SOAP și REST. În general, SOAP mai mult decât REST sau servicii REST, dar sunt foarte ușor de dezvoltat și folosit, așa că sunt standarde folosite pe scară largă.</p>
+</div>
+<div class="section" id="database">
+<h3>Baze de date<a class="headerlink" href="#database" title="Permalink to this headline">¶</a></h3>
+<p>La fel ca serviciile web, bazele de date oferă acces direct la date în mod dinamic. Bazele de date au avantajul ca pot îngădui utilizatorilor să pună la un loc doar extragerile care îi interesează.</p>
+<p>Există unele îngrijorări cu privire la securitate atunci când se îngăduie acces de la distanță pentru extragerea din bazele de date și accesul la bazele de date este folositor doar dacă structura bazei de date și importanța tabelelor individuale și a câmpurilor sunt bine documentate. Adesea, este relativ simplu și ieftin să se creeze servicii web care expun date dintr-o bază de date, care poate fi o metodă ușoară de a aborda îngrijorările cu privire la securitate.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introducere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">De ce date libere?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Ce sunt datele deschise?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">Cum să deschizi datele</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Am deschis niște date, și acum?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glosar</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Anexe</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Formate de fișier</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">O privire de ansamblu asupra formatelor fișierelor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">Formate de fișier deshise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">Cum folosesc un anumit format?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">Ce drepturi (de proprietate intelectuală) există în bazele de date?</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

@@ -38,14 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Open Data Handbook'
-copyright = u'''&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
-    Licensed under <a
-    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
-    Attribution (Unported) v3.0 License</a>.<br />
-    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
-    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
-      alt="{{ _('Open Content') }}" /></a>
-  '''
+copyright = u'''&copy; 2010-2012, Open Knowledge Foundation'''
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

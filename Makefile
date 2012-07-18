@@ -119,7 +119,7 @@ msgfmt:
 	msgfmt $(BASEDIR)/all.po -o $(BASEDIR)/all.mo
 
 linkpot:
-	for potfile in $(POTFILES); do \
+	@for potfile in $(POTFILES); do \
 		ln -s all.mo $(BASEDIR)/$$potfile.mo; \
 	done
 

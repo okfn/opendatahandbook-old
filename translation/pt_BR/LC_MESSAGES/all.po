@@ -16,14 +16,14 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: 2012-04-16 11:15+0000\n"
-"Last-Translator: Augusto Herrmann <augusto.herrmann@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.net/projects/p/opendatahandbook/language/pt_BR/)\n"
+"PO-Revision-Date: 2012-07-05 05:11+0000\n"
+"Last-Translator: Teseu <teseu@fedoraproject.org>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/opendatahandbook/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
@@ -1298,7 +1298,7 @@ msgid ""
 "be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
-msgstr ""
+msgstr "Facilitando a melhoria dos dados ao permitir derivativos dos datasets a serem catalogados. Por exemplo, alguém pode ter endereços geocodificados e querer compartilhar esses resultados com todos. Se você permite apenas versões únicas de datasets, essas melhorias se mantém ocultas."
 
 # e8ad70e351d34a9caf7bc7cf0409f67d
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
@@ -1314,7 +1314,7 @@ msgid ""
 "Ensure that access is equitable. Try to avoid creating a privileged level of"
 " access for officials or tenured researchers as this will undermine "
 "community participation and engagement."
-msgstr ""
+msgstr "Tenha certeza de que o acesso é igualitário. Tente evitar a criação de níveis de acesso privilegiado para oficiais ou pesquisadores estáveis, o que pode minar a participação da comunidade e seu engajamento."
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67

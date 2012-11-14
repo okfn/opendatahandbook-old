@@ -3,31 +3,28 @@
 # This file is distributed under the same license as the Open Data Handbook package.
 # 
 # Translators:
-# Dennis Chen <>, 2012.
-#   <kechiang.huang@gmail.com>, 2012.
-#   <lansadik@pchome.com.tw>, 2012.
-#   <laura.newman@okfn.org>, 2012.
-# TH Schee <info@motomosa.com>, 2012.
-#   <venico.c@gmail.com>, 2012.
-#   <whisky@ystaiwan.org.tw>, 2012.
+#   <andrius.druzinis@gmail.com>, 2012.
+# Kiprianas Spiridonovas <k.spiridonovas@gmail.com>, 2012.
+#   <mangis.adomaitis@gmail.com>, 2012.
+#   <zezere@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: 2012-06-28 08:44+0000\n"
-"Last-Translator: whisky <whisky@ystaiwan.org.tw>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/opendatahandbook/language/zh_TW/)\n"
+"PO-Revision-Date: 2012-10-25 14:12+0000\n"
+"Last-Translator: zezere <zezere@gmail.com>\n"
+"Language-Team: Lithuanian (Lithuania) (http://www.transifex.com/projects/p/opendatahandbook/language/lt_LT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
 msgid "The Open Data Handbook"
-msgstr "Open Data 開放資料手冊"
+msgstr "Atvirų duomenų vadovėlis"
 
 # d585ec8bbdd54f2d88e54daa0238f9d2
 #: ../../source/index.rst:5
@@ -36,7 +33,7 @@ msgid ""
 "data.** It can be used by anyone but is especially designed for those "
 "seeking to **open up** data. It discusses the **why, what and how** of open "
 "data -- why to go open, what open is, and the how to 'open' data."
-msgstr "**在這本手冊中，我們將從法令層面，社會層面與技術層面上來說明什麼是 Open Data 與 Open Data 的重要性** 。任何人只要對 Open Data 有興趣都可閱讀這本手冊，但是在編寫時，我們將這本手冊的讀者預設為想要學習如何將資料「開放出來」的人。我們將會討論到開放資料的 **為何要 (why)** ， **什麼是 (what)** 和 **如何做 (how)** – 為何要開放資料，開放的定義是，和如何「開放」 (‘open’) 資料。"
+msgstr "**Šis vadovėlis nagrinėja teisinius, socialinius ir techninius atvirų duomenų aspektus**. Jį gali naudoti visi, tačiau labiausiai jis skirtas tiems, kurie **atveria** duomenis. Vadovėlis nagrinėja, **ką, kaip ir kodėl** reikia daryti: kodėl duomenis reikia atverti, kas yra duomenų atvirumas, ir kaip juos atverti."
 
 # 3c3f679596a84f43a381f53ce49badeb
 #: ../../source/index.rst:11
@@ -44,7 +41,7 @@ msgid ""
 "To get started, you may wish to look at the :doc:`Introduction "
 "<introduction/index.html>`. You can navigate through the report using the "
 "Table of Contents (see sidebar or below)."
-msgstr "在開始我們的「開放資料」之旅前，或許您該先看一下「前言」 (:doc:`Introduction <introduction/index.html>`) 的說明。您可以使用使用本文下方 (或是在邊欄) 的目錄 (Table of Contents) 來選擇您要閱讀的章節。"
+msgstr "Pradžiai galite pasižiūrėti :doc:`Įžangą <introduction/index.html>`. Turinys - šone ir apačioje."
 
 # 3115b5512c6e4ecd861e4e84d400523c
 #: ../../source/index.rst:15
@@ -52,37 +49,37 @@ msgid ""
 "We warmly welcome comments on the text and will incorporate feedback as we "
 "go forward. We also welcome contributions or suggestions for additional "
 "sections and areas to examine."
-msgstr "我們歡迎提出關於手冊內文章的任何建言，並且會在下次改版更新時把大家的建議納入。如果您希望加入手冊內文的編寫行列，或是認為有需要增加新的章節或是文字的修改，我們也很歡迎您能告訴我們。"
+msgstr "Mielai laukiame komentarų, atsižvelgsime į juos tobulindami šį tekstą. Taip pat laukiame pagalbos ir pasiūlymų, kokius dar skyrius įtraukti ar kokias sritis išnagrinėti."
 
 # 9e0f00346b0349e29d51083d1dd7a9aa
 #: ../../source/index.rst:21
 msgid "Table of Contents"
-msgstr "目錄"
+msgstr "Turinys"
 
 # 4e947d94bfbe4ecd98c5dee75be312f8
 #: ../../source/index.rst:36
 msgid "Indices and tables"
-msgstr "索引"
+msgstr "Indeksai ir lentelės"
 
 # af87acc3665e428c99dff796e236694a
 #: ../../source/index.rst:38
 msgid ":ref:`genindex`"
-msgstr ":ref:`genindex`"
+msgstr ":ref:`Indeksas`"
 
 # cf589c147b0947639ead7a84a9c78850
 #: ../../source/index.rst:39
 msgid ":ref:`search`"
-msgstr ":ref:`search`"
+msgstr ":ref:`paieška`"
 
 # 159dc292955b401cbaa31592c2ae43c1
 #: ../../source/introduction/credits.rst:3
 msgid "Credits and Copyright"
-msgstr "作者群與版權宣告"
+msgstr "Kūrėjai ir autorinės teisės"
 
 # 138a093ae5b548cb9f07805111c55cfd
 #: ../../source/introduction/credits.rst:6
 msgid "Contributing authors"
-msgstr "作者群"
+msgstr "Prisidėję autoriai"
 
 # c41cf04f647249b9ac59afbca1382129
 #: ../../source/introduction/credits.rst:8
@@ -92,7 +89,7 @@ msgstr "`Daniel Dietrich`_"
 # 26742a0e756242a2801b0f02ebdd1707
 #: ../../source/introduction/credits.rst:9
 msgid "`Jonathan Gray`_"
-msgstr "`Tim McNamara`_"
+msgstr "`Jonathan Gray`_"
 
 # 1759d73a3a794025b286529b4cc19a17
 #: ../../source/introduction/credits.rst:10
@@ -122,46 +119,46 @@ msgstr "`Ton Zijlstra`_"
 # 8a356ddea3824a2db4c1635a82782883
 #: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
-msgstr "內容引用資料來源說明"
+msgstr "Tiesiogiai naudojami esami šaltiniai"
 
 # f4c4a9ca6b2b450696be1a124cfc276b
 #: ../../source/introduction/credits.rst:19
 msgid ""
 "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
 " Group led by Simon Parrish*"
-msgstr "關於建立 IATI 規格的技術提案書。 IATI 技術諮詢團隊 – 主持人 Simon Parrish"
+msgstr "Technininis pasiūlymas kaip galima įgyvendinti IATI. *The IATI Technical Advisory Group vadovaujama Simon'o Parrish'o*"
 
 # a9cfff5e7e764f63b118c211a551e395
 #: ../../source/introduction/credits.rst:21
 msgid ""
 "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
 "Gray, Simon Parrish, Jordan Hatcher*"
-msgstr "將救助資訊的潛能解放出來 (`Unlocking the Potential of Aid Information`_). *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
+msgstr "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
 
 # 50c8f4db407a45a8894e99e59ef5adef
 #: ../../source/introduction/credits.rst:23
 msgid "Finnish manual authored by *Antti Poikola*"
-msgstr "芬蘭手冊作者 *Antti Poikola*"
+msgstr "Suomiško vadovo autorius -- *Antti Poikola*"
 
 # 912b40b810ef40ab872ba564e1c3a631
 #: ../../source/introduction/credits.rst:24
 msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
-msgstr "Beyond Access Report (近取之後). *Access Info 與 the Open Knowledge Foundation*"
+msgstr "Po prieinamumo ataskaitos. *Access Info and the Open Knowledge Foundation*"
 
 # 6c2bad4a78ed4069aacfd795a2df0a02
 #: ../../source/introduction/credits.rst:27
 msgid "Other sources"
-msgstr "其他資料來源"
+msgstr "Kiti šaltiniai"
 
 # b2509758c71d471e97585141feaee236
 #: ../../source/introduction/credits.rst:29
 msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
-msgstr "W3C Publishing Government Data (公開政府資料 2009) http://www.w3.org/TR/gov-data/"
+msgstr "W3C Valdžios duomenų skelbimas (2009) http://www.w3.org/TR/gov-data/"
 
 # 0324e39be1e643bf9c026b6173d4a583
 #: ../../source/introduction/index.rst:3
 msgid "Introduction"
-msgstr "前言"
+msgstr "Įžanga"
 
 # 27e4a5b184654c999139c3127056f637
 #: ../../source/introduction/index.rst:5
@@ -172,7 +169,7 @@ msgid ""
 "along the way? Where in your region will you find the best job opportunities"
 " and the highest number of fruit trees per capita? When can you influence "
 "decisions about topics you deeply care about, and whom should you talk to?"
-msgstr "你知道你所繳納的稅金，有多少是花在路燈的維護嗎？或者有多少用在癌症的研究上？從你家到你工作的地方，你可知道哪一條腳踏車道是所需時間最短、最安全，同時也是風景最優美的嗎？然後，這一路上你所呼吸的空氣品質如何？在你所居住的區域，要到哪裡找到條件最好的工作，同時以人口比率來說，果樹的數量也是最高的？ 對於你所關心的議題，什麼時候你可以參與和影響政策的決定，你又該跟誰去說這些要求呢？"
+msgstr "Ar žinote, kokia dalis jūsų sumokėtų mokesčių išleidžiama gatvių apšvietimui ar vėžio tyrimams? Koks trumpiausias, saugiausias ir gražiausias dviračių takas nuo jūsų namų iki darbo? Ir ko yra ore, kuriuo jūs pakeliui kvėpuojate? Kur jūsų regione geriausi darbo pasiūlymai ir didžiausias vaismedžių skaičius, tenkantis vienam žmogui? Kada galima padaryti įtaką valdžios priimamiems sprendimams ir ką kreiptis?"
 
 # 03772b8e0b654a2980a166e25f7ce602
 #: ../../source/introduction/index.rst:12
@@ -184,7 +181,7 @@ msgid ""
 " unlock the potential of official and other information to enable new "
 "services, to improve the lives of citizens and to make government and "
 "society work better."
-msgstr "新的科技讓我們在今日可以設計出新的服務來自動回答這所有問題。同時，我們需要的資料絕大部分都已經由公部門收集整理好了。但是，很多時候這些資料並不是以一種簡單的「格式」公布出來。這本手冊就是要談如何釋放出這些由政府或是其他人與組織團體產出的資料所隱藏的能量，來開創新的服務，改善人民的生活，同時讓政府與整個社會運作的更好。"
+msgstr "Naujos technologijos sudaro galimybę sukurti tokias paslaugas ir automatiškai atsakyti į tokius klausimus. Duomenis, kurių reikia norint atsakyti į šiuos klausimus, renka viešojo sektoriaus įstaigos. Šis vadovėlis paaiškina, kaip išlaisvinti šių bei kitų duomenų potencialą ir sudaryti galimybes kurtis naujoms paslaugoms, pagerinti piliečių gyvenimą, paskatinti valstybę ir visuomenę efektyviau veikti."
 
 # e864d6f9f1fb4632898e4a87c8e14237
 #: ../../source/introduction/index.rst:20
@@ -195,7 +192,7 @@ msgid ""
 "started to become visible in the mainstream, with various governments (such "
 "as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
 "opening up their public information."
-msgstr "關於 :term:`open data` (開放資料) 的概念，尤其是 :term:`open government data` (政府資料開放) – 也就是，任何人都可自由取得，並且不管資料開放與否和資料的用途，都能自由地使用的資訊 – 在多年前就已經被提出來。從 2009 年開始，我們在主流媒體上也逐漸開始看到許多關於「資料開放」的消息，許多政府（例如美國，英國，加拿大與紐西蘭） 也在這時提出各自關於公部門資料（資訊）的開放計畫。"
+msgstr ":term:`Atvirų duomenų <open data>`, ir ypač - :term:`atvirų valdžios duomenų <open government data>`, kaip viešos informacijos, kurią bet kas gali pasiekti ir panaudoti bet kokiam tikslui, supratimas atsirado jau prieš keletą metų. 2009 m. atviri duomenys pradėjo rodytis plačiojoje visuomenėje, kuomet įvairių šalių vyriausybės (tokios kaip JAV, Didžioji Britanija, Kanada ir Naujoji Zelandija) parodė iniciatyvą atverdamos viešojo sektoriaus renkamą informaciją."
 
 # 772e3651fec74d03808df10160177562
 #: ../../source/introduction/index.rst:28
@@ -205,44 +202,44 @@ msgid ""
 "positive impact in many different areas. In addition to exploring the "
 "background, the handbook also provides concrete information on how to "
 "produce open data."
-msgstr "在這本手冊中我們將說明關於‘open data’ (資料開放) 的基本概念，特別是關於政府部門的資料開放。我們將會說明，資料開放如何導出資料的加值和如何對許多不同領域帶來正面的衝擊。除了基本概念的說明，手冊內容也包含了如何開始「資料開放」的實務說明。"
+msgstr "Šis vadovėlis aprašo atvirų duomenų esmę, ypač kur tai liečia vyriausybes. Jis paaiškina, kaip atviri duomenys sukuria vertę ir daro teigiamą poveikį daugelyje sričių. Vadovėlis taip pat pateikia konkrečios informacijos apie tai, kaip duomenis atverti."
 
 # 5d3906c5912447478481d10c2ba8231a
 #: ../../source/introduction/index.rst:35
 msgid "Target Audience"
-msgstr "適用讀者"
+msgstr "Tikslinė auditorija"
 
 # 985f89dcc7c64fef93e53052ddc36ab0
 #: ../../source/introduction/index.rst:37
 msgid "This handbook has a broad audience:"
-msgstr "任何人都可輕鬆閱讀這本手冊，包含了 :"
+msgstr "Šis vadovėlis skirtas plačiai auditorijai:"
 
 # 204beca931a640a3a2feb572395bae22
 #: ../../source/introduction/index.rst:39
 msgid ""
 "for those who have never heard of open data before and those who consider "
 "themselves seasoned ‘data professionals’"
-msgstr "從那些從來沒有聽過 open data （資料開放）的人，到自認為是資料專家 ‘data professionals’ 的人。"
+msgstr "tiems, kas niekada nėra girdėję apie atvirus duomenis ir tie, kurie laiko save duomenų žinovais"
 
 # d434b8617ca84b2f812c8b93c72b2b3f
 #: ../../source/introduction/index.rst:41
 msgid "for civil servants and for activists"
-msgstr "從人民公僕到社會運動參與者"
+msgstr "valstybės tarnautojams ir visuomenės entuziastams"
 
 # 1683ab9a73354d41afc35e5c3dcbab0e
 #: ../../source/introduction/index.rst:42
 msgid "for journalists and researchers"
-msgstr "從新聞記者到研究人員"
+msgstr "žurnalistams ir mokslininkams"
 
 # 2dab3eafd12e452b9326f4b397b20e7e
 #: ../../source/introduction/index.rst:43
 msgid "for politicians and developers"
-msgstr "從政治人物到程式開發者"
+msgstr "politikams ir programuotojams"
 
 # cc5c3df699894d2f9ef476ba048d24ca
 #: ../../source/introduction/index.rst:44
 msgid "for data geeks and those who have never heard of an API."
-msgstr "從資料技客 (data geeks) 到那些從來沒聽過 API 這個名詞的人"
+msgstr "duomenų entuziastams ir tiems, kurie nėra girdėję apie API."
 
 # b1ae7114f8c247b28261bd8c7a1de1f3
 #: ../../source/introduction/index.rst:46
@@ -250,7 +247,7 @@ msgid ""
 "Most of the information currently provided is focused on data held by the "
 "public sector. However, the authors intentions are to broaden this as time "
 "permits. You are welcome to participate to help us with that effort."
-msgstr "在手冊中我們提供的資訊與說明，絕大部分都以公部門所擁有的資料為主。但是，我們期望在未來的改版與修正中，能盡可能加入更多其他方面的資訊。我們很歡迎大家一起來參與，讓這本手冊能更好"
+msgstr "Dabar daugiausia informacijos pateikta apie viešąjį sektorių. Tačiau autoriai ketina vėliau praplėsti tematiką. Jūs kviečiami dalyvauti ir padėti tai padaryti."
 
 # 2d06a73d49494b3991c0bb6a62525e9d
 #: ../../source/introduction/index.rst:51
@@ -259,17 +256,17 @@ msgid ""
 "topic. If you do find a piece of jargon or terminology with which you aren't"
 " familiar, please see the detailed Glossary and FAQs (frequently asked "
 "questions) which can be found at the end of the handbook."
-msgstr "這本手冊是編寫給那些對於這個主題完全陌生，或是只是稍微瞭解聽過的人。在閱讀這本手冊時，如果你看到一個你不熟習的術語或是專有名詞，請參閱手冊最末附錄的名詞說明與問答集 (Glossary and FAQs) (常見問答集) 的補充說明。"
+msgstr "Šis vadovėlis skirtas tiems, kurie šia tema žino mažai arba nežino nieko. Jei randate terminą ar žargono, kurio nesuprantate, žvilgtelėkite į žodyną arba DUK (dažnai užduodamus klausimus), kurie yra vadovėlio pabaigoje."
 
 # 977078aaa78c42e7995958d96a21b8a7
 #: ../../source/introduction/index.rst:58
 msgid "Credits"
-msgstr "作者群"
+msgstr "Kūrėjai"
 
 # 5cdb697eb85f46e18bdf6edd814a406e
 #: ../../source/why-open-data/index.rst:3
 msgid "Why Open Data?"
-msgstr "為何要開放資料?"
+msgstr "Kodėl reikia atvirų duomenų?"
 
 # a729d3404ee64614bcec347dead57504
 #: ../../source/why-open-data/index.rst:5
@@ -281,7 +278,7 @@ msgid ""
 "of the quantity and centrality of the data it collects, but also because "
 "most of that government data is public data by law, and therefore could be "
 "made open and made available for others to use. Why is that of interest?"
-msgstr "開放資料 (:term:`Open data`)，尤其是政府資料開放 :term:`open government data`) ，可以看成是一個尚未被大量開發的巨大資源。許多組織或是個人為了要完成他們的工作或是任務而收集了大量各式各樣不同的資料。而在資料的收集上，不管是資料收集的品質，或是其所涵蓋的領域來看，政府都扮演了一個非常重要的角色。同時，因為大部分政府所收集的資料依照法令的規定應該屬於公共資料。所以這些資料都可開放釋出，供他人自由使用。為什麼這會很重要？"
+msgstr ":term:`Atviri duomenys <open data>`, ypač :term:`atviri vyriausybės duomenys <open government data>` yra neįtikėtinas informacijos šaltinis, kuris iki šiol buvo beveik nepanaudotas. Daugybė žmonių ir organizacijų atlikdami savo darbus surenka didžiulį įvairiausių duomenų kiekį. Vyriausybė šiuo atžvilgiu yra itin svarbi ne tik dėl duomenų kiekio ir jų svarbos, bet ir todėl, kad pagal įstatymus šie duomenys yra vieši ir todėl galėtų būti atvirai prieinami plačiajai visuomenei. Kodėl tai svarbu?"
 
 # 633202a63b474ebdb6c96289d6ac423d
 #: ../../source/why-open-data/index.rst:14
@@ -293,65 +290,65 @@ msgid ""
 "is impossible to predict precisely how and where value will be created in "
 "the future. The nature of innovation is that developments often comes from "
 "unlikely places."
-msgstr "我們預計資料的開放能在很多領域創造出新的價值。我們也有實際的案例來說明開放資料在這些領域的使用情況。如果說，我們很確定資料的開放能帶給政府部門與組織很大的利益，我們的確無法很精確的預測，在未來會創造出哪些新的價值，以及以什麼方法創造出來。因為創新的本質，就在於他是來自我們意想不到的地方。"
+msgstr "Iš atvirų duomenų galime tikėtis naudos įvairiausiose srityse, ir jau yra pavyzdžių, kada duomenys buvo sėkmingai panaudoti. Daugybei įvairių grupių ir organizacijų, taip pat ir pačiai vyriausybei, labai praverstų lengviau prieinami duomenys. Taip pat nėra įmanoma tiksliai pasakyti kur ir kiek duomenys pasitarnaus labiausiai. Inovacijos būdinga, kad naujovės atsiranda netikėtai. "
 
 # 00a897c5defd4db5a4339f04fdc80d69
 #: ../../source/why-open-data/index.rst:21
 msgid ""
 "It is already possible to point to a large number of areas where open "
 "government data is creating value. Some of these areas include:"
-msgstr "在很多領域，我們已經可以指出開放政府資料可帶來的新價值。這些領域包含了："
+msgstr "Jau dabar galima parodyti nemažai sričių, kur atviri vyriausybės duomenys kuria naudą. Keletas jų yra:"
 
 # 5a1635520561424aa295c26cd3a948d1
 #: ../../source/why-open-data/index.rst:24
 msgid "Transparency and democratic control"
-msgstr "透明化與民主監督"
+msgstr "Skaidrumas ir demokratinė kontrolė"
 
 # 4351bd20d2a14fbeaa41c82bc514ac95
 #: ../../source/why-open-data/index.rst:25
 msgid "Participation"
-msgstr "公民參與"
+msgstr "Dalyvavimas"
 
 # 234738d1ab8642818c4073300935017e
 #: ../../source/why-open-data/index.rst:26
 msgid "Self-empowerment"
-msgstr "自我成長"
+msgstr "Žmonių įgalinimas"
 
 # c1c63445907c4955948f3a0fe823118a
 #: ../../source/why-open-data/index.rst:27
 msgid "Improved or new private products and services"
-msgstr "商業產品與服務的改善或是創新"
+msgstr "Pagerinti arba nauji produktai ir paslaugos"
 
 # 1fcf56a9d6aa4bedb3a1e64ca8a3b15c
 #: ../../source/why-open-data/index.rst:28
 msgid "Innovation"
-msgstr "創新"
+msgstr "Inovacijos"
 
 # 1cf354f7245a4e09b32be3c8bbbcaa12
 #: ../../source/why-open-data/index.rst:29
 msgid "Improved efficiency of government services"
-msgstr "政府服務效能的改善"
+msgstr "Didesnis valstybės paslaugų efektyvumas"
 
 # becfeefd9faf4cf5a9b54fd289d0af5f
 #: ../../source/why-open-data/index.rst:30
 msgid "Improved effectiveness of government services"
-msgstr "政府服務效力的改善"
+msgstr "Didesnis valstybės paslaugų veiksmingumas"
 
 # 56661952af514a6783404034e39e9145
 #: ../../source/why-open-data/index.rst:31
 msgid "Impact measurement of policies"
-msgstr "政策影響與結果的評鑑"
+msgstr "Įstatymų poveikio vertinimas"
 
 # 81a1d8c9c8de42a38b06e212e26a18eb
 #: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
-msgstr "透過不同來源的資料的彙整，與巨量資料的分析和模式建立來產生新的知識"
+msgstr "Nauja informacija iš sujungtų duomenų šaltinių ir pasikartojimų dideliuose duomenų kiekiuose"
 
 # 653cba4974784fc397e901d402246323
 #: ../../source/why-open-data/index.rst:35
 msgid "Examples exist for most of these areas."
-msgstr "在這些不同的領域內，我們都可找到成功的實際範例。"
+msgstr "Sėkmingų pavyzdžių yra daugelyje šių sričių. "
 
 # 9483b02f9be049e5aae8b43b3c1ee9e0
 #: ../../source/why-open-data/index.rst:37
@@ -363,7 +360,7 @@ msgid ""
 "folketsting.dk track activity in parliament and the law making processes, so"
 " you can see what exactly is happening, and which parliamentarians are "
 "involved."
-msgstr "在透明化度這一部分，例如芬蘭的 'tax tree' (稅金樹) 與英國的 'where does my money go' (我的錢跑哪裡去)，這兩個網站分別將政府使用人民繳納稅金的分配整理出來。然後還有加拿大政府的案例，因為資料開放揭露了一個金額高達 $32億美金的慈善稅收的舞弊案。其他還有許多網站，例如丹麥追蹤國會動態與法案程序的網站 folketsting.dk，可以讓人民清楚知道目前正提出中和進入審查的法案有哪些，以及民意代表們對這些法案的態度是什麼。"
+msgstr "Skaidrumo atžvilgiu tokie projektai kaip suomių ‘mokesčių medis’ (angl.: ‘tax tree’) ar britų ‘kur keliauja mano pinigai’ (angl.: ‘where does my money go’) parodo kaip jūsų sumokėti mokesčiai yra panaudojami. Ir yra atvejis, kai atviri duomeys sutaupė Kanadai 3,2 milijardo Kanados dolerių iš labdaros mokėjimų sukčiavimo. Taip pat įvairūs internetiniai puslapiai kaip danų folketsting.dk seka parlamento veiklą ir įstatymų priėmimo procesus, kad galėtumėte stebėti, kas vyksta, ir kokia veikla užsiima parlamentarai. "
 
 # 96fa2e2f8d3346ba8f75c1744678079d
 #: ../../source/why-open-data/index.rst:45
@@ -380,7 +377,7 @@ msgid ""
 "allow you to find places to live, taking into account the duration of your "
 "commute to work, housing prices, and how beautiful an area is. All these "
 "examples use open government data."
-msgstr "政府資料的開放也可以讓你在每日的生活中做出更好的決定，或是讓你能更積極的參與社會活動。在丹麥有位女士建立了一個名為 findtoilet.dk 的網站。網站內列出了丹麥所有公共廁所的位置。這樣一來，一些她所認識有膀胱控制問題的人都可重新拾回信心，並願意較常出門。在荷蘭， vervuilingsalarm.nl 這個網站提供了一個空氣品質的警告服務。當你所在地區隔日的空氣品質預測會超越你設定的標準時，他們就會發一封警告訊息給你。在紐約你可以很輕鬆地找到可以溜狗的地方，或是找到其他也一樣會去這些公園的愛狗人士。其他如在英國的 'mapumental' 或是在德國的 'mapnificent' 都使用了政府開放出來的資料來提供他們的服務，你可以透過這些網站來尋找符合你的條件的房子。你可以依照例如通勤時間，住屋價格和居住景觀等設定來做篩選。"
+msgstr "Atviri vyriausybės duomenys taip pat gali jums padėti daryti geresnius sprendimus jūsų pačių gyvenime arba padėti būti aktyvesniems visuomenėje. Viena moteris Danijoje sukūrė findtoilet.dk, kuris nurodo visus Danijos viešuosius tualetus, kad jos pažįstami žmonės su šalpimo pūslės problemomis vėl galėtų nesirūpindami išeiti iš namų. Paslauga Nyderlanduose pavadinimu vervuilingsalarm.nl gali pranešti jums jei oro kokybė jūsų bvietovėje kitą dieną pasieks tam tikrą lygį. Niujorke galima paprastai pažiūrėti, kur gali vedžiotis šunis ir atrasti žmonių, kurie eina į tuos pačius parkus. Paslaugos kaip ‘mapumental’ Jungtinėje Karalystėje arba ‘mapificient’ Vokietijoje leidžia pasirinkti gyvenemąją vietą atsižvelgiant į važiavimo trukmę iki darbo, būstų kainas ir vietovės gražumą. Visuose pavyzdžiuose naudojami atviri vyriausybės duomenys."
 
 # 9d1f0242695c4eb08a8c1bcfcc8d4743
 #: ../../source/why-open-data/index.rst:58
@@ -395,7 +392,7 @@ msgid ""
 "register. Google Translate uses the enormous volume of EU documents that "
 "appear in all European languages to train the translation algorithms, thus "
 "improving its quality of service."
-msgstr "從經濟這一點來看，資料開放也一樣扮演著非常重要的角色。許多研究報告都指出，資料開放可產出的經濟價值光是在歐盟地區就可能高達每年數百億歐元。歐盟許多新的產品和企業都資料開放的受益者。例如，丹麥的 husetsweb.dk 網站可幫你找出住屋有效提升能源規劃的方案。這包含了財務上的規劃與協助找到適合的施工廠商。這個服務除了使用地籍資訊與政府補貼的相關資訊，也結合了在地的商業登記資訊。Google Translate為了改善他們的服務品質，使用了歐盟為數龐大的文件資料來訓練他們的翻譯功能和演算法。因為歐盟的每一份文件，都須要同時以數種不同歐洲語言來紀錄。"
+msgstr "Atviri duomenys itin svarbūs ir ekonomiškai. Keli tyrimai įvertino atvirų duomenų kuriamą vertę keliomis dešimtimis milijardų eurų vien Europos Sąjungoje. Nauji prduktai ir paslaugos vėl ir vėl naudoja atvirus duomenis. Danų husetsweb.dk padeda pagerinti jūsų namo energetinį efektyvumą, įskaitant finansinį planavimą ir reikalingų žmonių radimą darbui atlikti. Paslauga paremta kadastro ir valstybinių subsidijų informaciją, taip pat vietinius prekybos duomenis. Google Vertėjas (angl.: Google Translate) naudoja milžiniškus kiekius ES dokumentų, kurie prieinami visomis visomis Euripos kalbomis, gerinti vertimo algoritmus taip pagerindami savo paslaugų kokybę."
 
 # 457121fdf06c40558e92b439276954b8
 #: ../../source/why-open-data/index.rst:69
@@ -412,7 +409,7 @@ msgid ""
 "such as the Wikimedia Foundation in order to execute their own tasks more "
 "effectively. This not only results in improvements to the quality of their "
 "data, but will also ultimately make the department smaller."
-msgstr "資料開放對對政府本身來說，也能創造新的價值。例如，它可以有效的提升政府的服務效率。當荷蘭教育部將他們所有與教育相關的資料公布開放放上網路讓任何人都可自由使用後，他們每日需要處理的問題開始大量減少。然後部門的工作負擔與經費需求也一併降低。對於剩下依然需要處理的問題，他們也能比較容易找到答案，因為所有的資料都已經公開清楚列出。資料開放的確能夠讓政府的效能提升，而最終這一切都可減少部門運作所需的經費。荷蘭管理文化資產的部會除了很積極的將他們的資料釋放出來，同時還與許多如 Wikipedia 基金會等的歷史愛好者組成的社團與組織合作。這讓他們除了能將部分工作分配出去，還能提供工作執行的效能。這些合作關係不只提升了政府部門資料的品質，同時也縮減了部會在人事與經費上的需求。"
+msgstr "Atviri duomenys taip pat naudingi pačiai vyriausybei. Jie gali, pavyzdžiui, padidinti vyriausybės veiksmingumą. Olandų Švietimo Ministerija pateikė visus su švietimu susijusius duomenis viešam naudojimui. Nuo tada jų sulaukiamų klausimų skaičius nukrito ir dėl to sumažėjo darbo kiekis ir kaštai, o į sulaukiamus klausimus valstybės tarnautojams lengviau atsakyti, nes yra aišku, kur surasti reikalingą informaciją. Atviri duomenys taip pat pagerina vyriausybės efektyvumą, kas galiausiai padeda sumažinti kaštus. Olandų kultūrinio palikimo departamentas norėdamas geriau atlikti savo darbą aktyviai skleidžia savo turimus duomenis ir bendradarbiauja su mėgėjų istorikų bendruomenėmis ir grupėmis kaip Wikimedia Foundation. Tai ne tik gerina jų duomenų kokybę, bet ir padės laikui bėgant sumažinti departamento dydį."
 
 # 0f11bae8272f45e4b2290c2beef0e248
 #: ../../source/why-open-data/index.rst:83
@@ -428,7 +425,7 @@ msgid ""
 " general health of the population. We are likely to see such developments "
 "happening again as unexpected insights flow from the combination of "
 "different open data sets."
-msgstr "雖然我們已經在社會層次或是經濟層次上看到許多「開放資料」的應用和建立新價值的真實範例，但是我們依然無法預測在未來還會有哪些新的可能會出現。透過資料的重新配對與組合，我們能創建出新的知識與認識，而這一切都能將我們帶往全新的領域。而這一切在以前就曾經發生過。就在 19 世紀的倫敦，Dr. Snow 將霍亂造成的死亡人口分布與飲用水的水井位置作結合與分析後，發現飲用水的污染與霍亂的關係。這個發現讓倫敦市開始建立現在化的地下污水系統，從而大大改善市民的整體健康狀況。資料開放讓不同的資料有機會互相比對和引用，不可預期的新發現也隨之出現。我們相信在今天，類似的發展還會重現。"
+msgstr "Nepaisant atvejų gausos, kai atviri duomenys jau kuria socialinę ir ekonominę naudą, mes dar nežinome, kas taps įmanoma ateityje. Naujos duomenų kombinacijos gali atverti naujas žinias ir įžvalgas, kurios gali atvesti prie visiškai naujų informacijos panaudojimo būdų. Mes matome tai istorijoje, pavyzdžiui, kai daktaras Snow atrado sąryšį tarp užteršto geriamo vandens ir choleros 19 amžiaus Londone surišdamas choleros aukų duomenis su šulinių vietomis. Dėl to buvo pradėtos Londono nuotekų sistemos statybos ir gerokai pagerinta bendra gyventojų sveikatos būklė. Mes greičiausiai vėl pamatysime tokio lygio naujoves, nes netikėtos įžvalgos gimsta sujungus skirtingus atvirų duomenų rinkinius."
 
 # db07f40141dc4077a0390c1699f892ea
 #: ../../source/why-open-data/index.rst:94
@@ -439,31 +436,31 @@ msgid ""
 "use by others. Every restriction will exclude people from re-using the "
 "public data, and make it harder to find valuable ways of doing that. For the"
 " potential to be realized, public data needs to be open data."
-msgstr "如果政府資料能轉化成開放資料，我們就能將這未開發的潛能釋放出來。也只有當資料是真正開放時，這一切才有可能實現。開放，意味著對於資料的使用範圍與使用者的身份沒有任何的限制（不管是法令上的，經濟上的或是技術上的）。每一種限制都只會禁止人們來使用這些公部門資料，而越少人使用而我們就越難找到這些資料可以擁有的加值應用模式。公部門資料需要真正的開放，才能完全釋放出資料的潛能。"
+msgstr "Šios nepanaudotos galimybės gali tapti realybe, jei vieši vyriausybės duomenys taptų atvirais. Bet tai įvyks tik tada, kai duomenys bus visiškai atviri, tai yra, nebus jokių suvaržymų (teisinių, finansinių ar technologinių) šių duomenų naudojimu. Kiekvienas suvaržymas atskirs žmones nuo viešų duomenų ir dėl to bus daug sunkiau atrasti vertingų duomenų panaudojimo būdų. Kad šis potencialas būtų išnaudotas, vieši duomenys privalo būti atviri."
 
 # ec853486f23a49c69f29cf7a961642d7
 #: ../../source/what-is-open-data/index.rst:3
 msgid "What is Open Data?"
-msgstr "什麼是開放資料？"
+msgstr "Kas yra atviri duomenys?"
 
 # efa5f439bd844c199263171e3b7221e5
 #: ../../source/what-is-open-data/index.rst:5
 msgid ""
 "This handbook is about *open data* but what exactly is it? In particular "
 "what makes *open* data open, and what sorts of data are we talking about?"
-msgstr "這這是一本關於開放資料的手冊，但是到底什麼是開放資料？尤其是，是什麼讓「開放資料」真的開放？而我們所說的資料又是指什麼資料？"
+msgstr "Šis vadovėlis yra apie *atvirus duomenis*, tačiau kas tai yra? Kas padaro duomenis *atvirus*, ir apie kokios rūšies duomenis kalbame?"
 
 # 0d5a24d826714df497b1f531ec72438c
 #: ../../source/what-is-open-data/index.rst:9
 msgid "What is Open?"
-msgstr "開放是在說什麼？"
+msgstr "Ką reiškia *atvira*?"
 
 # 284d03bb80b14254bb9219ad19d33070
 #: ../../source/what-is-open-data/index.rst:11
 msgid ""
 "This handbook is about open data - but what exactly is *open* data? For our "
 "purposes, open data is as defined by the `Open Definition`_:"
-msgstr "這是一本關於開放資料的手冊 – 但是到底什麼是「開放資料」？在這裡，當我們提到「資料開放」時，我們將使用 `Open Definition`_ 中的定義 :"
+msgstr "Šis vadovėlis yra apie atvirus duomenis, tačiau kas tai yra? Šio vadovėlio ribose mes naudojamės `Atvirumo apibrėžimu`_:"
 
 # 0ec56db1f5bd4d16844482d013167141
 #: ../../source/what-is-open-data/index.rst:14
@@ -471,14 +468,14 @@ msgid ""
 "*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr "*Open data is data that can be freely used, reused and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike. (開放資料指的是資料能被任何人自由地使用，重新使用與散佈 – 我們至多只能要求來源標示，與以相同方式分享)*"
+msgstr "*Atviri duomenys - tai duomenys, kuriuos bet kas gali laisvai panaudoti, pakartotinai panaudoti ir platinami, daugių daugiausia patenkindamas reikalavimą nurodyti duomenų šaltinį ir reikalavimą pakartotinai naudoti duomenis tik tomis pačiomis sąlygomis.*"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
 msgid ""
 "The `full Open Definition`_ gives precise details as to what this means. To "
 "summarize the most important:"
-msgstr "關於「開放資料」的定義在 Open Definition  (`full Open Definition`_) 內有更詳細的說明。在這我們列出其中最重要的幾點："
+msgstr "`Pilnas atvirumo apibrėžimas`_ detaliai aprašo, ką tai reiškia. Svarbiausi dalykai yra šie:"
 
 # d6661c08a66e4657baccc415e4d94d85
 #: ../../source/what-is-open-data/index.rst:21
@@ -487,7 +484,7 @@ msgid ""
 " more than a reasonable reproduction cost, preferably by downloading over "
 "the internet. The data must also be available in a convenient and modifiable"
 " form."
-msgstr "**Availability and Access / 可得性與可讀性** : 資料必須完整釋出，同時只能依照再製的成本徵收適當的費用。最好能提供網路下載。同時提供的資料格式必須是適用和可被修改的。"
+msgstr "**Prieinamumas ir prieiga:** duomenys turi būti prieinami pilnais rinkiniais ir ne brangiau, nei kainuoja juos pateikti. Geriausia - jei duomenis galima atsisiųsti internetu. Duomenys taip pat turi būti pateikiami patogiu ir redaguojamu formatu."
 
 # 69c79a7dbacb4a3f8901fde80bc925f3
 #: ../../source/what-is-open-data/index.rst:25
@@ -495,7 +492,7 @@ msgid ""
 "**Re-use and Redistribution:** the data must be provided under terms that "
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr "**Re-use and Redistribution / 重新使用與散播** : 資料釋出時必須採用允許資料的重新使用和散播的授權聲明。並允許與其他資料混合使用。"
+msgstr "**Pakartotinis panaudojimas (pernaudojimas) ir platinimas:** duomenys turi būti pateikti taip, kad leistų pakartotinį panaudojimą ir platinimą iskaitant ir duomenų, sujungtų su kitais duomenimis, panaudojimą ir platinimą."
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -505,7 +502,7 @@ msgid ""
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr "**Universal Participation/ 分享的普遍性** : 任何人都可使用，重新使用和散佈這些資料 -  不能限制資料使用的範圍，或是使用者的資格。例如，「非商業使用」將禁止資料在所有「商業性質」的使用，或是限制資料只能使用在某個範圍內 (例如，只能作為教育上使用)。這些限制都是不被允許的。"
+msgstr "**Visuotinis dalyvavimas:** visi turi turėti galimybę naudoti, pakartotinai panaudoti ir platinti informaciją - neturi būti prieigos prie duomenų diskriminavimo jokiems asmenims ar jų grupėmis. Pavyzdžiui, neturi būti \"nekomercinių\" apribojimų, trukdančių naudoti duomenis komerciniais tikslais, taip pat neturi būti reikalavimų naudoti duomenis tik tam tikrais tikslais (pavyzdžiui, tik akademiniais)."
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -513,7 +510,7 @@ msgid ""
 "If you’re wondering why it is so important to be clear about what open means"
 " and why this definition is used, there’s a simple answer: "
 "**interoperability.**"
-msgstr "如果你對於為什麼我們如此執著在「開放」的定義和為什麼會如此定義感到疑惑，最簡單的答案就是： **interoperability – 可互通 (用) 性** 。"
+msgstr "Jei jums įdomu, kodėl taip svarbu aiškiai apsibrėžti, ką reiškia atvirumas ir kodėl šis apibrėžimas naudojamas, tai paprastas atsakymas yra: **interoperabilumas.**"
 
 # dfe720d0914442ad96bfd683d39a3a0d
 #: ../../source/what-is-open-data/index.rst:38
@@ -521,7 +518,7 @@ msgid ""
 "Interoperability denotes the ability of diverse systems and organizations to"
 " work together (inter-operate). In this case, it is the ability to "
 "interoperate - or intermix - different datasets."
-msgstr "可互通性指的是不同的系統與組織可以共同運作 (inter-operate) 的能力。在這裡，可互通性意味著讓不同的資料集 (datasets) 可以彼此引用或是相互混用的能力。"
+msgstr "Interoperabilumas suprantamas kaip įvairių organizacijų ir sistemų sugebėjimas veikti (dirbti) kartu. Šiuo atveju kalbame apie sugebėjimą sujungti skirtingus duomenų rinkinius."
 
 # 04e5ebc429754b8f8335a6f36f11f348
 #: ../../source/what-is-open-data/index.rst:42
@@ -533,7 +530,7 @@ msgid ""
 "famous myth of the Tower of Babel where the (in)ability to communicate (to "
 "interoperate) resulted in the complete breakdown of the tower-building "
 "effort."
-msgstr "可互通性的重要性在於，這是讓不同的元件可以一起共同運作的條件。這種將所有事物元件化和讓他們可以彼此 `嵌合` 的能力，對於建立一個更大更複雜的系統來說是絕對必要的。如果沒有這個可互通性，那就完全不可能達到這樣的結果。一個眾所皆知的例子就是巴別塔的神話故事，因為缺乏彼此溝通（互用）的能力（無能力），最後的結果就是整個塔的崩潰。"
+msgstr "Interoperabilumas svarbus todėl, kad leidžia kartu veikti skirtingiems komponentams. Galimybė skaidyti komponentais ir tuos komponentus jungti svarbi konstruojant dideles ir sudėtingas sistemas. Be interoperabilumo tai tampa beveik neįmanoma - tą parodo ir žinomiausia Babilono bokšto legenda, kurioje nesugebėjimas komunikuoti baigėsi visišku bokšto statybos žlugimu."
 
 # a27e57d5f3414020af50c490a0fc4717
 #: ../../source/what-is-open-data/index.rst:50
@@ -545,7 +542,7 @@ msgid ""
 "dramatically enhanced ability to combine different datasets together and "
 "thereby to develop more and better products and services (these benefits are"
 " discussed in more detail in the section on ‘why’ open data)."
-msgstr "面對資料我們也有類似的問題。當我們提到資料 (或著程式碼) 共用 (commons) 時，我們指的是「開放」資料中的一部分，可以自由地與其他「開放」資料相互混用。而可互通性就是達到「開放性」(openness) 所帶來的最大好處時最重要條件 : 因為當不同資料集可以更容易地組合在一起，我們就能更容易地發展出更多和更好的產品與服務（這些好處將在「為什麼要開放資料」一章中有更詳細的說明）"
+msgstr "Duomenų požiūriu, susiduriame su panašia problema. Esminė duomenų (ar kodo) idėja yra ta, kad vienas \"atviros\" medžiagos gabalas gali būti laisvai sujungiamas su kitu \"atviros\" medžiagos gabalu. Toks interoperabilumas yra būtinas: norint pasiekti didžiausią praktinę \"atvirumo\" naudą, reikia sudaryti galimybę kombinuoti skirtingus duomenų rinkinius, tokiu būdu leidžiant sukurti daugiau ir geresnių produktų bei paslaugų (ši nauda detaliau aptariama skyriuje \"Kodėl reikia atvirų duomenų\")."
 
 # 9613f20a0c754c988418bb739c6bf147
 #: ../../source/what-is-open-data/index.rst:59
@@ -555,12 +552,12 @@ msgid ""
 "together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
-msgstr "對「開放性」提出一個清楚的定義可以讓我們在使用資料時，只要所用的資料符合這個開放定義，就能確定資料彼此可混和使用。同時也能確定我們不需面對另一座「巴別塔」 'tower of babel' : 雖然擁有很多資料集，但是只有一小部分可以彼此互用。或更慘的是資料完全無法相互混和來建立一個更大的系統。當然也沒辦法將資料的價值呈現出來。"
+msgstr "Aiškiai apibrėžus atvirumą, užtikrinama, kad jei turite du skirtingus duomenų rinkinius iš dviejų skirtingų šaltinių, jūs galėsite juos sukombinuoti tarpusavyje. Užtikrinama, kad **išvengsime \"Babilono bokšto\": daugybės duomenų rinkinių, kurie tarpusavyje nesuderinami ir negali būti sujungti į vieną didelę sistemą, kurioje ir būtų didžiausia vertė.**"
 
 # 3a713e7bdcd744efa87d1f18017c2fc2
 #: ../../source/what-is-open-data/index.rst:71
 msgid "What Data are You Talking About?"
-msgstr "你所說的資料是?"
+msgstr "Apie kokius duomenis kalbame?"
 
 # e425f13a261d4556bb1961b71da2bdd8
 #: ../../source/what-is-open-data/index.rst:73
@@ -569,7 +566,7 @@ msgid ""
 "become open - and they will see more examples below. However, it will be "
 "useful to quickly outline what sorts of data are, or could be, open -- and, "
 "equally importantly, what won’t be open."
-msgstr "讀者到目前為止已經看到許多範例，以及許多可以開放或是已經開放出來的資料類別。接下來我們將提到更多的例子。但是，為了方便接下來的說明，讓我們先快速的將已經開放出來的，或是可以被開放出來的資料做一個整理。在這，我們也會提到很重要的一點：什麼資料是不適合被開放出來的。"
+msgstr "Jau matėte pavyzdžių, kokio tipo duomenys gali tapti atvirais - ir dar daugiau pavyzdžių pamatysite žemiau. Tačiau čia bus naudinga trumpai paminėti, kokios duomenų rūšys yra arba gali būti atviros - ir, kas taip pat svarbu, kokios negali būti atviros."
 
 # b3184f4d4cd74be7a8bb72c19ae59d0a
 #: ../../source/what-is-open-data/index.rst:78
@@ -577,19 +574,19 @@ msgid ""
 "The key point is that when opening up data, the focus is on non-personal "
 "data, that is, data which does not contain information about specific "
 "individuals."
-msgstr "在開放資料時，重點是「非個人」的資料，也就是不包含關於特定人士的資訊。"
+msgstr "Svarbiausia - atveriant duomenis, fokusuotis į nuasmenintus duomenis, tai yra, tokius, kurie nesuteikia jokios informacijos apie konkrečius asmenis."
 
 # a71aa0d4b7d444c8b67cc9b635b54c45
 #: ../../source/what-is-open-data/index.rst:82
 msgid ""
 "Similarly, for some kinds of government data, national security restrictions"
 " may apply."
-msgstr "相同地，對於一些受到國家安全管制的政府資料，也一樣不在我們討論的範圍內。"
+msgstr "Kai kurių rūšių valstybinė informacija taip pat gali būti neskelbiama dėl valstybės saugumo."
 
 # 35a624b81cd14bc09c5646f0b348179e
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
 msgid "Apply an Open License (Legal Openness)"
-msgstr "選用一個開放授權 (法令面的開放)"
+msgstr "Pritaikykite atvirą licenciją (teisinis atvirumas)"
 
 # e7dcffe8d7d44c5d93225ccf279b1ee6
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
@@ -601,7 +598,7 @@ msgid ""
 "clarity. Thus, **if you are planning to make your data available you should "
 "put a license on it** – and if you want your data to be `open`_ this is even"
 " more important."
-msgstr "在大多數的法令管轄中，如果沒有特別的聲明與允許，第三方對資料的使用與散佈等權利都會受智慧財產權的限制。就算我們不清楚有哪些法令限制，為了避免不必要的爭議與混淆，最好還是選擇一個適用的授權聲明。所以， **如果你計畫要把一些資料釋出，你就需要選用一個適用的授權** – 同時如果你希望資料是「開放」(`open`_) 釋出，你更需要謹慎選擇授權。"
+msgstr "Daugelyje jurisdikcijų egzistuoja intelektinės nuosavybės teisės, ribojančios galimybes trečiosioms šalims naudoti, pernaudoti ir platinti duomenis be atskiro leidimo. Net tada, kai abejojama dėl tokių teisių egzistavimo, svarbu pritaikyti atviriems duomenims licenciją, bent jau aiškumo dėlei. Taigi, **jei planuojate duomenis skelbti viešai, pritaikykite jiems licenciją**, o jei norite, kad jūsų duomenys būtų `atviri`_ - tai netgi dar svarbiau."
 
 # 5e7dc13604fa4f95890ca0e9b8144d81
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
@@ -609,7 +606,7 @@ msgid ""
 "What licenses can you use? We recommend that for 'open' data you use one of "
 "the licenses conformant with the `Open Definition`_ and marked as suitable "
 "for data. This list (along with instructions for usage) can be found at:"
-msgstr "有哪些授權是你可以選用的？對於開放資料，我們建議你使用一個符合 `Open Definition`_ (開放定義) 並適用於資料的授權。這一份符合開放標準的授權清單 (和這些授權的使用說明) 可以在下面找到 :"
+msgstr "Kokias licencijas galima naudoti? Mes rekomenduojame atviriems duomenims naudoti vieną iš licencijų, kurios suderinamos su `atvirumo apibrėžimu`_ ir pažymėtos kaip tinkamos duomenims. Šis sąrašas (kartu su naudojimo instrukcijomis) gali būti rastas čia:"
 
 # 6c204c0188eb4967bd7ec5c9b9e29663
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
@@ -621,7 +618,7 @@ msgstr "http://opendefinition.org/licenses/"
 msgid ""
 "A short 1-page instruction guide to applying an open data license can be "
 "found on the Open Data Commons site:"
-msgstr "你也可以在 Open Data Commons 網站上找得一份關於如何選用適合的開放授權的簡單說明 :"
+msgstr "Trumpos vieno puslapio rekomendacijos, kaip taikyti atvirų duomenų licenciją, yra \"Open Data Commons\" svetainėje:"
 
 # 134eda3fcb1e4ea9a9a3849ab64bdf61
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
@@ -631,7 +628,7 @@ msgstr "http://opendatacommons.org/guide/"
 # b747964567d643b082dc522af2471c0f
 #: ../../source/how-to-open-up-data/choose-datasets.rst:3
 msgid "Choose Dataset(s)"
-msgstr "選擇資料集"
+msgstr "Pasirinkite duomenų rinkinį(-ius)"
 
 # 6fb7221c6835486c8ba3a96616edf6b8
 #: ../../source/how-to-open-up-data/choose-datasets.rst:5
@@ -639,7 +636,7 @@ msgid ""
 "Choosing the dataset(s) you plan to make open is the first step – though "
 "remember that the whole process of opening up data is iterative and you can "
 "return to this step if you encounter problems later on."
-msgstr "選擇你想要開放釋出的資料集，是整個程序的第一步 – 但是請記住，資料開放的程序並不是一個依序要完成過程。在任何時候當你遇到無法處理的困難時，都可以回到第一個步驟重新開始。"
+msgstr "Pirmas žingsnis yra pasirinkti duomenų rinkinius, kuriuos planuojate atverti, tačiau nepamirškite, kad visas duomenų atvėrimo procesas yra iteracinis ir jūs galėsite grįžti į pirmą žingsnį, jei vėliau susidursite su problemomis."
 
 # 4a60d2eea7674a6daa86b7d785936908
 #: ../../source/how-to-open-up-data/choose-datasets.rst:9
@@ -648,7 +645,7 @@ msgid ""
 " straight on to the next section. However, in many cases, especially for "
 "large institutions, choosing which datasets to focus on is a challenge. How "
 "should one proceed in this case?"
-msgstr "如果你已經知道接下來要開放的資料集是哪些，你可以直接跳到下一個章節繼續閱讀。但是，在很多情況下，尤其是在一個龐大的機構中，資料集的選擇就是一個不小的挑戰。在這情況下，我們該如何開始呢？"
+msgstr "Jei jau žinote, kokius duomenų rinkinius bandysite atverti, galite iš karto skaityti kitą skyrių. Tačiau daugeliu atveju, ypač didelėse institucijose, pasirinkti duomenų rinkinius yra iššūkis. Kaip tokiu atveju elgtis?"
 
 # 562f01d73511431eb5923bbd318fb284
 #: ../../source/how-to-open-up-data/choose-datasets.rst:14
@@ -656,7 +653,7 @@ msgid ""
 "Creating this list should be a quick process that identifies which datasets "
 "could be made open to start with. There will be time at later stages to "
 "check in detail whether each dataset is suitable."
-msgstr "找出哪些資料集可以開放釋出和設定一個相關的清單不應該佔去你太多的時間。在接下來的步驟中，我們可以用更多時間來詳細檢查你列出的清單中的資料集是否符合我們的需求。"
+msgstr "Šio sąrašo sukūrimas turėtų būti greitas procesas, apibrėžiantis, nuo kurių duomenų galima pradėti atvėrimą. Vėliau, kituose žingsniuose, galima bus kruopščiau patikrinti, ar tie duomenųs tinkami."
 
 # 0da9e433147142ec890f7d6ea919d666
 #: ../../source/how-to-open-up-data/choose-datasets.rst:18
@@ -665,12 +662,12 @@ msgid ""
 " The main point to bear in mind is whether it is feasible to publish this "
 "data at all (whether openly or otherwise) - see :ref:`this previous section "
 "<what-data-can-be-open>`."
-msgstr "建立一個綜合的資料集清單 **並沒有什麼特別的要求** 。重要的是，你需要知道這些資料是否可以公開出來（不管是否遵守資料開放的原則） - 請參考上一章節關於「你所說的資料是？」 :ref:` <what-data-can-be-open>` 的說明。"
+msgstr "**Nėra reikalavimo** sudaryti išsamų jūsų duomenų rinkinių sąrašą. Čia svarbiausia, ar apskritai įmanoma duomenis paskelbti (tiek atvirai, tiek ir neatvirai) - žr. :ref:`prieš tai buvusį skyrių <what-data-can-be-open>`."
 
 # e56d16680b2846ab8ababb059eaaf4cb
 #: ../../source/how-to-open-up-data/choose-datasets.rst:24
 msgid "Asking the community"
-msgstr "向相關社群徵詢"
+msgstr "Klauskite bendruomenės"
 
 # a01321c596e048ac890c7771648a27c9
 #: ../../source/how-to-open-up-data/choose-datasets.rst:26
@@ -678,7 +675,7 @@ msgid ""
 "We recommend that you ask the community in the first instance. That is the "
 "people who will be accessing and using the data, as they are likely to have "
 "a good understanding of which data could be valuable."
-msgstr "我們建議你在一開始就先向相關的社群組織徵詢。這些人會是你把資料開放出來後的第一批使用者，所以他們很可能對哪些資料是比較有價值的已經有自己的想法。"
+msgstr "Mes rekomenduojame pirmiausia paklausti bendruomenės. Tai žmonės, kurie naudos duomenis, jie ir galės pasakyti, kurie duomenys galėtų būti naudingi."
 
 # 444b3c328660471c8c6dc51d89d0cc2c
 #: ../../source/how-to-open-up-data/choose-datasets.rst:30
@@ -687,12 +684,12 @@ msgid ""
 "It is not essential that this list concurs with your expectations, the main "
 "intention is to get a feel for the demand. This could be based on other "
 "countries' :term:`open data` catalogs."
-msgstr "先準備一份登記著可開放，和你希望能從社群中得到回饋的資料清單。這份清單並不需要完全符合你期望開放的資料名單。這份清單的主要作用是讓我們能瞭解社群對資料的需求。你可以參考其他國家已經整理好的「開放資料目錄 (:term:`open data`)」來列出你的清單。"
+msgstr "Paruoškite trumpą sąrašą tų duomenų rinkinių, kurie turi potencialą būti paskelbti ir apie kuriuos norėtumėte visuomenės nuomonės. Sąrašas nebūtinai turi atitikti jūsų lūkesčius, svarbiausia yra pajusti duomenų paklausą. Galite imti pavyzdį ir iš kitų šalių atvirų duomenų katalogų."
 
 # 6cd8b5c44b4f49ccabbe7a1087df9d11
 #: ../../source/how-to-open-up-data/choose-datasets.rst:36
 msgid "Create a request for comment."
-msgstr "邀請大家對你的清單提出評論與回饋。"
+msgstr "Sudarykite galimybę komentuoti"
 
 # 477a8715f16743f3b88eeddaa380d236
 #: ../../source/how-to-open-up-data/choose-datasets.rst:38
@@ -700,40 +697,40 @@ msgid ""
 "Publicise your request with a webpage. Make sure that it is possible to "
 "access the request through its own URL. That way, when shared via social "
 "media, the request can be easily found."
-msgstr "將這個邀請放上網站。並確定這個邀請有自己獨立的網頁與網址 (URL)。這樣一來，當我們把這個頁面透過社群媒體來分享時，就能更容易的找到這些邀請。"
+msgstr "Paskelbkite kvietimą komentuoti svetainėje. Užtikrinkite, kad kvietimas turi savo URL nuorodą, kad dalinantis kvietimu socialiniuose tinkluose, būtų lengva rasti kvietimą."
 
 # 5fe5f7e31b1a478f8889730e3eb81077
 #: ../../source/how-to-open-up-data/choose-datasets.rst:42
 msgid ""
 "Provide easy ways to submit responses. Avoid requiring registration, as it "
 "reduces the number of responses."
-msgstr "設定一個使用簡單的回饋機制。不要放一堆註冊與登記的要求，因為這些多餘的步驟會減低每個人填寫回饋的意願。"
+msgstr "Pasirūpinkite, kad būtų paprasta komentuoti. Nereikalaukite registracijos, kadangi tai sumažina komentarų skaičių."
 
 # 26a1ebc54df04e69b875a56e46711d39
 #: ../../source/how-to-open-up-data/choose-datasets.rst:45
 msgid ""
 "Circulate the request to relevant mailing lists, forums and individuals, "
 "pointing back to the main webpage."
-msgstr "將這些回饋邀請發送到相關的信件討論群組、論壇，和相關的個人信箱，並在信件中把連結指回你的邀請首頁。"
+msgstr "Išplatinkite kvietimą el. pašto grupėse, forumuose, ir tarp atskirų žmonių."
 
 # b2f5c26e2d4b490bb6b7a5072214a765
 #: ../../source/how-to-open-up-data/choose-datasets.rst:48
 msgid ""
 "Run a consultation event. Make sure you run it at a convenient time where "
 "the average business person, data wrangler and official can attend."
-msgstr "舉辦一個諮詢討論會，並確定討論會舉辦的時間能讓一般的商業人士，資料處理專家和政府官員都可出席。"
+msgstr "Surenkite konsultacinį renginį. Pasistenkite, kad jis vyktų patogiu vidutiniam verslo žmogui, duomenų entuziastui ar viešojo sektoriaus darbuotojui laiku."
 
 # fe8082ba724f4e2481a8ab2a42544a98
 #: ../../source/how-to-open-up-data/choose-datasets.rst:52
 msgid ""
 "Ask a politician to speak on your agency's behalf. Open data is very likely "
 "to be part of a wider policy of increasing access to government information."
-msgstr "尋求一位政治人物願意為你的單位來發言。因為「開放資料」如果從法令上來看，應該是包含在一個範圍更廣並且和政府資訊公開有關的政策內。"
+msgstr "Paprašykite politiko pakalbėti jūsų įstaigos vardu. Atviri duomenys greičiausiai susiję su valstybinės informacijos prieinamumo didinimo politika"
 
 # 97be10325f6e46a0a18c93844711c295
 #: ../../source/how-to-open-up-data/choose-datasets.rst:57
 msgid "Cost basis"
-msgstr "成本考量"
+msgstr "Paskelbimo kaina"
 
 # c546923078d14fe782f517d573aac12a
 #: ../../source/how-to-open-up-data/choose-datasets.rst:59
@@ -741,7 +738,7 @@ msgid ""
 "How much money do agencies spend on the collection and maintainence of data "
 "that they hold? If they spend a great deal on a particular set of data, then"
 " it is highly likely that others would like to access it."
-msgstr "政府單位一般會編列多少預算來收集、保存與管理他們業務上需要的資料？如果某個單位對於特定的某一組資料，花了很大的功夫來建立與管理，那很可能其他人與組織也會想要取得這些資料。"
+msgstr "Kiek pinigų institucijos išleidžia rinkti ir palaikyti duomenis, kuriuos jos turi? Jei jos kažkuriai duomenų daliai išleidžia daug pinigų, tuomet tikėtina, kad būtent tos dalies ir norės dauguma žmonių."
 
 # cdc1c699f81641e3b62d4c407ef2fc83
 #: ../../source/how-to-open-up-data/choose-datasets.rst:63
@@ -752,12 +749,12 @@ msgid ""
 " is absorbed by the public sector to perform a particular function. The cost"
 " of sending that data, once it has been collected, to a third party is "
 "approximately nothing. Therefore, they should be charged nothing."
-msgstr "但是這種論點可能會引發「免費享受」(freeriding) 的爭議。你可能需要面對的問題是：「我們花了如此龐大的經費與資源建立的資料，為什麼其他人可以免費享用？」。答案是，用來建立這些資料的「如此龐大的經費與資源」，應該都在每個部門為了完成他們業務時就編列並支付了。當資料收集建立後，將資料轉交給第三者並不需要太多額外的費用。所以，這些資料的開放不應該再要求額外的付費。"
+msgstr "Šis argumentas kažkuo panašus į \"balsavimą\" kelyje. Jums gali tekti atsakyti į klausimą: \"Kodėl kiti žmonės turėtų nemokamai gauti informaciją, kuri tokia brangi?\". Atsakymas - kad jos kainą sumoka viešasis sektorius tam, kad atliktų kažkokią funkciją. O kai duomenys jau surinkti, jų atvėrimo kaina yra nykstamai maža. Taigi, duomenys neturi nieko kainuoti."
 
 # b7978bdbcba74480b3aedfb5aa436caf
 #: ../../source/how-to-open-up-data/choose-datasets.rst:71
 msgid "Ease of release"
-msgstr "資料釋出難易考量"
+msgstr "Ar lengva skelbti duomenis?"
 
 # a00a368d4f5947028e1a024cd556e3c7
 #: ../../source/how-to-open-up-data/choose-datasets.rst:73
@@ -766,7 +763,7 @@ msgid ""
 "be useful to take a look at which data is easiest to get into the public's "
 "hands. Small, easy releases can act as the catalyst for larger behavioural "
 "change within organisations."
-msgstr "有時候，與其決定那些資料可能比較有價值，我們或許可以先看看有哪些資料，比較容易釋出送到公眾的手上。少量、簡單就能釋出的資料可以扮演催化劑的角色，讓組織內部在面對資料開放的議題能出現更大的改變。"
+msgstr "Kartais, užuot ieškant vertingiausių duomenų, gali būti naudinga pažiūrėti, kuriuos duomenis atverti yra lengviausia. Maži ir greiti atvėrimai gali veikti kaip katalizatorius didesniems pokyčiams organizacijose."
 
 # 11fb95c47b6d469aaef863cffe3dea1e
 #: ../../source/how-to-open-up-data/choose-datasets.rst:78
@@ -774,12 +771,12 @@ msgid ""
 "Be careful with this approach however. It may be the case that these small "
 "releases are of so little value that nothing is built from them. If this "
 "occurs, faith in the entire project could be undermined."
-msgstr "但是請注意一點。如果你選擇釋出的資料的效用與價值真的非常微薄，或是無法以此開發出任何新的產品與服務，那就可能會打擊到他人對整個計畫的信念與支持。"
+msgstr "Tačiau būkite atsargūs. Gali taip nutikti, kad maži duomenų rinkiniai yra tiek menkai vertingi, kad iš jų nieko negalima padaryti. Jei taip nutiks, susvyruos pasitikėjimas visu projektu."
 
 # 19b8f9cee4d241ea81e431a7e622c64d
 #: ../../source/how-to-open-up-data/choose-datasets.rst:83
 msgid "Observe peers"
-msgstr "觀察其他組織與政府"
+msgstr "Stebėkite kolegas"
 
 # 005598dfe6924292a200665f62057f50
 #: ../../source/how-to-open-up-data/choose-datasets.rst:85
@@ -787,12 +784,12 @@ msgid ""
 "Open data is a growing movement. There are likely to be many people in your "
 "area who understand what other areas are doing. Formulate a list on the "
 "basis of what those agencies are doing."
-msgstr "開放資料是一個蓬勃發展的運動。很可能在你所在的地區，也有人對開放資料有研究，並知道其他地區的發展狀況。我們建議你把其他單位目前正在進行的相關計畫放進一份名單中。"
+msgstr "Atvirų duomenų judėjimas yra augantis. Greičiausiai netoli savęs rasite žmonių, kurie žino, kas su atvirais duomenimis vyksta kitur. Sudarykite sąrašą remdamiesi tuo, ką daro kitos institucijos."
 
 # 05c79f3133614f7abb43130e787bca43
 #: ../../source/how-to-open-up-data/index.rst:3
 msgid "How to Open up Data"
-msgstr "如何將資料開放釋出"
+msgstr "Kaip atverti duomenis?"
 
 # 7fe3e18cfac749f5befd9ab2576d33f1
 #: ../../source/how-to-open-up-data/index.rst:5
@@ -801,12 +798,12 @@ msgid ""
 "advice on how data holders can open up data. We’ll go through the basics, "
 "but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
 "that can arise."
-msgstr "這一章是這本手冊最核心的部分。在這裡我們將說明資料擁有者如何能將資料開放釋出，同時提出具體並詳盡的建議。除了對基本的作法和概念提出說明，我們也會提醒你一些該避免的陷阱。最後我們將討論你可能會遇到，但也較難捉摸的問題。"
+msgstr "Ši dalis yra vadovėlio branduolys. Jis duoda konkrečių, detalių patarimų, kaip duomenų savininkai gali tuos duomenis atverti. Mes pristatysime bazines taisykles, taip pat paminėsime dažnai daromas klaidas. Galiausiai aptarsime ir subtilesnius niuansus, kurie galėtų iškilti."
 
 # 205ae0d7b0dc40bebc2303b798613a7f
 #: ../../source/how-to-open-up-data/index.rst:10
 msgid "There are three key rules we recommend following when opening up data:"
-msgstr "在將資料開放釋出的過程中，我們強烈建議你遵守下面三個主要的原則："
+msgstr "Yra trys pagrindinės taisyklėmis, kuriomis rekomenduojame vadovautis atveriant duomenis:"
 
 # e090cea16cc645abb77158774b0a3643
 #: ../../source/how-to-open-up-data/index.rst:12
@@ -815,7 +812,7 @@ msgid ""
 "requirement that every dataset must be made open right now. Starting out by "
 "opening up just one dataset, or even one part of a large dataset, is fine --"
 " of course, the more datasets you can open up the better."
-msgstr "**保持簡潔** . 先從小巧，簡單，可快速處理的資料開始。沒有人規定所有的資料都必須現在就開放釋出。所以先從單一一個資料集的開放做起，或者選擇一個大資料集中的某一部分開始就好。當然，如果能釋放出越多資料集，那就會越棒。"
+msgstr "**Darykite tai paprastai.** Pradėkite po truputį, paprastai ir greitai. Nėra reikalavimo, kad kiekvienas duomenų rinkinys tuojau pat būtų atvertas. Jei pradėsite atverdami tik viena rinkinį, ar nors dalį didelio rinkinio - puiku. Žinoma, kuo daugiau atversite, tuo geriau."
 
 # cf62d646dd164d08be12466ae86a4cb5
 #: ../../source/how-to-open-up-data/index.rst:17
@@ -824,7 +821,7 @@ msgid ""
 "because it means you can build momentum and learn from experience -- "
 "innovation is as much about failure as success and not every dataset will be"
 " useful."
-msgstr "請記得這一切都是和創新有關。執行上是越快速會越好，因為這意味著你可以促成一股風潮，同時從做中學，學中做 – 在創新中，失敗就跟成功一樣重要。同時你將會意識到，並不是每一組資料集都是可用的。"
+msgstr "Nepamirškite, kad tai - inovacija. Geriausia judėti kuo greičiau, taip sukursite pokyčių bangą ir įgausite patirties. Kuriant inovacijas, daug mokomasi ne tik iš sėkmės, bet ir iš klaidų. Ir ne kiekvienas atvertas duomenų rinkinys bus naudingas."
 
 # ef4cadde787044f6bb05cdbdbee8438e
 #: ../../source/how-to-open-up-data/index.rst:22
@@ -833,7 +830,7 @@ msgid ""
 "and re-users of the data as early and as often as you can, be they citizens,"
 " businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
-msgstr "**盡早與頻繁地吸收有興趣的人** 盡可能早點將對於資料的使用或是重複使用的族群或是可能的對象吸收進來，同時越頻繁越好。不管他們是一般公民，商業人士或是程式開發者。這將確保您接著要推出的服務能有最大的效能和影響。"
+msgstr "**Anksti ir daug bendraukite su duomenų naudotojais.** Bendraukite su esamais ir potencialiais žmonėmis, kurie duomenis naudoja ir pernaudoja, ar tai būtų piliečiai, verslininkai ar programuotojai. Tai užtikrins, kad kita jūsų duomenų atvėrimo proceso iteracija būtų maksimaliai prasminga."
 
 # ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
@@ -844,7 +841,7 @@ msgid ""
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
 " re-use and repurpose the material."
-msgstr "請時時提醒自己一點，許多資料是無法直接送到最終使用者的手上，這中間需要經過 ‘info-mediaries’ (資訊中間人) 的協助。透過資訊中間人來將資料彙整，轉換，混和後將成果呈現出來。例如，大部分的人應該都不會想要直接閱讀一份紀錄著不同 GPS 座標的龐大表格，一張標記這些地點的地圖應該會比較受歡迎。所以，你應該盡可能先與這些資訊中間人建立關係。他們能把你所釋出的資料重新使用，並整合進其他服務中。"
+msgstr "Svarbu turėti omenyje, kad didelė dalis duomenų nepasieks jų vartotojų tiesiogiai, greičiau juos pasieks per tarpininkus: žmones, kurie duomenis adaptuoja ir jungia vienus su kitais. Pavyzdžiui, dauguma mūsų nenorime matyti ir mums nereikia didžiulės GPS koordinačių duomenų bazės, mums labiau patinka žemėlapis. Taigi, pirmiausia susiraskite tarpininkus. Jie pernaudos ir įprasmins informaciją."
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -854,7 +851,7 @@ msgid ""
 "When opening up data you will encounter plenty of questions and fears. It is"
 " important to (a) identify the most important ones and (b) address them at "
 "as early a stage as possible."
-msgstr "**正面挑戰常見的抗拒與誤解** 。如果你需要面對的是如政府一般的龐大的組織，這一點尤其重要。當你開始要把資料釋出時，你將會面臨許多質疑與抗拒。所以你必須 (a) 找出最重要的幾個問題與抗拒， (b) 盡早地面對這些問題並做出回應。"
+msgstr "**Atkreipkite dėmesį į populiarias baimes ir nesusipratimus.** Tai ypač svarbu, jei dirbate su didelėmis insitucijomis, tokiomis, kaip vyriausybė. Atverdami duomenis, susidursite su daugybe klausimų ir baimių. Svarbu a) suprasti, kurie iš jų svarbiausi ir b) kuo anksčiau spręsti didžiausias problemas."
 
 # 85ecf275551b4e6ea01de1f75da7cac0
 #: ../../source/how-to-open-up-data/index.rst:40
@@ -862,7 +859,7 @@ msgid ""
 "There are four main steps in making data open, each of which will be covered"
 " in detail below. These are in very approximate order - many of the steps "
 "can be done simultaneously."
-msgstr "將資料開放釋出的程序中，一共有四個主要步驟，在下面的章節，我們將對這四個步驟逐一詳細說明。這四個步驟在順序上並沒有硬性規定，很多步驟都可同步進行。"
+msgstr "Atveriant duomenis, daromi keturi pagrindiniai žingsniai, kuriuos žemiau detaliai aptarsime. Jų eilės tvarka labai apytikslė - didžioji dalis žingsnių gali būti daroma lygiagrečiai."
 
 # 58824e15e3d34b518d630239f299912d
 #: ../../source/how-to-open-up-data/index.rst:44
@@ -870,17 +867,17 @@ msgid ""
 "**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
 "Keep in mind that you can (and may need to) return to this step if you "
 "encounter problems at a later stage."
-msgstr "**選擇你要開放的資料集 dataset(s)** . 選出你計畫要開放釋出的資料集Dataset(s)。如果在接下來的步驟中遇到困難，請記得你可以（可能你常會需要）回到這一個步驟。"
+msgstr "**Pasirinkite duomenų rinkinius.** Išsirinkite, ką planuojate atverti. Turėkite omenyje, kad jūs galėsite (ir turėsite) grįžti prie šio žingsnio, jei vėliau susidursite su problemomis."
 
 # e60fff59384142ceb4865b5956701aaf
 #: ../../source/how-to-open-up-data/index.rst:47
 msgid "**Apply an open license.**"
-msgstr "**選用一個開放的授權聲明**"
+msgstr "**Pritaikykite atvirą licenciją.**"
 
 # 8e71c0ccfdb64981b4cadfb21e412387
 #: ../../source/how-to-open-up-data/index.rst:49
 msgid "Determine what intellectual property rights exist in the data."
-msgstr "先找出這些資料在智慧財產權方面的相關法令。"
+msgstr "Apsibrėžkite, kokias intelektinės nuosavybės teises turi duomenys."
 
 # 40cb98538dfc486c838b0cd5baef35db
 #: ../../source/how-to-open-up-data/index.rst:50
@@ -888,32 +885,32 @@ msgid ""
 "Apply a suitable ‘open’ license that licenses all of these rights and "
 "supports the definition of openness discussed in the section above on ‘What "
 "Open Data’"
-msgstr "選用一個適當的開放 ('open') 授權，一個清楚說明使用者的權利，並符合我們在上一章節 (什麼是開放資料 ‘What Open Data’) 中所討論到的開放定義與原則。"
+msgstr "Pritaikykite tinkamą atvirą licenciją, kuri suteikia visas tas teises ir palaiko atvirumo apibrėžimą, kurį aptarėme aukščiau, skyriuje \"Kas yra atviri duomenys\""
 
 # ff2d1c558ae64d3ea092b313b0a7c854
 #: ../../source/how-to-open-up-data/index.rst:53
 msgid ""
 "NB: if you can't do this go back to step 1 and try a different dataset."
-msgstr "請注意 : 如果你無法找出適用的開放授權，請回到步驟一，然後重新選擇其他的資料集。"
+msgstr "Pastaba: jeigu negalite to padaryti, grįžkite į pirmą žingsnį ir išsirinktie kitą duomenų rinkinį."
 
 # e7dfde372d704525b9baac515e235e2b
 #: ../../source/how-to-open-up-data/index.rst:56
 msgid ""
 "**Make the data available** - in bulk and in a useful format. You may also "
 "wish to consider alternative ways of making it available such as via an API."
-msgstr "**將資料公布釋放出來** - 將資料整批釋出，並採用適用的檔案格式。你也可將資料以其他方式開放釋出，例如透過 API 的呼叫。"
+msgstr "**Viešai paskelbkite duomenis** - masiškai (in bulk) ir naudingu formatu. Galite apmąstyti alternatyvius būdus, kaip tai padaryti, pavyzdžiui, pasinaudojant API."
 
 # e9ecca180f4649b4a06c3a524060f3e7
 #: ../../source/how-to-open-up-data/index.rst:59
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
-msgstr "**讓資料可被搜獲** - 將資料公布於網站上，也可建立一個統一的資料目錄中心，來列出所有開放出的資料集。"
+msgstr "**Pasirūpinkite, kad duomenys būtų lengvai randami** - paskelbkite internete, galbūt - sukurkite vieną pagrindinį visų atvirų duomenų katalogą."
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
 msgid "Make Data Available (Technical Openness)"
-msgstr "將資料釋放出來 (技術面的開放)"
+msgstr "Padarykite duomenis techniškai atvirus"
 
 # b09db3670c724b4cbae550f365a90988
 #: ../../source/how-to-open-up-data/make-data-available.rst:5
@@ -921,7 +918,7 @@ msgid ""
 ":term:`Open data` needs to be technically open as well as legally open. "
 "Specifically, the data needs to be available in bulk in a :term:`machine-"
 "readable` format."
-msgstr ":term:`Open data`  開放資料不只在法令面上要開放，在技術面上也一樣需要開放。尤其要注意的是，資料釋出必須是完整（整體），同時採用機器可讀取 (:term:`machine-readable`) 的檔案格式。"
+msgstr ":term:`Atviri duomenys <open data>` turi būti atviri ne tik teisiškai, bet ir techniškai. Tai yra, duomenys turi būti prieinami masiškai (in bulk) ir :term:`kompiuteriams patogiu formatu <machine-readable format>`."
 
 # b9d7515dde2043ac876fd4836fae1473
 #: ../../source/how-to-open-up-data/make-data-available.rst:10
@@ -930,7 +927,7 @@ msgid ""
 "preferably as a free download from the Internet. This pricing model is "
 "achieved because your agency should not undertake any cost when it provides "
 "data for use."
-msgstr "資料取得的費用應該以資料複製的成本來合理計算，較好的方法是經由網路免費下載。採用這種收費模式的原因是，將資料釋出提供他人使用時，你的部門並不需要編列什麼額外的經費。"
+msgstr "Duomenų kaina turėtų būti ne didesnė, nei pagrįsta savikaina, geriausia, jei juos galima nemokamai atsisiųsti internete. Toks kainos modelis pasiekiamas tada, kai duomenis atverianti įstaiga nenaudoja didelių resursų, pateikdama juos naudojimui."
 
 # 402e6b5680ef47a9b0690b72d93f77da
 #: ../../source/how-to-open-up-data/make-data-available.rst:16
@@ -939,7 +936,7 @@ msgid ""
 " is collected under statute, the entire register should be available for "
 "download. A web API or similar service may also be very useful, but they are"
 " not a substitutes for bulk access."
-msgstr "資料必須是以完整的資料集形式釋出。如果你的資料是依照法令要求來收集，所有收集到的資料都該完整提供下載和釋出。使用網站 API 或是類似的服務是很有用的方式，但是你不能以此來取代完整資料。"
+msgstr "Duomenys turėtų būti gaunami kaip vienas pilnas duomenų rinkinys. Jei turite registrą, kurį pildote ir palaikote pagal nuostatus, tuomet visas registras turėtų būti atsisiunčiamas. API ar panašus būdas taip pat gali būti labai naudingas, bet jis nepakeičia galimybės gauti visus duomenis masiškai."
 
 # b3a61f61587d4cfe810a5c957f8af97e
 #: ../../source/how-to-open-up-data/make-data-available.rst:22
@@ -951,34 +948,34 @@ msgid ""
 "often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to re-use that data."
-msgstr "公部門資料的重新使用，不應該受到專利等的限制。更重要的是，為了達到資料重新使用的最大效益，你必須確保資料是以機器可讀取的檔案格式釋出。舉例來說，為了達到較高品質的列印效果，大部分的統計報告都是使用 pdf 的檔案格式釋出。對我們來說，閱讀這些資料並沒有什麼問題。但因為檔案的格式，這些資料很難直接使用電腦來處理。所以對其他想要重新使用這些資料的人而言，就形成一種限制。"
+msgstr "Viešojo sektoriaus turimų duomenų pernaudojimas neturėtų turėti jokių patentinių apribojimų. Didžiausio masto pernaudojimą garantuoja mašininiu būdu skaitomi formatai. Pavyzdžiui, įsivaizduokite statistiką, paskelbtą :abbr:`PDF (Portable Document Format)` dokumentuose, kurie skirti spausdinimui. Tokią statistiką patogu skaityti žmogui, tačiau labai sunku suprasti kompiuteriui. Tai riboja galimybes tuos duomenis pernaudoti ir iš jų kažką sukurti."
 
 # 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
 msgid "Here are a few policies that will be of great benefit:"
-msgstr "下面這些策略對於資料的釋出會有很大的幫助："
+msgstr "Štai keli labai naudingi patarimai:"
 
 # 63d8a323d7e04da6bba2f412cc5842af
 #: ../../source/how-to-open-up-data/make-data-available.rst:33
 msgid "Keep it simple,"
-msgstr "盡量保持簡單"
+msgstr "Viską darykite paprastai,"
 
 # 4978a2c4ac1f4d0482cd0a5c18899676
 #: ../../source/how-to-open-up-data/make-data-available.rst:34
 msgid "Move fast"
-msgstr "快速執行"
+msgstr "judėkite greitai,"
 
 # 7e3d34dbf9b349dbbfd5874681a3b9e9
 #: ../../source/how-to-open-up-data/make-data-available.rst:35
 msgid "Be pragmatic."
-msgstr "要務實。"
+msgstr "ir būkite pragmatiški."
 
 # 344dec649a454a349a892dce337d2360
 #: ../../source/how-to-open-up-data/make-data-available.rst:37
 msgid ""
 "In particular it is better to give out raw data now than perfect data in six"
 " months' time."
-msgstr "基本上我們認為現在先把原始的完整資料 (raw data) 釋出，會比六個月後才將整理好的完美資料丟出來會更好一點。"
+msgstr "Pavyzdžiui, geriau jau dabar atiduoti pirminius, neapdorotus duomenis, nei tobulai sutvarkytus duomenis po šešių mėnesių."
 
 # c6673f81b9724b8c95778b12ce344bec
 #: ../../source/how-to-open-up-data/make-data-available.rst:40
@@ -988,7 +985,7 @@ msgid ""
 " to this model. At its most basic, agencies make their data available via "
 "their websites and a central catalog directs visitors to the appropriate "
 "source.  However, there are alternatives."
-msgstr "我們有許多方法可以將資料釋出给他人。在一個數位網路時代，最簡單自然的方法就是把資料放上網路。但就算是將資料放上網路，也有數種不同的方式。最基本的一種就是，將資料直接放上你們部門的網站，然後建立一個統一的目錄，讓網站的訪客能清楚知道他們尋找的資料在哪。不過，除此之外還有許多其他的方法。"
+msgstr "Yra daug skirtingų būdų, kaip duomenis padaryti prieinamus kitiems. Natūraliausias, šiais interneto laikais, yra skelbimas internete. Tą galima daryti daugeliu būdų. Paprasčiausia - institucijoms skelbti duomenis savo interneto svetainėse, o centrinis katalogas nukreipia lankytojus į duomenų šaltinį. Tačiau yra ir alternatyvų."
 
 # ac1bf932ff0d46c8982fb9e01fa36836
 #: ../../source/how-to-open-up-data/make-data-available.rst:46
@@ -996,17 +993,17 @@ msgid ""
 "When :term:`connectivity` is limited or the size of the data extremely "
 "large, distribution via other formats can be warranted. This section will "
 "also discuss alternatives, which can act to keep prices very low."
-msgstr "當網路連線 (:term:`connectivity`) 條件不佳，或是資料量過於龐大時，可以考慮採用其他的方式來將資料釋出。在這個章節我們將會討論到其他方法，並特別注重如何將經費壓到最低。"
+msgstr "Kai :term:`interneto ryšys <connectivity>` ribotas, arba duomenų kiekis ypatingai didelis, galima platinti kitokiais formatais. Šiame skyriuje bus aptartos alternatyvos, kuriomis pasinaudojus, galima tai padaryti pigiai."
 
 # d14f19bd711547458714a36deb87b608
 #: ../../source/how-to-open-up-data/make-data-available.rst:51
 msgid "Online methods"
-msgstr "線上模式"
+msgstr "Skelbimo internete būdai"
 
 # c5885ee8faca4693a840729a94e548a0
 #: ../../source/how-to-open-up-data/make-data-available.rst:54
 msgid "Via your existing website"
-msgstr "透過你現有的網站"
+msgstr "Talpinimas savo svetainėje"
 
 # 4698a33b199f4dc7893cc0b7f999880d
 #: ../../source/how-to-open-up-data/make-data-available.rst:56
@@ -1015,7 +1012,7 @@ msgid ""
 "provide files for download from webpages. Just as you currently provide "
 "access to discussion documents, data files are perfectly happy to be made "
 "available this way."
-msgstr "對於現有的網站經營團隊來說，最簡便的方式就是把資料以檔案下載的方式放上網頁。就如網站上其他內容一般，資料檔案也可以用這種方式來釋出。"
+msgstr "Jūsų darbuotojams, tvarkantiems internete skelbiamą turinį, geriausiai pažįstamas formatas yra sudėti failus atsisiuntimui. Taip, kaip dabar skelbiate aptariamus dokumentus, taip ir duomenų failai gali būti paskelbti."
 
 # 680a3fdd6ee74160bfd3f0ba94456f73
 #: ../../source/how-to-open-up-data/make-data-available.rst:61
@@ -1023,12 +1020,12 @@ msgid ""
 "One difficulty with this approach is that it is very difficult for an "
 "outsider to discover where to find updated information. This option places "
 "some burden on the people creating tools with your data."
-msgstr "採用這種方式比較麻煩的是，對於一個外人來說，他們比較難以找到更新後的資料。這對於使用你的資料來開發工具與服務的人來說，都是額外的負擔。"
+msgstr "Šio būdo trūkumas yra tai, kad tokiu būdu pašaliniam žmogui gali būti sunku rasti naujausią informaciją. Žmonėms, kurie, pasinaudodami jūsų duomenimis, kuria įrankius, toks būdas nepatogus."
 
 # 28ec978c25d5464caef60764ccd26193
 #: ../../source/how-to-open-up-data/make-data-available.rst:67
 msgid "Via 3rd party sites"
-msgstr "透過第三方網站"
+msgstr "Talpinimas naudojantis trečiųjų šalių portalais"
 
 # bc1c7a24e2fc40369a8d6fee3b547452
 #: ../../source/how-to-open-up-data/make-data-available.rst:69
@@ -1037,7 +1034,7 @@ msgid ""
 "example, pachube.com is designed to connect people with sensors to those who"
 " wish to access data from them. Sites like Infochimps.com and Talis.com "
 "allow public sector agencies to store massive quantities of data for free."
-msgstr "現在有許多網路的儲存服務已經成為特定資料的集散中心。例如， cosm.com 網站提供了一個讓那些使用探測儀器的人能將資料分享給其他人的網路空間。而其他如 Infochimps.com 或是 Talis.com 的網站，對於公部門單位也都提供了儲存大量資料的免費服務。"
+msgstr "Daugelis duomenis talpinančių portalų tapo duomenų centrais tam tikrose srityse. Pavyzdžiui, pachube.com skirtas jungti žmones, kurie turi sensorius, su žmonėmis, kurie nori pasiimti iš jų duomenis. Tokie portalai, kaip Infochimps.com ir Talis.com, leidžia viešajam sektoriui nemokamai talpinti didelius informacijos kiekius."
 
 # 79fec3171d0b43e7924a9661d86ed5bb
 #: ../../source/how-to-open-up-data/make-data-available.rst:75
@@ -1046,7 +1043,7 @@ msgid ""
 "have already pooled together a community of interested people and other sets"
 " of data. When your data is part of these platforms, a type of positive "
 "compound interest is created."
-msgstr "使用第三方網站提供的服務是個不錯的選擇。主要的原因是，這些網站已經建立一個凝聚許多有共同興趣的人的社群。同時他們也集合了許多來自不同源頭的資料集。把你的資料加進這個平台後，我們可預期會看到許多正面的回應和影響。"
+msgstr "Trečiųjų šalių portalai gali būti labai naudingi, nes jie jau yra pritraukę besidominičiųjų bendruomenes bei surinkę kitų duomenų. Jei jūsų duomenys yra šių platformų dalis, jie sulaukia papildomo susidomėjimo."
 
 # e27ac253acf04e4895092c606f5d6c84
 #: ../../source/how-to-open-up-data/make-data-available.rst:80
@@ -1054,7 +1051,7 @@ msgid ""
 "Wholesale data platforms already provide the infrastructure which can "
 "support the demand. They often provide analytics and usage information. For "
 "public sector agencies, they are generally free."
-msgstr "資料集散平台透過其完善的架構可以對資料的需求提供支援。這些平台通常也會提供資料使用的分析報告等功能。這些服務通常也都對公部門單位提供免費使用的優惠。"
+msgstr "Didmeninės duomenų platformos suteikia infrastruktūrą, kuri gali patenkinti poreikį. Jos taip pat suteikia įrankius analizei atlikti ir duomenims analizuoti. Šie įrankiai viešojo sektoriaus įstaigoms paprastai būna nemokami."
 
 # cc7000380ec64929b7aacfcc5761b05f
 #: ../../source/how-to-open-up-data/make-data-available.rst:84
@@ -1065,12 +1062,12 @@ msgid ""
 "that your data platform is agnostic about who can access it. Software "
 "developers and scientists use many operating sytems, from smart phones to "
 "supercomputers. They should all be able to access the data."
-msgstr "使用這些平台時有兩個地方需要注意一下。第一是「獨立性」。你的部門必須願意將資料的掌控權交出去。這一點在政策上，法令上或是實際執行上都可能出現困難。第二是「開放性」。你必須確定平台對於誰能讀取你提供的資料是不限制的。軟體開發者和一些科學家可能會使用數種不同的作業系統。這可能包含從智慧型手機到超級電腦。不管是使用哪一種系統，任何人都應該有權利讀取這些資料。"
+msgstr "Platformos turi ir savo kainą. Visų pirma, tai nepriklausomybė. Jūsų įstaiga turi galėti atiduoti kontrolę kitiems. Dažnai tai sunku ir politiškai, ir teisiškai, ir techniškai. Visų antra, tai gali kainuoti ir atvirumą. Įsitikinkite, kad duomenų platforma neriboja priėjimo prie jos. Programinės įrangos kūrėjai ir mokslininkai naudoja daug įvairių operacinių sistemų, nuo išmaniųjų telefonų iki superkompiuterių. Visi jie turi turėti galimybę prieiti prie duomenų."
 
 # 45ec5a433d49473d8bd8e8aa732d3790
 #: ../../source/how-to-open-up-data/make-data-available.rst:94
 msgid "Via FTP servers"
-msgstr "經由 FTP 伺服器"
+msgstr "Per FTP serverius"
 
 # b76866767adf434e9e413aa9dd09bcc1
 #: ../../source/how-to-open-up-data/make-data-available.rst:96
@@ -1079,7 +1076,7 @@ msgid ""
 "Transfer Protocol (FTP). This may be suitable if your audience is technical,"
 " such as software developers and scientists. The FTP system works in place "
 "of HTTP, but is specifically designed to support file transfers."
-msgstr "使用檔案傳送伺服器 FTP (File Transfer Protocol) 來分享是一個目前已經退流行的資料檔案分享方式。如果你的對象是技術導向的一群人，例如程式開發者或是科學家等，那這依然不失為一個好方法。FTP 伺服器的運作就如同 HTTP 一樣，但是架構上則是特別為檔案傳送而設計。"
+msgstr "Ne toks madingas būdas - suteikti prieigą prie failų per FTP (File Transfer Protocol). Tai gali tikti, jei auditorija techninė, pavyzdžiui, programuotojai ar mokslininkai. FTP naudojama vietoje HTTP, ir yra skirta keistis failais."
 
 # 2b926a03ce794f8782e74bd0013c2b2e
 #: ../../source/how-to-open-up-data/make-data-available.rst:102
@@ -1088,12 +1085,12 @@ msgid ""
 "through an FTP server is much like looking through folders on a computer. "
 "Therefore, even though it is fit for purpose, there is far less capacity for"
 " web development firms to charge for customisation."
-msgstr "FTP 現在已經沒有那麼多人使用。FTP 伺服器所提供的介面和網站不同，透過 FTP 伺服器我們看到的是一個又一個的資料夾，就如同是瀏覽自己電腦內的資料夾一樣。所以，雖然FTP很適合提供檔案傳送的服務，但是它的架構也讓我們很難在介面上做出什麼客製化的改變。"
+msgstr "FTP jau nebėra taip populiaru. Lyginant su interneto svetaine, FTP naudojimas prilygsta aplankų peržiūrinėjimui kompiuteryje. Todėl, nors FTP ir tinka naudoti pagal paskirtį, tačiau turi daug mažiau galimybių."
 
 # c42b8894bbc54326b66238f06c086570
 #: ../../source/how-to-open-up-data/make-data-available.rst:108
 msgid "As torrents"
-msgstr "使用 torrents"
+msgstr "Naudojantis torrent-ais"
 
 # 759eb86f2e4d480eaaecdaac50273050
 #: ../../source/how-to-open-up-data/make-data-available.rst:110
@@ -1105,12 +1102,12 @@ msgid ""
 "becoming overloaded, the supply increases with the demand increases. This is"
 " the reason that this system is so successful for sharing movies. It is a "
 "wonderfully efficient way to distribute very large volumes of data."
-msgstr ":term:`BitTorrent` 是一個最近幾年來政策制訂者開始比較熟悉的系統。因為這種分享方式常常與版權侵犯的議題綁在一起。BitTorrent 使用的檔案被稱為 torrents。其運作模式是將分享檔案時所需使用的資源做切割，並由每一個下載這個檔案的使用者共同分擔。如此一來，我們就不需要擔心伺服器出現超載的問題，因為只要越多人下載，就會有越多人分享。這也是為什麼使用這種方式來分享電影是如此受歡迎。如果我們需要分享大量資料，這會是一個很好用的方法。"
+msgstr ":term:`BitTorrent` - tai sistema, politiką formuojančioms institucijoms pažįstama dėl asociacijos su piratavimu. BitTorrent naudoja bylas, vadinamas `torrent`-ais, kurie padalina keitimosi bylomis resursus tarp visų besikeičiančiųjų jomis. Skirtingai nei serverių atveju, kuomet jie gali būti perkrauti, naudojant `torrent`-us, resursų pasiūla didėja kartu su paklausa."
 
 # 129e68dafdf54f6e97919fba6fdc5c70
 #: ../../source/how-to-open-up-data/make-data-available.rst:119
 msgid "As an API"
-msgstr "透過 API 的呼叫"
+msgstr "Suteikiant API"
 
 # d6c7831d05704f01b2bedc502d6a50c1
 #: ../../source/how-to-open-up-data/make-data-available.rst:121
@@ -1121,21 +1118,21 @@ msgid ""
 "in bulk as a large file. APIs are typically connected to a database which is"
 " being updated in real-time. This means that making information available "
 "via an API can ensure that it is up to date."
-msgstr "我們可以透過呼叫 API ( :term:`Application Programming Interface` ) 的方式將資料散佈出去。現在越來越常見到透過這種方式來散播資料。透過 API 的呼叫，程式設計師可以選擇資料中要讀取的特定部分，而不需要把整批資料事先完整下載回來。API 一般都是直接連接到一個資料庫，而資料庫內儲存的都是即時更新最新版本的資料。這意味著，透過 API 的呼叫來釋出資料，我們可以提供最即時的新資訊。"
+msgstr "Duomenys gali būti skelbiami naudojant :term:`Aplikacijų programavimo sąsają <Application Programming Interface>` (API). API labai išpopuliarėjo, nes leidžia programuotojams pasirinkti jiems reikalingus duomenis vietoj masinio duomenų rinkinio atsisiuntimo. API paprastai būna sujungta su duomenų baze, kuri atnaujinama realiu laiku. Tai reiškia, kad per API prieinama informacija visada atnaujinta ir aktuali."
 
 # a04d09c10e634e4e95e64172d7f3df48
 #: ../../source/how-to-open-up-data/make-data-available.rst:129
 msgid ""
 "Publishing raw data in bulk should be the primary concern of all open data "
 "intiatives. There are a number of costs to providing an API:"
-msgstr "把原始資料 (raw data) 以完整整批的方式釋出對所有推廣開放資料的計畫來說都該被當作最重要的目標。如果你想透過 API 的呼叫來釋出資料，有幾點需要特別注意："
+msgstr "Skelbti pirminius duomenis masiškai (in bulk) turi būti visų atvirų duomenų iniciatyvų tikslas. API naudojimas turi ir savo kainą:"
 
 # 3c28e8cb66dc4a3cb88e41a7b60106b4
 #: ../../source/how-to-open-up-data/make-data-available.rst:132
 msgid ""
 "The price. They require much more development and maintainence than "
 "providing files."
-msgstr "成本。使用這種方式比起單純的提供資料檔案下載，需要投入更多的資源在開發與系統維護上。"
+msgstr "Kaina. Norint paruošti API, reikia daugiau programavimo ir palaikymo, nei pateikiant failus."
 
 # 14dd153713774331a0312cbefb6d28d1
 #: ../../source/how-to-open-up-data/make-data-available.rst:134
@@ -1143,12 +1140,12 @@ msgid ""
 "The expectations. In order to foster a community of users behind the system,"
 " it is important to provide certainty. When things go wrong, you will be "
 "expected to incur the costs of fixing them."
-msgstr "使用者的期待。要建立一個願意使用這個系統的社群，我們必須確切的回應使用者的需求與期待。當系統出現問題時，你必須不計代價趕快想辦法把他修復。"
+msgstr "Lūkesčiai. Puoselėjant sistemos vartotojų bendruomenę, svarbu užtikrintumas. Jei kažkas bus negerai, jums teks atsakomybė taisyti klaidas."
 
 # ca23faca90d744b397f92d458f218d1c
 #: ../../source/how-to-open-up-data/make-data-available.rst:138
 msgid "Access to bulk data ensures that:"
-msgstr "直接提供完整資料檔案的下載則可確保："
+msgstr "Masinė (bulk) prieiga prie visų duomenų užtikrina, kad:"
 
 # ae5f19aec9fc42828d27deb2b2c9c146
 #: ../../source/how-to-open-up-data/make-data-available.rst:140
@@ -1156,7 +1153,7 @@ msgid ""
 "there is no dependency on the original provider of the data, meaning that if"
 " a restructure or budget cycle changes the situation, the data are still "
 "available."
-msgstr "我們不需要一直依靠資料的原始提供者，這意味著如果資料原始提供者的部門出現重組或是經費刪減的狀況時，這些資料依然可從其他地方取得。"
+msgstr "Nėra priklausomybės nuo originalaus duomenų teikėjo, vadinasi, įvykus restruktūrizacijai ar pasikeitus biudžetams, duomenys vis tiek bus prieinami."
 
 # 3022f0749b794dc59af9b4b12e4fd380
 #: ../../source/how-to-open-up-data/make-data-available.rst:143
@@ -1164,14 +1161,14 @@ msgid ""
 "anyone else can obtain a copy and redistribute it. This reduces the cost of "
 "distribution away from the source agency and means that there is no single "
 "point of failure."
-msgstr "任何人都可取得一份完整的資料備份，同時繼續將資料散播出去。這樣一來，除了可減少資料原始提供者在資料散播時所需的成本，並可確保在整個過程中，不會因為某個節點出現狀況，而影響到資料的散播。"
+msgstr "bet kas gali duomenis nusikopijuoti ir platinti. Tai sumažina platinimo kainą, nes naudojami ne vien tik įstaigos resursai, be to, mažesnė duomenų dingimo tikimybė."
 
 # 362360c6bac64db5b350ca2f2b96d48e
 #: ../../source/how-to-open-up-data/make-data-available.rst:146
 msgid ""
 "others can develop their own services using the data, because they have "
 "certainty that the data will not be taken away from them."
-msgstr "其他人可以使用這些資料來開發自己的服務，因為他們可以確定這些資料不會在之後某天，忽然從他們手中被奪走。"
+msgstr "kiti gali kurti nuosavas paslaugas, kurios naudoja duomenis, nes yra tikri, kad duomenys nebus atimti."
 
 # 92b96832e25848bea4ba68895e02480f
 #: ../../source/how-to-open-up-data/make-data-available.rst:149
@@ -1181,7 +1178,7 @@ msgid ""
 "linked with other resources, or versioned and archived in multiple places. "
 "While the latest version of the data may be made available via an API, raw "
 "data should be made available in bulk at regular intervals."
-msgstr "當我們將資料完整釋出時，其他人就可以找出有別於原始用途的方法來使用這些資料。例如，將資料轉為其他格式、與其他資源做整合，或是編列建檔存放在不同的地方。透過 API 呼叫的方式，我們可以提供最新版本的資料，但是每隔一段時間原始資料也必須更新和提供完整下載。"
+msgstr "Masinis (bulk) priėjimas prie visų duomenų iš karto leidžia tuos duomenis naudoti plačiau nei pagal originalią paskirtį. Pavyzdžiui, galima juos konvertuoti į naują formatą, susieti su kitais duomenimis arba versijuoti ir saugoti įvairiose vietose. Naujausia duomenų versija gali būti suteikiama per API, tačiau pirminiai duomenys taip pat turi būti reguliariai pateikiami masiniu (bulk) formatu."
 
 # 19cd648b3bcb47a69b7b467e23035209
 #: ../../source/how-to-open-up-data/make-data-available.rst:155
@@ -1190,7 +1187,7 @@ msgid ""
 "facility offering over 4000 data files. It is updated twice a day, offers "
 "data in :term:`Tab-separated values` (TSV) format, and includes "
 "documentation about the download facility as well as about the data files."
-msgstr "For example, the `Eurostat statistical service`_ 例如，Eurostat 的統計資料服務 (`Eurostat statistical service`_)，提供包含了 4000 多筆的完整資料可供下載。這些資料每天更新兩次。資料除了使用 :term:`Tab-separated values` (TSV) 的格式釋出，還可在網站上找到關於資料本身和資料下載的說明文件。"
+msgstr "Pavyzdžiui, `Eurostat statistical service`_ leidžia parsisiųsti duomenis ir pateikia virš 4000 duomenų failų. Duomenys atnaujinami dukart per dieną, pateikiami :term:`Tabuliavimo žymėmis atskirtų reikšmių` (TSV) formatu, taip pat pateikiama dokumentacija apie failų atsisiuntimą ir pačius failus."
 
 # e41c10ed0631425c909b8ebfb4a7c800
 #: ../../source/how-to-open-up-data/make-data-available.rst:162
@@ -1198,12 +1195,12 @@ msgid ""
 "Another example is the `District of Columbia Data Catalog`_, which allows "
 "data to be downloaded in CSV and XLS format in addition to live feeds of the"
 " data."
-msgstr "在網路上我們現在可以找到許多特別設計，讓資料更容易被尋獲的網站服務。"
+msgstr "Kitas pavyzdys yra 'Kolumbijos apskrities Duomenų Katalgoas'_, kuris leidžia  duomenis atsisiųsti ne tik CSV ir XLS formatais, bet ir prisijungti prie atnaujinimų srauto (live feed)."
 
 # 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
 msgid "Make data discoverable"
-msgstr "讓人們能找到你的資料"
+msgstr "Pasirūpinkite, kad duomenys būtų randami"
 
 # 1a2ce7b8aac042e9a2f48a21660610d0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
@@ -1211,7 +1208,7 @@ msgid ""
 ":term:`Open data` is nothing without users. You need to be able to make sure"
 " that people can find the source material. This section will cover different"
 " approaches."
-msgstr ":term:`開放資料`無法自外於使用者。你必須確保使用者能夠找到來源素材。這一節將會談到如何著手。"
+msgstr ":term:`Atviri duomenys <open data>` be vartotojų nieko verti. Turite užtikrinti, kad žmonės gali rasti informacijos šaltinį. Šis skyrius aptars skirtingus būdus tai padaryti."
 
 # 4becb2ab91af48f190e5067c39b98b97
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
@@ -1221,19 +1218,19 @@ msgid ""
 " whether sectorial or geographical, can make cooperation difficult. However,"
 " there are significant benefits in joining forces. The easier it is for "
 "outsiders to discover data, the faster new and useful tools will be built."
-msgstr "最重要的是，提供一個可以克服不同部門因為政策歧見，或是未來可能出現的經費調整所引起的問題的中立空間。不管是行政單位上的或是地域性的，法令的管轄範圍都可能讓不同部門之間的合作關係出現阻礙。但是，我們知道確定團結就是力量。只有當資料越容易被外人所尋獲，我們就能越快看到新的和有用的工具被建造出來。"
+msgstr "Svarbiausia yra rasti neutralią erdvę, kurios nepalies nei tarpinstitucinė politika, nei biudžeto perskirstymai. Jurisdikcinės ribos, ar administracinės, ar geografinės, gali apsunkinti bendradarbiavimą. Kita vertus, yra pliusų ir prisijungiant prie kurios nors pusės. Kuo lengviau pašaliniams žmonėms duomenis rasti, tuo greičiau bus kuriami nauji naudingi įrankiai."
 
 # 512c9d4d09dd44a68e1beae3b2f882b6
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
 msgid "Existing tools"
-msgstr "可用的工具"
+msgstr "Esami įrankiai"
 
 # 2adc1adf902d44b497f75a0eafa83915
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data more discoverable."
-msgstr "網路上有許多工具存在，這些工具經過特別設計，讓找資料的過程更容易。"
+msgstr "Egzistuoja nemažai įrankių, veikiančių internete ir leidžiančių lengviau rasti duomenis."
 
 # ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
@@ -1242,7 +1239,7 @@ msgid ""
 "for datasets from around the world. The site makes it easy for individuals "
 "and organizations to publish material and for data users to find material "
 "they need."
-msgstr "這些工具裡面最著名的應該是 DataHub_ 。這個服務為來自世界各處的資料集提供一個網路儲存空間，和建立一個完整的資料目錄。透過網站的服務，不管是個人或是團體組織，都能輕易地將資料釋出。同時需要資料的使用者也可快速的找到他們尋找的資料集。"
+msgstr "Vienas iš žinomiausių yra DataHub_ - tai katalogas ir duomenų saugykla duomenų rinkiniams iš viso pasaulio. Jis leidžia žmonėms ir organizacijoms lengvai skelbti turinį, o duomenų naudotojams - lengvai jį rasti."
 
 # 2558aac60a2e4327ad698877cc2142f9
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
@@ -1250,12 +1247,12 @@ msgid ""
 "In addition, there are dozens of specialist catalogs for different sectors "
 "and places. Many scientific communities have created a catalog system for "
 "their fields, as data are often required for publication."
-msgstr "除此之外，目前網路上還有其他工具也提供類似的服務和針對特定領域所建立的資料目錄。許多學術研究社群也都各自建立他們自己的目錄系統，裡面的資料常在許多學術論文發表上都可見到。"
+msgstr "Be to, yra daugybė specialių katalogų įvairioms sritims ir vietoms. Daugelis akademinių bendruomenių turi susikūrusios katalogus pagal savo sritis, kadangi jiems nuolat reikia duomenų."
 
 # 3813a2f6a87b44bda881d2dc1047e8e0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
 msgid "For government"
-msgstr "政府部門方面"
+msgstr "Vyriausybei"
 
 # dd24b7fc5a0e4264a0a4224b5aab6293
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
@@ -1264,7 +1261,7 @@ msgid ""
 "catalog for the government's data. When establishing a catalog, try to "
 "create some structure which allows many departments to easily keep their own"
 " information current."
-msgstr "目前我們常可見到比較正統的作法，是交由一個主管部門來為政府的資料建立一個統一的目錄。建立目錄時，也試著透過資料架構的規劃，讓不同部門與單位能輕易地繼續匯入他們掌管的資料的更新。"
+msgstr "Tradiciškai, pagrindinė valdančioji institucija apsiima kurti valdžios duomenų katalogą. Kurdami katalogą, pasistenkite sudaryti tokią struktūrą, kuri leistų departamentams lengvai atnaujinti informaciją."
 
 # e6a628d1c2b340f2bdd128c31a4febba
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
@@ -1273,14 +1270,14 @@ msgid ""
 "There are free and open source software solutions (such as CKAN_) which have"
 " been adopted by many governments already. As such, investing in another "
 "platform may not be needed."
-msgstr "我們建議你不要急著想要從零開始，重頭建構自己的系統來管理這個目錄。目前在網路上有不少免費的自由軟體可以使用 (例如 CKAN)，許多政府機關也已經開始使用這些軟體。所以，或許你並不需要將有限的資源擺在新平台的建立上。"
+msgstr "Atsispirkite pagundai kurti programinę įrangą nuo nulio. Yra daugybė nemokamų atviro kodo sprendimų (tokių kaip CKAN_), kuriuos jau naudoja daugelis vyriausybių. Taigi, investuoti į dar vieną platformą nebūtina."
 
 # 219db6ba9b784128a2be95191a104858
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
 msgid ""
 "There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
-msgstr "目前絕大部分的開放資料目錄都還缺少一些東西。在你的規劃中，或許可以考慮一下下面這幾點："
+msgstr "Yra keletas dalykų, kurių stokoja dauguma atvirų duomenų katalogų. Galima būtų atkreipti dėmesį apie šiuos:"
 
 # d738b775cba84d92ac1ed6ec7c0840c5
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
@@ -1288,7 +1285,7 @@ msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
 "data. It may be worthwhile to think of the catalog as the region's catalog, "
 "rather than the regional government's."
-msgstr "提供一個管道，讓私人與社群團體可以上傳他們自己的資料集。或許我們可以將目錄範圍定義為當地整個地區的資料目錄，而不是只是侷限在地區政府資料的目錄。"
+msgstr "Sudarykite sąlygas privatiems ir bendruomeniniams sektoriams pridėti savo duomenis. Galbūt verta katalogą traktuoti ne kaip regiono valžios katalogą, o tiesiog kaip regiono katalogą."
 
 # 507082d1a6244462beb7af124cfe0fda
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
@@ -1297,7 +1294,7 @@ msgid ""
 "be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
-msgstr "在目錄中允許加入複製後修改過的資料集，並藉此來有效改善資料的品質。例如，或許有人會把住址用地理座標的方式標記出來，同時希望能把這些資料分享給他人。如果每個資料集你只允許單一版本的紀錄，那這些修改過和加強的資料就無法被看到。"
+msgstr "Duomenų tobulinimo palengvinimas, leidžiant įtraukti į katalogą iš tų duomenų sukurtas naujus duomenis. Pavyzdžiui, kas nors gali paversti adresus koordinatėmis ir pasidalinti šiomis koordinatėmis su visais. Jei to neleidžiate, tokiais patobulinimais niekas negalės pasinaudoti."
 
 # e8ad70e351d34a9caf7bc7cf0409f67d
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
@@ -1305,7 +1302,7 @@ msgid ""
 "Be tolerant of your data appearing elsewhere. That is, content is likely to "
 "be duplicated to communities of interest. If you have river level monitoring"
 " data available, then your data may appear in a catalog for hydrologists."
-msgstr "允許你的資料被存放到其他地方去。也就是，我們預期資料內容會被複製轉貼到其他對這些資料有興趣的組織團體的網站或是其他網路空間。如果你提供了關於河流水位的監督記錄，那這些資料就可能會出現在與水利相關的團體所整理的資料名單上。"
+msgstr "Būkite tolerantiški, jei matysite savo duomenis pasirodant įvairiose vietose. Tikėtina, kad žmonės kopijuos juos dominantį turinį. Pavyzdžiui, jei turite upių lygio matavimo duomenis, jie gali atsidurti hidrologų kataloge."
 
 # 04da7586b2474affab2a4d56bb5dc900
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
@@ -1313,17 +1310,17 @@ msgid ""
 "Ensure that access is equitable. Try to avoid creating a privileged level of"
 " access for officials or tenured researchers as this will undermine "
 "community participation and engagement."
-msgstr "確認每個人對資料的取得有一樣的權利。避免設定特殊的資料讀取權限，例如特別開放給公部門官員或是具有終身職資格的資深學者的權限。因為這樣一來將會降低社群參與與回饋的意願。"
+msgstr "Užtikrinkite vienodas prieigos prie duomenų teises. Nesukurkite privilegijuotos prieigos valstybės tarnautojams arba finansuojamiems mokslininkams, kadangi tai ribos visuomenės dalyvavimą ir įsitraukimą."
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
 msgid "For civil society"
-msgstr "公眾社會方面"
+msgstr "Visuomenei"
 
 # 82151482120d4eb38a6d0aafff09e1ed
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
 msgid "Be willing to create a supplementary catalog for non-official data."
-msgstr "請為非官方的資料建立一個額外的目錄。"
+msgstr "Pasiruoškite sukurti ir papildomą katalogą nevalstybiniams duomenims."
 
 # 4d3c4cafa15d46b49cdf98fb5cdd40fb
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
@@ -1332,7 +1329,7 @@ msgid ""
 "authoritative sources. Officials have often gone to great expense to ensure "
 "that there will not be political embarrassment or other harm caused from "
 "misuse or overreliance on data."
-msgstr "一般來說，政府部門很少會將來自非官方或是非權威組織的資料結合進來。政府官員一般都會花很大的資源與精力來避免因為對資料的不當使用，或是對資料的過度信賴而可能造成的政治危機或是其他的傷害。"
+msgstr "Vyriausybės retai kada bendrauja su neoficialiais ir nepatikimais šaltiniais. Valdininkai stengiasi išvengti politinės gėdos ar kitos žalos kilusios dėl netinkamo duomenų naudojimo."
 
 # dc1fa133f5ff4c1f91bc4f7593f4b2e2
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
@@ -1341,53 +1338,53 @@ msgid ""
 "mesh their information with information from businesses. Governments are "
 "rightfully skeptical of profit motives. Therefore, an independent catalog "
 "for community groups, businesses and others may be warranted."
-msgstr "尤其是，政府可能不太願意回應那些使用了他們的資料並搭配使用 (mesh) 來自商業機構的資料的運動參與者的要求。政府當然有理由質疑這些人背後的動機。所以，建立一個給社群團體，企業商家與其他人專屬的獨立資料目錄是必要的。"
+msgstr "Be to, vyriausybės labai nenoriai remia veiklas, dėl kurių jų informacija suplakama su privataus sektoriaus informacija. Valstybinis sektorius skeptiškai vertina komercinius motyvus. Taigi, visuomenei, verslui ir kitiems gali prireikti nepriklausomo katalogo."
 
 # 0eece90a6b18435fbada8a71dce59bb8
 #: ../../source/following-up/getting-folks-in-a-room.rst:3
 msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
-msgstr "把大家拉進來：開幾場 Unconference，Meetups和 Barcamps 吧"
+msgstr "Susikvieskite liaudį: \"nekonferencijos\", susitikimai, \"barkampai\""
 
 # d517fbbe51ea4d1889ad1ea4f9b6c34e
 #: ../../source/following-up/getting-folks-in-a-room.rst:5
 msgid ""
 "Face-to-face events can be a very effective way to encourage others to use "
 "your data. Reasons that you may consider putting on an event include:"
-msgstr "舉辦實體面對面的聚會對於鼓勵他人使用你的資料是非常有幫助的。下面是幾個我們認為你該舉辦這些活動的理由："
+msgstr "Gyvi susitikimai gali būti labai efektyvūs, siekiant paskatinti vartotojus naudoti jūsų duomenis. Priežastys, dėl kurių verta rengti tokius susitikimus:"
 
 # ed4a924635be427d84e5e73aa156036b
 #: ../../source/following-up/getting-folks-in-a-room.rst:9
 msgid "Finding out more about prospective re-users"
-msgstr "認識更多可能會使用你的資料的使用者"
+msgstr "Daugiau sužinosite apie potencialius vartotojus"
 
 # 5f00d7f9fe5f4d88908a571cd17d7583
 #: ../../source/following-up/getting-folks-in-a-room.rst:10
 msgid "Finding out more about demand for different datasets"
-msgstr "知道使用者對哪些資料也有很大的興趣"
+msgstr "Išsiaiškinsite, koks kurių duomenų poreikis"
 
 # 44afdf6e36d943ddabf744660e0cd998
 #: ../../source/following-up/getting-folks-in-a-room.rst:11
 msgid "Finding out more about how people want to re-use your data"
-msgstr "知道大家是如何來使用你釋出的資料"
+msgstr "Daugiau sužinosite, kaip žmonės nori panaudoti jūsų duomenis"
 
 # 40fc2cc37de34edc951bb527c703bed8
 #: ../../source/following-up/getting-folks-in-a-room.rst:12
 msgid ""
 "Enabling prospective re-users to find out more about what data you have"
-msgstr "讓那些可能會使用你的資料的人有機會知道你還有哪些資料"
+msgstr "Leisite potencialiems vartotojams daugiau sužinoti apie tai, kokius duomenis turite"
 
 # 521cf351ccf04741bcad75ab2ebed8fc
 #: ../../source/following-up/getting-folks-in-a-room.rst:14
 msgid ""
 "Enabling prospective users to meet each other (e.g. so they can collaborate)"
-msgstr "讓那些可能會使用你的資料的人有機會認識其他人 (例如，可以藉這機會找到合作的伙伴)"
+msgstr "Sudarysite sąlygas susitikti būsimiems naudotojams (pvz., kad jie galėtų bendradarbiauti)"
 
 # 48964c3745d54c21947431d3f9dfa392
 #: ../../source/following-up/getting-folks-in-a-room.rst:16
 msgid ""
 "Exposing your data to a wider audience (e.g. from blog posts or media "
 "coverage that the event may help to generate)"
-msgstr "讓你釋出的資料有機會擴大宣傳讓更多人知道 (例如，透過部落格文章或是媒體對這些聚會的報導)"
+msgstr "Parodysite savo duomenis platesnei auditorijai (pvz., po renginio gali atsirasti pranešimų spaudoje ar straipsnių tinklaraščiuose)"
 
 # 4d90aabe7a734c3f805647604033d11a
 #: ../../source/following-up/getting-folks-in-a-room.rst:19
@@ -1397,30 +1394,30 @@ msgid ""
 "traditional conference models,  which will include things like preprepared "
 "formal talks, presentations and demonstrations, there are also various kinds"
 " of participant driven events, where those who turn up may:"
-msgstr "聚會的舉辦可以有不同的方法，聚會本身也能有不同的形式。這一切都依你想要達到的目的而定。如果是依照傳統座談會的模式，一場聚會在程序上將會包含一些例如，預先準備好的致詞，說明與展示等項目。除了傳統座談會，我們還可選擇以參與者為主的聚會形式。在這些聚會中，參與者將可 ："
+msgstr "Yra daugybė įvairiausių būdų vesti renginius, ir yra daugybė renginių rūšių priklausomai nuo to, ką norite pasiekti. Be tradicinio konferencijos modelio su jam įprastomis iš anksto paruoštomis formaliomis kalbomis, prezentacijomis ir demonstracijomis, taip pat egzistuoja įvairūs bendradarbiavimu grįsti renginiai, kuriuose dalyviai gali:"
 
 # a50b011fdb8840dc9d8f2efd3ab44a4c
 #: ../../source/following-up/getting-folks-in-a-room.rst:26
 msgid "Guide or define the agenda for the event"
-msgstr "指引或是決定活動的舉辦程序"
+msgstr "Vesti renginį ar nustatyti renginio tvarkaraštį"
 
 # fa476ad8536242b5b8bf48aea215e13c
 #: ../../source/following-up/getting-folks-in-a-room.rst:27
 msgid ""
 "Introduce themselves, talk about what they’re interested in and what they’re"
 " working on, on an ad hoc basis"
-msgstr "自我介紹，告訴大家他們對哪些事情有興趣，目前正在做的事情有哪些，等等"
+msgstr "Bet kuriuo metu prisistatyti, pakalbėti apie tai, kuo jie domisi ir ties kuo dirba"
 
 # a32292b0cdf147238a040b8e1264e482
 #: ../../source/following-up/getting-folks-in-a-room.rst:29
 msgid ""
 "Give impromptu micro-short presentations on something they are working on"
-msgstr "在沒有預先準備下，對他們目前正在做的事情做一個簡短介紹"
+msgstr "Ekspromtu rodyti trumpas prezentacijas apie tai, ties kuo jie dirba"
 
 # 2337543daa9b44a8b8774ac488b32296
 #: ../../source/following-up/getting-folks-in-a-room.rst:31
 msgid "Lead sessions on something they are interested in"
-msgstr "對他們有興趣的事情帶領討論"
+msgstr "Vesti temines sesijas iš tų sričių, kuriomis jie domisi"
 
 # 64065d778f9946ba94319f8241c9e573
 #: ../../source/following-up/getting-folks-in-a-room.rst:33
@@ -1434,31 +1431,31 @@ msgid ""
 "(e.g. a civic society organisation, a news organisation or an educational "
 "institution) to broaden your base participants and to increase your "
 "exposure."
-msgstr "在網路上你可以找到許多關於如何進行這類聚會的說明與教學文件。你可以試著搜尋這些關鍵字： ‘unconference’， ‘barcamp’， ‘meetup’， ‘speedgeek’， ‘lightning talk’，等等。你也可以試著與那些在其他國家舉辦過這類活動的組織或是團體聯繫來尋求協助。一般來說這些人都會很樂意幫助你並對你想舉辦的活動給予建議。或著你也可以試著跟其他組織一起合辦 (例如，其他的社會運動組織，新聞傳媒組織，或是教育機構等 ) 來拓展可能來參加你的活動的對象並提升你的計畫的曝光率。"
+msgstr "Internete labai daug informacijos apie tai, kaip rengti tokius renginius. Ją rasti galite paieškoję žodžių \"unconference\", \"barcamp\", \"meetup\", \"speedgeek\", \"lightning talk\", ir taip toliau. Taip pat gali būti verta susisiekti su žmonėmis, kurie tokius renginius rengė kitose šalyse ir kurie greičiausiai mielai jums padės ir patars. Gali praversti tapti kitos organizacijos partneriais (pvz., bendruomeninės organizacijos, naujienų organizacijos arba švietimo institucijos) - tai padės praplėsti dalyvių ratą ir pasiekti platesnę auditoriją."
 
 # 462828d03e674930afd7dba17f214303
 #: ../../source/following-up/index.rst:3
 msgid "So I’ve Opened Up Some Data, Now What?"
-msgstr "我將資料開放釋出了，那接著呢？"
+msgstr "Atvėriau duomenų, ir kas dabar?"
 
 # 00e250fc1e7143fdaf4d5ee13df433dd
 #: ../../source/following-up/index.rst:5
 msgid ""
 "We’ve looked at how to make government information legally and technically "
 "reusable. The next step is to encourage others to make use of that data."
-msgstr "我們在前面的章節說明如何從法令面與技術面將資料開放釋出。接下來則是鼓勵大家一起來使用這些資料。"
+msgstr "Jau pažiūrėjome, kaip valdžios informaciją padaryti teisiškai ir techniškai pernaudojamą. Kitas žingsnis - paskatinti visuomenę duomenis naudoti."
 
 # ea104e8ec1424383ab1ad41895ec4913
 #: ../../source/following-up/index.rst:9
 msgid ""
 "This section looks at additional things which can be done to promote data "
 "re-use."
-msgstr "在這個章節裡面我們將探討還有其他什麼可以做的，來宣傳推廣開放資料與資料的重新使用。"
+msgstr "Šis skyrius aptaria papildomus dalykus, kuriuos galima padaryti siekiant populiarinti duomenų pernaudojimą."
 
 # 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
 msgid "Making things! Hackdays, prizes and prototypes"
-msgstr "做出點什麼！程式競賽，獎金與範例原型"
+msgstr "Darykite! \"Hakatonai\", prizai ir prototipai"
 
 # 060111852eda4d8ab3c3be81956860cd
 #: ../../source/following-up/making-things.rst:5
@@ -1469,12 +1466,12 @@ msgid ""
 "A prize is then awarded to the best application. Competitions have been held"
 " in a number of countries including the UK, the US, Norway, Australia, "
 "Spain, Denmark and Finland."
-msgstr "這些競賽的基本架構都是，首先我們先開放釋出一些資料集，然後在限定的時間內 (可能從 48 小時到數個禮拜)，程式開發者必須使用這些資料集寫出一些新的應用程式。最後頒獎給最優秀的作品。這類的比賽在很多國家例如英國，美國，挪威，澳洲，西班牙，丹麥和芬蘭等都已經舉辦過。"
+msgstr "Šių konkursų struktūra tokia: internete paskelbiami duomenų rinkiniai, o programuotojai turi trumpą laiko tarpą, pavyzdžiui, nuo 48 valandų iki kelių savaičių, sukurti aplikacijas, kurios naudoja tuos duomenis. Už geriausią aplikaciją įteikiamas prizas. Konkursai jau buvo rengti daugelyje šalių, tame tarpe Didžiojoje Britanijoje, JAV, Norvegijoje, Australijoje, Ispanijoje, Danijoje ir Suomijoje."
 
 # 4023683f993e487e8a36414c0e231b52
 #: ../../source/following-up/making-things.rst:13
 msgid "Examples for Competitions"
-msgstr "競賽範例"
+msgstr "Konkursų pavyzdžiai"
 
 # 49b7ac024e12489b949a4e96788136cc
 #: ../../source/following-up/making-things.rst:15
@@ -1485,7 +1482,7 @@ msgid ""
 " asked “What would you create with public information?” and was open to "
 "programmers from around the world, with a tempting £80,000 prize for the "
 "five best applications."
-msgstr "**Show us a better way (給我們一個更好的方法)** 是全世界第一個這類型的比賽。這項比賽是英國政府 \"The Power of Information Taskforce\" 在 2008 年在內閣辦公室部長 Tom Watson 的帶領下舉辦。在這項比賽中，我們對來自世界各國的程式設計師提出一個問題「用公共資訊你能創造出什麼東西？」 (“What would you create with public information?”) 。同時提供了 £80,000 的獎賞給最佳的五個應用程式。"
+msgstr "Pirmasis toks konkursas pasaulyje buvo **Parodykite mums geresnį būdą**. Jį 2008 m. kovo mėnesį inicijavo Didžiosios Britanijos Vriausybės “The Power of Information Taskforce” vadovaujamas Cabinet Office Minister Tom Watson. Konkursas, siūlantis viliojantį 80 tūkst. svarų dydžio prizą, klausė: \"Ką jūs sukurtumėte iš viešojo sektoriaus informacijos?” ir buvo atviras viso pasaulio programuotojams."
 
 # 4173635b18804fe2afc29007068f6172
 #: ../../source/following-up/making-things.rst:22
@@ -1498,7 +1495,7 @@ msgid ""
 "and poverty indicators. It was at the time the most comprehensive local data"
 " catalog in the world. The challenge was to make it useful for citizens, "
 "visitors, businesses and government agencies of Washington, DC."
-msgstr "**Apps for Democracy**, （民主之 Apps），這是第一次在美國舉辦這類型的比賽。在 2008年 10 月由當時任職於哥倫比亞特區 (District of Columbia) 政府的首席技術長 (Chief Technology Officer) Vivek Kundra 所推動。在 Kundra 的帶領下，他建立了具有突破性象徵的 DC 政府資料目錄 http://data.octo.dc.gov/ 。目錄內的資料包含了即時犯罪資料串流，學校測試成績紀錄，與社會貧窮指數等。在當時這是全世界內容最廣泛的地區性資料目錄，而所面臨的挑戰則是要如何找出將這些資料轉為對市民，訪客，商業人士與華盛頓特區的政府部門有用的資訊的方法和應用。"
+msgstr "**Aplikacijos demokratijai**, vienas pirmųjų konkursų Jungtinėse Valstijose, vykęs 2008 m. spalio mėnesį, buvo suorganizuotas Vivek Kundra, tuometinio CTO Kolumbijos rajono vyriausybėje (District of Columbia Government). Kundra sukūrė novatorišką Kolumbijos rajono duomenų katalogą, http://data.octo.dc.gov/, kuriame buvo tokie duomenys, kaip nusikaltimų srautas realiu laiku, mokyklų testų rezultatai ir skurdo indeksai. Tuo metu tai buvo išsamiausias vietos duomenų katalogas pasaulyje. Iššūkis buvo padaryti jį naudingą piliečiams, lankytojams, verslininkams ir Vašingtono valstybinėms institucijoms."
 
 # 8d21825195c3490fb0c824541222f572
 #: ../../source/following-up/making-things.rst:32
@@ -1511,7 +1508,7 @@ msgid ""
 "was open for 30 days and cost the DC government $50,000. In return, a total "
 "of 47 iPhone, Facebook and web applications were developed with an estimated"
 " value in excess of $2,600,000 for the local economy."
-msgstr "面對這些挑戰，一個創新的方法就是舉辦Apps for Democracy 競賽。在策略與作法上則是要求大家使用新建立的目錄中的資料，一起來建立應用程式。在執行上，主辦單位做了一個讓參賽者能線上提交比賽程式的介面，提供許多小額的獎賞，而不只是少少幾個高額度的大獎。然後設定許多不同類別，其中一個是「人民首選獎」。比賽報名時間為 30 天，花了 DC 市政府 US$ 50,000。而回收的成果包含， 47 個 iPhone，Facebook 與其他網路服務的應用程式。對當地的經濟所製造的價值則估計超過 $2,600,000。"
+msgstr "Kūrybiškas sprendimas buvo surengti Aplikacijų demokratijai konkursą. Idėja buvo paprašyti žmonių sukurti aplikacijas, naudojant šviežiai paleisto duomenų katalogo duomenis. Registracija vyko internetu, buvo paskirta daug nedidelių prizų ir nustatytos kelios skirtingos kategorijos, tarp jų - ir pačios visuomenės nubalsuotas prizas. Konkursas vyko 30 dienų ir kainavo 50 000 dolerių. Rezultatas - 47 iPhone, Facebook ir kitos interneto aplikacijos, kurių spėjama vertė vietinei ekonomikai - 2 600 000 dolerių."
 
 # f146ea81d3f149b4abf0590d80f27b1c
 #: ../../source/following-up/making-things.rst:42
@@ -1523,7 +1520,7 @@ msgid ""
 "programme for accessing traffic information in the Basque Country, and for "
 "accessing data on buses and bus stops in Madrid, which won the first and "
 "second prizes of €3,000 and €2,000 respectively."
-msgstr "**The Abre Datos (Open Data) Challenge 2010 (開放資料挑戰賽 2010)** 。2010 年四月在西班牙舉辦。這項競賽邀請程式開發者在 48 小時內以開放源碼的形式使用公共資料來編寫應用程式。這次比賽一共有29 個隊伍參加，成果包含了一個使用 Basque 地區交通流量資訊的應用程式和一個使用馬德里地區公車與公車停靠站資訊的智慧型手機應用程式。這兩個應用程式分別奪下這次比賽的第一和第二名。各得到 €3,000 和 €2,000 的獎金。"
+msgstr "**The Abre Datos (Open Data) Challenge 2010**. Konkursas surengtas Ispanijoje 2010 m. balandžio mėnesį. Programuotojai buvo kviečiami per 48 valandas sukurti atviro kodo programas, naudojančias viešojo sektoriaus duomenis. Konkurse dalyvavo 29 komandos, sukūrusios įvairių aplikacijų, pavyzdžiui, tarp jų buvo mobilioji programėlė, naudojanti Baskų krašto transporto informaciją, taip pat programėlė, naudojanti autobusų ir stotelių Madride informaciją. Jos abi laimėjo pirmą ir antrą vietas, ir gavo 3 tūkst. ir 2 tūkst. eurų atitinkamai."
 
 # 1db8e290e0aa405ea64d0162ab6128e6
 #: ../../source/following-up/making-things.rst:50
@@ -1539,7 +1536,7 @@ msgid ""
 "of which built on the re-use of government data. A total amount of NOK 2.5 "
 "million was distributed among the 17 winners; while the total amount applied"
 " for by the 137 applications was NOK 28.4 million."
-msgstr "**Nettskap 2.0**. 在2010年四月，挪威的政府管理部 (Ministry for Government Administration) 舉辦了 \"Nettskap 2.0\" 競賽。這項競賽開放對象包含挪威的程式開發者，商業公司，公部門單位或是以個人名義報名的所有人。挑戰的主題則是，提出一個以政府服務發展，工作效率提升，或是提高民主參與等為主題，並以網站服務為目標的計畫。同時主辦單位也強烈建議大家多多使用政府資訊。雖然競賽的期限只有短短一個月，在五月九號這一天，挪威部長 Rigmor Aasrud 發表的聲明中提到他們收到非常熱烈的迴響。最後一共提出了 137 個應用程式，而其中超過 90 個使用了政府資訊。這次競賽一共頒發了 17 個獎賞，發出了NOK 2.5 百萬的獎金。但這 137 個應用程式所獲得的經濟效應則高達NOK 28.4 百萬。"
+msgstr "**Nettskap 2.0**. 2010 m. balandžio mėnesį Norvegijos valdymo ministerija surengė \"Nettskap 2.0\". Norvegų programinės įrangos kūrėjams - kompanijoms, viešojo sektoriaus agentūroms ir fiziniams asmenims - buvo mestas iššūkis: sukurti interneto galimybes naudojančias aplikacijas tokiose srityse, kaip paslaugų kūrimas, efektyvūs darbo procesai ir visuomenės dalyvavimo demokratijoje didinimas. Ypač buvo skatinamas valdžios duomenų naudojimas. Nors galutinis terminas buvo jau po mėnesio, gegužės 9 dieną, ministras Rigmor Aasrud pažymėjo, kad visuomenės atsakas buvo \"stulbinantis\". Iš viso gautos 137 aplikacijos, iš jų ne mažiau kaip 90 buvo sukurtos panaudojant valdžios duomenis. 17 laimėtojų pasidalino 2,5 milijono Norvegijos kronų."
 
 # 14cbc29030354b309e4c0acf0e56aef3
 #: ../../source/following-up/making-things.rst:63
@@ -1552,12 +1549,12 @@ msgid ""
 "applications that were entered into the contest are further evidence of the "
 "new and innovative applications which can result from releasing government "
 "data on open terms."
-msgstr "**Mashup Australia**. 澳洲的 Government 2.0 Taskforce 邀請市民來告訴大家為什麼開放和取得澳洲政府資訊對於國家的經濟和社會發展有著正面的作用。這項比賽從 2009 年十月七號一直開放到十一月十三號。特別小組採用開放授權，並使用機器可讀取的檔案格式釋出了一部分政府資料。比賽最後一共提出了82 個應用程式。對我們來說，這 82 個應用程式就是最佳的證據來證明當政府願意將資訊以開放授權的形式釋出時，新的設計與創新的應用程式就有機會產生。"
+msgstr "**Mashup Australia**. Australijos specialios paskirties \"Valdžios 2.0\" komanda pakvietė piliečius parodyti, kodėl atvira prieiga prie Australijos valdžios informacijos būtų naudinga šalies ekonomikai ir socialinei raidai. Konkursas vyko nuo 2009 m. spalio 7 d. iki lapkričio 13 d. \"Valdžios 2.0\" komanda atvėrė dalį duomenų ir suteikė atvirą licenciją bei pateikė juos keliais naudojimui patogiais formatais. Konkurse dalyvavo 82 aplikacijos - tai įrodymas, kad atvirų duomenų pagrindu gali būti kuriami nauji inovatyvūs produktai ir paslaugos."
 
 # 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
 msgid "Conferences, Barcamps, Hackdays"
-msgstr "討論會、Barcamps 或是 Hackdays"
+msgstr "Konferencijos, \"barkampai\" ir \"hakatonai\""
 
 # 09e8f1bbc1b6444aa9605ae502caef64
 #: ../../source/following-up/making-things.rst:75
@@ -1568,7 +1565,7 @@ msgid ""
 " and economic benefit. CSOs that promote re-use have been instrumental in "
 "countries where there have been advances in policy and law to ensure that "
 "datasets are both technically and legally open."
-msgstr "對一個公民社會組織 (Civil Society Organisations) 來說，要讓政府明白政府資訊開放的重要性和其所能帶來的龐大附加價值，最有效的方法就是讓政府看到資訊在各種不同的使用方式下是如何改善社會環境與製造經濟效應。在很多國家中，推廣政府資訊開放的 CSO 常常在政策與法令的進步扮演著非常重要的催化角色。透過這些組織的對議題的關注，我們能確保不管是從技術層面或是法令上，資料的公開能保持他們的「開放性」。"
+msgstr "Vienas iš efektyviausių būdų, kuriuo visuomeninės organizacijos gali vyriausybėms pademonstruoti duomenų atvėrimo naudą, yra parodyti, kokiais būdais informacija gali būti naudojama siekiant socialinės ir ekonominės naudos. Organizacijos, propaguojančios informacijos naudojimą, yra labai daug prisidėjusios tose šalyse, kurios padarė pažangą keisdamos politiką ir teisinę bazę link didesnio techninio ir teisinio atvirumo."
 
 # 60c702f98efb4c9aa510e6198b1428db
 #: ../../source/following-up/making-things.rst:83
@@ -1581,19 +1578,19 @@ msgid ""
 "cases, civil society advocates have worked with progressive public officials"
 " to secure new release of datasets that can be used by programmers to create"
 " innovative applications."
-msgstr "在這些推動資料開放的計畫中，一般我們常會看到的活動包含舉辦競賽， :term:`open government data` 討論會， “unconferences”，工作坊和 “hack days”。這些活動常常是由使用者組成的社群所舉辦，並且在活動中使用開放的資料。這些資料可能來自他們努力推動的成果，或是經由公民取得政府資訊的相關法令所釋出。在其他例子中，我們看到有些公民促進團體會和思想較進步的官員合作，確保當資料釋出時，程式開發者能直接使用並創造出新的應用程式。"
+msgstr "Tipiniai renginiai, organizuojami kaip atvirų duomenų iniciatyvų dalis, paprastai yra konkursai, :term:`atvirų valdžios duomenų <open government data>` konferencijos, \"nekonferencijos\", dirbtuvės ir \"hakatonai\". Renginius dažnai organizuoja vartotojų bendruomenė, kuri ir naudoja aktyviai suteikiamą informaciją, ir gauna ne taip aktyviai suteikiamą. Taip pat pasitaiko, kad visuomenės veikėjai dirba su pažangiais viešojo sektoriaus darbuotojais, skatindami naujų duomenų rinkinių atvėrimą, kad programuotojai galėtų sukurti dar daugiau inovatyvių aplikacijų."
 
 # c85468b1156d4b76b60e1af0a6c15d37
 #: ../../source/following-up/tell-the-world.rst:3
 msgid "Tell the world!"
-msgstr "告知全天下!"
+msgstr "Praneškite pasauliui!"
 
 # f7b8c06459e444fe94462d69f5643a3f
 #: ../../source/following-up/tell-the-world.rst:5
 msgid ""
 "First and foremost, make sure that you promote the fact that you've embarked"
 " on a campaign to promote :term:`open data` in your area of responsibility."
-msgstr ""
+msgstr "Visų pirma savo aplinkoje būtinai paviešinkit faktą, kad Jūs dalyvaujate veikloje skatinančioje :term:'atvirus duomenis'."
 
 # 9f1b5341b9e842f493d4aaf04dc35fcb
 #: ../../source/following-up/tell-the-world.rst:9
@@ -1601,38 +1598,38 @@ msgid ""
 "If you open up a bunch of datasets, it’s definitely worth spending a bit of "
 "time to make sure that people know (or at least can find out) that you’ve "
 "done so."
-msgstr "如果你已經開放釋出一些資料集，我們當然能花點時間確定所有的人都知道這 (或至少讓其他人可以發現)。"
+msgstr "Jei atveriate krūvą duomenų, tikrai verta sugaišti laiko ir pasirūpinti, kad žmonės apie tai sužinotų (ar kad bent jau galėtų patys išsiaiškinti), kad jūs tai padarėte."
 
 # f9ce3d51005c4023a7fd16dd964b1eff
 #: ../../source/following-up/tell-the-world.rst:13
 msgid ""
 "In addition to things like press releases, announcements on your website, "
 "and so on, you may consider:"
-msgstr "除了透過一般管道來發佈新聞稿以外，記得在你的網站上也公告一下。然後還有下面這幾點你也可以參考一下："
+msgstr "Galite ne tik leisti spaudos pranešimus, skelbti informaciją savo svetainėse ir taip toliau, bet taip pat:"
 
 # 05f10ba54c2b46e1a53127ab505be87c
 #: ../../source/following-up/tell-the-world.rst:16
 msgid ""
 "Contacting prominent organisations or individuals who work/are interested in"
 " this area"
-msgstr "聯繫那些對這一切都有興趣或是職務上與這有關的知名團體或是個人"
+msgstr "Susisiekti su svarbiomis organizacijomis ar asmenimis, kurie domisi ar dirba susijusioje srityje"
 
 # a2b3bc1ebe674b0ea69ffd4da3745791
 #: ../../source/following-up/tell-the-world.rst:18
 msgid "Contacting relevant mailing lists or social networking groups"
-msgstr "將資訊透過相關的信件討論群組或是社群網路團體發佈出去"
+msgstr "Prisijungti prie susijusių el. pašto grupių ar socialinio tinklo grupių"
 
 # 7b7cc9acb2a745ceacf815065d7ef058
 #: ../../source/following-up/tell-the-world.rst:19
 msgid ""
 "Directly contacting prospective users who you know may be interested in this"
 " data"
-msgstr "直接聯繫那些你預計對開放的資料會有興趣的使用者們"
+msgstr "Tiesiogiai susisiekite su potencialiais naudotojais, kuriems galėtų būti įdomūs jūsų duomenys"
 
 # 1e00595b53124d30a532470f0c12b6cc
 #: ../../source/following-up/tell-the-world.rst:23
 msgid "Understanding your audience"
-msgstr "認識你的對象"
+msgstr "Supraskite savo auditoriją"
 
 # 528fc19bc9384914bff7b326a5690865
 #: ../../source/following-up/tell-the-world.rst:25
@@ -1640,7 +1637,7 @@ msgid ""
 "Like all public communication, engaging with the data community needs to be "
 "targeted. Like all stakeholder groups, the right message can be wasted if it"
 " is directed to the wrong area."
-msgstr "就如同編寫公開的新聞稿時一樣，想要吸引資料相關的社群來加入，你需要先想清楚你對話的對象。這就跟面對所有利害關係人與團體時一般，正確的訊息如果傳送到錯誤的地方可能就完全無法發揮作用。"
+msgstr "Kaip ir bet kokia komunikacija, bendravimas su vartotojų bendruomenėmis turi būti tikslingas. Gera žinia gali būti prarasta, jei ji nukreipta ne ten, kur reikia."
 
 # 5cee9f066f764747a01b13daa677806d
 #: ../../source/following-up/tell-the-world.rst:29
@@ -1648,7 +1645,7 @@ msgid ""
 "Digital communities tend to be very willing to share new information, yet "
 "they very rapidly consume it. Write as if your messages will be skimmed "
 "over, rather than critically examined in-depth."
-msgstr "一般來說數位科技社群都很樂意分享資訊，但是對於資訊的閱讀卻不願意花太多時間。所以在編寫你的訊息時，你要把這當成可以快速瀏覽的短文，而不是那種需要花很多時間深入思索的長篇大論。"
+msgstr "Interneto bendruomenės labai mielai dalinasi nauja informacija, tačiau taip pat ir labai greitai ją vartoja. Rašykite turėdami omenyje, kad jūsų žinia bus labai greitai permesta akimis, o ne atidžiai perskaityta."
 
 # 18c9101dca504db9accaddb84ade088c
 #: ../../source/following-up/tell-the-world.rst:33
@@ -1656,7 +1653,7 @@ msgid ""
 "Members of the tech community are less likely than the general public to use"
 " MS Windows. This means that you should not save documents in MS Office "
 "formats which can be read offline. There are two resons for this:"
-msgstr "比起一般大眾，技術導向的社群成員很可能比較不會去使用 MS Windows 作業系統。所以你不該把你的文字存為 MS Office 檔案，然後要求其他人下載閱讀。主要的原因有二："
+msgstr "Technologiškos bendruomenės nariai rečiau nei įprasta publika naudoja MS Windows. Tai reiškia, kad geriau nepateikinėti MS Office formato dokumentų, kuriuos reikia atsisiųsti ir skaityti kompiuteryje. Nereikia to daryti dėl dviejų priežasčių:"
 
 # 19ec177bb4064fd4afc752564dcd6876
 #: ../../source/following-up/tell-the-world.rst:38
@@ -1664,7 +1661,7 @@ msgid ""
 "The first is that those documents will be less accessible. Rather than the "
 "document you see on your screen, readers may see an imperfect copy from an "
 "alternative."
-msgstr "首先，開啟這些檔案需要的閱讀軟體就是一種限制。同時很可能其他人看到的結果和顯示跟你在你自己螢幕上所見到的不太一樣或是沒有完全顯示。"
+msgstr "Visų pirma, tie dokumentai bus menkiau prieinami. Skaitytojai gali matyti ne tai, ką jūs matote ekrane, o netobulą alternatyvią kopiją."
 
 # 2bf9658ad33c45e597c924d5f98773d9
 #: ../../source/following-up/tell-the-world.rst:41
@@ -1672,12 +1669,12 @@ msgid ""
 "Secondly, your agency sends an implicit message that you are unwilling to "
 "take a step towards developers. Instead, you show that you are expecting the"
 " technology community to come to you."
-msgstr "其二，這意味著你和你所代表的部門傳遞出的訊息是，你們不願意為這些程式開發者多想一下。反之，你表現出的是你希望這些技術導向的社群成員往你的方向跨一步。"
+msgstr "Antra, jūsų įstaiga taip siunčia žinią, kad nenori taikytis prie programinės įrangos kūrėjų. Vietoj to jūs turėtumėte rodyti, kad laukiate techniškosios visuomenės dalies dėmesio."
 
 # 844e5bf617e74753bc0dd1c7cac6f9f0
 #: ../../source/following-up/tell-the-world.rst:47
 msgid "Post your material on third-party sites"
-msgstr "將開放釋出的資料轉貼到第三方網站上"
+msgstr "Skelbkite informaciją trečiųjų šalių svetainėse"
 
 # 6a83365938d94f77b222dc567c79b43d
 #: ../../source/following-up/tell-the-world.rst:49
@@ -1686,12 +1683,12 @@ msgid ""
 "may be worthwhile adding an article about your initiative on their site. "
 "These can be mutually beneficial. You receive more interest and they receive"
 " a free blog post in their topic area."
-msgstr "網路上有許多在特定議題上經營得非常好的部落格。如果你能在這些部落格上貼出一篇關於你的計畫的文章，這將會是很棒的宣傳方法。同時這也是個雙贏的局面，你可以獲得更多人的關注，而他們則有一篇和他們所經營的領域相關的免費文章可以刊登。"
+msgstr "Daugelis blogų turi nemažas skaitytojų bazes specializuotose srityse. Galbūt verta parašyti straipsnį apie jūsų iniciatyvą jų svetainėje. Tai gali būti abipusiai naudinga - jūs sulaukiate susidomėjimo, o jie gauna nemokamą straipsnį."
 
 # 9b230b80b65d485d86d252226dd302ec
 #: ../../source/following-up/tell-the-world.rst:56
 msgid "Making your communications more social-media friendly"
-msgstr "讓對外的溝通更具社群媒體親和力"
+msgstr "Komunikuokite naudodamiesi socialiniais tinklais"
 
 # 4bead5ae1fe74d96a269bf59a3ca032d
 #: ../../source/following-up/tell-the-world.rst:58
@@ -1700,14 +1697,14 @@ msgid ""
 "engaging with social media. However, there are several things that you can "
 "do to make sure that your content can be easily shared between technical "
 "users. Some tips:"
-msgstr "老實說，我們很難想像政府官員能花很多時間來經營社群媒體。但是，有一些事情是你現在就可以做，讓你的文章和內容能容易地透過社群媒體在技術圈的使用者之間散播。下面是一些建議："
+msgstr "Nėra realu tikėtis, kad valstybės tarnautojai praleis daug laiko bendraudami socialiniuose tinkluose. Tačiau yra keli dalykai, kuriuos padarius, galima užtikrinti, kad jūsų turinys greitai paplis tarp techniškų vartotojų. Štai keli patarimai:"
 
 # f4f2dab2b9ac404cb9d9bbad4a3bf3b9
 #: ../../source/following-up/tell-the-world.rst:65
 msgid ""
 "When a message is shared with others, the recipient of the referral will be "
 "looking for the relevant content quickly."
-msgstr "當我們分享一則訊息時，看到分享的人會期待能快速並直接看到相關的內容。"
+msgstr "Kai žinute bus dalinamasi su kitais, jos gavėjas iš karto matys jam aktualų turinį."
 
 # 52f00dd496ae41b3896cfd0f84c83303
 #: ../../source/following-up/tell-the-world.rst:70
@@ -1717,7 +1714,7 @@ msgid ""
 "outside of a web browser, then fewer people will read it. Search engines are"
 " less likely to index the content. People are less likely to click to "
 "download."
-msgstr "新聞稿是蠻不錯的東西。因為新聞稿讓你有機會對特定的主題傳遞清楚的訊息。但是，如果你要求大家在閱讀這份新聞稿前還要先下載到自己電腦內，然後再開啟另一個程式來閱讀，我們可以很確定地跟你說，只有少數人會願意這樣做。同時，搜尋引擎也不太能有效地把這些內容掃他的搜尋結果中。只有很少的人願意點擊那個下載連結。"
+msgstr "Spaudos pranešimai yra naudingi. Tai glaustos žinutės tam tikra tema. Tačiau jeigu jums reikia, kad žmonės atsisiųstų ir žiūrėtų turinį ne naršyklėje, tuomet tą padarys daugelis. Paieškos varikliai nesuindeksuos turinio taip gerai. Žmonės rečiau spaudžia, kad atsisiųstų turinį."
 
 # 5f48a5a973b64166af65a56fee9e2af3
 #: ../../source/following-up/tell-the-world.rst:78
@@ -1726,12 +1723,12 @@ msgid ""
 " this is permissible, you send a message that your agency understands "
 "openness. This is bound to leave an impression far more significant to "
 "proponents of open data than any specific sentence in your press release."
-msgstr "除了讓那些願意分享你的文章與內容的人確定分享是被允許的，這也是在告訴大家你所代表的部門很清楚知道「開放性」是什麼意思。對那些 Open Data 的支持者來說，這一點比起你寫在新聞稿內的任何文字都更為有力。"
+msgstr "Jūs ne tik duodate užtikrintumą žmonėms, norintiems dalintis jūsų duomenimis, bet ir siunčiate žinią, kad jūsų institucija supranta, kas tai yra atvirumas. Tai atvirų duomenų entuziastams padarys kur kas didesnį įspdį, nei kuris nors sakinys spaudos pranešime."
 
 # ced1e4dd38e54c148906380a97dd58ef
 #: ../../source/following-up/tell-the-world.rst:87
 msgid "Social media"
-msgstr "社群媒體"
+msgstr "Socialiniai tinklai"
 
 # 574f80f4359f48efbb593e6eec284c9e
 #: ../../source/following-up/tell-the-world.rst:89
@@ -1741,7 +1738,7 @@ msgid ""
 "fora is by making sure that blog posts are easily shareable. That means, "
 "before reading the next section, make sure that you have read the last. With"
 " that in mind, here are a few suggestions:"
-msgstr "對那些缺乏資源與預算的部門與單位來說，花很多時間在社群媒體上的經營是沒有效率的。如果你希望你的聲音在這些社群和論壇內被聽見，首先你要確定你的文章可以容易地的被分享出去。所以，在閱讀接下來這一段說明前，請確定你已經仔細閱讀上一段文字。然後下面這是我們的一些建議："
+msgstr "Riboto biudžeto institucijoms neefektyvu valandų valandas leisti socialiniuose tinkluose. Geriausias būdas užtikrinti, kad jūsų balsas bus išgirstas šiuose tinkluose, tai padaryti jūsų žinutes lengvas dalintis. Tai reiškia, kad prieš skaitydami kitą skyrių, įsitikinkite kad perskaitėte paskutinįjį. Keli pasiūlymai:"
 
 # f847a5e41c65478796cb6b6f71cbf686
 #: ../../source/following-up/tell-the-world.rst:98
@@ -1749,21 +1746,21 @@ msgid ""
 "Twitter has emerged as the platform of choice for disseminating information "
 "rapidly. Anything tagged with #opendata will be immediately seen by "
 "thousands."
-msgstr "在過去這幾年，Twitter 成為將資訊快速散播的最佳平台。所有標記有#opendata 的推文都可馬上被數以千計的人所看到。"
+msgstr "Twitter yra žaibiško keitimosi informacija platforma. Viskas, ką pažymėsite \"#opendata\", kaipmat bus pamatyta tūkstančių žmonių."
 
 # 73647b69ba61434dbc71b406d5ae5259
 #: ../../source/following-up/tell-the-world.rst:102
 msgid ""
 "LinkedIn has a large selection of groups which are targeted towards open "
 "data."
-msgstr "LinkedIn 則有為數不少被標記與 open data 有關的群組。"
+msgstr "LinkedIn turi daugybę grupių, kurių tema yra atviri duomenys."
 
 # b0aafaffa0234c4989d2b2666ba136a5
 #: ../../source/following-up/tell-the-world.rst:105
 msgid ""
 "While Facebook is excellent for a general audience, it has not received a "
 "great deal of attention in the open data community."
-msgstr "如果說 Facebook 的確很適合一般大眾，在 open data 相關的社群內則沒有受到太大的關注。"
+msgstr "Nors Facebook yra puiki terpė pasiekti bendrą auditoriją, jis nėra labai populiarus tarp atvirų duomenų bendruomenių."
 
 # b3381b7656bf4f3dbe210f7e88d3202b
 #: ../../source/following-up/tell-the-world.rst:110
@@ -1771,56 +1768,56 @@ msgid ""
 "Submit your content to the equivalent of newswires for geeks. Reddit and "
 "Hacker News are the two biggest in this arena at the moment. To a lesser "
 "extent, Slashdot and Digg are also useful tools in this area."
-msgstr "將你的內容發到類似 newswires 但是對象以 geeks 為主的推文網站上。Reddit 和 Hacker News 是目前在這方面影響力最大的兩個網站。另外，稍微小一點的還有 Slashdot 和 Digg 也很值得你去張貼你的文章連結。"
+msgstr "Parašykite į naujienų portalus, kuriuose lankosi programuotojai. Pavyzdžiui, JAV tai būtų Reddit ir Hacker News, taip pat - Slashdot ir Digg."
 
 # 8c7beae1caaa43b99c59bec2e4e1160d
 #: ../../source/following-up/tell-the-world.rst:115
 msgid ""
 "These sites have a tendency to drive significant traffic to interesting "
 "material. They are also heavily focused on topic areas."
-msgstr ""
+msgstr "Šios svetainės paprastai sulaukia nemažo skaitytojų susidomėjimo ir yra sukoncentruotos į tam tikras temines sritis."
 
 # 8d913877e7a6456b84c5481aa375fa49
 #: ../../source/glossary.rst:3
 msgid "Glossary"
-msgstr "詞彙對照表"
+msgstr "Žodynas"
 
 # 7f11b625ef3e418ebce8fa73d6df5007
 #: ../../source/glossary.rst:99
 msgid ""
 "The process of adapting data so that individuals cannot be identified from "
 "it."
-msgstr ""
+msgstr "Duomenų adaptavimas taip, kad nebūtų galima identifikuoti konkrečių asmenų."
 
 # a05e26862bfa42af9de59456bb406ca0
 #: ../../source/glossary.rst:96
 msgid "See :term:`Anonymisation`."
-msgstr "參閱 :term:`Anonymisation`."
+msgstr "Žr. :term:`Anonymisation`."
 
 # a178837206844dcd9c3f961ffb9ec065
 #: ../../source/glossary.rst:61
 msgid "See :term:`Application Programming Interface`."
-msgstr "參閱 :term:`Application Programming Interface`."
+msgstr "Žr. :term:`Application Programming Interface`."
 
 # b2d454de54a34ff3ac26f9a9b95cfc1d
 #: ../../source/glossary.rst:64
 msgid ""
 "A way computer programs talk to one another. Can be understood in terms of "
 "how a programmer sends instructions between programs."
-msgstr ""
+msgstr "Būdas kompiuterių programoms \"kalbėtis\" viena su kita. API naudojasi programuotojas, siųsdamas instrukcijas tarp programų."
 
 # ed5e720c502945a5890bd78c53722041
 # 006ce3eeb6f6494e89126a9fee36fa6b
 #: ../../source/glossary.rst:108 ../../source/glossary.rst:111
 msgid "See :term:`Information Asset Register`."
-msgstr "參閱 :term:`Information Asset Register`."
+msgstr "Žr. :term:`Information Asset Register`"
 
 # d7005be4c2644ffd95650d9a7fa33c09
 #: ../../source/glossary.rst:38
 msgid ""
 "A license that requires that the original source of the licensed material is"
 " cited (attributed)."
-msgstr ""
+msgstr "Licencija, reikalaujanti, kad būtų paminimas originalus informacijos šaltinis."
 
 # a66abef10b4b433d93031aa2c2017898
 #: ../../source/glossary.rst:24
@@ -1829,14 +1826,14 @@ msgid ""
 " large files between the computers which are participating in the transfer. "
 "Rather than downloading a file from a specific source, BitTorrent allows "
 "peers to download from each other."
-msgstr "BitTorrent 是一個目前政策決策者越來越熟習的系統，因為這個系統的使用與侵犯版權等相關問題常常被放在一起提到。BitTorrent 使用一種稱為 torrents 的檔案，然後在運作上可以將檔案散佈的資源分散平均分配到每個讀取該檔案的使用者身上。這樣一來，就算對資料檔案的要求提高，也可避免伺服器出現頻寬不足的狀況，因為越多人下載檔案，就表示越多人同時也在分享。"
+msgstr "BitTorrent yra protokolas, leidžiantis paskirstyti ryšio resursus siunčiant labai didelius failus tarp kompiuterių, dalyvaujančių siuntime. Vietoj failo siuntimosi iš tam tikro šaltinio, BitTorrent leidžia visiems besisiunčiantims dalintis failo dalimis tarpusavyje."
 
 # 612e73147c2c40fdbe744433e7db9a57
 #: ../../source/glossary.rst:20
 msgid ""
 "Connectivity relates to the ability for communities to connect to the "
 "Internet, especially the World Wide Web."
-msgstr "網路連線環境指的是社群連接上網路的能力，尤其是有沒有辦法瀏覽網站。"
+msgstr "Laisva prieiga reiškia galimybę bendruomenėms prisijungti prie interneto, ypač visuotinio žiniatinklio(WWW)."
 
 # 2c5484b9a96740bfbc9f3afcc208576a
 #: ../../source/glossary.rst:83
@@ -1844,19 +1841,19 @@ msgid ""
 "A right for the creators of creative works to restrict others' use of those "
 "works. An owner of copyright is entitled to determine how others may use "
 "that work."
-msgstr ""
+msgstr "Kūrinio autoriaus teisė riboti jo kūrinių panaudojimą. Teisių autoriui leidžiama apibrėžti, kaip būtent kiti gali naudoti jo kūrinį."
 
 # 905eb11579234bb1a44c8bf10af73af7
 #: ../../source/glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
-msgstr "參閱 :term:`Data Access Protocol`."
+msgstr "Žr. :term:`Data Access Protocol`."
 
 # df25ad55a2cd4441b7c2a9fa5fb62877
 #: ../../source/glossary.rst:34
 msgid ""
 "A system that allows outsiders to be granted access to databases without "
 "overloading either system."
-msgstr "一個提供認證機制，允許外部連線到資料庫並可避免系統產生超載的存取協定。"
+msgstr "Sistema, leidžianti pašaliniams vartotojams prieiti prie duomenų bazių neperkraunant visos sistemos."
 
 # 9d30078f305e4260bfee0cfdd8fc931b
 #: ../../source/glossary.rst:42
@@ -1871,19 +1868,19 @@ msgid ""
 "lines. This raised a debate from the perspective of freedom of movement and "
 "the travel card data collection was abandoned based on the data protection "
 "legislation."
-msgstr ""
+msgstr "Duomenų apsaugos teisės tikslas - ne apsaugoti duomenis, bet apsaugoti piliečių teisę gyventi nebijant, kad informacija apie jų privatų gyvenimą gali būti paviešinta. Įstatymas gina privatumą (pvz., informaciją apie asmens ekonominę būklę, sveikatą ir politines pažiūras) ir kitas teises, tokias kaip teisė į judėjimo laisvę. Pavyzdžiui, Suomijoje kelionės kortelių sistema buvo naudojama įrašyti, kokiose viešojo transporto linijose ta kortelė buvo nuskaityta, ir tai sukėlė diskusijas dėl judėjimo laisvės. Kelionės duomenų rinkimas buvo nutrauktas dėl duomenų apsaugos."
 
 # 86c8b18def8d4ee1b79d75ad066b4b8f
 #: ../../source/glossary.rst:79
 msgid ""
 "A right to prevent others from extracting and reusing content from a "
 "database. Exists mainly in European jurisdictions."
-msgstr ""
+msgstr "Teisė neleisti kitiems ištraukti ir pernaudoti duomenų bazės turinį. Egzistuoja daugiausia Europos jurisdikcijoje."
 
 # ec3378ceb3a748ccad2951202612480a
 #: ../../source/glossary.rst:114
 msgid "European Union."
-msgstr "歐盟"
+msgstr "Europos Sąjunga."
 
 # 5ad96f170d4d4c57b91fd25c109b9d1f
 #: ../../source/glossary.rst:117
@@ -1892,7 +1889,7 @@ msgid ""
 "\"deals with the way public sector bodies should enhance re-use of their "
 "information resources.\" `Legislative Actions - PSI Directive "
 "<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
-msgstr "*公部門資訊重新使用指令 (The Directive on the re-use of public sector information) , 2003/98/EC.* \"處理的是公部門單位如何加強他們對資訊資源的重新使用” `Legislative Actions - PSI Directive<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`"
+msgstr "*Direktyva viešo sektoriaus duomenim*, 2003/98/EC. \"nustato kaip viešo sektoriaus struktūros turėtų skatinti jų turimos informacijos panaudojimą.\" Įstatiminiai veiksmai - PSI direktyva <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm"
 
 # 31dae10cf39d414c9c3bc877c742864f
 #: ../../source/glossary.rst:123
@@ -1901,7 +1898,7 @@ msgid ""
 "about the vast quantities of information held by government departments and "
 "agencies. A comprehensive IAR includes databases, old sets of files, recent "
 "electronic files, collections of statistics, research and so forth."
-msgstr ""
+msgstr "IAR sukurta specialiai meta duomenų rinkimui ir apdorojimui didelių duomenų kiekių, kuriuos turi viešas sektorius. Išsamus IAR susideda iš duomenų bazių, senų duomenų failu, naujų elektronių failų, statistinių duomenų ir taip toliau."
 
 # fbabda3fc9f146ac9a749e3d391ff817
 #: ../../source/glossary.rst:129
@@ -1909,7 +1906,7 @@ msgid ""
 "The :term:`EU PSI Directive` recognises the importance of asset registers "
 "for prospective re-users of public information. It requires member states to"
 " provide lists, portals, or something similar. It states::"
-msgstr ""
+msgstr ":term:`EU VSI direktyva <EU PSI Directive>` pripažįsta informacijos šaltinių registrų svarbą potencialiems viešąją informaciją pernaudojantiems vartotojams. Ji iš šalių narių reikalauja pateikti sąrašus, portalus, ar pan. Ji teigia:"
 
 # 815da74bce80419d83a67e6fddc5fe7b
 #: ../../source/glossary.rst:145
@@ -1919,7 +1916,7 @@ msgid ""
 "information which is held by public bodies but which has not yet been – and "
 "maybe will not be – proactively published. Hence they allow members of the "
 "public to identify information which exists and which can be requested."
-msgstr ""
+msgstr "Informacijos šaltinių registrai gali būti kuriami skirtingai. Valstybiniai departamentai gali susikurti savo registrus ir juos susieti su valstybės lygio informacijos šaltinių registrais. Registruose gali būti ir informacija apie duomenis, kurie saugomi institucijose, bet kurie dar nebuvo arba galbūt ir nebus atverti. Taigi, šie registrai leidžia visuomenei matyti, kokia informacija egzistuoja, ir kokios galima prašyti."
 
 # 338ebff07b91405ba99bcd2e705da064
 #: ../../source/glossary.rst:152
@@ -1930,7 +1927,7 @@ msgid ""
 "registers is a significant problem as it creates a degree of unreliability "
 "which may discourage some from using the registers to search for "
 "information."
-msgstr ""
+msgstr "Kad visuomenei informacijos šaltinių registrai būtų naudingi, svarbu, kad jie būtų kuo pilnesni - kad jais galima būtų pasitikėti. Registrų neišbaigtumas yra didelė problema, kadangi kuria nepasitikėjimą ir gali atbaidyti žmones nuo registrų naudojimo ieškant informacijos."
 
 # 27218b7ea50843d393655598df958338
 #: ../../source/glossary.rst:159
@@ -1941,17 +1938,17 @@ msgid ""
 "general public as raw data under an open license so that civic hackers can "
 "make use of the data, for example by building search engines and user "
 "interfaces."
-msgstr ""
+msgstr "Labai svarbu informacinių šaltinių registruose pateikti išsamius metaduomenis (duomenis apie duomenis), kad paieškos varikliai efektyviai rastų informaciją. Informacijos šaltinių registrai turėtų būti pateikti visuomenei ta pačia dvasia, kaip ir atviri duomenys - pirminių duomenų pavidalu ir su atvira licencija, kad programuotojai galėtų panaudoti šiuos metaduomenis, pavyzdžiui, kurdami paieškos variklius ar jų vartotojo sąsajas."
 
 # 4feb4d19a60642078f320e8d8dd612be
 #: ../../source/glossary.rst:105
 msgid "Monopolies granted to individuals for intellectual creations."
-msgstr ""
+msgstr "Monopolijos suteiktos individams dėl intelektinės nuosavybės."
 
 # 89ef221be02d4278bab95a677f310469
 #: ../../source/glossary.rst:102
 msgid "See :term:`Intellectual property rights`."
-msgstr "參閱 :term:`Intellectual property rights`."
+msgstr "Žr. :term:`Intellectual property rights`."
 
 # 58a3235843654c3282894e72502ef67d
 #: ../../source/glossary.rst:13
@@ -1960,14 +1957,14 @@ msgid ""
 " extracted by computer programs easily. PDF documents are not machine "
 "readable. Computers can display the text nicely, but have great difficulty "
 "understanding the context that surrounds the text."
-msgstr "所謂的機器可讀取的檔案格式意味著它們的數據能夠輕易的被電腦程式擷取。而PDF文件並不是機器可讀取的格式。電腦可以清楚的顯示PDF中的文字，但是在解讀文字以外的內容時，卻是非常的困難的。"
+msgstr "Kompiuterio perskaitomi duomenų formatai yra tie, kuriuos įvairios programos gali nuskaityti be problemų. PDF dokumentai nėra kompiuterio perskaitomi.  Kompiuteris gali atvaizduoti tekstą labai gražiai, tačiau turi didelių problemų bandydamas suprasti kontekstą supantį tekstą."
 
 # 2dc4522d8fcb4013b942b47615c50aa3
 #: ../../source/glossary.rst:9
 msgid ""
 "Open data are able to be used for any purpose. More details can be read at "
 "`opendefinition.org <http://www.opendefinition.org/>`_."
-msgstr "開放資料能夠應用在各類型的目的上，更詳細的資訊請參考`opendefinition.org <http://www.opendefinition.org/>`_."
+msgstr "Atvirus duomenis galima naudoti bet kokiam tikslui. Daugiau apie tai galima paskaityti svetainėje `opendefinition.org <http://www.opendefinition.org/>`_."
 
 # 5de57f6ce9f24f3ebbbcb86481d101fb
 #: ../../source/glossary.rst:167
@@ -1977,7 +1974,7 @@ msgid ""
 "not identify individuals or breach commercial sensitivity. Open government "
 "data is a subset of :term:`Public Sector Information`, which is broader in "
 "scope. See http://opengovernmentdata.org for details."
-msgstr ""
+msgstr "Valstybės sugeneruoti :term:`Atviri duomenys <open data>`. Paprastai tai yra duomenys, surinkti apie įprastus verslo veiksmus, neidentifikuojantys konkrečių asmenų ir neatskleidžiantys komercinių paslapčių. Atviri duomenys yra :term:`viešojo sektoriaus informacijos <Public Sector Information>`, kuri yra platesnė, dalis. Daugiau sužinosite svetainėje http://opengovernmentdata.org."
 
 # fd67964c3c0c4d829d84d0289821fa98
 #: ../../source/glossary.rst:91
@@ -1985,35 +1982,35 @@ msgid ""
 "Generally understood as technical standards which are free from licencing "
 "restrictions. Can also be interpreted to mean standards which are developed "
 "in a vendor-neutral manner."
-msgstr ""
+msgstr "Bendai suprantamas kaip techninis standartas nesusijęs su licenzijavimo apribojimais. Gali būti suprantamas kaip prastas standartas sukurtas prekeivio būdu."
 
 # 69cae7a7b1ba4c2ab1feefaa40340b8e
 #: ../../source/glossary.rst:55
 msgid "See :term:`Public Sector Information`."
-msgstr "參閱 :term:`Public Sector Information`."
+msgstr "Žr. :term:`Public Sector Information`."
 
 # a2ce148a2a73420b9acd40b9063f3f43
 #: ../../source/glossary.rst:75
 msgid ""
 "No copyright exists over the work. Does not exist in all jurisdictions."
-msgstr ""
+msgstr "Kūrinys neturi autoriaus teisių. Egzistuoja ne visose jurisdikcijose."
 
 # 2f2e8085f2cc4398947dfcaa3f7ab3b8
 #: ../../source/glossary.rst:58
 msgid "Information collected or controlled by the public sector."
-msgstr ""
+msgstr "Informacija, renkama ar kontroliuojama viešojo sektoriaus."
 
 # bb27435fccc543f49295bce4ed47215a
 #: ../../source/glossary.rst:88
 msgid "Use of content outside of its original intention."
-msgstr "將資料內容使用在他建立時原本預定的範圍之外"
+msgstr "Turinio naudojimas ne pagal originalią paskirtį."
 
 # b82b98ba6b7f4fc1aacfe2d19a7bda99
 #: ../../source/glossary.rst:71
 msgid ""
 "A license that requires users of a work to provide the content under the "
 "same or similar conditions as the original."
-msgstr ""
+msgstr "Licencija, reikalaujanti, kad asmuo, panaudojęs ir platinantis turinį, jam pritaikytų tokią pačią arba panašią licenciją, pagal kurią tuos duomenis naudojo pats."
 
 # fd0aa49e25734202a7c30036e68ef957
 #: ../../source/glossary.rst:175
@@ -2021,22 +2018,22 @@ msgid ""
 "Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
-msgstr "Tab-separated values (TSV - 使用 TAB 鍵來區隔資料欄位) 是一種在分享表格類型資料時常會使用到的文字檔案格式。這種檔案格式極為簡易並具有高度的 :term:`machine-readable` (機器可讀性)。"
+msgstr "Tabuliacijos žymėmis atskirtos reikšmės (*tab separated values*, TSV) yra dažnai naudojamas lentelinių duomenų formatas. Jis labai paprastas ir lengvai :term:`skaitomas kompiuteriu (machine-readable)`."
 
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68
 msgid "An :term:`API` that is designed to work over the Internet."
-msgstr "一個設計來網路上使用的 :term:`API` "
+msgstr ":term:`API`, kuri sukurta dirbti internetu."
 
 # 7132f49bacf446729745b0e8e0d9a192
 #: ../../source/appendices/file-formats.rst:3
 msgid "File Formats"
-msgstr "檔案格式"
+msgstr "Failų formatai"
 
 # 510002baa9d748f68d35f6436604f3fb
 #: ../../source/appendices/file-formats.rst:6
 msgid "An Overview of File Formats"
-msgstr "檔案格式綜覽"
+msgstr "Failų formatų apžvalga"
 
 # 635ed34ea4614e81860363d399eb473a
 #: ../../source/appendices/file-formats.rst:9
@@ -2049,7 +2046,7 @@ msgid ""
 "JSON is a simple file format that is very easy for any programming language "
 "to read. Its simplicity means that it is generally easier for computers to "
 "process than others, such as XML."
-msgstr "JSON 是一種簡單的檔案格式，任何程式語言都可輕鬆讀取。其簡易的特性代表它和其他格式 - 例如 XML 相較，可更容易地透過電腦來處理。"
+msgstr "JSON yra paprastas failų formatas, kurį labai lengva skaityti bet kuriai programavimo kalbai. Jo paprastumas reiškia, kad kompiuteriams jį apdoroti lengviau nei kitus formatus, pavyzdžiui, XML."
 
 # 8a8590a390d84558833340d36e1f1b61
 #: ../../source/appendices/file-formats.rst:16
@@ -2063,7 +2060,7 @@ msgid ""
 "opportunities to keep the structure in the data and the way files are built "
 "on, and allows developers to write parts of the documentation in with the "
 "data without interfering with the reading of them."
-msgstr "XML廣泛地使用於資料交換，因為其可以完好地保存資料中的結構，還有檔案建立的方式，並且能讓程式員將部份說明文件寫進同檔案中，而不會干擾資料的可讀性"
+msgstr "XML yra plačiai naudojamas formatas dalijantis duomenimis, nes jis suteikia galimybę išlaikyti duomenų struktūrą ir įrašyti dokumentaciją kartu su duomenimis neatliekant pačių duomenų nuskaitymo."
 
 # 516202713787406d9afba417d89fc548
 #: ../../source/appendices/file-formats.rst:24
@@ -2083,12 +2080,12 @@ msgid ""
 "inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
 "scheme that includes linked RDF data as a goal to be sought for open data "
 "initiatives."
-msgstr "RDF，一種W3C所建議的格式， 他呈現資料的方式讓其與其他格式相比，叫能結合多種不同的資料來源。RDF資料可以XML和JSON儲存。RDF建議使用URLs當作識別方式，提供一種方便的方式可直接相互連結於網頁上現存的:term:`open data` 草案。RDF目前使用還不廣泛，但已逐漸開始隨著開放政府草案有變多的趨勢，像是英國和西班牙政府的「連結開放資料計劃」。還有全球資訊網的發明者，Tim Berners-Lee，最近也提出了一個五星等級方案，內容包含將連結的RDF資料成為開放資料草案追求的目標。"
+msgstr "W3C rekomenduoja formatą trumpiniu RDF, kuris įgalina saugoti duomenis taip, kad būtų galima apjungti duomenis gautus iš skirtingų šaltinių. RDF duomenys gali būti išsaugoti XML arba JSON formatu, bei kitais formatais. RDF skatina internetinių nuorodų naudojimą kaip unikalų raktą, kuris įgalina sujungti įvairias :term:'open data' iniaciatyvas internete. RDF vis dar nėra labai stipriai išpopuliarėjęs, tačiau tai dažniausiai naudojmas formatas tarp Atviros Vyriausybės iniciatyvų, įskaitant Didžiosios Britanijos ir Ispanijos Vyriausybių sujungtus Open Data projektus. Interneto kūrėjęs, Tim Berners-Lee neseniai paskelbė penkių žvaigždučių schemą į kurią įeina sujungti RDF duomenys kaip prioritetas atvirų duomenų srityje."
 
 # 36ba7f18a648422ea3301c59ce1cdcaf
 #: ../../source/appendices/file-formats.rst:41
 msgid "Spreadsheets"
-msgstr "試算表"
+msgstr "Skaičialentės (spreadsheets)"
 
 # f71a98416abb41dabc2dc7023eaea6b8
 #: ../../source/appendices/file-formats.rst:43
@@ -2096,7 +2093,7 @@ msgid ""
 "Many authorities have information left in the spreadsheet, for example "
 "Microsoft Excel. This data can often be used immediately with the correct "
 "descriptions of what the different columns mean."
-msgstr "許多政府機關都會使用試算表來記錄他們的資訊，例如 Microsoft 的 Excel。只要將各欄位所代表的內容做個說明，這些資料常常就能馬上開放和使用。"
+msgstr "Daugelis valstybės institucijų saugo informaciją skaičialentėse, pavyzdžiui, Microsoft Excel. Tokie duomenys dažnai gali būti naudojami tuoj pat, jei tik teisingai aprašytos stulpelių reikšmės."
 
 # 7e508d6674dc4676b48234f74c63791c
 #: ../../source/appendices/file-formats.rst:47
@@ -2105,12 +2102,12 @@ msgid ""
 "which may be somewhat more cumbersome to handle. It is therefore advisable "
 "to document such calculations next to the spreadsheet, since it is generally"
 " more accessible for users to read."
-msgstr "然而，許多請況下會有巨集和方程式存在試算表中，造成處理上的困難。因此我們建議把算式紀錄在試算表旁，這樣對使用者來說也較好讀。"
+msgstr "Tačiau, kai kuriais atvejais skaičiuoklių dokumentuose gali atsirasti papildomos informacijos arba formulių, su kuriomis gali būti sunku dirbti. Tokiu atveju patartina skaičiavimus dokumentuoti šalia duomenį, nes taip patogiau vartotojams perskaityti."
 
 # 72147ad3a13f4e96a0da72ca09dca722
 #: ../../source/appendices/file-formats.rst:53
 msgid "Comma Separated Files"
-msgstr "CSV 逗點分隔檔案"
+msgstr "Kableliu atskirto turinio failai"
 
 # 3d3c193e05ac423a8ec608988bc74bcc
 #: ../../source/appendices/file-formats.rst:55
@@ -2121,7 +2118,7 @@ msgid ""
 "since it can be almost impossible to guess the significance of the different"
 " columns. It is therefore particularly important for the comma-separated "
 "formats that documentation of the individual fields are accurate."
-msgstr "CSV 是一種非常有用的檔案格式，因為它非常的輕巧，所以很適合用來傳送大量相同結構的資料。但是由於這樣的格式太專一性，要去推測不同欄位之間的特性是非常困難。所以假使沒有標明使用規範，很難去使用這些資料。因此對於這類逗號分隔的檔案格式來說，個別使用規範的正確性是相當的重要。"
+msgstr "CSV gali būti labai naudingas formatas, nes yra kompaktiškas, taigi tinkamas keistis dideliems duomenų rinkiniams, turintiems vienodą struktūrą. Tačiau šis formatas toks \"spartietiškas\", kad duomenys dažnai būna beverčiai be dokumentacijos, kadangi gali būti beveik neįmanoma atspėti, ką reiškia kurie stulpeliai. Todėl labai svarbu, kad kablelių atskirto turinio failuose būtų tiksliai dokumentuotos laukų reikšmės."
 
 # eb505d33966845db9b5cd9db528d86e8
 #: ../../source/appendices/file-formats.rst:63
@@ -2130,12 +2127,12 @@ msgid ""
 "a single omission of a field may disturb the reading of all remaining data "
 "in the file without any real opportunity to rectify it, because it cannot be"
 " determined how the remaining data should be interpreted."
-msgstr "遵循檔案的結構非常重要，因為省略一個欄位會干擾讀取其他檔案中的資料，並且無從修正，因為它並不能判別剩下的資料要怎麼詮釋。"
+msgstr "Dar daugiau, failo struktūros būtina griežtai laikytis, nes praleista viena reikšmė gali neleisti nuskaityti viso likusio failo informacijos. Taip pat būtų sunku atitaisyti informaciją, nes nežinia kaip turėtų atrodyti duomenys."
 
 # 00b93bc63b524d138137f8a1498d4eed
 #: ../../source/appendices/file-formats.rst:69
 msgid "Text Document"
-msgstr "文書文件"
+msgstr "Tekstinis dokumentas"
 
 # db72a1c2afd6485cb9364dba5947a8f8
 #: ../../source/appendices/file-formats.rst:71
@@ -2148,7 +2145,7 @@ msgid ""
 "by automated means. Be sure to use templates as the basis of documents that "
 "will display data for re-use, so it is at least possible to pull information"
 " out of documents."
-msgstr ""
+msgstr "Klasikinių dokumentų tokiais formatais, kaip Word, ODF, OOXML arba PDF gali pakakti kai kurioms duomenų rūšims. Jais skelbti duomenis gali būti pigu, kadangi dažnai tai yra pradinis duomenų formatas. Tačiau tokie formatai nepalaiko vienodos duomenų struktūros, o tai reiškia, kad gali būti sunku automatizuoti duomenų apdorojimą. Pasistenkite naudoti dokumentų šablonus, leisiančius suprasti, kokia duomenų struktūra, kad vėliau būtų įmanoma iš tų dokumentų ištraukti ir struktūrizuoti duomenis."
 
 # 3ca8da150fd3448e9c91b7f4e8f08c92
 #: ../../source/appendices/file-formats.rst:80
@@ -2158,12 +2155,12 @@ msgid ""
 " (any type specified) from the content and so on. Generally it is "
 "recommended not to exhibit in word processing format, if data exists in a "
 "different format."
-msgstr ""
+msgstr "Jis taip pat gali palaikyti įvairias tipografines žymas, taigi skaitant mašininiu būdu galima būtų atskirti pavadinimus nuo turinio, ir taip toliau. Bet paprastai rekomenduojama nesinaudoti teksto redagavimo formatais, jei galima rinktis kitus formatus."
 
 # 1e222acd868a4836989075cb0ff8845f
 #: ../../source/appendices/file-formats.rst:87
 msgid "Plain Text"
-msgstr "純文字檔"
+msgstr "Grynasis tekstas"
 
 # d063aa3fc40b4accbd3b368bc0ce5490
 #: ../../source/appendices/file-formats.rst:89
@@ -2172,7 +2169,7 @@ msgid ""
 "generally exclude structural metadata from inside the document however, "
 "meaning that developers will need to create a parser that can interpret each"
 " document as it appears."
-msgstr "純文字檔(.txt)也是一種電腦可以輕易讀取的檔案類型，然而它常常排除了結構後設資料，也就是說，程式撰寫者必須自己建立語法分析器，以便解譯不同的檔案。"
+msgstr "Tekstiniai failai(.txt) yra lengvai kompiuterių perskaitomi. Dažniausiai į juos neįeina meta duomenys apie dokumentą, taigi kūrėjai turėtų nusiskaityti duomenis taip, kad būtų galima interpretuoti informaciją tokią kokia ji yra, be papildomo žinojimo apie dokumento struktūrą(meta duomenų)."
 
 # 7b4a3b6ee9404cfc873e4cac5c9a8390
 #: ../../source/appendices/file-formats.rst:94
@@ -2180,12 +2177,12 @@ msgid ""
 "Some problems can be caused by switching plain text files between operating "
 "systems. MS Windows, Mac OS X and other Unix variants have their own way of "
 "telling the computer that they have reached the end of the line."
-msgstr "在不同的作業系統上轉換純文字檔時，可能會遇到一些問題。MS Windows、Mac OS X和其他的Unix介面都有自己的一套方式告訴電腦他們的限制在哪。"
+msgstr "Gali būti problemų, naudojant grynojo teksto failus skirtingose operacinėse sistemose. MS Windows, Mac OS X ir Unix kiekviena savaip pasako kompiuteriui, kad jau pasiekė failo pabaigą."
 
 # 86000271a8184337a739b0937ae22f75
 #: ../../source/appendices/file-formats.rst:100
 msgid "Scanned image"
-msgstr "掃描圖檔"
+msgstr "Skanuotas paveikslėlis"
 
 # 6a115f8899a94bffb8d9578c13c53e1e
 #: ../../source/appendices/file-formats.rst:102
@@ -2196,12 +2193,12 @@ msgid ""
 " It may be relevant to their displaying data as images whose data are not "
 "born electronically - an obvious example is the old church records and other"
 " archival material - and a picture is better than nothing."
-msgstr ""
+msgstr "Greičiausiai labiausiai netinkantis duomenų formatas, tačiau tiek TIFF, tiek JPEG-2000 gali būti susieti su komentaru kas yra paveikle arba pateikti pilną paveiklo turinio aprašymą. Tai gali būti svarbu duomenims, kurių prigimtis nėra elektroninė - geriausias pavyzdys būtų seni bažnytiniai archyvo įrašai, tada nuotrauka geriau nei nieko."
 
 # 5e9d83d67fbe465a8c002bf40eeb9205
 #: ../../source/appendices/file-formats.rst:111
 msgid "Proprietary formats"
-msgstr "轉有格式"
+msgstr "Nuosavybiniai formatai"
 
 # dcac01c71eb645498af1bc5b949be4cc
 #: ../../source/appendices/file-formats.rst:113
@@ -2213,7 +2210,7 @@ msgid ""
 "proprietary formats can be found should always be indicated, for example by "
 "providing a link to the supplier's website. Generally it is recommended to "
 "display data in non-proprietary formats where feasible."
-msgstr "一些比較專業的系統，會有它們自己的檔案格式提供儲存或是匯出。有時以這種格式公開還算可行，特別當我們預期這些檔案之後會用類似的系統處理。這時應該要提供關於該專屬格式的詳細資訊，像是提供軟體商的網頁連結。但一般來說，我們還是建議以非專有格式來顯示資料比較恰當。"
+msgstr "Kai kurios dedikuotos sistemos turi nuosavus duomenų formatus, kuriais išsaugo duomenis. Kartais gali ir pakakti atverti duomenis tokiu formatu - ypač jei tikimasi, kad duomenys bus toliau naudojami panašioje sistemoje kaip ta, kurioje tie duomenys dabar yra. Visada turi būti nurodyta, kur rasti daugiau informacijos apie šiuos nuosavybinius formatus, pavyzdžiui, gali būti nuoroda į tiekėjo svetainę. Vis tik, rekomenduojama duomenis pateikti ne nuosavybiniu formatu, kur tik tai įmanoma."
 
 # ebfcd7577aa94ce9a921e9cf6c78a6a5
 #: ../../source/appendices/file-formats.rst:123
@@ -2228,7 +2225,7 @@ msgid ""
 "cases, it could be preferable to have data in a form easier to download and "
 "manipulate, but as it is cheap and easy to refer to a page on a website, it "
 "might be a good starting point in the display of data."
-msgstr "現今許多資料都以HTML格式儲存與不同的網站。如果資料本身穩定且有限定的規模，這種方式是足夠的。雖然在許多狀況下，將資料以容易下載與操作的型態儲存可能比較好，但因為放在網頁上的作法既便宜又容易查詢，所以還算是展示資料時的一個好出發點。"
+msgstr "Šiandien daug duomenų skelbiami įvairiose svetainėse HTML formatu. To gali pakakti, jei duomenys stabilūs ir nedidelės apimties. Kartais geriau duomenis pateikti taip, kad būtų lengva juos atsisiųsti ir su jais dirbti, tačiau kadangi į svetainę pigu ir paprasta nukreipti, tai gali būti visai gera pradžia skelbiant duomenis."
 
 # 905921990dc542df9e22c0a368727e8b
 #: ../../source/appendices/file-formats.rst:132
@@ -2239,19 +2236,19 @@ msgid ""
 "Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
 "extract structured information from a website, and such tools can do much "
 "more with the data if it is carefully tagged."
-msgstr "一般來說如果要保存資料，於HTML中使用表格是最合適的方法，然後以不同的資料欄位來呈現並給予識別碼，這樣對於資料的查詢與處理將更為便利。雅虎發展一套工具(http://developer.yahoo.com/yql/)可以擷取網站的結構資訊，而這種工具對那些標示詳細的資料可做的事更多。"
+msgstr "Dažniausiai patogiausia naudoti lenteles HTML dokumentuose laikyti duomenims. Taip pat svarbu, kad duomenų laukai turėtų unikalius kodus, kad būtų lengva atlikti duomenų paiešką ir darbą. Yahoo sukūrė įrankį (http://developer.yahoo.com/yql/), kuris skirtas nuskaityti informaciją iš svetainės ir tokie įrankiai su duomenimis gali atlikti ivairias sudėtingesnes manipuliacijas."
 
 # 749bccb614ec4d75b626f3a91f7c20fd
 #: ../../source/appendices/file-formats.rst:141
 msgid "Open File Formats"
-msgstr "開放檔案格式"
+msgstr "Atviri failų formatai"
 
 # 2268600ee3b34664913b2eaaf2c0b83e
 #: ../../source/appendices/file-formats.rst:143
 msgid ""
 "Even if information is provided in electronic, machine-readable format, and "
 "in detail, there may be issues relating to the format of the file itself."
-msgstr "就算資訊是詳細的透過電子、機器可讀的格式提供出來，但是在檔案本身的格式上面可能還是會遇到一些問題。"
+msgstr "Net jei duomenys pateikiami elektroniniu, mašininiam skaitymui pritaikytu formatu, ir labai smulkiai, vis tiek gali būti problemų, susijusių su pačiu formatu."
 
 # a1e9a630c82c497685a5d40d2375be05
 #: ../../source/appendices/file-formats.rst:147
@@ -2262,7 +2259,7 @@ msgid ""
 "available to anyone, free of charge, so that anyone can use these "
 "specifications in their own software without any limitations on re-use "
 "imposed by intellectual property rights."
-msgstr ""
+msgstr "Formatai, kuriais informacija skelbiama - kitaip tariant, ta skaitmeninė bazė, kurioje saugoma informacija - gali būti \"atvira\" arba \"uždara\". Atviro formato specifikacija yra prieinama bet kam ir nemokamai, taigi visi gali be intelektinės nuosavybės teisių apribojimų naudoti tas specifikacijas kurdami savo programinę įrangą."
 
 # 11373b39254144f4bb062a40e7813a85
 #: ../../source/appendices/file-formats.rst:154
@@ -2274,7 +2271,7 @@ msgid ""
 "format, this can cause significant obstacles to reusing the information "
 "encoded in it, forcing those who wish to use the information to buy the "
 "necessary software."
-msgstr ""
+msgstr "Jei formatas \"uždaras\", taip gali būti arba dėl to, kad failo formatas nuosavybinis ir specifikacija nėra prieinama visuomenei, arba dėl to, kad failo formatas yra nuosavybinis ir net jei specifikacija vieša, jos naudojimas ribotas. Jei informacija paskelbiama naudojantis uždaru formatu, gali kilti rimtų kliūčių tai informacijai panaudoti, ir norintiems ja naudotis gali tekti pirkti tam reikalingą programinę įrangą."
 
 # c8855b8342e64d1b8377d55893c94f9a
 #: ../../source/appendices/file-formats.rst:162
@@ -2282,7 +2279,7 @@ msgid ""
 "The benefit of open file formats is that they permit developers to produce "
 "multiple software packages and services using these formats. This then "
 "minimises the obstacles to reusing the information they contain."
-msgstr "開放文件格式的好處在於他們讓開發者能夠利用這些格式開發多類型的套裝軟體與服務。如此一來，就能夠減少資料重複使用上的困難。"
+msgstr "Atvirų failų formatų privalumas tas, kad jie leidžia programinės įrangos kūrėjams sukurti įvairius įrankius, galinčius naudotis tais formatais. Tai minimizuoja kliūtis pernaudoti failuose esančią informaciją."
 
 # 14e8ba3e856d439eb9372a107b327b45
 #: ../../source/appendices/file-formats.rst:167
@@ -2292,7 +2289,7 @@ msgid ""
 "license holders. In worst-case scenarios, this can mean that information can"
 " only be read using certain software packages, which can be prohibitively "
 "expensive, or which may become obsolete."
-msgstr "使用封閉規格的私有檔案格式，可能會造成對第三方軟體或檔案格式授權持有者的依賴。最糟糕的情形下，這可能代表著我們的資訊需要特定的軟體才能讀取，這些軟體不是過份地昂貴，就是可能會過期，不再支援。"
+msgstr "Naudojant failų formatus, kurių specifikacija nėra viešai prieinama, galima sukelti priklausomumą nuo kitos programinės įrangos arba failo formato licenzijos problemas. Blogiausiu atveju informacija galės būt nuskaityta tik su specifine programine įranga, kas gali būti labai brangu."
 
 # becd5c5379ad46a6a4495bf228bc2072
 #: ../../source/appendices/file-formats.rst:173
@@ -2300,12 +2297,12 @@ msgid ""
 "The preference from the :term:`open government data` perspective therefore "
 "is that information be released in **open file formats which are machine-"
 "readable.**"
-msgstr "因此從:term:`open government data`的觀點來看，我們比較偏好使用**機器可讀的開放檔案格式**來釋出資訊。"
+msgstr "term:'Atvirų valdžios duomenių' reikšmė yra ta, jog duomenys yra pateikiami **atviru failų formatu, kuris yra lengvai nuskaitomas.**"
 
 # 0706964f49444783b06ccb6d8e40ec6c
 #: ../../source/appendices/file-formats.rst:178
 msgid "Example: UK traffic data"
-msgstr "例如英國的交通運輸數據"
+msgstr "Pavyzdys: Didžiosios Britanijos transporto duomenys"
 
 # 06406a590c564ab9a7dd69b5e9869377
 #: ../../source/appendices/file-formats.rst:180
@@ -2323,7 +2320,7 @@ msgid ""
 "of an educational discount. The main software packages on the April 2010 "
 "price list from Saturn start at £13,000 (over €15,000), a price which is "
 "beyond the reach of most ordinary citizens."
-msgstr "Andrew Nicolson 是一個軟體工程師，他參與了 (並且成功) 一個抵制新路拓建工程的活動，該工程位於英國 Westbury 鎮東方。Andrew 想要存取並使用當地交通資料作為抵擋該工程提案的依據。他試圖透過資訊自由法取得相關的資料，但當地政府所提供的資料是專屬私有格式，只能透過一家軟體公司所販賣的軟體讀取。該公司名稱為「土星」，主要提供模擬交通模型與預測服務。他們並沒有供應「純讀取」版軟體，所以 Andrew 的團隊只能花錢購買教育版授權，約 500 英鎊 (600 歐元)。而這套軟體的主體部份於 2010 年 4 月的價格從一萬 3 千英鎊起跳(超過一萬 5 千歐元)，這個價格遠超過一般市民的負擔能力。"
+msgstr "Andrew Nicolson yra programinės įrangos kūrėjas, kuris buvo įsitraukęs į (galiausiai sėkmingą) kampaniją prieš naujo kelio, Westbury Eastern aplinkkelio Didžiojoje Britanijoje, statybas. Andrew domino prieiga prie kelių transporto judėjimo duomenų, kurie buvo naudojami vertinant pasiūlymus. Jam pavyko kai kuriuos duomenis gauti pasinaudojus prašymais suteikti informaciją, tačiau vietos valdžia teikdavo informaciją nuosavybiniu formatu, ir juos buvo galima perskaityti tik naudojant kompanijos \"Saturn\", kuri specializavosi transporto judėjimo modeliavime ir prognozavime, programinę įrangą. Ši programinė įranga neturi versijos, skirtos vien tik informacijos perskaitymui, taigi Andrew neturėjo kitos išeities, kaip tik nusipirkti programinės įrangos licenciją, kuri jam kainavo 500 svarų (600 eurų) su nuolaida akademinėms reikmėms. Pagrindinių programinės įrangos modulių kainos kompanijos \"Saturn\" kainoraštyje 2010 metų balandžio mėnesį prasidėjo nuo 13 000. svarų (virš 15 000. eurų) - tai kainos, neįkandamos daugumai paprastų piliečių."
 
 # 9e78cdb7b65b44568400fc075a25128b
 #: ../../source/appendices/file-formats.rst:196
@@ -2334,7 +2331,7 @@ msgid ""
 "must be made available in open file formats. Setting the gold standard has "
 "been the Obama Administration, with the Open Government Directive issued in "
 "December 2009, which says:"
-msgstr "雖然沒有一個資訊自由法給予人民以開放格式存取的權力，但開放政府資料草案開始規定資訊釋出時必須提供開放檔案格式。\n歐巴馬政府建立了一個黃金準則，在2009年十月時他的開放政府指令提到："
+msgstr "Nors nėra teisiškai būtina duomenis pateikti atviru formatu, tačiau atviros valdžios iniciatyvos teikia pirmenybę būtent atviriems duomenų formatams, taip pat leidžia reglamentuojančius įstatymus, jog duomenys turi būti pateikti atviru formatu. Bene reikšmingiausias pavyzdys yra Obama'os administracija su Atviros valdžios direktyva, patvirtinta 2009 m., kuri teigia:"
 
 # 5a4a5dad6cfe4c26809846d46065d8e4
 #: ../../source/appendices/file-formats.rst:203
@@ -2345,12 +2342,12 @@ msgid ""
 "An open format is one that is platform independent, machine readable, and "
 "made available to the public without restrictions that would impede the re-"
 "use of that information.*"
-msgstr "*為了擴展實用性與合理的限制，政府機關應以開放格式將資訊公開於網路上，透過使用網路搜尋程式，這些資訊可以被擷取、下載、索引和搜尋。開放格式具有跨平台、機器可讀的特性，並且不會限制大眾對於該資訊的再使用權利。*"
+msgstr "*Institucijos, kiek tai įmanoma ir nėra ribojama dėl kitų priežasčių, turi teikti informaciją internete ir atviru formatu, atsisiunčiamą, indeksuojamą ir randamą įprastų žiniatinklio paieškos aplikacijų. Atviru formatu laikomas formatas, kurio platforma yra nepriklausoma, skaitoma mašininiu būdu ir prieinamas visuomenei be apribojimų, kurie galėtų apriboti informacijos pakartotinį panaudojimą.*"
 
 # 5cc8e6283aea4bb5af1a2c416989abc4
 #: ../../source/appendices/file-formats.rst:213
 msgid "How do I use a given format?"
-msgstr "我要如何使用既有的格式？"
+msgstr "Kaip naudoti duotuosius formatus?"
 
 # 568a5625c2f94452af6abe3cc66878ad
 #: ../../source/appendices/file-formats.rst:215
@@ -2359,7 +2356,7 @@ msgid ""
 "before – you should choose the format that provides the best balance between"
 " cost and suitability for purpose. For each format there are some things you"
 " should be aware of, and this section aims to explain them."
-msgstr "當政府必須公開新資料，而這些資料之前又沒有公開過。這時我們選擇格式要試著在花費和達到目的之間取得平衡。每種格式都有需注意的地方，而本節會將針對這些解釋。"
+msgstr "Kai valdininkai turi paviešinti naujus duomenis, kurie paviešinami pirmą kartą, turi būti parinktas formatas, subalansuojantis kainą su tinkamumu naudoti. Kiekvienam formatui yra savi niuansai, su kuriais reikia susipažinti. Šis skyrius bandys tuos niuansus paaiškinti."
 
 # 42b8a5c50e0b45eb89c4a26f7ea8a060
 #: ../../source/appendices/file-formats.rst:221
@@ -2367,12 +2364,12 @@ msgid ""
 "This section focuses only on how the cut surfaces are best arranged so that "
 "machines can access them directly. Advice and guidance about how web sites "
 "and web solutions should be designed can be found elsewhere."
-msgstr "本部份只針對如何適當地將資料表層去除，讓機器可直接存取。至於如何設計網站和網路解決方案的建議與引導，這些可以在其他地方找到。"
+msgstr "Šis skyrius akcentuoja tik tai, kaip sukarpyti paviršiai yra geriausiai surikiuojami, kad kompiuteriai galėtų pasiekt juos tiesiogiai. Patarimai, kaip interneto svetainės turi būti sukurtos gali būti rasti kituose informacijos šaltiniuose."
 
 # 1897adda256e49e99d665b5f5343e008
 #: ../../source/appendices/file-formats.rst:227
 msgid "Web services"
-msgstr "網路服務"
+msgstr "Žiniatinklio paslaugos (Web services)"
 
 # a9d6a586198648dcb05c316a24713fc9
 #: ../../source/appendices/file-formats.rst:229
@@ -2382,12 +2379,12 @@ msgid ""
 "ways to create a web service, but some of the most used is SOAP and REST. "
 "Generally, SOAP over REST, REST services, but are very easy to develop and "
 "use, so it is a widely used standard."
-msgstr "對於更改頻繁，而且每次處理都有一定容量限制的資料，非常適合使用Web服務公開資料。有許多方式可以提供Web服務，其中比較常用到的是SOAP和REST。一般來說，SOAP over REST或REST服務非常容易開發與使用，因此成為廣泛使用的標準。"
+msgstr "Kai duomenys kinta dažnai ir kiekvienas parsiuntimas yra limituojamas, labai svarbu duomenis pateikti per internetinę paslaugą (web services). Yra keletas būdų sukurti internetinę paslaugą (web services), bet populiariausi yra SOAP ir REST. Bendru atveju, SOAP geriau nei REST, tačiau pastarąjį labai lengva naudoti, taigi jis tapo standartu."
 
 # 1832cd0456254e3c8affb21673553fe5
 #: ../../source/appendices/file-formats.rst:236
 msgid "Database"
-msgstr "資料庫"
+msgstr "Duomenų bazė"
 
 # 1ca36a963713464dbd753b7f60bd0661
 #: ../../source/appendices/file-formats.rst:238
@@ -2395,7 +2392,7 @@ msgid ""
 "Like web services, databases provide direct access to data dynamically. "
 "Databases have the advantage that they can allow users to put together just "
 "the extraction that they are interested in."
-msgstr "如同Web服務，資料庫提供對資料的動態直接存取，並且可以讓使用者將其感興趣的資料擷取並集中在一起。"
+msgstr "Kaip ir internetinės paslaugos (web services), duomenų bazės suteikia tiesioginę prieigą prie duomenų. Duomenų bazių privalumas - tik dalies duomenų peržiūra ar redagavimas, visiškai atsiribojant nuo likusių."
 
 # efc3834bf47c482eb7a3bdc3da8faaa0
 #: ../../source/appendices/file-formats.rst:242
@@ -2405,17 +2402,17 @@ msgid ""
 "importance of individual tables and fields are well documented. Often, it is"
 " relatively simple and inexpensive to create web services that expose data "
 "from a database, which can be an easy way to address safety concerns."
-msgstr ""
+msgstr "Yra keletas saugumo rūpesčių dėl leidimo nuotoliniam duomenų naudojimui. Duomenų bazės prieinamumas naudingas tik tuomet, jei duomenų bazė labai gerai dokumentuota. Dažnai ganėtinai paprasta ir nebrangu sukurti internetinę paslaugą (web services), kuri pateikia duomenis iš duomenų bazės, o tai patogus būdas išvengti saugumo problemų."
 
 # 51c683e25e5a4ce4be6978d9dc1a4705
 #: ../../source/appendices/index.rst:3
 msgid "Appendices"
-msgstr "附錄"
+msgstr "Priedai"
 
 # b67d88179b824185a34209f86dcc580c
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
-msgstr "資料（庫）有什麼樣的法律（智權）規範"
+msgstr "Kokios intelektinės nuosavybės teisės galioja duomenų bazėms"
 
 # 5f9216bdba044ff28822b1d6bf5783bd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
@@ -2425,7 +2422,7 @@ msgid ""
 "shall mean the content of the database itself). Structural elements include "
 "things like the field names and a model for the data – the organization of "
 "these fields and their inter-relation."
-msgstr "當我們談論到資料（庫）時，首先我們必須清楚分別資料庫的架構和他所包含的內容（當我們使用 'data' (資料) 這一個名詞時，我們指的是資料庫內的內容）。架構的組成包含資料庫的欄位名稱和資料的模型 -- 這些欄位的組織架構和他們彼此之間的關連。"
+msgstr "Kai kalbame apie duomenis (duomenų bazes) reikia skirti duomenų bazės turinį ir struktūrą (kalbant apie duomenis turime omenyje duomenų bazės turinį). Struktūrą sudaro laukų pavadinimai, duomenų modelis - laukų pavadinimų organizacija ir jų tarpusavio ryšiai."
 
 # c4e85f3fa8b94ae08375d9c817d14e32
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
@@ -2433,7 +2430,7 @@ msgid ""
 "In many jurisdictions it is likely that the structural elements of a "
 "database will be covered by copyright (it depends somewhat on the level of "
 "'creativity' involved in creating this structure)."
-msgstr ""
+msgstr "Daugelyje jurisdikcijų, tikėtina, struktūriniai duomenų bazių elementai bus apsaugoti autorinėmis teisėmis (tai priklauso nuo tam tikro \"kūrybiškumo\" lygio, panaudoti kuriant struktūrą)."
 
 # 395c38e545b949b2bd4f6cdf184a4ed4
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
@@ -2445,7 +2442,7 @@ msgid ""
 "collection (e.g. all the material in the database). To avoid confusion we "
 "shall reserve the term \"content\" to mean the individual items, and data to"
 " denote the collection."
-msgstr "但是，這裡我們首先關心的是資料本身。當我們提到 \"data\" （資料）時，我們必須要更加小心因為這個詞的定義並不是很清楚：\"data\" 可能意味著一些或是就是單獨的一項東西（例如，一個獨一的圖書記錄，一組座標，等）或著 \"data\" 也可能意味著一整個完整的收藏（如同，資料庫內的所有資料）。為了避免混淆我們必須將「內容」使用在對單一物件的時候，而 data 則是用來指定完整的收藏。"
+msgstr "Šiaip ar taip, mus domina būtent duomenys. Kalbėdami apie \"duomenis\" turime būti atsargūs, kadangi šis žodis ne visai tikslus: \"duomenys\" gali reikšti kelis skirtingus vienetus arba vieną (pavyzdžiui, bibliografinis įrašas, koordinatės, ir t.t.), \"duomenys\" gali reikšti didelį rinkinį (pavyzdžiui, visą duomenų bazės turinį). Kad išvengtume daugiaprasmiškumo, terminą \"turinys\" rezervuosime individualiems duomenų vienetams, o terminas \"duomenys\" reikš visą rinkinį."
 
 # 73c5a4d2fd6648f68879b5a83b6f30bc
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
@@ -2453,7 +2450,7 @@ msgid ""
 "Unlike for material such as text, music or film, the legal situation for "
 "data varies widely across countries. However, most jurisdictions **do** "
 "grant some rights in the data (as a collection)."
-msgstr "與其他受智慧財產權保護的東西，如文字，音樂或是影片不太一樣的是，在不同的國家，資料在法律上的享有的地位都不太一樣。但是絕大多數的法令還是對資料（完整收藏）有一定程度的保障。"
+msgstr "Teisinė situacija su duomenimis, skirtingai nei su tokia medžiaga kaip tekstas, muzika ar filmai, yra labai skirtinga įvairiose šalyse. Tačiau dauguma šalių **yra** užtikrinusios kai kurias teises į duomenis (kaip rinkinį)."
 
 # 6a4c03a757064662932a79988f81f0c8
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
@@ -2467,22 +2464,22 @@ msgid ""
 "one is not allow to access, re-use or redistribute it without permission, "
 "this would never prevent you from stating the fact that substance Y melts at"
 " temperature Z."
-msgstr ""
+msgstr "Skirtumas tarp duomenų bazės \"turinio\" ir viso duomenų rinkinio gali būti labai svarbus, nes jokia teisinė bazė nesuteikia monopolinių teisių į atskirus faktus (\"turinį\"), net jei ji gali suteikti teises į visą duomenų rinkinį. Pavyzdžiui, įsivaizduokite paprastą duomenų bazę, kurioje įvesta įvairių medžiagų tirpimo temperatūros informacija. Net jei visa duomenų bazė saugoma įstatymo ir niekas neturi teisės prie jos prieiti, naudoti ar platinti be leidimo, tai vis tiek neatimtų teisės jums konstatuoti faktą, kad medžiaga Y tirpsta temperatūroje Z."
 
 # e45e4794fcde4db08aa676c867ef5314
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
 msgid "Forms of protection fall broadly into two cases:"
-msgstr ""
+msgstr "Apsaugos formos yra dviejų pagrindinių rūšių:"
 
 # 3bdda233812049c49e24ee9e8fe29390
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
 msgid "Copyright for compilations"
-msgstr "  "
+msgstr "Autrinės teisės dėl rinkimo"
 
 # ae7ced23b0b54fff97a2a9712c475acd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
 msgid "A *sui generis* right for collections of data"
-msgstr ""
+msgstr "*Sui generis* principas renkant duomenis"
 
 # e3cc883dcae4410daec23ba229274207
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
@@ -2490,7 +2487,7 @@ msgid ""
 "As we have already emphasized, there are no general rules and the situation "
 "varies by jurisdiction. Thus we proceed country by country detailing which "
 "(if any) of these approaches is used in a particular jurisdiction."
-msgstr ""
+msgstr "Mes jau pabrėžėme, kad nėra visiems vienodų taisyklių ir kad situacija priklauso nuo konkrečios šalies jurisdikcijos. Taigi, mes nagrinėjame šalį po šalies, detalizuodami, kurios priemonės naudojamos konkrečioje jurisdikcijoje."
 
 # 09a81bf2720345df93aaa77e5ba404f9
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
@@ -2501,23 +2498,23 @@ msgid ""
 "mechanisms to achieve results similar to a formal IP right. For example, if "
 "X is a provider of a citation database, it can achieve any set of terms of "
 "conditions it wants simply by:"
-msgstr ""
+msgstr "Galiausiai, turėtume pažymėti, kad nesant jokios teisinės apsaugos, daugelis (uždarų) duomenų bazių tiekėjų gali naudoti paprasčiausią sutartį, turinčią salygų, draudžiančių pažeisti prieigos-kontrolės mechanizmus, taip pasiekdami rezultatų, panašių į nuosavybinių teisių apsaugą. Pavyzdžiui, jei X yra citatų duomenų bazės tiekėjas, jis gali sudaryti bet kokį nuostatų rinkinį tokiu būdu:"
 
 # 4ed11a4688a84f7c94a40d1dc70293f2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
 msgid "Requiring users to login with a password"
-msgstr "需要使用者以密碼登入"
+msgstr "Reikalaujant, kad vartotojai prisijungtų su slaptažodžiu"
 
 # 2cf4c090400d49da993a256268b4a8d4
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
 msgid ""
 "Only providing a user with an account and password on the condition that the"
 " user agrees to the terms and conditions"
-msgstr ""
+msgstr "Paskyros ir slaptažodžio suteikimas vartotojui tik tuo atveju, jei vartotojas sutinka su tam tikromis sąlygomis"
 
 # 16481e4fc1ed45ac846dc7dc4e553da2
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
 msgid ""
 "You can read more about the jurisdiction by jurisdiction situation in the "
 "`Guide to Open Data Licensing`_."
-msgstr ""
+msgstr "Daugiau apie įvairius jurisdikcijos atvejus galite paskaityti `Gide į atvirų duomenų licencijavimą`_."

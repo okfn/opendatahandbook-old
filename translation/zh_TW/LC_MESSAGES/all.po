@@ -4,26 +4,30 @@
 # 
 # Translators:
 # Dennis Chen <>, 2012.
+#   <kechiang.huang@gmail.com>, 2012.
+#   <lansadik@pchome.com.tw>, 2012.
 #   <laura.newman@okfn.org>, 2012.
 # TH Schee <info@motomosa.com>, 2012.
+#   <venico.c@gmail.com>, 2012.
+#   <whisky@ystaiwan.org.tw>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: 2012-04-27 10:09+0000\n"
-"Last-Translator: Dennis Chen <>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.net/projects/p/opendatahandbook/language/zh_TW/)\n"
+"PO-Revision-Date: 2012-06-28 08:44+0000\n"
+"Last-Translator: whisky <whisky@ystaiwan.org.tw>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/opendatahandbook/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
 msgid "The Open Data Handbook"
-msgstr "開放資料手冊"
+msgstr "Open Data 開放資料手冊"
 
 # d585ec8bbdd54f2d88e54daa0238f9d2
 #: ../../source/index.rst:5
@@ -32,7 +36,7 @@ msgid ""
 "data.** It can be used by anyone but is especially designed for those "
 "seeking to **open up** data. It discusses the **why, what and how** of open "
 "data -- why to go open, what open is, and the how to 'open' data."
-msgstr "在這份手冊中，我們將會從法令面，社會面與技術面等來討論 Open Data （開放資料）。**任何人都可以閱讀或是參考這份手冊的內容，但是這本手冊主要是編寫給那些想要將資料**開放**出來的讀者。我們接下來將會討論「開放資料」的**為什麼，是什麼，和如何 – 為什麼我們需要 Open Data，OPEN (開放）的定義又是什麼，和如何 Open Data。"
+msgstr "**在這本手冊中，我們將從法令層面，社會層面與技術層面上來說明什麼是 Open Data 與 Open Data 的重要性** 。任何人只要對 Open Data 有興趣都可閱讀這本手冊，但是在編寫時，我們將這本手冊的讀者預設為想要學習如何將資料「開放出來」的人。我們將會討論到開放資料的 **為何要 (why)** ， **什麼是 (what)** 和 **如何做 (how)** – 為何要開放資料，開放的定義是，和如何「開放」 (‘open’) 資料。"
 
 # 3c3f679596a84f43a381f53ce49badeb
 #: ../../source/index.rst:11
@@ -40,7 +44,7 @@ msgid ""
 "To get started, you may wish to look at the :doc:`Introduction "
 "<introduction/index.html>`. You can navigate through the report using the "
 "Table of Contents (see sidebar or below)."
-msgstr ""
+msgstr "在開始我們的「開放資料」之旅前，或許您該先看一下「前言」 (:doc:`Introduction <introduction/index.html>`) 的說明。您可以使用使用本文下方 (或是在邊欄) 的目錄 (Table of Contents) 來選擇您要閱讀的章節。"
 
 # 3115b5512c6e4ecd861e4e84d400523c
 #: ../../source/index.rst:15
@@ -48,7 +52,7 @@ msgid ""
 "We warmly welcome comments on the text and will incorporate feedback as we "
 "go forward. We also welcome contributions or suggestions for additional "
 "sections and areas to examine."
-msgstr "我們非常期望可以聽到您對這本手冊的迴響，並且將這些建議與批評在改版的程序中納入。我們也歡迎更多人加入來共同編寫這本手冊或是對新的區段和其他可供參考的領域提出建言。"
+msgstr "我們歡迎提出關於手冊內文章的任何建言，並且會在下次改版更新時把大家的建議納入。如果您希望加入手冊內文的編寫行列，或是認為有需要增加新的章節或是文字的修改，我們也很歡迎您能告訴我們。"
 
 # 9e0f00346b0349e29d51083d1dd7a9aa
 #: ../../source/index.rst:21
@@ -58,7 +62,7 @@ msgstr "目錄"
 # 4e947d94bfbe4ecd98c5dee75be312f8
 #: ../../source/index.rst:36
 msgid "Indices and tables"
-msgstr ""
+msgstr "索引"
 
 # af87acc3665e428c99dff796e236694a
 #: ../../source/index.rst:38
@@ -73,12 +77,12 @@ msgstr ":ref:`search`"
 # 159dc292955b401cbaa31592c2ae43c1
 #: ../../source/introduction/credits.rst:3
 msgid "Credits and Copyright"
-msgstr "版權與宣告"
+msgstr "作者群與版權宣告"
 
 # 138a093ae5b548cb9f07805111c55cfd
 #: ../../source/introduction/credits.rst:6
 msgid "Contributing authors"
-msgstr "手冊作者群"
+msgstr "作者群"
 
 # c41cf04f647249b9ac59afbca1382129
 #: ../../source/introduction/credits.rst:8
@@ -118,46 +122,46 @@ msgstr "`Ton Zijlstra`_"
 # 8a356ddea3824a2db4c1635a82782883
 #: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
-msgstr "內容引用資料來源"
+msgstr "內容引用資料來源說明"
 
 # f4c4a9ca6b2b450696be1a124cfc276b
 #: ../../source/introduction/credits.rst:19
 msgid ""
 "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
 " Group led by Simon Parrish*"
-msgstr "Technical Proposal for how IATI is implemented. *The IATI Technical Advisory Group led by Simon Parrish*"
+msgstr "關於建立 IATI 規格的技術提案書。 IATI 技術諮詢團隊 – 主持人 Simon Parrish"
 
 # a9cfff5e7e764f63b118c211a551e395
 #: ../../source/introduction/credits.rst:21
 msgid ""
 "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
 "Gray, Simon Parrish, Jordan Hatcher*"
-msgstr "`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
+msgstr "將救助資訊的潛能解放出來 (`Unlocking the Potential of Aid Information`_). *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
 
 # 50c8f4db407a45a8894e99e59ef5adef
 #: ../../source/introduction/credits.rst:23
 msgid "Finnish manual authored by *Antti Poikola*"
-msgstr "Finnish manual authored by *Antti Poikola*"
+msgstr "芬蘭手冊作者 *Antti Poikola*"
 
 # 912b40b810ef40ab872ba564e1c3a631
 #: ../../source/introduction/credits.rst:24
 msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
-msgstr "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
+msgstr "Beyond Access Report (近取之後). *Access Info 與 the Open Knowledge Foundation*"
 
 # 6c2bad4a78ed4069aacfd795a2df0a02
 #: ../../source/introduction/credits.rst:27
 msgid "Other sources"
-msgstr "其他參考資源"
+msgstr "其他資料來源"
 
 # b2509758c71d471e97585141feaee236
 #: ../../source/introduction/credits.rst:29
 msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
-msgstr "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+msgstr "W3C Publishing Government Data (公開政府資料 2009) http://www.w3.org/TR/gov-data/"
 
 # 0324e39be1e643bf9c026b6173d4a583
 #: ../../source/introduction/index.rst:3
 msgid "Introduction"
-msgstr "簡介"
+msgstr "前言"
 
 # 27e4a5b184654c999139c3127056f637
 #: ../../source/introduction/index.rst:5
@@ -168,7 +172,7 @@ msgid ""
 "along the way? Where in your region will you find the best job opportunities"
 " and the highest number of fruit trees per capita? When can you influence "
 "decisions about topics you deeply care about, and whom should you talk to?"
-msgstr "您可知道在您付出的稅金中，有多少是用來整修路燈或是有多少是使用在關於癌症的研究上？從您的住家到上班的地方，哪一條腳踏車專用道是距離最短，最安全，風景最迷人的？一路上的空氣品質又是如何？在您所居住的區域，哪裡可以找到最佳的工作機會？依照市民密度比來看，平均上哪邊又有著最多的果樹？對於您深切關注的政策主題，在什麼時候您能發表意見並產生影響？您又該對誰提出您的看法？"
+msgstr "你知道你所繳納的稅金，有多少是花在路燈的維護嗎？或者有多少用在癌症的研究上？從你家到你工作的地方，你可知道哪一條腳踏車道是所需時間最短、最安全，同時也是風景最優美的嗎？然後，這一路上你所呼吸的空氣品質如何？在你所居住的區域，要到哪裡找到條件最好的工作，同時以人口比率來說，果樹的數量也是最高的？ 對於你所關心的議題，什麼時候你可以參與和影響政策的決定，你又該跟誰去說這些要求呢？"
 
 # 03772b8e0b654a2980a166e25f7ce602
 #: ../../source/introduction/index.rst:12
@@ -180,7 +184,7 @@ msgid ""
 " unlock the potential of official and other information to enable new "
 "services, to improve the lives of citizens and to make government and "
 "society work better."
-msgstr "新科技現在可以建立能自動回答這些問題的服務。大多數您所需要用來回答這些問題的資料都是由公部門單位所產出。但是，這些資料常常處於一種非常難使用的狀態。這本手冊要講的就是如何釋放政府與非政府資訊所蘊藏的能量來開創新的服務，改善人民的生活和讓政府與整個社會運作的更完善。"
+msgstr "新的科技讓我們在今日可以設計出新的服務來自動回答這所有問題。同時，我們需要的資料絕大部分都已經由公部門收集整理好了。但是，很多時候這些資料並不是以一種簡單的「格式」公布出來。這本手冊就是要談如何釋放出這些由政府或是其他人與組織團體產出的資料所隱藏的能量，來開創新的服務，改善人民的生活，同時讓政府與整個社會運作的更好。"
 
 # e864d6f9f1fb4632898e4a87c8e14237
 #: ../../source/introduction/index.rst:20
@@ -191,7 +195,7 @@ msgid ""
 "started to become visible in the mainstream, with various governments (such "
 "as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
 "opening up their public information."
-msgstr "關於 open data (資料開放) 和尤其是 open government data (政府資料開放) - 包含資訊，公開或是非公開，任何人都可自由取得與不受限制重複使用 - 這種概念已經被提出來有數年之久。在 2009 年 Open Data 開始出現在主流媒體上，同時一些政府（例如美國，英國，加拿大和紐西蘭）也宣布啟動開放他們的公共資訊的計畫。"
+msgstr "關於 :term:`open data` (開放資料) 的概念，尤其是 :term:`open government data` (政府資料開放) – 也就是，任何人都可自由取得，並且不管資料開放與否和資料的用途，都能自由地使用的資訊 – 在多年前就已經被提出來。從 2009 年開始，我們在主流媒體上也逐漸開始看到許多關於「資料開放」的消息，許多政府（例如美國，英國，加拿大與紐西蘭） 也在這時提出各自關於公部門資料（資訊）的開放計畫。"
 
 # 772e3651fec74d03808df10160177562
 #: ../../source/introduction/index.rst:28
@@ -201,29 +205,29 @@ msgid ""
 "positive impact in many different areas. In addition to exploring the "
 "background, the handbook also provides concrete information on how to "
 "produce open data."
-msgstr "這份手冊將會介紹關於 `open data’ 的基本概念，尤其是關於政府資訊的部分。本手冊的內容將說明 open data 如何製造加值與對許多不同領域可帶來的正面影響。除了這些基本的說明，本手冊也將提供關於如何實踐 Open Data 的實際的資訊。"
+msgstr "在這本手冊中我們將說明關於‘open data’ (資料開放) 的基本概念，特別是關於政府部門的資料開放。我們將會說明，資料開放如何導出資料的加值和如何對許多不同領域帶來正面的衝擊。除了基本概念的說明，手冊內容也包含了如何開始「資料開放」的實務說明。"
 
 # 5d3906c5912447478481d10c2ba8231a
 #: ../../source/introduction/index.rst:35
 msgid "Target Audience"
-msgstr "預設讀者群"
+msgstr "適用讀者"
 
 # 985f89dcc7c64fef93e53052ddc36ab0
 #: ../../source/introduction/index.rst:37
 msgid "This handbook has a broad audience:"
-msgstr "本手冊適合非常廣泛的讀者群："
+msgstr "任何人都可輕鬆閱讀這本手冊，包含了 :"
 
 # 204beca931a640a3a2feb572395bae22
 #: ../../source/introduction/index.rst:39
 msgid ""
 "for those who have never heard of open data before and those who consider "
 "themselves seasoned ‘data professionals’"
-msgstr "從那些從未聽過 Open Data 的人到那些自認為屬於季節性的 ‘資料專家’"
+msgstr "從那些從來沒有聽過 open data （資料開放）的人，到自認為是資料專家 ‘data professionals’ 的人。"
 
 # d434b8617ca84b2f812c8b93c72b2b3f
 #: ../../source/introduction/index.rst:41
 msgid "for civil servants and for activists"
-msgstr "從國家公僕到社運人士"
+msgstr "從人民公僕到社會運動參與者"
 
 # 1683ab9a73354d41afc35e5c3dcbab0e
 #: ../../source/introduction/index.rst:42
@@ -233,12 +237,12 @@ msgstr "從新聞記者到研究人員"
 # 2dab3eafd12e452b9326f4b397b20e7e
 #: ../../source/introduction/index.rst:43
 msgid "for politicians and developers"
-msgstr "從政治人物到軟體開發者"
+msgstr "從政治人物到程式開發者"
 
 # cc5c3df699894d2f9ef476ba048d24ca
 #: ../../source/introduction/index.rst:44
 msgid "for data geeks and those who have never heard of an API."
-msgstr "從資料技客 (data geeks) 到那些從未聽過 API 這個名詞的人"
+msgstr "從資料技客 (data geeks) 到那些從來沒聽過 API 這個名詞的人"
 
 # b1ae7114f8c247b28261bd8c7a1de1f3
 #: ../../source/introduction/index.rst:46
@@ -246,7 +250,7 @@ msgid ""
 "Most of the information currently provided is focused on data held by the "
 "public sector. However, the authors intentions are to broaden this as time "
 "permits. You are welcome to participate to help us with that effort."
-msgstr "絕大部分提供的資訊在目前都是聚焦在以公部門所擁有的資料為主。但是，本手冊的作者們期望在時間允許下將更多的內容包含進來。我們歡迎大家一起來參與和幫助我們達到這個目的。"
+msgstr "在手冊中我們提供的資訊與說明，絕大部分都以公部門所擁有的資料為主。但是，我們期望在未來的改版與修正中，能盡可能加入更多其他方面的資訊。我們很歡迎大家一起來參與，讓這本手冊能更好"
 
 # 2d06a73d49494b3991c0bb6a62525e9d
 #: ../../source/introduction/index.rst:51
@@ -255,17 +259,17 @@ msgid ""
 "topic. If you do find a piece of jargon or terminology with which you aren't"
 " familiar, please see the detailed Glossary and FAQs (frequently asked "
 "questions) which can be found at the end of the handbook."
-msgstr "這本手冊主要是設計給那些對於這個主題不太熟習或是完全不知道的人。如果您發現某些特殊用語或是專業用字您不是非常清楚他們的含意，請參閱手冊最後的名詞說明 (Glossary) 與 常見問答集 (FAQs)。"
+msgstr "這本手冊是編寫給那些對於這個主題完全陌生，或是只是稍微瞭解聽過的人。在閱讀這本手冊時，如果你看到一個你不熟習的術語或是專有名詞，請參閱手冊最末附錄的名詞說明與問答集 (Glossary and FAQs) (常見問答集) 的補充說明。"
 
 # 977078aaa78c42e7995958d96a21b8a7
 #: ../../source/introduction/index.rst:58
 msgid "Credits"
-msgstr "貢獻者"
+msgstr "作者群"
 
 # 5cdb697eb85f46e18bdf6edd814a406e
 #: ../../source/why-open-data/index.rst:3
 msgid "Why Open Data?"
-msgstr "為何要開放資料？"
+msgstr "為何要開放資料?"
 
 # a729d3404ee64614bcec347dead57504
 #: ../../source/why-open-data/index.rst:5
@@ -277,7 +281,7 @@ msgid ""
 "of the quantity and centrality of the data it collects, but also because "
 "most of that government data is public data by law, and therefore could be "
 "made open and made available for others to use. Why is that of interest?"
-msgstr "資料開放，尤其是政府資料的開放，代表的是一個幾乎完全沒有妥善開發使用的龐大資源。許多人和企業組織為了能完成他們的工作必需要收集範圍非常廣泛的各種資料。在這些資料收集者之中，如果從收集資料的量與類別來看，政府是其中最重要的一份子。但還有一個很重要的因素，政府所收集的資料，絕大部分在法令規定上屬於公共資料，所以可以開放釋出並提共他人使用。為什麼這一點很重要（有用）？"
+msgstr "開放資料 (:term:`Open data`)，尤其是政府資料開放 :term:`open government data`) ，可以看成是一個尚未被大量開發的巨大資源。許多組織或是個人為了要完成他們的工作或是任務而收集了大量各式各樣不同的資料。而在資料的收集上，不管是資料收集的品質，或是其所涵蓋的領域來看，政府都扮演了一個非常重要的角色。同時，因為大部分政府所收集的資料依照法令的規定應該屬於公共資料。所以這些資料都可開放釋出，供他人自由使用。為什麼這會很重要？"
 
 # 633202a63b474ebdb6c96289d6ac423d
 #: ../../source/why-open-data/index.rst:14
@@ -289,34 +293,34 @@ msgid ""
 "is impossible to predict precisely how and where value will be created in "
 "the future. The nature of innovation is that developments often comes from "
 "unlikely places."
-msgstr "在很多不同的領域上我們都可期待資料開放本身就能帶來新的價值，在這一點我們已經看到許多實際的例子。同時對於許多群體與組織來言，他們也都能從資料的開放受益，這也包含了政府本身。同時，我們實在很難預測資料的價值會在何時以什麼樣的型態被創造出來。創新與新發明的本質就在於他們都出自於我們無法想像的地方。"
+msgstr "我們預計資料的開放能在很多領域創造出新的價值。我們也有實際的案例來說明開放資料在這些領域的使用情況。如果說，我們很確定資料的開放能帶給政府部門與組織很大的利益，我們的確無法很精確的預測，在未來會創造出哪些新的價值，以及以什麼方法創造出來。因為創新的本質，就在於他是來自我們意想不到的地方。"
 
 # 00a897c5defd4db5a4339f04fdc80d69
 #: ../../source/why-open-data/index.rst:21
 msgid ""
 "It is already possible to point to a large number of areas where open "
 "government data is creating value. Some of these areas include:"
-msgstr ""
+msgstr "在很多領域，我們已經可以指出開放政府資料可帶來的新價值。這些領域包含了："
 
 # 5a1635520561424aa295c26cd3a948d1
 #: ../../source/why-open-data/index.rst:24
 msgid "Transparency and democratic control"
-msgstr "透明度與民主監督"
+msgstr "透明化與民主監督"
 
 # 4351bd20d2a14fbeaa41c82bc514ac95
 #: ../../source/why-open-data/index.rst:25
 msgid "Participation"
-msgstr "共同參與"
+msgstr "公民參與"
 
 # 234738d1ab8642818c4073300935017e
 #: ../../source/why-open-data/index.rst:26
 msgid "Self-empowerment"
-msgstr "自我啟發"
+msgstr "自我成長"
 
 # c1c63445907c4955948f3a0fe823118a
 #: ../../source/why-open-data/index.rst:27
 msgid "Improved or new private products and services"
-msgstr "改善或是創建新的商品與服務"
+msgstr "商業產品與服務的改善或是創新"
 
 # 1fcf56a9d6aa4bedb3a1e64ca8a3b15c
 #: ../../source/why-open-data/index.rst:28
@@ -326,28 +330,28 @@ msgstr "創新"
 # 1cf354f7245a4e09b32be3c8bbbcaa12
 #: ../../source/why-open-data/index.rst:29
 msgid "Improved efficiency of government services"
-msgstr "改善政府服務的效能"
+msgstr "政府服務效能的改善"
 
 # becfeefd9faf4cf5a9b54fd289d0af5f
 #: ../../source/why-open-data/index.rst:30
 msgid "Improved effectiveness of government services"
-msgstr "改善政府服務的效力"
+msgstr "政府服務效力的改善"
 
 # 56661952af514a6783404034e39e9145
 #: ../../source/why-open-data/index.rst:31
 msgid "Impact measurement of policies"
-msgstr "政策影響的度量"
+msgstr "政策影響與結果的評鑑"
 
 # 81a1d8c9c8de42a38b06e212e26a18eb
 #: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
-msgstr "經由分析與結合，從大量的資料中將資料來源與模式，產生的新知識"
+msgstr "透過不同來源的資料的彙整，與巨量資料的分析和模式建立來產生新的知識"
 
 # 653cba4974784fc397e901d402246323
 #: ../../source/why-open-data/index.rst:35
 msgid "Examples exist for most of these areas."
-msgstr "在這些領域中我們已經有成功的範例。"
+msgstr "在這些不同的領域內，我們都可找到成功的實際範例。"
 
 # 9483b02f9be049e5aae8b43b3c1ee9e0
 #: ../../source/why-open-data/index.rst:37
@@ -359,7 +363,7 @@ msgid ""
 "folketsting.dk track activity in parliament and the law making processes, so"
 " you can see what exactly is happening, and which parliamentarians are "
 "involved."
-msgstr "在透明度這一部分我們看到例如芬蘭的 `tax tree’ 和英國的 `Where does my money go’。這些網站將政府如何使用人民的稅金整理並顯示出來。或是來自加拿大的例子，看 Open Data 如何為加拿大政府從慈善稅金詐騙中省下 32 億美金。還有其他許多網站，例如丹麥的 folketsting.dk 追蹤國會動態與政策制訂的程序，所以人民可以清楚知道目前發生了什麼事，和有哪些國會議員參與。"
+msgstr "在透明化度這一部分，例如芬蘭的 'tax tree' (稅金樹) 與英國的 'where does my money go' (我的錢跑哪裡去)，這兩個網站分別將政府使用人民繳納稅金的分配整理出來。然後還有加拿大政府的案例，因為資料開放揭露了一個金額高達 $32億美金的慈善稅收的舞弊案。其他還有許多網站，例如丹麥追蹤國會動態與法案程序的網站 folketsting.dk，可以讓人民清楚知道目前正提出中和進入審查的法案有哪些，以及民意代表們對這些法案的態度是什麼。"
 
 # 96fa2e2f8d3346ba8f75c1744678079d
 #: ../../source/why-open-data/index.rst:45
@@ -376,7 +380,7 @@ msgid ""
 "allow you to find places to live, taking into account the duration of your "
 "commute to work, housing prices, and how beautiful an area is. All these "
 "examples use open government data."
-msgstr "政府資料的開放也可讓你在生活中做出更好的決定，或是讓你有更多的機會在社會上更活躍。一位丹麥的女士建立了一個叫做 findtoilet.dk 的網站，在這個網站上可以找到所有丹麥的公共廁所。這個網站讓許多原本因為膀胱問題不敢出門的人有更多自信和願意多多出門。在荷蘭，透過一個叫做 vervuilingsalarm.nl 的網站，人們可以在住家周遭空氣品質預低達到一個可自訂的標準時收到警告。在紐約市，您可以很容易的找到可以溜狗的地方，和找到其他也是使用這些公園的人們。在英國的 `mapumental’ 與在德國的 `mapnificent’ 的服務則可方便您依照不同的標準來找到適合您的住宅選擇，例如從住家到工作地點的通勤時間，房屋的售價，甚至依照居住環境的風景等。所有這些服務都是使用政府開放的資料。"
+msgstr "政府資料的開放也可以讓你在每日的生活中做出更好的決定，或是讓你能更積極的參與社會活動。在丹麥有位女士建立了一個名為 findtoilet.dk 的網站。網站內列出了丹麥所有公共廁所的位置。這樣一來，一些她所認識有膀胱控制問題的人都可重新拾回信心，並願意較常出門。在荷蘭， vervuilingsalarm.nl 這個網站提供了一個空氣品質的警告服務。當你所在地區隔日的空氣品質預測會超越你設定的標準時，他們就會發一封警告訊息給你。在紐約你可以很輕鬆地找到可以溜狗的地方，或是找到其他也一樣會去這些公園的愛狗人士。其他如在英國的 'mapumental' 或是在德國的 'mapnificent' 都使用了政府開放出來的資料來提供他們的服務，你可以透過這些網站來尋找符合你的條件的房子。你可以依照例如通勤時間，住屋價格和居住景觀等設定來做篩選。"
 
 # 9d1f0242695c4eb08a8c1bcfcc8d4743
 #: ../../source/why-open-data/index.rst:58
@@ -391,7 +395,7 @@ msgid ""
 "register. Google Translate uses the enormous volume of EU documents that "
 "appear in all European languages to train the translation algorithms, thus "
 "improving its quality of service."
-msgstr "從經濟上來說，open data 也是一樣非常重要。許多研究都估計，光是在歐洲共同市場，Open Data 能帶來的經濟價值就可達到每年數百億歐元。新的產品與新企業正在使用開放資料。丹麥的 husetsweb.dk 可幫助您找到改善居家能源在使用上的效率，包含財務規劃與找到施工承包商等。這個服務除了使用了地價資訊，還使用了政府補助資訊和地方商業登記資訊。Google 翻譯大量使用歐盟產出包含多國語言的文件來調校他們的翻譯演算法，進而改善服務品質。"
+msgstr "從經濟這一點來看，資料開放也一樣扮演著非常重要的角色。許多研究報告都指出，資料開放可產出的經濟價值光是在歐盟地區就可能高達每年數百億歐元。歐盟許多新的產品和企業都資料開放的受益者。例如，丹麥的 husetsweb.dk 網站可幫你找出住屋有效提升能源規劃的方案。這包含了財務上的規劃與協助找到適合的施工廠商。這個服務除了使用地籍資訊與政府補貼的相關資訊，也結合了在地的商業登記資訊。Google Translate為了改善他們的服務品質，使用了歐盟為數龐大的文件資料來訓練他們的翻譯功能和演算法。因為歐盟的每一份文件，都須要同時以數種不同歐洲語言來紀錄。"
 
 # 457121fdf06c40558e92b439276954b8
 #: ../../source/why-open-data/index.rst:69
@@ -408,7 +412,7 @@ msgid ""
 "such as the Wikimedia Foundation in order to execute their own tasks more "
 "effectively. This not only results in improvements to the quality of their "
 "data, but will also ultimately make the department smaller."
-msgstr "對於政府本身來說，資料開放也有其價值。例如效能的改進。自從荷蘭教育部將他們所有與教育相關的資訊都公佈在網路上並開放使用後，除了因為所收到的問題數量減少而降低工作量與經費的需求。剩下來的問題也能輕易的由國家公僕來回答。因為這些問題的答案都可以更容易的被搜尋到。資料開放也讓政府更有效力，長期來看這也是降低政府支出成本的因素。荷蘭文化資產部積極的釋放出他們的資料並與業餘歷史學家社群與團體例如 Wikimedia Foundation，進行合作來更有效力的執行他們的工作。這一切不只帶來他們資料品質的改善，同時也讓整個部門能更精簡。"
+msgstr "資料開放對對政府本身來說，也能創造新的價值。例如，它可以有效的提升政府的服務效率。當荷蘭教育部將他們所有與教育相關的資料公布開放放上網路讓任何人都可自由使用後，他們每日需要處理的問題開始大量減少。然後部門的工作負擔與經費需求也一併降低。對於剩下依然需要處理的問題，他們也能比較容易找到答案，因為所有的資料都已經公開清楚列出。資料開放的確能夠讓政府的效能提升，而最終這一切都可減少部門運作所需的經費。荷蘭管理文化資產的部會除了很積極的將他們的資料釋放出來，同時還與許多如 Wikipedia 基金會等的歷史愛好者組成的社團與組織合作。這讓他們除了能將部分工作分配出去，還能提供工作執行的效能。這些合作關係不只提升了政府部門資料的品質，同時也縮減了部會在人事與經費上的需求。"
 
 # 0f11bae8272f45e4b2290c2beef0e248
 #: ../../source/why-open-data/index.rst:83
@@ -424,7 +428,7 @@ msgid ""
 " general health of the population. We are likely to see such developments "
 "happening again as unexpected insights flow from the combination of "
 "different open data sets."
-msgstr "在許多不同的領域裡，雖然我們已經看到許多資料開放的運用所帶來，不管是在社會上或是經濟上的效應，我們依然不知道在未來還會有什麼創新。資料的重新組合可以創造出新的知識與對事物的理解，而這一切都可帶來在全新的領域上的運用。這在以前已經發生過了，例如，19 世紀時，透過因黑死病而死亡的病例與各地方水井的所在地建立連結，讓 Dr Snow 在倫敦發現了飲用水的污染和黑死病之間的關連。這個發現也讓倫敦興建了地下污水系統，並為市民的公眾衛生帶來極大的改善。經由開放資料產生的連結，我們也可期待對於這個社會與世界能有新的認知與發現。"
+msgstr "雖然我們已經在社會層次或是經濟層次上看到許多「開放資料」的應用和建立新價值的真實範例，但是我們依然無法預測在未來還會有哪些新的可能會出現。透過資料的重新配對與組合，我們能創建出新的知識與認識，而這一切都能將我們帶往全新的領域。而這一切在以前就曾經發生過。就在 19 世紀的倫敦，Dr. Snow 將霍亂造成的死亡人口分布與飲用水的水井位置作結合與分析後，發現飲用水的污染與霍亂的關係。這個發現讓倫敦市開始建立現在化的地下污水系統，從而大大改善市民的整體健康狀況。資料開放讓不同的資料有機會互相比對和引用，不可預期的新發現也隨之出現。我們相信在今天，類似的發展還會重現。"
 
 # db07f40141dc4077a0390c1699f892ea
 #: ../../source/why-open-data/index.rst:94
@@ -435,7 +439,7 @@ msgid ""
 "use by others. Every restriction will exclude people from re-using the "
 "public data, and make it harder to find valuable ways of doing that. For the"
 " potential to be realized, public data needs to be open data."
-msgstr "如果我們將政府公共資訊轉為開放資料，這些未開發的潛能就能夠被進一步釋放出來。但是，只有當這一切真正開放，也就是沒有任何限制（法令上的，財務上的，或是技術上的），才能讓他人可以自由重新使用。任何一種限制都只會造成某一部分的人無法使用這些公共資料，並降低找到新的價值的可能性與方法。要讓這個潛能被釋放出來，公共資料必須成為開放資料。"
+msgstr "如果政府資料能轉化成開放資料，我們就能將這未開發的潛能釋放出來。也只有當資料是真正開放時，這一切才有可能實現。開放，意味著對於資料的使用範圍與使用者的身份沒有任何的限制（不管是法令上的，經濟上的或是技術上的）。每一種限制都只會禁止人們來使用這些公部門資料，而越少人使用而我們就越難找到這些資料可以擁有的加值應用模式。公部門資料需要真正的開放，才能完全釋放出資料的潛能。"
 
 # ec853486f23a49c69f29cf7a961642d7
 #: ../../source/what-is-open-data/index.rst:3
@@ -447,19 +451,19 @@ msgstr "什麼是開放資料？"
 msgid ""
 "This handbook is about *open data* but what exactly is it? In particular "
 "what makes *open* data open, and what sorts of data are we talking about?"
-msgstr ""
+msgstr "這這是一本關於開放資料的手冊，但是到底什麼是開放資料？尤其是，是什麼讓「開放資料」真的開放？而我們所說的資料又是指什麼資料？"
 
 # 0d5a24d826714df497b1f531ec72438c
 #: ../../source/what-is-open-data/index.rst:9
 msgid "What is Open?"
-msgstr "什麼是開放？"
+msgstr "開放是在說什麼？"
 
 # 284d03bb80b14254bb9219ad19d33070
 #: ../../source/what-is-open-data/index.rst:11
 msgid ""
 "This handbook is about open data - but what exactly is *open* data? For our "
 "purposes, open data is as defined by the `Open Definition`_:"
-msgstr ""
+msgstr "這是一本關於開放資料的手冊 – 但是到底什麼是「開放資料」？在這裡，當我們提到「資料開放」時，我們將使用 `Open Definition`_ 中的定義 :"
 
 # 0ec56db1f5bd4d16844482d013167141
 #: ../../source/what-is-open-data/index.rst:14
@@ -467,14 +471,14 @@ msgid ""
 "*Open data is data that can be freely used, re-used and redistributed by "
 "anyone - subject only, at most, to the requirement to attribute and "
 "sharealike.*"
-msgstr "開放資料指的是資料可以被任何人自由使用，重複使用和散佈 - 在其限制上，最多我們只能要求使用者標示資料來源與所有人。"
+msgstr "*Open data is data that can be freely used, reused and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike. (開放資料指的是資料能被任何人自由地使用，重新使用與散佈 – 我們至多只能要求來源標示，與以相同方式分享)*"
 
 # de8b334143c446fa9ca118ec924cdaba
 #: ../../source/what-is-open-data/index.rst:18
 msgid ""
 "The `full Open Definition`_ gives precise details as to what this means. To "
 "summarize the most important:"
-msgstr ""
+msgstr "關於「開放資料」的定義在 Open Definition  (`full Open Definition`_) 內有更詳細的說明。在這我們列出其中最重要的幾點："
 
 # d6661c08a66e4657baccc415e4d94d85
 #: ../../source/what-is-open-data/index.rst:21
@@ -483,7 +487,7 @@ msgid ""
 " more than a reasonable reproduction cost, preferably by downloading over "
 "the internet. The data must also be available in a convenient and modifiable"
 " form."
-msgstr ""
+msgstr "**Availability and Access / 可得性與可讀性** : 資料必須完整釋出，同時只能依照再製的成本徵收適當的費用。最好能提供網路下載。同時提供的資料格式必須是適用和可被修改的。"
 
 # 69c79a7dbacb4a3f8901fde80bc925f3
 #: ../../source/what-is-open-data/index.rst:25
@@ -491,7 +495,7 @@ msgid ""
 "**Re-use and Redistribution:** the data must be provided under terms that "
 "permit re-use and redistribution including the intermixing with other "
 "datasets."
-msgstr "重複使用與散佈: 資料必須使用允許重複使用和散佈並包含可以與其他資料集混和使用的授權聲明。"
+msgstr "**Re-use and Redistribution / 重新使用與散播** : 資料釋出時必須採用允許資料的重新使用和散播的授權聲明。並允許與其他資料混合使用。"
 
 # ccbddaecb0324318960d141f73934293
 #: ../../source/what-is-open-data/index.rst:28
@@ -501,7 +505,7 @@ msgid ""
 " or against persons or groups. For example, ‘non-commercial’ restrictions "
 "that would prevent ‘commercial’ use, or restrictions of use for certain "
 "purposes (e.g. only in education), are not allowed."
-msgstr "**Universal Participation／普及的參與**：任何人都能自由使用，重複使用和散佈。所以就不能禁止全面使用，以及限制特定人或團體的使用權利。舉例來說，\"非商業使用\"限制\"不能用在商業\"用途，或者只能在特定目的下使用（例如只限教育用途）。"
+msgstr "**Universal Participation/ 分享的普遍性** : 任何人都可使用，重新使用和散佈這些資料 -  不能限制資料使用的範圍，或是使用者的資格。例如，「非商業使用」將禁止資料在所有「商業性質」的使用，或是限制資料只能使用在某個範圍內 (例如，只能作為教育上使用)。這些限制都是不被允許的。"
 
 # 0feddc4ae9b748dfbac21561a011623d
 #: ../../source/what-is-open-data/index.rst:34
@@ -509,7 +513,7 @@ msgid ""
 "If you’re wondering why it is so important to be clear about what open means"
 " and why this definition is used, there’s a simple answer: "
 "**interoperability.**"
-msgstr ""
+msgstr "如果你對於為什麼我們如此執著在「開放」的定義和為什麼會如此定義感到疑惑，最簡單的答案就是： **interoperability – 可互通 (用) 性** 。"
 
 # dfe720d0914442ad96bfd683d39a3a0d
 #: ../../source/what-is-open-data/index.rst:38
@@ -517,7 +521,7 @@ msgid ""
 "Interoperability denotes the ability of diverse systems and organizations to"
 " work together (inter-operate). In this case, it is the ability to "
 "interoperate - or intermix - different datasets."
-msgstr "互用性讓不同體系及組織能夠合作（交互運作）。在這種情況，互用性能讓不同資料集交互運作及互相混用。"
+msgstr "可互通性指的是不同的系統與組織可以共同運作 (inter-operate) 的能力。在這裡，可互通性意味著讓不同的資料集 (datasets) 可以彼此引用或是相互混用的能力。"
 
 # 04e5ebc429754b8f8335a6f36f11f348
 #: ../../source/what-is-open-data/index.rst:42
@@ -529,7 +533,7 @@ msgid ""
 "famous myth of the Tower of Babel where the (in)ability to communicate (to "
 "interoperate) resulted in the complete breakdown of the tower-building "
 "effort."
-msgstr "互用性很重要，因為允許不同元件彼此混搭。這種模組化、\"拚搭\"的元件，是構成規模龐大、複雜系統的基本元素。如果沒有了互用性這上述一切都不可能，就像巴比倫搭的故事告訴我們的－當拿走你溝通（互用）的能力，導致建塔工程失敗。"
+msgstr "可互通性的重要性在於，這是讓不同的元件可以一起共同運作的條件。這種將所有事物元件化和讓他們可以彼此 `嵌合` 的能力，對於建立一個更大更複雜的系統來說是絕對必要的。如果沒有這個可互通性，那就完全不可能達到這樣的結果。一個眾所皆知的例子就是巴別塔的神話故事，因為缺乏彼此溝通（互用）的能力（無能力），最後的結果就是整個塔的崩潰。"
 
 # a27e57d5f3414020af50c490a0fc4717
 #: ../../source/what-is-open-data/index.rst:50
@@ -541,7 +545,7 @@ msgid ""
 "dramatically enhanced ability to combine different datasets together and "
 "thereby to develop more and better products and services (these benefits are"
 " discussed in more detail in the section on ‘why’ open data)."
-msgstr "關於資料，我們面臨類似情況。屬於公有資源的開放資料（或程式碼）核心價值，在與能夠和其他\"開放\"資料相混搭。這種互用性對於理解\"開放\"的資料，具有關鍵性：一套資料集能夠與其他\"\"開放\"材料彼此組合，而且藉此開發更多更好的產品及服務，（關於這些好處我們會在為什麼\"開放\"資料一節詳談）。"
+msgstr "面對資料我們也有類似的問題。當我們提到資料 (或著程式碼) 共用 (commons) 時，我們指的是「開放」資料中的一部分，可以自由地與其他「開放」資料相互混用。而可互通性就是達到「開放性」(openness) 所帶來的最大好處時最重要條件 : 因為當不同資料集可以更容易地組合在一起，我們就能更容易地發展出更多和更好的產品與服務（這些好處將在「為什麼要開放資料」一章中有更詳細的說明）"
 
 # 9613f20a0c754c988418bb739c6bf147
 #: ../../source/what-is-open-data/index.rst:59
@@ -551,12 +555,12 @@ msgid ""
 "together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
-msgstr "對於開放這個辭彙提供清礎的定議，將確保能夠混合兩個不同來源的資料集。而且保證讓我們**避免自己建造'巴別塔'：有很多單獨的資料集，集合起來才能顯示價值，卻因故不能將他們混在一起。**"
+msgstr "對「開放性」提出一個清楚的定義可以讓我們在使用資料時，只要所用的資料符合這個開放定義，就能確定資料彼此可混和使用。同時也能確定我們不需面對另一座「巴別塔」 'tower of babel' : 雖然擁有很多資料集，但是只有一小部分可以彼此互用。或更慘的是資料完全無法相互混和來建立一個更大的系統。當然也沒辦法將資料的價值呈現出來。"
 
 # 3a713e7bdcd744efa87d1f18017c2fc2
 #: ../../source/what-is-open-data/index.rst:71
 msgid "What Data are You Talking About?"
-msgstr "你說的資料是指什麼而言？"
+msgstr "你所說的資料是?"
 
 # e425f13a261d4556bb1961b71da2bdd8
 #: ../../source/what-is-open-data/index.rst:73
@@ -565,7 +569,7 @@ msgid ""
 "become open - and they will see more examples below. However, it will be "
 "useful to quickly outline what sorts of data are, or could be, open -- and, "
 "equally importantly, what won’t be open."
-msgstr ""
+msgstr "讀者到目前為止已經看到許多範例，以及許多可以開放或是已經開放出來的資料類別。接下來我們將提到更多的例子。但是，為了方便接下來的說明，讓我們先快速的將已經開放出來的，或是可以被開放出來的資料做一個整理。在這，我們也會提到很重要的一點：什麼資料是不適合被開放出來的。"
 
 # b3184f4d4cd74be7a8bb72c19ae59d0a
 #: ../../source/what-is-open-data/index.rst:78
@@ -573,19 +577,19 @@ msgid ""
 "The key point is that when opening up data, the focus is on non-personal "
 "data, that is, data which does not contain information about specific "
 "individuals."
-msgstr ""
+msgstr "在開放資料時，重點是「非個人」的資料，也就是不包含關於特定人士的資訊。"
 
 # a71aa0d4b7d444c8b67cc9b635b54c45
 #: ../../source/what-is-open-data/index.rst:82
 msgid ""
 "Similarly, for some kinds of government data, national security restrictions"
 " may apply."
-msgstr "相同的，對於部分政府資訊，可能也會受到國家機密保護的限制。"
+msgstr "相同地，對於一些受到國家安全管制的政府資料，也一樣不在我們討論的範圍內。"
 
 # 35a624b81cd14bc09c5646f0b348179e
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
 msgid "Apply an Open License (Legal Openness)"
-msgstr " 選用一個開放授權"
+msgstr "選用一個開放授權 (法令面的開放)"
 
 # e7dcffe8d7d44c5d93225ccf279b1ee6
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
@@ -597,7 +601,7 @@ msgid ""
 "clarity. Thus, **if you are planning to make your data available you should "
 "put a license on it** – and if you want your data to be `open`_ this is even"
 " more important."
-msgstr ""
+msgstr "在大多數的法令管轄中，如果沒有特別的聲明與允許，第三方對資料的使用與散佈等權利都會受智慧財產權的限制。就算我們不清楚有哪些法令限制，為了避免不必要的爭議與混淆，最好還是選擇一個適用的授權聲明。所以， **如果你計畫要把一些資料釋出，你就需要選用一個適用的授權** – 同時如果你希望資料是「開放」(`open`_) 釋出，你更需要謹慎選擇授權。"
 
 # 5e7dc13604fa4f95890ca0e9b8144d81
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
@@ -605,7 +609,7 @@ msgid ""
 "What licenses can you use? We recommend that for 'open' data you use one of "
 "the licenses conformant with the `Open Definition`_ and marked as suitable "
 "for data. This list (along with instructions for usage) can be found at:"
-msgstr ""
+msgstr "有哪些授權是你可以選用的？對於開放資料，我們建議你使用一個符合 `Open Definition`_ (開放定義) 並適用於資料的授權。這一份符合開放標準的授權清單 (和這些授權的使用說明) 可以在下面找到 :"
 
 # 6c204c0188eb4967bd7ec5c9b9e29663
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
@@ -617,7 +621,7 @@ msgstr "http://opendefinition.org/licenses/"
 msgid ""
 "A short 1-page instruction guide to applying an open data license can be "
 "found on the Open Data Commons site:"
-msgstr "在 Open Data Commons 網站上您也可以找到一個單頁的說明文件，關於資料開放適用的授權模式："
+msgstr "你也可以在 Open Data Commons 網站上找得一份關於如何選用適合的開放授權的簡單說明 :"
 
 # 134eda3fcb1e4ea9a9a3849ab64bdf61
 #: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
@@ -627,7 +631,7 @@ msgstr "http://opendatacommons.org/guide/"
 # b747964567d643b082dc522af2471c0f
 #: ../../source/how-to-open-up-data/choose-datasets.rst:3
 msgid "Choose Dataset(s)"
-msgstr "選擇您的資料集"
+msgstr "選擇資料集"
 
 # 6fb7221c6835486c8ba3a96616edf6b8
 #: ../../source/how-to-open-up-data/choose-datasets.rst:5
@@ -635,7 +639,7 @@ msgid ""
 "Choosing the dataset(s) you plan to make open is the first step – though "
 "remember that the whole process of opening up data is iterative and you can "
 "return to this step if you encounter problems later on."
-msgstr ""
+msgstr "選擇你想要開放釋出的資料集，是整個程序的第一步 – 但是請記住，資料開放的程序並不是一個依序要完成過程。在任何時候當你遇到無法處理的困難時，都可以回到第一個步驟重新開始。"
 
 # 4a60d2eea7674a6daa86b7d785936908
 #: ../../source/how-to-open-up-data/choose-datasets.rst:9
@@ -644,7 +648,7 @@ msgid ""
 " straight on to the next section. However, in many cases, especially for "
 "large institutions, choosing which datasets to focus on is a challenge. How "
 "should one proceed in this case?"
-msgstr ""
+msgstr "如果你已經知道接下來要開放的資料集是哪些，你可以直接跳到下一個章節繼續閱讀。但是，在很多情況下，尤其是在一個龐大的機構中，資料集的選擇就是一個不小的挑戰。在這情況下，我們該如何開始呢？"
 
 # 562f01d73511431eb5923bbd318fb284
 #: ../../source/how-to-open-up-data/choose-datasets.rst:14
@@ -652,7 +656,7 @@ msgid ""
 "Creating this list should be a quick process that identifies which datasets "
 "could be made open to start with. There will be time at later stages to "
 "check in detail whether each dataset is suitable."
-msgstr "準備一個列出您希望能聽到具體回應的資料清單。這份資料清單並不需要完全符合您之後希望採用的資料名單。準備這份名單的目的是營造出人們對資料的要求和期望。我們可以參考其他國家已經開放的資料名單來列表。"
+msgstr "找出哪些資料集可以開放釋出和設定一個相關的清單不應該佔去你太多的時間。在接下來的步驟中，我們可以用更多時間來詳細檢查你列出的清單中的資料集是否符合我們的需求。"
 
 # 0da9e433147142ec890f7d6ea919d666
 #: ../../source/how-to-open-up-data/choose-datasets.rst:18
@@ -661,12 +665,12 @@ msgid ""
 " The main point to bear in mind is whether it is feasible to publish this "
 "data at all (whether openly or otherwise) - see :ref:`this previous section "
 "<what-data-can-be-open>`."
-msgstr ""
+msgstr "建立一個綜合的資料集清單 **並沒有什麼特別的要求** 。重要的是，你需要知道這些資料是否可以公開出來（不管是否遵守資料開放的原則） - 請參考上一章節關於「你所說的資料是？」 :ref:` <what-data-can-be-open>` 的說明。"
 
 # e56d16680b2846ab8ababb059eaaf4cb
 #: ../../source/how-to-open-up-data/choose-datasets.rst:24
 msgid "Asking the community"
-msgstr "目錄"
+msgstr "向相關社群徵詢"
 
 # a01321c596e048ac890c7771648a27c9
 #: ../../source/how-to-open-up-data/choose-datasets.rst:26
@@ -674,7 +678,7 @@ msgid ""
 "We recommend that you ask the community in the first instance. That is the "
 "people who will be accessing and using the data, as they are likely to have "
 "a good understanding of which data could be valuable."
-msgstr ""
+msgstr "我們建議你在一開始就先向相關的社群組織徵詢。這些人會是你把資料開放出來後的第一批使用者，所以他們很可能對哪些資料是比較有價值的已經有自己的想法。"
 
 # 444b3c328660471c8c6dc51d89d0cc2c
 #: ../../source/how-to-open-up-data/choose-datasets.rst:30
@@ -683,12 +687,12 @@ msgid ""
 "It is not essential that this list concurs with your expectations, the main "
 "intention is to get a feel for the demand. This could be based on other "
 "countries' :term:`open data` catalogs."
-msgstr ""
+msgstr "先準備一份登記著可開放，和你希望能從社群中得到回饋的資料清單。這份清單並不需要完全符合你期望開放的資料名單。這份清單的主要作用是讓我們能瞭解社群對資料的需求。你可以參考其他國家已經整理好的「開放資料目錄 (:term:`open data`)」來列出你的清單。"
 
 # 6cd8b5c44b4f49ccabbe7a1087df9d11
 #: ../../source/how-to-open-up-data/choose-datasets.rst:36
 msgid "Create a request for comment."
-msgstr "邀請大家共同討論。"
+msgstr "邀請大家對你的清單提出評論與回饋。"
 
 # 477a8715f16743f3b88eeddaa380d236
 #: ../../source/how-to-open-up-data/choose-datasets.rst:38
@@ -696,40 +700,40 @@ msgid ""
 "Publicise your request with a webpage. Make sure that it is possible to "
 "access the request through its own URL. That way, when shared via social "
 "media, the request can be easily found."
-msgstr ""
+msgstr "將這個邀請放上網站。並確定這個邀請有自己獨立的網頁與網址 (URL)。這樣一來，當我們把這個頁面透過社群媒體來分享時，就能更容易的找到這些邀請。"
 
 # 5fe5f7e31b1a478f8889730e3eb81077
 #: ../../source/how-to-open-up-data/choose-datasets.rst:42
 msgid ""
 "Provide easy ways to submit responses. Avoid requiring registration, as it "
 "reduces the number of responses."
-msgstr "建立一個簡單使用的回應機制。不要要求大家來註冊個帳號，因為這樣一來願意回應的人數將大為減少。"
+msgstr "設定一個使用簡單的回饋機制。不要放一堆註冊與登記的要求，因為這些多餘的步驟會減低每個人填寫回饋的意願。"
 
 # 26a1ebc54df04e69b875a56e46711d39
 #: ../../source/how-to-open-up-data/choose-datasets.rst:45
 msgid ""
 "Circulate the request to relevant mailing lists, forums and individuals, "
 "pointing back to the main webpage."
-msgstr ""
+msgstr "將這些回饋邀請發送到相關的信件討論群組、論壇，和相關的個人信箱，並在信件中把連結指回你的邀請首頁。"
 
 # b2f5c26e2d4b490bb6b7a5072214a765
 #: ../../source/how-to-open-up-data/choose-datasets.rst:48
 msgid ""
 "Run a consultation event. Make sure you run it at a convenient time where "
 "the average business person, data wrangler and official can attend."
-msgstr "發起一個討論諮詢活動。確定選擇一個適當的時間舉辦這個活動，讓一般的商業人士，資料異議者和官員們都可以共同參與。"
+msgstr "舉辦一個諮詢討論會，並確定討論會舉辦的時間能讓一般的商業人士，資料處理專家和政府官員都可出席。"
 
 # fe8082ba724f4e2481a8ab2a42544a98
 #: ../../source/how-to-open-up-data/choose-datasets.rst:52
 msgid ""
 "Ask a politician to speak on your agency's behalf. Open data is very likely "
 "to be part of a wider policy of increasing access to government information."
-msgstr "邀請一位政治人物來代表您的組織對外發言。開放資料在某種程度上應該要能納入一個更大的政策推動，一個提昇人民取得政府資訊的權力的政策。"
+msgstr "尋求一位政治人物願意為你的單位來發言。因為「開放資料」如果從法令上來看，應該是包含在一個範圍更廣並且和政府資訊公開有關的政策內。"
 
 # 97be10325f6e46a0a18c93844711c295
 #: ../../source/how-to-open-up-data/choose-datasets.rst:57
 msgid "Cost basis"
-msgstr "以經費來看"
+msgstr "成本考量"
 
 # c546923078d14fe782f517d573aac12a
 #: ../../source/how-to-open-up-data/choose-datasets.rst:59
@@ -737,7 +741,7 @@ msgid ""
 "How much money do agencies spend on the collection and maintainence of data "
 "that they hold? If they spend a great deal on a particular set of data, then"
 " it is highly likely that others would like to access it."
-msgstr ""
+msgstr "政府單位一般會編列多少預算來收集、保存與管理他們業務上需要的資料？如果某個單位對於特定的某一組資料，花了很大的功夫來建立與管理，那很可能其他人與組織也會想要取得這些資料。"
 
 # cdc1c699f81641e3b62d4c407ef2fc83
 #: ../../source/how-to-open-up-data/choose-datasets.rst:63
@@ -748,12 +752,12 @@ msgid ""
 " is absorbed by the public sector to perform a particular function. The cost"
 " of sending that data, once it has been collected, to a third party is "
 "approximately nothing. Therefore, they should be charged nothing."
-msgstr ""
+msgstr "但是這種論點可能會引發「免費享受」(freeriding) 的爭議。你可能需要面對的問題是：「我們花了如此龐大的經費與資源建立的資料，為什麼其他人可以免費享用？」。答案是，用來建立這些資料的「如此龐大的經費與資源」，應該都在每個部門為了完成他們業務時就編列並支付了。當資料收集建立後，將資料轉交給第三者並不需要太多額外的費用。所以，這些資料的開放不應該再要求額外的付費。"
 
 # b7978bdbcba74480b3aedfb5aa436caf
 #: ../../source/how-to-open-up-data/choose-datasets.rst:71
 msgid "Ease of release"
-msgstr "資料釋放出的簡易性"
+msgstr "資料釋出難易考量"
 
 # a00a368d4f5947028e1a024cd556e3c7
 #: ../../source/how-to-open-up-data/choose-datasets.rst:73
@@ -762,7 +766,7 @@ msgid ""
 "be useful to take a look at which data is easiest to get into the public's "
 "hands. Small, easy releases can act as the catalyst for larger behavioural "
 "change within organisations."
-msgstr ""
+msgstr "有時候，與其決定那些資料可能比較有價值，我們或許可以先看看有哪些資料，比較容易釋出送到公眾的手上。少量、簡單就能釋出的資料可以扮演催化劑的角色，讓組織內部在面對資料開放的議題能出現更大的改變。"
 
 # 11fb95c47b6d469aaef863cffe3dea1e
 #: ../../source/how-to-open-up-data/choose-datasets.rst:78
@@ -770,12 +774,12 @@ msgid ""
 "Be careful with this approach however. It may be the case that these small "
 "releases are of so little value that nothing is built from them. If this "
 "occurs, faith in the entire project could be undermined."
-msgstr "但是採用這種方式時依然要小心謹慎。因為這些小量的資料釋出能引起的價值可能非常低微到完全沒有任何可用之處。如果出現這種狀況，那可能會對整個計畫產生反效果和不信任感。"
+msgstr "但是請注意一點。如果你選擇釋出的資料的效用與價值真的非常微薄，或是無法以此開發出任何新的產品與服務，那就可能會打擊到他人對整個計畫的信念與支持。"
 
 # 19b8f9cee4d241ea81e431a7e622c64d
 #: ../../source/how-to-open-up-data/choose-datasets.rst:83
 msgid "Observe peers"
-msgstr "向伙伴們學習"
+msgstr "觀察其他組織與政府"
 
 # 005598dfe6924292a200665f62057f50
 #: ../../source/how-to-open-up-data/choose-datasets.rst:85
@@ -783,12 +787,12 @@ msgid ""
 "Open data is a growing movement. There are likely to be many people in your "
 "area who understand what other areas are doing. Formulate a list on the "
 "basis of what those agencies are doing."
-msgstr ""
+msgstr "開放資料是一個蓬勃發展的運動。很可能在你所在的地區，也有人對開放資料有研究，並知道其他地區的發展狀況。我們建議你把其他單位目前正在進行的相關計畫放進一份名單中。"
 
 # 05c79f3133614f7abb43130e787bca43
 #: ../../source/how-to-open-up-data/index.rst:3
 msgid "How to Open up Data"
-msgstr "如何將資料開放出來"
+msgstr "如何將資料開放釋出"
 
 # 7fe3e18cfac749f5befd9ab2576d33f1
 #: ../../source/how-to-open-up-data/index.rst:5
@@ -797,12 +801,12 @@ msgid ""
 "advice on how data holders can open up data. We’ll go through the basics, "
 "but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
 "that can arise."
-msgstr "這一段落為這份手冊的核心部分。我們將告訴您關於資料擁有者可以如何將資料開放出來的實際並且詳細的建議。我們將從最基本的部分開始，但是也會提醒您一些需要注意的地方。最後，我們將會討論一些在資料開放的程序中可能會出現的微妙問題。"
+msgstr "這一章是這本手冊最核心的部分。在這裡我們將說明資料擁有者如何能將資料開放釋出，同時提出具體並詳盡的建議。除了對基本的作法和概念提出說明，我們也會提醒你一些該避免的陷阱。最後我們將討論你可能會遇到，但也較難捉摸的問題。"
 
 # 205ae0d7b0dc40bebc2303b798613a7f
 #: ../../source/how-to-open-up-data/index.rst:10
 msgid "There are three key rules we recommend following when opening up data:"
-msgstr "以下是我們對於將資料開放出來的三個主要建議："
+msgstr "在將資料開放釋出的過程中，我們強烈建議你遵守下面三個主要的原則："
 
 # e090cea16cc645abb77158774b0a3643
 #: ../../source/how-to-open-up-data/index.rst:12
@@ -811,7 +815,7 @@ msgid ""
 "requirement that every dataset must be made open right now. Starting out by "
 "opening up just one dataset, or even one part of a large dataset, is fine --"
 " of course, the more datasets you can open up the better."
-msgstr "**越簡單越好** 從少，簡單，與快速開始。沒有人說所有的資料都要現在，馬上，全部都一起開放。先從開放一筆資料集開始，或是一個大資料集的某一部分資料也可 – 當然如果您可以開放越多資料那就會越好。"
+msgstr "**保持簡潔** . 先從小巧，簡單，可快速處理的資料開始。沒有人規定所有的資料都必須現在就開放釋出。所以先從單一一個資料集的開放做起，或者選擇一個大資料集中的某一部分開始就好。當然，如果能釋放出越多資料集，那就會越棒。"
 
 # cf62d646dd164d08be12466ae86a4cb5
 #: ../../source/how-to-open-up-data/index.rst:17
@@ -820,7 +824,7 @@ msgid ""
 "because it means you can build momentum and learn from experience -- "
 "innovation is as much about failure as success and not every dataset will be"
 " useful."
-msgstr ""
+msgstr "請記得這一切都是和創新有關。執行上是越快速會越好，因為這意味著你可以促成一股風潮，同時從做中學，學中做 – 在創新中，失敗就跟成功一樣重要。同時你將會意識到，並不是每一組資料集都是可用的。"
 
 # ef4cadde787044f6bb05cdbdbee8438e
 #: ../../source/how-to-open-up-data/index.rst:22
@@ -840,7 +844,7 @@ msgid ""
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
 " re-use and repurpose the material."
-msgstr "我們要時常記得，絕大部分的資料不會直接就交由最終使用者使用。這些資料一般都會先透過一個資訊中間者來傳送。這些資訊中間商的工作就是將資料取回並轉換或是與其他資料重組後再呈現出來。例如，我們絕大部分人對於 GPS 定位系統的大量資料沒有那種需求或是不想要處理。我們比較樂於使用地圖。所以，先將資訊中間者拉進來。他們將可把開放出來的資料重新使用和整理後重新推出新產品。"
+msgstr "請時時提醒自己一點，許多資料是無法直接送到最終使用者的手上，這中間需要經過 ‘info-mediaries’ (資訊中間人) 的協助。透過資訊中間人來將資料彙整，轉換，混和後將成果呈現出來。例如，大部分的人應該都不會想要直接閱讀一份紀錄著不同 GPS 座標的龐大表格，一張標記這些地點的地圖應該會比較受歡迎。所以，你應該盡可能先與這些資訊中間人建立關係。他們能把你所釋出的資料重新使用，並整合進其他服務中。"
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -850,7 +854,7 @@ msgid ""
 "When opening up data you will encounter plenty of questions and fears. It is"
 " important to (a) identify the most important ones and (b) address them at "
 "as early a stage as possible."
-msgstr "**回應一般常見的恐懼與誤解**. 這一點對於那些在大型企業或是組織內工作者或是與這些組織有何做關係者尤其重要，例如政府單位。將資料開放將會帶來許多的疑問和恐懼。所以 (a) 找出最主要的問題，和 (b) 盡可能越早回應將會越好。"
+msgstr "**正面挑戰常見的抗拒與誤解** 。如果你需要面對的是如政府一般的龐大的組織，這一點尤其重要。當你開始要把資料釋出時，你將會面臨許多質疑與抗拒。所以你必須 (a) 找出最重要的幾個問題與抗拒， (b) 盡早地面對這些問題並做出回應。"
 
 # 85ecf275551b4e6ea01de1f75da7cac0
 #: ../../source/how-to-open-up-data/index.rst:40
@@ -858,7 +862,7 @@ msgid ""
 "There are four main steps in making data open, each of which will be covered"
 " in detail below. These are in very approximate order - many of the steps "
 "can be done simultaneously."
-msgstr "在資料的開放上有四個主要的步驟，我們將會在接下來的章節裡面針對每一個步驟詳細解釋。這四個步驟的順序並沒有硬性的規定 - 很多步驟和程序都可以同時進行。"
+msgstr "將資料開放釋出的程序中，一共有四個主要步驟，在下面的章節，我們將對這四個步驟逐一詳細說明。這四個步驟在順序上並沒有硬性規定，很多步驟都可同步進行。"
 
 # 58824e15e3d34b518d630239f299912d
 #: ../../source/how-to-open-up-data/index.rst:44
@@ -866,17 +870,17 @@ msgid ""
 "**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
 "Keep in mind that you can (and may need to) return to this step if you "
 "encounter problems at a later stage."
-msgstr "**選擇您的資料集** 選擇一個你預期要開放釋出的資料集，同時請記得，您可以（或是有需要）重新回到這一步驟如果在接下來的步驟中遇到阻礙或是困難。"
+msgstr "**選擇你要開放的資料集 dataset(s)** . 選出你計畫要開放釋出的資料集Dataset(s)。如果在接下來的步驟中遇到困難，請記得你可以（可能你常會需要）回到這一個步驟。"
 
 # e60fff59384142ceb4865b5956701aaf
 #: ../../source/how-to-open-up-data/index.rst:47
 msgid "**Apply an open license.**"
-msgstr "**採用一條開放授權**"
+msgstr "**選用一個開放的授權聲明**"
 
 # 8e71c0ccfdb64981b4cadfb21e412387
 #: ../../source/how-to-open-up-data/index.rst:49
 msgid "Determine what intellectual property rights exist in the data."
-msgstr "確定該資料享有哪一種智慧財產權的保護。"
+msgstr "先找出這些資料在智慧財產權方面的相關法令。"
 
 # 40cb98538dfc486c838b0cd5baef35db
 #: ../../source/how-to-open-up-data/index.rst:50
@@ -884,32 +888,32 @@ msgid ""
 "Apply a suitable ‘open’ license that licenses all of these rights and "
 "supports the definition of openness discussed in the section above on ‘What "
 "Open Data’"
-msgstr "選用一個適合的 ‘open’ 開放授權將這些權限釋放出去並遵守在前一個章節關於「什麼是開放資料」中提出的開放的定義"
+msgstr "選用一個適當的開放 ('open') 授權，一個清楚說明使用者的權利，並符合我們在上一章節 (什麼是開放資料 ‘What Open Data’) 中所討論到的開放定義與原則。"
 
 # ff2d1c558ae64d3ea092b313b0a7c854
 #: ../../source/how-to-open-up-data/index.rst:53
 msgid ""
 "NB: if you can't do this go back to step 1 and try a different dataset."
-msgstr "註：如果您沒辦法找到一個恰當的授權模式，請回到步驟一重新選擇另一組資料集"
+msgstr "請注意 : 如果你無法找出適用的開放授權，請回到步驟一，然後重新選擇其他的資料集。"
 
 # e7dfde372d704525b9baac515e235e2b
 #: ../../source/how-to-open-up-data/index.rst:56
 msgid ""
 "**Make the data available** - in bulk and in a useful format. You may also "
 "wish to consider alternative ways of making it available such as via an API."
-msgstr "**將資料釋放出來** - 以原始和可用的模式釋出。您或許也需要考慮以另外一種方法，例如透過 API 的使用來釋放出這些資料。"
+msgstr "**將資料公布釋放出來** - 將資料整批釋出，並採用適用的檔案格式。你也可將資料以其他方式開放釋出，例如透過 API 的呼叫。"
 
 # e9ecca180f4649b4a06c3a524060f3e7
 #: ../../source/how-to-open-up-data/index.rst:59
 msgid ""
 "**Make it discoverable** - post on the web and perhaps organize a central "
 "catalog to list your open datasets."
-msgstr "**讓資料可被搜獲** - 將資料放上網路和或許建立一個目錄中心列出所有你開放出來的資料集。"
+msgstr "**讓資料可被搜獲** - 將資料公布於網站上，也可建立一個統一的資料目錄中心，來列出所有開放出的資料集。"
 
 # 5adf4d4d1e4c4adb91f58d1920c3af87
 #: ../../source/how-to-open-up-data/make-data-available.rst:3
 msgid "Make Data Available (Technical Openness)"
-msgstr "將資料釋出與可得 (技術層面上的開放性)"
+msgstr "將資料釋放出來 (技術面的開放)"
 
 # b09db3670c724b4cbae550f365a90988
 #: ../../source/how-to-open-up-data/make-data-available.rst:5
@@ -917,7 +921,7 @@ msgid ""
 ":term:`Open data` needs to be technically open as well as legally open. "
 "Specifically, the data needs to be available in bulk in a :term:`machine-"
 "readable` format."
-msgstr "Open data 資料的開放必須從技術層面與法令層面上都需要符合開放的標準。尤其是，資料必須是大宗並且採用 machine-readable （機器可讀）的格式。"
+msgstr ":term:`Open data`  開放資料不只在法令面上要開放，在技術面上也一樣需要開放。尤其要注意的是，資料釋出必須是完整（整體），同時採用機器可讀取 (:term:`machine-readable`) 的檔案格式。"
 
 # b9d7515dde2043ac876fd4836fae1473
 #: ../../source/how-to-open-up-data/make-data-available.rst:10
@@ -926,7 +930,7 @@ msgid ""
 "preferably as a free download from the Internet. This pricing model is "
 "achieved because your agency should not undertake any cost when it provides "
 "data for use."
-msgstr ""
+msgstr "資料取得的費用應該以資料複製的成本來合理計算，較好的方法是經由網路免費下載。採用這種收費模式的原因是，將資料釋出提供他人使用時，你的部門並不需要編列什麼額外的經費。"
 
 # 402e6b5680ef47a9b0690b72d93f77da
 #: ../../source/how-to-open-up-data/make-data-available.rst:16
@@ -935,7 +939,7 @@ msgid ""
 " is collected under statute, the entire register should be available for "
 "download. A web API or similar service may also be very useful, but they are"
 " not a substitutes for bulk access."
-msgstr "資料的呈現必須是完整的一組資料。如果您有一份紀錄是依照法規所收集，您就必須將整份記錄都開放釋出提供下載。提供一組 Web API 或是類似的服務也將會有很大的幫助，但是這些並不能取代資料完整取得的機制。"
+msgstr "資料必須是以完整的資料集形式釋出。如果你的資料是依照法令要求來收集，所有收集到的資料都該完整提供下載和釋出。使用網站 API 或是類似的服務是很有用的方式，但是你不能以此來取代完整資料。"
 
 # b3a61f61587d4cfe810a5c957f8af97e
 #: ../../source/how-to-open-up-data/make-data-available.rst:22
@@ -947,34 +951,34 @@ msgid ""
 "often used for high quality printing. While these statistics can be read by "
 "humans, they are very hard for a computer to use. This greatly limits the "
 "ability for others to re-use that data."
-msgstr ""
+msgstr "公部門資料的重新使用，不應該受到專利等的限制。更重要的是，為了達到資料重新使用的最大效益，你必須確保資料是以機器可讀取的檔案格式釋出。舉例來說，為了達到較高品質的列印效果，大部分的統計報告都是使用 pdf 的檔案格式釋出。對我們來說，閱讀這些資料並沒有什麼問題。但因為檔案的格式，這些資料很難直接使用電腦來處理。所以對其他想要重新使用這些資料的人而言，就形成一種限制。"
 
 # 190bf209b2644133b99a232d147ee714
 #: ../../source/how-to-open-up-data/make-data-available.rst:31
 msgid "Here are a few policies that will be of great benefit:"
-msgstr ""
+msgstr "下面這些策略對於資料的釋出會有很大的幫助："
 
 # 63d8a323d7e04da6bba2f412cc5842af
 #: ../../source/how-to-open-up-data/make-data-available.rst:33
 msgid "Keep it simple,"
-msgstr "盡量保持簡單，"
+msgstr "盡量保持簡單"
 
 # 4978a2c4ac1f4d0482cd0a5c18899676
 #: ../../source/how-to-open-up-data/make-data-available.rst:34
 msgid "Move fast"
-msgstr "快速前進"
+msgstr "快速執行"
 
 # 7e3d34dbf9b349dbbfd5874681a3b9e9
 #: ../../source/how-to-open-up-data/make-data-available.rst:35
 msgid "Be pragmatic."
-msgstr "要務實"
+msgstr "要務實。"
 
 # 344dec649a454a349a892dce337d2360
 #: ../../source/how-to-open-up-data/make-data-available.rst:37
 msgid ""
 "In particular it is better to give out raw data now than perfect data in six"
 " months' time."
-msgstr ""
+msgstr "基本上我們認為現在先把原始的完整資料 (raw data) 釋出，會比六個月後才將整理好的完美資料丟出來會更好一點。"
 
 # c6673f81b9724b8c95778b12ce344bec
 #: ../../source/how-to-open-up-data/make-data-available.rst:40
@@ -984,7 +988,7 @@ msgid ""
 " to this model. At its most basic, agencies make their data available via "
 "their websites and a central catalog directs visitors to the appropriate "
 "source.  However, there are alternatives."
-msgstr ""
+msgstr "我們有許多方法可以將資料釋出给他人。在一個數位網路時代，最簡單自然的方法就是把資料放上網路。但就算是將資料放上網路，也有數種不同的方式。最基本的一種就是，將資料直接放上你們部門的網站，然後建立一個統一的目錄，讓網站的訪客能清楚知道他們尋找的資料在哪。不過，除此之外還有許多其他的方法。"
 
 # ac1bf932ff0d46c8982fb9e01fa36836
 #: ../../source/how-to-open-up-data/make-data-available.rst:46
@@ -992,7 +996,7 @@ msgid ""
 "When :term:`connectivity` is limited or the size of the data extremely "
 "large, distribution via other formats can be warranted. This section will "
 "also discuss alternatives, which can act to keep prices very low."
-msgstr "當 connectivity (連線環境) 受到限制或是資料量非常龐大時，使用其他格式來散佈是有其必要性的。在這一個章節中，我們也會討論到其他資料散佈的方式，同時也考慮到盡量壓低需要的額外資源（經費）。"
+msgstr "當網路連線 (:term:`connectivity`) 條件不佳，或是資料量過於龐大時，可以考慮採用其他的方式來將資料釋出。在這個章節我們將會討論到其他方法，並特別注重如何將經費壓到最低。"
 
 # d14f19bd711547458714a36deb87b608
 #: ../../source/how-to-open-up-data/make-data-available.rst:51
@@ -1002,7 +1006,7 @@ msgstr "線上模式"
 # c5885ee8faca4693a840729a94e548a0
 #: ../../source/how-to-open-up-data/make-data-available.rst:54
 msgid "Via your existing website"
-msgstr "透過您的網站"
+msgstr "透過你現有的網站"
 
 # 4698a33b199f4dc7893cc0b7f999880d
 #: ../../source/how-to-open-up-data/make-data-available.rst:56
@@ -1011,7 +1015,7 @@ msgid ""
 "provide files for download from webpages. Just as you currently provide "
 "access to discussion documents, data files are perfectly happy to be made "
 "available this way."
-msgstr "對於您的網站內容負責團隊來說，最熟悉的方式就是將資料檔案直接放上網站讓他人下載。就如同其他網站上的內容一般，資料檔案也可以如此簡單的分享釋出。"
+msgstr "對於現有的網站經營團隊來說，最簡便的方式就是把資料以檔案下載的方式放上網頁。就如網站上其他內容一般，資料檔案也可以用這種方式來釋出。"
 
 # 680a3fdd6ee74160bfd3f0ba94456f73
 #: ../../source/how-to-open-up-data/make-data-available.rst:61
@@ -1019,7 +1023,7 @@ msgid ""
 "One difficulty with this approach is that it is very difficult for an "
 "outsider to discover where to find updated information. This option places "
 "some burden on the people creating tools with your data."
-msgstr "採用這種方法時比較麻煩的一點是，對於外來的使用者來說，他們比較難以找到資料更新的資訊。而這一點對於使用您的資料來建立新工具的人而言是蠻糟糕的事情。"
+msgstr "採用這種方式比較麻煩的是，對於一個外人來說，他們比較難以找到更新後的資料。這對於使用你的資料來開發工具與服務的人來說，都是額外的負擔。"
 
 # 28ec978c25d5464caef60764ccd26193
 #: ../../source/how-to-open-up-data/make-data-available.rst:67
@@ -1033,7 +1037,7 @@ msgid ""
 "example, pachube.com is designed to connect people with sensors to those who"
 " wish to access data from them. Sites like Infochimps.com and Talis.com "
 "allow public sector agencies to store massive quantities of data for free."
-msgstr "目前有許多網路儲存庫 (repository) 可以拿來當作特定領域的資料集散中心。例如， pachube.com 的目的是連結不同的人，從資料的提供者到期望能使用這些資料的人們。其他如 infochimps.com 或是 talis.com 等則允許公部門單位在他們網站上免費儲存大量的資料。"
+msgstr "現在有許多網路的儲存服務已經成為特定資料的集散中心。例如， cosm.com 網站提供了一個讓那些使用探測儀器的人能將資料分享給其他人的網路空間。而其他如 Infochimps.com 或是 Talis.com 的網站，對於公部門單位也都提供了儲存大量資料的免費服務。"
 
 # 79fec3171d0b43e7924a9661d86ed5bb
 #: ../../source/how-to-open-up-data/make-data-available.rst:75
@@ -1042,7 +1046,7 @@ msgid ""
 "have already pooled together a community of interested people and other sets"
 " of data. When your data is part of these platforms, a type of positive "
 "compound interest is created."
-msgstr "第三方提供的網站可以是非常有用的選擇。最主要的原因是在這些網站上已經有對這些資料有興趣的社群和來自不同來源的資料集，全都聚集在同一個地點上。當您的資料也成為這裡眾多資料中的一份時，就會引發出一種正面的關注氣氛的產生。"
+msgstr "使用第三方網站提供的服務是個不錯的選擇。主要的原因是，這些網站已經建立一個凝聚許多有共同興趣的人的社群。同時他們也集合了許多來自不同源頭的資料集。把你的資料加進這個平台後，我們可預期會看到許多正面的回應和影響。"
 
 # e27ac253acf04e4895092c606f5d6c84
 #: ../../source/how-to-open-up-data/make-data-available.rst:80
@@ -1050,7 +1054,7 @@ msgid ""
 "Wholesale data platforms already provide the infrastructure which can "
 "support the demand. They often provide analytics and usage information. For "
 "public sector agencies, they are generally free."
-msgstr "整個資料批發平台已經備好該有的基礎架構來回應可能出現的需求。他們一般也會提供關於資料使用等資訊的分析報告。而對公部門單位一般都是免費服務。"
+msgstr "資料集散平台透過其完善的架構可以對資料的需求提供支援。這些平台通常也會提供資料使用的分析報告等功能。這些服務通常也都對公部門單位提供免費使用的優惠。"
 
 # cc7000380ec64929b7aacfcc5761b05f
 #: ../../source/how-to-open-up-data/make-data-available.rst:84
@@ -1061,12 +1065,12 @@ msgid ""
 "that your data platform is agnostic about who can access it. Software "
 "developers and scientists use many operating sytems, from smart phones to "
 "supercomputers. They should all be able to access the data."
-msgstr "使用這些平台可能會有兩個地方需要注意。第一個是依賴性的養成。您的部門需要將控制權外放给他人。而這常常是在政治上，法規上或是執行上都是個問題。第二個需要注意的事情是，開放性。請確定您所使用的資料平台對於誰可以讀取這些資料沒有任何限制。軟體開發者和科學研究人員使用的電腦作業系統可能非常多樣，可能使用從智慧型手機到大型電腦主機都有。他們全部都該有一樣的權力來讀取您的資料。"
+msgstr "使用這些平台時有兩個地方需要注意一下。第一是「獨立性」。你的部門必須願意將資料的掌控權交出去。這一點在政策上，法令上或是實際執行上都可能出現困難。第二是「開放性」。你必須確定平台對於誰能讀取你提供的資料是不限制的。軟體開發者和一些科學家可能會使用數種不同的作業系統。這可能包含從智慧型手機到超級電腦。不管是使用哪一種系統，任何人都應該有權利讀取這些資料。"
 
 # 45ec5a433d49473d8bd8e8aa732d3790
 #: ../../source/how-to-open-up-data/make-data-available.rst:94
 msgid "Via FTP servers"
-msgstr "透過 FTP 伺服器"
+msgstr "經由 FTP 伺服器"
 
 # b76866767adf434e9e413aa9dd09bcc1
 #: ../../source/how-to-open-up-data/make-data-available.rst:96
@@ -1075,7 +1079,7 @@ msgid ""
 "Transfer Protocol (FTP). This may be suitable if your audience is technical,"
 " such as software developers and scientists. The FTP system works in place "
 "of HTTP, but is specifically designed to support file transfers."
-msgstr "一個逐漸比較不流行的作法就是透過 FTP (File Transfer Protocol) 來分享資料檔案的下載。如果您所預期的資料使用者屬於偏技術端的，例如軟體開發者或是科學研究人員，那就可以使用這個方法來提供資料下載。FTP 伺服器在使用上就如同 HTTP 網路伺服器，只是他的工作就是專門用來做為檔案傳輸用。"
+msgstr "使用檔案傳送伺服器 FTP (File Transfer Protocol) 來分享是一個目前已經退流行的資料檔案分享方式。如果你的對象是技術導向的一群人，例如程式開發者或是科學家等，那這依然不失為一個好方法。FTP 伺服器的運作就如同 HTTP 一樣，但是架構上則是特別為檔案傳送而設計。"
 
 # 2b926a03ce794f8782e74bd0013c2b2e
 #: ../../source/how-to-open-up-data/make-data-available.rst:102
@@ -1084,12 +1088,12 @@ msgid ""
 "through an FTP server is much like looking through folders on a computer. "
 "Therefore, even though it is fit for purpose, there is far less capacity for"
 " web development firms to charge for customisation."
-msgstr "FTP 在現在越來越不受重用，大家也比較喜歡直接開啟網站下載資料。因為 FTP 的介面看起來就如同在自己電腦內的不同目錄之間尋找要的資料。所以雖然 FTP 的功能就是提供檔案的傳輸，在服務的提供上，整個架構都是固定無法做出什麼改變。"
+msgstr "FTP 現在已經沒有那麼多人使用。FTP 伺服器所提供的介面和網站不同，透過 FTP 伺服器我們看到的是一個又一個的資料夾，就如同是瀏覽自己電腦內的資料夾一樣。所以，雖然FTP很適合提供檔案傳送的服務，但是它的架構也讓我們很難在介面上做出什麼客製化的改變。"
 
 # c42b8894bbc54326b66238f06c086570
 #: ../../source/how-to-open-up-data/make-data-available.rst:108
 msgid "As torrents"
-msgstr "使用 torrents 模式分享"
+msgstr "使用 torrents"
 
 # 759eb86f2e4d480eaaecdaac50273050
 #: ../../source/how-to-open-up-data/make-data-available.rst:110
@@ -1101,7 +1105,7 @@ msgid ""
 "becoming overloaded, the supply increases with the demand increases. This is"
 " the reason that this system is so successful for sharing movies. It is a "
 "wonderfully efficient way to distribute very large volumes of data."
-msgstr "BitTorrent 是一個目前政策決策者越來越熟習的系統，因為這個系統的使用與侵犯版權等相關問題常常被放在一起提到。BitTorrent 使用一種稱為 torrents 的檔案，然後在運作上可以將檔案散佈的資源分散平均分配到每個讀取該檔案的使用者身上。這樣一來，就算對資料檔案的要求提高，也可避免伺服器出現頻寬不足的狀況，因為越多人下載檔案，就表示越多人同時也在分享。這也是為什麼這個系統受到網路上電影分享下載者的熱愛。這是個非常有效率的方法來分享大量的資料檔案。"
+msgstr ":term:`BitTorrent` 是一個最近幾年來政策制訂者開始比較熟悉的系統。因為這種分享方式常常與版權侵犯的議題綁在一起。BitTorrent 使用的檔案被稱為 torrents。其運作模式是將分享檔案時所需使用的資源做切割，並由每一個下載這個檔案的使用者共同分擔。如此一來，我們就不需要擔心伺服器出現超載的問題，因為只要越多人下載，就會有越多人分享。這也是為什麼使用這種方式來分享電影是如此受歡迎。如果我們需要分享大量資料，這會是一個很好用的方法。"
 
 # 129e68dafdf54f6e97919fba6fdc5c70
 #: ../../source/how-to-open-up-data/make-data-available.rst:119
@@ -1117,21 +1121,21 @@ msgid ""
 "in bulk as a large file. APIs are typically connected to a database which is"
 " being updated in real-time. This means that making information available "
 "via an API can ensure that it is up to date."
-msgstr "資料還可以透過 Application Programming Interface (API) 來做分享和散佈。使用 API 這種介面的模式在現在越來越受到歡迎。這種方式允許程式設計師每次只選擇讀取特定的資料片段，而不需要一次就把整個龐大的資料集先下載回來。 API 一般來說都會連接到一個資料庫，同時資料庫內的資料都可以及時更新。這意味著，透過 API 的模式，我們可以隨時提供最新最即時的資料。"
+msgstr "我們可以透過呼叫 API ( :term:`Application Programming Interface` ) 的方式將資料散佈出去。現在越來越常見到透過這種方式來散播資料。透過 API 的呼叫，程式設計師可以選擇資料中要讀取的特定部分，而不需要把整批資料事先完整下載回來。API 一般都是直接連接到一個資料庫，而資料庫內儲存的都是即時更新最新版本的資料。這意味著，透過 API 的呼叫來釋出資料，我們可以提供最即時的新資訊。"
 
 # a04d09c10e634e4e95e64172d7f3df48
 #: ../../source/how-to-open-up-data/make-data-available.rst:129
 msgid ""
 "Publishing raw data in bulk should be the primary concern of all open data "
 "intiatives. There are a number of costs to providing an API:"
-msgstr ""
+msgstr "把原始資料 (raw data) 以完整整批的方式釋出對所有推廣開放資料的計畫來說都該被當作最重要的目標。如果你想透過 API 的呼叫來釋出資料，有幾點需要特別注意："
 
 # 3c28e8cb66dc4a3cb88e41a7b60106b4
 #: ../../source/how-to-open-up-data/make-data-available.rst:132
 msgid ""
 "The price. They require much more development and maintainence than "
 "providing files."
-msgstr ""
+msgstr "成本。使用這種方式比起單純的提供資料檔案下載，需要投入更多的資源在開發與系統維護上。"
 
 # 14dd153713774331a0312cbefb6d28d1
 #: ../../source/how-to-open-up-data/make-data-available.rst:134
@@ -1139,12 +1143,12 @@ msgid ""
 "The expectations. In order to foster a community of users behind the system,"
 " it is important to provide certainty. When things go wrong, you will be "
 "expected to incur the costs of fixing them."
-msgstr ""
+msgstr "使用者的期待。要建立一個願意使用這個系統的社群，我們必須確切的回應使用者的需求與期待。當系統出現問題時，你必須不計代價趕快想辦法把他修復。"
 
 # ca23faca90d744b397f92d458f218d1c
 #: ../../source/how-to-open-up-data/make-data-available.rst:138
 msgid "Access to bulk data ensures that:"
-msgstr "直接下載完整大檔案則可保證："
+msgstr "直接提供完整資料檔案的下載則可確保："
 
 # ae5f19aec9fc42828d27deb2b2c9c146
 #: ../../source/how-to-open-up-data/make-data-available.rst:140
@@ -1152,7 +1156,7 @@ msgid ""
 "there is no dependency on the original provider of the data, meaning that if"
 " a restructure or budget cycle changes the situation, the data are still "
 "available."
-msgstr ""
+msgstr "我們不需要一直依靠資料的原始提供者，這意味著如果資料原始提供者的部門出現重組或是經費刪減的狀況時，這些資料依然可從其他地方取得。"
 
 # 3022f0749b794dc59af9b4b12e4fd380
 #: ../../source/how-to-open-up-data/make-data-available.rst:143
@@ -1160,14 +1164,14 @@ msgid ""
 "anyone else can obtain a copy and redistribute it. This reduces the cost of "
 "distribution away from the source agency and means that there is no single "
 "point of failure."
-msgstr "任何其他人都可以取得一份資料檔案和將他分享散佈出去。這也可減低原始資料提供者在散佈資料時所需投入的資源，更不用擔心在資料的散佈中會出現什麼問題。"
+msgstr "任何人都可取得一份完整的資料備份，同時繼續將資料散播出去。這樣一來，除了可減少資料原始提供者在資料散播時所需的成本，並可確保在整個過程中，不會因為某個節點出現狀況，而影響到資料的散播。"
 
 # 362360c6bac64db5b350ca2f2b96d48e
 #: ../../source/how-to-open-up-data/make-data-available.rst:146
 msgid ""
 "others can develop their own services using the data, because they have "
 "certainty that the data will not be taken away from them."
-msgstr "其他人可以使用這些資料開發他們自己的服務，因為他們可確定其他人無法把這些資料從他們那邊拿走。"
+msgstr "其他人可以使用這些資料來開發自己的服務，因為他們可以確定這些資料不會在之後某天，忽然從他們手中被奪走。"
 
 # 92b96832e25848bea4ba68895e02480f
 #: ../../source/how-to-open-up-data/make-data-available.rst:149
@@ -1177,7 +1181,7 @@ msgid ""
 "linked with other resources, or versioned and archived in multiple places. "
 "While the latest version of the data may be made available via an API, raw "
 "data should be made available in bulk at regular intervals."
-msgstr ""
+msgstr "當我們將資料完整釋出時，其他人就可以找出有別於原始用途的方法來使用這些資料。例如，將資料轉為其他格式、與其他資源做整合，或是編列建檔存放在不同的地方。透過 API 呼叫的方式，我們可以提供最新版本的資料，但是每隔一段時間原始資料也必須更新和提供完整下載。"
 
 # 19cd648b3bcb47a69b7b467e23035209
 #: ../../source/how-to-open-up-data/make-data-available.rst:155
@@ -1186,7 +1190,7 @@ msgid ""
 "facility offering over 4000 data files. It is updated twice a day, offers "
 "data in :term:`Tab-separated values` (TSV) format, and includes "
 "documentation about the download facility as well as about the data files."
-msgstr ""
+msgstr "For example, the `Eurostat statistical service`_ 例如，Eurostat 的統計資料服務 (`Eurostat statistical service`_)，提供包含了 4000 多筆的完整資料可供下載。這些資料每天更新兩次。資料除了使用 :term:`Tab-separated values` (TSV) 的格式釋出，還可在網站上找到關於資料本身和資料下載的說明文件。"
 
 # e41c10ed0631425c909b8ebfb4a7c800
 #: ../../source/how-to-open-up-data/make-data-available.rst:162
@@ -1194,12 +1198,12 @@ msgid ""
 "Another example is the `District of Columbia Data Catalog`_, which allows "
 "data to be downloaded in CSV and XLS format in addition to live feeds of the"
 " data."
-msgstr ""
+msgstr "在網路上我們現在可以找到許多特別設計，讓資料更容易被尋獲的網站服務。"
 
 # 5b114f4280384ceb84d9a7ccda241a62
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
 msgid "Make data discoverable"
-msgstr "讓資料可被尋獲。"
+msgstr "讓人們能找到你的資料"
 
 # 1a2ce7b8aac042e9a2f48a21660610d0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
@@ -1217,19 +1221,19 @@ msgid ""
 " whether sectorial or geographical, can make cooperation difficult. However,"
 " there are significant benefits in joining forces. The easier it is for "
 "outsiders to discover data, the faster new and useful tools will be built."
-msgstr "最重要的是提供中立的空間，客服局處室之間的政治以及預算週期所造成的困擾。不論是部門上或是地理上的司法管轄範圍，都會對合作造成困擾。但是，但團結合作還是有明顯好處。資料越容易讓外界人找到，那麼新的好用的工具也就越快出現。"
+msgstr "最重要的是，提供一個可以克服不同部門因為政策歧見，或是未來可能出現的經費調整所引起的問題的中立空間。不管是行政單位上的或是地域性的，法令的管轄範圍都可能讓不同部門之間的合作關係出現阻礙。但是，我們知道確定團結就是力量。只有當資料越容易被外人所尋獲，我們就能越快看到新的和有用的工具被建造出來。"
 
 # 512c9d4d09dd44a68e1beae3b2f882b6
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
 msgid "Existing tools"
-msgstr "現有工具"
+msgstr "可用的工具"
 
 # 2adc1adf902d44b497f75a0eafa83915
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
 msgid ""
 "There are a number of tools which are live on the web that are specifically "
 "designed to make data more discoverable."
-msgstr ""
+msgstr "網路上有許多工具存在，這些工具經過特別設計，讓找資料的過程更容易。"
 
 # ae9ed98469a341feb0c8d16f3e4c4715
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
@@ -1238,7 +1242,7 @@ msgid ""
 "for datasets from around the world. The site makes it easy for individuals "
 "and organizations to publish material and for data users to find material "
 "they need."
-msgstr ""
+msgstr "這些工具裡面最著名的應該是 DataHub_ 。這個服務為來自世界各處的資料集提供一個網路儲存空間，和建立一個完整的資料目錄。透過網站的服務，不管是個人或是團體組織，都能輕易地將資料釋出。同時需要資料的使用者也可快速的找到他們尋找的資料集。"
 
 # 2558aac60a2e4327ad698877cc2142f9
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
@@ -1246,12 +1250,12 @@ msgid ""
 "In addition, there are dozens of specialist catalogs for different sectors "
 "and places. Many scientific communities have created a catalog system for "
 "their fields, as data are often required for publication."
-msgstr ""
+msgstr "除此之外，目前網路上還有其他工具也提供類似的服務和針對特定領域所建立的資料目錄。許多學術研究社群也都各自建立他們自己的目錄系統，裡面的資料常在許多學術論文發表上都可見到。"
 
 # 3813a2f6a87b44bda881d2dc1047e8e0
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
 msgid "For government"
-msgstr ""
+msgstr "政府部門方面"
 
 # dd24b7fc5a0e4264a0a4224b5aab6293
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
@@ -1260,7 +1264,7 @@ msgid ""
 "catalog for the government's data. When establishing a catalog, try to "
 "create some structure which allows many departments to easily keep their own"
 " information current."
-msgstr ""
+msgstr "目前我們常可見到比較正統的作法，是交由一個主管部門來為政府的資料建立一個統一的目錄。建立目錄時，也試著透過資料架構的規劃，讓不同部門與單位能輕易地繼續匯入他們掌管的資料的更新。"
 
 # e6a628d1c2b340f2bdd128c31a4febba
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
@@ -1269,14 +1273,14 @@ msgid ""
 "There are free and open source software solutions (such as CKAN_) which have"
 " been adopted by many governments already. As such, investing in another "
 "platform may not be needed."
-msgstr ""
+msgstr "我們建議你不要急著想要從零開始，重頭建構自己的系統來管理這個目錄。目前在網路上有不少免費的自由軟體可以使用 (例如 CKAN)，許多政府機關也已經開始使用這些軟體。所以，或許你並不需要將有限的資源擺在新平台的建立上。"
 
 # 219db6ba9b784128a2be95191a104858
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
 msgid ""
 "There are a few things that most open data catalogs miss. Your programme "
 "could consider the following:"
-msgstr ""
+msgstr "目前絕大部分的開放資料目錄都還缺少一些東西。在你的規劃中，或許可以考慮一下下面這幾點："
 
 # d738b775cba84d92ac1ed6ec7c0840c5
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
@@ -1284,7 +1288,7 @@ msgid ""
 "Providing an avenue to allow the private and community sectors to add their "
 "data. It may be worthwhile to think of the catalog as the region's catalog, "
 "rather than the regional government's."
-msgstr ""
+msgstr "提供一個管道，讓私人與社群團體可以上傳他們自己的資料集。或許我們可以將目錄範圍定義為當地整個地區的資料目錄，而不是只是侷限在地區政府資料的目錄。"
 
 # 507082d1a6244462beb7af124cfe0fda
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
@@ -1293,7 +1297,7 @@ msgid ""
 "be cataloged. For example, someone may geocode addresses and may wish to "
 "share those results with everybody. If you only allow single versions of "
 "datasets, these improvements remain hidden."
-msgstr ""
+msgstr "在目錄中允許加入複製後修改過的資料集，並藉此來有效改善資料的品質。例如，或許有人會把住址用地理座標的方式標記出來，同時希望能把這些資料分享給他人。如果每個資料集你只允許單一版本的紀錄，那這些修改過和加強的資料就無法被看到。"
 
 # e8ad70e351d34a9caf7bc7cf0409f67d
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
@@ -1301,7 +1305,7 @@ msgid ""
 "Be tolerant of your data appearing elsewhere. That is, content is likely to "
 "be duplicated to communities of interest. If you have river level monitoring"
 " data available, then your data may appear in a catalog for hydrologists."
-msgstr ""
+msgstr "允許你的資料被存放到其他地方去。也就是，我們預期資料內容會被複製轉貼到其他對這些資料有興趣的組織團體的網站或是其他網路空間。如果你提供了關於河流水位的監督記錄，那這些資料就可能會出現在與水利相關的團體所整理的資料名單上。"
 
 # 04da7586b2474affab2a4d56bb5dc900
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
@@ -1309,17 +1313,17 @@ msgid ""
 "Ensure that access is equitable. Try to avoid creating a privileged level of"
 " access for officials or tenured researchers as this will undermine "
 "community participation and engagement."
-msgstr ""
+msgstr "確認每個人對資料的取得有一樣的權利。避免設定特殊的資料讀取權限，例如特別開放給公部門官員或是具有終身職資格的資深學者的權限。因為這樣一來將會降低社群參與與回饋的意願。"
 
 # 19cfcba241ba49da8fa2cd7e12ffcdfe
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
 msgid "For civil society"
-msgstr ""
+msgstr "公眾社會方面"
 
 # 82151482120d4eb38a6d0aafff09e1ed
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
 msgid "Be willing to create a supplementary catalog for non-official data."
-msgstr ""
+msgstr "請為非官方的資料建立一個額外的目錄。"
 
 # 4d3c4cafa15d46b49cdf98fb5cdd40fb
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
@@ -1328,7 +1332,7 @@ msgid ""
 "authoritative sources. Officials have often gone to great expense to ensure "
 "that there will not be political embarrassment or other harm caused from "
 "misuse or overreliance on data."
-msgstr ""
+msgstr "一般來說，政府部門很少會將來自非官方或是非權威組織的資料結合進來。政府官員一般都會花很大的資源與精力來避免因為對資料的不當使用，或是對資料的過度信賴而可能造成的政治危機或是其他的傷害。"
 
 # dc1fa133f5ff4c1f91bc4f7593f4b2e2
 #: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
@@ -1337,53 +1341,53 @@ msgid ""
 "mesh their information with information from businesses. Governments are "
 "rightfully skeptical of profit motives. Therefore, an independent catalog "
 "for community groups, businesses and others may be warranted."
-msgstr ""
+msgstr "尤其是，政府可能不太願意回應那些使用了他們的資料並搭配使用 (mesh) 來自商業機構的資料的運動參與者的要求。政府當然有理由質疑這些人背後的動機。所以，建立一個給社群團體，企業商家與其他人專屬的獨立資料目錄是必要的。"
 
 # 0eece90a6b18435fbada8a71dce59bb8
 #: ../../source/following-up/getting-folks-in-a-room.rst:3
 msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
-msgstr "把大家抓到同一個房間：會議、網聚和 Barcamps"
+msgstr "把大家拉進來：開幾場 Unconference，Meetups和 Barcamps 吧"
 
 # d517fbbe51ea4d1889ad1ea4f9b6c34e
 #: ../../source/following-up/getting-folks-in-a-room.rst:5
 msgid ""
 "Face-to-face events can be a very effective way to encourage others to use "
 "your data. Reasons that you may consider putting on an event include:"
-msgstr "面對面的聚會對於鼓勵其他人使用你的資料是非常有效的方式。一些你可能考慮舉辦活動的理由是："
+msgstr "舉辦實體面對面的聚會對於鼓勵他人使用你的資料是非常有幫助的。下面是幾個我們認為你該舉辦這些活動的理由："
 
 # ed4a924635be427d84e5e73aa156036b
 #: ../../source/following-up/getting-folks-in-a-room.rst:9
 msgid "Finding out more about prospective re-users"
-msgstr ""
+msgstr "認識更多可能會使用你的資料的使用者"
 
 # 5f00d7f9fe5f4d88908a571cd17d7583
 #: ../../source/following-up/getting-folks-in-a-room.rst:10
 msgid "Finding out more about demand for different datasets"
-msgstr "辨識不同資料集的使用需求"
+msgstr "知道使用者對哪些資料也有很大的興趣"
 
 # 44afdf6e36d943ddabf744660e0cd998
 #: ../../source/following-up/getting-folks-in-a-room.rst:11
 msgid "Finding out more about how people want to re-use your data"
-msgstr ""
+msgstr "知道大家是如何來使用你釋出的資料"
 
 # 40fc2cc37de34edc951bb527c703bed8
 #: ../../source/following-up/getting-folks-in-a-room.rst:12
 msgid ""
 "Enabling prospective re-users to find out more about what data you have"
-msgstr ""
+msgstr "讓那些可能會使用你的資料的人有機會知道你還有哪些資料"
 
 # 521cf351ccf04741bcad75ab2ebed8fc
 #: ../../source/following-up/getting-folks-in-a-room.rst:14
 msgid ""
 "Enabling prospective users to meet each other (e.g. so they can collaborate)"
-msgstr ""
+msgstr "讓那些可能會使用你的資料的人有機會認識其他人 (例如，可以藉這機會找到合作的伙伴)"
 
 # 48964c3745d54c21947431d3f9dfa392
 #: ../../source/following-up/getting-folks-in-a-room.rst:16
 msgid ""
 "Exposing your data to a wider audience (e.g. from blog posts or media "
 "coverage that the event may help to generate)"
-msgstr ""
+msgstr "讓你釋出的資料有機會擴大宣傳讓更多人知道 (例如，透過部落格文章或是媒體對這些聚會的報導)"
 
 # 4d90aabe7a734c3f805647604033d11a
 #: ../../source/following-up/getting-folks-in-a-room.rst:19
@@ -1393,30 +1397,30 @@ msgid ""
 "traditional conference models,  which will include things like preprepared "
 "formal talks, presentations and demonstrations, there are also various kinds"
 " of participant driven events, where those who turn up may:"
-msgstr ""
+msgstr "聚會的舉辦可以有不同的方法，聚會本身也能有不同的形式。這一切都依你想要達到的目的而定。如果是依照傳統座談會的模式，一場聚會在程序上將會包含一些例如，預先準備好的致詞，說明與展示等項目。除了傳統座談會，我們還可選擇以參與者為主的聚會形式。在這些聚會中，參與者將可 ："
 
 # a50b011fdb8840dc9d8f2efd3ab44a4c
 #: ../../source/following-up/getting-folks-in-a-room.rst:26
 msgid "Guide or define the agenda for the event"
-msgstr ""
+msgstr "指引或是決定活動的舉辦程序"
 
 # fa476ad8536242b5b8bf48aea215e13c
 #: ../../source/following-up/getting-folks-in-a-room.rst:27
 msgid ""
 "Introduce themselves, talk about what they’re interested in and what they’re"
 " working on, on an ad hoc basis"
-msgstr ""
+msgstr "自我介紹，告訴大家他們對哪些事情有興趣，目前正在做的事情有哪些，等等"
 
 # a32292b0cdf147238a040b8e1264e482
 #: ../../source/following-up/getting-folks-in-a-room.rst:29
 msgid ""
 "Give impromptu micro-short presentations on something they are working on"
-msgstr ""
+msgstr "在沒有預先準備下，對他們目前正在做的事情做一個簡短介紹"
 
 # 2337543daa9b44a8b8774ac488b32296
 #: ../../source/following-up/getting-folks-in-a-room.rst:31
 msgid "Lead sessions on something they are interested in"
-msgstr ""
+msgstr "對他們有興趣的事情帶領討論"
 
 # 64065d778f9946ba94319f8241c9e573
 #: ../../source/following-up/getting-folks-in-a-room.rst:33
@@ -1430,31 +1434,31 @@ msgid ""
 "(e.g. a civic society organisation, a news organisation or an educational "
 "institution) to broaden your base participants and to increase your "
 "exposure."
-msgstr ""
+msgstr "在網路上你可以找到許多關於如何進行這類聚會的說明與教學文件。你可以試著搜尋這些關鍵字： ‘unconference’， ‘barcamp’， ‘meetup’， ‘speedgeek’， ‘lightning talk’，等等。你也可以試著與那些在其他國家舉辦過這類活動的組織或是團體聯繫來尋求協助。一般來說這些人都會很樂意幫助你並對你想舉辦的活動給予建議。或著你也可以試著跟其他組織一起合辦 (例如，其他的社會運動組織，新聞傳媒組織，或是教育機構等 ) 來拓展可能來參加你的活動的對象並提升你的計畫的曝光率。"
 
 # 462828d03e674930afd7dba17f214303
 #: ../../source/following-up/index.rst:3
 msgid "So I’ve Opened Up Some Data, Now What?"
-msgstr "我把一些資料開放釋出了，那現在呢？"
+msgstr "我將資料開放釋出了，那接著呢？"
 
 # 00e250fc1e7143fdaf4d5ee13df433dd
 #: ../../source/following-up/index.rst:5
 msgid ""
 "We’ve looked at how to make government information legally and technically "
 "reusable. The next step is to encourage others to make use of that data."
-msgstr ""
+msgstr "我們在前面的章節說明如何從法令面與技術面將資料開放釋出。接下來則是鼓勵大家一起來使用這些資料。"
 
 # ea104e8ec1424383ab1ad41895ec4913
 #: ../../source/following-up/index.rst:9
 msgid ""
 "This section looks at additional things which can be done to promote data "
 "re-use."
-msgstr ""
+msgstr "在這個章節裡面我們將探討還有其他什麼可以做的，來宣傳推廣開放資料與資料的重新使用。"
 
 # 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
 msgid "Making things! Hackdays, prizes and prototypes"
-msgstr "做出點東西！ Hackdays, 活動獎勵和建立模範"
+msgstr "做出點什麼！程式競賽，獎金與範例原型"
 
 # 060111852eda4d8ab3c3be81956860cd
 #: ../../source/following-up/making-things.rst:5
@@ -1465,12 +1469,12 @@ msgid ""
 "A prize is then awarded to the best application. Competitions have been held"
 " in a number of countries including the UK, the US, Norway, Australia, "
 "Spain, Denmark and Finland."
-msgstr ""
+msgstr "這些競賽的基本架構都是，首先我們先開放釋出一些資料集，然後在限定的時間內 (可能從 48 小時到數個禮拜)，程式開發者必須使用這些資料集寫出一些新的應用程式。最後頒獎給最優秀的作品。這類的比賽在很多國家例如英國，美國，挪威，澳洲，西班牙，丹麥和芬蘭等都已經舉辦過。"
 
 # 4023683f993e487e8a36414c0e231b52
 #: ../../source/following-up/making-things.rst:13
 msgid "Examples for Competitions"
-msgstr ""
+msgstr "競賽範例"
 
 # 49b7ac024e12489b949a4e96788136cc
 #: ../../source/following-up/making-things.rst:15
@@ -1481,7 +1485,7 @@ msgid ""
 " asked “What would you create with public information?” and was open to "
 "programmers from around the world, with a tempting £80,000 prize for the "
 "five best applications."
-msgstr ""
+msgstr "**Show us a better way (給我們一個更好的方法)** 是全世界第一個這類型的比賽。這項比賽是英國政府 \"The Power of Information Taskforce\" 在 2008 年在內閣辦公室部長 Tom Watson 的帶領下舉辦。在這項比賽中，我們對來自世界各國的程式設計師提出一個問題「用公共資訊你能創造出什麼東西？」 (“What would you create with public information?”) 。同時提供了 £80,000 的獎賞給最佳的五個應用程式。"
 
 # 4173635b18804fe2afc29007068f6172
 #: ../../source/following-up/making-things.rst:22
@@ -1494,7 +1498,7 @@ msgid ""
 "and poverty indicators. It was at the time the most comprehensive local data"
 " catalog in the world. The challenge was to make it useful for citizens, "
 "visitors, businesses and government agencies of Washington, DC."
-msgstr ""
+msgstr "**Apps for Democracy**, （民主之 Apps），這是第一次在美國舉辦這類型的比賽。在 2008年 10 月由當時任職於哥倫比亞特區 (District of Columbia) 政府的首席技術長 (Chief Technology Officer) Vivek Kundra 所推動。在 Kundra 的帶領下，他建立了具有突破性象徵的 DC 政府資料目錄 http://data.octo.dc.gov/ 。目錄內的資料包含了即時犯罪資料串流，學校測試成績紀錄，與社會貧窮指數等。在當時這是全世界內容最廣泛的地區性資料目錄，而所面臨的挑戰則是要如何找出將這些資料轉為對市民，訪客，商業人士與華盛頓特區的政府部門有用的資訊的方法和應用。"
 
 # 8d21825195c3490fb0c824541222f572
 #: ../../source/following-up/making-things.rst:32
@@ -1507,7 +1511,7 @@ msgid ""
 "was open for 30 days and cost the DC government $50,000. In return, a total "
 "of 47 iPhone, Facebook and web applications were developed with an estimated"
 " value in excess of $2,600,000 for the local economy."
-msgstr ""
+msgstr "面對這些挑戰，一個創新的方法就是舉辦Apps for Democracy 競賽。在策略與作法上則是要求大家使用新建立的目錄中的資料，一起來建立應用程式。在執行上，主辦單位做了一個讓參賽者能線上提交比賽程式的介面，提供許多小額的獎賞，而不只是少少幾個高額度的大獎。然後設定許多不同類別，其中一個是「人民首選獎」。比賽報名時間為 30 天，花了 DC 市政府 US$ 50,000。而回收的成果包含， 47 個 iPhone，Facebook 與其他網路服務的應用程式。對當地的經濟所製造的價值則估計超過 $2,600,000。"
 
 # f146ea81d3f149b4abf0590d80f27b1c
 #: ../../source/following-up/making-things.rst:42
@@ -1519,7 +1523,7 @@ msgid ""
 "programme for accessing traffic information in the Basque Country, and for "
 "accessing data on buses and bus stops in Madrid, which won the first and "
 "second prizes of €3,000 and €2,000 respectively."
-msgstr ""
+msgstr "**The Abre Datos (Open Data) Challenge 2010 (開放資料挑戰賽 2010)** 。2010 年四月在西班牙舉辦。這項競賽邀請程式開發者在 48 小時內以開放源碼的形式使用公共資料來編寫應用程式。這次比賽一共有29 個隊伍參加，成果包含了一個使用 Basque 地區交通流量資訊的應用程式和一個使用馬德里地區公車與公車停靠站資訊的智慧型手機應用程式。這兩個應用程式分別奪下這次比賽的第一和第二名。各得到 €3,000 和 €2,000 的獎金。"
 
 # 1db8e290e0aa405ea64d0162ab6128e6
 #: ../../source/following-up/making-things.rst:50
@@ -1535,7 +1539,7 @@ msgid ""
 "of which built on the re-use of government data. A total amount of NOK 2.5 "
 "million was distributed among the 17 winners; while the total amount applied"
 " for by the 137 applications was NOK 28.4 million."
-msgstr ""
+msgstr "**Nettskap 2.0**. 在2010年四月，挪威的政府管理部 (Ministry for Government Administration) 舉辦了 \"Nettskap 2.0\" 競賽。這項競賽開放對象包含挪威的程式開發者，商業公司，公部門單位或是以個人名義報名的所有人。挑戰的主題則是，提出一個以政府服務發展，工作效率提升，或是提高民主參與等為主題，並以網站服務為目標的計畫。同時主辦單位也強烈建議大家多多使用政府資訊。雖然競賽的期限只有短短一個月，在五月九號這一天，挪威部長 Rigmor Aasrud 發表的聲明中提到他們收到非常熱烈的迴響。最後一共提出了 137 個應用程式，而其中超過 90 個使用了政府資訊。這次競賽一共頒發了 17 個獎賞，發出了NOK 2.5 百萬的獎金。但這 137 個應用程式所獲得的經濟效應則高達NOK 28.4 百萬。"
 
 # 14cbc29030354b309e4c0acf0e56aef3
 #: ../../source/following-up/making-things.rst:63
@@ -1548,12 +1552,12 @@ msgid ""
 "applications that were entered into the contest are further evidence of the "
 "new and innovative applications which can result from releasing government "
 "data on open terms."
-msgstr ""
+msgstr "**Mashup Australia**. 澳洲的 Government 2.0 Taskforce 邀請市民來告訴大家為什麼開放和取得澳洲政府資訊對於國家的經濟和社會發展有著正面的作用。這項比賽從 2009 年十月七號一直開放到十一月十三號。特別小組採用開放授權，並使用機器可讀取的檔案格式釋出了一部分政府資料。比賽最後一共提出了82 個應用程式。對我們來說，這 82 個應用程式就是最佳的證據來證明當政府願意將資訊以開放授權的形式釋出時，新的設計與創新的應用程式就有機會產生。"
 
 # 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
 msgid "Conferences, Barcamps, Hackdays"
-msgstr "會議、Barcamps 或是 Hackdays"
+msgstr "討論會、Barcamps 或是 Hackdays"
 
 # 09e8f1bbc1b6444aa9605ae502caef64
 #: ../../source/following-up/making-things.rst:75
@@ -1564,7 +1568,7 @@ msgid ""
 " and economic benefit. CSOs that promote re-use have been instrumental in "
 "countries where there have been advances in policy and law to ensure that "
 "datasets are both technically and legally open."
-msgstr ""
+msgstr "對一個公民社會組織 (Civil Society Organisations) 來說，要讓政府明白政府資訊開放的重要性和其所能帶來的龐大附加價值，最有效的方法就是讓政府看到資訊在各種不同的使用方式下是如何改善社會環境與製造經濟效應。在很多國家中，推廣政府資訊開放的 CSO 常常在政策與法令的進步扮演著非常重要的催化角色。透過這些組織的對議題的關注，我們能確保不管是從技術層面或是法令上，資料的公開能保持他們的「開放性」。"
 
 # 60c702f98efb4c9aa510e6198b1428db
 #: ../../source/following-up/making-things.rst:83
@@ -1577,12 +1581,12 @@ msgid ""
 "cases, civil society advocates have worked with progressive public officials"
 " to secure new release of datasets that can be used by programmers to create"
 " innovative applications."
-msgstr ""
+msgstr "在這些推動資料開放的計畫中，一般我們常會看到的活動包含舉辦競賽， :term:`open government data` 討論會， “unconferences”，工作坊和 “hack days”。這些活動常常是由使用者組成的社群所舉辦，並且在活動中使用開放的資料。這些資料可能來自他們努力推動的成果，或是經由公民取得政府資訊的相關法令所釋出。在其他例子中，我們看到有些公民促進團體會和思想較進步的官員合作，確保當資料釋出時，程式開發者能直接使用並創造出新的應用程式。"
 
 # c85468b1156d4b76b60e1af0a6c15d37
 #: ../../source/following-up/tell-the-world.rst:3
 msgid "Tell the world!"
-msgstr "告知全世界！"
+msgstr "告知全天下!"
 
 # f7b8c06459e444fe94462d69f5643a3f
 #: ../../source/following-up/tell-the-world.rst:5
@@ -1597,38 +1601,38 @@ msgid ""
 "If you open up a bunch of datasets, it’s definitely worth spending a bit of "
 "time to make sure that people know (or at least can find out) that you’ve "
 "done so."
-msgstr ""
+msgstr "如果你已經開放釋出一些資料集，我們當然能花點時間確定所有的人都知道這 (或至少讓其他人可以發現)。"
 
 # f9ce3d51005c4023a7fd16dd964b1eff
 #: ../../source/following-up/tell-the-world.rst:13
 msgid ""
 "In addition to things like press releases, announcements on your website, "
 "and so on, you may consider:"
-msgstr ""
+msgstr "除了透過一般管道來發佈新聞稿以外，記得在你的網站上也公告一下。然後還有下面這幾點你也可以參考一下："
 
 # 05f10ba54c2b46e1a53127ab505be87c
 #: ../../source/following-up/tell-the-world.rst:16
 msgid ""
 "Contacting prominent organisations or individuals who work/are interested in"
 " this area"
-msgstr ""
+msgstr "聯繫那些對這一切都有興趣或是職務上與這有關的知名團體或是個人"
 
 # a2b3bc1ebe674b0ea69ffd4da3745791
 #: ../../source/following-up/tell-the-world.rst:18
 msgid "Contacting relevant mailing lists or social networking groups"
-msgstr ""
+msgstr "將資訊透過相關的信件討論群組或是社群網路團體發佈出去"
 
 # 7b7cc9acb2a745ceacf815065d7ef058
 #: ../../source/following-up/tell-the-world.rst:19
 msgid ""
 "Directly contacting prospective users who you know may be interested in this"
 " data"
-msgstr ""
+msgstr "直接聯繫那些你預計對開放的資料會有興趣的使用者們"
 
 # 1e00595b53124d30a532470f0c12b6cc
 #: ../../source/following-up/tell-the-world.rst:23
 msgid "Understanding your audience"
-msgstr "瞭解您的觀眾群"
+msgstr "認識你的對象"
 
 # 528fc19bc9384914bff7b326a5690865
 #: ../../source/following-up/tell-the-world.rst:25
@@ -1636,7 +1640,7 @@ msgid ""
 "Like all public communication, engaging with the data community needs to be "
 "targeted. Like all stakeholder groups, the right message can be wasted if it"
 " is directed to the wrong area."
-msgstr ""
+msgstr "就如同編寫公開的新聞稿時一樣，想要吸引資料相關的社群來加入，你需要先想清楚你對話的對象。這就跟面對所有利害關係人與團體時一般，正確的訊息如果傳送到錯誤的地方可能就完全無法發揮作用。"
 
 # 5cee9f066f764747a01b13daa677806d
 #: ../../source/following-up/tell-the-world.rst:29
@@ -1644,7 +1648,7 @@ msgid ""
 "Digital communities tend to be very willing to share new information, yet "
 "they very rapidly consume it. Write as if your messages will be skimmed "
 "over, rather than critically examined in-depth."
-msgstr ""
+msgstr "一般來說數位科技社群都很樂意分享資訊，但是對於資訊的閱讀卻不願意花太多時間。所以在編寫你的訊息時，你要把這當成可以快速瀏覽的短文，而不是那種需要花很多時間深入思索的長篇大論。"
 
 # 18c9101dca504db9accaddb84ade088c
 #: ../../source/following-up/tell-the-world.rst:33
@@ -1652,7 +1656,7 @@ msgid ""
 "Members of the tech community are less likely than the general public to use"
 " MS Windows. This means that you should not save documents in MS Office "
 "formats which can be read offline. There are two resons for this:"
-msgstr ""
+msgstr "比起一般大眾，技術導向的社群成員很可能比較不會去使用 MS Windows 作業系統。所以你不該把你的文字存為 MS Office 檔案，然後要求其他人下載閱讀。主要的原因有二："
 
 # 19ec177bb4064fd4afc752564dcd6876
 #: ../../source/following-up/tell-the-world.rst:38
@@ -1660,7 +1664,7 @@ msgid ""
 "The first is that those documents will be less accessible. Rather than the "
 "document you see on your screen, readers may see an imperfect copy from an "
 "alternative."
-msgstr ""
+msgstr "首先，開啟這些檔案需要的閱讀軟體就是一種限制。同時很可能其他人看到的結果和顯示跟你在你自己螢幕上所見到的不太一樣或是沒有完全顯示。"
 
 # 2bf9658ad33c45e597c924d5f98773d9
 #: ../../source/following-up/tell-the-world.rst:41
@@ -1668,12 +1672,12 @@ msgid ""
 "Secondly, your agency sends an implicit message that you are unwilling to "
 "take a step towards developers. Instead, you show that you are expecting the"
 " technology community to come to you."
-msgstr ""
+msgstr "其二，這意味著你和你所代表的部門傳遞出的訊息是，你們不願意為這些程式開發者多想一下。反之，你表現出的是你希望這些技術導向的社群成員往你的方向跨一步。"
 
 # 844e5bf617e74753bc0dd1c7cac6f9f0
 #: ../../source/following-up/tell-the-world.rst:47
 msgid "Post your material on third-party sites"
-msgstr "將資料貼到第三方的網站"
+msgstr "將開放釋出的資料轉貼到第三方網站上"
 
 # 6a83365938d94f77b222dc567c79b43d
 #: ../../source/following-up/tell-the-world.rst:49
@@ -1682,12 +1686,12 @@ msgid ""
 "may be worthwhile adding an article about your initiative on their site. "
 "These can be mutually beneficial. You receive more interest and they receive"
 " a free blog post in their topic area."
-msgstr ""
+msgstr "網路上有許多在特定議題上經營得非常好的部落格。如果你能在這些部落格上貼出一篇關於你的計畫的文章，這將會是很棒的宣傳方法。同時這也是個雙贏的局面，你可以獲得更多人的關注，而他們則有一篇和他們所經營的領域相關的免費文章可以刊登。"
 
 # 9b230b80b65d485d86d252226dd302ec
 #: ../../source/following-up/tell-the-world.rst:56
 msgid "Making your communications more social-media friendly"
-msgstr "讓您的溝通更具有社群媒體親和力"
+msgstr "讓對外的溝通更具社群媒體親和力"
 
 # 4bead5ae1fe74d96a269bf59a3ca032d
 #: ../../source/following-up/tell-the-world.rst:58
@@ -1696,14 +1700,14 @@ msgid ""
 "engaging with social media. However, there are several things that you can "
 "do to make sure that your content can be easily shared between technical "
 "users. Some tips:"
-msgstr ""
+msgstr "老實說，我們很難想像政府官員能花很多時間來經營社群媒體。但是，有一些事情是你現在就可以做，讓你的文章和內容能容易地透過社群媒體在技術圈的使用者之間散播。下面是一些建議："
 
 # f4f2dab2b9ac404cb9d9bbad4a3bf3b9
 #: ../../source/following-up/tell-the-world.rst:65
 msgid ""
 "When a message is shared with others, the recipient of the referral will be "
 "looking for the relevant content quickly."
-msgstr ""
+msgstr "當我們分享一則訊息時，看到分享的人會期待能快速並直接看到相關的內容。"
 
 # 52f00dd496ae41b3896cfd0f84c83303
 #: ../../source/following-up/tell-the-world.rst:70
@@ -1713,7 +1717,7 @@ msgid ""
 "outside of a web browser, then fewer people will read it. Search engines are"
 " less likely to index the content. People are less likely to click to "
 "download."
-msgstr ""
+msgstr "新聞稿是蠻不錯的東西。因為新聞稿讓你有機會對特定的主題傳遞清楚的訊息。但是，如果你要求大家在閱讀這份新聞稿前還要先下載到自己電腦內，然後再開啟另一個程式來閱讀，我們可以很確定地跟你說，只有少數人會願意這樣做。同時，搜尋引擎也不太能有效地把這些內容掃他的搜尋結果中。只有很少的人願意點擊那個下載連結。"
 
 # 5f48a5a973b64166af65a56fee9e2af3
 #: ../../source/following-up/tell-the-world.rst:78
@@ -1722,7 +1726,7 @@ msgid ""
 " this is permissible, you send a message that your agency understands "
 "openness. This is bound to leave an impression far more significant to "
 "proponents of open data than any specific sentence in your press release."
-msgstr ""
+msgstr "除了讓那些願意分享你的文章與內容的人確定分享是被允許的，這也是在告訴大家你所代表的部門很清楚知道「開放性」是什麼意思。對那些 Open Data 的支持者來說，這一點比起你寫在新聞稿內的任何文字都更為有力。"
 
 # ced1e4dd38e54c148906380a97dd58ef
 #: ../../source/following-up/tell-the-world.rst:87
@@ -1737,7 +1741,7 @@ msgid ""
 "fora is by making sure that blog posts are easily shareable. That means, "
 "before reading the next section, make sure that you have read the last. With"
 " that in mind, here are a few suggestions:"
-msgstr ""
+msgstr "對那些缺乏資源與預算的部門與單位來說，花很多時間在社群媒體上的經營是沒有效率的。如果你希望你的聲音在這些社群和論壇內被聽見，首先你要確定你的文章可以容易地的被分享出去。所以，在閱讀接下來這一段說明前，請確定你已經仔細閱讀上一段文字。然後下面這是我們的一些建議："
 
 # f847a5e41c65478796cb6b6f71cbf686
 #: ../../source/following-up/tell-the-world.rst:98
@@ -1745,21 +1749,21 @@ msgid ""
 "Twitter has emerged as the platform of choice for disseminating information "
 "rapidly. Anything tagged with #opendata will be immediately seen by "
 "thousands."
-msgstr ""
+msgstr "在過去這幾年，Twitter 成為將資訊快速散播的最佳平台。所有標記有#opendata 的推文都可馬上被數以千計的人所看到。"
 
 # 73647b69ba61434dbc71b406d5ae5259
 #: ../../source/following-up/tell-the-world.rst:102
 msgid ""
 "LinkedIn has a large selection of groups which are targeted towards open "
 "data."
-msgstr ""
+msgstr "LinkedIn 則有為數不少被標記與 open data 有關的群組。"
 
 # b0aafaffa0234c4989d2b2666ba136a5
 #: ../../source/following-up/tell-the-world.rst:105
 msgid ""
 "While Facebook is excellent for a general audience, it has not received a "
 "great deal of attention in the open data community."
-msgstr ""
+msgstr "如果說 Facebook 的確很適合一般大眾，在 open data 相關的社群內則沒有受到太大的關注。"
 
 # b3381b7656bf4f3dbe210f7e88d3202b
 #: ../../source/following-up/tell-the-world.rst:110
@@ -1767,7 +1771,7 @@ msgid ""
 "Submit your content to the equivalent of newswires for geeks. Reddit and "
 "Hacker News are the two biggest in this arena at the moment. To a lesser "
 "extent, Slashdot and Digg are also useful tools in this area."
-msgstr ""
+msgstr "將你的內容發到類似 newswires 但是對象以 geeks 為主的推文網站上。Reddit 和 Hacker News 是目前在這方面影響力最大的兩個網站。另外，稍微小一點的還有 Slashdot 和 Digg 也很值得你去張貼你的文章連結。"
 
 # 8c7beae1caaa43b99c59bec2e4e1160d
 #: ../../source/following-up/tell-the-world.rst:115
@@ -1779,7 +1783,7 @@ msgstr ""
 # 8d913877e7a6456b84c5481aa375fa49
 #: ../../source/glossary.rst:3
 msgid "Glossary"
-msgstr ""
+msgstr "詞彙對照表"
 
 # 7f11b625ef3e418ebce8fa73d6df5007
 #: ../../source/glossary.rst:99
@@ -1791,12 +1795,12 @@ msgstr ""
 # a05e26862bfa42af9de59456bb406ca0
 #: ../../source/glossary.rst:96
 msgid "See :term:`Anonymisation`."
-msgstr ""
+msgstr "參閱 :term:`Anonymisation`."
 
 # a178837206844dcd9c3f961ffb9ec065
 #: ../../source/glossary.rst:61
 msgid "See :term:`Application Programming Interface`."
-msgstr ""
+msgstr "參閱 :term:`Application Programming Interface`."
 
 # b2d454de54a34ff3ac26f9a9b95cfc1d
 #: ../../source/glossary.rst:64
@@ -1809,7 +1813,7 @@ msgstr ""
 # 006ce3eeb6f6494e89126a9fee36fa6b
 #: ../../source/glossary.rst:108 ../../source/glossary.rst:111
 msgid "See :term:`Information Asset Register`."
-msgstr ""
+msgstr "參閱 :term:`Information Asset Register`."
 
 # d7005be4c2644ffd95650d9a7fa33c09
 #: ../../source/glossary.rst:38
@@ -1832,7 +1836,7 @@ msgstr "BitTorrent 是一個目前政策決策者越來越熟習的系統，因�
 msgid ""
 "Connectivity relates to the ability for communities to connect to the "
 "Internet, especially the World Wide Web."
-msgstr ""
+msgstr "網路連線環境指的是社群連接上網路的能力，尤其是有沒有辦法瀏覽網站。"
 
 # 2c5484b9a96740bfbc9f3afcc208576a
 #: ../../source/glossary.rst:83
@@ -1845,14 +1849,14 @@ msgstr ""
 # 905eb11579234bb1a44c8bf10af73af7
 #: ../../source/glossary.rst:31
 msgid "See :term:`Data Access Protocol`."
-msgstr ""
+msgstr "參閱 :term:`Data Access Protocol`."
 
 # df25ad55a2cd4441b7c2a9fa5fb62877
 #: ../../source/glossary.rst:34
 msgid ""
 "A system that allows outsiders to be granted access to databases without "
 "overloading either system."
-msgstr ""
+msgstr "一個提供認證機制，允許外部連線到資料庫並可避免系統產生超載的存取協定。"
 
 # 9d30078f305e4260bfee0cfdd8fc931b
 #: ../../source/glossary.rst:42
@@ -1888,7 +1892,7 @@ msgid ""
 "\"deals with the way public sector bodies should enhance re-use of their "
 "information resources.\" `Legislative Actions - PSI Directive "
 "<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
-msgstr "The *Directive on the re-use of public sector information*, 2003/98/EC. \"deals with the way public sector bodies should enhance re-use of their information resources.\" `Legislative Actions - PSI Directive <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+msgstr "*公部門資訊重新使用指令 (The Directive on the re-use of public sector information) , 2003/98/EC.* \"處理的是公部門單位如何加強他們對資訊資源的重新使用” `Legislative Actions - PSI Directive<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`"
 
 # 31dae10cf39d414c9c3bc877c742864f
 #: ../../source/glossary.rst:123
@@ -1947,7 +1951,7 @@ msgstr ""
 # 89ef221be02d4278bab95a677f310469
 #: ../../source/glossary.rst:102
 msgid "See :term:`Intellectual property rights`."
-msgstr ""
+msgstr "參閱 :term:`Intellectual property rights`."
 
 # 58a3235843654c3282894e72502ef67d
 #: ../../source/glossary.rst:13
@@ -1956,14 +1960,14 @@ msgid ""
 " extracted by computer programs easily. PDF documents are not machine "
 "readable. Computers can display the text nicely, but have great difficulty "
 "understanding the context that surrounds the text."
-msgstr ""
+msgstr "所謂的機器可讀取的檔案格式意味著它們的數據能夠輕易的被電腦程式擷取。而PDF文件並不是機器可讀取的格式。電腦可以清楚的顯示PDF中的文字，但是在解讀文字以外的內容時，卻是非常的困難的。"
 
 # 2dc4522d8fcb4013b942b47615c50aa3
 #: ../../source/glossary.rst:9
 msgid ""
 "Open data are able to be used for any purpose. More details can be read at "
 "`opendefinition.org <http://www.opendefinition.org/>`_."
-msgstr ""
+msgstr "開放資料能夠應用在各類型的目的上，更詳細的資訊請參考`opendefinition.org <http://www.opendefinition.org/>`_."
 
 # 5de57f6ce9f24f3ebbbcb86481d101fb
 #: ../../source/glossary.rst:167
@@ -1986,7 +1990,7 @@ msgstr ""
 # 69cae7a7b1ba4c2ab1feefaa40340b8e
 #: ../../source/glossary.rst:55
 msgid "See :term:`Public Sector Information`."
-msgstr ""
+msgstr "參閱 :term:`Public Sector Information`."
 
 # a2ce148a2a73420b9acd40b9063f3f43
 #: ../../source/glossary.rst:75
@@ -2002,7 +2006,7 @@ msgstr ""
 # bb27435fccc543f49295bce4ed47215a
 #: ../../source/glossary.rst:88
 msgid "Use of content outside of its original intention."
-msgstr ""
+msgstr "將資料內容使用在他建立時原本預定的範圍之外"
 
 # b82b98ba6b7f4fc1aacfe2d19a7bda99
 #: ../../source/glossary.rst:71
@@ -2017,12 +2021,12 @@ msgid ""
 "Tab-separated values (TSV) are a very common form of text file format for "
 "sharing tabular data. The format is extremely simple and highly :term"
 ":`machine-readable`."
-msgstr ""
+msgstr "Tab-separated values (TSV - 使用 TAB 鍵來區隔資料欄位) 是一種在分享表格類型資料時常會使用到的文字檔案格式。這種檔案格式極為簡易並具有高度的 :term:`machine-readable` (機器可讀性)。"
 
 # c51eb47f3b384fb4b0bfbe917fa42d1e
 #: ../../source/glossary.rst:68
 msgid "An :term:`API` that is designed to work over the Internet."
-msgstr "An :term:`API` "
+msgstr "一個設計來網路上使用的 :term:`API` "
 
 # 7132f49bacf446729745b0e8e0d9a192
 #: ../../source/appendices/file-formats.rst:3
@@ -2032,7 +2036,7 @@ msgstr "檔案格式"
 # 510002baa9d748f68d35f6436604f3fb
 #: ../../source/appendices/file-formats.rst:6
 msgid "An Overview of File Formats"
-msgstr "檔案格式概論"
+msgstr "檔案格式綜覽"
 
 # 635ed34ea4614e81860363d399eb473a
 #: ../../source/appendices/file-formats.rst:9
@@ -2045,7 +2049,7 @@ msgid ""
 "JSON is a simple file format that is very easy for any programming language "
 "to read. Its simplicity means that it is generally easier for computers to "
 "process than others, such as XML."
-msgstr ""
+msgstr "JSON 是一種簡單的檔案格式，任何程式語言都可輕鬆讀取。其簡易的特性代表它和其他格式 - 例如 XML 相較，可更容易地透過電腦來處理。"
 
 # 8a8590a390d84558833340d36e1f1b61
 #: ../../source/appendices/file-formats.rst:16
@@ -2059,7 +2063,7 @@ msgid ""
 "opportunities to keep the structure in the data and the way files are built "
 "on, and allows developers to write parts of the documentation in with the "
 "data without interfering with the reading of them."
-msgstr ""
+msgstr "XML廣泛地使用於資料交換，因為其可以完好地保存資料中的結構，還有檔案建立的方式，並且能讓程式員將部份說明文件寫進同檔案中，而不會干擾資料的可讀性"
 
 # 516202713787406d9afba417d89fc548
 #: ../../source/appendices/file-formats.rst:24
@@ -2079,7 +2083,7 @@ msgid ""
 "inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
 "scheme that includes linked RDF data as a goal to be sought for open data "
 "initiatives."
-msgstr ""
+msgstr "RDF，一種W3C所建議的格式， 他呈現資料的方式讓其與其他格式相比，叫能結合多種不同的資料來源。RDF資料可以XML和JSON儲存。RDF建議使用URLs當作識別方式，提供一種方便的方式可直接相互連結於網頁上現存的:term:`open data` 草案。RDF目前使用還不廣泛，但已逐漸開始隨著開放政府草案有變多的趨勢，像是英國和西班牙政府的「連結開放資料計劃」。還有全球資訊網的發明者，Tim Berners-Lee，最近也提出了一個五星等級方案，內容包含將連結的RDF資料成為開放資料草案追求的目標。"
 
 # 36ba7f18a648422ea3301c59ce1cdcaf
 #: ../../source/appendices/file-formats.rst:41
@@ -2092,7 +2096,7 @@ msgid ""
 "Many authorities have information left in the spreadsheet, for example "
 "Microsoft Excel. This data can often be used immediately with the correct "
 "descriptions of what the different columns mean."
-msgstr ""
+msgstr "許多政府機關都會使用試算表來記錄他們的資訊，例如 Microsoft 的 Excel。只要將各欄位所代表的內容做個說明，這些資料常常就能馬上開放和使用。"
 
 # 7e508d6674dc4676b48234f74c63791c
 #: ../../source/appendices/file-formats.rst:47
@@ -2101,12 +2105,12 @@ msgid ""
 "which may be somewhat more cumbersome to handle. It is therefore advisable "
 "to document such calculations next to the spreadsheet, since it is generally"
 " more accessible for users to read."
-msgstr ""
+msgstr "然而，許多請況下會有巨集和方程式存在試算表中，造成處理上的困難。因此我們建議把算式紀錄在試算表旁，這樣對使用者來說也較好讀。"
 
 # 72147ad3a13f4e96a0da72ca09dca722
 #: ../../source/appendices/file-formats.rst:53
 msgid "Comma Separated Files"
-msgstr ""
+msgstr "CSV 逗點分隔檔案"
 
 # 3d3c193e05ac423a8ec608988bc74bcc
 #: ../../source/appendices/file-formats.rst:55
@@ -2117,7 +2121,7 @@ msgid ""
 "since it can be almost impossible to guess the significance of the different"
 " columns. It is therefore particularly important for the comma-separated "
 "formats that documentation of the individual fields are accurate."
-msgstr ""
+msgstr "CSV 是一種非常有用的檔案格式，因為它非常的輕巧，所以很適合用來傳送大量相同結構的資料。但是由於這樣的格式太專一性，要去推測不同欄位之間的特性是非常困難。所以假使沒有標明使用規範，很難去使用這些資料。因此對於這類逗號分隔的檔案格式來說，個別使用規範的正確性是相當的重要。"
 
 # eb505d33966845db9b5cd9db528d86e8
 #: ../../source/appendices/file-formats.rst:63
@@ -2126,12 +2130,12 @@ msgid ""
 "a single omission of a field may disturb the reading of all remaining data "
 "in the file without any real opportunity to rectify it, because it cannot be"
 " determined how the remaining data should be interpreted."
-msgstr ""
+msgstr "遵循檔案的結構非常重要，因為省略一個欄位會干擾讀取其他檔案中的資料，並且無從修正，因為它並不能判別剩下的資料要怎麼詮釋。"
 
 # 00b93bc63b524d138137f8a1498d4eed
 #: ../../source/appendices/file-formats.rst:69
 msgid "Text Document"
-msgstr "文字檔"
+msgstr "文書文件"
 
 # db72a1c2afd6485cb9364dba5947a8f8
 #: ../../source/appendices/file-formats.rst:71
@@ -2168,7 +2172,7 @@ msgid ""
 "generally exclude structural metadata from inside the document however, "
 "meaning that developers will need to create a parser that can interpret each"
 " document as it appears."
-msgstr ""
+msgstr "純文字檔(.txt)也是一種電腦可以輕易讀取的檔案類型，然而它常常排除了結構後設資料，也就是說，程式撰寫者必須自己建立語法分析器，以便解譯不同的檔案。"
 
 # 7b4a3b6ee9404cfc873e4cac5c9a8390
 #: ../../source/appendices/file-formats.rst:94
@@ -2176,12 +2180,12 @@ msgid ""
 "Some problems can be caused by switching plain text files between operating "
 "systems. MS Windows, Mac OS X and other Unix variants have their own way of "
 "telling the computer that they have reached the end of the line."
-msgstr ""
+msgstr "在不同的作業系統上轉換純文字檔時，可能會遇到一些問題。MS Windows、Mac OS X和其他的Unix介面都有自己的一套方式告訴電腦他們的限制在哪。"
 
 # 86000271a8184337a739b0937ae22f75
 #: ../../source/appendices/file-formats.rst:100
 msgid "Scanned image"
-msgstr ""
+msgstr "掃描圖檔"
 
 # 6a115f8899a94bffb8d9578c13c53e1e
 #: ../../source/appendices/file-formats.rst:102
@@ -2197,7 +2201,7 @@ msgstr ""
 # 5e9d83d67fbe465a8c002bf40eeb9205
 #: ../../source/appendices/file-formats.rst:111
 msgid "Proprietary formats"
-msgstr "專用規格"
+msgstr "轉有格式"
 
 # dcac01c71eb645498af1bc5b949be4cc
 #: ../../source/appendices/file-formats.rst:113
@@ -2209,7 +2213,7 @@ msgid ""
 "proprietary formats can be found should always be indicated, for example by "
 "providing a link to the supplier's website. Generally it is recommended to "
 "display data in non-proprietary formats where feasible."
-msgstr ""
+msgstr "一些比較專業的系統，會有它們自己的檔案格式提供儲存或是匯出。有時以這種格式公開還算可行，特別當我們預期這些檔案之後會用類似的系統處理。這時應該要提供關於該專屬格式的詳細資訊，像是提供軟體商的網頁連結。但一般來說，我們還是建議以非專有格式來顯示資料比較恰當。"
 
 # ebfcd7577aa94ce9a921e9cf6c78a6a5
 #: ../../source/appendices/file-formats.rst:123
@@ -2224,7 +2228,7 @@ msgid ""
 "cases, it could be preferable to have data in a form easier to download and "
 "manipulate, but as it is cheap and easy to refer to a page on a website, it "
 "might be a good starting point in the display of data."
-msgstr ""
+msgstr "現今許多資料都以HTML格式儲存與不同的網站。如果資料本身穩定且有限定的規模，這種方式是足夠的。雖然在許多狀況下，將資料以容易下載與操作的型態儲存可能比較好，但因為放在網頁上的作法既便宜又容易查詢，所以還算是展示資料時的一個好出發點。"
 
 # 905921990dc542df9e22c0a368727e8b
 #: ../../source/appendices/file-formats.rst:132
@@ -2235,7 +2239,7 @@ msgid ""
 "Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
 "extract structured information from a website, and such tools can do much "
 "more with the data if it is carefully tagged."
-msgstr ""
+msgstr "一般來說如果要保存資料，於HTML中使用表格是最合適的方法，然後以不同的資料欄位來呈現並給予識別碼，這樣對於資料的查詢與處理將更為便利。雅虎發展一套工具(http://developer.yahoo.com/yql/)可以擷取網站的結構資訊，而這種工具對那些標示詳細的資料可做的事更多。"
 
 # 749bccb614ec4d75b626f3a91f7c20fd
 #: ../../source/appendices/file-formats.rst:141
@@ -2247,7 +2251,7 @@ msgstr "開放檔案格式"
 msgid ""
 "Even if information is provided in electronic, machine-readable format, and "
 "in detail, there may be issues relating to the format of the file itself."
-msgstr ""
+msgstr "就算資訊是詳細的透過電子、機器可讀的格式提供出來，但是在檔案本身的格式上面可能還是會遇到一些問題。"
 
 # a1e9a630c82c497685a5d40d2375be05
 #: ../../source/appendices/file-formats.rst:147
@@ -2278,7 +2282,7 @@ msgid ""
 "The benefit of open file formats is that they permit developers to produce "
 "multiple software packages and services using these formats. This then "
 "minimises the obstacles to reusing the information they contain."
-msgstr ""
+msgstr "開放文件格式的好處在於他們讓開發者能夠利用這些格式開發多類型的套裝軟體與服務。如此一來，就能夠減少資料重複使用上的困難。"
 
 # 14e8ba3e856d439eb9372a107b327b45
 #: ../../source/appendices/file-formats.rst:167
@@ -2288,7 +2292,7 @@ msgid ""
 "license holders. In worst-case scenarios, this can mean that information can"
 " only be read using certain software packages, which can be prohibitively "
 "expensive, or which may become obsolete."
-msgstr ""
+msgstr "使用封閉規格的私有檔案格式，可能會造成對第三方軟體或檔案格式授權持有者的依賴。最糟糕的情形下，這可能代表著我們的資訊需要特定的軟體才能讀取，這些軟體不是過份地昂貴，就是可能會過期，不再支援。"
 
 # becd5c5379ad46a6a4495bf228bc2072
 #: ../../source/appendices/file-formats.rst:173
@@ -2296,12 +2300,12 @@ msgid ""
 "The preference from the :term:`open government data` perspective therefore "
 "is that information be released in **open file formats which are machine-"
 "readable.**"
-msgstr ""
+msgstr "因此從:term:`open government data`的觀點來看，我們比較偏好使用**機器可讀的開放檔案格式**來釋出資訊。"
 
 # 0706964f49444783b06ccb6d8e40ec6c
 #: ../../source/appendices/file-formats.rst:178
 msgid "Example: UK traffic data"
-msgstr ""
+msgstr "例如英國的交通運輸數據"
 
 # 06406a590c564ab9a7dd69b5e9869377
 #: ../../source/appendices/file-formats.rst:180
@@ -2319,7 +2323,7 @@ msgid ""
 "of an educational discount. The main software packages on the April 2010 "
 "price list from Saturn start at £13,000 (over €15,000), a price which is "
 "beyond the reach of most ordinary citizens."
-msgstr ""
+msgstr "Andrew Nicolson 是一個軟體工程師，他參與了 (並且成功) 一個抵制新路拓建工程的活動，該工程位於英國 Westbury 鎮東方。Andrew 想要存取並使用當地交通資料作為抵擋該工程提案的依據。他試圖透過資訊自由法取得相關的資料，但當地政府所提供的資料是專屬私有格式，只能透過一家軟體公司所販賣的軟體讀取。該公司名稱為「土星」，主要提供模擬交通模型與預測服務。他們並沒有供應「純讀取」版軟體，所以 Andrew 的團隊只能花錢購買教育版授權，約 500 英鎊 (600 歐元)。而這套軟體的主體部份於 2010 年 4 月的價格從一萬 3 千英鎊起跳(超過一萬 5 千歐元)，這個價格遠超過一般市民的負擔能力。"
 
 # 9e78cdb7b65b44568400fc075a25128b
 #: ../../source/appendices/file-formats.rst:196
@@ -2330,7 +2334,7 @@ msgid ""
 "must be made available in open file formats. Setting the gold standard has "
 "been the Obama Administration, with the Open Government Directive issued in "
 "December 2009, which says:"
-msgstr ""
+msgstr "雖然沒有一個資訊自由法給予人民以開放格式存取的權力，但開放政府資料草案開始規定資訊釋出時必須提供開放檔案格式。\n歐巴馬政府建立了一個黃金準則，在2009年十月時他的開放政府指令提到："
 
 # 5a4a5dad6cfe4c26809846d46065d8e4
 #: ../../source/appendices/file-formats.rst:203
@@ -2341,12 +2345,12 @@ msgid ""
 "An open format is one that is platform independent, machine readable, and "
 "made available to the public without restrictions that would impede the re-"
 "use of that information.*"
-msgstr ""
+msgstr "*為了擴展實用性與合理的限制，政府機關應以開放格式將資訊公開於網路上，透過使用網路搜尋程式，這些資訊可以被擷取、下載、索引和搜尋。開放格式具有跨平台、機器可讀的特性，並且不會限制大眾對於該資訊的再使用權利。*"
 
 # 5cc8e6283aea4bb5af1a2c416989abc4
 #: ../../source/appendices/file-formats.rst:213
 msgid "How do I use a given format?"
-msgstr ""
+msgstr "我要如何使用既有的格式？"
 
 # 568a5625c2f94452af6abe3cc66878ad
 #: ../../source/appendices/file-formats.rst:215
@@ -2355,7 +2359,7 @@ msgid ""
 "before – you should choose the format that provides the best balance between"
 " cost and suitability for purpose. For each format there are some things you"
 " should be aware of, and this section aims to explain them."
-msgstr ""
+msgstr "當政府必須公開新資料，而這些資料之前又沒有公開過。這時我們選擇格式要試著在花費和達到目的之間取得平衡。每種格式都有需注意的地方，而本節會將針對這些解釋。"
 
 # 42b8a5c50e0b45eb89c4a26f7ea8a060
 #: ../../source/appendices/file-formats.rst:221
@@ -2363,7 +2367,7 @@ msgid ""
 "This section focuses only on how the cut surfaces are best arranged so that "
 "machines can access them directly. Advice and guidance about how web sites "
 "and web solutions should be designed can be found elsewhere."
-msgstr ""
+msgstr "本部份只針對如何適當地將資料表層去除，讓機器可直接存取。至於如何設計網站和網路解決方案的建議與引導，這些可以在其他地方找到。"
 
 # 1897adda256e49e99d665b5f5343e008
 #: ../../source/appendices/file-formats.rst:227
@@ -2378,7 +2382,7 @@ msgid ""
 "ways to create a web service, but some of the most used is SOAP and REST. "
 "Generally, SOAP over REST, REST services, but are very easy to develop and "
 "use, so it is a widely used standard."
-msgstr ""
+msgstr "對於更改頻繁，而且每次處理都有一定容量限制的資料，非常適合使用Web服務公開資料。有許多方式可以提供Web服務，其中比較常用到的是SOAP和REST。一般來說，SOAP over REST或REST服務非常容易開發與使用，因此成為廣泛使用的標準。"
 
 # 1832cd0456254e3c8affb21673553fe5
 #: ../../source/appendices/file-formats.rst:236
@@ -2391,7 +2395,7 @@ msgid ""
 "Like web services, databases provide direct access to data dynamically. "
 "Databases have the advantage that they can allow users to put together just "
 "the extraction that they are interested in."
-msgstr ""
+msgstr "如同Web服務，資料庫提供對資料的動態直接存取，並且可以讓使用者將其感興趣的資料擷取並集中在一起。"
 
 # efc3834bf47c482eb7a3bdc3da8faaa0
 #: ../../source/appendices/file-formats.rst:242
@@ -2406,12 +2410,12 @@ msgstr ""
 # 51c683e25e5a4ce4be6978d9dc1a4705
 #: ../../source/appendices/index.rst:3
 msgid "Appendices"
-msgstr ""
+msgstr "附錄"
 
 # b67d88179b824185a34209f86dcc580c
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
-msgstr ""
+msgstr "資料（庫）有什麼樣的法律（智權）規範"
 
 # 5f9216bdba044ff28822b1d6bf5783bd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
@@ -2421,7 +2425,7 @@ msgid ""
 "shall mean the content of the database itself). Structural elements include "
 "things like the field names and a model for the data – the organization of "
 "these fields and their inter-relation."
-msgstr ""
+msgstr "當我們談論到資料（庫）時，首先我們必須清楚分別資料庫的架構和他所包含的內容（當我們使用 'data' (資料) 這一個名詞時，我們指的是資料庫內的內容）。架構的組成包含資料庫的欄位名稱和資料的模型 -- 這些欄位的組織架構和他們彼此之間的關連。"
 
 # c4e85f3fa8b94ae08375d9c817d14e32
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
@@ -2441,7 +2445,7 @@ msgid ""
 "collection (e.g. all the material in the database). To avoid confusion we "
 "shall reserve the term \"content\" to mean the individual items, and data to"
 " denote the collection."
-msgstr ""
+msgstr "但是，這裡我們首先關心的是資料本身。當我們提到 \"data\" （資料）時，我們必須要更加小心因為這個詞的定義並不是很清楚：\"data\" 可能意味著一些或是就是單獨的一項東西（例如，一個獨一的圖書記錄，一組座標，等）或著 \"data\" 也可能意味著一整個完整的收藏（如同，資料庫內的所有資料）。為了避免混淆我們必須將「內容」使用在對單一物件的時候，而 data 則是用來指定完整的收藏。"
 
 # 73c5a4d2fd6648f68879b5a83b6f30bc
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
@@ -2449,7 +2453,7 @@ msgid ""
 "Unlike for material such as text, music or film, the legal situation for "
 "data varies widely across countries. However, most jurisdictions **do** "
 "grant some rights in the data (as a collection)."
-msgstr ""
+msgstr "與其他受智慧財產權保護的東西，如文字，音樂或是影片不太一樣的是，在不同的國家，資料在法律上的享有的地位都不太一樣。但是絕大多數的法令還是對資料（完整收藏）有一定程度的保障。"
 
 # 6a4c03a757064662932a79988f81f0c8
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
@@ -2473,7 +2477,7 @@ msgstr ""
 # 3bdda233812049c49e24ee9e8fe29390
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
 msgid "Copyright for compilations"
-msgstr ""
+msgstr "  "
 
 # ae7ced23b0b54fff97a2a9712c475acd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41

@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the Open Data Handbook package.
 # 
 # Translators:
+#   <gommit@gmail.com>, 2012.
 # Hrafn Þorvaldsson <hrafnthor@gmail.com>, 2012.
 # Ólafur Sindri Ólafsson <olisindri@gmail.com>, 2012.
 # Páll Hilmarsson <pallih@kaninka.net>, 2012.
@@ -11,14 +12,14 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: 2012-04-23 14:41+0000\n"
-"Last-Translator: Páll Hilmarsson <pallih@kaninka.net>\n"
-"Language-Team: Icelandic (http://www.transifex.net/projects/p/opendatahandbook/language/is/)\n"
+"PO-Revision-Date: 2012-11-07 11:49+0000\n"
+"Last-Translator: Gommit <gommit@gmail.com>\n"
+"Language-Team: Icelandic (http://www.transifex.com/projects/p/opendatahandbook/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: is\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
@@ -118,7 +119,7 @@ msgstr "`Ton Zijlstra`_"
 # 8a356ddea3824a2db4c1635a82782883
 #: ../../source/introduction/credits.rst:17
 msgid "Existing sources directly used"
-msgstr ""
+msgstr "Heimildir notaðar beint"
 
 # f4c4a9ca6b2b450696be1a124cfc276b
 #: ../../source/introduction/credits.rst:19
@@ -331,23 +332,23 @@ msgstr "Betrum bætt skilvirkni hjá ríkisreknum þjónustum"
 # becfeefd9faf4cf5a9b54fd289d0af5f
 #: ../../source/why-open-data/index.rst:30
 msgid "Improved effectiveness of government services"
-msgstr ""
+msgstr "Bætt afköst í opinberri þjónustu"
 
 # 56661952af514a6783404034e39e9145
 #: ../../source/why-open-data/index.rst:31
 msgid "Impact measurement of policies"
-msgstr ""
+msgstr "Greina áhrif breytinga í stefnu og reglugerðum"
 
 # 81a1d8c9c8de42a38b06e212e26a18eb
 #: ../../source/why-open-data/index.rst:32
 msgid ""
 "New knowledge from combined data sources and patterns in large data volumes"
-msgstr ""
+msgstr "Ný þekking frá samtengdum gagnasöfnum og upplýsingar sem má greina út frá miklu gagnamagni"
 
 # 653cba4974784fc397e901d402246323
 #: ../../source/why-open-data/index.rst:35
 msgid "Examples exist for most of these areas."
-msgstr ""
+msgstr "Dæmi eru til fyrir flest þessara sviða"
 
 # 9483b02f9be049e5aae8b43b3c1ee9e0
 #: ../../source/why-open-data/index.rst:37
@@ -666,7 +667,7 @@ msgstr ""
 # e56d16680b2846ab8ababb059eaaf4cb
 #: ../../source/how-to-open-up-data/choose-datasets.rst:24
 msgid "Asking the community"
-msgstr ""
+msgstr "Að spyrja samfélagið"
 
 # a01321c596e048ac890c7771648a27c9
 #: ../../source/how-to-open-up-data/choose-datasets.rst:26
@@ -703,7 +704,7 @@ msgstr ""
 msgid ""
 "Provide easy ways to submit responses. Avoid requiring registration, as it "
 "reduces the number of responses."
-msgstr ""
+msgstr "Bjóða upp á einfaldar leiðir til að senda inn svör. Ekki krefjast þess að notendur skrái sig inn þar sem það dregur verulega úr fjölda svara."
 
 # 26a1ebc54df04e69b875a56e46711d39
 #: ../../source/how-to-open-up-data/choose-datasets.rst:45
@@ -788,7 +789,7 @@ msgstr ""
 # 05c79f3133614f7abb43130e787bca43
 #: ../../source/how-to-open-up-data/index.rst:3
 msgid "How to Open up Data"
-msgstr ""
+msgstr "Hvernig á að frelsa gögn"
 
 # 7fe3e18cfac749f5befd9ab2576d33f1
 #: ../../source/how-to-open-up-data/index.rst:5
@@ -974,7 +975,7 @@ msgstr ""
 msgid ""
 "In particular it is better to give out raw data now than perfect data in six"
 " months' time."
-msgstr ""
+msgstr "Sér í lagi er betra að gefa út hrá gögn núna en fullkomin gögn eftir sex mánuði."
 
 # c6673f81b9724b8c95778b12ce344bec
 #: ../../source/how-to-open-up-data/make-data-available.rst:40
@@ -1002,7 +1003,7 @@ msgstr ""
 # c5885ee8faca4693a840729a94e548a0
 #: ../../source/how-to-open-up-data/make-data-available.rst:54
 msgid "Via your existing website"
-msgstr ""
+msgstr "Á heimasíðu þinni"
 
 # 4698a33b199f4dc7893cc0b7f999880d
 #: ../../source/how-to-open-up-data/make-data-available.rst:56
@@ -1131,7 +1132,7 @@ msgstr ""
 msgid ""
 "The price. They require much more development and maintainence than "
 "providing files."
-msgstr ""
+msgstr "Kostnaðurinn. Mun dýrara í viðhaldi og þróun en að gefa aðgang að skrám."
 
 # 14dd153713774331a0312cbefb6d28d1
 #: ../../source/how-to-open-up-data/make-data-available.rst:134
@@ -1144,7 +1145,7 @@ msgstr ""
 # ca23faca90d744b397f92d458f218d1c
 #: ../../source/how-to-open-up-data/make-data-available.rst:138
 msgid "Access to bulk data ensures that:"
-msgstr ""
+msgstr "Aðgangur að hrágögnum tryggir:"
 
 # ae5f19aec9fc42828d27deb2b2c9c146
 #: ../../source/how-to-open-up-data/make-data-available.rst:140
@@ -1398,7 +1399,7 @@ msgstr ""
 # a50b011fdb8840dc9d8f2efd3ab44a4c
 #: ../../source/following-up/getting-folks-in-a-room.rst:26
 msgid "Guide or define the agenda for the event"
-msgstr ""
+msgstr "Leiðbeindu eða skilgreindu dagskrá fyrir viðburðinn"
 
 # fa476ad8536242b5b8bf48aea215e13c
 #: ../../source/following-up/getting-folks-in-a-room.rst:27
@@ -1416,7 +1417,7 @@ msgstr ""
 # 2337543daa9b44a8b8774ac488b32296
 #: ../../source/following-up/getting-folks-in-a-room.rst:31
 msgid "Lead sessions on something they are interested in"
-msgstr ""
+msgstr "Leiða vinnufundi um efni sem vekur áhuga þeirra"
 
 # 64065d778f9946ba94319f8241c9e573
 #: ../../source/following-up/getting-folks-in-a-room.rst:33
@@ -1454,7 +1455,7 @@ msgstr ""
 # 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
 msgid "Making things! Hackdays, prizes and prototypes"
-msgstr ""
+msgstr "Að smíða eitthvað! Hakkavéladagar, verðlaun og frumgerðir"
 
 # 060111852eda4d8ab3c3be81956860cd
 #: ../../source/following-up/making-things.rst:5
@@ -1553,7 +1554,7 @@ msgstr ""
 # 7abfb909efeb422099a3cc361c47d784
 #: ../../source/following-up/making-things.rst:73
 msgid "Conferences, Barcamps, Hackdays"
-msgstr ""
+msgstr "Ráðstefnur, Bjórkvöld og Hakkavélar"
 
 # 09e8f1bbc1b6444aa9605ae502caef64
 #: ../../source/following-up/making-things.rst:75
@@ -2240,7 +2241,7 @@ msgstr ""
 # 749bccb614ec4d75b626f3a91f7c20fd
 #: ../../source/appendices/file-formats.rst:141
 msgid "Open File Formats"
-msgstr ""
+msgstr "Opin skráarsnið"
 
 # 2268600ee3b34664913b2eaaf2c0b83e
 #: ../../source/appendices/file-formats.rst:143

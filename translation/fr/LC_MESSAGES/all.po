@@ -16,14 +16,14 @@ msgstr ""
 "Project-Id-Version: Open Data Handbook\n"
 "Report-Msgid-Bugs-To: http://github.com/okfn/opendatahandbook/issues\n"
 "POT-Creation-Date: 2012-04-05 10:36\n"
-"PO-Revision-Date: 2012-04-05 17:10+0000\n"
-"Last-Translator: lauranewman <laura.newman@okfn.org>\n"
-"Language-Team: French (http://www.transifex.net/projects/p/opendatahandbook/language/fr/)\n"
+"PO-Revision-Date: 2012-11-09 00:53+0000\n"
+"Last-Translator: sebastien_vigneau <sebastien.vigneau@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/opendatahandbook/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 # f8bfb8659a0c4cb5948b1ef5e84ad7d1
 #: ../../source/index.rst:3
@@ -53,7 +53,7 @@ msgid ""
 "We warmly welcome comments on the text and will incorporate feedback as we "
 "go forward. We also welcome contributions or suggestions for additional "
 "sections and areas to examine."
-msgstr ""
+msgstr "Les commentaires sur le texte sont particulièrement bienvenus et nous tiendrons compte de vos réactions dans la poursuite de ce travail. Nous apprécions également toute contribution ou suggestion concernant de nouvelles sections et de nouveaux domaines à aborder."
 
 # 9e0f00346b0349e29d51083d1dd7a9aa
 #: ../../source/index.rst:21
@@ -251,7 +251,7 @@ msgid ""
 "Most of the information currently provided is focused on data held by the "
 "public sector. However, the authors intentions are to broaden this as time "
 "permits. You are welcome to participate to help us with that effort."
-msgstr ""
+msgstr "La plupart des informations actuellement proposées sont centrées sur les données détenues par le secteur public. Cependant, les intentions des auteurs sont d'élargir les secteurs suivant le temps disponible. Vous êtes les bienvenus pour participer et nous aider dans cet effort."
 
 # 2d06a73d49494b3991c0bb6a62525e9d
 #: ../../source/introduction/index.rst:51
@@ -260,7 +260,7 @@ msgid ""
 "topic. If you do find a piece of jargon or terminology with which you aren't"
 " familiar, please see the detailed Glossary and FAQs (frequently asked "
 "questions) which can be found at the end of the handbook."
-msgstr ""
+msgstr "Ce manuel est destiné à ceux qui n'ont que peu ou pas de connaissance du sujet. Si vous trouvez un mot de jargon our une terminologie dont vous n'êtes pas familier, veuillez consulter the Glossaire détaillé et la FAQ (Foire Aux Questions) qui se trouvent à la fin du manuel."
 
 # 977078aaa78c42e7995958d96a21b8a7
 #: ../../source/introduction/index.rst:58
@@ -364,7 +364,7 @@ msgid ""
 "folketsting.dk track activity in parliament and the law making processes, so"
 " you can see what exactly is happening, and which parliamentarians are "
 "involved."
-msgstr ""
+msgstr "En matière de transparence, des projets tels que \"l'arbre des taxes\" en Finlande, ou bien \"où va mon argent\" en Angleterre,  montrent comment l'argent des taxes est dépensé par le gouvernement. Il y a également l'example du Canada où les données ouvertes ont économisé 3.2 milliards de dollars de fraude au crédit d'impôt pour don de charité. De la même manière, de nombreux sites, comme le site danois folketsting.dk, suivent l'activité parlementaire et le processus d'élaboration des lois, pour que vous puissiez voir ce qui se passe exactement, et quels parlementaires sont impliqués."
 
 # 96fa2e2f8d3346ba8f75c1744678079d
 #: ../../source/why-open-data/index.rst:45
@@ -452,7 +452,7 @@ msgstr "Qu'est-ce que l'Open Data?"
 msgid ""
 "This handbook is about *open data* but what exactly is it? In particular "
 "what makes *open* data open, and what sorts of data are we talking about?"
-msgstr ""
+msgstr "Ce manuel porte sur les *données ouvertes*, mais de quoi s'agit-il exactement? En particulier, qu'est-ce qui fait que les données ouvertes sont *ouvertes* , et de quel type de données données parlons-nous?"
 
 # 0d5a24d826714df497b1f531ec72438c
 #: ../../source/what-is-open-data/index.rst:9
@@ -546,7 +546,7 @@ msgid ""
 "dramatically enhanced ability to combine different datasets together and "
 "thereby to develop more and better products and services (these benefits are"
 " discussed in more detail in the section on ‘why’ open data)."
-msgstr ""
+msgstr "Nous faisons face à une situation similaire concernant les données. Au cœur d'une \"communauté\" de données (ou de code) est la notion que le matériel \"libre\" qu'elle abrite peut être librement recombiné avec d'autre matériel \"libre\". Cette interopérabilité est absolument essentielle à l'obtention des principaux bénéfices pratiques de \"l'ouverture\": l'accroissement drastique de la capacité à combiner différentes bases de données entre elles et, de ce fait, à développer des produits et services en plus grand nombre et de meilleure qualité (ces bénéfices sont discutés en plus amples détails dans la section sur le \"pourquoi\" des données ouvertes). "
 
 # 9613f20a0c754c988418bb739c6bf147
 #: ../../source/what-is-open-data/index.rst:59
@@ -556,7 +556,7 @@ msgid ""
 "together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
 "datasets but little or no ability to combine them together into the larger "
 "systems where the real value lies.**"
-msgstr ""
+msgstr "Fournir une définition claire de l'ouverture garantit que, lorsqu'on obtient deux fichiers de données de deux origines différentes, il est possible de les combiner, et nous permet d'éviter notre propre \"tour de Babel\": un grand nombre de fichiers de données, mais peu ou pas de possibilité de les combiner au sein d'un système plus large dans lequel réside leur vrai valeur."
 
 # 3a713e7bdcd744efa87d1f18017c2fc2
 #: ../../source/what-is-open-data/index.rst:71
@@ -570,7 +570,7 @@ msgid ""
 "become open - and they will see more examples below. However, it will be "
 "useful to quickly outline what sorts of data are, or could be, open -- and, "
 "equally importantly, what won’t be open."
-msgstr ""
+msgstr "Les lecteurs ont déjà vu des exemples de jeux de données qui sont ou peuvent être ouverts - et ils verront d'autres exemples ci-dessous. Toutefois, il sera utile de décrire brièvement quels jeux de données peut ou ne peut pas être ouvert - et, également l'importance de ne pas être ouvert."
 
 # b3184f4d4cd74be7a8bb72c19ae59d0a
 #: ../../source/what-is-open-data/index.rst:78
@@ -767,7 +767,7 @@ msgid ""
 "be useful to take a look at which data is easiest to get into the public's "
 "hands. Small, easy releases can act as the catalyst for larger behavioural "
 "change within organisations."
-msgstr ""
+msgstr "Parfois, plutôt que de décider quelles données ont le plus de valeur, il peut être utile de regarder quelles données sont les plus faciles à mettre entre les mains du public. Des libérations de données à petite échelle et faciles à mettre en oeuvre peuvent agir comme catalyseur de changement plus important dans le comportement  au sein des organisations."
 
 # 11fb95c47b6d469aaef863cffe3dea1e
 #: ../../source/how-to-open-up-data/choose-datasets.rst:78
@@ -788,7 +788,7 @@ msgid ""
 "Open data is a growing movement. There are likely to be many people in your "
 "area who understand what other areas are doing. Formulate a list on the "
 "basis of what those agencies are doing."
-msgstr ""
+msgstr "Le mouvement de \"données libres\" est en expansion. Il y a probablement beaucoup de gens dans votre domaine qui comprennent ce que font les autres domaines. Formulez une liste s'appuyant sur ce que font ces agences."
 
 # 05c79f3133614f7abb43130e787bca43
 #: ../../source/how-to-open-up-data/index.rst:3
@@ -863,7 +863,7 @@ msgid ""
 "There are four main steps in making data open, each of which will be covered"
 " in detail below. These are in very approximate order - many of the steps "
 "can be done simultaneously."
-msgstr ""
+msgstr "Il y a quatre étapes principales pour ouvrir les données, et chacune d'entre elles sera couverte en détail ci-dessous. Elles sont présentées dans un ordre très approximatif, plusieurs étapes pouvant être réalisées simultanément."
 
 # 58824e15e3d34b518d630239f299912d
 #: ../../source/how-to-open-up-data/index.rst:44
@@ -1157,7 +1157,7 @@ msgid ""
 "there is no dependency on the original provider of the data, meaning that if"
 " a restructure or budget cycle changes the situation, the data are still "
 "available."
-msgstr ""
+msgstr "Il n'y a pas de dépendance vis à vis du fournisseur original des données, celà signifie que si un cycle de restructuration ou le budjet change la situation, les données seront toujours disponible."
 
 # 3022f0749b794dc59af9b4b12e4fd380
 #: ../../source/how-to-open-up-data/make-data-available.rst:143
@@ -1454,7 +1454,7 @@ msgstr "Nous avons examiné les moyens légaux et techniques de rendre les infor
 msgid ""
 "This section looks at additional things which can be done to promote data "
 "re-use."
-msgstr ""
+msgstr "Cette section propose des idées supplémentaires qui permettent de promouvoir la réutilisation des données."
 
 # 120ddfec9cfe474eb54d102baa82fa32
 #: ../../source/following-up/making-things.rst:3
@@ -1791,7 +1791,7 @@ msgstr "Glossaire"
 msgid ""
 "The process of adapting data so that individuals cannot be identified from "
 "it."
-msgstr ""
+msgstr "Le processus de modification des données de telle sorte que des personnes individuelles ne puissent pas être identifiées à travers elles. "
 
 # a05e26862bfa42af9de59456bb406ca0
 #: ../../source/glossary.rst:96
@@ -1893,7 +1893,7 @@ msgid ""
 "\"deals with the way public sector bodies should enhance re-use of their "
 "information resources.\" `Legislative Actions - PSI Directive "
 "<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
-msgstr ""
+msgstr "La *Directive concernant la réutilisation des données du secteur public*, 2003/98/EC. \"traite de la manière dont les corps du secteur public devraient amplifier la réutilisation de leurs ressources informationnelles.\"  `Legislative Actions - PSI Directive <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>"
 
 # 31dae10cf39d414c9c3bc877c742864f
 #: ../../source/glossary.rst:123
@@ -1902,7 +1902,7 @@ msgid ""
 "about the vast quantities of information held by government departments and "
 "agencies. A comprehensive IAR includes databases, old sets of files, recent "
 "electronic files, collections of statistics, research and so forth."
-msgstr ""
+msgstr "Les IAR sont des registres conçus pour collecter et organiser les méta-données relatives aux vastes quantités d'information prises en charge par les services et agences gouvernementaux. Un IAR exhaustif comprend des bases de données, les anciens ensembles de fichiers, les fichiers électroniques plus récents, des collections statistiques et de recherche, etc."
 
 # fbabda3fc9f146ac9a749e3d391ff817
 #: ../../source/glossary.rst:129
@@ -1968,7 +1968,7 @@ msgstr "Les formats exploitables par une machine sont ceux dont les données peu
 msgid ""
 "Open data are able to be used for any purpose. More details can be read at "
 "`opendefinition.org <http://www.opendefinition.org/>`_."
-msgstr ""
+msgstr "Les données ouvertes peuvent être utilisés dans n'importe quel contexte. Plus d'information, vous pouvez consulter `opendefinition.org <http://www.opendefinition.org/>`_."
 
 # 5de57f6ce9f24f3ebbbcb86481d101fb
 #: ../../source/glossary.rst:167
@@ -2416,7 +2416,7 @@ msgstr "Appendices"
 # b67d88179b824185a34209f86dcc580c
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
 msgid "What Legal (IP) Rights Are There in Data(bases)"
-msgstr ""
+msgstr "Quels droits légaux (de PI) existe-t-il dans les (bases de) données "
 
 # 5f9216bdba044ff28822b1d6bf5783bd
 #: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5

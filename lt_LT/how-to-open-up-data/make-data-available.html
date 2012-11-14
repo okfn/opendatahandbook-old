@@ -1,0 +1,262 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Padarykite duomenis techniškai atvirus &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Kaip atverti duomenis?" href="index.html" />
+    <link rel="next" title="Pasirūpinkite, kad duomenys būtų randami" href="make-it-discoverable.html" />
+    <link rel="prev" title="Pritaikykite atvirą licenciją (teisinis atvirumas)" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>Padarykite duomenis techniškai atvirus<a class="headerlink" href="#make-data-available-technical-openness" title="Nuoroda į šią antraštę">¶</a></h1>
+<p><a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">Atviri duomenys</em></a> turi būti atviri ne tik teisiškai, bet ir techniškai. Tai yra, duomenys turi būti prieinami masiškai (in bulk) ir <em class="xref std std-term">kompiuteriams patogiu formatu</em>.</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>Duomenų kaina turėtų būti ne didesnė, nei pagrįsta savikaina, geriausia, jei juos galima nemokamai atsisiųsti internete. Toks kainos modelis pasiekiamas tada, kai duomenis atverianti įstaiga nenaudoja didelių resursų, pateikdama juos naudojimui.</dd>
+<dt>In bulk</dt>
+<dd>Duomenys turėtų būti gaunami kaip vienas pilnas duomenų rinkinys. Jei turite registrą, kurį pildote ir palaikote pagal nuostatus, tuomet visas registras turėtų būti atsisiunčiamas. API ar panašus būdas taip pat gali būti labai naudingas, bet jis nepakeičia galimybės gauti visus duomenis masiškai.</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>Viešojo sektoriaus turimų duomenų pernaudojimas neturėtų turėti jokių patentinių apribojimų. Didžiausio masto pernaudojimą garantuoja mašininiu būdu skaitomi formatai. Pavyzdžiui, įsivaizduokite statistiką, paskelbtą <abbr title="Portable Document Format">PDF</abbr> dokumentuose, kurie skirti spausdinimui. Tokią statistiką patogu skaityti žmogui, tačiau labai sunku suprasti kompiuteriui. Tai riboja galimybes tuos duomenis pernaudoti ir iš jų kažką sukurti.</dd>
+</dl>
+<p>Štai keli labai naudingi patarimai:</p>
+<ul class="simple">
+<li>Viską darykite paprastai,</li>
+<li>judėkite greitai,</li>
+<li>ir būkite pragmatiški.</li>
+</ul>
+<p>Pavyzdžiui, geriau jau dabar atiduoti pirminius, neapdorotus duomenis, nei tobulai sutvarkytus duomenis po šešių mėnesių.</p>
+<p>Yra daug skirtingų būdų, kaip duomenis padaryti prieinamus kitiems. Natūraliausias, šiais interneto laikais, yra skelbimas internete. Tą galima daryti daugeliu būdų. Paprasčiausia - institucijoms skelbti duomenis savo interneto svetainėse, o centrinis katalogas nukreipia lankytojus į duomenų šaltinį. Tačiau yra ir alternatyvų.</p>
+<p>Kai <a class="reference internal" href="../glossary.html#term-connectivity"><em class="xref std std-term">interneto ryšys</em></a> ribotas, arba duomenų kiekis ypatingai didelis, galima platinti kitokiais formatais. Šiame skyriuje bus aptartos alternatyvos, kuriomis pasinaudojus, galima tai padaryti pigiai.</p>
+<div class="section" id="online-methods">
+<h2>Skelbimo internete būdai<a class="headerlink" href="#online-methods" title="Nuoroda į šią antraštę">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>Talpinimas savo svetainėje<a class="headerlink" href="#via-your-existing-website" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Jūsų darbuotojams, tvarkantiems internete skelbiamą turinį, geriausiai pažįstamas formatas yra sudėti failus atsisiuntimui. Taip, kaip dabar skelbiate aptariamus dokumentus, taip ir duomenų failai gali būti paskelbti.</p>
+<p>Šio būdo trūkumas yra tai, kad tokiu būdu pašaliniam žmogui gali būti sunku rasti naujausią informaciją. Žmonėms, kurie, pasinaudodami jūsų duomenimis, kuria įrankius, toks būdas nepatogus.</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>Talpinimas naudojantis trečiųjų šalių portalais<a class="headerlink" href="#via-3rd-party-sites" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Daugelis duomenis talpinančių portalų tapo duomenų centrais tam tikrose srityse. Pavyzdžiui, pachube.com skirtas jungti žmones, kurie turi sensorius, su žmonėmis, kurie nori pasiimti iš jų duomenis. Tokie portalai, kaip Infochimps.com ir Talis.com, leidžia viešajam sektoriui nemokamai talpinti didelius informacijos kiekius.</p>
+<p>Trečiųjų šalių portalai gali būti labai naudingi, nes jie jau yra pritraukę besidominičiųjų bendruomenes bei surinkę kitų duomenų. Jei jūsų duomenys yra šių platformų dalis, jie sulaukia papildomo susidomėjimo.</p>
+<p>Didmeninės duomenų platformos suteikia infrastruktūrą, kuri gali patenkinti poreikį. Jos taip pat suteikia įrankius analizei atlikti ir duomenims analizuoti. Šie įrankiai viešojo sektoriaus įstaigoms paprastai būna nemokami.</p>
+<p>Platformos turi ir savo kainą. Visų pirma, tai nepriklausomybė. Jūsų įstaiga turi galėti atiduoti kontrolę kitiems. Dažnai tai sunku ir politiškai, ir teisiškai, ir techniškai. Visų antra, tai gali kainuoti ir atvirumą. Įsitikinkite, kad duomenų platforma neriboja priėjimo prie jos. Programinės įrangos kūrėjai ir mokslininkai naudoja daug įvairių operacinių sistemų, nuo išmaniųjų telefonų iki superkompiuterių. Visi jie turi turėti galimybę prieiti prie duomenų.</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>Per FTP serverius<a class="headerlink" href="#via-ftp-servers" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Ne toks madingas būdas - suteikti prieigą prie failų per FTP (File Transfer Protocol). Tai gali tikti, jei auditorija techninė, pavyzdžiui, programuotojai ar mokslininkai. FTP naudojama vietoje HTTP, ir yra skirta keistis failais.</p>
+<p>FTP jau nebėra taip populiaru. Lyginant su interneto svetaine, FTP naudojimas prilygsta aplankų peržiūrinėjimui kompiuteryje. Todėl, nors FTP ir tinka naudoti pagal paskirtį, tačiau turi daug mažiau galimybių.</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>Naudojantis torrent-ais<a class="headerlink" href="#as-torrents" title="Nuoroda į šią antraštę">¶</a></h3>
+<p><a class="reference internal" href="../glossary.html#term-bittorrent"><em class="xref std std-term">BitTorrent</em></a> - tai sistema, politiką formuojančioms institucijoms pažįstama dėl asociacijos su piratavimu. BitTorrent naudoja bylas, vadinamas <cite>torrent</cite>-ais, kurie padalina keitimosi bylomis resursus tarp visų besikeičiančiųjų jomis. Skirtingai nei serverių atveju, kuomet jie gali būti perkrauti, naudojant <cite>torrent</cite>-us, resursų pasiūla didėja kartu su paklausa.</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>Suteikiant API<a class="headerlink" href="#as-an-api" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Duomenys gali būti skelbiami naudojant <a class="reference internal" href="../glossary.html#term-application-programming-interface"><em class="xref std std-term">Aplikacijų programavimo sąsają</em></a> (API). API labai išpopuliarėjo, nes leidžia programuotojams pasirinkti jiems reikalingus duomenis vietoj masinio duomenų rinkinio atsisiuntimo. API paprastai būna sujungta su duomenų baze, kuri atnaujinama realiu laiku. Tai reiškia, kad per API prieinama informacija visada atnaujinta ir aktuali.</p>
+<p>Skelbti pirminius duomenis masiškai (in bulk) turi būti visų atvirų duomenų iniciatyvų tikslas. API naudojimas turi ir savo kainą:</p>
+<ol class="arabic simple">
+<li>Kaina. Norint paruošti API, reikia daugiau programavimo ir palaikymo, nei pateikiant failus.</li>
+<li>Lūkesčiai. Puoselėjant sistemos vartotojų bendruomenę, svarbu užtikrintumas. Jei kažkas bus negerai, jums teks atsakomybė taisyti klaidas.</li>
+</ol>
+<p>Masinė (bulk) prieiga prie visų duomenų užtikrina, kad:</p>
+<ol class="loweralpha simple">
+<li>Nėra priklausomybės nuo originalaus duomenų teikėjo, vadinasi, įvykus restruktūrizacijai ar pasikeitus biudžetams, duomenys vis tiek bus prieinami.</li>
+<li>bet kas gali duomenis nusikopijuoti ir platinti. Tai sumažina platinimo kainą, nes naudojami ne vien tik įstaigos resursai, be to, mažesnė duomenų dingimo tikimybė.</li>
+<li>kiti gali kurti nuosavas paslaugas, kurios naudoja duomenis, nes yra tikri, kad duomenys nebus atimti.</li>
+</ol>
+<p>Masinis (bulk) priėjimas prie visų duomenų iš karto leidžia tuos duomenis naudoti plačiau nei pagal originalią paskirtį. Pavyzdžiui, galima juos konvertuoti į naują formatą, susieti su kitais duomenimis arba versijuoti ir saugoti įvairiose vietose. Naujausia duomenų versija gali būti suteikiama per API, tačiau pirminiai duomenys taip pat turi būti reguliariai pateikiami masiniu (bulk) formatu.</p>
+<p>Pavyzdžiui, <a class="reference internal" href="#eurostat-statistical-service">Eurostat statistical service</a> leidžia parsisiųsti duomenis ir pateikia virš 4000 duomenų failų. Duomenys atnaujinami dukart per dieną, pateikiami <em class="xref std std-term">Tabuliavimo žymėmis atskirtų reikšmių</em> (TSV) formatu, taip pat pateikiama dokumentacija apie failų atsisiuntimą ir pačius failus.</p>
+<p>Kitas pavyzdys yra &#8216;Kolumbijos apskrities Duomenų Katalgoas&#8217;_, kuris leidžia  duomenis atsisiųsti ne tik CSV ir XLS formatais, bet ir prisijungti prie atnaujinimų srauto (live feed).</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Įžanga</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Kodėl reikia atvirų duomenų?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Kas yra atviri duomenys?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Kaip atverti duomenis?</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Pasirinkite duomenų rinkinį(-ius)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Pritaikykite atvirą licenciją (teisinis atvirumas)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Padarykite duomenis techniškai atvirus</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">Skelbimo internete būdai</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">Pasirūpinkite, kad duomenys būtų randami</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Atvėriau duomenų, ir kas dabar?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Žodynas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Priedai</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

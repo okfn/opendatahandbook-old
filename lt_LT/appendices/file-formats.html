@@ -1,0 +1,280 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Failų formatai &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Priedai" href="index.html" />
+    <link rel="next" title="Kokios intelektinės nuosavybės teisės galioja duomenų bazėms" href="what-legal-ip-rights-are-there-in-databases.html" />
+    <link rel="prev" title="Priedai" href="index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="file-formats">
+<h1>Failų formatai<a class="headerlink" href="#file-formats" title="Nuoroda į šią antraštę">¶</a></h1>
+<div class="section" id="an-overview-of-file-formats">
+<h2>Failų formatų apžvalga<a class="headerlink" href="#an-overview-of-file-formats" title="Nuoroda į šią antraštę">¶</a></h2>
+<div class="section" id="json">
+<h3>JSON<a class="headerlink" href="#json" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>JSON yra paprastas failų formatas, kurį labai lengva skaityti bet kuriai programavimo kalbai. Jo paprastumas reiškia, kad kompiuteriams jį apdoroti lengviau nei kitus formatus, pavyzdžiui, XML.</p>
+</div>
+<div class="section" id="xml">
+<h3>XML<a class="headerlink" href="#xml" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>XML yra plačiai naudojamas formatas dalijantis duomenimis, nes jis suteikia galimybę išlaikyti duomenų struktūrą ir įrašyti dokumentaciją kartu su duomenimis neatliekant pačių duomenų nuskaitymo.</p>
+</div>
+<div class="section" id="rdf">
+<h3>RDF<a class="headerlink" href="#rdf" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>W3C rekomenduoja formatą trumpiniu RDF, kuris įgalina saugoti duomenis taip, kad būtų galima apjungti duomenis gautus iš skirtingų šaltinių. RDF duomenys gali būti išsaugoti XML arba JSON formatu, bei kitais formatais. RDF skatina internetinių nuorodų naudojimą kaip unikalų raktą, kuris įgalina sujungti įvairias :term:&#8217;open data&#8217; iniaciatyvas internete. RDF vis dar nėra labai stipriai išpopuliarėjęs, tačiau tai dažniausiai naudojmas formatas tarp Atviros Vyriausybės iniciatyvų, įskaitant Didžiosios Britanijos ir Ispanijos Vyriausybių sujungtus Open Data projektus. Interneto kūrėjęs, Tim Berners-Lee neseniai paskelbė penkių žvaigždučių schemą į kurią įeina sujungti RDF duomenys kaip prioritetas atvirų duomenų srityje.</p>
+</div>
+<div class="section" id="spreadsheets">
+<h3>Skaičialentės (spreadsheets)<a class="headerlink" href="#spreadsheets" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Daugelis valstybės institucijų saugo informaciją skaičialentėse, pavyzdžiui, Microsoft Excel. Tokie duomenys dažnai gali būti naudojami tuoj pat, jei tik teisingai aprašytos stulpelių reikšmės.</p>
+<p>Tačiau, kai kuriais atvejais skaičiuoklių dokumentuose gali atsirasti papildomos informacijos arba formulių, su kuriomis gali būti sunku dirbti. Tokiu atveju patartina skaičiavimus dokumentuoti šalia duomenį, nes taip patogiau vartotojams perskaityti.</p>
+</div>
+<div class="section" id="comma-separated-files">
+<h3>Kableliu atskirto turinio failai<a class="headerlink" href="#comma-separated-files" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>CSV gali būti labai naudingas formatas, nes yra kompaktiškas, taigi tinkamas keistis dideliems duomenų rinkiniams, turintiems vienodą struktūrą. Tačiau šis formatas toks &#8220;spartietiškas&#8221;, kad duomenys dažnai būna beverčiai be dokumentacijos, kadangi gali būti beveik neįmanoma atspėti, ką reiškia kurie stulpeliai. Todėl labai svarbu, kad kablelių atskirto turinio failuose būtų tiksliai dokumentuotos laukų reikšmės.</p>
+<p>Dar daugiau, failo struktūros būtina griežtai laikytis, nes praleista viena reikšmė gali neleisti nuskaityti viso likusio failo informacijos. Taip pat būtų sunku atitaisyti informaciją, nes nežinia kaip turėtų atrodyti duomenys.</p>
+</div>
+<div class="section" id="text-document">
+<h3>Tekstinis dokumentas<a class="headerlink" href="#text-document" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Klasikinių dokumentų tokiais formatais, kaip Word, ODF, OOXML arba PDF gali pakakti kai kurioms duomenų rūšims. Jais skelbti duomenis gali būti pigu, kadangi dažnai tai yra pradinis duomenų formatas. Tačiau tokie formatai nepalaiko vienodos duomenų struktūros, o tai reiškia, kad gali būti sunku automatizuoti duomenų apdorojimą. Pasistenkite naudoti dokumentų šablonus, leisiančius suprasti, kokia duomenų struktūra, kad vėliau būtų įmanoma iš tų dokumentų ištraukti ir struktūrizuoti duomenis.</p>
+<p>Jis taip pat gali palaikyti įvairias tipografines žymas, taigi skaitant mašininiu būdu galima būtų atskirti pavadinimus nuo turinio, ir taip toliau. Bet paprastai rekomenduojama nesinaudoti teksto redagavimo formatais, jei galima rinktis kitus formatus.</p>
+</div>
+<div class="section" id="plain-text">
+<h3>Grynasis tekstas<a class="headerlink" href="#plain-text" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Tekstiniai failai(.txt) yra lengvai kompiuterių perskaitomi. Dažniausiai į juos neįeina meta duomenys apie dokumentą, taigi kūrėjai turėtų nusiskaityti duomenis taip, kad būtų galima interpretuoti informaciją tokią kokia ji yra, be papildomo žinojimo apie dokumento struktūrą(meta duomenų).</p>
+<p>Gali būti problemų, naudojant grynojo teksto failus skirtingose operacinėse sistemose. MS Windows, Mac OS X ir Unix kiekviena savaip pasako kompiuteriui, kad jau pasiekė failo pabaigą.</p>
+</div>
+<div class="section" id="scanned-image">
+<h3>Skanuotas paveikslėlis<a class="headerlink" href="#scanned-image" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Greičiausiai labiausiai netinkantis duomenų formatas, tačiau tiek TIFF, tiek JPEG-2000 gali būti susieti su komentaru kas yra paveikle arba pateikti pilną paveiklo turinio aprašymą. Tai gali būti svarbu duomenims, kurių prigimtis nėra elektroninė - geriausias pavyzdys būtų seni bažnytiniai archyvo įrašai, tada nuotrauka geriau nei nieko.</p>
+</div>
+<div class="section" id="proprietary-formats">
+<h3>Nuosavybiniai formatai<a class="headerlink" href="#proprietary-formats" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Kai kurios dedikuotos sistemos turi nuosavus duomenų formatus, kuriais išsaugo duomenis. Kartais gali ir pakakti atverti duomenis tokiu formatu - ypač jei tikimasi, kad duomenys bus toliau naudojami panašioje sistemoje kaip ta, kurioje tie duomenys dabar yra. Visada turi būti nurodyta, kur rasti daugiau informacijos apie šiuos nuosavybinius formatus, pavyzdžiui, gali būti nuoroda į tiekėjo svetainę. Vis tik, rekomenduojama duomenis pateikti ne nuosavybiniu formatu, kur tik tai įmanoma.</p>
+</div>
+<div class="section" id="html">
+<h3>HTML<a class="headerlink" href="#html" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Šiandien daug duomenų skelbiami įvairiose svetainėse HTML formatu. To gali pakakti, jei duomenys stabilūs ir nedidelės apimties. Kartais geriau duomenis pateikti taip, kad būtų lengva juos atsisiųsti ir su jais dirbti, tačiau kadangi į svetainę pigu ir paprasta nukreipti, tai gali būti visai gera pradžia skelbiant duomenis.</p>
+<p>Dažniausiai patogiausia naudoti lenteles HTML dokumentuose laikyti duomenims. Taip pat svarbu, kad duomenų laukai turėtų unikalius kodus, kad būtų lengva atlikti duomenų paiešką ir darbą. Yahoo sukūrė įrankį (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>), kuris skirtas nuskaityti informaciją iš svetainės ir tokie įrankiai su duomenimis gali atlikti ivairias sudėtingesnes manipuliacijas.</p>
+</div>
+</div>
+<div class="section" id="open-file-formats">
+<h2>Atviri failų formatai<a class="headerlink" href="#open-file-formats" title="Nuoroda į šią antraštę">¶</a></h2>
+<p>Net jei duomenys pateikiami elektroniniu, mašininiam skaitymui pritaikytu formatu, ir labai smulkiai, vis tiek gali būti problemų, susijusių su pačiu formatu.</p>
+<p>Formatai, kuriais informacija skelbiama - kitaip tariant, ta skaitmeninė bazė, kurioje saugoma informacija - gali būti &#8220;atvira&#8221; arba &#8220;uždara&#8221;. Atviro formato specifikacija yra prieinama bet kam ir nemokamai, taigi visi gali be intelektinės nuosavybės teisių apribojimų naudoti tas specifikacijas kurdami savo programinę įrangą.</p>
+<p>Jei formatas &#8220;uždaras&#8221;, taip gali būti arba dėl to, kad failo formatas nuosavybinis ir specifikacija nėra prieinama visuomenei, arba dėl to, kad failo formatas yra nuosavybinis ir net jei specifikacija vieša, jos naudojimas ribotas. Jei informacija paskelbiama naudojantis uždaru formatu, gali kilti rimtų kliūčių tai informacijai panaudoti, ir norintiems ja naudotis gali tekti pirkti tam reikalingą programinę įrangą.</p>
+<p>Atvirų failų formatų privalumas tas, kad jie leidžia programinės įrangos kūrėjams sukurti įvairius įrankius, galinčius naudotis tais formatais. Tai minimizuoja kliūtis pernaudoti failuose esančią informaciją.</p>
+<p>Naudojant failų formatus, kurių specifikacija nėra viešai prieinama, galima sukelti priklausomumą nuo kitos programinės įrangos arba failo formato licenzijos problemas. Blogiausiu atveju informacija galės būt nuskaityta tik su specifine programine įranga, kas gali būti labai brangu.</p>
+<p>term:&#8217;Atvirų valdžios duomenių&#8217; reikšmė yra ta, jog duomenys yra pateikiami <strong>atviru failų formatu, kuris yra lengvai nuskaitomas.</strong></p>
+<div class="section" id="example-uk-traffic-data">
+<h3>Pavyzdys: Didžiosios Britanijos transporto duomenys<a class="headerlink" href="#example-uk-traffic-data" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Andrew Nicolson yra programinės įrangos kūrėjas, kuris buvo įsitraukęs į (galiausiai sėkmingą) kampaniją prieš naujo kelio, Westbury Eastern aplinkkelio Didžiojoje Britanijoje, statybas. Andrew domino prieiga prie kelių transporto judėjimo duomenų, kurie buvo naudojami vertinant pasiūlymus. Jam pavyko kai kuriuos duomenis gauti pasinaudojus prašymais suteikti informaciją, tačiau vietos valdžia teikdavo informaciją nuosavybiniu formatu, ir juos buvo galima perskaityti tik naudojant kompanijos &#8220;Saturn&#8221;, kuri specializavosi transporto judėjimo modeliavime ir prognozavime, programinę įrangą. Ši programinė įranga neturi versijos, skirtos vien tik informacijos perskaitymui, taigi Andrew neturėjo kitos išeities, kaip tik nusipirkti programinės įrangos licenciją, kuri jam kainavo 500 svarų (600 eurų) su nuolaida akademinėms reikmėms. Pagrindinių programinės įrangos modulių kainos kompanijos &#8220;Saturn&#8221; kainoraštyje 2010 metų balandžio mėnesį prasidėjo nuo 13 000. svarų (virš 15 000. eurų) - tai kainos, neįkandamos daugumai paprastų piliečių.</p>
+<p>Nors nėra teisiškai būtina duomenis pateikti atviru formatu, tačiau atviros valdžios iniciatyvos teikia pirmenybę būtent atviriems duomenų formatams, taip pat leidžia reglamentuojančius įstatymus, jog duomenys turi būti pateikti atviru formatu. Bene reikšmingiausias pavyzdys yra Obama&#8217;os administracija su Atviros valdžios direktyva, patvirtinta 2009 m., kuri teigia:</p>
+<blockquote>
+<div><em>Institucijos, kiek tai įmanoma ir nėra ribojama dėl kitų priežasčių, turi teikti informaciją internete ir atviru formatu, atsisiunčiamą, indeksuojamą ir randamą įprastų žiniatinklio paieškos aplikacijų. Atviru formatu laikomas formatas, kurio platforma yra nepriklausoma, skaitoma mašininiu būdu ir prieinamas visuomenei be apribojimų, kurie galėtų apriboti informacijos pakartotinį panaudojimą.</em></div></blockquote>
+</div>
+</div>
+<div class="section" id="how-do-i-use-a-given-format">
+<h2>Kaip naudoti duotuosius formatus?<a class="headerlink" href="#how-do-i-use-a-given-format" title="Nuoroda į šią antraštę">¶</a></h2>
+<p>Kai valdininkai turi paviešinti naujus duomenis, kurie paviešinami pirmą kartą, turi būti parinktas formatas, subalansuojantis kainą su tinkamumu naudoti. Kiekvienam formatui yra savi niuansai, su kuriais reikia susipažinti. Šis skyrius bandys tuos niuansus paaiškinti.</p>
+<p>Šis skyrius akcentuoja tik tai, kaip sukarpyti paviršiai yra geriausiai surikiuojami, kad kompiuteriai galėtų pasiekt juos tiesiogiai. Patarimai, kaip interneto svetainės turi būti sukurtos gali būti rasti kituose informacijos šaltiniuose.</p>
+<div class="section" id="web-services">
+<h3>Žiniatinklio paslaugos (Web services)<a class="headerlink" href="#web-services" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Kai duomenys kinta dažnai ir kiekvienas parsiuntimas yra limituojamas, labai svarbu duomenis pateikti per internetinę paslaugą (web services). Yra keletas būdų sukurti internetinę paslaugą (web services), bet populiariausi yra SOAP ir REST. Bendru atveju, SOAP geriau nei REST, tačiau pastarąjį labai lengva naudoti, taigi jis tapo standartu.</p>
+</div>
+<div class="section" id="database">
+<h3>Duomenų bazė<a class="headerlink" href="#database" title="Nuoroda į šią antraštę">¶</a></h3>
+<p>Kaip ir internetinės paslaugos (web services), duomenų bazės suteikia tiesioginę prieigą prie duomenų. Duomenų bazių privalumas - tik dalies duomenų peržiūra ar redagavimas, visiškai atsiribojant nuo likusių.</p>
+<p>Yra keletas saugumo rūpesčių dėl leidimo nuotoliniam duomenų naudojimui. Duomenų bazės prieinamumas naudingas tik tuomet, jei duomenų bazė labai gerai dokumentuota. Dažnai ganėtinai paprasta ir nebrangu sukurti internetinę paslaugą (web services), kuri pateikia duomenis iš duomenų bazės, o tai patogus būdas išvengti saugumo problemų.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Įžanga</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Kodėl reikia atvirų duomenų?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Kas yra atviri duomenys?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">Kaip atverti duomenis?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Atvėriau duomenų, ir kas dabar?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Žodynas</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Priedai</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Failų formatai</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">Failų formatų apžvalga</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">Atviri failų formatai</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">Kaip naudoti duotuosius formatus?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">Kokios intelektinės nuosavybės teisės galioja duomenų bazėms</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

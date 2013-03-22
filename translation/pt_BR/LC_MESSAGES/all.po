@@ -185,7 +185,7 @@ msgid ""
 " unlock the potential of official and other information to enable new "
 "services, to improve the lives of citizens and to make government and "
 "society work better."
-msgstr "Novas tecnologias tornam possível desenvolver serviços para responder essas perguntas automaticamente. Muitos dos dados necessários para responder essas perguntas são gerados por órgãos públicos. Esses dados, no entanto, quase nunca estão disponíveis de uma forma fácil de usar. Este livro trata de como destravar o potencial de informações públicas e outras que possibilitem criar novos serviços, melhorar a vida dos cidadãos e fazer com que o governo e a sociedade funcionem melhor."
+msgstr "Novas tecnologias tornam possível desenvolver serviços para responder a essas perguntas automaticamente. Muitos dos dados necessários para responder essas perguntas são gerados por órgãos públicos. Esses dados, no entanto, quase nunca estão disponíveis de uma forma fácil de usar. Este livro trata de como destravar o potencial de informações públicas e outras que possibilitem criar novos serviços, melhorar a vida dos cidadãos e fazer com que o governo e a sociedade funcionem melhor."
 
 # e864d6f9f1fb4632898e4a87c8e14237
 #: ../../source/introduction/index.rst:20
@@ -196,7 +196,7 @@ msgid ""
 "started to become visible in the mainstream, with various governments (such "
 "as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
 "opening up their public information."
-msgstr "A noção de :term:`dados abertos` e, especificamente, :term:`dados abertos governamentais` - informação, pública ou não, que qualquer um tem liberdade de acesso e reutilização para qualquer propósito - existe há alguns anos. Em 2009, dados abertos começaram a se tornar visíveis ao público em geral, na medida em que vários governos (tais como os E.U.A., Reino Unido, Canadá e Nova Zelândia) anunciaram novas iniciativas de abertura de suas informações públicas."
+msgstr "A noção de :term:`dados abertos` e, especificamente, :term:`dados abertos governamentais` - informação, pública ou não, que qualquer um tem liberdade de acesso e reutilização para qualquer propósito - existe há alguns anos. Em 2009, dados abertos começaram a se tornar visíveis ao público em geral, na medida em que vários governos (tais como os EUA, Reino Unido, Canadá e Nova Zelândia) anunciaram novas iniciativas de abertura de suas informações públicas."
 
 # 772e3651fec74d03808df10160177562
 #: ../../source/introduction/index.rst:28
@@ -413,7 +413,7 @@ msgid ""
 "such as the Wikimedia Foundation in order to execute their own tasks more "
 "effectively. This not only results in improvements to the quality of their "
 "data, but will also ultimately make the department smaller."
-msgstr "Dados abertos também têm valor para o próprio governo. Podem, por exemplo, aumentar a eficiência do governo. O Ministério da Educação da Holanda publicou na rede os seus dados relacionados a educação. Desde então, o número de perguntas que eles recebem caiu, reduzindo a carga de trabalho e os custos. Os servidores agora podem responder as  perguntas restantes mais rapidamente, porque sabem onde estão os dados para isso. Dados abertos também estão tornando o governo mais eficaz, o que no final das contas também reduz custos. O departamento holandês de patrimônio cultural está publicando ativamente seus dados e colaborando com sociedades de historiadores amadores e grupos como a Wikimedia Foundation para executar suas próprias tarefas de maneira mais eficiente. Isso resulta em melhorias na qualidade dos dados e também, em última análise, reduz o tamanho do departamento."
+msgstr "Dados abertos também têm valor para o próprio Governo. Podem, por exemplo, aumentar a eficiência do Governo. O Ministério da Educação da Holanda publicou na rede os seus dados relacionados à educação. Desde então, o número de perguntas que eles recebem caiu, reduzindo a carga de trabalho e os custos. Os servidores agora podem responder às  perguntas restantes mais rapidamente, porque sabem onde estão os dados para isso. Dados abertos também estão tornando o Governo mais eficaz, o que no final das contas também reduz custos. O Departamento Holandês de Patrimônio Cultural está publicando ativamente seus dados e colaborando com sociedades de historiadores amadores e grupos como a Wikimedia Foundation para executar suas próprias tarefas de maneira mais eficiente. Isso resulta em melhorias na qualidade dos dados e também, em última análise, reduz o tamanho do Departamento."
 
 # 0f11bae8272f45e4b2290c2beef0e248
 #: ../../source/why-open-data/index.rst:83
@@ -429,7 +429,7 @@ msgid ""
 " general health of the population. We are likely to see such developments "
 "happening again as unexpected insights flow from the combination of "
 "different open data sets."
-msgstr "Embora existam inúmeros exemplos de como os dados abertos já estão criando valor tanto social quanto econômico, ainda não sabemos que coisas novas se tornarão possíveis. Novas combinações de dados podem criar novos conhecimentos e descobertas, que podem levar a campos de aplicação totalmente novos. Isso já ocorreu, por exemplo, quando o Dr. Snow descobriu a relação entre a poluição da água potável e ao cólera em Londres no século XIX, ao combinar dados sobre mortes devido ao cólera com a localização das cisternas d'água. Isso levou à construção do sistema de esgoto de Londes e melhorou sobremaneira a saúde geral da população. É provável que vejamos acontecer descobertas como essa, na medida em que revelações inesperadas brotarem da combinação de diferentes conjuntos de dados."
+msgstr "Embora existam inúmeros exemplos de como os dados abertos já estão criando valor tanto social quanto econômico, ainda não sabemos que coisas novas se tornarão possíveis. Novas combinações de dados podem criar novos conhecimentos e descobertas, que podem levar a campos de aplicação totalmente novos. Isso já ocorreu, por exemplo, quando o Dr. Snow descobriu a relação entre a poluição da água potável e a cólera em Londres, no século XIX, ao combinar dados sobre mortes devido ao cólera com a localização das cisternas d'água. Isso levou à construção do sistema de esgoto de Londres e melhorou sobremaneira a saúde geral da população. É provável que vejamos acontecer descobertas como essa, na medida em que revelações inesperadas brotarem da combinação de diferentes conjuntos de dados."
 
 # db07f40141dc4077a0390c1699f892ea
 #: ../../source/why-open-data/index.rst:94
@@ -767,7 +767,7 @@ msgid ""
 "be useful to take a look at which data is easiest to get into the public's "
 "hands. Small, easy releases can act as the catalyst for larger behavioural "
 "change within organisations."
-msgstr "Algumas vezes, em vez de decidir que dados seriam os mais valiosos, poderia ser útil ver quais dados seriam mais fáceis de colocar nas mãos do público. Pequenas e fáceis disponibilizações podem funcionar como um catalisador para grandes mudanças comportamentais dentro das organizações."
+msgstr "Algumas vezes, em vez de decidir que dados seriam os mais valiosos, poderia ser útil ver quais dados seriam mais fáceis de colocar nas mãos do público. Disponibilizações pequenas e fáceis podem funcionar como um catalisador para grandes mudanças comportamentais dentro das organizações."
 
 # 11fb95c47b6d469aaef863cffe3dea1e
 #: ../../source/how-to-open-up-data/choose-datasets.rst:78
@@ -825,7 +825,7 @@ msgid ""
 "because it means you can build momentum and learn from experience -- "
 "innovation is as much about failure as success and not every dataset will be"
 " useful."
-msgstr "Lembre-se de que se trata de inovação. Movimentar-se tão rápido quanto possível é bom, porque você ganha energia cinética e aprende com a experiência -- a inovação se dá pelo tanto pelo fracasso quanto pelo sucesso e nem todos os conjuntos de dados serão úteis."
+msgstr "Lembre-se de que se trata de inovação. Movimentar-se o mais rápido possível é bom, porque você ganha energia cinética e aprende com a experiência -- a inovação se dá pelo tanto pelo fracasso quanto pelo sucesso e nem todos os conjuntos de dados serão úteis."
 
 # ef4cadde787044f6bb05cdbdbee8438e
 #: ../../source/how-to-open-up-data/index.rst:22
@@ -834,7 +834,7 @@ msgid ""
 "and re-users of the data as early and as often as you can, be they citizens,"
 " businesses or developers. This will ensure that the next iteration of your "
 "service is as relevant as it can be."
-msgstr "**Construa um engajamento cedo e com frequência.** Engaje-se com usuários potenciais e de fato e com reutilizadores dos dados tão logo e frequentemente quanto possível, sejam eles cidadãos, empresas ou desenvolvedores. Isto assegurará que a próxima iteração seja tão relevante quanto possível."
+msgstr "**Construa um engajamento cedo e com frequência.** Engaje-se com usuários já participantes e com os potenciais, e também com reutilizadores, o quanto antes e com frequência, sejam eles cidadãos, empresas ou desenvolvedores. Isto assegurará que a próxima iteração seja o mais relevante possível."
 
 # ce7b75398cac46e2abc2c039fcf31686
 #: ../../source/how-to-open-up-data/index.rst:27
@@ -845,7 +845,7 @@ msgid ""
 "example, most of us don’t want or need a large database of GPS coordinates, "
 "we would much prefer a map. Thus, engage with infomediaries first. They will"
 " re-use and repurpose the material."
-msgstr "É essencial ter em mente que grande parte dos dados não vai chegar aos usuários finais diretamente, mas via 'info-mediários': pessoas que pegam os dados e os transformam ou reusam para que sejam apresentados. Por exemplo, a maioria de nós não quer nem precisa de um grande banco de dados de coordenadas GPS, e preferiria ver um mapa. Logo, engaje-se com os infomediários primeiro. Eles reutilizarão e darão novos usos ao material."
+msgstr "É essencial ter em mente que grande parte dos dados não vai chegar aos usuários finais diretamente, mas via 'infomediários': pessoas que pegam os dados e os transformam ou reusam para que sejam apresentados. Por exemplo, a maioria de nós não quer nem precisa de um grande banco de dados de coordenadas GPS, e preferiria ver um mapa. Logo, engaje-se com os infomediários primeiro. Eles reutilizarão e darão novos usos ao material."
 
 # ff224ceb8d5e44db8fff4cbdb8b84a1b
 #: ../../source/how-to-open-up-data/index.rst:34
@@ -1029,7 +1029,7 @@ msgstr "Uma dificuldade nesta abordagem é que é muito difícil para alguém de
 # 28ec978c25d5464caef60764ccd26193
 #: ../../source/how-to-open-up-data/make-data-available.rst:67
 msgid "Via 3rd party sites"
-msgstr "Por  de sítios de terceiros"
+msgstr "Via sites de terceiros"
 
 # bc1c7a24e2fc40369a8d6fee3b547452
 #: ../../source/how-to-open-up-data/make-data-available.rst:69
@@ -1038,7 +1038,7 @@ msgid ""
 "example, pachube.com is designed to connect people with sensors to those who"
 " wish to access data from them. Sites like Infochimps.com and Talis.com "
 "allow public sector agencies to store massive quantities of data for free."
-msgstr "Muitos repositórios têm se tornado pontos centrais de dados sobre assuntos específicos. Por exemplo, pachube.com foi projetado para conectar pessoas com sensores com aqueles que desejam acessar os seus dados. Sítios como Infochimps.com e Talis.com permitem que órgãos do setor público guardem quantidades maciças de dados gratuitamente."
+msgstr "Muitos repositórios têm se tornado pontos centrais de dados sobre assuntos específicos. Por exemplo, pachube.com foi projetado para conectar pessoas com sensores com aqueles que desejam acessar os seus dados. Sites como Infochimps.com e Talis.com permitem que órgãos do setor público guardem quantidades maciças de dados gratuitamente."
 
 # 79fec3171d0b43e7924a9661d86ed5bb
 #: ../../source/how-to-open-up-data/make-data-available.rst:75
@@ -1047,7 +1047,7 @@ msgid ""
 "have already pooled together a community of interested people and other sets"
 " of data. When your data is part of these platforms, a type of positive "
 "compound interest is created."
-msgstr "Sítios de terceiros podem ser muito úteis, principalmente porque já reunem uma comunidade de pessoas interessadas e outros conjuntos de dados. Quando os seus dados fazem parte dessas plataformas, uma forma de interesse conjunto é criada."
+msgstr "Sites de terceiros podem ser muito úteis, principalmente porque já reunem uma comunidade de pessoas interessadas e outros conjuntos de dados. Quando os seus dados fazem parte dessas plataformas, uma forma de interesse conjunto é criada."
 
 # e27ac253acf04e4895092c606f5d6c84
 #: ../../source/how-to-open-up-data/make-data-available.rst:80
@@ -1066,7 +1066,7 @@ msgid ""
 "that your data platform is agnostic about who can access it. Software "
 "developers and scientists use many operating sytems, from smart phones to "
 "supercomputers. They should all be able to access the data."
-msgstr "Essas plataformas podem ter dois custos. O primeiro é a sua independência. Seu órgão precisa ceder o controle a terceiros. Isto é, muitas vezes, política, legal ou operacionalmente difícil. O segundo custo pode ser a abertura. Certifique-se de que a sua plataforma de dados é agnóstica em relação a quem pode acessá-la. Desenvolvedores de software e cientistas usam muitos sistemas operacionais, desde `smart phones` até supercomputadores. Eles todos devem ser capazes de acessar os dados."
+msgstr "Essas plataformas podem ter dois custos. O primeiro é a sua independência. Seu órgão precisa ceder o controle a terceiros. Isto é, muitas vezes, politicamente, legal ou operacionalmente difícil. O segundo custo pode ser a abertura. Certifique-se de que a sua plataforma de dados é agnóstica em relação a quem pode acessá-la. Desenvolvedores de software e cientistas usam muitos sistemas operacionais, desde `smartphones` até supercomputadores. Eles todos devem ser capazes de acessar os dados."
 
 # 45ec5a433d49473d8bd8e8aa732d3790
 #: ../../source/how-to-open-up-data/make-data-available.rst:94
@@ -1080,7 +1080,7 @@ msgid ""
 "Transfer Protocol (FTP). This may be suitable if your audience is technical,"
 " such as software developers and scientists. The FTP system works in place "
 "of HTTP, but is specifically designed to support file transfers."
-msgstr "Um método menos elegante de fornecer acesso a arquivos é por Protocolo de Transferência de Arquivos (FTP, na sigla em inglês). Isto pode ser adequado se o seu público-alvo é técnico, tais como desenvolvedores de software ou cientistas. O sistema FTP funciona no lugar do HTTP, mas foi especificamente projetado para dar suporte a transferências de arquivos."
+msgstr "Um método menos elegante de fornecer acesso a arquivos é por FTP (Protocolo de Transferência de Arquivos, tradução da sigla em inglês). Isto pode ser adequado se o seu público-alvo é técnico, tais como desenvolvedores de software ou cientistas. O sistema FTP funciona no lugar do HTTP, mas foi especificamente projetado para dar suporte à transferências de arquivos."
 
 # 2b926a03ce794f8782e74bd0013c2b2e
 #: ../../source/how-to-open-up-data/make-data-available.rst:102

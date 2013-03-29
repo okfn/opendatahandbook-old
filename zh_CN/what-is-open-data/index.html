@@ -1,0 +1,220 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>什么是开放数据？ &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="next" title="如何将数据开放？" href="../how-to-open-up-data/index.html" />
+    <link rel="prev" title="为什么要开放数据？" href="../why-open-data/index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="what-is-open-data">
+<h1>什么是开放数据？<a class="headerlink" href="#what-is-open-data" title="永久链接至标题">¶</a></h1>
+<p>这手册一直在谈论开放数据那么到底什么是开放数据呢？更为关键的，是什么使得开放数据得以开放，并且我们又是在讨论哪一些数据呢？</p>
+<div class="section" id="what-is-open">
+<h2>什么是开放？<a class="headerlink" href="#what-is-open" title="永久链接至标题">¶</a></h2>
+<p>到底什么是开放数据呢？为了说明这一点，我们采用「开放知识定义」来定义开放数据：</p>
+<p>开放数据是一类可以被任何人免费使用、再利用、再分发的数据——在其限制上，顶多是要求署名和使用类似的协议再分发。</p>
+<p>完整的「开放知识定义」对于这一定义给出了更为翔实的解释。这里总结出最关键的部分：</p>
+<ul class="simple">
+<li>可获取性和可访问性：作品应当能够被完整获取，并且所需的花费应当不超过合理的重制费用 （较好的获取方案是提供从网络下载数据）。数据也必须使用方便修改的格式。</li>
+<li><a href="#id1"><span class="problematic" id="id2">**</span></a>再利用和再分发：<a href="#id3"><span class="problematic" id="id4">**</span></a>数据应当使用允许再利用和再分发 （包括与其他数据集整合后再分发的情况）的许可协议。</li>
+<li><a href="#id1"><span class="problematic" id="id2">**</span></a>普遍参与性：<a href="#id3"><span class="problematic" id="id4">**</span></a>每一个人都应当能够使用、再利用、再分发那些数据。因此就不允许有限制个人或团体使用的协议。比如，「非商业用途」限制就会限制「商业」用途因此不被允许。又比如限制只能在规定领域使用数据（比如只能在教育领域使用）也是不被允许的。</li>
+</ul>
+<p>如果你好奇为什么清楚理解什么是开放是 非常重要的事情以及为什么要使用以上的定义，一个简单的回答是：<strong>互用性</strong>。</p>
+<p>互用性指的是不同系统和组织间协同工作 (协同操作) 的能力。在这里，它指的是协同操作或者混合不同数据集的能力</p>
+<p>互用性很重要，因为它使得不同部件之间共同合作成为可能。这种将部件模块化并组建起来的能力对于创建大型复杂系统是或不可缺的。而这一切在没有互用性的情况下几乎不可能完成，这就由如在建设著名的巴比塔的工程中沟通  (协同操作) 的能力是至关重要的一样。</p>
+<p>对于数据，我们有着类似的境况。数据（或者代码）的「共通」核心在于「开放」资料中的数据可以和其他「开放」资料自由得互相整合。而互用性则是体现「开放性」实际益处的关键所在：基于急速提高的整合不同数据集的能力，更多更好的产品和服务将会被创造（相关的例子可参见「为什么要开放数据」一节）。</p>
+<p>给出清晰的关于「开放性」的定义确保了当你取得了两个来源不同的数据集时，你能够将它们整合起来，<strong>而不会遇上巴比塔的困境：即面对大量的数据集，你却无法将他们整合在一起建造真正具备价值的大型系统。</strong></p>
+</div>
+<div class="section" id="what-data-are-you-talking-about">
+<span id="what-data-can-be-open"></span><h2>开放什么数据？<a class="headerlink" href="#what-data-are-you-talking-about" title="永久链接至标题">¶</a></h2>
+<p>你可能已经见过各种不同类型的数据被开放但在接下来的内容中你还将见到更多例子。但在这之前，我们希望能快速的让你明白哪些数据可能会被开放以及哪些数据不应该被开放。</p>
+<p>关键点在于当我们谈论开放数据的时候，我们指的是非个人数据，也就是说这些数据不应该包含特定个人的数据。</p>
+<p>同样的，对于一些政府数据，国家安全的限制条例和政策将会适用。</p>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">引言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">为什么要开放数据？</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">什么是开放数据？</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-open">什么是开放？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-data-are-you-talking-about">开放什么数据？</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">如何将数据开放？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">在开放了一些数据后，接下来该干什么？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">术语</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">附录</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

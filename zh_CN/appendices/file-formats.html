@@ -1,0 +1,363 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>文件格式 &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="附录" href="index.html" />
+    <link rel="next" title="数据中有哪些法律权利？" href="what-legal-ip-rights-are-there-in-databases.html" />
+    <link rel="prev" title="附录" href="index.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="file-formats">
+<h1>文件格式<a class="headerlink" href="#file-formats" title="永久链接至标题">¶</a></h1>
+<div class="section" id="an-overview-of-file-formats">
+<h2>文件格式概览<a class="headerlink" href="#an-overview-of-file-formats" title="永久链接至标题">¶</a></h2>
+<div class="section" id="json">
+<h3>JSON<a class="headerlink" href="#json" title="永久链接至标题">¶</a></h3>
+<p>JSON is a simple file format that is very easy for any
+programming language to read. Its simplicity means that it is generally
+easier for computers to process than others, such as XML.</p>
+</div>
+<div class="section" id="xml">
+<h3>XML<a class="headerlink" href="#xml" title="永久链接至标题">¶</a></h3>
+<p>XML is a widely used format for data exchange because it gives good
+opportunities to keep the structure in the data and the way files
+are built on, and allows developers to write parts of the documentation in
+with the data without interfering with the reading of them.</p>
+</div>
+<div class="section" id="rdf">
+<h3>RDF<a class="headerlink" href="#rdf" title="永久链接至标题">¶</a></h3>
+<p>A W3C-recommended format called RDF makes it possible to represent
+data in a form that makes it easier to combine data from multiple
+sources. RDF data can be stored in XML and JSON, among other
+serializations. RDF encourages the use of URLs as identifiers,
+which provides a convenient way to directly interconnect existing
+<a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">open data</em></a> initiatives on the Web. RDF is still not widespread,
+but it has been a trend among Open Government initiatives, including
+the British and Spanish Government Linked Open Data projects. The
+inventor of the Web, Tim Berners-Lee, has recently proposed a
+<a class="reference external" href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/">five-star</a> scheme that includes linked RDF data as a goal to be
+sought for open data initiatives.</p>
+</div>
+<div class="section" id="spreadsheets">
+<h3>表单 (Spreadsheets)<a class="headerlink" href="#spreadsheets" title="永久链接至标题">¶</a></h3>
+<p>很多官方信息都被留存在了电子表单软件比如 Microsoft Excel。这些数据可以立刻被使用只要每一列的数据都有清楚的描述。</p>
+<p>However, in some cases there can be macros and formulas in spreadsheets,
+which may be somewhat more cumbersome to handle. It is therefore
+advisable to document such calculations next to the spreadsheet,
+since it is generally more accessible for users to read.</p>
+</div>
+<div class="section" id="comma-separated-files">
+<h3>逗号分割的文件<a class="headerlink" href="#comma-separated-files" title="永久链接至标题">¶</a></h3>
+<p>CSV文件是很有用的因为它是精简的文件因此很适合用于传输大量相同结构的数据。然而，当缺乏说明文档时这种文件格式常常很难使用因为你很难猜出每一列到底代表这什么意思。因此逗号分号的文件需要清楚正确地记录下每一个数据域的意义。</p>
+<p>Furthermore it is essential that the structure of the file is respected,
+as a single omission of a field may disturb the reading of all remaining
+data in the file without any real opportunity to rectify it, because
+it cannot be determined how the remaining data should be interpreted.</p>
+</div>
+<div class="section" id="text-document">
+<h3>文本文件<a class="headerlink" href="#text-document" title="永久链接至标题">¶</a></h3>
+<p>常用的文件格式比如Word，ODF，OOXML，或是PDF，对于用来显示诸如邮件列别之类的数据来说足以胜任了。但这些格式无法保持数据结构的一致性，也就意味着自动从中获取数据是很艰难的。因此建议如果要使用这些文件格式，那么就应该使用模板来创建数据，从而使得自动从文件中抓取数据成为可能。</p>
+<p>It can also support the further use of data to use typography markup
+as much as possible so that it becomes easier for a machine to
+distinguish headings (any type specified) from the content and so on.
+Generally it is recommended not to exhibit in word processing format,
+if data exists in a different format.</p>
+</div>
+<div class="section" id="plain-text">
+<h3>纯文本<a class="headerlink" href="#plain-text" title="永久链接至标题">¶</a></h3>
+<p>Plain text documents (.txt) are very easy for computers to read.
+They generally exclude structural metadata from inside the document
+however, meaning that developers will need to create a parser that
+can interpret each document as it appears.</p>
+<p>在不同操作系统间传输纯文本文件会造成一些问题。MS Windows，Mac OS X 和其他类 UNIX 系统都有自己不同的换行符。</p>
+</div>
+<div class="section" id="scanned-image">
+<h3>扫描的图片<a class="headerlink" href="#scanned-image" title="永久链接至标题">¶</a></h3>
+<p>Probably the least suitable form for most data, but both TIFF and
+JPEG-2000 can at least mark them with documentation of what is in
+the picture - right up to mark up an image of a document with full
+text content of the document. It may be relevant to their displaying
+data as images whose data are not born electronically - an obvious
+example is the old church records and other archival material - and
+a picture is better than nothing.</p>
+</div>
+<div class="section" id="proprietary-formats">
+<h3>私有文件格式<a class="headerlink" href="#proprietary-formats" title="永久链接至标题">¶</a></h3>
+<p>Some dedicated systems, etc. have their own data formats that they
+can save or export data in. It can sometimes be enough to expose data
+in such a format - especially if it is expected that further use would
+be in a similar system as that which they come from. Where further
+information on these proprietary formats can be found should always be
+indicated, for example by providing a link to the supplier&#8217;s website.
+Generally it is recommended to display data in non-proprietary formats
+where feasible.</p>
+</div>
+<div class="section" id="html">
+<h3>HTML<a class="headerlink" href="#html" title="永久链接至标题">¶</a></h3>
+<p>Nowadays much data is available in HTML format on various sites. This
+may well be sufficient if the data is very stable and limited in scope.
+In some cases, it could be preferable to have data in a form easier
+to download and manipulate, but as it is cheap and easy to refer
+to a page on a website, it might be a good starting point in the
+display of data.</p>
+<p>Typically, it would be most appropriate to use tables in HTML documents
+to hold data, and then it is important that the various data fields are
+displayed and are given IDs which make it easy to find and manipulate
+data. Yahoo has developed a tool (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>)
+that can extract structured information from a website, and such tools
+can do much more with the data if it is carefully tagged.</p>
+</div>
+</div>
+<div class="section" id="open-file-formats">
+<h2>开放数据格式<a class="headerlink" href="#open-file-formats" title="永久链接至标题">¶</a></h2>
+<p>即使信息被提供在电子的，可机器阅读的格式并且内容详尽，文件格式本身仍可能造成一定的问题。</p>
+<p>信息公开的格式，或者说信息存储的方式，可以是「开放」或者「封闭」的。开放的格式指的是其标准可被任何人免费获取，因此任何人可以创建自己的软件来实现这个格式而不需要受到知识产权的限制。</p>
+<p>如果一个文件的格式被认为是「封闭」的，那么要么是因为这个文件格式是私有的并且其标准无法公开访问，或者是因为这个文件格式的标准虽然可公开访问但是它本身仍旧私有而且使用受限。如果信息被公开在这种封闭的格式下，那么重利用这些信息将会被大大限制并且破事人们不得不去够买相应的软件来得以使用这些信息。</p>
+<p>开放性的文件格式的好处在于它允许开发者基于它开发不同的软件和服务。进而这可以降低重用数据的壁垒。</p>
+<p>Using proprietary file formats for which the specification is not
+publicly available can create dependence on third-party software
+or file format license holders. In worst-case scenarios, this can mean
+that information can only be read using certain software packages,
+which can be prohibitively expensive, or which may become obsolete.</p>
+<p>The preference from the <a class="reference internal" href="../glossary.html#term-open-government-data"><em class="xref std std-term">open government data</em></a> perspective
+therefore is that information be released in <strong>open file formats
+which are machine-readable.</strong></p>
+<div class="section" id="example-uk-traffic-data">
+<h3>例子：英国交通数据<a class="headerlink" href="#example-uk-traffic-data" title="永久链接至标题">¶</a></h3>
+<p>Andrew Nicolson is a software developer who was involved in an
+(ultimately successful) campaign against the construction of a new
+road, the Westbury Eastern bypass, in the UK. Andrew was interested
+in accessing and using the road traffic data that was being used
+to justify the proposals. He managed to obtain some of the relevant
+data via freedom of information requests, but the local government
+provided the data in a proprietary format which can only be read
+using software produced by a company called Saturn, who specialise
+in traffic modelling and forecasting. There is no provision for
+a “read only” version of the software, so Andrew&#8217;s group had
+no choice but to purchase a software license, eventually paying
+£500 (€600) when making use of an educational discount. The main
+software packages on the April 2010 price list from Saturn start
+at £13,000 (over €15,000), a price which is beyond
+the reach of most ordinary citizens.</p>
+<p>Although no access to information law gives a right of access to
+information in open formats, open government data initiatives are
+starting to be accompanied by policy documents which stipulate that
+official information must be made available in open file formats.
+Setting the gold standard has been the Obama Administration, with
+the Open Government Directive issued in December 2009, which says:</p>
+<blockquote>
+<div><em>To the extent practicable and subject to valid restrictions,
+agencies should publish information online in an open format
+that can be retrieved, downloaded, indexed, and searched by
+commonly used web search applications. An open format is one
+that is platform independent, machine readable, and made
+available to the public without restrictions that would impede
+the re-use of that information.</em></div></blockquote>
+</div>
+</div>
+<div class="section" id="how-do-i-use-a-given-format">
+<h2>我如何使用一个给定的文件格式？<a class="headerlink" href="#how-do-i-use-a-given-format" title="永久链接至标题">¶</a></h2>
+<p>当官方必须要展示新数据的时候，你应当选取一种文件格式来平衡成本需求和可持续使用的需求。对于每一种你应该知道的文件格式，我们这一节中都会给出详细的解释。</p>
+<p>这一节将侧重在如何安排cut surfaces来使机器直接访问。关于网站和网络服务的建议和指导可以到其他地方获得。</p>
+<div class="section" id="web-services">
+<h3>网络服务<a class="headerlink" href="#web-services" title="永久链接至标题">¶</a></h3>
+<p>对于经常有大规模变动的数据，通过网络服务提供数据是较好的方式。网络服务可以通过很多方式创建，但最常用的是 REST 和 SOAP。一般来说，相比 SOAP，REST 服务更容易开发和使用因此它是较常用的网络服务标准。</p>
+</div>
+<div class="section" id="database">
+<h3>数据库<a class="headerlink" href="#database" title="永久链接至标题">¶</a></h3>
+<p>和网络服务一样，数据库也提供数据的动态访问。数据库的优势在于它们能允许用户只关注它们感兴趣的数据和数据关系。</p>
+<p>允许远程数据抓取有这一定的安全隐患。数据访问仅在其结构和重要的数据表格和数据域都已经配备了完好的说明文档才会有用。通常而言，建设网络服务来提供数据库数据是较为安全，简单且成本低廉的方式。</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">引言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">为什么要开放数据？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">什么是开放数据？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">如何将数据开放？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">在开放了一些数据后，接下来该干什么？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">术语</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">附录</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">文件格式</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">文件格式概览</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">开放数据格式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">我如何使用一个给定的文件格式？</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">数据中有哪些法律权利？</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

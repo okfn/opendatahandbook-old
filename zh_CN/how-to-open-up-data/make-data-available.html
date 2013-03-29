@@ -1,0 +1,263 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>使数据可获得 （技术上的开放） &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="如何将数据开放？" href="index.html" />
+    <link rel="next" title="让数据可被发现" href="make-it-discoverable.html" />
+    <link rel="prev" title="应用一个开放许可协议 （法律上的开放）" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>使数据可获得 （技术上的开放）<a class="headerlink" href="#make-data-available-technical-openness" title="永久链接至标题">¶</a></h1>
+<p>:term:<a href="#id1"><span class="problematic" id="id2">`</span></a>开放数据`不仅要法律上开放而且要技术上开放。具体来说，数据应该能够被整批获取且提供在机器能阅读的文件格式下。</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>数据应当能在支付最多不超过合理重制费用的情况下获得，最好是能通过网络下载取得。这一价格模型得以实现是基于你在将数据开放时不产生其他新的成本。</dd>
+<dt>In bulk</dt>
+<dd>数据应当可以完整获取。如果你有一份依法令收集的记录，那么整个记录都必须提供下载。网络API或者类似的服务在这种情况也是非常有用的但并非整批获取的替代品。</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>重利用公共部门开放的数据不应当被技术专利所限制。更为重要的，你应当确保使用机器可阅读的文件格式来实现再利用。例如，统计数据常因高质量印刷的原因被发布在PDF格式下。虽然这些数据可以被人阅读，但对于计算机而言这些数据很难阅读。这就限制了他人对数据的再利用。</dd>
+</dl>
+<p>这里给出一些有益的准则：</p>
+<ul class="simple">
+<li>尽量保持简单</li>
+<li>行动迅速</li>
+<li>要务实</li>
+</ul>
+<p>特别的，相比花费六个月去完善数据，直接给出原始数据是更好的选择。</p>
+<p>将数据开放有很多方法。在网络时代最直接的方式是提供数据在线版本。这种方法也有很多变种。最基本的是将数据放置于网上上并且在一个数据中心目录上将用户导向到相关的数据源。然而，还有其他方法是可以采用的。</p>
+<p>当:term:<a href="#id1"><span class="problematic" id="id2">`</span></a>网络环境`不佳或者数据量异常庞大，通过其他渠道分发数据也是可以的。在这一节里我们将讨论在保持成本低廉的前提下如何分发数据。</p>
+<div class="section" id="online-methods">
+<h2>在线方式<a class="headerlink" href="#online-methods" title="永久链接至标题">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>通过现有网站<a class="headerlink" href="#via-your-existing-website" title="永久链接至标题">¶</a></h3>
+<p>对于你的在线内容团队来说，提供可从网站下载的内容是很熟悉的工作内容了。正如你现在提供在线下载文档一样，你也能如此简单地使数据文件通过在线下载方式被获取。</p>
+<p>这个方法的难点在于对于外部人员而言，找到在哪获取更新的数据是很困难的。这个方法为那些使用你数据创造新产品的人制造了障碍。</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>通过第三方网站<a class="headerlink" href="#via-3rd-party-sites" title="永久链接至标题">¶</a></h3>
+<p>很多数据仓库都已经逐渐变成了某个领域内的数据集散中心。比如，pachube.com 把那些拥有传感器的人群和那些希望访问那些传感器数据的人群连接起来。诸如 Infochimps.com 和 Talis.com 网站则允许公共服务机构免费存储海量数据。</p>
+<p>第三方网站可以非常有用，这主要是因为他们已经吸引了一群对数据感兴趣的人以及存储了大量其他数据。 当你的数据也成为这个平台的一部分，就会引发出一种对你数据投以关注的正面氛围。</p>
+<p>数据批发平台已经提供了底层基础架构来支持此类需求。他们通常提供数据分析和数据使用情况服务。而这些服务对于公共服务部门都是免费的。</p>
+<p>使用此类平台要付出两种代价。第一是要丧失独立性。你的机构要有能力将控制权完全交托于第三方。而这通常在政治上，法律上或运营上非常困难。第二种代价是开放性。请确保你的平台不限制任何人的访问。软件工程师和科学家常使用不同的系统，从智能手机到超级计算机都有。他们应该都能够访问到你的数据。</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>通过FTP服务器<a class="headerlink" href="#via-ftp-servers" title="永久链接至标题">¶</a></h3>
+<p>一个逐渐不流行的方式是将数据通过FTP方式开放。如果你的主要客户是熟悉技术的人群，例如软件工程师或者科学家，那么这种方式是合适的。FTP系统是类似于HTTP系统的但其被特别设计为为文件传输服务。</p>
+<p>FTP已经逐渐被淘汰了。不同于提供一个网站，提供一个FTP更像是提供了一种访问计算器文件夹的方式。因此，尽管它能解决问题，但其的不可定制性使得鲜有网站开放商愿意提供此服务。</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>通过torrents<a class="headerlink" href="#as-torrents" title="永久链接至标题">¶</a></h3>
+<p><a class="reference internal" href="../glossary.html#term-bittorrent"><em class="xref std std-term">BitTorrent</em></a> 对于政策制定者而言已经越来越熟悉这是因为它与版权纠纷常联系在一块。BitTorrent 使用一种称为 torrents 的文件，这种文件将文件传输的成本分摊到了每一个正在访问文件的人身上。与传统服务器会遇到服务器过载不同，使用 torrents 会使得在对文件需求增强的时候，文件服务端能力也相应增强。因此它在电影分享上十分成功。它的确是传输大量数据的极为有效的传输方法。</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>通过API<a class="headerlink" href="#as-an-api" title="永久链接至标题">¶</a></h3>
+<p>数据可以以 :term:<a href="#id1"><span class="problematic" id="id2">`</span></a>应用程序语言接口`（API）的方式发布。这种接口现在越来越流行了。因为他们允许程序员选择特定部分的数据发布而不是将整批数据作为一个大型文件来提供下载。APIs 通常和一个实时更新的数据库连接起来。 这意味着任何通过API请求的数据都将是最新更新的。</p>
+<p>将原始数据整批发布应当是任何开放数据发布者首要考虑的。提供API将会需要付出以下代价：</p>
+<ol class="arabic simple">
+<li>高成本。 API方式相比传统文件下载方式通常需求繁重的开发和维护而造成高成本。</li>
+<li>高预期。 为了营造良好的社区氛围，你应当提供确定的 API 服务内容。当任何部分出错，你都要付出修复他们的代价。</li>
+</ol>
+<p>提供整批数据则保证了：</p>
+<ol class="loweralpha simple">
+<li>不存在对原始数据提供者的依赖。这就意味着即使因为数据提供者的预算发生了变化或者其机构内部结构重组，都不影响数据的访问。</li>
+<li>任何人都会有数据的副本并且可以重分发这些数据。这就降低原数据提供者的数据分发成本以及不用担心分发数据中出现问题。</li>
+<li>其他人可以利用这些数据开发自己的服务而不用担心将来会无法访问这些数据。</li>
+</ol>
+<p>提供整批的数据使得使用者可以重新规划这些数据的用途。比如，可以将这些数据转换入另一种格式，或者与其他数据整合在一起，或者编上版本号并存档在多个地方。虽然 API 会提供最新版本的数据，原始数据仍应能被定期整批获得。</p>
+<p>比如，欧盟统计局的统计服务提供超过4000数据文件的数据整批下载服务。这个服务每两天更新数据一次，将数据提供在 TSV 格式下， 并且提供下载服务说明文档以及数据文件说明文档。</p>
+<p>另一个例子来自于哥伦比亚行政区 OCTO 数据目录，这个服务提供了 CSV 和 XLS 两种格式的数据下载以及数据的 live feeds</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">引言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">为什么要开放数据？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">什么是开放数据？</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">如何将数据开放？</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">选取数据集</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">应用一个开放许可协议 （法律上的开放）</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">使数据可获得 （技术上的开放）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">在线方式</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">让数据可被发现</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">在开放了一些数据后，接下来该干什么？</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">术语</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">附录</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -69,20 +68,14 @@
        
   <div class="section" id="make-data-available-technical-openness">
 <h1>データを公開する(技術的にオープンにする)<a class="headerlink" href="#make-data-available-technical-openness" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p><em class="xref std std-term">オープンデータ</em> というからには、法的にオープンにするだけではなく技術的にもオープンにしなければならない。特に大切なのは、データをまとめて公開する際に <em class="xref std std-term">機械可読</em> 形式にしておくことだ。</p>
+<p><a class="reference internal" href="../glossary.html#term-machine-readable"><em class="xref std std-term">オープンデータ</em></a> というからには、法的にオープンにするだけではなく技術的にもオープンにしなければならない。特に大切なのは、データをまとめて公開する際に <a class="reference internal" href="../glossary.html#term-machine-readable"><em class="xref std std-term">機械可読</em></a> 形式にしておくことだ。</p>
 <dl class="docutils">
 <dt>Available</dt>
 <dd>データを公開するにあたって、複製するための実費を超える値段をつけてはいけない。インターネットから無料でダウンロードできるようにするのがおすすめだ。この価格体系を実現できる理由は、データを提供するにあたってその組織がよけいなコストをかけるべきではないからだ。</dd>
 <dt>In bulk</dt>
 <dd>データは完全なセットとして公開しなければならない。法の下で収集された記録を持っているのなら、その一部ではなく全体をダウンロードできるようにする必要がある。Web APIなどのサービスも便利ではあるが、一括アクセスの代替にはならない。</dd>
 <dt>In an open, machine-readable format</dt>
-<dd>Re-use of data held by the public sector should not be subject to patent
-restrictions. More importantly, making sure that you are providing
-machine-readable formats allows for greatest re-use. To illustrate this,
-consider statistics published as <abbr title="Portable Document Format">PDF</abbr>
-documents, often used for high quality printing. While these statistics
-can be read by humans, they are very hard for a computer to use. This
-greatly limits the ability for others to re-use that data.</dd>
+<dd>公営企業の持つデータの再利用が特許による制限を受けるようではいけない。より重要なのは、データを機械可読形式で提供して再利用をしやすくすることだ。具体例として、 <abbr title="Portable Document Format">PDF</abbr> 形式で提供されている統計情報を考えてみよう。この形式は、きれいに印刷するための手段としてよく用いられる。確かにこの統計情報は、人間にとっては読みやすい。しかし、コンピュータでの再利用は非常に難しい。したがって、データの再利用が大きく制限されてしまう。</dd>
 </dl>
 <p>次の原則に従えば、多大な恩恵を受けられる。</p>
 <ul class="simple">
@@ -92,7 +85,7 @@ greatly limits the ability for others to re-use that data.</dd>
 </ul>
 <p>具体的には、生のデータを今この時点で公開するほうが、きちんとまとめたものを半年後に公開するよりもよいということだ。</p>
 <p>データを他の人たちに公開するには、さまざまな方法がある。インターネット世代の人たちにとっていちばん自然なのは、オンラインで公開することだ。この方式にも様々なバリエーションがある。最も基本的なやり方は、その組織自身のウェブサイトからデータを取得できるようにし、中央カタログから直接その場所を指すようにするという方法だ。しかし、それ以外にも方法はある。</p>
-<p><em class="xref std std-term">接続性</em> に制限があったりデータのサイズがあまりにも大きかったりする場合には、他のフォーマットでの配布もあり得る。このセクションではそういった代替手段についても扱う。これらは価格を低く抑えるために使える。</p>
+<p><a class="reference internal" href="../glossary.html#term-connectivity"><em class="xref std std-term">接続性</em></a> に制限があったりデータのサイズがあまりにも大きかったりする場合には、他のフォーマットでの配布もあり得る。このセクションではそういった代替手段についても扱う。これらは価格を低く抑えるために使える。</p>
 <div class="section" id="online-methods">
 <h2>オンラインでの公開<a class="headerlink" href="#online-methods" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="section" id="via-your-existing-website">
@@ -131,13 +124,8 @@ greatly limits the ability for others to re-use that data.</dd>
 <li>そのデータを使って第三者が自分でサービスを開発できる。データが手元から離れないことを確信できるからだ。</li>
 </ol>
 <p>データを一括で提供すれば、他の人たちが本来の目的を超えてデータを活用できるようになる。たとえば別のフォーマットに変換したり他のリソースとリンクさせたり、バージョン管理して複数の場所でアーカイブしたりといった具合だ。最新版のデータがAPI経由で取得できるようにしたとしても、生のデータも定期的に一括公開しておくべきだ。</p>
-<p>For example, the <a class="reference external" href="http://epp.eurostat.ec.europa.eu/">Eurostat statistical service</a> has a bulk download
-facility offering over 4000 data files. It is updated twice a day, offers
-data in <a class="reference internal" href="../glossary.html#term-tab-separated-values"><em class="xref std std-term">Tab-separated values</em></a> (TSV) format, and includes
-documentation about the download facility as well as about the data files.</p>
-<p>Another example is the <a class="reference external" href="http://octo.dc.gov/DC/OCTO/">District of Columbia Data Catalog</a>, which
-allows data to be downloaded in CSV and XLS format in addition to live
-feeds of the data.</p>
+<p>たとえば、統計データのサービスである <a class="reference external" href="http://epp.eurostat.ec.europa.eu/">Eurostat statistical service</a> は一括ダウンロード機能を提供しており、4000を超えるデータファイルを一括ダウンロードできるようにしている。このデータは一日に二回更新され、 <a class="reference internal" href="../glossary.html#term-tab-separated-values"><em class="xref std std-term">タブ区切り</em></a> (TSV) 形式で提供される。また、データファイルだけでなくダウンロード機能に関するドキュメントも用意している。</p>
+<p>もうひとつの例が、<a class="reference external" href="http://octo.dc.gov/DC/OCTO/">District of Columbia Data Catalog</a> (ワシントンD.C.のCTO室のデータカタログ)だ。ここではデータをCSVあるいはXLS形式でダウンロードでき、さらにデータのライブフィードも提供している。</p>
 </div>
 </div>
 </div>
@@ -167,8 +155,8 @@ feeds of the data.</p>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">データはオープンにした。それからどうする?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Appendices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">付録</a></li>
 </ul>
 
 </div>
@@ -220,17 +208,13 @@ feeds of the data.</p>
 <footer>
   <div class="inner">
     <div class="container">
-      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
 
 <p class="copyright">
-  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
-    Licensed under <a
-    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
-    Attribution (Unported) v3.0 License</a>.<br />
-    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
-    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
-      alt="{{ _('Open Content') }}" /></a>
-  <br/>
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
 </p>
 
 <p>
@@ -247,13 +231,13 @@ feeds of the data.</p>
 Related Projects:
 <a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
 &mdash;
-<a href="http://thedatahub.org/">TheDataHub.org</a>
+<a href="http://datahub.io/">The DataHub</a>
 &mdash;
 <a href="http://datacatalogs.org">DataCatalogs.org</a>
 &mdash;
 <a href="http://openspending.org">OpenSpending.org</a>
 &mdash;
-<a href="http://datapatterns.org">DataPatterns.org</a>
+<a href="http://schoolofdata.org">School of Data</a>
 </p>
 
     </div>

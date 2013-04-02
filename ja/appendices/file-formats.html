@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -7,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>File Formats &mdash; Open Data Handbook</title>
+    <title>ファイルフォーマット &mdash; Open Data Handbook</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -30,9 +29,9 @@
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
     <link rel="top" title="Open Data Handbook" href="../index.html" />
-    <link rel="up" title="Appendices" href="index.html" />
-    <link rel="next" title="What Legal (IP) Rights Are There in Data(bases)" href="what-legal-ip-rights-are-there-in-databases.html" />
-    <link rel="prev" title="Appendices" href="index.html" />
+    <link rel="up" title="付録" href="index.html" />
+    <link rel="next" title="データ(データベース)の法的な知的所有権について" href="what-legal-ip-rights-are-there-in-databases.html" />
+    <link rel="prev" title="付録" href="index.html" />
 
   </head>
   <body>
@@ -68,217 +67,83 @@
       <div class="content">
        
   <div class="section" id="file-formats">
-<h1>File Formats<a class="headerlink" href="#file-formats" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<h1>ファイルフォーマット<a class="headerlink" href="#file-formats" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <div class="section" id="an-overview-of-file-formats">
-<h2>An Overview of File Formats<a class="headerlink" href="#an-overview-of-file-formats" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>ファイルフォーマットの概要<a class="headerlink" href="#an-overview-of-file-formats" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="section" id="json">
 <h3>JSON<a class="headerlink" href="#json" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>JSON is a simple file format that is very easy for any
-programming language to read. Its simplicity means that it is generally
-easier for computers to process than others, such as XML.</p>
+<p>JSONはシンプルなファイルフォーマットで、どんなプログラミング言語からでも極めて簡単に読み込める。そのシンプルさ故に、XMLなどの他のフォーマットに比べてコンピューターで処理しやすい。</p>
 </div>
 <div class="section" id="xml">
 <h3>XML<a class="headerlink" href="#xml" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>XML is a widely used format for data exchange because it gives good
-opportunities to keep the structure in the data and the way files
-are built on, and allows developers to write parts of the documentation in
-with the data without interfering with the reading of them.</p>
+<p>XMLは、データ交換によく使われているフォーマットだ。データ構造を維持したりファイルを組み立てたりするのに便利だし、開発者がドキュメントの中にデータを組み込んだとしてもドキュメントを読むときの邪魔にならないからだ。</p>
 </div>
 <div class="section" id="rdf">
 <h3>RDF<a class="headerlink" href="#rdf" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>A W3C-recommended format called RDF makes it possible to represent
-data in a form that makes it easier to combine data from multiple
-sources. RDF data can be stored in XML and JSON, among other
-serializations. RDF encourages the use of URLs as identifiers,
-which provides a convenient way to directly interconnect existing
-<a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">open data</em></a> initiatives on the Web. RDF is still not widespread,
-but it has been a trend among Open Government initiatives, including
-the British and Spanish Government Linked Open Data projects. The
-inventor of the Web, Tim Berners-Lee, has recently proposed a
-<a class="reference external" href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/">five-star</a> scheme that includes linked RDF data as a goal to be
-sought for open data initiatives.</p>
+<p>W3C勧告のフォーマットの一つであるRDFを使えば、複数のソースからのデータを組み合わせやすい形式でデータを表現できるようになる。RDFのデータはXMLやJSON形式で格納することもできるし、それ以外の方法でシリアライズすることもできる。RDFでは、URLを識別子として使うことを推奨している。そうしておけば、Web上の既存の <a class="reference internal" href="../glossary.html#term-open-data"><em class="xref std std-term">open data</em></a> との相互通信が便利になる。RDFはまだ広まっているとは言えないが、オープンガバメントの世界では流行しつつある。たとえば、イギリス政府とスペイン政府は共同でオープンデータプロジェクトを進めている。Webを発明したティム・バーナーズ=リーが最近、 <a class="reference external" href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/">five-star</a> スキームを提案した。このスキームは、リンクしたRDFデータを、オープンデータへの取り組みに求められるゴールだとしている。</p>
 </div>
 <div class="section" id="spreadsheets">
-<h3>Spreadsheets<a class="headerlink" href="#spreadsheets" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Many authorities have information left in the spreadsheet, for
-example Microsoft Excel. This data can often be used immediately
-with the correct descriptions of what the different columns mean.</p>
-<p>However, in some cases there can be macros and formulas in spreadsheets,
-which may be somewhat more cumbersome to handle. It is therefore
-advisable to document such calculations next to the spreadsheet,
-since it is generally more accessible for users to read.</p>
+<h3>スプレッドシート<a class="headerlink" href="#spreadsheets" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>官公庁の多くは、Microsoft Excelなどのスプレッドシート形式のままで情報を残している。この形式のデータは、各カラムがどういう意味なのかという説明付きで扱える。</p>
+<p>しかし、場合によってはスプレッドシートの中でマクロや数式が使われていたりして、そのせいでデータが扱いづらくなっていることもある。そんな場合は、スプレッドシートとともにその計算式に関するドキュメントも用意しておくことが望ましい。そのほうが、ユーザーがデータを読みやすくなるからだ。</p>
 </div>
 <div class="section" id="comma-separated-files">
-<h3>Comma Separated Files<a class="headerlink" href="#comma-separated-files" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>CSV files can be a very useful format because it is compact and thus
-suitable to transfer large sets of data with the same structure.
-However, the format is so spartan that data are often useless without
-documentation since it can be almost impossible to guess the
-significance of the different columns. It is therefore particularly
-important for the comma-separated formats that documentation of the
-individual fields are accurate.</p>
-<p>Furthermore it is essential that the structure of the file is respected,
-as a single omission of a field may disturb the reading of all remaining
-data in the file without any real opportunity to rectify it, because
-it cannot be determined how the remaining data should be interpreted.</p>
+<h3>カンマ区切りファイル<a class="headerlink" href="#comma-separated-files" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>CSVファイルは非常に便利なフォーマットだ。コンパクトなので、同じような構造のデータを大量にやりとりするのに向いている。しかし、あまりにも質素なフォーマットなので、説明がなければまったく使いようがなくなってしまうこともよくある。各カラムの意味を推測するのはまず不可能だからである。そのため、カンマ区切りフォーマットの場合は各カラムがどんな意味なのかを表すドキュメントが特に重要になる。</p>
+<p>さらに、ファイルの構造を尊重することが大事になる。たった一つのフィールドを省略してしまうだけで、そのファイルの残りのデータがすべて台無しになってしまう。何らかの方法でデータを修正しない限り、どうにもならない。残りのデータをどのように解釈すべきなのかが決められないからだ。</p>
 </div>
 <div class="section" id="text-document">
-<h3>Text Document<a class="headerlink" href="#text-document" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Classic documents in formats like Word, ODF, OOXML, or PDF may be
-sufficient to show certain kinds of data - for example, relatively
-stable mailing lists or equivalent. It may be cheap to exhibit in,
-as often it is the format the data is born in. The format gives no
-support to keep the structure consistent, which often means that it is
-difficult to enter data by automated means. Be sure to use templates
-as the basis of documents that will display data for re-use, so it is
-at least possible to pull information out of documents.</p>
-<p>It can also support the further use of data to use typography markup
-as much as possible so that it becomes easier for a machine to
-distinguish headings (any type specified) from the content and so on.
-Generally it is recommended not to exhibit in word processing format,
-if data exists in a different format.</p>
+<h3>テキストドキュメント<a class="headerlink" href="#text-document" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>WordやODF、OOXML、あるいはPDFと言った昔ながらのドキュメントフォーマットも、ある種のデータを表示するには十分だったりする。比較的安定したメーリングリストなどがその一例だ。見栄えはあまりよくないかもしれない。これが、最初にデータをとりまとめたときのフォーマットであることが多い。データ構造の一貫性を保つための仕組みはない。つまり、データ入力を自動化するのは難しいということだ。再利用できるようデータを表示するためのドキュメントを作るときには、テンプレートを使うようにしよう。そうすれば、少なくとも外部のドキュメントから情報を取り込むことくらいはできるようになる。</p>
+<p>データの再利用を促すには、マークアップを可能な限り活用するといい。そうすれば、機械が通常のコンテンツと見出し(あるいはその他の何か)などを区別しやすくなる。データがさまざまな形式で存在するなら、ワープロ形式で表現するのは一般的に好ましくない。</p>
 </div>
 <div class="section" id="plain-text">
-<h3>Plain Text<a class="headerlink" href="#plain-text" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Plain text documents (.txt) are very easy for computers to read.
-They generally exclude structural metadata from inside the document
-however, meaning that developers will need to create a parser that
-can interpret each document as it appears.</p>
-<p>Some problems can be caused by switching plain text files between
-operating systems. MS Windows, Mac OS X and other Unix variants have
-their own way of telling the computer that they have reached the end
-of the line.</p>
+<h3>プレーンテキスト<a class="headerlink" href="#plain-text" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>プレーンテキスト(.txt)は、コンピューターが簡単に読み込める形式だ。しかし、構造に関するメタデータはドキュメント内に含まれないことが一般的である。つまり、ドキュメントを解釈するためのパーサーを開発者が作らないといけないということだ。</p>
+<p>プレーンテキストファイルを複数のOSで利用するときに、問題が発生することがある。MS WindowsやMac OS Xそしてその他Unix系のOSでは、行末に達したかどうかをコンピューターに伝える方法がそれぞれ違うのだ。</p>
 </div>
 <div class="section" id="scanned-image">
-<h3>Scanned image<a class="headerlink" href="#scanned-image" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Probably the least suitable form for most data, but both TIFF and
-JPEG-2000 can at least mark them with documentation of what is in
-the picture - right up to mark up an image of a document with full
-text content of the document. It may be relevant to their displaying
-data as images whose data are not born electronically - an obvious
-example is the old church records and other archival material - and
-a picture is better than nothing.</p>
+<h3>スキャン画像<a class="headerlink" href="#scanned-image" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>ほとんどのデータに関して、最も適切でない表現方法だと言えるだろう。しかし、TIFFやJPEG-2000は、少なくともその画像が何なのかの説明を記録できるようになっている。その画像に関するドキュメントは、完全なテキストコンテンツとなる。この形式で表現するデータとして意味があるのは、もともと電子データでなかったもの(古い教会の記録や古文書など)を画像化する場合だ。何もないよりは、少なくとも画像だけでもあったほうがマシだというものだ。</p>
 </div>
 <div class="section" id="proprietary-formats">
-<h3>Proprietary formats<a class="headerlink" href="#proprietary-formats" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Some dedicated systems, etc. have their own data formats that they
-can save or export data in. It can sometimes be enough to expose data
-in such a format - especially if it is expected that further use would
-be in a similar system as that which they come from. Where further
-information on these proprietary formats can be found should always be
-indicated, for example by providing a link to the supplier&#8217;s website.
-Generally it is recommended to display data in non-proprietary formats
-where feasible.</p>
+<h3>プロプライエタリなフォーマット<a class="headerlink" href="#proprietary-formats" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>専用システムなどでは、自前のデータフォーマットでファイルを保存したりデータを取り込んだりしているものもある。そんな場合は、そのフォーマットでデータを公開すれば十分だということもある。データを再利用するときにも同じシステムを使うであろうと思われる場合は特にそうだ。その独自フォーマットに関する情報が得られるところがあるのなら、常にそれを示しておかないといけない。たとえば開発元のWebサイトにリンクするなどだ。一般に、データを表すときにはできる限りプロプライエタリなフォーマットを避けるほうがよい。</p>
 </div>
 <div class="section" id="html">
 <h3>HTML<a class="headerlink" href="#html" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Nowadays much data is available in HTML format on various sites. This
-may well be sufficient if the data is very stable and limited in scope.
-In some cases, it could be preferable to have data in a form easier
-to download and manipulate, but as it is cheap and easy to refer
-to a page on a website, it might be a good starting point in the
-display of data.</p>
-<p>Typically, it would be most appropriate to use tables in HTML documents
-to hold data, and then it is important that the various data fields are
-displayed and are given IDs which make it easy to find and manipulate
-data. Yahoo has developed a tool (<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>)
-that can extract structured information from a website, and such tools
-can do much more with the data if it is carefully tagged.</p>
+<p>最近は、さまざまなサイトでいろんなデータがHTML形式で公開されるようになってきた。データの構造が安定していて、かつそのスコープも限られるのなら、HTMLで十分だろう。場合によっては、ダウンロードして加工しやすい形式でデータを公開したほうがいいこともある。しかし、ウェブサイト上のページを参照するのはお手軽だしコストもかからないので、データを公開するときの最初の一歩としてはこの形式でもかまわない。</p>
+<p>たいていは、HTMLドキュメントにデータを持たせるときにはtableを使うのが最適だろう。そして、各データフィールドが表示されてIDが与えられていれば、データを見つけたり操作したりするのがずっと楽になる。Yahooが開発したツール(<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>)を使うと、構造化された情報をウェブサイトから取り出せる。データがきちんとタグ付けされていれば、この手のツールの威力はさらに増す。</p>
 </div>
 </div>
 <div class="section" id="open-file-formats">
-<h2>Open File Formats<a class="headerlink" href="#open-file-formats" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Even if information is provided in electronic, machine-readable format,
-and in detail, there may be issues relating to the format of the file
-itself.</p>
-<p>The formats in which information is published – in other words, the
-digital base in which the information is stored - can either be “open”
-or “closed”. An open format is one where the specifications for the
-software are available to anyone, free of charge, so that anyone can
-use these specifications in their own software without any limitations
-on re-use imposed by intellectual property rights.</p>
-<p>If a file format is “closed”, this may be either because the file
-format is proprietary and the specification is not publicly available,
-or because the file format is proprietary and even though the
-specification has been made public, re-use is limited. If information
-is released in a closed file format, this can cause significant
-obstacles to reusing the information encoded in it, forcing those
-who wish to use the information to buy the necessary software.</p>
-<p>The benefit of open file formats is that they permit developers to
-produce multiple software packages and services using these formats.
-This then minimises the obstacles to reusing the information they
-contain.</p>
-<p>Using proprietary file formats for which the specification is not
-publicly available can create dependence on third-party software
-or file format license holders. In worst-case scenarios, this can mean
-that information can only be read using certain software packages,
-which can be prohibitively expensive, or which may become obsolete.</p>
-<p>The preference from the <a class="reference internal" href="../glossary.html#term-open-government-data"><em class="xref std std-term">open government data</em></a> perspective
-therefore is that information be released in <strong>open file formats
-which are machine-readable.</strong></p>
+<h2>オープンなファイルフォーマット<a class="headerlink" href="#open-file-formats" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>たとえ情報が電子データで提供されていたとしても、たとえ機械可読なフォーマットだったとしても、たとえ詳細な情報があったとしても、そのファイル自体のフォーマットに関する問題が出てくることがある。</p>
+<p>情報を公開するときのフォーマット(言い換えれば、情報をデジタル化して格納するときのベースになるフォーマット)は、オープンなものも選べるしクローズドなものも選べる。オープンなフォーマットとは、ソフトウェアで扱うときの仕様が公開されていて、誰でも無料で使えるフォーマットのことだ。自分のソフトウェアでこの仕様を使うときに、知的財産権などの絡みで再利用が制限されることもない。</p>
+<p>一方、クローズドなファイルフォーマットとは、プロプライエタリなフォーマットで仕様が公開されていなかったり、仕様は公開されているものの再利用に制限がかかっていたりするフォーマットのことだ。クローズドなフォーマットで情報が公開されている場合は、その情報を再利用するときの大きな障害になる可能性がある。情報を再利用したければ、必要なソフトウェアを購入せざるを得なくなるかもしれない</p>
+<p>オープンなファイルフォーマットを使う利点は、開発者がいろんなソフトウェアパッケージを作ってそのフォーマットを扱えるようにできるということだ。そこに含まれる情報を再利用するときの障壁を最小限に抑えることができる。</p>
+<p>仕様が公開されていないプロプライエタリなファイルフォーマットを使うと、サードパーティのソフトウェアやそのフォーマットのライセンス保持者に依存してしまうことになる。最悪の場合は、特定のソフトウェア製品がなければその情報を読めないということになってしまう。その特定のソフトウェア製品は法外な値段かもしれないし、保守対応が止まってしまう可能性もある。</p>
+<p>従って、 <a class="reference internal" href="../glossary.html#term-open-government-data"><em class="xref std std-term">open government data</em></a> の観点でのおすすめは、情報を公開するときには <strong>オープンなファイルフォーマットで機械可読なものを使おう</strong> ということだ。</p>
 <div class="section" id="example-uk-traffic-data">
-<h3>Example: UK traffic data<a class="headerlink" href="#example-uk-traffic-data" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Andrew Nicolson is a software developer who was involved in an
-(ultimately successful) campaign against the construction of a new
-road, the Westbury Eastern bypass, in the UK. Andrew was interested
-in accessing and using the road traffic data that was being used
-to justify the proposals. He managed to obtain some of the relevant
-data via freedom of information requests, but the local government
-provided the data in a proprietary format which can only be read
-using software produced by a company called Saturn, who specialise
-in traffic modelling and forecasting. There is no provision for
-a “read only” version of the software, so Andrew&#8217;s group had
-no choice but to purchase a software license, eventually paying
-£500 (€600) when making use of an educational discount. The main
-software packages on the April 2010 price list from Saturn start
-at £13,000 (over €15,000), a price which is beyond
-the reach of most ordinary citizens.</p>
-<p>Although no access to information law gives a right of access to
-information in open formats, open government data initiatives are
-starting to be accompanied by policy documents which stipulate that
-official information must be made available in open file formats.
-Setting the gold standard has been the Obama Administration, with
-the Open Government Directive issued in December 2009, which says:</p>
+<h3>例: イギリスの交通量データ<a class="headerlink" href="#example-uk-traffic-data" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>アンドリュー・ニコルソンはソフトウェア開発者で、かつてイギリスでWestbury Easternバイパスの建設反対運動に参加した(そして、大成功を収めた)。アンドリューが興味を持ったのは、道路の交通量データにアクセスしてそれを利用し、自分たちの提案を正当化させたことだ。彼は、関連するデータのいくつかを、情報リクエストの自由を使って偶然知った。しかし、約書が提供したデータはプロプライエタリなフォーマットで、Saturnなる企業が作るソフトウェアでしか読めないものだった。この企業は、交通量のモデリングや予測に特化した企業だった。このソフトウェアには「読み込み専用」のバージョンが用意されていなかったので、アンドリューたちは結局そのソフトウェアのライセンスを購入せざるを得なくなった。教育機関向けの割引を使って、最終的に支払ったのは£500 (€600) だ。2010年4月の時点で、Saturnのソフトウェアパッケージの価格は最低 £13,000 (€15,000 以上)から始まる。庶民にはとても手の届かない値段だ。</p>
+<p>オープンなフォーマットで情報にアクセスする権利を認めた情報法はないが、オープンガバメントデータの動きは政策の文書とともに始まった。公式情報を公開するときにはオープンなファイルフォーマットを使わないといけないというものだ。基準を定めたのはオバマ政権とOpen Government Directiveで、2009年12月に次のように言った。</p>
 <blockquote>
-<div><em>To the extent practicable and subject to valid restrictions,
-agencies should publish information online in an open format
-that can be retrieved, downloaded, indexed, and searched by
-commonly used web search applications. An open format is one
-that is platform independent, machine readable, and made
-available to the public without restrictions that would impede
-the re-use of that information.</em></div></blockquote>
+<div><em>現実的な範囲で妥当な制約に従う限り、政府機関が情報をオンラインで公開するときにはオープンなフォーマットを使わないといけない。データの取得やダウンロードそしてインデックス付けや検索を、一般的なWebの検索アプリケーションからできるようにする。オープンなフォーマットはプラットフォームに依存せず、機械可読であり、一般に公開するときい何も制約を課していない。そんなことをすればデータの再利用に支障が出るからだ。</em></div></blockquote>
 </div>
 </div>
 <div class="section" id="how-do-i-use-a-given-format">
-<h2>How do I use a given format?<a class="headerlink" href="#how-do-i-use-a-given-format" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>When an authority must exhibit new data – data that has not been
-exhibited before – you should choose the format that provides the
-best balance between cost and suitability for purpose. For each
-format there are some things you should be aware of, and this
-section aims to explain them.</p>
-<p>This section focuses only on how the cut surfaces are best arranged
-so that machines can access them directly. Advice and guidance about
-how web sites and web solutions should be designed can be found
-elsewhere.</p>
+<h2>このフォーマットをどう使えばいいのか？<a class="headerlink" href="#how-do-i-use-a-given-format" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>官公庁が新しいデータ(これまで公開されていなかったもの)を公開するときには、利用目的との適合性とコストとの間でのバランスをうまくとらないといけない。どんなフォーマットにも注意すべき点があるので、ここではそれを説明する。</p>
+<p>このセクションでは、うまい切り口でマシンが直接データにアクセスできるようにするためにはどうすればいいのかだけに注目する。ウェブサイトのうまい作りかたなどについては、他をあたって欲しい。</p>
 <div class="section" id="web-services">
-<h3>Web services<a class="headerlink" href="#web-services" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>For data that changes frequently, and where each pull is limited
-in size, it is very relevant to expose data through web services.
-There are several ways to create a web service, but some of the
-most used is SOAP and REST. Generally, SOAP over REST, REST services,
-but are very easy to develop and use, so it is a widely used standard.</p>
+<h3>Webサービス<a class="headerlink" href="#web-services" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>頻繁に変わるデータで、一度に取得するデータサイズが限られている場合は、データをウェブサービス経由で公開するのが適している。ウェブサービスを作る方法はいろいろあるが、中でもよく使われているのがSOAPとRESTだ。SOAPのほうがRESTより優勢だが、RESTサービスは開発がとても楽だし使いやすいので、広く標準として使われている。</p>
 </div>
 <div class="section" id="database">
-<h3>Database<a class="headerlink" href="#database" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Like web services, databases provide direct access to data dynamically.
-Databases have the advantage that they can allow users to put together
-just the extraction that they are interested in.</p>
-<p>There are some security concerns about allowing remote database
-extraction and database access is only useful if the structure of
-the database and the importance of individual tables and fields are
-well documented. Often, it is relatively simple and inexpensive
-to create web services that expose data from a database, which can be
-an easy way to address safety concerns.</p>
+<h3>データベース<a class="headerlink" href="#database" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>ウェブサービスと同様にデータベースも、データへの動的なアクセス機能を提供できる。データベースの利点は、ユーザーが自分の欲しいデータだけを取り出せるようにできるということだ。</p>
+<p>リモートからデータベースにアクセスさせるというのには、セキュリティ的な問題もある。また、データベースの構造は各テーブルおよびフィールドの意味がきちんとドキュメント化されていなければ、うまく使えない。たいていは、データベースから取り出したデータを公開するためのウェブサービスを作るほうが比較的シンプルになるし安くつく。セキュリティ的な問題に対応するのも、こちらのほうが簡単だ。</p>
 </div>
 </div>
 </div>
@@ -299,15 +164,15 @@ an easy way to address safety concerns.</p>
 <li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">オープンデータとは何か?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">データをオープンにするには</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">データはオープンにした。それからどうする?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Appendices</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="">File Formats</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">An Overview of File Formats</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">Open File Formats</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">How do I use a given format?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">用語集</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">付録</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">ファイルフォーマット</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">ファイルフォーマットの概要</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">オープンなファイルフォーマット</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">このフォーマットをどう使えばいいのか？</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">What Legal (IP) Rights Are There in Data(bases)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">データ(データベース)の法的な知的所有権について</a></li>
 </ul>
 </li>
 </ul>
@@ -361,17 +226,13 @@ an easy way to address safety concerns.</p>
 <footer>
   <div class="inner">
     <div class="container">
-      <p>An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
 
 <p class="copyright">
-  &copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
-    Licensed under <a
-    href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
-    Attribution (Unported) v3.0 License</a>.<br />
-    <img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
-    <a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" 
-      alt="{{ _('Open Content') }}" /></a>
-  <br/>
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
 </p>
 
 <p>
@@ -388,13 +249,13 @@ an easy way to address safety concerns.</p>
 Related Projects:
 <a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
 &mdash;
-<a href="http://thedatahub.org/">TheDataHub.org</a>
+<a href="http://datahub.io/">The DataHub</a>
 &mdash;
 <a href="http://datacatalogs.org">DataCatalogs.org</a>
 &mdash;
 <a href="http://openspending.org">OpenSpending.org</a>
 &mdash;
-<a href="http://datapatterns.org">DataPatterns.org</a>
+<a href="http://schoolofdata.org">School of Data</a>
 </p>
 
     </div>

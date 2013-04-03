@@ -1,5 +1,6 @@
+==================
 Open Data Handbook
-================
+==================
 
 Introduction
 ------------
@@ -72,25 +73,36 @@ Details:
 |    ``translation`` is where our i18n files are kept
 
 
-Rendering the handbook
---------------------
+Rendering the handbook to HTML
+------------------------------
+
+Rendering the handbook in 'source' language (english). For rendering to other
+languages see below.
 
 1. Move into the base directory of the project::
 
     cd opendatahandbook
 
-3. Install `Sphinx`_, with a minimum version of 0.6. Instructions for 
+2. Install `Sphinx`_, with a minimum version of 1.1. Instructions for 
    Debian and Ubuntu::
 
     apt-get install python-sphinx
+
+3. Make sure you have got the theme (provided by git submodule)::
+
+    git submodule init
+    git submodule update
 
 4. Render the HTML, using ``make``::
 
     make html
 
 
-Building for Translation (i18n)
--------------------------------
+Translations
+------------
+
+Building the English Source for Translation (i18n)
+++++++++++++++++++++++++++++++++++++++++++++++++++
 
 **Important**. You will need to install Sphinx >= v1.1 for this to work.
 
@@ -104,8 +116,22 @@ Generating pot files
 2. Add or update the ``translated/all.pot`` file as a resource on
    https://www.transifex.net/projects/p/opendatahandbook/.
 
-Adding a new language
-~~~~~~~~~~~~~~~~~~~~~
+Updating the Translation with New Source Text
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Simple version: just upload a new all.pot to transifex.
+
+WARNING: this will immediately update all translation files and will usually
+discard any translations of strings that have changed however the trivial the
+change is.
+
+
+.. _Open Data Handbook: http://opendatahandbook.org/
+.. _Open Knowledge Foundation: http://okfn.org/
+.. _Sphinx: http://sphinx.pocoo.org/
+
+Adding Translations
++++++++++++++++++++
 
 We use transifex for this.
 
@@ -113,7 +139,10 @@ We use transifex for this.
 2. Add translation for specified language (and a team)
 
 Building a translation of the handbook
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+++++++++++++++++++++++++++++++++++++++
+
+Note: you should do steps 1-3 in the `master` branch (and committed there).
+Step 4 would only be committed as part of Deploying (see next section).
 
 1. Download the translated all.pot file and copy it to (where ``lang`` 
    is a 2-digit `ISO code <http://en.wikipedia.org/wiki/ISO_3166-1>`_)::
@@ -133,23 +162,8 @@ Building a translation of the handbook
 
     make html lang={lang}
 
-Updating the Translation with New Source Text
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Simple version: just upload a new all.pot to transifex.
-
-WARNING: this will immediately update all translation files and will usually
-discard any translations of strings that have changed however the trivial the
-change is.
-
-
-.. _Open Data Handbook: http://opendatahandbook.org/
-.. _Open Knowledge Foundation: http://okfn.org/
-.. _Sphinx: http://sphinx.pocoo.org/
-
-
 Deploying the Handbook
-----------------------
+++++++++++++++++++++++
 
 We use github pages to host the handbook at the present (in the past we have
 used s3 and readthedocs).
@@ -181,4 +195,8 @@ The following as walkthrough of a deployment::
   # this will auto-update http://opendatahandbook.org/
   # up until this moment nothing will have changed on the website
   git push
+
+Note: if you are adding a new translation you will want to add it to the
+dropdown list at the top of the index.html file (index.html in this root folder
+- note edit index.html in gh-pages branch not master!).
 

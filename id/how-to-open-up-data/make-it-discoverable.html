@@ -1,0 +1,229 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Jadikan data mudah ditemukan &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Cara Membuka Data" href="index.html" />
+    <link rel="next" title="Nah Saya Sudah Membukakan Beberapa Data, Selanjutnya Apa?" href="../following-up/index.html" />
+    <link rel="prev" title="Menjadikan Data Tersedia (Teknis Keterbukaan)" href="make-data-available.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-discoverable">
+<h1>Jadikan data mudah ditemukan<a class="headerlink" href="#make-data-discoverable" title="Permalink to this headline">¶</a></h1>
+<p><em class="xref std std-term">Data terbuka</em> tidak berarti tanpa para pengguna. Anda perlu untuk memastikan bahwa orang-orang dapat dengan mudah menemukan sumber material tersebut. Seksi ini akan mencakup beberapa pendekatan yang berbeda.</p>
+<p>Yang paling penting adalah menyediakan ruang netral yang dapat mengakomodasi baik politik antar-lembaga maupun siklus anggaran di masa depan. Perbatasan yurisdiksi, baik sektoral maupun geografis, dapat membuat kerjasama menjadi hal yang sulit. Namun, ada manfaat yang signifikan ketika bergabung. Semakin mudah bagi orang luar untuk menemukan data, maka perangkat-perangkat akan semakin cepat dibangun dan semakin meningkat kegunaannya.</p>
+<div class="section" id="existing-tools">
+<h2>Perangkat tersedia<a class="headerlink" href="#existing-tools" title="Permalink to this headline">¶</a></h2>
+<p>Terdapat banyak perangkat yang tersedia secara langsung di web yang didesain secara khusus untuk membuat data menjadi lebih mudah ditemukan.</p>
+<p>Salah satu yang paling menonjol adalah <a class="reference internal" href="#datahub">DataHub</a> yang berbentuk sebuah katalog dan penyimpanan data dari seluruh dunia. Situs ini memudahkan para individu dan organisasi untuk mempublikasikan material dan membantu para pengguna data untuk menemukan material yang mereka butuhkan.</p>
+<p>Sebagai tambahan, terdapat lusinan spesialis katalog untuk sektor dan tempat yang berbeda. Banyak dari komunitas ilmu pengetahuan telah membuat sebuah sistem katalog untuk bidang mereka, sebagaimana data yang sering dibutuhkan untuk publikasi.</p>
+</div>
+<div class="section" id="for-government">
+<h2>Untuk pemerintahan<a class="headerlink" href="#for-government" title="Permalink to this headline">¶</a></h2>
+<p>Seperti yang telah muncul, praktik ortodoks adalah untuk lembaga utama yang  membuat katalog untuk data pemerintah. Saat menetapkan katalog, cobalah untuk membuat beberapa struktur yang memungkinkan banyak departemen dapat dengan mudah menyimpan informasi mereka sendiri.</p>
+<p>Menahan diri dari tergesa-gesa untuk membangun dari awal perangkat lunak pendukung katalog. Ada banyak solusi perangkat lunak yang bebas dan open source (seperti <a class="reference internal" href="#ckan">CKAN</a>) yang telah banyak diadopsi oleh pemerintah. Dengan demikian, investasi di platform lain mungkin tidak akan diperlukan lagi.</p>
+<p>Ada beberapa hal yang sering diabaikan oleh katalog data terbuka. Program Anda sebaiknya mempertimbangkan hal-hal berikut ini:</p>
+<ul class="simple">
+<li>Memberikan sebuah jalan yang dapat memungkinkan sektor swasta dan masyarakat untuk menambahkan data mereka. Hal ini mungkin dapat bermanfaat untuk mulai mempertimbangkan katalog tersebut sebagai sebuah katalog daerah, bukan sebagai katalog pemerintah daerah.</li>
+<li>Peningkatan fasilitas dari data dengan memperkenankan derivatif dari kumpulan data untuk dikatalogkan. Sebagai contoh, seseorang mentransformasikan alamat menjadi kode geo dan mungkin hasilnya dibagikan ke setiap orang. Bila anda hanya memperkenankan versi tunggal kumpulan-kumpulan datanya, peningkatan-peningkatan ini hanya akan menjadi tersembunyi.</li>
+<li>Berilah toleransi pada data anda agar bisa muncul di tempat lain. Ini artinya, konten anda mungkin akan digandakan untuk kepentingan masyarakat. Jika anda memiliki data tentang pemantauan ketinggian debit sungai yang sudah siap tersedia, maka data anda mungkin muncul dalam katalog untuk hidrologis.</li>
+<li>Pastikan setiap akses diperlakukan dengan adil. Cobalah untuk menghindari pembuatan tingkat akses istimewa yang ditujukan bagi para pejabat atau peneliti punya kedudukan penting karena hal ini akan melemahkan partisipasi dan hubungan dengan masyarakat.</li>
+</ul>
+<div class="section" id="for-civil-society">
+<h3>Untuk masyarakat sipil<a class="headerlink" href="#for-civil-society" title="Permalink to this headline">¶</a></h3>
+<p>Jadilah pihak yang bersedia membuat katalog tambahan untuk data yang bersifat tidak-resmi.</p>
+<p>Adalah sangat jarang bagi pemerintah untuk mengasosiasikannya dengan sumber-sumber yang bersifat tidak resmi atau non-otoritatif. Para pejabat seringkali mengeluarkan biaya besar untuk memastikan bahwa tidak akan ada rasa malu masalah politik atau ancaman lain yang disebabkan dari penyalahgunaan atau kepercayaan yang berlebih pada data.</p>
+<p>Selain itu, pemerintah tampaknya tidak akan bersedia untuk mendukung kegiatan yang berpotensi dapat mengacaukan informasi mereka dengan informasi dari bisnis. Pemerintah berhak skeptis terhadap segala motif  yang berlatar keuntungan. Oleh karena itu, katalog independen untuk masyarakat, usaha kelompok dan lainnya dapat dibenarkan.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Pengenalan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Mengapa Data Terbuka?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Apakah Data Terbuka itu?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Cara Membuka Data</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Pilih Kumpulan data(s)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Menerapkan sebuah Lisensi Terbuka (Keterbukaan Resmi)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="make-data-available.html">Menjadikan Data Tersedia (Teknis Keterbukaan)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Jadikan data mudah ditemukan</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#existing-tools">Perangkat tersedia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#for-government">Untuk pemerintahan</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Nah Saya Sudah Membukakan Beberapa Data, Selanjutnya Apa?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Kamus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Lampiran</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

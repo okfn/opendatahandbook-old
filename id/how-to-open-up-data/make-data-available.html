@@ -1,0 +1,262 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Menjadikan Data Tersedia (Teknis Keterbukaan) &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="Cara Membuka Data" href="index.html" />
+    <link rel="next" title="Jadikan data mudah ditemukan" href="make-it-discoverable.html" />
+    <link rel="prev" title="Menerapkan sebuah Lisensi Terbuka (Keterbukaan Resmi)" href="apply-an-open-license.html" />
+
+  </head>
+  <body>
+  
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench-inverted.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+        <a class="okfn-logo pull-right" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+          <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+        </a>
+        
+        
+          
+<form class="pull-right navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query span2" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="content">
+       
+  <div class="section" id="make-data-available-technical-openness">
+<h1>Menjadikan Data Tersedia (Teknis Keterbukaan)<a class="headerlink" href="#make-data-available-technical-openness" title="Permalink to this headline">¶</a></h1>
+<p><em class="xref std std-term">Data terbuka</em> membutuhkan keterbukaan secara teknis sebagaimana keterbukaan yang resmi secara hukum. Khususnya, data harus bisa tersedia secara masal dalam format <em class="xref std std-term">yang dapat dibaca mesin</em>.</p>
+<dl class="docutils">
+<dt>Available</dt>
+<dd>Data seharusnya dihargai tidak lebih dari biaya reproduksi yang wajar,  sebaiknya dijadikan sebagai unduhan gratis dari internet. Model penghargaan ini dapat dicapai karena lembaga anda tidak perlu menangani biaya apapun saat menyediakan data untuk digunakan.</dd>
+<dt>In bulk</dt>
+<dd>Data harus tersedia dalam kumpulan yang lengkap. Jika anda memiliki daftar yang dikoleksi di bawah aturan undang-undang, seluruh daftar tersebut  harus tersedia untuk diunduh. Sebuah API web atau layanan serupa juga dapat menjadi sangat berguna, tetapi peran mereka bukan sebagai sebuah pengganti untuk akses masal.</dd>
+<dt>In an open, machine-readable format</dt>
+<dd>Penggunaan-ulang data yang disediakan oleh sektor publik tidak seharusnya tunduk pada pembatasan paten. Lebih penting lagi, pastikan bahwa anda telah menyediakan format yang dapat dibaca mesin yang memungkinkan untuk penggunaan-ulang yang lebih luas lagi. Untuk mengilustrasikannya, anggaplah statistik yang dipublikasikan sebagai dokumen <abbr title="Portable Document Format">PDF</abbr>, daripada digunakan untuk kepentingan pencetakan yang berkualitas tinggi. Sementara statistik ini dapat dibaca oleh manusia, namun sangat sulit bagi komputer untuk menggunakannya. Hal ini akan sangat membatasi kemampuan yang lainnya untuk menggunakan ulang data.</dd>
+</dl>
+<p>Berikut ini beberapa kebijakan yang akan sangat menguntungkan:</p>
+<ul class="simple">
+<li>Buat seringkas mungkin,</li>
+<li>Bergerak cepat</li>
+<li>Jadilah pragmatis.</li>
+</ul>
+<p>Secara khusus akan lebih baik memberikan data mentah sekarang daripada data yang sempurna dalam waktu enam bulan.</p>
+<p>Terdapat banyak cara yang berbeda untuk menjadikan data tersedia bagi yang lain. Yang paling alami di era internet adalah publikasi secara daring. Terdapat banyak variasi dari model ini. Yang paling mendasar, lembaga-lembaga telah membuat data mereka tersedia melalui situs web mereka sendiri dan sebuah katalog sentral mengarahkan pengunjung ke sumber yang tepat. Namun, terdapat pula alternatifnya.</p>
+<p>Ketika <em class="xref std std-term">konektivitas</em> menjadi terbatas atau ukuran data menjadi sangat besar, maka pendistribusian dengan menggunakan format lain dapatlah dibenarkan. Bagian ini juga mendiskusikan beberapa alternatif, yang dapat dilakukan untuk menjaga beban biaya tetap kecil.</p>
+<div class="section" id="online-methods">
+<h2>Metode daring<a class="headerlink" href="#online-methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="via-your-existing-website">
+<h3>Melalui situs anda yang telah ada<a class="headerlink" href="#via-your-existing-website" title="Permalink to this headline">¶</a></h3>
+<p>Sistem yang paling mudah dikenali tim konten web anda adalah dengan menyediakan beberapa file untuk diunduh dari halaman web. Sama seperti anda saat ini yang menyediakan akses ke dokumen diskusi, file-file data lebih disukai menjadi tersedia dengan cara ini.</p>
+<p>Salah satu kesulitan dalam pendekatan ini adalah sangat sulit bagi orang luar untuk menemukan keberadaan informasi yang telah diperbarui. Pilihan ini menambah beban pada orang-orang untuk menciptakan perangkat tambahan pada data Anda.</p>
+</div>
+<div class="section" id="via-3rd-party-sites">
+<h3>Melalui situs pihak ke-3<a class="headerlink" href="#via-3rd-party-sites" title="Permalink to this headline">¶</a></h3>
+<p>Banyak repositori telah menjadi pusat data dalam bidang tertentu. Sebagai contoh, pachube.com didesain untuk menghubungkan orang-orang dengan sensor bagi mereka yang berharap untuk mengakses data darinya. Situs seperti Infochimps.com dan Talis.com memperkenankan lembaga sektor publik untuk menyimpan data raksasa untuk digratiskan.</p>
+<p>Situs pihak ketiga bisa sangat berguna. Alasan utama untuk hal ini adalah mereka telah dikumpulkan bersama-sama dengan sebuah komunitas dari orang-orang yang berminat dan bersama kumpulan-kumpulan data lainnya. Ketika data anda menjadi bagian dari platform ini, bentuk ketertarikan yang positif diciptakan.</p>
+<p>Platform grosir data sudah menyediakan infrastruktur yang dapat mendukung kebutuhan. Mereka bahkan menyediakan informasi analisis dan penggunaannya. Untuk lembaga sektor publik, mereka secara umum gratis.</p>
+<p>Platform ini dapat mempunyai dua beban. Yang pertama adalah kebebasan. Lembaga anda harus mampu menghasilkan kendali kepada orang lain. Hal ini seringkali membuat sulit secara politik, hukum atau operasionalnya. Beban kedua mungkin adalah keterbukaan. Pastikan bahwa platform data anda tidak mempedulikan tentang siapa yang dapat mengaksesnya. Para pengembang perangkat lunak dan para ilmuwan menggunakan banyak sistem operasi, mulai dari ponsel pintar hingga superkomputer. Mereka semuanya harus dapat mengakses data tersebut.</p>
+</div>
+<div class="section" id="via-ftp-servers">
+<h3>Melalui server FTP<a class="headerlink" href="#via-ftp-servers" title="Permalink to this headline">¶</a></h3>
+<p>Sebuah metode yang kurang modis dalam penyediaan akses adalah melalui File Transfer Protocol (FTP). Ini mungkin cocok bila pemirsa anda adalah teknisi, seperti pengembang perangkat lunak dan ilmuwan. Sistem FTP berjalan dalam kerangka HTTP, tetapi ia secara khusus didesain untuk mendukung transfer file.</p>
+<p>FTP jauh dari kenikmatan. Daripada menyediakan sebuah situs, melihat melalui sebuah server FTP mirip seperti melihat folder pada komputer. Oleh karena itu, meskipun itu sesuai dengan tujuan, ada kapasitas yang jauh lebih sedikit bagi perusahaan pengembang web untuk membebankan biaya penyesuaian.</p>
+</div>
+<div class="section" id="as-torrents">
+<h3>Sebagai torrent<a class="headerlink" href="#as-torrents" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="../glossary.html#term-bittorrent"><em class="xref std std-term">BitTorrent</em></a> adalah sebuah sistem yang telah menjadi akrab bagi para pembuat kebijakan karena korelasinya dengan isu pelanggaran hak cipta. BitTorrent menggunakan file-file yang disebut torrent, yang bekerja dengan memisahkan biaya distribusi file-file di antara orang-orang yang mengakses file-file tersebut. Alih-alih, server menjadi kelebihan beban, pasokan menjadi meningkat seiring dengan  meningkatnya permintaan. Hal inilah yang menjadi alasan sistem ini menjadi sangat sukses dalam berbagi film. Ini adalah cara yang luar biasa efisiennya untuk mendistribusikan volume data yang sangat besar.</p>
+</div>
+<div class="section" id="as-an-api">
+<h3>Sebagai sebuah API<a class="headerlink" href="#as-an-api" title="Permalink to this headline">¶</a></h3>
+<p>Data dapat dipublikasikan melalui <a class="reference internal" href="../glossary.html#term-application-programming-interface"><em class="xref std std-term">Application Programming Interface</em></a> (API). Antarmuka ini telah menjadi sangat populer. Ia memungkinkan para pemrogram untuk memilih secara spesifik jumlah datanya, daripa menyediakan semua data secara masal dengan sebuah file yang besar. API biasanya terhubung ke basisdata yang terus diperbarui secara aktual. Hal ini berarti membuat informasi menjadi tersedia melalui API dapat memastikan data itu selalu terperbarui.</p>
+<p>Mempublikaskan data mentah secara masal harus menjadi perhatian khusus dari semua inisiatif data terbuka. Terdapat jumlah biaya untuk menyediakan sebuah API:</p>
+<ol class="arabic simple">
+<li>Harga. Mereka membutuhkan lebih banyak pengembangan dan pemeliharaan daripada menyediakan file.</li>
+<li>Harapan. Dalam rangka mendorong komunitas pengguna di balik sistem, sangatlah penting untuk memberikan kepastian. Ketika terjadi sesuatu yang buruk, anda akan diharapkan menanggung biaya untuk memperbaikinya.</li>
+</ol>
+<p>Akses ke data masal dapat memastikan bahwa:</p>
+<ol class="loweralpha simple">
+<li>tidak ada ketergantungan dengan penyedia data orisinal, yang berarti sekalipun terjadi restrukturisasi atau siklus anggaran yang mengubah situasi, namun data masih tetap tersedia.</li>
+<li>Siapapun bisa mendapatkan sebuah salinannya dan mendistribusikannya. Hal ini akan menekan biaya distribusi pada lembaga sumber dan dapat memastikan tidak akan ada kegagalan sedikitpun.</li>
+<li>lainnya dapat membangun layanan mereka sendiri menggunakan data tersebut, karena mereka punya keyakinan bahwa data tersebut tidak akan diambil dari mereka.</li>
+</ol>
+<p>Menyediakan data secara masal memungkinkan orang lain untuk menggunakan data di luar tujuan awalnya. Misalnya, hal itu dapat memungkinkan untuk diubah menjadi format baru, terkait dengan sumber daya lainnya, atau diversi dan arsiparis di banyak tempat. Sedangkan versi terbaru dari data dapat dibuat tersedia melalui API, data mentah harus disediakan dalam jumlah besar secara berkala.</p>
+<p>Sebagai contoh, <a class="reference internal" href="#eurostat-statistical-service">Eurostat statistical service</a> mempunyai fasilitas pengunduhan masal yang menawarkan lebih dari 4000 file data. Selalu diperbarui dua hari sekali, menawarkan data dalam format <a class="reference internal" href="../glossary.html#term-tab-separated-values"><em class="xref std std-term">Tab-separated values</em></a> (TSV), dan termasuk dokumentasi mengenai fasilitas pengunduhan sebagaimana dokumentasi tentang file datanya.</p>
+<p>Contoh lainnya adalah <a class="reference internal" href="#district-of-columbia-data-catalog">District of Columbia Data Catalog</a>, yang memungkinkan data untuk diunduh dalam format CSV dan XLS dan sebagai tambahannya feeds langsung dari data.</p>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well sidebar-nav">
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Pengenalan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">Mengapa Data Terbuka?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">Apakah Data Terbuka itu?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Cara Membuka Data</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">Pilih Kumpulan data(s)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">Menerapkan sebuah Lisensi Terbuka (Keterbukaan Resmi)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Menjadikan Data Tersedia (Teknis Keterbukaan)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#online-methods">Metode daring</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="make-it-discoverable.html">Jadikan data mudah ditemukan</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">Nah Saya Sudah Membukakan Beberapa Data, Selanjutnya Apa?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Kamus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">Lampiran</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      </div><!--/.well -->
+    </div><!--/span-->
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

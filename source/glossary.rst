@@ -136,7 +136,7 @@ Glossary
        considerably the cross-border use of public sector documents. 
        Member States should therefore ensure that practical arrangements 
        are in place that help re-users in their search for documents 
-       available for re-use. Assets lists, accessible preferably online, 
+       available for reuse. Assets lists, accessible preferably online, 
        of main documents (documents that are extensively re-used or 
        that have the potential to be extensively re-used), and portal 
        sites that are linked to decentralised assets lists are examples 

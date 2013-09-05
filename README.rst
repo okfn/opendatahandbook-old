@@ -191,6 +191,7 @@ The following as walkthrough of a deployment::
   git status
   # add relevant files
   # e.g. add *all* changes for the lang you updated git add -u {lang}
+  # this would usually be git add {lang}
   git add {relevant-files}
   git commit -m "[build][s]: build latest version of language ..."
 

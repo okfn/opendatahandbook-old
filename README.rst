@@ -149,6 +149,9 @@ Step 4 would only be committed as part of Deploying (see next section).
    
     translation/{lang}/LC_MESSAGES/all.po
 
+   Note that is not a typo: you download the all.po**t** file but save it as
+   all.po (no t!).
+
 2. Build the mo file::
 
     make msgfmt lang={lang}

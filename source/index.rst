@@ -16,6 +16,15 @@ We warmly welcome comments on the text and will incorporate feedback
 as we go forward. We also welcome contributions or suggestions for 
 additional sections and areas to examine.
 
+History
+=======
+
+History
+
+The Open Data Manual was created at a weekend sprint in late 2010. 
+It was published under the new title Open Data Handbook in February 2012. 
+For more information, see `https://github.com/okfn/opendatahandbook <https://github.com/okfn/opendatahandbook>`.
+
 
 Table of Contents
 =================

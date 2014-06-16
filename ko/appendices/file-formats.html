@@ -1,0 +1,339 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>파일 형식 &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다." href="index.html" />
+    <link rel="next" title="어떤 법적 (IP) 권리가 데이터(베이스)에 있는가" href="what-legal-ip-rights-are-there-in-databases.html" />
+    <link rel="prev" title="원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다." href="index.html" />
+
+  </head>
+  <body>
+  
+
+  <div id="okf-panel" class="collapse"><iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></div>
+
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+         
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+          <div class="okfn-ribbon"><a href="http://okfn.org/" data-toggle="collapse" data-target="#okf-panel" title="Part of the Open Knowledge Foundation Network">An Open Knowledge Foundation Site</a></div>
+        
+        <div class="pull-right navbar-search span3">
+          
+              <h3 class="searchheading">Quick search</h3>
+<form class="searchbox" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+<small class="searchtip">Enter search terms or a module, class or function name.</small>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="sub-header">
+  <ul class="container breadcrumb">
+      <li><a href="../index.html">Open Data Handbook</a> &raquo;</li>
+      <li><a href="index.html"
+            accesskey="U">
+            원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.
+          </a> &raquo;</li>
+      <li><a href="">
+            파일 형식
+          </a></li>
+  </ul>
+</div>
+ 
+<div class="container">
+  <div class="row">
+    <div class="span3">
+      
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">서론</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">왜 데이터를 공개해야 되는가?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">열린 데이터란 무엇인가?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">어떻게 데이터를 공개할 것인가</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">자, 데이터를 공개한 후 다음은?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">용어 사전</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">파일 형식</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#an-overview-of-file-formats">파일 형식의 개요</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#open-file-formats">오픈 파일 형식</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-i-use-a-given-format">어떻게 주어진 형식을 사용할 것인가</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="what-legal-ip-rights-are-there-in-databases.html">어떤 법적 (IP) 권리가 데이터(베이스)에 있는가</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      
+    </div><!--/span-->
+    <div class="span7 offset1">
+      <div class="content">
+
+        
+  <div class="section" id="file-formats">
+<h1>파일 형식<a class="headerlink" href="#file-formats" title="제목 주소">¶</a></h1>
+<div class="section" id="an-overview-of-file-formats">
+<h2>파일 형식의 개요<a class="headerlink" href="#an-overview-of-file-formats" title="제목 주소">¶</a></h2>
+<div class="section" id="json">
+<h3>JSON<a class="headerlink" href="#json" title="제목 주소">¶</a></h3>
+<p>JSON은 어떤 프로그래밍 언어로도 읽을 수 있는 단순한 파일 포맷으로, 이때 단순함은 XML 같은 포맷에 비해 컴퓨터가 처리하기 쉽다는 것을 의미한다.</p>
+</div>
+<div class="section" id="xml">
+<h3>XML<a class="headerlink" href="#xml" title="제목 주소">¶</a></h3>
+<p>XML은 데이터 상호교환을 위해 폭넓게 사용되는 포맷으로, 데이터 구조를 유지하는데 유리하며 개발자는 파일을 읽는 간섭없이 데이터에 문서의 일부를 작성할 수 있다.</p>
+</div>
+<div class="section" id="rdf">
+<h3>RDF<a class="headerlink" href="#rdf" title="제목 주소">¶</a></h3>
+<p>W3C가-권고하는 포맷인 RDF는 다수의 자료원으로부터 데이터를 쉽게 조합할 수 있는 형식으로 데이터를 표현할 수 있다. RDF 데이터는 여러 가지 직렬화 방법이 있으며, XML과 JSON으로 저장될 수 있다. RDF는 웹에 있는 <em class="xref std std-term">열린 데이터</em> 이니셔티브를 서로 연결하는데 편리한 방법을 제공하는 식별자로 URL 사용을 장려한다. RDF는 폭넓게 확산되어 있지 않지만, 영국과 스페인 정부의 Linked Data 프로젝트를 포함한 열린 정부 이니셔티브 사이에서 트렌드가 되고 있다. 웹의 창시자인 팀 버너스리는 최근 5개 별 스키마를 제안하였는데, 이는 오픈데이터 이니셔티브들이 추구하는 목표로써 연결된 RDF 데이터를 포함하고 있다.</p>
+</div>
+<div class="section" id="spreadsheets">
+<h3>스프레드시트<a class="headerlink" href="#spreadsheets" title="제목 주소">¶</a></h3>
+<p>많은 정부 기관이 마이크로소프트 엑셀과 같은 스프레드시트로 정보를 갖고 있다. 이러한 데이터는 서로 다른 컬럼의 의미를 올바르게 기술하기 위해 사용될 수 있다.</p>
+<p>그러나 때로는 스프레드쉬트안에 다루기 어려운 매크로와 공식이 있기 때문에, 사용자가 읽기 쉽도록 해당 스프레드시트와 나란히 계산 공식을 제공하는 것이 바람직하다</p>
+</div>
+<div class="section" id="comma-separated-files">
+<h3>콤마로 구분된 파일<a class="headerlink" href="#comma-separated-files" title="제목 주소">¶</a></h3>
+<p>CSV 파일은 간결하고 동일한 구조로 대용량 데이터 집합을 전송하기 위해 적합하기 때문에 매우 유용한 형식이 될 수 있다. 그러나 이 형식으로 표현된 데이터는 별도의 문서가 없을 경우 서로 다른 컬럼의 중요성을 추측하는 불가능하여 유용성이 떨어질 수 있다.  따라서 개별 필드에 대한 문서화가 정확하게 만드는 것이 콤마로 구분된 형식에 중요하다.</p>
+<p>더구나 파일 구조가 침해받지 않아야 된다. CSV 파일에서 하나의 필드가 삭제되면 나머지 데이터를 해석하기 위한 방법이 없기 때문에, 파일 수정 없이는 남아있는 모든 데이터의 해석이 방해 받을 수 있다.</p>
+</div>
+<div class="section" id="text-document">
+<h3>텍스트 문서<a class="headerlink" href="#text-document" title="제목 주소">¶</a></h3>
+<p>Word, ODF, OOXML, PDF와 같은 포맷의 표준적인 문서들은 일정한 종류의 데이터를 보여주는데 충분하다 - 예를 들어 비교적 안정적인 메일링 리스트 또는 이와 유사한.  이 포맷은 일관적으로 구조를 유지하지 않으며 자동적으로 데이터를 입력하기 어려울 수 있다. 데이터를 재사용할 수 있게 보여주기 위해 문서의 기준으로 템플릿을 사용한다면, 최소한 정보를 문서 밖으로 추출할 수 있다.</p>
+<p>(어떤 형식인지 기록된) 기계가 콘텐트로부터 표제를 구분하기 쉽게 되어 가능한 많은 활자 마크업을 이용하는 것은 데이터의 추가 사용을 이끌어낼 수 있다. 일반적으로 다른 포맷으로 데이터가 있다면, 워드 프레세싱 포맷에 표현하는 것을 추천하지 않는다.</p>
+</div>
+<div class="section" id="plain-text">
+<h3>Plain Text<a class="headerlink" href="#plain-text" title="제목 주소">¶</a></h3>
+<p>일반 텍스트 문서 (.txt) 는 컴퓨터가 읽기 매우 쉬우며, 문서 내에 구조화된 메타데이터를 갖지 않는다. 즉 개발자는 개별 문서를 처리할 수 있는 파서를 개발할 필요가 있다.</p>
+<p>운영체제 사이에서 일반 텍스트 문서를 전환할 때 문제가 생길 수 있다. MS 윈도우, Mac OSX, Unix 시스템은 라인 끝을 처리하는 서로 다른 방식을 갖고 있다.</p>
+</div>
+<div class="section" id="scanned-image">
+<h3>스캔된 이미지<a class="headerlink" href="#scanned-image" title="제목 주소">¶</a></h3>
+<p>아마도 대부분의 데이터에서 가장 적합한 형식은 문서의 전체 텍스트와 문서의 이미지를 함께 표시하는 것이다. 그러나 TIFF과 JPEG-2000은 적어도 사진에 있는 것을 문서로 표시할 수 있다. 이 포맷은 전자적으로 만들어지지 않은 데이터를 이미지로 표현하는데 적합하다 - 확실한 예는 오래된 교회 기록과 기록 자료- 사진은 없는 것보다 낫다.</p>
+</div>
+<div class="section" id="proprietary-formats">
+<h3>전용 형식<a class="headerlink" href="#proprietary-formats" title="제목 주소">¶</a></h3>
+<p>전용 시스템은 데이터를 저장하고 추출할 수 있는 독립적인 데이터 포맷을 갖고 있다. 종종 이와 같은 포맷으로 데이터를 노출시키는 것이 충분하다 - 특히 데이터를 유사한 시스템에서 사용할 것으로 기대된다면. 전용 포맷에서만 찾을 수 있는 정보는 항상 표시해야 한다. 예를 들어 공급자의 웹사이트에 링크를 제공하는 것 같이. 일반적으로 전용 포맷이 아닌 방법으로 표시하는 것을 추천한다.</p>
+</div>
+<div class="section" id="html">
+<h3>HTML<a class="headerlink" href="#html" title="제목 주소">¶</a></h3>
+<p>최근에는 다양한 사이트에서 많은 데이터가 HTML 형식으로 사용된다. 만약 데이터가 매우 안정적이고 한정적인 범위를 갖는다면 이 포맷이 적합할 수 있다. 때로는 다운로드와 조작을 쉽게 하기 위한 형식으로 데이터를 확보하는 것이 선호될 수 있다. 그러나 웹사이트의 페이지에 표시하는 것이 저렴하고 쉽기 때문에 데이터의 표시를 위한 시작점이 될 수 있다.</p>
+<p>일반적으로 데이터를 표현하기 위해 HTML 문서에서 테이블을 이용하는 것이 가장 적절하며, 이 때 데이터의 탐색과 조작을 쉽게 하기 위해 다양한 데이터 항목이 주어진 ID로 표시되는 것이 중요하다. 야후는 웹사이트로부터 구조적인 정보를 추출할 수 있는 도구(<a class="reference external" href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>)를 개발하고 있으며, 이런 툴을 이용하여 데이터가 추가된다면 더 많은 데이터를 얻을 수 있다.</p>
+</div>
+</div>
+<div class="section" id="open-file-formats">
+<h2>오픈 파일 형식<a class="headerlink" href="#open-file-formats" title="제목 주소">¶</a></h2>
+<p>정보가 전자적으로, 기계가-읽을 수 있는 형식으로 자세히 제공된다해도, 파일 자체의 형식과 관련된 이슈가 있을 수 있다.</p>
+<p>정보가 발행된 포맷은 - 즉, 정보가 저장된 디지털 베이스 - &#8220;개방형&#8221;이거나 &#8220;폐쇄형&#8221;일 수 있다. 개방형 포맷은 누구나 무료로 이용할 수 있는 소프트웨어 명세를 갖고 있다. 따라서 누구나 지적재산권로 인한 재사용의 제한 없이 소프트웨어의 명세를 사용할 수 있다.</p>
+<p>파일 포맷이 “폐쇄적”이라면, 해당 파일 포맷의 명세가 공개되어 있지 않고 소유권이 있거나, 명세가 공개되었으나 소유권이 있는 경우를 뜻하는데 모두의 경우에서 재사용은 제한적이다. 정보가 폐쇄적인 파일 포맷으로 배포된다면 정보를 재사용하는데 심각한 장애를 줄 수 있으며, 정보를 사용하기 위해 필요한 소프트웨어를 구매해야되는 부담이 있다.</p>
+<p>공개 파일 형식의 혜택은 개발자들이 다수의 소프트웨어 패키지와 서비스를 만들 수 있는 것을 허용해주는 것이다. 그 다음에 공개 파일에 포함된 정보를 재사용는 장벽은 감소한다.</p>
+<p>명세가 공개되지 않는 전용 파일 형식은 제3의 소프트웨어 또는 파일 포맷의 라이센스 소유자에 의존성을 만들 수 있다. 최악의 경우, 정보는 상당히 비싸거나 쓸모없어진 특정한 소프트웨어 패키지를 사용하여 읽어야 된다는 것을 의미한다.</p>
+<p>term:<cite>열린 정부 데이터</cite> 관점에서 선호하는 것은 정보는 <a href="#id1"><span class="problematic" id="id2">**</span></a>기계가 읽을 수 있는 오픈 파일 포맷**으로 배포되는 것이다.</p>
+<div class="section" id="example-uk-traffic-data">
+<h3>사례: UK 교통량 데이터<a class="headerlink" href="#example-uk-traffic-data" title="제목 주소">¶</a></h3>
+<p>앤드류 니콜슨은 소프트웨어 개발자로 영국의 Westbury Eastern 우회로 건설에 반대하는 캠페인에 참여했었다 (궁극적으로 성공적인). 앤드류는 캠페인 제안서의 정당화를 위해 사용될 수 있는 도로의 교통 정보의 에 관심이 있었다. 그는 정보 요청 자유를 통해 관련 정보를 얻을 수 있었으나, 지방 정부에서 제공된 데이터는 독점적 포맷으로 교통 모델링과 예상 전문업체인 Saturn사에서 개발된 소프트웨어를 사용해서 읽기가 가능했다. 해당 소프트웨어의 읽기 전용 버전이 없어 교육용 할인을 통해 앤드류는 소프트웨어 라이센스를 500 파운드 (600 유로)에 구입했다. 2010년 4월 Saturn사의 주요 소프트웨어 패키지 가격 리스트에 의하면 13,000 파운드 (15,000 유로 이상)에서 시작하면, 이것은 일반 시민들이 접근할 수 있는 가격대가 아니다.</p>
+<p>정보법이 오픈 포맷의 정보 접근을 위한 권리를 제공하지 않지만, 오픈 정부 데이터 이니셔티브들은 공식문서가 반드시 오픈 포맷으로 이용 가능해야 된다는 점을 명시한 정책 문서와 함께 시작하고 있다. 황금률은 오바마 정부에 의해 정립이 되었으며, 2009년 Open Government Directive에 다음과 같이 명시하고 있다:</p>
+<blockquote>
+<div><a href="#id1"><span class="problematic" id="id2">*</span></a>실용적이고 유효한 제약의 범위에서, 정부 기관은 웹 검색 애플리케이션에 의해 검색, 다운로드, 인덱스될 수 있도록 정보를 오픈 포맷으로 온라인에 발행해야 한다. 오픈 포맷은 플랫폼에 독립적이고, 기계가 읽을 수 있어야하며, 대중이 정보의 재사용에 제약없이 이용할 수 있는 형식이다. *</div></blockquote>
+</div>
+</div>
+<div class="section" id="how-do-i-use-a-given-format">
+<h2>어떻게 주어진 형식을 사용할 것인가<a class="headerlink" href="#how-do-i-use-a-given-format" title="제목 주소">¶</a></h2>
+<p>정부 기관이 이전에 공개되지 않은 새로운 데이터를 제출해야되는 경우, 목적에 대한 비용과 적합성 사이에서 최고의 균형을 제공해주는 포맷을 선택해야 한다. 각각의 포맷에서 고려해야 되는 것이 있는데, 본 섹션은 이에 대한 설명을 다룬다.</p>
+<p>본 섹션은 기계가 데이터에 직접 접근할 수 있도록 해주기 위해 최선의 방법이 무엇인지 집중한다. 웹 사이트와 솔루션이 어디에서나 검색될 수 있게 설계하는 방법에 대한 조언과 가이드를 제공한다.</p>
+<div class="section" id="web-services">
+<h3>웹 서비스<a class="headerlink" href="#web-services" title="제목 주소">¶</a></h3>
+<p>데이터의 변경이 빈번하게 발생하고, 데이터를 읽는 크기에 제한이 있다면 웹서비스를 통해 데이터를 노출시키는 것이 적당하다. 웹서비스를 생성하는 몇 가지 방법이 있지만, SOAP과REST가 가장 보편적이다. SOAP이 REST보다 광범위하지만, REST 서비스는 개발과 사용이 매우 쉬우며, 표준으로 폭넓게 사용되고 있다.</p>
+</div>
+<div class="section" id="database">
+<h3>데이터베이스<a class="headerlink" href="#database" title="제목 주소">¶</a></h3>
+<p>웹 서비스와 같이, 데이터베이스는 데이터에 동적으로 직접 접근할 수 있는 기능을 제공한다. 데이터베이스는 사용자가 관심있는 추출 작업을 한데 모을 수 있는 장점이 있다.</p>
+<p>원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.</p>
+</div>
+</div>
+</div>
+
+
+
+        
+        <div style="font-size:smaller;">
+          <hr/>
+          
+            
+          
+            
+              <div class="pull-right">
+                <a href="what-legal-ip-rights-are-there-in-databases.html"
+                  title="어떤 법적 (IP) 권리가 데이터(베이스)에 있는가" accesskey="N">
+                    
+                      
+                    
+                    어떤 법적 (IP) 권리가 데이터(베이스)에 있는가→
+                </a>
+              </div>
+            
+          
+            
+              <div >
+                <a href="index.html"
+                  title="원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다." accesskey="P">
+                    
+                      
+                    
+                    ← 원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 ...
+                </a>
+              </div>
+            
+          
+          <div style="clear:both;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+      
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://assets.okfn.org/themes/okfn/collapse.min.js" type="text/javascript"></script>
+<script src="http://assets.okfn.org/themes/okfn/okf-panel.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

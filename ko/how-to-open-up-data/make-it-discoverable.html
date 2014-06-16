@@ -1,0 +1,288 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>데이터를 검색 가능하게 만들기 &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="어떻게 데이터를 공개할 것인가" href="index.html" />
+    <link rel="next" title="자, 데이터를 공개한 후 다음은?" href="../following-up/index.html" />
+    <link rel="prev" title="데이터를 활용 가능하게 만들기 (기술적 개방성)" href="make-data-available.html" />
+
+  </head>
+  <body>
+  
+
+  <div id="okf-panel" class="collapse"><iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></div>
+
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+         
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+          <div class="okfn-ribbon"><a href="http://okfn.org/" data-toggle="collapse" data-target="#okf-panel" title="Part of the Open Knowledge Foundation Network">An Open Knowledge Foundation Site</a></div>
+        
+        <div class="pull-right navbar-search span3">
+          
+              <h3 class="searchheading">Quick search</h3>
+<form class="searchbox" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+<small class="searchtip">Enter search terms or a module, class or function name.</small>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="sub-header">
+  <ul class="container breadcrumb">
+      <li><a href="../index.html">Open Data Handbook</a> &raquo;</li>
+      <li><a href="index.html"
+            accesskey="U">
+            어떻게 데이터를 공개할 것인가
+          </a> &raquo;</li>
+      <li><a href="">
+            데이터를 검색 가능하게 만들기
+          </a></li>
+  </ul>
+</div>
+ 
+<div class="container">
+  <div class="row">
+    <div class="span3">
+      
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">서론</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">왜 데이터를 공개해야 되는가?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">열린 데이터란 무엇인가?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">어떻게 데이터를 공개할 것인가</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="choose-datasets.html">데이터셋 선택</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apply-an-open-license.html">오픈 라이센스 적용 (법률적 개방성)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="make-data-available.html">데이터를 활용 가능하게 만들기 (기술적 개방성)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">데이터를 검색 가능하게 만들기</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#existing-tools">활용 가능한 도구</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#for-government">정부를 위한</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">자, 데이터를 공개한 후 다음은?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">용어 사전</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      
+    </div><!--/span-->
+    <div class="span7 offset1">
+      <div class="content">
+
+        
+  <div class="section" id="make-data-discoverable">
+<h1>데이터를 검색 가능하게 만들기<a class="headerlink" href="#make-data-discoverable" title="제목 주소">¶</a></h1>
+<p>:term:&#8217;열린 데이터&#8217;는 사용자가 없다면 아무런 의미가 없다. 사람들이 소스 자료를 찾을 수 있도록 해야 한다. 이 섹션은 3가지 다른 방법을 소개한다.</p>
+<p>가장 중요한 것은 정부기관 사이의 정치적 관계와 미래의 예산 사이클에 의존하지 않는 중립적인 공간을 제공하는 것이다. 구역별이든 지리학적이든 관할권에 대한 울타리는 협업을 어렵게 만든다. 그러나 세력을 만드는 중요한 장점은 있다. 제3자가 데이터를 탐색하는 것이 수월해 질수록, 새롭고 유용한 툴이 더 빠르게 만들어 질 것이다.</p>
+<div class="section" id="existing-tools">
+<h2>활용 가능한 도구<a class="headerlink" href="#existing-tools" title="제목 주소">¶</a></h2>
+<p>데이터를 더 쉽게 찾을 수 있게 만들어 주는 도구들이 웹에 많다.</p>
+<p>가장 대표적인 예중에 하나인 DataHub_는 세계 각국의 데이터셋을 위한 목록이며 데이터 저장소이다. 데이터허브 사이트는 개인과 조직이 자료를 쉽게 발행하고, 데이터 사용자들이 필요한 자료를 찾을 수 있게 해 준다.</p>
+<p>더불어, 서로 다른 분야와 장소를 위한 전문가 목록이 있다. 수 많은 과학 커뮤니티들은 해당 분야를 위한 목록 시스템을 개발하고 있으며, 데이터는 종종 발행을 위해 요구된다.</p>
+</div>
+<div class="section" id="for-government">
+<h2>정부를 위한<a class="headerlink" href="#for-government" title="제목 주소">¶</a></h2>
+<p>전통적인 실천 방법은 주요 기관이 정부의 데이터를 위한 목록을 만드는 것이다. 목록을 만들 때, 많은 부서들이 정보를 쉽게 최신화할 수 있도록 일정한 구조를 만들어야 한다.</p>
+<p>스크래치부터 목록을 지원하는 소프트웨어 개발에 반대한다. 다수의 정부에 의해 수용된 무료 및 오픈소스 소프트웨어 솔루션 (<a class="reference internal" href="#ckan">CKAN</a> 같은)이 있으며, 별도의 플랫폼에 투자하는 것이 필요하지 않을 수 있다.</p>
+<p>다수의 열린 데이터 목록이 놓치고 있는 몇 가지 이슈가 있다. 계획에 다음을 고려할 수 있다:</p>
+<ul class="simple">
+<li>개인 및 커뮤니티 부문에서 그들의 데이터를 추가할 수 있는 여지를 제공해라. 지역별 정부의 목록이 아닌 지역의 목록을 고려하는 것이 가치 있을 수 있다.</li>
+<li>목록화되는 데이터셋의 파생버전을 허용하여 데이터의 개선을 촉진시킨다. 예를 들어, 지역코드를 기록하고 모든 사람에게 결과를 공유하기 원할 수 있다. 데이터셋에 대해 한가지 버전을 허용하다면 데이터의 개선은 묻혀질 것이다.</li>
+<li>데이터가 퍼져 나가는 것에 인내심을 가져라. 즉, 콘텐트는 관심이 있는 커뮤니티에 의해 복제될 수 있다. 강의 수위 모니터링 데이터가 활용 가능하다면, 해당 ㄷ데이터는 수문학자를 위한 목록에 보여질 것이다.</li>
+<li>접근의 합리성을 보장한다. 공무원 또는 정년이 있는 연구자를 위한 특권이 있는 접근 권한을 만들는 것을 피해야 한다. 이것은 커뮤니티의 참여와 지원을 약화시킬 것이다.</li>
+</ul>
+<div class="section" id="for-civil-society">
+<h3>시민 사회를 위한<a class="headerlink" href="#for-civil-society" title="제목 주소">¶</a></h3>
+<p>비공식 데이터를 위한 부가적인 목록을 적극적으로 생성한다.</p>
+<p>정부가 비공식적이거나 권위가 없는 자료와 관련이 있는 것은 매우 드물다. 공무원은 데이터의 오용과 균형없는 사용으로 인한 피해 또는 정치적 방해가 없다는 것을 확인시키기 위해 큰 비용을 지불한다.</p>
+<p>더불어, 정부는 영리 목적으로 그들의 데이터를 결합하는 활동을 지지하는데 소극적이며,  명실공히 이익 추구에  회의적이다. 따라서 커뮤니티 그룹, 비즈니스, 다른 사용자의 독립적인 목록이 정당화될 수 있다.</p>
+</div>
+</div>
+</div>
+
+
+
+        
+        <div style="font-size:smaller;">
+          <hr/>
+          
+            
+          
+            
+              <div class="pull-right">
+                <a href="../following-up/index.html"
+                  title="자, 데이터를 공개한 후 다음은?" accesskey="N">
+                    
+                      
+                    
+                    자, 데이터를 공개한 후 다음은?→
+                </a>
+              </div>
+            
+          
+            
+              <div >
+                <a href="make-data-available.html"
+                  title="데이터를 활용 가능하게 만들기 (기술적 개방성)" accesskey="P">
+                    
+                      
+                    
+                    ← 데이터를 활용 가능하게 만들기 (기술적 개방성)
+                </a>
+              </div>
+            
+          
+          <div style="clear:both;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+      
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://assets.okfn.org/themes/okfn/collapse.min.js" type="text/javascript"></script>
+<script src="http://assets.okfn.org/themes/okfn/okf-panel.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

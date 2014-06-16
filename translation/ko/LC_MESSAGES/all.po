@@ -1,0 +1,2517 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) &copy; 2010-2012, Open Knowledge Foundation
+# This file is distributed under the same license as the Open Data Handbook package.
+# 
+# Translators:
+# haklaekim <haklae.kim@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Data Handbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2013-11-20 09:54+0000\n"
+"Last-Translator: haklaekim <haklae.kim@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/opendatahandbook/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# f8bfb8659a0c4cb5948b1ef5e84ad7d1
+#: ../../source/index.rst:3
+msgid "The Open Data Handbook"
+msgstr "오픈 데이터 핸드북"
+
+# d585ec8bbdd54f2d88e54daa0238f9d2
+#: ../../source/index.rst:5
+msgid ""
+"**This handbook discusses the legal, social and technical aspects of open "
+"data.** It can be used by anyone but is especially designed for those "
+"seeking to **open up** data. It discusses the **why, what and how** of open "
+"data -- why to go open, what open is, and the how to 'open' data."
+msgstr "** 본 핸드북은 오픈 데이터에 대한 법적, 사회적, 그리고 기술적 측면을 논의한다. ** 누구나 사용할 수 있지만, 특히 데이터를 **공개**하려는 사람을 위한 것이다. 본 핸드북은 -- 데이터의 공개 이유, 공개 대상 및 '공개' 방법을 포함하는 **오픈 데이터로 가는 길**에 대해 논의한다. "
+
+# 3c3f679596a84f43a381f53ce49badeb
+#: ../../source/index.rst:11
+msgid ""
+"To get started, you may wish to look at the :doc:`Introduction "
+"<introduction/index.html>`. You can navigate through the report using the "
+"Table of Contents (see sidebar or below)."
+msgstr "시작에 앞서, :doc:`서론 <introduction/index.html>`을 볼 수 있으며, 목차에서 보고서의 전체 맥락을 파악할 수 있다 (사이드바 또는 하단 참조). "
+
+# 3115b5512c6e4ecd861e4e84d400523c
+#: ../../source/index.rst:15
+msgid ""
+"We warmly welcome comments on the text and will incorporate feedback as we "
+"go forward. We also welcome contributions or suggestions for additional "
+"sections and areas to examine."
+msgstr "본문에 대한 의견을 환영하며 다음 버전에서 피드백을 반영할 것이다. 추가 섹션과 주제에 대한 공헌이나 제안도 환영한다. "
+
+# 9e0f00346b0349e29d51083d1dd7a9aa
+#: ../../source/index.rst:21
+msgid "Table of Contents"
+msgstr "목차"
+
+# 4e947d94bfbe4ecd98c5dee75be312f8
+#: ../../source/index.rst:36
+msgid "Indices and tables"
+msgstr "인덱스와 표"
+
+# af87acc3665e428c99dff796e236694a
+#: ../../source/index.rst:38
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+# cf589c147b0947639ead7a84a9c78850
+#: ../../source/index.rst:39
+msgid ":ref:`search`"
+msgstr ":ref:`검색`"
+
+# 159dc292955b401cbaa31592c2ae43c1
+#: ../../source/introduction/credits.rst:3
+msgid "Credits and Copyright"
+msgstr "저작자 표시 및 저작권"
+
+# 138a093ae5b548cb9f07805111c55cfd
+#: ../../source/introduction/credits.rst:6
+msgid "Contributing authors"
+msgstr "공헌저자"
+
+# c41cf04f647249b9ac59afbca1382129
+#: ../../source/introduction/credits.rst:8
+msgid "`Daniel Dietrich`_"
+msgstr "`Daniel Dietrich`_"
+
+# 26742a0e756242a2801b0f02ebdd1707
+#: ../../source/introduction/credits.rst:9
+msgid "`Jonathan Gray`_"
+msgstr "`Jonathan Gray`_"
+
+# 1759d73a3a794025b286529b4cc19a17
+#: ../../source/introduction/credits.rst:10
+msgid "`Tim McNamara`_"
+msgstr "`Tim McNamara`_"
+
+# 015052c54f4d4986b3071cd7ddb02c50
+#: ../../source/introduction/credits.rst:11
+msgid "`Antti Poikola`_"
+msgstr "`Antti Poikola`_"
+
+# a37b96bd575d4c2f8e310f7b9b7dbcd2
+#: ../../source/introduction/credits.rst:12
+msgid "`Rufus Pollock`_"
+msgstr "`Rufus Pollock`_"
+
+# 44242a03508d4ec3b115029c749d38f7
+#: ../../source/introduction/credits.rst:13
+msgid "`Julian Tait`_"
+msgstr "`Julian Tait`_"
+
+# b489d1a44d854d3c98c0f9a211c8e083
+#: ../../source/introduction/credits.rst:14
+msgid "`Ton Zijlstra`_"
+msgstr "`Ton Zijlstra`_"
+
+# 8a356ddea3824a2db4c1635a82782883
+#: ../../source/introduction/credits.rst:17
+msgid "Existing sources directly used"
+msgstr "기존 자료를 직접 사용함"
+
+# f4c4a9ca6b2b450696be1a124cfc276b
+#: ../../source/introduction/credits.rst:19
+msgid ""
+"Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
+" Group led by Simon Parrish*"
+msgstr "IATI 구현 방법에 대한 기술 제안서. *Simon Parrish가 이끈 IATI 기술 고문단*"
+
+# a9cfff5e7e764f63b118c211a551e395
+#: ../../source/introduction/credits.rst:21
+msgid ""
+"`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
+"Gray, Simon Parrish, Jordan Hatcher*"
+msgstr "`국제 원조 정보의 잠재력 밝히기`_. *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
+
+# 50c8f4db407a45a8894e99e59ef5adef
+#: ../../source/introduction/credits.rst:23
+msgid "Finnish manual authored by *Antti Poikola*"
+msgstr " *Antti Poikola*에 의해 최종 매뉴얼이 저작됨"
+
+# 912b40b810ef40ab872ba564e1c3a631
+#: ../../source/introduction/credits.rst:24
+msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
+msgstr "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
+
+# 6c2bad4a78ed4069aacfd795a2df0a02
+#: ../../source/introduction/credits.rst:27
+msgid "Other sources"
+msgstr "별도 출처"
+
+# b2509758c71d471e97585141feaee236
+#: ../../source/introduction/credits.rst:29
+msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+msgstr "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+
+# 0324e39be1e643bf9c026b6173d4a583
+#: ../../source/introduction/index.rst:3
+msgid "Introduction"
+msgstr "서론"
+
+# 27e4a5b184654c999139c3127056f637
+#: ../../source/introduction/index.rst:5
+msgid ""
+"Do you know exactly how much of your tax money is spent on street lights or "
+"on cancer research? What is the shortest, safest and most scenic bicycle "
+"route from your home to your work? And what is in the air that you breathe "
+"along the way? Where in your region will you find the best job opportunities"
+" and the highest number of fruit trees per capita? When can you influence "
+"decisions about topics you deeply care about, and whom should you talk to?"
+msgstr "당신이 낸 세금이 가로등이나 암 연구에 얼마나 쓰이는지 알고 있는가? 집에서 회사까지 가장 짧으며, 안전하고 아름다운 자전거 길은? 그 길을 갈 때 숨쉬는 공기엔 무엇이 있는지? 당신이 있는 지역에서 일자리를 찾을 때  가장 좋은 곳 또는 1인당 과일나무 수가 가장 높은 곳은?  깊이 생각하는 주제에 결정을 할 때 언제 영향을 주는지,  그리고 누구와 얘기를 해야하는지?"
+
+# 03772b8e0b654a2980a166e25f7ce602
+#: ../../source/introduction/index.rst:12
+msgid ""
+"New technologies now make it possible to build the services to answer these "
+"questions automatically. Much of the data you would need to answer these "
+"questions is generated by public bodies. However, often the data required is"
+" not yet available in a form which is easy to use. This book is about how to"
+" unlock the potential of official and other information to enable new "
+"services, to improve the lives of citizens and to make government and "
+"society work better."
+msgstr "새로운 기술들은 이런 질문의 답을 자동적으로 제공하는 서비스를 만들 수 있게 한다. 앞서 질문의 답을 위해 필요한 데이터는 대부분 공공 기관에 의해 만들어지지만, 아직까지 필요한 데이터가 사용하기 쉬운 형식으로 제공되지 않는다. 본 핸드북은 시민의 삶을 개선하고, 정부와 사회가 효과적으로 일하기 위한 새로운 서비스를 위한 공무원과 다양한 정보의 잠재력을 열기 위한 방법에 대해 것이다."
+
+# e864d6f9f1fb4632898e4a87c8e14237
+#: ../../source/introduction/index.rst:20
+msgid ""
+"The notion of :term:`open data` and specifically :term:`open government "
+"data` - information, public or otherwise, which anyone is free to access and"
+" re-use for any purpose - has been around for some years. In 2009 open data "
+"started to become visible in the mainstream, with various governments (such "
+"as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
+"opening up their public information."
+msgstr ":term:`열린 데이터`의 개념, 특히 :term:`열린 정부 데이터`는  - 누구에게나 어떤 목적으로든 자유롭게 접근 및 재사용할 수 있는 정보- 수년동안 지속되어 왔다. 2009년 이후, 오픈 데이터는 미국, 영국, 뉴질랜드 등 각국 정부의 공공정보 개방 전략에 힘입어  대중에게 가시화되기 시작했다. "
+
+# 772e3651fec74d03808df10160177562
+#: ../../source/introduction/index.rst:28
+msgid ""
+"This book explains the basic concepts of ‘open data’, especially in relation"
+" to government. It covers how open data creates value and can have a "
+"positive impact in many different areas. In addition to exploring the "
+"background, the handbook also provides concrete information on how to "
+"produce open data."
+msgstr "본 핸드북은 정부의 관계에 초점을 두고 '열린 데이터'의 기본 개념을 설명하며, 오픈 데이터가 어떻게 가치를 창출하고 다양한 분야에 긍정적인 영향을 줄 수 있는지 논의한다. 배경을 살펴보는 것과 더불어, 오픈 데이터를 만들기 위한 방법에 대한 구체적 정보를 제공한다. "
+
+# 5d3906c5912447478481d10c2ba8231a
+#: ../../source/introduction/index.rst:35
+msgid "Target Audience"
+msgstr "대상 독자"
+
+# 985f89dcc7c64fef93e53052ddc36ab0
+#: ../../source/introduction/index.rst:37
+msgid "This handbook has a broad audience:"
+msgstr "핸드북은 광범위한 독자를 갖는다:"
+
+# 204beca931a640a3a2feb572395bae22
+#: ../../source/introduction/index.rst:39
+msgid ""
+"for those who have never heard of open data before and those who consider "
+"themselves seasoned ‘data professionals’"
+msgstr "오픈 데이터에 대해 들어본 적이 없는 사람과 노련한 '데이터 전문가'를 생각하는 사람"
+
+# d434b8617ca84b2f812c8b93c72b2b3f
+#: ../../source/introduction/index.rst:41
+msgid "for civil servants and for activists"
+msgstr "공무원과 활동가"
+
+# 1683ab9a73354d41afc35e5c3dcbab0e
+#: ../../source/introduction/index.rst:42
+msgid "for journalists and researchers"
+msgstr "저널리스트와 연구자"
+
+# 2dab3eafd12e452b9326f4b397b20e7e
+#: ../../source/introduction/index.rst:43
+msgid "for politicians and developers"
+msgstr "정치인과 개발자"
+
+# cc5c3df699894d2f9ef476ba048d24ca
+#: ../../source/introduction/index.rst:44
+msgid "for data geeks and those who have never heard of an API."
+msgstr "데이터 전문가와 API에 대한 지식이 없는 사람"
+
+# b1ae7114f8c247b28261bd8c7a1de1f3
+#: ../../source/introduction/index.rst:46
+msgid ""
+"Most of the information currently provided is focused on data held by the "
+"public sector. However, the authors intentions are to broaden this as time "
+"permits. You are welcome to participate to help us with that effort."
+msgstr "현재 제공되는 대부분의 정보는 공공 부문이 소유하고 있는 데이터에 집중되어 있다.  그러나 저자들의 의도는 시간이 허용하는 한 데이터의 범위를 확장하는 것이 목표이며, 이같은 노력을 함께 할 수 있는 것을 환영한다. "
+
+# 2d06a73d49494b3991c0bb6a62525e9d
+#: ../../source/introduction/index.rst:51
+msgid ""
+"This handbook is intended for those with little or no knowledge of the "
+"topic. If you do find a piece of jargon or terminology with which you aren't"
+" familiar, please see the detailed Glossary and FAQs (frequently asked "
+"questions) which can be found at the end of the handbook."
+msgstr "본 핸드북은 열린 데이터에 대해 지식이 없거나 충분하지 않은 사람을 위한 것이다. 익숙하지 않은 어휘는 핸드북의 끝에 상세히 기술된 Glossary와 FAQ (frequently asked questions)를 참조할 수 있다. "
+
+# 977078aaa78c42e7995958d96a21b8a7
+#: ../../source/introduction/index.rst:58
+msgid "Credits"
+msgstr "저작권 표시"
+
+# 5cdb697eb85f46e18bdf6edd814a406e
+#: ../../source/why-open-data/index.rst:3
+msgid "Why Open Data?"
+msgstr "왜 데이터를 공개해야 되는가?"
+
+# a729d3404ee64614bcec347dead57504
+#: ../../source/why-open-data/index.rst:5
+msgid ""
+":term:`Open data`, especially :term:`open government data`, is a tremendous "
+"resource that is as yet largely untapped. Many individuals and organisations"
+" collect a broad range of different types of data in order to perform their "
+"tasks. Government is particularly significant in this respect, both because "
+"of the quantity and centrality of the data it collects, but also because "
+"most of that government data is public data by law, and therefore could be "
+"made open and made available for others to use. Why is that of interest?"
+msgstr ":term:`열린 데이터`, 특히 :term:`열린 정부 데이터`는 아직까지 손대지 않은 엄청난 자료원이다.  많은 개인과 조직들이 그들의 업무를 수행하기 위해 다양한 형식의 데이터를 광범위하게 수집한다. 정부는 수집된 데이터의 품질과 집중성과 더불어 정부 데이터의 대부분이 법적으로 공공 데이터라는 측면에서 매우 중요한 역할을 한다.  따라서 공공 데이터는 다른 사람이 사용하기 위해 공개되고 활용되게 만들어야 한다. 이것이 왜 관심일까?"
+
+# 633202a63b474ebdb6c96289d6ac423d
+#: ../../source/why-open-data/index.rst:14
+msgid ""
+"There are many areas where we can expect open data to be of value, and where"
+" examples of how it has been used already exist. There are also many "
+"different groups of people and organisations who can benefit from the "
+"availability of open data, including government itself. At the same time it "
+"is impossible to predict precisely how and where value will be created in "
+"the future. The nature of innovation is that developments often comes from "
+"unlikely places."
+msgstr "우리가 기대할 수 있는 가치있는 열린 데이터가 다양한 분야에 있으며, 이런 데이터를 사용한 사례가 존재한다. 정부를 포함해 다양한 개인과 조직이 열린 데이터의 활용을 통해 혜택을 얻을 수 있다. 그러나, 동시에 미래의 가치가 어떻게 어디에서 나타날 수 있는지 예측하는 것은 불가능하다. 혁신의 본질적 특성은 진화는 예상하지 않은 곳으로부터 온다는 것이다."
+
+# 00a897c5defd4db5a4339f04fdc80d69
+#: ../../source/why-open-data/index.rst:21
+msgid ""
+"It is already possible to point to a large number of areas where open "
+"government data is creating value. Some of these areas include:"
+msgstr "열린 정부 데이터가 가치를 만들어내는 다양한 영역의 참조가 가능한데, 몇 개 분야는 다음과 같다: "
+
+# 5a1635520561424aa295c26cd3a948d1
+#: ../../source/why-open-data/index.rst:24
+msgid "Transparency and democratic control"
+msgstr "투명성과 민주적인 통제"
+
+# 4351bd20d2a14fbeaa41c82bc514ac95
+#: ../../source/why-open-data/index.rst:25
+msgid "Participation"
+msgstr "참여"
+
+# 234738d1ab8642818c4073300935017e
+#: ../../source/why-open-data/index.rst:26
+msgid "Self-empowerment"
+msgstr "자기 성장"
+
+# c1c63445907c4955948f3a0fe823118a
+#: ../../source/why-open-data/index.rst:27
+msgid "Improved or new private products and services"
+msgstr "개선 또는 새로운 개인 제품 및 서비스"
+
+# 1fcf56a9d6aa4bedb3a1e64ca8a3b15c
+#: ../../source/why-open-data/index.rst:28
+msgid "Innovation"
+msgstr "혁신"
+
+# 1cf354f7245a4e09b32be3c8bbbcaa12
+#: ../../source/why-open-data/index.rst:29
+msgid "Improved efficiency of government services"
+msgstr "정부 서비스의 향상된 효율성"
+
+# becfeefd9faf4cf5a9b54fd289d0af5f
+#: ../../source/why-open-data/index.rst:30
+msgid "Improved effectiveness of government services"
+msgstr "정부 서비스의 향상된 효과성"
+
+# 56661952af514a6783404034e39e9145
+#: ../../source/why-open-data/index.rst:31
+msgid "Impact measurement of policies"
+msgstr "정책의 임팩트 측정"
+
+# 81a1d8c9c8de42a38b06e212e26a18eb
+#: ../../source/why-open-data/index.rst:32
+msgid ""
+"New knowledge from combined data sources and patterns in large data volumes"
+msgstr "결합된 데이터로부터 새로운 지식과 대용량 데이터에서의 패턴"
+
+# 653cba4974784fc397e901d402246323
+#: ../../source/why-open-data/index.rst:35
+msgid "Examples exist for most of these areas."
+msgstr "이 분야의 대표적인 사례."
+
+# 9483b02f9be049e5aae8b43b3c1ee9e0
+#: ../../source/why-open-data/index.rst:37
+msgid ""
+"In terms of transparency, projects such as the Finnish ‘tax tree’ and "
+"British ‘where does my money go’ show how your tax money is being spent by "
+"the government. And there’s the example of how open data saved Canada $3.2 "
+"billion in charity tax fraud. Also various websites such as the Danish "
+"folketsting.dk track activity in parliament and the law making processes, so"
+" you can see what exactly is happening, and which parliamentarians are "
+"involved."
+msgstr "투명성 관점에서 핀란드의 ‘tax tree’, 영국의 ‘where does my money go’ 프로젝트는 정부의 세금이 어떻게 지출했는지 보여준다. 캐나다는 열린 데이터를 사용하여 자선금 비리에 있어 3.2억 달러를 절약한 사례를 갖고 있다. 덴마크의 olketsting.dk 사이트는 의회 활동, 법안 입법 과정을 추적함으로써 의회에서 정확히 어떤 일이 일어났는지, 어떤 정치인이 포함되는지 확인할 수 있다. "
+
+# 96fa2e2f8d3346ba8f75c1744678079d
+#: ../../source/why-open-data/index.rst:45
+msgid ""
+"Open government data can also help you to make better decisions in your own "
+"life, or enable you to be more active in society. A woman in Denmark built "
+"findtoilet.dk, which showed all the Danish public toilets, so that people "
+"she knew with bladder problems can now trust themselves to go out more "
+"again. In the Netherlands a service, vervuilingsalarm.nl, is available which"
+" warns you with a message if the air-quality in your vicinity is going to "
+"reach a self-defined threshold tomorrow. In New York you can easily find out"
+" where you can walk your dog, as well as find other people who use the same "
+"parks. Services like ‘mapumental’ in the UK and ‘mapnificent’ in Germany "
+"allow you to find places to live, taking into account the duration of your "
+"commute to work, housing prices, and how beautiful an area is. All these "
+"examples use open government data."
+msgstr "열린 정부 데이터는 개인의 삶에 있어 더 좋은 의사결정이나 사회에 조금 더 적극적으로 참여할 수 있게 도울 수 있다. 덴마트의 한 여성은  덴마트의 모든 공공 화장실을 보여주는 findtoilet.dk를 개발하여, 방광 문제를 갖고 있는 사람들이 더 많이 외출할 수 있는 신뢰를 만들어 주었다. 네덜란드의 vervuilingsalarm.nl 서비스는 사용자가 위치한 인근의 공기 품질이 미리 정해놓은 임계치에 도달할 경우 경고 메세지를 보내준다. 뉴욕에선 애완견과 함께 산책할 수 있는 곳, 같은 공원들을 사용하는 사람을 쉽게 찾을 수 있다. 영국의 'mapumental'나 독일의 'mapnificent' 등의 서비스를 통해 사용자는 통근에 소요되는 시간 , 주택 가격 및 그 지역의 아름다움 등을 고려하여 거주하기 좋은 장소를 찾을 수 있다. "
+
+# 9d1f0242695c4eb08a8c1bcfcc8d4743
+#: ../../source/why-open-data/index.rst:58
+msgid ""
+"Economically, open data is of great importance as well. Several studies have"
+" estimated the economic value of open data at several tens of billions of "
+"Euros annually in the EU alone. New products and companies are re-using open"
+" data. The Danish husetsweb.dk helps you to find ways of improving the "
+"energy efficiency of your home, including financial planning and finding "
+"builders who can do the work. It is based on re-using cadastral information "
+"and information about government subsidies, as well as the local trade "
+"register. Google Translate uses the enormous volume of EU documents that "
+"appear in all European languages to train the translation algorithms, thus "
+"improving its quality of service."
+msgstr "경제적 측면에서 열린 데이터는 매우 중요하다. 몇몇 연구에 의하면, 열린 데이터의 경제적 가치는 EU에서만 연간 수백억 유로로 평가되었다. 새로운 제품과 회사들이 열린 데이터를 재사용하고 있다. 예를 들어, 덴마크의 husetsweb.dk 사이트는 가정의 에너지 효율성을 향상시키기 위해 재정 계획과 더불어 일을 맡아 해줄 수 있는 건축업자의 탐색 기능을 제공한다.  이 서비스는 지적 정보, 정부 보조금와 지역 트레이드 등록부의 정보를 재활용한 것이다. 구글 번역은 번역 알고리즘을 학습시키기 위해 모든 유럽 언어들이 나타난 방대한 양의 EU 문서를 사용하며, 이를 통해 서비스 품질을 개선한다. "
+
+# 457121fdf06c40558e92b439276954b8
+#: ../../source/why-open-data/index.rst:69
+msgid ""
+"Open data is also of value for government itself. For example, it can "
+"increase government efficiency. The Dutch Ministry of Education has "
+"published all of their education-related data online for re-use. Since then,"
+" the number of questions they receive has dropped, reducing work-load and "
+"costs, and the remaining questions are now also easier for civil servants to"
+" answer, because it is clear where the relevant data can be found. Open data"
+" is also making government more effective, which ultimately also reduces "
+"costs. The Dutch department for cultural heritage is actively releasing "
+"their data and collaborating with amateur historical societies and groups "
+"such as the Wikimedia Foundation in order to execute their own tasks more "
+"effectively. This not only results in improvements to the quality of their "
+"data, but will also ultimately make the department smaller."
+msgstr "열린 데이터는 정부에게 가치가 있다. 예를 들어, 열린 데이터는 정부의 효율성을 증대시킬 수 있다. 네덜란드의 교육부는 교육과 관련된 모든 데이터를 재사용할 수 있도록 온라인에 배포하고 있다. 데이터의 공개 이후, 그들이 받았던 수많은 질문들이 해결되어 작업량과 비용을 줄였으며, 해결되지 않은 질문들도 관련 데이터를 찾는 곳이 명확해져 공무원이 답을 하기 수월해졌다. 궁극적으로 열린 데이터는 비용을 절감하는 측면에서 정부를 좀 더 효과적으로 만들어준다. 네덜란드의 문화재청은 데이터를 적극적으로 공개하고, 더불어 그들의 업무를 보다 효과적으로 추진하기 위해 아마추어 역사 회원과 위키미디아 파운데이션과 같은 그룹과 협업하고 있다. 이를 통해 데이터 품질의 향상을 이끌 수 있으며 동시에 작은 정부를 실현할 수 있을 것이다. "
+
+# 0f11bae8272f45e4b2290c2beef0e248
+#: ../../source/why-open-data/index.rst:83
+msgid ""
+"While there are numerous instances of the ways in which open data is already"
+" creating both social and economic value, we don’t yet know what new things "
+"will become possible. New combinations of data can create new knowledge and "
+"insights, which can lead to whole new fields of application. We have seen "
+"this in the past, for example when Dr. Snow discovered the relationship "
+"between drinking water pollution and cholera in London in the 19th century, "
+"by combining data about cholera deaths with the location of water wells. "
+"This led to the building of London’s sewage systems, and hugely improved the"
+" general health of the population. We are likely to see such developments "
+"happening again as unexpected insights flow from the combination of "
+"different open data sets."
+msgstr "열린 데이터가 만드는 사회적/경제적 가치를 창출하는 많은 사례가 있지만, 미래에 가능할 수 있는 새로운 것에 대해 인지하지 못하고 있다. 새로운 데이터의 조합은 완전히 새로운 응용 분야를 이끌어낼 수 있는 지식과 통찰력을 만들 수 있다. 과거의 사례를 보듯이, Snow 박사는 19세기 런던에서 식수 오염과 콜레라의 상관 관계를 우물의 위치와 콜레라 사망자 데이터를 결합함으로써 발견했다. 이 발견은 런던의 하수처리 시스템의 구축을 이끌어냄으로써 시민의 전반적인 건강을 크게 개선시킬 수 있었다. 열린 데이터의 조합을 통해 기대하지 않은 통찰력으로부터 이와 같은 진보를 다시 볼 수 있을 것이다. "
+
+# db07f40141dc4077a0390c1699f892ea
+#: ../../source/why-open-data/index.rst:94
+msgid ""
+"This untapped potential can be unleashed if we turn public government data "
+"into open data. This will only happen, however, if it is really open, i.e. "
+"if there are no restrictions (legal, financial or technological) to its re-"
+"use by others. Every restriction will exclude people from re-using the "
+"public data, and make it harder to find valuable ways of doing that. For the"
+" potential to be realized, public data needs to be open data."
+msgstr "이와 같은 숨은 잠재력은 공공 정부 데이터를 열린 데이터로 변환함으로써 폭발시킬 수 있다.  그러나 이것은 데이터가 실제로 공개되었을 때만 실현 가능하다. 즉, 사용자가 데이터의 재사용함에 있어 (법적, 재정적 또는 기술적) 제약이 없어야 한다. 모든 제약조건은 공공 데이터를 재사용하는 사람들을 배제시킬 것이고, 데이터를 사용의 가치를 찾는 것을 어렵게 만든다. 잠재력을 실현하기 위해 공공 데이터는 열린 데이터가 되어야 한다. "
+
+# ec853486f23a49c69f29cf7a961642d7
+#: ../../source/what-is-open-data/index.rst:3
+msgid "What is Open Data?"
+msgstr "열린 데이터란 무엇인가?"
+
+# efa5f439bd844c199263171e3b7221e5
+#: ../../source/what-is-open-data/index.rst:5
+msgid ""
+"This handbook is about *open data* but what exactly is it? In particular "
+"what makes *open* data open, and what sorts of data are we talking about?"
+msgstr "본 핸드백은 *열린 데이터*에 대한 것인데 그렇다면 열린 데이터는 정확히 무엇인가? 특히 무엇이 *열린* 데이터를 공개하게 만드나? 어떤 형태의 데이터에 대해 논의하는가?"
+
+# 0d5a24d826714df497b1f531ec72438c
+#: ../../source/what-is-open-data/index.rst:9
+msgid "What is Open?"
+msgstr "공개란 무엇인가?"
+
+# 284d03bb80b14254bb9219ad19d33070
+#: ../../source/what-is-open-data/index.rst:11
+msgid ""
+"This handbook is about open data - but what exactly is *open* data? For our "
+"purposes, open data is as defined by the `Open Definition`_:"
+msgstr "본 핸드북은 열린 데이터에 것인데 - 그런데  *열린* 데이터는 정확히 무엇인가? 우리의 목적을 위해 열린 데이터는 `Open Definition`_:에 정의된 그대로이다. "
+
+# 0ec56db1f5bd4d16844482d013167141
+#: ../../source/what-is-open-data/index.rst:14
+msgid ""
+"*Open data is data that can be freely used, re-used and redistributed by "
+"anyone - subject only, at most, to the requirement to attribute and "
+"sharealike.*"
+msgstr "*열린 데이터는 모든 사람이 자유롭게 사용 및 재사용이 가능하며 재배포할 수 있는 데이터이다 - 저작권 표시 및 동일조건 변경 허락의 조건에서.*"
+
+# de8b334143c446fa9ca118ec924cdaba
+#: ../../source/what-is-open-data/index.rst:18
+msgid ""
+"The `full Open Definition`_ gives precise details as to what this means. To "
+"summarize the most important:"
+msgstr "`완전한 오픈 정의`_ 는 열린 데이터의 의미에 대한 상세한 설명을 제공한다. 가장 중요한 것을 정리하면:"
+
+# d6661c08a66e4657baccc415e4d94d85
+#: ../../source/what-is-open-data/index.rst:21
+msgid ""
+"**Availability and Access:** the data must be available as a whole and at no"
+" more than a reasonable reproduction cost, preferably by downloading over "
+"the internet. The data must also be available in a convenient and modifiable"
+" form."
+msgstr "**이용성 및 접근:** 전체 데이터가 이용가능해야 하며, 합리적인 재생산 비용으로, 가능하면 인터넷에서 다운로드되어야 한다. 데이터는 편리하고 수정 가능한 형태로 제공되어야 한다."
+
+# 69c79a7dbacb4a3f8901fde80bc925f3
+#: ../../source/what-is-open-data/index.rst:25
+msgid ""
+"**Re-use and Redistribution:** the data must be provided under terms that "
+"permit re-use and redistribution including the intermixing with other "
+"datasets."
+msgstr "**재사용과 재배포:** 데이터는 서로 다른 데이터와 결합되는 것을 포함하여 재사용과 재배포를 허용하는 조건으로 제공되어야 한다."
+
+# ccbddaecb0324318960d141f73934293
+#: ../../source/what-is-open-data/index.rst:28
+msgid ""
+"**Universal Participation:** everyone must be able to use, re-use and "
+"redistribute - there should be no discrimination against fields of endeavour"
+" or against persons or groups. For example, ‘non-commercial’ restrictions "
+"that would prevent ‘commercial’ use, or restrictions of use for certain "
+"purposes (e.g. only in education), are not allowed."
+msgstr "**보편적 참여:** 누구나 데이터를 사용, 재사용 및 재배포할 수 있어야 한다 -  활동 분야, 특정한 사람이나 그룹에 대한 차별이 없어야 한다. 예를 들어, '비상업적' 제한조건은 '상업적' 사용을 제한할 수 있으며, 특정한 목적에 한정된 사용조건은 (예: 교육적 목적에 한정)은 허용되지 않는다."
+
+# 0feddc4ae9b748dfbac21561a011623d
+#: ../../source/what-is-open-data/index.rst:34
+msgid ""
+"If you’re wondering why it is so important to be clear about what open means"
+" and why this definition is used, there’s a simple answer: "
+"**interoperability.**"
+msgstr "공개라는 의미와 이러한 정의가 사용된 이유의 중요성이 명확하지 않다면, 간단한 답은: **상호운용성**이다."
+
+# dfe720d0914442ad96bfd683d39a3a0d
+#: ../../source/what-is-open-data/index.rst:38
+msgid ""
+"Interoperability denotes the ability of diverse systems and organizations to"
+" work together (inter-operate). In this case, it is the ability to "
+"interoperate - or intermix - different datasets."
+msgstr "상호운용성은 다양한 시스템과 조직이 함께 동작할 수 있는 (상호 정보 교환이 가능한) 능력을 뜻한다. 여기서는 서로 다른 데이터셋 사이의 상호 운용 - 또는 혼합할 수 - 있는 능력을 말한다."
+
+# 04e5ebc429754b8f8335a6f36f11f348
+#: ../../source/what-is-open-data/index.rst:42
+msgid ""
+"Interoperability is important because it allows for different components to "
+"work together. This ability to componentize and to ‘plug together’ "
+"components is essential to building large, complex systems. Without "
+"interoperability this becomes near impossible — as evidenced in the most "
+"famous myth of the Tower of Babel where the (in)ability to communicate (to "
+"interoperate) resulted in the complete breakdown of the tower-building "
+"effort."
+msgstr "상호운용성은 서로 다른 컴포넌트들이 함께 동작할 수 있게 한다는 점에서 그 중요성이 있다. 컴포넌트를 구성하고 컴포넌트를 '함께 연결하는' 능력은 광범위하고, 복잡한 시스템을 구축하기 위해 필수적이다. 상호운용성 없이 이런 시스템을 구축하는 것은 거의 불가능하다 - 가장 유명한 신화인 바벨탑에서 증명되었듯이, 상호소통 (상호운용을 위한) (무)능력은 탑을 건축하는 노력의 완벽한 붕괴에 영향을 주었다. "
+
+# a27e57d5f3414020af50c490a0fc4717
+#: ../../source/what-is-open-data/index.rst:50
+msgid ""
+"We face a similar situation with regard to data. The core of a “commons” of "
+"data (or code) is that one piece of “open” material contained therein can be"
+" freely intermixed with other “open” material. This interoperability is "
+"absolutely key to realizing the main practical benefits of “openness”: the "
+"dramatically enhanced ability to combine different datasets together and "
+"thereby to develop more and better products and services (these benefits are"
+" discussed in more detail in the section on ‘why’ open data)."
+msgstr "우리는 데이터와 관련하여 비슷한 상황에 직면하고 있다. 데이터 '공유' (또는 코드)의 핵심은 그 안에 포함된 한 조각의 \"공개된' 자료가 \"공개된\" 다른 자료와 자유롭게 상호 결합될 수 있는 것이다. 이러한 상호운용성은 \"공개성\"의 핵심적이며 실용적인 혜택을 실현하는 핵심이다: 서로 다른 데이터셋을 극적으로 연결하고 조금 더 향상된 제품과 서비스를 개발하기 위한 강화 능력 (이러한 혜택은 '왜' 데이터를 공개하나 섹션에서 자세히 다룬다)."
+
+# 9613f20a0c754c988418bb739c6bf147
+#: ../../source/what-is-open-data/index.rst:59
+msgid ""
+"Providing a clear definition of openness ensures that when you get two open "
+"datasets from two different sources, you will be able to combine them "
+"together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
+"datasets but little or no ability to combine them together into the larger "
+"systems where the real value lies.**"
+msgstr "공개성의 명확한 정의가 제공하는 것은 서로 다른 두 개의 데이터 소스가 공개되었을 때, 데이터를 상호 결합하는 것이 가능한 것이며, 동시에 **스스로만을 위한 '바벨탑'을 피할 수 있다는 것을 보장하는 것이다: 수많은 데이터셋이 있으나 실제 가치가 있는 규모가 큰 시스템에 데이터셋을 결합시키지 못하는 경우"
+
+# 3a713e7bdcd744efa87d1f18017c2fc2
+#: ../../source/what-is-open-data/index.rst:71
+msgid "What Data are You Talking About?"
+msgstr "어떤 데이터를 말하는 것인가?"
+
+# e425f13a261d4556bb1961b71da2bdd8
+#: ../../source/what-is-open-data/index.rst:73
+msgid ""
+"Readers have already seen examples of the sorts of data that are or may "
+"become open - and they will see more examples below. However, it will be "
+"useful to quickly outline what sorts of data are, or could be, open -- and, "
+"equally importantly, what won’t be open."
+msgstr "여러분은 이미 공개되거나 공개될 가능성이 있는 데이터의 사례를 살펴보았다  - 보다 다양한 예를 아래에서 볼 수 있다. 그러나 어떤 종류의 데이터가 오픈되었는지 또는 오픈될 것인지 요약하는 것이 도움이 될 것이다 -- 어떤 것이 공개되지 않는지도 마찬가지로 중요하게. "
+
+# b3184f4d4cd74be7a8bb72c19ae59d0a
+#: ../../source/what-is-open-data/index.rst:78
+msgid ""
+"The key point is that when opening up data, the focus is on non-personal "
+"data, that is, data which does not contain information about specific "
+"individuals."
+msgstr "가장 중요한 점은 데이터를 공개할 때 초점이 개인적이지 않은 데이터에 있다는 것이다. 즉, 데이터는 특정한 개인에 대한 정보를 포함하지 않아야 한다. "
+
+# a71aa0d4b7d444c8b67cc9b635b54c45
+#: ../../source/what-is-open-data/index.rst:82
+msgid ""
+"Similarly, for some kinds of government data, national security restrictions"
+" may apply."
+msgstr "유사하게, 정부 데이터 중에 국가 보안 제안 조건이 적용될 수 있다."
+
+# 35a624b81cd14bc09c5646f0b348179e
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
+msgid "Apply an Open License (Legal Openness)"
+msgstr "오픈 라이센스 적용 (법률적 개방성)"
+
+# e7dcffe8d7d44c5d93225ccf279b1ee6
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
+msgid ""
+"In most jurisdictions there are intellectual property rights in data that "
+"prevent third-parties from using, reusing and redistributing data without "
+"explicit permission. Even in places where the existence of rights is "
+"uncertain, it is important to apply a license simply for the sake of "
+"clarity. Thus, **if you are planning to make your data available you should "
+"put a license on it** – and if you want your data to be `open`_ this is even"
+" more important."
+msgstr "대부분의 관할권에서 데이터의 지적재산권은 명시적 허가가 없을 때 제 3자의 데이터 사용, 재사용 및 재배포를 허용하지 않는다. 지적재산권의 존재여부가 명확하지 않은 경우에도 투명성을 위해 라이센스를 적용하는 것이 중요하다. 따라서, **데이터를 사용할 수 있게 할 계획이 있다면 해당 데이터에 라이센스를 부여해야 한다\" - 데이터를 `공개`_ 할 경우 이것은 더욱 중요하다."
+
+# 5e7dc13604fa4f95890ca0e9b8144d81
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
+msgid ""
+"What licenses can you use? We recommend that for 'open' data you use one of "
+"the licenses conformant with the `Open Definition`_ and marked as suitable "
+"for data. This list (along with instructions for usage) can be found at:"
+msgstr "어떤 라이센스를 사용할 수 있을까? '열린 데이터'를 위해 '오픈 정의'_를 따르는 라이센스에서 하나를 선택하고, 해당 데이터에 적절한 라이센스를 표시하는 것이 좋다. 참고할 수 있는 라이센스 리스트는 (사용 지침에 함께) 다음을 참조할 수 있다.: "
+
+# 6c204c0188eb4967bd7ec5c9b9e29663
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
+msgid "http://opendefinition.org/licenses/"
+msgstr "http://opendefinition.org/licenses/"
+
+# 81d0ed1bbb9b4221a6dfad0b8984cdd7
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:22
+msgid ""
+"A short 1-page instruction guide to applying an open data license can be "
+"found on the Open Data Commons site:"
+msgstr "오픈 데이터 라이센스를 적용하기 위한 요약된 1-페이지 지침 가이드는 Open Data Commons 사이트에서 찾을 수 있다:"
+
+# 134eda3fcb1e4ea9a9a3849ab64bdf61
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
+msgid "http://opendatacommons.org/guide/"
+msgstr "http://opendatacommons.org/guide/"
+
+# b747964567d643b082dc522af2471c0f
+#: ../../source/how-to-open-up-data/choose-datasets.rst:3
+msgid "Choose Dataset(s)"
+msgstr "데이터셋 선택"
+
+# 6fb7221c6835486c8ba3a96616edf6b8
+#: ../../source/how-to-open-up-data/choose-datasets.rst:5
+msgid ""
+"Choosing the dataset(s) you plan to make open is the first step – though "
+"remember that the whole process of opening up data is iterative and you can "
+"return to this step if you encounter problems later on."
+msgstr "첫번째 단계는 공개할 데이터셋을 선택하는 것이다 - 데이터 공개의 전체 프로세스가 반복적이기 때문에 문제가 발생하면 이 단계로 돌아올 수 있다."
+
+# 4a60d2eea7674a6daa86b7d785936908
+#: ../../source/how-to-open-up-data/choose-datasets.rst:9
+msgid ""
+"If you already know exactly what dataset(s) you plan to open up you can move"
+" straight on to the next section. However, in many cases, especially for "
+"large institutions, choosing which datasets to focus on is a challenge. How "
+"should one proceed in this case?"
+msgstr "공개할 데이터셋을 명확히 알고 있다면 다음 섹션으로 이동할 수 있다. 그러나, 대부분의 경우, 특히 규모가 큰 조직에서 공개할 데이터셋을 선택하는 것 자체가 어려운 문제이다. 이런 문제를 어떻게 처리할 것인가?"
+
+# 562f01d73511431eb5923bbd318fb284
+#: ../../source/how-to-open-up-data/choose-datasets.rst:14
+msgid ""
+"Creating this list should be a quick process that identifies which datasets "
+"could be made open to start with. There will be time at later stages to "
+"check in detail whether each dataset is suitable."
+msgstr "목록을 만드는 것은 공개할 데이터셋을 확인하기 위해 신속한 과정으로 진행되어야 한다. 후속 단계에서 개별 데이터셋이 적합한지 검토할 수 있는 기회가 있다. "
+
+# 0da9e433147142ec890f7d6ea919d666
+#: ../../source/how-to-open-up-data/choose-datasets.rst:18
+msgid ""
+"There is **no requirement** to create a comprehensive list of your datasets."
+" The main point to bear in mind is whether it is feasible to publish this "
+"data at all (whether openly or otherwise) - see :ref:`this previous section "
+"<what-data-can-be-open>`."
+msgstr "보유하고 있는 모든 데이터셋의 목록을 만들어야 되는  **요구사항은 없다 **. 모든 데이터를 발행하는 것이 실현 가능한 것인지 판단하는 것이 중요하다 (공개적으로 또는 다른 방법으로) - :ref:`이전 섹션 <어떤 데이터를 오픈할 수 있는가>`"
+
+# e56d16680b2846ab8ababb059eaaf4cb
+#: ../../source/how-to-open-up-data/choose-datasets.rst:24
+msgid "Asking the community"
+msgstr "커뮤니티에 묻기"
+
+# a01321c596e048ac890c7771648a27c9
+#: ../../source/how-to-open-up-data/choose-datasets.rst:26
+msgid ""
+"We recommend that you ask the community in the first instance. That is the "
+"people who will be accessing and using the data, as they are likely to have "
+"a good understanding of which data could be valuable."
+msgstr "먼저 커뮤니티에 문의하는 것을 추천한다. 커뮤니티에 있는 사람들은 데이터에 접근하여 사용할 수 있으며, 데이터의 가치에 대해 잘 이해할 수 있다."
+
+# 444b3c328660471c8c6dc51d89d0cc2c
+#: ../../source/how-to-open-up-data/choose-datasets.rst:30
+msgid ""
+"Prepare a short list of potential datasets that you would like feedback on. "
+"It is not essential that this list concurs with your expectations, the main "
+"intention is to get a feel for the demand. This could be based on other "
+"countries' :term:`open data` catalogs."
+msgstr "피드백을 원하는 잠재적인 데이터셋의 목록을 준비한다. 목록이 기대치와 반드시 일치될 필요는 없으며, 데이터에 대한 수요를 파악하는 것이 목적이다. 다른 나라들의 :term:`열린 데이터` 목록을 기반으로 만들 수 있다. "
+
+# 6cd8b5c44b4f49ccabbe7a1087df9d11
+#: ../../source/how-to-open-up-data/choose-datasets.rst:36
+msgid "Create a request for comment."
+msgstr "코멘트를 위한 요청 만들기"
+
+# 477a8715f16743f3b88eeddaa380d236
+#: ../../source/how-to-open-up-data/choose-datasets.rst:38
+msgid ""
+"Publicise your request with a webpage. Make sure that it is possible to "
+"access the request through its own URL. That way, when shared via social "
+"media, the request can be easily found."
+msgstr "요청을 웹페이지를 통해 공개한다. 해당 요청은 고유한 URL을 통해 접근할 수 있어야 하며, 소셜 미디어를 통한 공유는 요청사항을 쉽게 발견할 수 있게 해준다."
+
+# 5fe5f7e31b1a478f8889730e3eb81077
+#: ../../source/how-to-open-up-data/choose-datasets.rst:42
+msgid ""
+"Provide easy ways to submit responses. Avoid requiring registration, as it "
+"reduces the number of responses."
+msgstr "응답을 쉽게 제출할 수 있는 방법을 제공한다. 등록을 요구하는 것은 응답 수를 감소시킬 수 있기 때문에 피하는 것이 좋다. "
+
+# 26a1ebc54df04e69b875a56e46711d39
+#: ../../source/how-to-open-up-data/choose-datasets.rst:45
+msgid ""
+"Circulate the request to relevant mailing lists, forums and individuals, "
+"pointing back to the main webpage."
+msgstr "메인 페이지로 돌아올 수 있도록 요청사항을 관련있는 메일링 리스트, 포럼 및 개인에게 퍼트려라."
+
+# b2f5c26e2d4b490bb6b7a5072214a765
+#: ../../source/how-to-open-up-data/choose-datasets.rst:48
+msgid ""
+"Run a consultation event. Make sure you run it at a convenient time where "
+"the average business person, data wrangler and official can attend."
+msgstr "자문 이벤트를 운영하라. 이벤트는 일반적인 비즈니스 담당자, 데이터 wrangler (데이터를 돌보는 사람), 공무원이 참여할 수 있는 편한 시간에 운영하는 것이 필요하다. "
+
+# fe8082ba724f4e2481a8ab2a42544a98
+#: ../../source/how-to-open-up-data/choose-datasets.rst:52
+msgid ""
+"Ask a politician to speak on your agency's behalf. Open data is very likely "
+"to be part of a wider policy of increasing access to government information."
+msgstr "기관을 대신할 수 있는 정치인에게 요청하라. 열린 데이터는 정부 정보에 접근을 확대할 수 있는 폭 넓은 정책의 일부분이 되어야 한다. "
+
+# 97be10325f6e46a0a18c93844711c295
+#: ../../source/how-to-open-up-data/choose-datasets.rst:57
+msgid "Cost basis"
+msgstr "비용 근거"
+
+# c546923078d14fe782f517d573aac12a
+#: ../../source/how-to-open-up-data/choose-datasets.rst:59
+msgid ""
+"How much money do agencies spend on the collection and maintainence of data "
+"that they hold? If they spend a great deal on a particular set of data, then"
+" it is highly likely that others would like to access it."
+msgstr "얼마나 많은 예산을 정부기관이 보유하고 있는 데이터의 수집과 유지관리를 위해 지출하는가? 특정한 데이터셋에 지출이 많다면, 사람들이 해당 데이터에 접근하고 싶은 가능성이 높을 수 있다. "
+
+# cdc1c699f81641e3b62d4c407ef2fc83
+#: ../../source/how-to-open-up-data/choose-datasets.rst:63
+msgid ""
+"This argument may be fairly susceptible to concerns of freeriding. The "
+"question you will need to respond to is, \"Why should other people get "
+"information for free that is so expensive?\". The answer is that the expense"
+" is absorbed by the public sector to perform a particular function. The cost"
+" of sending that data, once it has been collected, to a third party is "
+"approximately nothing. Therefore, they should be charged nothing."
+msgstr "이러한 논쟁은 무임승차에 대한 이해관계에 상당히 민감한 경향이 있다. \"다른 사람들이 왜 비싼 정보를 무료로 얻어야 하는가?\"라는 질문의 답은 해당 비용이 특정한 기능을 수행하기 위해 공공 부분에 의해 흡수되기 때문이다. 그러나 데이터가 한번 수집된 후, 해당 데이터를 제 3자에게 보내는 비용은 거의 없다. 따라서 공공기관은 비용을 청구하지 않아야 한다. "
+
+# b7978bdbcba74480b3aedfb5aa436caf
+#: ../../source/how-to-open-up-data/choose-datasets.rst:71
+msgid "Ease of release"
+msgstr "공개의 용이성"
+
+# a00a368d4f5947028e1a024cd556e3c7
+#: ../../source/how-to-open-up-data/choose-datasets.rst:73
+msgid ""
+"Sometimes, rather than deciding which data would be most valuable, it could "
+"be useful to take a look at which data is easiest to get into the public's "
+"hands. Small, easy releases can act as the catalyst for larger behavioural "
+"change within organisations."
+msgstr "때론 가장 가치있는 데이터가 무엇인지 결정하는 것보다 대중에게 쉽게 줄 수 있는 데이터를 살펴보는 것이 유익할 수 있다. 작고, 쉬운 데이터 배포는 조직내의 큰 행동 변화를 이끌어내는 기폭제 역할을 할 수 있다. "
+
+# 11fb95c47b6d469aaef863cffe3dea1e
+#: ../../source/how-to-open-up-data/choose-datasets.rst:78
+msgid ""
+"Be careful with this approach however. It may be the case that these small "
+"releases are of so little value that nothing is built from them. If this "
+"occurs, faith in the entire project could be undermined."
+msgstr "그러나 소규모 공개 방식에서 주의할 것은 이러한 데이터를 통해 구축할 수 있는 없어 가치를 찾기 힘들 수 있다는 것이다. 이러한 일이 발생하면 전체 프로젝트의 신념이 약화될 수 있다."
+
+# 19b8f9cee4d241ea81e431a7e622c64d
+#: ../../source/how-to-open-up-data/choose-datasets.rst:83
+msgid "Observe peers"
+msgstr "동료 살피기"
+
+# 005598dfe6924292a200665f62057f50
+#: ../../source/how-to-open-up-data/choose-datasets.rst:85
+msgid ""
+"Open data is a growing movement. There are likely to be many people in your "
+"area who understand what other areas are doing. Formulate a list on the "
+"basis of what those agencies are doing."
+msgstr "열린 데이터는 점점 확산되는 움직임이다. 다른 분야에서 하는 것을 이해하는 사람들이 당신의 분야에서 많을 수 있다. 정부 기관이 하는 일에 대한 기준 목록을 만들어야 한다. "
+
+# 05c79f3133614f7abb43130e787bca43
+#: ../../source/how-to-open-up-data/index.rst:3
+msgid "How to Open up Data"
+msgstr "어떻게 데이터를 공개할 것인가"
+
+# 7fe3e18cfac749f5befd9ab2576d33f1
+#: ../../source/how-to-open-up-data/index.rst:5
+msgid ""
+"This section forms the core of this handbook. It gives concrete, detailed "
+"advice on how data holders can open up data. We’ll go through the basics, "
+"but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
+"that can arise."
+msgstr "본 섹션은 핸드북의 핵심으로 데이터 소유자가 데이터를 공개하는 방법에 대한 구체적인 조언을 제공한다. 기초에 대한 자세한 검토와 문제점을 동시에 살펴본다. 마지막으로 발생할 수 있는 미묘한 이슈들에 대해 논의할 것이다. "
+
+# 205ae0d7b0dc40bebc2303b798613a7f
+#: ../../source/how-to-open-up-data/index.rst:10
+msgid "There are three key rules we recommend following when opening up data:"
+msgstr "데이터를 공개할 때 따르도록 추천하는 세 가지 규칙이 있다: "
+
+# e090cea16cc645abb77158774b0a3643
+#: ../../source/how-to-open-up-data/index.rst:12
+msgid ""
+"**Keep it simple.** Start out small, simple and fast. There is no "
+"requirement that every dataset must be made open right now. Starting out by "
+"opening up just one dataset, or even one part of a large dataset, is fine --"
+" of course, the more datasets you can open up the better."
+msgstr "**단순명료.** 작고, 간단하고, 빠르게 시작한다. 모든 데이터셋이 지금 당장 공개될 필요는 없다. 하나의 데이터셋이나 규모가 큰 데이터의 일부를 공개하는 것으로 시작하는 것도 좋을 수 있다. -- 물론 많은 데이터셋을 공개할 수 있다면 더욱 좋다. "
+
+# cf62d646dd164d08be12466ae86a4cb5
+#: ../../source/how-to-open-up-data/index.rst:17
+msgid ""
+"Remember this is about innovation. Moving as rapidly as possible is good "
+"because it means you can build momentum and learn from experience -- "
+"innovation is as much about failure as success and not every dataset will be"
+" useful."
+msgstr "오픈 데이터는 혁신에 대한 것임을 기억해야 한다. 가능한 신속히 진행하는 것이 좋은데 이는 모멘텀을 만들고 경험을 통해 배울 수 있기 떄문이다.  - 혁신은  성공만큼 실패가 있으며, 모든 데이터 집합이 항상 유용한 것도 아니다."
+
+# ef4cadde787044f6bb05cdbdbee8438e
+#: ../../source/how-to-open-up-data/index.rst:22
+msgid ""
+"**Engage early and engage often.** Engage with actual and potential users "
+"and re-users of the data as early and as often as you can, be they citizens,"
+" businesses or developers. This will ensure that the next iteration of your "
+"service is as relevant as it can be."
+msgstr "**초기에, 자주 참여.** 시민들, 기업들 또는 개발자들가 되어 데이터를 적극적이며 잠재적으로 활용할 수 있는 사용자 및 재사용자로 참여한다. 이런 활동은 다음 버전의 서비스에서 관련이 있을 수 있는 가능성을 보장할 것이다. "
+
+# ce7b75398cac46e2abc2c039fcf31686
+#: ../../source/how-to-open-up-data/index.rst:27
+msgid ""
+"It is essential to bear in mind that much of the data will not reach "
+"ultimate users directly, but rather via ‘info-mediaries’. These are the "
+"people who take the data and transform or remix it to be presented. For "
+"example, most of us don’t want or need a large database of GPS coordinates, "
+"we would much prefer a map. Thus, engage with infomediaries first. They will"
+" re-use and repurpose the material."
+msgstr "대다수의 데이터가 최종 사용자에게 직접 도착하기 보다 '정보-중개자'를 통해 전달된다는 것을 기억할 필요가 있다. 이런 사람들은 데이터를 보유하면서 표현된 데이터를 변환하거나 혼합한다. 예를 들어, 많은 사람들이 규모가 큰 GPS 데이터베이스가 필요하지 않을 수 있기 때문에 지도를 선호할 수 있다. 따라서, 우선 정보 중개자가 참여하여 자료를 재사용하고 재목적화할 것이다. "
+
+# ff224ceb8d5e44db8fff4cbdb8b84a1b
+#: ../../source/how-to-open-up-data/index.rst:34
+msgid ""
+"**Address common fears and misunderstandings**. This is especially important"
+" if you are working with or within large institutions such as government. "
+"When opening up data you will encounter plenty of questions and fears. It is"
+" important to (a) identify the most important ones and (b) address them at "
+"as early a stage as possible."
+msgstr "**일반적인 우려와 오해에 대한 설명**. 정부와 같이 규모가 큰 조직과 함께 또는 조직내에서 일 할 때 매우 중요하다. 데이터를 공개할 때 수많은 질문과 우려에 마주치게 될 것이다.  이 때 (a) 가장 중요한 점을 구체화하고, (b) 가능한 빠른 단계에서 문제를 조정하는 것이 중요하다. "
+
+# 85ecf275551b4e6ea01de1f75da7cac0
+#: ../../source/how-to-open-up-data/index.rst:40
+msgid ""
+"There are four main steps in making data open, each of which will be covered"
+" in detail below. These are in very approximate order - many of the steps "
+"can be done simultaneously."
+msgstr "데이터를 공개하는 4 단계가 있으며 각 단계에 대해 아래에서 상세하게 설명할 것이다. 이것은 대략적인 순서이며 대부분의 단계는 동시에 이루어질 수 있다."
+
+# 58824e15e3d34b518d630239f299912d
+#: ../../source/how-to-open-up-data/index.rst:44
+msgid ""
+"**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
+"Keep in mind that you can (and may need to) return to this step if you "
+"encounter problems at a later stage."
+msgstr "**데이터셋 선택하기.** 공개할 계획이 있는 데이터셋을 선택한다. 후속 단계에서 문제가 있을 때 이 단계로 복귀할 수 있거나 복귀할 필요가 있다는 것을 주의해야 한다. "
+
+# e60fff59384142ceb4865b5956701aaf
+#: ../../source/how-to-open-up-data/index.rst:47
+msgid "**Apply an open license.**"
+msgstr "**공개 라이센스의 적용.**"
+
+# 8e71c0ccfdb64981b4cadfb21e412387
+#: ../../source/how-to-open-up-data/index.rst:49
+msgid "Determine what intellectual property rights exist in the data."
+msgstr "데이터에 어떤 지적재산권을 명시할 것인지 결정한다. "
+
+# 40cb98538dfc486c838b0cd5baef35db
+#: ../../source/how-to-open-up-data/index.rst:50
+msgid ""
+"Apply a suitable ‘open’ license that licenses all of these rights and "
+"supports the definition of openness discussed in the section above on ‘What "
+"Open Data’"
+msgstr "모든 지적재산권을 허용하는 적절한 '공개' 라이센스를 적용하고, 위에 있던 '어떤 데이터를 오픈할 것인가' 섹션에서 논의했던 공개성의 정의를 지원한다."
+
+# ff2d1c558ae64d3ea092b313b0a7c854
+#: ../../source/how-to-open-up-data/index.rst:53
+msgid ""
+"NB: if you can't do this go back to step 1 and try a different dataset."
+msgstr "NB: 첫번째 단계로 돌아갈 수 없다면 다른 데이터셋을 선택한다."
+
+# e7dfde372d704525b9baac515e235e2b
+#: ../../source/how-to-open-up-data/index.rst:56
+msgid ""
+"**Make the data available** - in bulk and in a useful format. You may also "
+"wish to consider alternative ways of making it available such as via an API."
+msgstr "**데이터를 이용할 수 있게 하기**- 대량으로 유용한 형식으로. API를 이용하여 데이터를 이용하는 것도 대체 방법으로 고려할 수 있다. "
+
+# e9ecca180f4649b4a06c3a524060f3e7
+#: ../../source/how-to-open-up-data/index.rst:59
+msgid ""
+"**Make it discoverable** - post on the web and perhaps organize a central "
+"catalog to list your open datasets."
+msgstr "**데이터를 탐색할 수 있게 하기** - 웹에 게시하고, 공개 데이터의 목록을 중앙의 목록에 조직화한다. "
+
+# 5adf4d4d1e4c4adb91f58d1920c3af87
+#: ../../source/how-to-open-up-data/make-data-available.rst:3
+msgid "Make Data Available (Technical Openness)"
+msgstr "데이터를 활용 가능하게 만들기 (기술적 개방성)"
+
+# b09db3670c724b4cbae550f365a90988
+#: ../../source/how-to-open-up-data/make-data-available.rst:5
+msgid ""
+":term:`Open data` needs to be technically open as well as legally open. "
+"Specifically, the data needs to be available in bulk in a :term:`machine-"
+"readable` format."
+msgstr ":term:`열린 데이터`는 기술적, 법적으로 공개되어야 한다. 특히, 데이터는 :term:`기계가-읽을 수 있는` 형식에서 대량으로 이용 가능해야 한다. "
+
+# b9d7515dde2043ac876fd4836fae1473
+#: ../../source/how-to-open-up-data/make-data-available.rst:10
+msgid ""
+"Data should be priced at no more than a reasonable cost of reproduction, "
+"preferably as a free download from the Internet. This pricing model is "
+"achieved because your agency should not undertake any cost when it provides "
+"data for use."
+msgstr "데이터의 재생산은 합리적인 비용내에서 책정되어야 하며, 가능하면 인터넷을 통해 자유롭게 다운로드받을 수 있어야 한다. 이러한 가격 모델이 가능한 것은 정부 기관이 데이터를 제공할 때 어떤 비용도 책임질 필요가 없기 때문이다."
+
+# 402e6b5680ef47a9b0690b72d93f77da
+#: ../../source/how-to-open-up-data/make-data-available.rst:16
+msgid ""
+"The data should be available as a complete set. If you have a register which"
+" is collected under statute, the entire register should be available for "
+"download. A web API or similar service may also be very useful, but they are"
+" not a substitutes for bulk access."
+msgstr "데이터는 완전한 셋으로 이용할 수 있어야 한다. 법령에 의해 어떤 데이터를 수집되어 등록한다면, 전체 목록이 다운로드될 수 있어야 한다. 웹 API 또는 유사한 서비스가 유용할 수 있지만, 대량 액세스의 대체제는 아니다."
+
+# b3a61f61587d4cfe810a5c957f8af97e
+#: ../../source/how-to-open-up-data/make-data-available.rst:22
+msgid ""
+"Re-use of data held by the public sector should not be subject to patent "
+"restrictions. More importantly, making sure that you are providing machine-"
+"readable formats allows for greatest re-use. To illustrate this, consider "
+"statistics published as :abbr:`PDF (Portable Document Format)` documents, "
+"often used for high quality printing. While these statistics can be read by "
+"humans, they are very hard for a computer to use. This greatly limits the "
+"ability for others to re-use that data."
+msgstr "공공 부분이 보유하고 있는 데이터의 재사용은 특허 제약을 받지 않아야 한다.  더욱 중요한 것은, 기계가 읽을 수 있는 형식은 재활용을 극대화시킬 수 있다는 것이다. 이에 대한 예로써 고품질 인쇄에 사용되는 :abbr:`PDF (Portable Document Format)` 문서로 발행된 통계치를 고려해 볼 수 있다. 이 통계치는 사람에 의해 해석될 수 있지만 컴퓨터에 의해 사용되기 매우 어려우며, 다른 사람이 해당 통계 데이터를 재사용하는 것을 제약시킨다. "
+
+# 190bf209b2644133b99a232d147ee714
+#: ../../source/how-to-open-up-data/make-data-available.rst:31
+msgid "Here are a few policies that will be of great benefit:"
+msgstr "큰 혜택이 될 수 있는 몇 가지 정책이 있다:"
+
+# 63d8a323d7e04da6bba2f412cc5842af
+#: ../../source/how-to-open-up-data/make-data-available.rst:33
+msgid "Keep it simple,"
+msgstr "간단명료."
+
+# 4978a2c4ac1f4d0482cd0a5c18899676
+#: ../../source/how-to-open-up-data/make-data-available.rst:34
+msgid "Move fast"
+msgstr "빠르게 이동"
+
+# 7e3d34dbf9b349dbbfd5874681a3b9e9
+#: ../../source/how-to-open-up-data/make-data-available.rst:35
+msgid "Be pragmatic."
+msgstr "점진적으로"
+
+# 344dec649a454a349a892dce337d2360
+#: ../../source/how-to-open-up-data/make-data-available.rst:37
+msgid ""
+"In particular it is better to give out raw data now than perfect data in six"
+" months' time."
+msgstr "지금 당장 가공되지 않은 데이터를 주는 것이 6개월 후 완벽한 데이터를 제공하는 것보다 휠씬 좋다."
+
+# c6673f81b9724b8c95778b12ce344bec
+#: ../../source/how-to-open-up-data/make-data-available.rst:40
+msgid ""
+"There are many different ways to make data available to others. The most "
+"natural in the Internet age is online publication. There are many variations"
+" to this model. At its most basic, agencies make their data available via "
+"their websites and a central catalog directs visitors to the appropriate "
+"source.  However, there are alternatives."
+msgstr "다른 사람에게 데이터를 활용할 수 있게 하는 다양한 방법이 있는데, 인터넷 시대에 가장 보편적인 방법은 온라인 게시이다. 이 모델에는 다양한 형태가 있다. 가장 기본적인 방법은 정부 기관의 홈페이지를 통해 데이터를 활용할 수 있게 하고, 중앙의 목록은 방문자들을 적당한 자료에 접근할 수 있도록 유도해주는 것이다. 물론 대안도 존재한다.  "
+
+# ac1bf932ff0d46c8982fb9e01fa36836
+#: ../../source/how-to-open-up-data/make-data-available.rst:46
+msgid ""
+"When :term:`connectivity` is limited or the size of the data extremely "
+"large, distribution via other formats can be warranted. This section will "
+"also discuss alternatives, which can act to keep prices very low."
+msgstr ":term:`연결성`이 제한되거나 데이터의 크기가 매우 크다면, 다른 포맷을 통한 배포가 정당화될 수 있다. 이 섹션은 비용을 낮게 유지할 수 있는 선에서 고려할 수 있는 대안에 대해 논의할 것이다."
+
+# d14f19bd711547458714a36deb87b608
+#: ../../source/how-to-open-up-data/make-data-available.rst:51
+msgid "Online methods"
+msgstr "온라인 방법"
+
+# c5885ee8faca4693a840729a94e548a0
+#: ../../source/how-to-open-up-data/make-data-available.rst:54
+msgid "Via your existing website"
+msgstr "이미 갖고 있는 웹사이트를 통해"
+
+# 4698a33b199f4dc7893cc0b7f999880d
+#: ../../source/how-to-open-up-data/make-data-available.rst:56
+msgid ""
+"The system which will be most familiar to your web content team is to "
+"provide files for download from webpages. Just as you currently provide "
+"access to discussion documents, data files are perfectly happy to be made "
+"available this way."
+msgstr "웹 컨텐트 팀에게 가장 익숙한 시스템은 웹페이지로부터 파일을 다운로드 받을 수 있게 만들어주는 것이다. 현재 토론 문서에 접근권을 주는 것과 마찬가지로 데이터 파일도 이와 같은 방식으로 제공되는 것이 좋다."
+
+# 680a3fdd6ee74160bfd3f0ba94456f73
+#: ../../source/how-to-open-up-data/make-data-available.rst:61
+msgid ""
+"One difficulty with this approach is that it is very difficult for an "
+"outsider to discover where to find updated information. This option places "
+"some burden on the people creating tools with your data."
+msgstr "이 방식의 한가지 어려움은 제3자가 업데이트된 정보를 탐색하기 어렵다는 점이다. 이것은 데이터를 활용하여 새로운 도구를 만드는 사람들에게 부담을 줄 수 있다."
+
+# 28ec978c25d5464caef60764ccd26193
+#: ../../source/how-to-open-up-data/make-data-available.rst:67
+msgid "Via 3rd party sites"
+msgstr "제3자의 사이트를 통해"
+
+# bc1c7a24e2fc40369a8d6fee3b547452
+#: ../../source/how-to-open-up-data/make-data-available.rst:69
+msgid ""
+"Many repositories have become hubs of data in particular fields. For "
+"example, pachube.com is designed to connect people with sensors to those who"
+" wish to access data from them. Sites like Infochimps.com and Talis.com "
+"allow public sector agencies to store massive quantities of data for free."
+msgstr "많은 저장소들이 특정 분야의 데이터 허브가 되고 있다. 예를 들어, pachube.com는 센서를 갖고 있는 사람들을 데이터에 접근할 수 있는 사람들과 연결하기 위한 것이다. Infochimps.com 및 Talis.com 와 같은 사이트는 공공 부문의 기관들에게 규모가 큰 데이터를 무료로 저장할 수 있게 해 준다. "
+
+# 79fec3171d0b43e7924a9661d86ed5bb
+#: ../../source/how-to-open-up-data/make-data-available.rst:75
+msgid ""
+"Third party sites can be very useful. The main reason for this is that they "
+"have already pooled together a community of interested people and other sets"
+" of data. When your data is part of these platforms, a type of positive "
+"compound interest is created."
+msgstr "제 3자 사이트는 관심있는 사람들의 커뮤니티와 데이터셋을 보유하고 있다는 측면에서 매우 유용하다. 데이터가 이와 같은 플랫폼의 일부가 될 때, 긍정의 복리 형식이 창발될 수 있다."
+
+# e27ac253acf04e4895092c606f5d6c84
+#: ../../source/how-to-open-up-data/make-data-available.rst:80
+msgid ""
+"Wholesale data platforms already provide the infrastructure which can "
+"support the demand. They often provide analytics and usage information. For "
+"public sector agencies, they are generally free."
+msgstr "도매 데이터 플랫폼은 이와 같은 수요를 수용할 수 있는 인프라를 이미 제공하고 있다. 이 플랫폼은 종종 정보의 분석 및 사용에 대한 기능을 제공하며, 일반적으로 공공부문 기관들에게 무료로 제공된다. "
+
+# cc7000380ec64929b7aacfcc5761b05f
+#: ../../source/how-to-open-up-data/make-data-available.rst:84
+msgid ""
+"These platforms can have two costs. The first is independence. Your agency "
+"needs to be able to yield control to others. This is often politically, "
+"legally or operationally difficult. The second cost may be openness. Ensure "
+"that your data platform is agnostic about who can access it. Software "
+"developers and scientists use many operating sytems, from smart phones to "
+"supercomputers. They should all be able to access the data."
+msgstr "이러한 플랫폼은 두 가지 비용을 수반하는데 첫번째는 독립성이다.  정부 기관은 다른 사람들에게 통제권을 양보할 필요가 있지만, 정치적, 법적, 또는 운영상의 이유로 항상 어려운 문제이다. 두번째 비용은 개방성이다.  데이터 플랫폼은 데이터에 접근하는 사람들에게 관대해야 한다. 소프트웨어 개발자와 개발자는 스마트폰에서 슈퍼컴퓨터에 이르는 다양한 운영 체제를 사용한다. 이러한 조건에서도 데이터에 접근할 수 있어야 한다."
+
+# 45ec5a433d49473d8bd8e8aa732d3790
+#: ../../source/how-to-open-up-data/make-data-available.rst:94
+msgid "Via FTP servers"
+msgstr "FTP 서버를 통해"
+
+# b76866767adf434e9e413aa9dd09bcc1
+#: ../../source/how-to-open-up-data/make-data-available.rst:96
+msgid ""
+"A less fashionable method for providing access to files is via the File "
+"Transfer Protocol (FTP). This may be suitable if your audience is technical,"
+" such as software developers and scientists. The FTP system works in place "
+"of HTTP, but is specifically designed to support file transfers."
+msgstr "FTP (File Transfer Protocol)를 통해 파일에 접근하는 방식은 소프트웨어 개발자 또는 연구자와 같이 이용 대상이 기술자라면 적절할 수 있지만 유행은 아니다. FTP 시스템은 HTTP에서 동작하지만, 파일 전송을 위한 목적으로 설계되었다."
+
+# 2b926a03ce794f8782e74bd0013c2b2e
+#: ../../source/how-to-open-up-data/make-data-available.rst:102
+msgid ""
+"FTP has fallen out of favour. Rather than providing a website, looking "
+"through an FTP server is much like looking through folders on a computer. "
+"Therefore, even though it is fit for purpose, there is far less capacity for"
+" web development firms to charge for customisation."
+msgstr "FTP는 관심을 잃고 있는데 FTP 서버를 통해 정보를 보는 것은 웹사이트와 다르게 컴퓨터에 있는 폴더를 찾는 것과 유사하다. 따라서, 특정한 목적에 적합할 수 있으나 특화된 웹 개발 회사의 요구에 미치지 못하는 수준이다."
+
+# c42b8894bbc54326b66238f06c086570
+#: ../../source/how-to-open-up-data/make-data-available.rst:108
+msgid "As torrents"
+msgstr "토렌트로"
+
+# 759eb86f2e4d480eaaecdaac50273050
+#: ../../source/how-to-open-up-data/make-data-available.rst:110
+msgid ""
+":term:`BitTorrent` is a system which has become familiar to policy makers "
+"because of its association with copyright infringement. BitTorrent uses "
+"files called torrents, which work by splitting the cost of distributing "
+"files between all of the people accessing those files. Instead of servers "
+"becoming overloaded, the supply increases with the demand increases. This is"
+" the reason that this system is so successful for sharing movies. It is a "
+"wonderfully efficient way to distribute very large volumes of data."
+msgstr ":term:`BitTorrent`는 지적재산권 침해에 대한 관련성으로 인해 정책 수립자에게 익숙해진 시스템이다. BitTorrent는 토렌트라는 파일을 사용하며, 특정한 파일에 접근하려는 사람들 사이에서 파일을 분산시킴으로써 비용을 분배시키는 방식으로 동작한다. 서버는 과부화되지 않게 수요가 증가할수록 공급도 증가한다. 이 때문에 토렌트 시스템은 영화 파일을 공유하는데 매우 성공적이었다. 이와 같은 방식은 규모가 매우 큰 데이터를 배포하는데 놀랄만큼 효과적이다."
+
+# 129e68dafdf54f6e97919fba6fdc5c70
+#: ../../source/how-to-open-up-data/make-data-available.rst:119
+msgid "As an API"
+msgstr "API로"
+
+# d6c7831d05704f01b2bedc502d6a50c1
+#: ../../source/how-to-open-up-data/make-data-available.rst:121
+msgid ""
+"Data can be published via an :term:`Application Programming Interface` "
+"(API). These interfaces have become very popular. They allow programmers to "
+"select specific portions of the data, rather than providing all of the data "
+"in bulk as a large file. APIs are typically connected to a database which is"
+" being updated in real-time. This means that making information available "
+"via an API can ensure that it is up to date."
+msgstr "최근 매우 인기를 끌고 있는 :term:`Application Programming Interface` (API)로 데이터를 발행할 수 있다. 개발자는 크기가 큰 파일에서 모든 데이터를 얻지 않고 API를 통해 데이터의 일정 부분을 선택할 수 있다. 일반적으로 API는 실시간으로 업데이트되는 데이터베이스와 연결되어 있기 때문에, API로 정보를 이용할 수 있다는 것은 최신의 데이터를 확보할 수 있다는 것을 의미한다. "
+
+# a04d09c10e634e4e95e64172d7f3df48
+#: ../../source/how-to-open-up-data/make-data-available.rst:129
+msgid ""
+"Publishing raw data in bulk should be the primary concern of all open data "
+"intiatives. There are a number of costs to providing an API:"
+msgstr "대규모로 가공되지 않은 데이터를 발행하는 것은 모든 오픈 데이터 이니셔티브의 주된 관심사이다. API를 제공하는 것은 많은 비용을 수반한다:"
+
+# 3c28e8cb66dc4a3cb88e41a7b60106b4
+#: ../../source/how-to-open-up-data/make-data-available.rst:132
+msgid ""
+"The price. They require much more development and maintainence than "
+"providing files."
+msgstr "가격. 파일을 제공하는 것보다 개발과 유지관리에 더 많은 비용이 요구된다."
+
+# 14dd153713774331a0312cbefb6d28d1
+#: ../../source/how-to-open-up-data/make-data-available.rst:134
+msgid ""
+"The expectations. In order to foster a community of users behind the system,"
+" it is important to provide certainty. When things go wrong, you will be "
+"expected to incur the costs of fixing them."
+msgstr "기대치. 해당 시스템을 사용하는 커뮤니티의 촉진을 위해 확실성을 제공하는 것이 중요하다. 이것이 잘못되면 수정하기 위한 비용이 발생할 것이다."
+
+# ca23faca90d744b397f92d458f218d1c
+#: ../../source/how-to-open-up-data/make-data-available.rst:138
+msgid "Access to bulk data ensures that:"
+msgstr "대량 데이터에 접근은 다음을 보장해야 한다:"
+
+# ae5f19aec9fc42828d27deb2b2c9c146
+#: ../../source/how-to-open-up-data/make-data-available.rst:140
+msgid ""
+"there is no dependency on the original provider of the data, meaning that if"
+" a restructure or budget cycle changes the situation, the data are still "
+"available."
+msgstr "최초 데이터 제공자와 의존성이 없어야 하는데, 이는 데이터의 재구조화 또는 예산 사이클로 인해 상황이 변경되어도 해당 데이터는 여전히 이용 가능함을 의미한다. "
+
+# 3022f0749b794dc59af9b4b12e4fd380
+#: ../../source/how-to-open-up-data/make-data-available.rst:143
+msgid ""
+"anyone else can obtain a copy and redistribute it. This reduces the cost of "
+"distribution away from the source agency and means that there is no single "
+"point of failure."
+msgstr "누구나 데이터의 복사본을 얻을 수 있고 재배포할 수 있다. 이것은 데이터 제공 기관의 배포 비용을 감소시키며, 단일 접속 포인트 에러를 해결하는 수단이 된다. "
+
+# 362360c6bac64db5b350ca2f2b96d48e
+#: ../../source/how-to-open-up-data/make-data-available.rst:146
+msgid ""
+"others can develop their own services using the data, because they have "
+"certainty that the data will not be taken away from them."
+msgstr "사용자들은 데이터가 사라지지 않을 것이란 확신을 갖고 해당 데이터를 이용하여 서비스를 개발할 수 있다. "
+
+# 92b96832e25848bea4ba68895e02480f
+#: ../../source/how-to-open-up-data/make-data-available.rst:149
+msgid ""
+"Providing data in bulk allows others to use the data beyond its original "
+"purposes. For example, it allows it to be converted into a new format, "
+"linked with other resources, or versioned and archived in multiple places. "
+"While the latest version of the data may be made available via an API, raw "
+"data should be made available in bulk at regular intervals."
+msgstr "대량으로 데이터를 제공하는 것은 사용자들이 최초의 목적을 넘어 데이터를 사용할 수 있게 해준다. 예를 들어, 데이터는 새로운 포맷으로 변환될 수 있으며, 다른 리소스와 연결되거나, 다수의 공간에서 버전이 관리되고 저장될 수 있다. 데이터의 최신 버전이 APIㄹ를 통해 이용가능한 반면, 가공되지 않은 데이터는 규칙적인 기간에 대량으로 이용 할 수 있게 만들어야 한다. "
+
+# 19cd648b3bcb47a69b7b467e23035209
+#: ../../source/how-to-open-up-data/make-data-available.rst:155
+msgid ""
+"For example, the `Eurostat statistical service`_ has a bulk download "
+"facility offering over 4000 data files. It is updated twice a day, offers "
+"data in :term:`Tab-separated values` (TSV) format, and includes "
+"documentation about the download facility as well as about the data files."
+msgstr "예를 들어, `Eurostat 통계 서비스`_ 는 4000개가 넘는 데이터 파일에 대해 대량 다운로드 기능을 제공한다. 이 데이터는 :term:`Tab-separated values` (TSV)  형식으로 하루에 두 번 업데이트되며, 데이터 파일과 더불어 다운로드 기능에 대한 문서가 포함되어 있다. "
+
+# e41c10ed0631425c909b8ebfb4a7c800
+#: ../../source/how-to-open-up-data/make-data-available.rst:162
+msgid ""
+"Another example is the `District of Columbia Data Catalog`_, which allows "
+"data to be downloaded in CSV and XLS format in addition to live feeds of the"
+" data."
+msgstr "또 다른 사례로 `District of Columbia Data Catalog`_는 CSV와XLS 포새을 다운로드 받을 수 있게 해주며, 데이터 피드를 실시간으로 제공한다. "
+
+# 5b114f4280384ceb84d9a7ccda241a62
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
+msgid "Make data discoverable"
+msgstr "데이터를 검색 가능하게 만들기"
+
+# 1a2ce7b8aac042e9a2f48a21660610d0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
+msgid ""
+":term:`Open data` is nothing without users. You need to be able to make sure"
+" that people can find the source material. This section will cover different"
+" approaches."
+msgstr ":term:'열린 데이터'는 사용자가 없다면 아무런 의미가 없다. 사람들이 소스 자료를 찾을 수 있도록 해야 한다. 이 섹션은 3가지 다른 방법을 소개한다."
+
+# 4becb2ab91af48f190e5067c39b98b97
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
+msgid ""
+"The most important thing is to provide a neutral space which can overcome "
+"both inter-agency politics and future budget cycles. Jurisdictional borders,"
+" whether sectorial or geographical, can make cooperation difficult. However,"
+" there are significant benefits in joining forces. The easier it is for "
+"outsiders to discover data, the faster new and useful tools will be built."
+msgstr "가장 중요한 것은 정부기관 사이의 정치적 관계와 미래의 예산 사이클에 의존하지 않는 중립적인 공간을 제공하는 것이다. 구역별이든 지리학적이든 관할권에 대한 울타리는 협업을 어렵게 만든다. 그러나 세력을 만드는 중요한 장점은 있다. 제3자가 데이터를 탐색하는 것이 수월해 질수록, 새롭고 유용한 툴이 더 빠르게 만들어 질 것이다."
+
+# 512c9d4d09dd44a68e1beae3b2f882b6
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
+msgid "Existing tools"
+msgstr "활용 가능한 도구"
+
+# 2adc1adf902d44b497f75a0eafa83915
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
+msgid ""
+"There are a number of tools which are live on the web that are specifically "
+"designed to make data more discoverable."
+msgstr "데이터를 더 쉽게 찾을 수 있게 만들어 주는 도구들이 웹에 많다. "
+
+# ae9ed98469a341feb0c8d16f3e4c4715
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
+msgid ""
+"One of the most prominent is the DataHub_ and is a catalog and data store "
+"for datasets from around the world. The site makes it easy for individuals "
+"and organizations to publish material and for data users to find material "
+"they need."
+msgstr "가장 대표적인 예중에 하나인 DataHub_는 세계 각국의 데이터셋을 위한 목록이며 데이터 저장소이다. 데이터허브 사이트는 개인과 조직이 자료를 쉽게 발행하고, 데이터 사용자들이 필요한 자료를 찾을 수 있게 해 준다. "
+
+# 2558aac60a2e4327ad698877cc2142f9
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
+msgid ""
+"In addition, there are dozens of specialist catalogs for different sectors "
+"and places. Many scientific communities have created a catalog system for "
+"their fields, as data are often required for publication."
+msgstr "더불어, 서로 다른 분야와 장소를 위한 전문가 목록이 있다. 수 많은 과학 커뮤니티들은 해당 분야를 위한 목록 시스템을 개발하고 있으며, 데이터는 종종 발행을 위해 요구된다."
+
+# 3813a2f6a87b44bda881d2dc1047e8e0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
+msgid "For government"
+msgstr "정부를 위한"
+
+# dd24b7fc5a0e4264a0a4224b5aab6293
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
+msgid ""
+"As it has emerged, orthodox practice is for a lead agency to create a "
+"catalog for the government's data. When establishing a catalog, try to "
+"create some structure which allows many departments to easily keep their own"
+" information current."
+msgstr "전통적인 실천 방법은 주요 기관이 정부의 데이터를 위한 목록을 만드는 것이다. 목록을 만들 때, 많은 부서들이 정보를 쉽게 최신화할 수 있도록 일정한 구조를 만들어야 한다."
+
+# e6a628d1c2b340f2bdd128c31a4febba
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
+msgid ""
+"Resist the urge to build the software to support the catalog from scratch. "
+"There are free and open source software solutions (such as CKAN_) which have"
+" been adopted by many governments already. As such, investing in another "
+"platform may not be needed."
+msgstr "스크래치부터 목록을 지원하는 소프트웨어 개발에 반대한다. 다수의 정부에 의해 수용된 무료 및 오픈소스 소프트웨어 솔루션 (CKAN_ 같은)이 있으며, 별도의 플랫폼에 투자하는 것이 필요하지 않을 수 있다. "
+
+# 219db6ba9b784128a2be95191a104858
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
+msgid ""
+"There are a few things that most open data catalogs miss. Your programme "
+"could consider the following:"
+msgstr "다수의 열린 데이터 목록이 놓치고 있는 몇 가지 이슈가 있다. 계획에 다음을 고려할 수 있다:"
+
+# d738b775cba84d92ac1ed6ec7c0840c5
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
+msgid ""
+"Providing an avenue to allow the private and community sectors to add their "
+"data. It may be worthwhile to think of the catalog as the region's catalog, "
+"rather than the regional government's."
+msgstr "개인 및 커뮤니티 부문에서 그들의 데이터를 추가할 수 있는 여지를 제공해라. 지역별 정부의 목록이 아닌 지역의 목록을 고려하는 것이 가치 있을 수 있다."
+
+# 507082d1a6244462beb7af124cfe0fda
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
+msgid ""
+"Facilitating improvement of the data by allowing derivatives of datasets to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
+"share those results with everybody. If you only allow single versions of "
+"datasets, these improvements remain hidden."
+msgstr "목록화되는 데이터셋의 파생버전을 허용하여 데이터의 개선을 촉진시킨다. 예를 들어, 지역코드를 기록하고 모든 사람에게 결과를 공유하기 원할 수 있다. 데이터셋에 대해 한가지 버전을 허용하다면 데이터의 개선은 묻혀질 것이다."
+
+# e8ad70e351d34a9caf7bc7cf0409f67d
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
+msgid ""
+"Be tolerant of your data appearing elsewhere. That is, content is likely to "
+"be duplicated to communities of interest. If you have river level monitoring"
+" data available, then your data may appear in a catalog for hydrologists."
+msgstr "데이터가 퍼져 나가는 것에 인내심을 가져라. 즉, 콘텐트는 관심이 있는 커뮤니티에 의해 복제될 수 있다. 강의 수위 모니터링 데이터가 활용 가능하다면, 해당 ㄷ데이터는 수문학자를 위한 목록에 보여질 것이다."
+
+# 04da7586b2474affab2a4d56bb5dc900
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
+msgid ""
+"Ensure that access is equitable. Try to avoid creating a privileged level of"
+" access for officials or tenured researchers as this will undermine "
+"community participation and engagement."
+msgstr "접근의 합리성을 보장한다. 공무원 또는 정년이 있는 연구자를 위한 특권이 있는 접근 권한을 만들는 것을 피해야 한다. 이것은 커뮤니티의 참여와 지원을 약화시킬 것이다."
+
+# 19cfcba241ba49da8fa2cd7e12ffcdfe
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
+msgid "For civil society"
+msgstr "시민 사회를 위한"
+
+# 82151482120d4eb38a6d0aafff09e1ed
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
+msgid "Be willing to create a supplementary catalog for non-official data."
+msgstr "비공식 데이터를 위한 부가적인 목록을 적극적으로 생성한다."
+
+# 4d3c4cafa15d46b49cdf98fb5cdd40fb
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
+msgid ""
+"It is very rare for governments to associate with unofficial or non-"
+"authoritative sources. Officials have often gone to great expense to ensure "
+"that there will not be political embarrassment or other harm caused from "
+"misuse or overreliance on data."
+msgstr "정부가 비공식적이거나 권위가 없는 자료와 관련이 있는 것은 매우 드물다. 공무원은 데이터의 오용과 균형없는 사용으로 인한 피해 또는 정치적 방해가 없다는 것을 확인시키기 위해 큰 비용을 지불한다."
+
+# dc1fa133f5ff4c1f91bc4f7593f4b2e2
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
+msgid ""
+"Moreover, governments are unlikely to be willing to support activities that "
+"mesh their information with information from businesses. Governments are "
+"rightfully skeptical of profit motives. Therefore, an independent catalog "
+"for community groups, businesses and others may be warranted."
+msgstr "더불어, 정부는 영리 목적으로 그들의 데이터를 결합하는 활동을 지지하는데 소극적이며,  명실공히 이익 추구에  회의적이다. 따라서 커뮤니티 그룹, 비즈니스, 다른 사용자의 독립적인 목록이 정당화될 수 있다."
+
+# 0eece90a6b18435fbada8a71dce59bb8
+#: ../../source/following-up/getting-folks-in-a-room.rst:3
+msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
+msgstr "한 공간에 사람들 모으기: 비공식 컨퍼런스, 미트업, 바캠프"
+
+# d517fbbe51ea4d1889ad1ea4f9b6c34e
+#: ../../source/following-up/getting-folks-in-a-room.rst:5
+msgid ""
+"Face-to-face events can be a very effective way to encourage others to use "
+"your data. Reasons that you may consider putting on an event include:"
+msgstr "대면 행사는 사람들이 데이터를 사용하는 것을 장려할 수 있는 매우 효과적인 방법이다. 행사를 개최해야 되는 이유는 다음과 같다:"
+
+# ed4a924635be427d84e5e73aa156036b
+#: ../../source/following-up/getting-folks-in-a-room.rst:9
+msgid "Finding out more about prospective re-users"
+msgstr "미래의 재사용자를 찾기"
+
+# 5f00d7f9fe5f4d88908a571cd17d7583
+#: ../../source/following-up/getting-folks-in-a-room.rst:10
+msgid "Finding out more about demand for different datasets"
+msgstr "서로 다른 데이터셋의 수요 탐색"
+
+# 44afdf6e36d943ddabf744660e0cd998
+#: ../../source/following-up/getting-folks-in-a-room.rst:11
+msgid "Finding out more about how people want to re-use your data"
+msgstr "사람들이 데이터를 재사용을 원하게 만드는 방법 찾기"
+
+# 40fc2cc37de34edc951bb527c703bed8
+#: ../../source/following-up/getting-folks-in-a-room.rst:12
+msgid ""
+"Enabling prospective re-users to find out more about what data you have"
+msgstr "미래의 재사용자들이 데이터에 대해 더 많이 찾을 수 있게 하기"
+
+# 521cf351ccf04741bcad75ab2ebed8fc
+#: ../../source/following-up/getting-folks-in-a-room.rst:14
+msgid ""
+"Enabling prospective users to meet each other (e.g. so they can collaborate)"
+msgstr "미래의 사용자들이 서로 만날 수 있게 하기 (예. 사용자들이 협업을 할 수 있다)"
+
+# 48964c3745d54c21947431d3f9dfa392
+#: ../../source/following-up/getting-folks-in-a-room.rst:16
+msgid ""
+"Exposing your data to a wider audience (e.g. from blog posts or media "
+"coverage that the event may help to generate)"
+msgstr "당신의 데이터를 폭 넓은 청중에게 노출시키기 (예: 행사를 만들기 위해 도움이 될 수 있는 블로그 포스트 또는 미디어 커버리지)"
+
+# 4d90aabe7a734c3f805647604033d11a
+#: ../../source/following-up/getting-folks-in-a-room.rst:19
+msgid ""
+"There are also lots of different ways of running events, and different types"
+" of events, depending on what aim you want to achieve. As well as more "
+"traditional conference models,  which will include things like preprepared "
+"formal talks, presentations and demonstrations, there are also various kinds"
+" of participant driven events, where those who turn up may:"
+msgstr "행사의 목표에 따라 고려할 수 있는 다양한 형식의 이벤트와 이벤트를 운영할 수 있는 다양한 방법이 있다. 공식적인 발표, 프리젠테이션, 데모를 포함하는 전통적인 컨퍼런스 모델과 더불어, 참석자 주도의 다양한 이벤트가 있다:"
+
+# a50b011fdb8840dc9d8f2efd3ab44a4c
+#: ../../source/following-up/getting-folks-in-a-room.rst:26
+msgid "Guide or define the agenda for the event"
+msgstr "행사를 위한 아젠다 정의 및 가이드"
+
+# fa476ad8536242b5b8bf48aea215e13c
+#: ../../source/following-up/getting-folks-in-a-room.rst:27
+msgid ""
+"Introduce themselves, talk about what they’re interested in and what they’re"
+" working on, on an ad hoc basis"
+msgstr "참석자의 자기 소개, 관심있는 주제에 대한 이야기, 어떤 일을 하는지, 특례로 하여, 임시로."
+
+# a32292b0cdf147238a040b8e1264e482
+#: ../../source/following-up/getting-folks-in-a-room.rst:29
+msgid ""
+"Give impromptu micro-short presentations on something they are working on"
+msgstr "일하는 것에 대한 즉흥적인 짧은 프리젠테이션 제공"
+
+# 2337543daa9b44a8b8774ac488b32296
+#: ../../source/following-up/getting-folks-in-a-room.rst:31
+msgid "Lead sessions on something they are interested in"
+msgstr "관심있는 주제에 대한 세션 이끌기"
+
+# 64065d778f9946ba94319f8241c9e573
+#: ../../source/following-up/getting-folks-in-a-room.rst:33
+msgid ""
+"There is plenty of documentation online about how to run these kinds of "
+"events, which you can find by searching for things like: ‘unconference’, "
+"‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’, and so on. You may also "
+"find it worthwhile to contact people who have run these kinds of events in "
+"other countries, who will most likely be keen to help you out and to advise "
+"you on your event. It may be valuable to partner with another organisation "
+"(e.g. a civic society organisation, a news organisation or an educational "
+"institution) to broaden your base participants and to increase your "
+"exposure."
+msgstr "온라인에 이런 행사의 운영 방법에 대한 수많은 문서가 있으며, 다음의 질의어로 찾을 수 있다: ‘unconference’, ‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’, 등. 다른 나라에서 이와 같은 행사를 진행한 사람과 연락을 하는 것도 유익하다. 일반적으로 행사를 준비한 사람들은 해당 이벤트에 친절한 충고를 줄 수 있다. 또한 다른 조직과 파트너로 운영함으로써 행사에 대한 정보를 노출시켜 기본 참가자를 확대할 수 있다."
+
+# 462828d03e674930afd7dba17f214303
+#: ../../source/following-up/index.rst:3
+msgid "So I’ve Opened Up Some Data, Now What?"
+msgstr "자, 데이터를 공개한 후 다음은?"
+
+# 00e250fc1e7143fdaf4d5ee13df433dd
+#: ../../source/following-up/index.rst:5
+msgid ""
+"We’ve looked at how to make government information legally and technically "
+"reusable. The next step is to encourage others to make use of that data."
+msgstr "정부 정보를 법적/기술적으로 재활용할 수 있는 방법에 대해 살펴보았다. 다음 단계는 해당 데이터를 다른 사람들이 사용할 수 있도록 격려하는 것이다. "
+
+# ea104e8ec1424383ab1ad41895ec4913
+#: ../../source/following-up/index.rst:9
+msgid ""
+"This section looks at additional things which can be done to promote data "
+"re-use."
+msgstr "본 섹션은 데이터 재사용을 촉진시키기 위해 해야 하는 추가적인 것들을 살펴본다."
+
+# 120ddfec9cfe474eb54d102baa82fa32
+#: ../../source/following-up/making-things.rst:3
+msgid "Making things! Hackdays, prizes and prototypes"
+msgstr "실제 만들기! 해커데이, 상금, 프로토타입"
+
+# 060111852eda4d8ab3c3be81956860cd
+#: ../../source/following-up/making-things.rst:5
+msgid ""
+"The structure of these competitions is that a number of datasets are "
+"released and programmers then have a short time-frame - running from as "
+"little as 48 hours to a few weeks - to develop applications using the data. "
+"A prize is then awarded to the best application. Competitions have been held"
+" in a number of countries including the UK, the US, Norway, Australia, "
+"Spain, Denmark and Finland."
+msgstr "이러한 대회는 다수의 데이터셋이 공개되고 개발자들이 데이터를 이용하여 짧은 시간동안 -8시간에서 몇 주에 걸쳐- 애플리케이션을 개발하는 틀을 갖고 있으며 최고 애플리케이션에게 상이 수여된다. 대회는 영국, 미국, 노르웨이, 호주, 스페인, 덴마크, 핀란드를 포함하여 많은 국가에서 열리고 있다."
+
+# 4023683f993e487e8a36414c0e231b52
+#: ../../source/following-up/making-things.rst:13
+msgid "Examples for Competitions"
+msgstr "대회 사례"
+
+# 49b7ac024e12489b949a4e96788136cc
+#: ../../source/following-up/making-things.rst:15
+msgid ""
+"**Show us a better way** was the first such competition in the world. It was"
+" initiated by the UK Government’s “The Power of Information Taskforce” "
+"headed by Cabinet Office Minister Tom Watson in March 2008. This competition"
+" asked “What would you create with public information?” and was open to "
+"programmers from around the world, with a tempting £80,000 prize for the "
+"five best applications."
+msgstr "**Show us a better way**는 전세계에서 처음으로 개최된 대회였다. 이 행사는 2008년에 Cabinet Office Minister인 Tom Watson이 지휘하는 영국 정부의 “The Power of Information Taskforce” 에 의해 시작되었다. 이 대회는 “공공 정보로 무엇을 만들고 싶은가?”라고 물으며, 5개의 최우수 애플리케이션에 80,000 파운드라는 상금을 걸고 전세계의 프로그래머에게 공개되었다.  "
+
+# 4173635b18804fe2afc29007068f6172
+#: ../../source/following-up/making-things.rst:22
+msgid ""
+"**Apps for Democracy**, one of the first competitions in the United States, "
+"was launched in October 2008 by Vivek Kundra, at the time Chief Technology "
+"Officer (CTO) of the District of Columbia (DC) Government. Kundra had "
+"developed the groundbreaking DC data catalog, http://data.octo.dc.gov/, "
+"which included datasets such as real-time crime feeds, school test scores, "
+"and poverty indicators. It was at the time the most comprehensive local data"
+" catalog in the world. The challenge was to make it useful for citizens, "
+"visitors, businesses and government agencies of Washington, DC."
+msgstr "**Apps for Democracy**는 미국에서 열린 첫번째 행사중에 하나이며, District of Columbia (DC) Government의 CTO인 Vivek Kundra에 의해 2008년 10월에 개최되었다. Kundra는 획기적인 DC 데이터 목록을 개발하였는데, http://data.octo.dc.gov/, 실시간 범죄 피드, 학교의 테스트 점수 및 기아 지수와 같은 데이터셋을 포함하고 있다. 이 목록은 당시 전세계에서 가장 포괄적인 지역 데이터 목록이었다. 이 행사는 시민, 방문자, 사업자와 워싱턴 DC의 정부 기관을 유익하게 만들기 위해 기획되었다."
+
+# 8d21825195c3490fb0c824541222f572
+#: ../../source/following-up/making-things.rst:32
+msgid ""
+"The creative solution was to create the Apps for Democracy contest. The "
+"strategy was to ask people to build applications using the data from the "
+"freshly launched data catalog. It included an online submission for "
+"applications, many small prizes rather than a few large ones, and several "
+"different categories as well as a “People’s Choice” prize. The competition "
+"was open for 30 days and cost the DC government $50,000. In return, a total "
+"of 47 iPhone, Facebook and web applications were developed with an estimated"
+" value in excess of $2,600,000 for the local economy."
+msgstr "Apps for Democracy 콘테스트는 창의적인 솔루션을 만드는 것이 목표였다. 이 전략은 사람들에게 공개된 데이터 목록에 있는 데이터를 이용하여 애플리케이션을 개발할 수 있도록 요청했다. 애플리케이션을 온라인으로 제출하는 것을 포함했고, 소수의 큰 상보다 다양한 작은 상을 만들었고,  “People’s Choice” 상과 같은 몇몇의 카테고리를 포함시켰다. 이 대회는 30일 동안 열려 있었으며 DC 정부는 50,000 달러를 지출했다. 그 결과 47개의 아이폰, 페이스북, 웹 애플리케이션이 개발되었으며, 이를 통한 지역 경제의 가치는 2,600,000 달러를 넘는 것으로 추정하고 있다. "
+
+# f146ea81d3f149b4abf0590d80f27b1c
+#: ../../source/following-up/making-things.rst:42
+msgid ""
+"**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, "
+"this contest invited developers to  create open source applications making "
+"use of public data in just 48 hours. The competition had 29 teams of "
+"participants who developed applications that included a mobile phone "
+"programme for accessing traffic information in the Basque Country, and for "
+"accessing data on buses and bus stops in Madrid, which won the first and "
+"second prizes of €3,000 and €2,000 respectively."
+msgstr "**The Abre Datos (Open Data) Challenge 2010**. 2010년 4월 스페인에서 열린 행사로, 초청받은 개발자들이 48시간동안 공공 데이터를 이용하여 오픈 소스 애플리케이션을 개발하였다. 29개 팀이 시합에 참여했으며 Basque Country에서 교통 정보, Madrid의 버스와 버스 정거장에 대한 정보에 접근할 수 있는 모바일 폰 프로그램이 개발되었으며, 1위는 3,000유로, 2위는 2000유로를 받았다."
+
+# 1db8e290e0aa405ea64d0162ab6128e6
+#: ../../source/following-up/making-things.rst:50
+msgid ""
+"**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government "
+"Administration held \"Nettskap 2.0\". Norwegian developers – companies, "
+"public agencies or individuals – were challenged to come up with web-based "
+"project ideas in the areas of service development, efficient work processes,"
+" and increased democratic participation. The use of government data was "
+"explicitly encouraged. Though the application deadline was just a month "
+"later, on May 9, the Minister Rigmor Aasrud said the response was "
+"\"overwhelming\". In total 137 applications were received, no less than 90 "
+"of which built on the re-use of government data. A total amount of NOK 2.5 "
+"million was distributed among the 17 winners; while the total amount applied"
+" for by the 137 applications was NOK 28.4 million."
+msgstr "**Nettskap 2.0**.  2010년 4월,  the Norwegian Ministry for Government Administration은 \"Nettskap 2.0\" 개최하였다. 회사, 공공 기관 및 개인이 포함된 개발자들은 서비스 개발, 효과적인 업무 프로세스, 증대되는 민주적 참여 분야에서 웹 기반 프로젝트에 대한 아이디어를 갖고 도전하였다. 정부 데이터의 사용이 명시적으로 권장되었다. 응모 마감이 비록 한달 후인 5월 9일이었지만 the Minister Rigmor Aasrud는  반응이 \"압도적\"이었다고 말했다. 전체 137개의 애플리케이션이 접수되었고,적어도 90개 이상이 정부 데이터의 재사용을 통해 개발되었다. 전체 상금인 NOK 2.5 million이 17개 수상자에게 돌아갔고, 137개 애플리케이션에 의해 적용된 전체 금액은  NOK 28.4 million이었다."
+
+# 14cbc29030354b309e4c0acf0e56aef3
+#: ../../source/following-up/making-things.rst:63
+msgid ""
+"**Mashup Australia**. The Australian Government 2.0 Taskforce invited "
+"citizens to show why open access to Australian government information would "
+"be positive for the country’s economy and social development. The contest "
+"ran from October 7th to November 13th 2009. The Taskforce released some "
+"datasets under an open license and in a range of reusable formats. The 82 "
+"applications that were entered into the contest are further evidence of the "
+"new and innovative applications which can result from releasing government "
+"data on open terms."
+msgstr "**Mashup Australia**. 호주 정부 2.0 태스크포스는 호주 정부 정보의 공개적 접근이 국가의 경제와 사회적 발전에 긍정적인 이유를 보여주기 위해 시민들을 초대했다. 이 행사는 2009년 10월7일부터 11월 13일까지 진행되었다. 태스크포스는 재사용 가능한 형식으로 공개 라이센스 조건으로 데이터셋을 배포하였다. 컨테스트에 제출된 82개의 애플리케이션은 정부 데이터를 배포의 결과로 새롭고 혁신적인 애플리케이션의 증거가 되고 있다. "
+
+# 7abfb909efeb422099a3cc361c47d784
+#: ../../source/following-up/making-things.rst:73
+msgid "Conferences, Barcamps, Hackdays"
+msgstr "컨퍼런스, 바캠프, 해커데이"
+
+# 09e8f1bbc1b6444aa9605ae502caef64
+#: ../../source/following-up/making-things.rst:75
+msgid ""
+"One of the more effective ways for Civil Society Organisations (CSOs) to "
+"demonstrate to governments the value of opening up their datasets is to show"
+" the multiple ways in which the information can be managed to achieve social"
+" and economic benefit. CSOs that promote re-use have been instrumental in "
+"countries where there have been advances in policy and law to ensure that "
+"datasets are both technically and legally open."
+msgstr "정부에게 데이터셋을 공개해야 되는 가치를 증명하기 위해 시민사회조직 (Civil Society Organisations -CSOs)이 할 수 있는 가장 효과적인 방법은 정보가 사회적/경제적 혜택을 이끌 수 있는 다양한 방법을 보여주는 것이다. 재사용을 촉진시키는 CSOs는 세계 각국에서 데이터셋을 기술적/법적 관점에서 공개하는 것을 확실히 하며 정책과 법을 앞당기는 중요한 역할을 하고 있다."
+
+# 60c702f98efb4c9aa510e6198b1428db
+#: ../../source/following-up/making-things.rst:83
+msgid ""
+"The typical activities which are undertaken as part of these initiatives "
+"normally include competitions, :term:`open government data` conferences, "
+"“unconferences”, workshops and “hack days”. These activities are often "
+"organised by the user community with data that has already been published "
+"proactively or obtained using access to information requests. In other "
+"cases, civil society advocates have worked with progressive public officials"
+" to secure new release of datasets that can be used by programmers to create"
+" innovative applications."
+msgstr "이러한 이니셔티브의 일부분으로 시작한 전형적인 활동은 :term:`열린 정부 데이터` 컨퍼런스, “unconferences”, 워크샵, “hack days” 등을 포함한다. 이러한 활동들은 종종 주도적으로 데이터를 발행하거나, 정보의 요청을 통해 데이터를 갖고 있는 사용자 커뮤니티에 의해 조직된다. 다른 경우를 보면, 시민 사회 지지자들은 진보적인 공무원들과 협업하여 새로운 공개 데이터셋을 확보하고, 개발자들이 혁신적인 애플리케이션을 만드는데 활용할 수 있게 해준다. "
+
+# c85468b1156d4b76b60e1af0a6c15d37
+#: ../../source/following-up/tell-the-world.rst:3
+msgid "Tell the world!"
+msgstr "세상에 말하기"
+
+# f7b8c06459e444fe94462d69f5643a3f
+#: ../../source/following-up/tell-the-world.rst:5
+msgid ""
+"First and foremost, make sure that you promote the fact that you've embarked"
+" on a campaign to promote :term:`open data` in your area of responsibility."
+msgstr "무엇보다도, 책임감있게 :term:'열린 데이터'를 촉진시키기 위한 캠페인을 시작한다는 사실을 홍보해야 한다."
+
+# 9f1b5341b9e842f493d4aaf04dc35fcb
+#: ../../source/following-up/tell-the-world.rst:9
+msgid ""
+"If you open up a bunch of datasets, it’s definitely worth spending a bit of "
+"time to make sure that people know (or at least can find out) that you’ve "
+"done so."
+msgstr "여러 데이터셋을 공개한다면, 사람들이 인지할 수 있는 적당한 시간 (적어도 찾을 수 있는)을 준비해야 한다. "
+
+# f9ce3d51005c4023a7fd16dd964b1eff
+#: ../../source/following-up/tell-the-world.rst:13
+msgid ""
+"In addition to things like press releases, announcements on your website, "
+"and so on, you may consider:"
+msgstr "더불어 언론 공개, 웹 사이트를 통한 공지, 기타 방법을 고려할 수 있다."
+
+# 05f10ba54c2b46e1a53127ab505be87c
+#: ../../source/following-up/tell-the-world.rst:16
+msgid ""
+"Contacting prominent organisations or individuals who work/are interested in"
+" this area"
+msgstr "이 분야에 관심이 있거나/일하는 유명한 조직 또는 개인에 연락"
+
+# a2b3bc1ebe674b0ea69ffd4da3745791
+#: ../../source/following-up/tell-the-world.rst:18
+msgid "Contacting relevant mailing lists or social networking groups"
+msgstr "관련있는 메일링 리스트나 소셜 네트워킹 그룹에 연락"
+
+# 7b7cc9acb2a745ceacf815065d7ef058
+#: ../../source/following-up/tell-the-world.rst:19
+msgid ""
+"Directly contacting prospective users who you know may be interested in this"
+" data"
+msgstr "데이터에 관심이 있을 수 있는 미래의 사용자와 직접 연락"
+
+# 1e00595b53124d30a532470f0c12b6cc
+#: ../../source/following-up/tell-the-world.rst:23
+msgid "Understanding your audience"
+msgstr "청중 이해하기"
+
+# 528fc19bc9384914bff7b326a5690865
+#: ../../source/following-up/tell-the-world.rst:25
+msgid ""
+"Like all public communication, engaging with the data community needs to be "
+"targeted. Like all stakeholder groups, the right message can be wasted if it"
+" is directed to the wrong area."
+msgstr "모든 공공의 커뮤니케이션과 같이, 데이터 커뮤니티에 참여하는 것은 목표를 확실히하는 것이 필요하다. 모든 이해당사자 그룹에서와 같이 올바른 메시지도 틀린 곳으로 전달되면 버려질 수 있다. "
+
+# 5cee9f066f764747a01b13daa677806d
+#: ../../source/following-up/tell-the-world.rst:29
+msgid ""
+"Digital communities tend to be very willing to share new information, yet "
+"they very rapidly consume it. Write as if your messages will be skimmed "
+"over, rather than critically examined in-depth."
+msgstr "디지털 커뮤니티는 새로운 정보를 공유하는데 적극적인 경향이 있지만, 매우 빨리 흥미를 잃을 수 있다. 메시지를 심층적으로 깊이있게 쓰기보다 대강 작성한다. "
+
+# 18c9101dca504db9accaddb84ade088c
+#: ../../source/following-up/tell-the-world.rst:33
+msgid ""
+"Members of the tech community are less likely than the general public to use"
+" MS Windows. This means that you should not save documents in MS Office "
+"formats which can be read offline. There are two resons for this:"
+msgstr "기술적 커뮤니티의 구성원들은 일반 대중보다 MS 윈도우를 사용할 가능성이 적을 수 있다. 따라서 오프라인에서 문서를 읽을 때 MS 오피스 포맷으로 문서를 저장하면 안되는데 이유는 다음의 두 가지 이유가 있다. "
+
+# 19ec177bb4064fd4afc752564dcd6876
+#: ../../source/following-up/tell-the-world.rst:38
+msgid ""
+"The first is that those documents will be less accessible. Rather than the "
+"document you see on your screen, readers may see an imperfect copy from an "
+"alternative."
+msgstr "MS 오피스 문서는 이용하기 쉽지 않다. 스크린에 보이는 문서가 아닌 독자는 대체방법으로 불완전한 복사본을 볼 수 있다."
+
+# 2bf9658ad33c45e597c924d5f98773d9
+#: ../../source/following-up/tell-the-world.rst:41
+msgid ""
+"Secondly, your agency sends an implicit message that you are unwilling to "
+"take a step towards developers. Instead, you show that you are expecting the"
+" technology community to come to you."
+msgstr "둘째, 정부 기관은 개발자에게 다가갈 의지가 없다는 암묵적인 메시지를 보낸다. 대신 당신은 기술 커뮤니티에 기대가 높아질 것이다. "
+
+# 844e5bf617e74753bc0dd1c7cac6f9f0
+#: ../../source/following-up/tell-the-world.rst:47
+msgid "Post your material on third-party sites"
+msgstr "당신의 자료를 써드파티 사이트에 올리기"
+
+# 6a83365938d94f77b222dc567c79b43d
+#: ../../source/following-up/tell-the-world.rst:49
+msgid ""
+"Many blogs have created a large readership in specialised topic areas. It "
+"may be worthwhile adding an article about your initiative on their site. "
+"These can be mutually beneficial. You receive more interest and they receive"
+" a free blog post in their topic area."
+msgstr "다수의 블로그들이 전문 분야에서 많은 독자들을 갖고 있다. 이런 블로그에 이니셔티브에 대한 글을 올리는 것이 유익할 수 있다. 당신은 더 많은 관심을 받고, 블로거들은 특정 주제에 대해 무료로 포스트를 얻을 수 있다는 면에서 서로 도움이 될 수 있다. "
+
+# 9b230b80b65d485d86d252226dd302ec
+#: ../../source/following-up/tell-the-world.rst:56
+msgid "Making your communications more social-media friendly"
+msgstr "커뮤니케이션을 소셜미디어에 친화적으로 만들기"
+
+# 4bead5ae1fe74d96a269bf59a3ca032d
+#: ../../source/following-up/tell-the-world.rst:58
+msgid ""
+"It's unrealistic to expect that officials should spend long periods of time "
+"engaging with social media. However, there are several things that you can "
+"do to make sure that your content can be easily shared between technical "
+"users. Some tips:"
+msgstr "공무원이 소셜미디어에 참여하여 오랜 시간을 보낸다는 기대는 현실적이지 않다. 그러나 컨텐트를 기술적 사용자 사이에서 쉽게 공유할 수 있는 몇 가지 팁이 있다:"
+
+# f4f2dab2b9ac404cb9d9bbad4a3bf3b9
+#: ../../source/following-up/tell-the-world.rst:65
+msgid ""
+"When a message is shared with others, the recipient of the referral will be "
+"looking for the relevant content quickly."
+msgstr "메시지가 다른 사람에게 공유될 때, 추천 수신자들은 관련된 내용을 빠르게 찾아볼 수 있다."
+
+# 52f00dd496ae41b3896cfd0f84c83303
+#: ../../source/following-up/tell-the-world.rst:70
+msgid ""
+"Press releases are fine. They are concise messages about a particular point."
+" However, if you require people to download the content and for it to open "
+"outside of a web browser, then fewer people will read it. Search engines are"
+" less likely to index the content. People are less likely to click to "
+"download."
+msgstr "보도자료는 특정 관점에 대해 정확하기 때문에 좋다. 그러나 사람들이 콘텐트를 다운로드하게 만들거나 웹브라우저 밖에서 열게 한다면, 소수의 사람들이 보도자료를 읽을 것이다. 검색 엔진은 콘텐트를 인덱스하지 않으며, 사람들은 다운로드를 클릭하지 않는 경향이 있다. "
+
+# 5f48a5a973b64166af65a56fee9e2af3
+#: ../../source/following-up/tell-the-world.rst:78
+msgid ""
+"Apart from providing certainty to people who wish to share your content that"
+" this is permissible, you send a message that your agency understands "
+"openness. This is bound to leave an impression far more significant to "
+"proponents of open data than any specific sentence in your press release."
+msgstr "허용된 콘텐트를 공유하려는 사람에게 확신을 주는 것과 별개로, 기관이 개방성을 이해할 수 있는 메시지를 보내야한다. 보도자료의 특정한 문장보다 오픈 데이터의 지지자에게 휠씬 더 중요한 인상을 남기기 마련이다."
+
+# ced1e4dd38e54c148906380a97dd58ef
+#: ../../source/following-up/tell-the-world.rst:87
+msgid "Social media"
+msgstr "소셜 미디어"
+
+# 574f80f4359f48efbb593e6eec284c9e
+#: ../../source/following-up/tell-the-world.rst:89
+msgid ""
+"It's inefficient for cash-strapped agencies to spend hours on social media "
+"sites. The most significant way that your voice can be heard through these "
+"fora is by making sure that blog posts are easily shareable. That means, "
+"before reading the next section, make sure that you have read the last. With"
+" that in mind, here are a few suggestions:"
+msgstr "재정난에 빠진 기관들이 소셜 미디어 사이트에서 많은 시간을 보내는 것은 비효율적이다. 이런 사이트를 통해 당신의 희망사항을 듣게 하는 가장 효과적인 방법은 블로그 포스트가 쉽게 공유될 수 있다는 것을 확실히 하는 것이다. 다음 섹션으로 넘어가기 전에 마지막에 있는 몇 가지 제안사항을 읽기 바란다:"
+
+# f847a5e41c65478796cb6b6f71cbf686
+#: ../../source/following-up/tell-the-world.rst:98
+msgid ""
+"Twitter has emerged as the platform of choice for disseminating information "
+"rapidly. Anything tagged with #opendata will be immediately seen by "
+"thousands."
+msgstr "트위터는 정보를 급속히 퍼뜨리기 위한 최상의 플랫폼으로 부상하고 있다. #opendata를 태그로 부여한 모든 포스트는 대중에게 즉시 보여질 것이다."
+
+# 73647b69ba61434dbc71b406d5ae5259
+#: ../../source/following-up/tell-the-world.rst:102
+msgid ""
+"LinkedIn has a large selection of groups which are targeted towards open "
+"data."
+msgstr "LinkedIn은 열린 데이터를 목표로 하는 다양한 그룹이 존재한다. "
+
+# b0aafaffa0234c4989d2b2666ba136a5
+#: ../../source/following-up/tell-the-world.rst:105
+msgid ""
+"While Facebook is excellent for a general audience, it has not received a "
+"great deal of attention in the open data community."
+msgstr "페이스북은 일반적인 사용자에게 최고일 수 있지만, 열린 데이터 커뮤니티의 큰 관심을 받고 있지 않다. "
+
+# b3381b7656bf4f3dbe210f7e88d3202b
+#: ../../source/following-up/tell-the-world.rst:110
+msgid ""
+"Submit your content to the equivalent of newswires for geeks. Reddit and "
+"Hacker News are the two biggest in this arena at the moment. To a lesser "
+"extent, Slashdot and Digg are also useful tools in this area."
+msgstr "콘텐트를 컴퓨터 고수들을 위한 인터넷 뉴스 제공 서비스에 제출한다. Reddit과 Hacker News는 이 분야에서 현재 가장 큰 서비스이고, 조금 작은 서비스로 Slashdot과 Digg도 이 분야에서 유익한 서비스이다."
+
+# 8c7beae1caaa43b99c59bec2e4e1160d
+#: ../../source/following-up/tell-the-world.rst:115
+msgid ""
+"These sites have a tendency to drive significant traffic to interesting "
+"material. They are also heavily focused on topic areas."
+msgstr "이러한 사이트는 관심있는 자료에 높은 트래픽을 만드는 경향이 있으며, 주제 영역에 초점을 맞추고 있다. "
+
+# 8d913877e7a6456b84c5481aa375fa49
+#: ../../source/glossary.rst:3
+msgid "Glossary"
+msgstr "용어 사전"
+
+# 7f11b625ef3e418ebce8fa73d6df5007
+#: ../../source/glossary.rst:99
+msgid ""
+"The process of adapting data so that individuals cannot be identified from "
+"it."
+msgstr "데이터에서 개인들이 식별되지 않도록 데이터를 수정하는 프로세스"
+
+# a05e26862bfa42af9de59456bb406ca0
+#: ../../source/glossary.rst:96
+msgid "See :term:`Anonymisation`."
+msgstr "See :term:`익명화`."
+
+# a178837206844dcd9c3f961ffb9ec065
+#: ../../source/glossary.rst:61
+msgid "See :term:`Application Programming Interface`."
+msgstr "See :term:`Application Programming Interface`."
+
+# b2d454de54a34ff3ac26f9a9b95cfc1d
+#: ../../source/glossary.rst:64
+msgid ""
+"A way computer programs talk to one another. Can be understood in terms of "
+"how a programmer sends instructions between programs."
+msgstr "컴퓨터 프로그램들이 다른 프로그램과 대화하는 방법. 프로그래머가 프로그램 사이에서 컴퓨터 명령을 보내는 방법으로 이해할 수 있음."
+
+# ed5e720c502945a5890bd78c53722041
+# 006ce3eeb6f6494e89126a9fee36fa6b
+#: ../../source/glossary.rst:108 ../../source/glossary.rst:111
+msgid "See :term:`Information Asset Register`."
+msgstr "See :term:`정보 자산 등록소`."
+
+# d7005be4c2644ffd95650d9a7fa33c09
+#: ../../source/glossary.rst:38
+msgid ""
+"A license that requires that the original source of the licensed material is"
+" cited (attributed)."
+msgstr "라이센스가 있는 원본 소스가 참조될 때 요구되는 라이센스."
+
+# a66abef10b4b433d93031aa2c2017898
+#: ../../source/glossary.rst:24
+msgid ""
+"BitTorrent is a protocol for distributing the bandwith for transferring very"
+" large files between the computers which are participating in the transfer. "
+"Rather than downloading a file from a specific source, BitTorrent allows "
+"peers to download from each other."
+msgstr "BitTorrent는 파일 전송에 합의한 컴퓨터 사이에서 규모가 큰 파일을 전송하기 위해 대역폭을 분할하는 프로토콜이다. BitTorrent는 특정한 소스에서 하나의 파일을 다운로드하지 않고, 인터넷상에 분산하여 저장한 파일들을 놓고 다수의 접속을 사용하여 사용자들이 여러 곳에서 동시에 파일을 다운로드할 수 있게 해준다. 사람들이 서로 다운로드할 수 있게 해 준다. "
+
+# 612e73147c2c40fdbe744433e7db9a57
+#: ../../source/glossary.rst:20
+msgid ""
+"Connectivity relates to the ability for communities to connect to the "
+"Internet, especially the World Wide Web."
+msgstr "연결성은 인터넷, 특히 월드와이드웹에서 커뮤니티를 연결시킬 수 있는 능력과 관련이 있다."
+
+# 2c5484b9a96740bfbc9f3afcc208576a
+#: ../../source/glossary.rst:83
+msgid ""
+"A right for the creators of creative works to restrict others' use of those "
+"works. An owner of copyright is entitled to determine how others may use "
+"that work."
+msgstr "다른 사람의 사용을 제한하는 창작 작품을 만든 사람을 위한 권리. 저작권의 소유자는 다른 사람이 창작 작품을 사용할 수 있는 방법에 대해 결정할 권한이 있다. "
+
+# 905eb11579234bb1a44c8bf10af73af7
+#: ../../source/glossary.rst:31
+msgid "See :term:`Data Access Protocol`."
+msgstr "See :term:`데이터 접근 프로토콜`."
+
+# df25ad55a2cd4441b7c2a9fa5fb62877
+#: ../../source/glossary.rst:34
+msgid ""
+"A system that allows outsiders to be granted access to databases without "
+"overloading either system."
+msgstr "양쪽 시스템의 과부하없이 데이터베이스에 접근 권한이 있는 제3자를 허용해주는 시스템."
+
+# 9d30078f305e4260bfee0cfdd8fc931b
+#: ../../source/glossary.rst:42
+msgid ""
+"Data protection legislation is not about protecting the data, but about "
+"protecting the right of citizens to live without fear that information about"
+" their private lives might become public. The law protects privacy (such as "
+"information about a person's economic status, health and political position)"
+" and other rights such as the right to freedom of movement and assembly. For"
+" example, in Finland a travel card system was used to record all instances "
+"when the card was shown to the reader machine on different public transport "
+"lines. This raised a debate from the perspective of freedom of movement and "
+"the travel card data collection was abandoned based on the data protection "
+"legislation."
+msgstr "데이터 보호법은 데이터를 보호하는 것이 아니라, 개인 생활에 대한 정보가 공개될 수 있다는 두려움을 갖지 않고 살 수 있도록 시민의 권리를 보호하는 것이다. 이 법은 프라이버시 (개인의 경제적 상태, 건강 및 정치적 위치에 대한 정보 등), 움직임과 집회의 자유와 같은 일련의 권리를 보호한다. 예를 들어, 핀란드의 여행 카드 시스템은 다양한 대중 교통 노선에 있는 판독 시스템에서 사용된 모든 카드 정보를 기록했다. 이것은 이동의 자유에 대한 관점에서 논쟁을 일으켰고, 여행 카드의 데이터 수집은 데이터 보호법에 따라 폐기되었다. "
+
+# 86c8b18def8d4ee1b79d75ad066b4b8f
+#: ../../source/glossary.rst:79
+msgid ""
+"A right to prevent others from extracting and reusing content from a "
+"database. Exists mainly in European jurisdictions."
+msgstr "어떤 데이터베이스에서 컨텐트를 추출하고 재사용하는 것을 보호할 권리. 유럽 사법권에 존재함"
+
+# ec3378ceb3a748ccad2951202612480a
+#: ../../source/glossary.rst:114
+msgid "European Union."
+msgstr "European Union."
+
+# 5ad96f170d4d4c57b91fd25c109b9d1f
+#: ../../source/glossary.rst:117
+msgid ""
+"The *Directive on the re-use of public sector information*, 2003/98/EC. "
+"\"deals with the way public sector bodies should enhance re-use of their "
+"information resources.\" `Legislative Actions - PSI Directive "
+"<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+msgstr "*공공 부문 정보의 재사용을 위한 지시*, 2003/98/EC. \"는  공공 부문 기관들이 정보 자원의 재활용을 강화시키는 방법을 다룬다.\" `입법 작업 - PSI 지시 <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+
+# 31dae10cf39d414c9c3bc877c742864f
+#: ../../source/glossary.rst:123
+msgid ""
+"IARs are registers specifically set up to capture and organise meta-data "
+"about the vast quantities of information held by government departments and "
+"agencies. A comprehensive IAR includes databases, old sets of files, recent "
+"electronic files, collections of statistics, research and so forth."
+msgstr "IAR는 정부 부처나 기관이 보유한 방대한 양의 메타데이터를 저장하고 조직화할 수 있도록 구축된 등록소이다. 종합 IAR는 데이터베이스, 오래된 파일들, 최근의 전자 파일, 통계 컬렉션, 연구 데이터 등을 포함한다."
+
+# fbabda3fc9f146ac9a749e3d391ff817
+#: ../../source/glossary.rst:129
+msgid ""
+"The :term:`EU PSI Directive` recognises the importance of asset registers "
+"for prospective re-users of public information. It requires member states to"
+" provide lists, portals, or something similar. It states::"
+msgstr ":term:`EU PSI Directive`는 공공 정보의 잠재적 사용자를 위해 자산 등록소의 중요성을 인정하고 있으며, 목록, 포털, 또는 유사한 것을 제공하는 회원국이 요구된다. "
+
+# 815da74bce80419d83a67e6fddc5fe7b
+#: ../../source/glossary.rst:145
+msgid ""
+"IARs can be developed in different ways. Government departments can develop "
+"their own IARs and these can be linked to national IARs. IARs can include "
+"information which is held by public bodies but which has not yet been – and "
+"maybe will not be – proactively published. Hence they allow members of the "
+"public to identify information which exists and which can be requested."
+msgstr "IAR는 다양한 방법으로 개발될 수 있다. 정부부서는 독자적인 IAR를 개발할 수 있고 국가 IAR와 연결할 수 있다. IAR는 공공 기관이 보유하고 있는 - 아직 발행되지 않은 - 정보를 포함할 수 있으며,  적극적으로 발행할 수 있다. IAR는 공공의 구성원이 존재하는 정보와 요청된 정보를 식별할 수 있게 해준다. "
+
+# 338ebff07b91405ba99bcd2e705da064
+#: ../../source/glossary.rst:152
+msgid ""
+"For the public to make use of these IARs, it is important that any registers"
+" of information held should be as complete as possible in order to be able "
+"to have confidence that documents can be found. The incompleteness of some "
+"registers is a significant problem as it creates a degree of unreliability "
+"which may discourage some from using the registers to search for "
+"information."
+msgstr "대중이 IAR을 사용하기 위해, 정보 소유 등록소는 문서를 찾을 수 있다는 확신을 줄 수 있는 만큼 완벽해야 한다. 등록소의 불완전성은 등록소를 이용하여 정보를 찾기 어렵다는 불신감을 만드는 측면에서 매우 심각한 문제가 된다. "
+
+# 27218b7ea50843d393655598df958338
+#: ../../source/glossary.rst:159
+msgid ""
+"It is essential that the metadata in the IARs should be comprehensive so "
+"that search engines can function effectively. In the spirit of open "
+"government data, public bodies should make their IARs available to the "
+"general public as raw data under an open license so that civic hackers can "
+"make use of the data, for example by building search engines and user "
+"interfaces."
+msgstr "IAR의 메타데이터는 검색엔진이 효과적으로 동작할 수 있도록 종합적이어야 한다. 열린 정부 데이터 정신에 입각하여, 공공 기관들은 일반 대중이 데이터를 사용할 수 있도록 오픈 라이센스 조건으로 가공되지 않은 데이터로 IAR를 만들어야 한다. 이를 통해, 시민 해커들이 검색엔진과 사용자 인터페이스를 개발하여 데이터를 이용할 수 있다."
+
+# 4feb4d19a60642078f320e8d8dd612be
+#: ../../source/glossary.rst:105
+msgid "Monopolies granted to individuals for intellectual creations."
+msgstr "지적 창작을 위해 개인에게 부여된 독점"
+
+# 89ef221be02d4278bab95a677f310469
+#: ../../source/glossary.rst:102
+msgid "See :term:`Intellectual property rights`."
+msgstr "See :term:`지적재산권`."
+
+# 58a3235843654c3282894e72502ef67d
+#: ../../source/glossary.rst:13
+msgid ""
+"Formats that are machine readable are ones which are able to have their data"
+" extracted by computer programs easily. PDF documents are not machine "
+"readable. Computers can display the text nicely, but have great difficulty "
+"understanding the context that surrounds the text."
+msgstr "기계가 읽을 수 있는 형식은 컴퓨터 프로그램이 데이터를 쉽게 추출할 수 있는 것이다. PDF 문서는 기계가 읽을 수 있는 형식이 아니다. 컴퓨터는 텍스트를 보기 좋게 표시할 수 있지만 텍스트 주변의 컨텍스트를 이해하는 것은 매우 어렵다."
+
+# 2dc4522d8fcb4013b942b47615c50aa3
+#: ../../source/glossary.rst:9
+msgid ""
+"Open data are able to be used for any purpose. More details can be read at "
+"`opendefinition.org <http://www.opendefinition.org/>`_."
+msgstr "열린ㄷ 데이터는 어떤 목적으로도 사용할 수 있다. 자세한 내용은 `opendefinition.org <http://www.opendefinition.org/>`_에서 읽을 수 있다."
+
+# 5de57f6ce9f24f3ebbbcb86481d101fb
+#: ../../source/glossary.rst:167
+msgid ""
+":term:`Open data` produced by the government. This is generally accepted to "
+"be data gathered during the course of business as usual activities which do "
+"not identify individuals or breach commercial sensitivity. Open government "
+"data is a subset of :term:`Public Sector Information`, which is broader in "
+"scope. See http://opengovernmentdata.org for details."
+msgstr ":term:`열린 데이터`는 정부에 의해 만들어진다. 열린 데이터는 개인을 인식하지 않거나 상업적으로 민감하지 않은 일상 활동으로써 비즈니스를 통해 수집된 데이터이다. 열린 정부 데이터는 넓은 의미에서 :term:`공공 부문 정보`의 부분집합이다. 자세한 정보 참고: http://opengovernmentdata.org"
+
+# fd67964c3c0c4d829d84d0289821fa98
+#: ../../source/glossary.rst:91
+msgid ""
+"Generally understood as technical standards which are free from licencing "
+"restrictions. Can also be interpreted to mean standards which are developed "
+"in a vendor-neutral manner."
+msgstr "일반적으로 기술 표준은 라이센싱 제약에서 자유롭다고 이해된다.벤더-중립적인 방법으로 개발된 표준으로 해석될 수 있다."
+
+# 69cae7a7b1ba4c2ab1feefaa40340b8e
+#: ../../source/glossary.rst:55
+msgid "See :term:`Public Sector Information`."
+msgstr "See :term:`공공 부문 정보`."
+
+# a2ce148a2a73420b9acd40b9063f3f43
+#: ../../source/glossary.rst:75
+msgid ""
+"No copyright exists over the work. Does not exist in all jurisdictions."
+msgstr "저작권이 해당 작품에 존재하지 않는다. 모든 관할권에 존재하지 않는다."
+
+# 2f2e8085f2cc4398947dfcaa3f7ab3b8
+#: ../../source/glossary.rst:58
+msgid "Information collected or controlled by the public sector."
+msgstr "공공 부문에 의해 수집되거나 통제되는 정보"
+
+# bb27435fccc543f49295bce4ed47215a
+#: ../../source/glossary.rst:88
+msgid "Use of content outside of its original intention."
+msgstr "본래의 의도를 벗어난 사용"
+
+# b82b98ba6b7f4fc1aacfe2d19a7bda99
+#: ../../source/glossary.rst:71
+msgid ""
+"A license that requires users of a work to provide the content under the "
+"same or similar conditions as the original."
+msgstr "원본과 같거나 유사한 조건으로 콘텐트를 제공하기 위해 작품의 사용자에게 필요한 라이센스 "
+
+# fd0aa49e25734202a7c30036e68ef957
+#: ../../source/glossary.rst:175
+msgid ""
+"Tab-separated values (TSV) are a very common form of text file format for "
+"sharing tabular data. The format is extremely simple and highly :term"
+":`machine-readable`."
+msgstr "탭으로 구분된 값 (TSV)은 표 형식 데이터를 공유하기 위한 텍스트 파일 형식으로 매우 일반적이다. 이 형식은 매우 단순하며 :term:`기계가 읽을 수 있는` 가능성이 높다 ."
+
+# c51eb47f3b384fb4b0bfbe917fa42d1e
+#: ../../source/glossary.rst:68
+msgid "An :term:`API` that is designed to work over the Internet."
+msgstr "인터넷에서 동작할 수 있도록 설계된  :term:`API`"
+
+# 7132f49bacf446729745b0e8e0d9a192
+#: ../../source/appendices/file-formats.rst:3
+msgid "File Formats"
+msgstr "파일 형식"
+
+# 510002baa9d748f68d35f6436604f3fb
+#: ../../source/appendices/file-formats.rst:6
+msgid "An Overview of File Formats"
+msgstr "파일 형식의 개요"
+
+# 635ed34ea4614e81860363d399eb473a
+#: ../../source/appendices/file-formats.rst:9
+msgid "JSON"
+msgstr "JSON"
+
+# 3deb8b74834d42b1bdb11e40d2be3d28
+#: ../../source/appendices/file-formats.rst:11
+msgid ""
+"JSON is a simple file format that is very easy for any programming language "
+"to read. Its simplicity means that it is generally easier for computers to "
+"process than others, such as XML."
+msgstr "JSON은 어떤 프로그래밍 언어로도 읽을 수 있는 단순한 파일 포맷으로, 이때 단순함은 XML 같은 포맷에 비해 컴퓨터가 처리하기 쉽다는 것을 의미한다. "
+
+# 8a8590a390d84558833340d36e1f1b61
+#: ../../source/appendices/file-formats.rst:16
+msgid "XML"
+msgstr "XML"
+
+# 8bfafd0051d24a888453f01d8ba314e4
+#: ../../source/appendices/file-formats.rst:18
+msgid ""
+"XML is a widely used format for data exchange because it gives good "
+"opportunities to keep the structure in the data and the way files are built "
+"on, and allows developers to write parts of the documentation in with the "
+"data without interfering with the reading of them."
+msgstr "XML은 데이터 상호교환을 위해 폭넓게 사용되는 포맷으로, 데이터 구조를 유지하는데 유리하며 개발자는 파일을 읽는 간섭없이 데이터에 문서의 일부를 작성할 수 있다."
+
+# 516202713787406d9afba417d89fc548
+#: ../../source/appendices/file-formats.rst:24
+msgid "RDF"
+msgstr "RDF"
+
+# dbea0450c3c74ee5b999d5b3aec5cdc9
+#: ../../source/appendices/file-formats.rst:26
+msgid ""
+"A W3C-recommended format called RDF makes it possible to represent data in a"
+" form that makes it easier to combine data from multiple sources. RDF data "
+"can be stored in XML and JSON, among other serializations. RDF encourages "
+"the use of URLs as identifiers, which provides a convenient way to directly "
+"interconnect existing :term:`open data` initiatives on the Web. RDF is still"
+" not widespread, but it has been a trend among Open Government initiatives, "
+"including the British and Spanish Government Linked Open Data projects. The "
+"inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
+"scheme that includes linked RDF data as a goal to be sought for open data "
+"initiatives."
+msgstr "W3C가-권고하는 포맷인 RDF는 다수의 자료원으로부터 데이터를 쉽게 조합할 수 있는 형식으로 데이터를 표현할 수 있다. RDF 데이터는 여러 가지 직렬화 방법이 있으며, XML과 JSON으로 저장될 수 있다. RDF는 웹에 있는 :term:`열린 데이터` 이니셔티브를 서로 연결하는데 편리한 방법을 제공하는 식별자로 URL 사용을 장려한다. RDF는 폭넓게 확산되어 있지 않지만, 영국과 스페인 정부의 Linked Data 프로젝트를 포함한 열린 정부 이니셔티브 사이에서 트렌드가 되고 있다. 웹의 창시자인 팀 버너스리는 최근 5개 별 스키마를 제안하였는데, 이는 오픈데이터 이니셔티브들이 추구하는 목표로써 연결된 RDF 데이터를 포함하고 있다. "
+
+# 36ba7f18a648422ea3301c59ce1cdcaf
+#: ../../source/appendices/file-formats.rst:41
+msgid "Spreadsheets"
+msgstr "스프레드시트"
+
+# f71a98416abb41dabc2dc7023eaea6b8
+#: ../../source/appendices/file-formats.rst:43
+msgid ""
+"Many authorities have information left in the spreadsheet, for example "
+"Microsoft Excel. This data can often be used immediately with the correct "
+"descriptions of what the different columns mean."
+msgstr "많은 정부 기관이 마이크로소프트 엑셀과 같은 스프레드시트로 정보를 갖고 있다. 이러한 데이터는 서로 다른 컬럼의 의미를 올바르게 기술하기 위해 사용될 수 있다."
+
+# 7e508d6674dc4676b48234f74c63791c
+#: ../../source/appendices/file-formats.rst:47
+msgid ""
+"However, in some cases there can be macros and formulas in spreadsheets, "
+"which may be somewhat more cumbersome to handle. It is therefore advisable "
+"to document such calculations next to the spreadsheet, since it is generally"
+" more accessible for users to read."
+msgstr "그러나 때로는 스프레드쉬트안에 다루기 어려운 매크로와 공식이 있기 때문에, 사용자가 읽기 쉽도록 해당 스프레드시트와 나란히 계산 공식을 제공하는 것이 바람직하다"
+
+# 72147ad3a13f4e96a0da72ca09dca722
+#: ../../source/appendices/file-formats.rst:53
+msgid "Comma Separated Files"
+msgstr "콤마로 구분된 파일"
+
+# 3d3c193e05ac423a8ec608988bc74bcc
+#: ../../source/appendices/file-formats.rst:55
+msgid ""
+"CSV files can be a very useful format because it is compact and thus "
+"suitable to transfer large sets of data with the same structure. However, "
+"the format is so spartan that data are often useless without documentation "
+"since it can be almost impossible to guess the significance of the different"
+" columns. It is therefore particularly important for the comma-separated "
+"formats that documentation of the individual fields are accurate."
+msgstr "CSV 파일은 간결하고 동일한 구조로 대용량 데이터 집합을 전송하기 위해 적합하기 때문에 매우 유용한 형식이 될 수 있다. 그러나 이 형식으로 표현된 데이터는 별도의 문서가 없을 경우 서로 다른 컬럼의 중요성을 추측하는 불가능하여 유용성이 떨어질 수 있다.  따라서 개별 필드에 대한 문서화가 정확하게 만드는 것이 콤마로 구분된 형식에 중요하다. "
+
+# eb505d33966845db9b5cd9db528d86e8
+#: ../../source/appendices/file-formats.rst:63
+msgid ""
+"Furthermore it is essential that the structure of the file is respected, as "
+"a single omission of a field may disturb the reading of all remaining data "
+"in the file without any real opportunity to rectify it, because it cannot be"
+" determined how the remaining data should be interpreted."
+msgstr "더구나 파일 구조가 침해받지 않아야 된다. CSV 파일에서 하나의 필드가 삭제되면 나머지 데이터를 해석하기 위한 방법이 없기 때문에, 파일 수정 없이는 남아있는 모든 데이터의 해석이 방해 받을 수 있다. "
+
+# 00b93bc63b524d138137f8a1498d4eed
+#: ../../source/appendices/file-formats.rst:69
+msgid "Text Document"
+msgstr "텍스트 문서"
+
+# db72a1c2afd6485cb9364dba5947a8f8
+#: ../../source/appendices/file-formats.rst:71
+msgid ""
+"Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient"
+" to show certain kinds of data - for example, relatively stable mailing "
+"lists or equivalent. It may be cheap to exhibit in, as often it is the "
+"format the data is born in. The format gives no support to keep the "
+"structure consistent, which often means that it is difficult to enter data "
+"by automated means. Be sure to use templates as the basis of documents that "
+"will display data for re-use, so it is at least possible to pull information"
+" out of documents."
+msgstr "Word, ODF, OOXML, PDF와 같은 포맷의 표준적인 문서들은 일정한 종류의 데이터를 보여주는데 충분하다 - 예를 들어 비교적 안정적인 메일링 리스트 또는 이와 유사한.  이 포맷은 일관적으로 구조를 유지하지 않으며 자동적으로 데이터를 입력하기 어려울 수 있다. 데이터를 재사용할 수 있게 보여주기 위해 문서의 기준으로 템플릿을 사용한다면, 최소한 정보를 문서 밖으로 추출할 수 있다. "
+
+# 3ca8da150fd3448e9c91b7f4e8f08c92
+#: ../../source/appendices/file-formats.rst:80
+msgid ""
+"It can also support the further use of data to use typography markup as much"
+" as possible so that it becomes easier for a machine to distinguish headings"
+" (any type specified) from the content and so on. Generally it is "
+"recommended not to exhibit in word processing format, if data exists in a "
+"different format."
+msgstr "(어떤 형식인지 기록된) 기계가 콘텐트로부터 표제를 구분하기 쉽게 되어 가능한 많은 활자 마크업을 이용하는 것은 데이터의 추가 사용을 이끌어낼 수 있다. 일반적으로 다른 포맷으로 데이터가 있다면, 워드 프레세싱 포맷에 표현하는 것을 추천하지 않는다."
+
+# 1e222acd868a4836989075cb0ff8845f
+#: ../../source/appendices/file-formats.rst:87
+msgid "Plain Text"
+msgstr "Plain Text"
+
+# d063aa3fc40b4accbd3b368bc0ce5490
+#: ../../source/appendices/file-formats.rst:89
+msgid ""
+"Plain text documents (.txt) are very easy for computers to read. They "
+"generally exclude structural metadata from inside the document however, "
+"meaning that developers will need to create a parser that can interpret each"
+" document as it appears."
+msgstr "일반 텍스트 문서 (.txt) 는 컴퓨터가 읽기 매우 쉬우며, 문서 내에 구조화된 메타데이터를 갖지 않는다. 즉 개발자는 개별 문서를 처리할 수 있는 파서를 개발할 필요가 있다."
+
+# 7b4a3b6ee9404cfc873e4cac5c9a8390
+#: ../../source/appendices/file-formats.rst:94
+msgid ""
+"Some problems can be caused by switching plain text files between operating "
+"systems. MS Windows, Mac OS X and other Unix variants have their own way of "
+"telling the computer that they have reached the end of the line."
+msgstr "운영체제 사이에서 일반 텍스트 문서를 전환할 때 문제가 생길 수 있다. MS 윈도우, Mac OSX, Unix 시스템은 라인 끝을 처리하는 서로 다른 방식을 갖고 있다. "
+
+# 86000271a8184337a739b0937ae22f75
+#: ../../source/appendices/file-formats.rst:100
+msgid "Scanned image"
+msgstr "스캔된 이미지"
+
+# 6a115f8899a94bffb8d9578c13c53e1e
+#: ../../source/appendices/file-formats.rst:102
+msgid ""
+"Probably the least suitable form for most data, but both TIFF and JPEG-2000 "
+"can at least mark them with documentation of what is in the picture - right "
+"up to mark up an image of a document with full text content of the document."
+" It may be relevant to their displaying data as images whose data are not "
+"born electronically - an obvious example is the old church records and other"
+" archival material - and a picture is better than nothing."
+msgstr "아마도 대부분의 데이터에서 가장 적합한 형식은 문서의 전체 텍스트와 문서의 이미지를 함께 표시하는 것이다. 그러나 TIFF과 JPEG-2000은 적어도 사진에 있는 것을 문서로 표시할 수 있다. 이 포맷은 전자적으로 만들어지지 않은 데이터를 이미지로 표현하는데 적합하다 - 확실한 예는 오래된 교회 기록과 기록 자료- 사진은 없는 것보다 낫다."
+
+# 5e9d83d67fbe465a8c002bf40eeb9205
+#: ../../source/appendices/file-formats.rst:111
+msgid "Proprietary formats"
+msgstr "전용 형식"
+
+# dcac01c71eb645498af1bc5b949be4cc
+#: ../../source/appendices/file-formats.rst:113
+msgid ""
+"Some dedicated systems, etc. have their own data formats that they can save "
+"or export data in. It can sometimes be enough to expose data in such a "
+"format - especially if it is expected that further use would be in a similar"
+" system as that which they come from. Where further information on these "
+"proprietary formats can be found should always be indicated, for example by "
+"providing a link to the supplier's website. Generally it is recommended to "
+"display data in non-proprietary formats where feasible."
+msgstr "전용 시스템은 데이터를 저장하고 추출할 수 있는 독립적인 데이터 포맷을 갖고 있다. 종종 이와 같은 포맷으로 데이터를 노출시키는 것이 충분하다 - 특히 데이터를 유사한 시스템에서 사용할 것으로 기대된다면. 전용 포맷에서만 찾을 수 있는 정보는 항상 표시해야 한다. 예를 들어 공급자의 웹사이트에 링크를 제공하는 것 같이. 일반적으로 전용 포맷이 아닌 방법으로 표시하는 것을 추천한다."
+
+# ebfcd7577aa94ce9a921e9cf6c78a6a5
+#: ../../source/appendices/file-formats.rst:123
+msgid "HTML"
+msgstr "HTML"
+
+# 0bbba5786b824723848c6b7a3e3e6b87
+#: ../../source/appendices/file-formats.rst:125
+msgid ""
+"Nowadays much data is available in HTML format on various sites. This may "
+"well be sufficient if the data is very stable and limited in scope. In some "
+"cases, it could be preferable to have data in a form easier to download and "
+"manipulate, but as it is cheap and easy to refer to a page on a website, it "
+"might be a good starting point in the display of data."
+msgstr "최근에는 다양한 사이트에서 많은 데이터가 HTML 형식으로 사용된다. 만약 데이터가 매우 안정적이고 한정적인 범위를 갖는다면 이 포맷이 적합할 수 있다. 때로는 다운로드와 조작을 쉽게 하기 위한 형식으로 데이터를 확보하는 것이 선호될 수 있다. 그러나 웹사이트의 페이지에 표시하는 것이 저렴하고 쉽기 때문에 데이터의 표시를 위한 시작점이 될 수 있다."
+
+# 905921990dc542df9e22c0a368727e8b
+#: ../../source/appendices/file-formats.rst:132
+msgid ""
+"Typically, it would be most appropriate to use tables in HTML documents to "
+"hold data, and then it is important that the various data fields are "
+"displayed and are given IDs which make it easy to find and manipulate data. "
+"Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
+"extract structured information from a website, and such tools can do much "
+"more with the data if it is carefully tagged."
+msgstr "일반적으로 데이터를 표현하기 위해 HTML 문서에서 테이블을 이용하는 것이 가장 적절하며, 이 때 데이터의 탐색과 조작을 쉽게 하기 위해 다양한 데이터 항목이 주어진 ID로 표시되는 것이 중요하다. 야후는 웹사이트로부터 구조적인 정보를 추출할 수 있는 도구(http://developer.yahoo.com/yql/)를 개발하고 있으며, 이런 툴을 이용하여 데이터가 추가된다면 더 많은 데이터를 얻을 수 있다. "
+
+# 749bccb614ec4d75b626f3a91f7c20fd
+#: ../../source/appendices/file-formats.rst:141
+msgid "Open File Formats"
+msgstr "오픈 파일 형식"
+
+# 2268600ee3b34664913b2eaaf2c0b83e
+#: ../../source/appendices/file-formats.rst:143
+msgid ""
+"Even if information is provided in electronic, machine-readable format, and "
+"in detail, there may be issues relating to the format of the file itself."
+msgstr "정보가 전자적으로, 기계가-읽을 수 있는 형식으로 자세히 제공된다해도, 파일 자체의 형식과 관련된 이슈가 있을 수 있다. "
+
+# a1e9a630c82c497685a5d40d2375be05
+#: ../../source/appendices/file-formats.rst:147
+msgid ""
+"The formats in which information is published – in other words, the digital "
+"base in which the information is stored - can either be “open” or “closed”. "
+"An open format is one where the specifications for the software are "
+"available to anyone, free of charge, so that anyone can use these "
+"specifications in their own software without any limitations on re-use "
+"imposed by intellectual property rights."
+msgstr "정보가 발행된 포맷은 - 즉, 정보가 저장된 디지털 베이스 - \"개방형\"이거나 \"폐쇄형\"일 수 있다. 개방형 포맷은 누구나 무료로 이용할 수 있는 소프트웨어 명세를 갖고 있다. 따라서 누구나 지적재산권로 인한 재사용의 제한 없이 소프트웨어의 명세를 사용할 수 있다. "
+
+# 11373b39254144f4bb062a40e7813a85
+#: ../../source/appendices/file-formats.rst:154
+msgid ""
+"If a file format is “closed”, this may be either because the file format is "
+"proprietary and the specification is not publicly available, or because the "
+"file format is proprietary and even though the specification has been made "
+"public, re-use is limited. If information is released in a closed file "
+"format, this can cause significant obstacles to reusing the information "
+"encoded in it, forcing those who wish to use the information to buy the "
+"necessary software."
+msgstr "파일 포맷이 “폐쇄적”이라면, 해당 파일 포맷의 명세가 공개되어 있지 않고 소유권이 있거나, 명세가 공개되었으나 소유권이 있는 경우를 뜻하는데 모두의 경우에서 재사용은 제한적이다. 정보가 폐쇄적인 파일 포맷으로 배포된다면 정보를 재사용하는데 심각한 장애를 줄 수 있으며, 정보를 사용하기 위해 필요한 소프트웨어를 구매해야되는 부담이 있다. "
+
+# c8855b8342e64d1b8377d55893c94f9a
+#: ../../source/appendices/file-formats.rst:162
+msgid ""
+"The benefit of open file formats is that they permit developers to produce "
+"multiple software packages and services using these formats. This then "
+"minimises the obstacles to reusing the information they contain."
+msgstr "공개 파일 형식의 혜택은 개발자들이 다수의 소프트웨어 패키지와 서비스를 만들 수 있는 것을 허용해주는 것이다. 그 다음에 공개 파일에 포함된 정보를 재사용는 장벽은 감소한다."
+
+# 14e8ba3e856d439eb9372a107b327b45
+#: ../../source/appendices/file-formats.rst:167
+msgid ""
+"Using proprietary file formats for which the specification is not publicly "
+"available can create dependence on third-party software or file format "
+"license holders. In worst-case scenarios, this can mean that information can"
+" only be read using certain software packages, which can be prohibitively "
+"expensive, or which may become obsolete."
+msgstr "명세가 공개되지 않는 전용 파일 형식은 제3의 소프트웨어 또는 파일 포맷의 라이센스 소유자에 의존성을 만들 수 있다. 최악의 경우, 정보는 상당히 비싸거나 쓸모없어진 특정한 소프트웨어 패키지를 사용하여 읽어야 된다는 것을 의미한다."
+
+# becd5c5379ad46a6a4495bf228bc2072
+#: ../../source/appendices/file-formats.rst:173
+msgid ""
+"The preference from the :term:`open government data` perspective therefore "
+"is that information be released in **open file formats which are machine-"
+"readable.**"
+msgstr "term:`열린 정부 데이터` 관점에서 선호하는 것은 정보는 **기계가 읽을 수 있는 오픈 파일 포맷**으로 배포되는 것이다."
+
+# 0706964f49444783b06ccb6d8e40ec6c
+#: ../../source/appendices/file-formats.rst:178
+msgid "Example: UK traffic data"
+msgstr "사례: UK 교통량 데이터"
+
+# 06406a590c564ab9a7dd69b5e9869377
+#: ../../source/appendices/file-formats.rst:180
+msgid ""
+"Andrew Nicolson is a software developer who was involved in an (ultimately "
+"successful) campaign against the construction of a new road, the Westbury "
+"Eastern bypass, in the UK. Andrew was interested in accessing and using the "
+"road traffic data that was being used to justify the proposals. He managed "
+"to obtain some of the relevant data via freedom of information requests, but"
+" the local government provided the data in a proprietary format which can "
+"only be read using software produced by a company called Saturn, who "
+"specialise in traffic modelling and forecasting. There is no provision for a"
+" “read only” version of the software, so Andrew's group had no choice but to"
+" purchase a software license, eventually paying £500 (€600) when making use "
+"of an educational discount. The main software packages on the April 2010 "
+"price list from Saturn start at £13,000 (over €15,000), a price which is "
+"beyond the reach of most ordinary citizens."
+msgstr "앤드류 니콜슨은 소프트웨어 개발자로 영국의 Westbury Eastern 우회로 건설에 반대하는 캠페인에 참여했었다 (궁극적으로 성공적인). 앤드류는 캠페인 제안서의 정당화를 위해 사용될 수 있는 도로의 교통 정보의 에 관심이 있었다. 그는 정보 요청 자유를 통해 관련 정보를 얻을 수 있었으나, 지방 정부에서 제공된 데이터는 독점적 포맷으로 교통 모델링과 예상 전문업체인 Saturn사에서 개발된 소프트웨어를 사용해서 읽기가 가능했다. 해당 소프트웨어의 읽기 전용 버전이 없어 교육용 할인을 통해 앤드류는 소프트웨어 라이센스를 500 파운드 (600 유로)에 구입했다. 2010년 4월 Saturn사의 주요 소프트웨어 패키지 가격 리스트에 의하면 13,000 파운드 (15,000 유로 이상)에서 시작하면, 이것은 일반 시민들이 접근할 수 있는 가격대가 아니다."
+
+# 9e78cdb7b65b44568400fc075a25128b
+#: ../../source/appendices/file-formats.rst:196
+msgid ""
+"Although no access to information law gives a right of access to information"
+" in open formats, open government data initiatives are starting to be "
+"accompanied by policy documents which stipulate that official information "
+"must be made available in open file formats. Setting the gold standard has "
+"been the Obama Administration, with the Open Government Directive issued in "
+"December 2009, which says:"
+msgstr "정보법이 오픈 포맷의 정보 접근을 위한 권리를 제공하지 않지만, 오픈 정부 데이터 이니셔티브들은 공식문서가 반드시 오픈 포맷으로 이용 가능해야 된다는 점을 명시한 정책 문서와 함께 시작하고 있다. 황금률은 오바마 정부에 의해 정립이 되었으며, 2009년 Open Government Directive에 다음과 같이 명시하고 있다:"
+
+# 5a4a5dad6cfe4c26809846d46065d8e4
+#: ../../source/appendices/file-formats.rst:203
+msgid ""
+"*To the extent practicable and subject to valid restrictions, agencies "
+"should publish information online in an open format that can be retrieved, "
+"downloaded, indexed, and searched by commonly used web search applications. "
+"An open format is one that is platform independent, machine readable, and "
+"made available to the public without restrictions that would impede the re-"
+"use of that information.*"
+msgstr "*실용적이고 유효한 제약의 범위에서, 정부 기관은 웹 검색 애플리케이션에 의해 검색, 다운로드, 인덱스될 수 있도록 정보를 오픈 포맷으로 온라인에 발행해야 한다. 오픈 포맷은 플랫폼에 독립적이고, 기계가 읽을 수 있어야하며, 대중이 정보의 재사용에 제약없이 이용할 수 있는 형식이다. *"
+
+# 5cc8e6283aea4bb5af1a2c416989abc4
+#: ../../source/appendices/file-formats.rst:213
+msgid "How do I use a given format?"
+msgstr "어떻게 주어진 형식을 사용할 것인가"
+
+# 568a5625c2f94452af6abe3cc66878ad
+#: ../../source/appendices/file-formats.rst:215
+msgid ""
+"When an authority must exhibit new data – data that has not been exhibited "
+"before – you should choose the format that provides the best balance between"
+" cost and suitability for purpose. For each format there are some things you"
+" should be aware of, and this section aims to explain them."
+msgstr "정부 기관이 이전에 공개되지 않은 새로운 데이터를 제출해야되는 경우, 목적에 대한 비용과 적합성 사이에서 최고의 균형을 제공해주는 포맷을 선택해야 한다. 각각의 포맷에서 고려해야 되는 것이 있는데, 본 섹션은 이에 대한 설명을 다룬다."
+
+# 42b8a5c50e0b45eb89c4a26f7ea8a060
+#: ../../source/appendices/file-formats.rst:221
+msgid ""
+"This section focuses only on how the cut surfaces are best arranged so that "
+"machines can access them directly. Advice and guidance about how web sites "
+"and web solutions should be designed can be found elsewhere."
+msgstr "본 섹션은 기계가 데이터에 직접 접근할 수 있도록 해주기 위해 최선의 방법이 무엇인지 집중한다. 웹 사이트와 솔루션이 어디에서나 검색될 수 있게 설계하는 방법에 대한 조언과 가이드를 제공한다."
+
+# 1897adda256e49e99d665b5f5343e008
+#: ../../source/appendices/file-formats.rst:227
+msgid "Web services"
+msgstr "웹 서비스"
+
+# a9d6a586198648dcb05c316a24713fc9
+#: ../../source/appendices/file-formats.rst:229
+msgid ""
+"For data that changes frequently, and where each pull is limited in size, it"
+" is very relevant to expose data through web services. There are several "
+"ways to create a web service, but some of the most used is SOAP and REST. "
+"Generally, SOAP over REST, REST services, but are very easy to develop and "
+"use, so it is a widely used standard."
+msgstr "데이터의 변경이 빈번하게 발생하고, 데이터를 읽는 크기에 제한이 있다면 웹서비스를 통해 데이터를 노출시키는 것이 적당하다. 웹서비스를 생성하는 몇 가지 방법이 있지만, SOAP과REST가 가장 보편적이다. SOAP이 REST보다 광범위하지만, REST 서비스는 개발과 사용이 매우 쉬우며, 표준으로 폭넓게 사용되고 있다. "
+
+# 1832cd0456254e3c8affb21673553fe5
+#: ../../source/appendices/file-formats.rst:236
+msgid "Database"
+msgstr "데이터베이스"
+
+# 1ca36a963713464dbd753b7f60bd0661
+#: ../../source/appendices/file-formats.rst:238
+msgid ""
+"Like web services, databases provide direct access to data dynamically. "
+"Databases have the advantage that they can allow users to put together just "
+"the extraction that they are interested in."
+msgstr "웹 서비스와 같이, 데이터베이스는 데이터에 동적으로 직접 접근할 수 있는 기능을 제공한다. 데이터베이스는 사용자가 관심있는 추출 작업을 한데 모을 수 있는 장점이 있다."
+
+# efc3834bf47c482eb7a3bdc3da8faaa0
+#: ../../source/appendices/file-formats.rst:242
+msgid ""
+"There are some security concerns about allowing remote database extraction "
+"and database access is only useful if the structure of the database and the "
+"importance of individual tables and fields are well documented. Often, it is"
+" relatively simple and inexpensive to create web services that expose data "
+"from a database, which can be an easy way to address safety concerns."
+msgstr "원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다."
+
+# 51c683e25e5a4ce4be6978d9dc1a4705
+#: ../../source/appendices/index.rst:3
+msgid "Appendices"
+msgstr "원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다."
+
+# b67d88179b824185a34209f86dcc580c
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
+msgid "What Legal (IP) Rights Are There in Data(bases)"
+msgstr "어떤 법적 (IP) 권리가 데이터(베이스)에 있는가"
+
+# 5f9216bdba044ff28822b1d6bf5783bd
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
+msgid ""
+"When talking about data(bases) we first need to distinguish between the "
+"structure and the content of a database (when we use the term 'data' we "
+"shall mean the content of the database itself). Structural elements include "
+"things like the field names and a model for the data – the organization of "
+"these fields and their inter-relation."
+msgstr "데이터(베이스)를 말할 때, 먼저 데이터베이스의 구조와 콘텐트를 구분해야 한다 ('데이터'는 데이터베이스의 콘텐트 자체를 의미한다). 구조적 요소들은 필드명과 데이터 모델- 이러한 필드의 조직과 필드 사이의 상호 관계-과 같은 정보를 포함한다. "
+
+# c4e85f3fa8b94ae08375d9c817d14e32
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
+msgid ""
+"In many jurisdictions it is likely that the structural elements of a "
+"database will be covered by copyright (it depends somewhat on the level of "
+"'creativity' involved in creating this structure)."
+msgstr "많은 관할권에서 데이터베이스의 구조적 요소들은 저작권의 범위가 될 수 있다 (해당 구조를 만드는 것을 포함한 '창의성'의 수준에 어느정도 의존적이다)."
+
+# 395c38e545b949b2bd4f6cdf184a4ed4
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
+msgid ""
+"However, here we are particularly interested in the data. When we talk of "
+"\"data\" we need to be a bit careful because the word isn't particularly "
+"precise: \"data\" can mean a few items or even a single item (for example a "
+"single bibliographic record, a lat/long etc) or \"data\" can mean a large "
+"collection (e.g. all the material in the database). To avoid confusion we "
+"shall reserve the term \"content\" to mean the individual items, and data to"
+" denote the collection."
+msgstr "여기에선 특히 데이터에 관심이 있다. \"데이터\"를 말할 때, 단어가 정확하지 않기 때문에 주의가 필요하다:  \"데이터\"는 몇 개의 아이템 또는 단일 아이템 (예를 들어, 단일 서지 정보, 위/경도 등) 을 의미할 수도 있고, 규모가 큰 집합일수도 있다 (예. 데이터베이스의 모든 자료). 혼란을 피하기 위해, 여기서 \"콘텐트\"는 개별 아이템을 의미하고, 데이터는 집합을 의미한다. "
+
+# 73c5a4d2fd6648f68879b5a83b6f30bc
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
+msgid ""
+"Unlike for material such as text, music or film, the legal situation for "
+"data varies widely across countries. However, most jurisdictions **do** "
+"grant some rights in the data (as a collection)."
+msgstr "텍스트, 음악, 영화와 같은 자료와 다르게, 데이터에 대한 법적 상황은 국가에 따라 매우 다르다. 그러나 대부분의 관할권은 (컬렉션으로) 데이터에 대한 일정한 권리를 **인정한다** "
+
+# 6a4c03a757064662932a79988f81f0c8
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
+msgid ""
+"This distinction between the \"content\" of a database and the collection is"
+" especially crucial for factual databases since no jurisdiction grants a "
+"monopoly right over the individual facts (the \"content\"), even though it "
+"may grant right(s) in them as a collection. To illustrate, consider the "
+"simple example of a database which lists the melting point of various "
+"substances. While the database as a whole might be protected by law so that "
+"one is not allow to access, re-use or redistribute it without permission, "
+"this would never prevent you from stating the fact that substance Y melts at"
+" temperature Z."
+msgstr "데이터베이스와 컬렉션에 있는 \"콘텐트\" 사이의 차이점은 컬렉션에 있는 사실에 대한 권한을 인전해도 관할권은 개별 사실에 대해 독점권을 허용하지 않기 때문에 사실적 데이터베이스를 위해 매우 중요하다. 다양한 물질들의 녹는 점을 목록화한 데이터베이스를 예를 고려해보자. 전체적으로 해당 데이터베이스는 허가 없이 데이터의 접근, 재사용 및 재배포를 법적으로 차단할 수 있지만, 물질 Y가 Z 온도에서 녹는다는 사실을 명시하는 것을 막을 수 없다."
+
+# e45e4794fcde4db08aa676c867ef5314
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
+msgid "Forms of protection fall broadly into two cases:"
+msgstr "두 가지 사례로 구분한 보호의 형식"
+
+# 3bdda233812049c49e24ee9e8fe29390
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
+msgid "Copyright for compilations"
+msgstr "편집을 위한 저작권"
+
+# ae7ced23b0b54fff97a2a9712c475acd
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
+msgid "A *sui generis* right for collections of data"
+msgstr "데이터 집합을 위한 독자적인 권리"
+
+# e3cc883dcae4410daec23ba229274207
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
+msgid ""
+"As we have already emphasized, there are no general rules and the situation "
+"varies by jurisdiction. Thus we proceed country by country detailing which "
+"(if any) of these approaches is used in a particular jurisdiction."
+msgstr "이미 강조했듯이, 범용적인 규칙은 없으며 이런 상황은 관할권에 따라 다양하다. 따라서 이런 접근이 특정한 관할권에서 사용되는 것은 국가별로 처리해야 한다. "
+
+# 09a81bf2720345df93aaa77e5ba404f9
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
+msgid ""
+"Finally, we should point out that in the absence of any legal protection, "
+"many providers of (closed) databases are able to use a simple contract "
+"combined with legal provisions prohibiting violation of access-control "
+"mechanisms to achieve results similar to a formal IP right. For example, if "
+"X is a provider of a citation database, it can achieve any set of terms of "
+"conditions it wants simply by:"
+msgstr "마지막으로, 법적 보호없이, 다수의 (폐쇄형) 데이터베이스 제공자는 공식적인 지적재산권과 유사한 결과를 얻기 위해 접근-제어 매커니즘의 위반을 방지하는 법적 규정과 결합된 간단한 계약을 사용할 수 있다. 예를 들어, X가 인용 데이터베이스의 제공자라면 원하는 어떠한 약관 집합을 얻을 수 있다:"
+
+# 4ed11a4688a84f7c94a40d1dc70293f2
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
+msgid "Requiring users to login with a password"
+msgstr "패스워드로 로그인할 수 있는 사용자"
+
+# 2cf4c090400d49da993a256268b4a8d4
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
+msgid ""
+"Only providing a user with an account and password on the condition that the"
+" user agrees to the terms and conditions"
+msgstr "사용자가 계약 조건에 동의하는 조건으로 사용사의 계정과 비밀번호를 제공"
+
+# 16481e4fc1ed45ac846dc7dc4e553da2
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
+msgid ""
+"You can read more about the jurisdiction by jurisdiction situation in the "
+"`Guide to Open Data Licensing`_."
+msgstr "'오픈 데이터 라이센스 가이드'에서 처리권한에 대한 자세한 내용을 다룬다."

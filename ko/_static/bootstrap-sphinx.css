@@ -1,0 +1,314 @@
+@import url(https://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css);
+@import url(http://assets.okfn.org/themes/okfn/styles.css);
+@import url(http://assets.okfn.org/themes/okfn/okf-panel.css);
+
+/*
+* bootstrap-sphinx.css
+* ~~~~~~~~~~~~~~~~~~~~
+*
+* Sphinx stylesheet -- Twitter Bootstrap theme.
+*/
+
+/**************** Typo *************************/
+
+body, p, blockquote p {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6, header, .navbar {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+li {
+  line-height: 25px;
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+
+/* code styling */
+.docutils.literal {
+  padding: 0 2px;
+}
+pre, code {
+  margin: 1em 0 1em 2em;
+  font-size: 14px;
+  white-space: pre;
+}
+
+
+/****************** Admonitions *********************/
+
+/* Shared by admonitions, warnings and sidebars */
+div.admonition,
+div.warning {
+    font-size: 0.9em;
+    margin: 2em;
+    padding: 0;
+}
+div.admonition p,
+div.warning p {
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0;
+}
+div.admonition pre,
+div.warning pre {
+    margin: 0.4em 1em 0.4em 1em;
+}
+div.admonition p.admonition-title,
+div.warning p.admonition-title {
+    margin: 0;
+    padding: 0.1em 0 0.1em 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+}
+div.admonition ul, div.admonition ol,
+div.warning ul, div.warning ol {
+    margin: 0.1em 0.5em 0.5em 3em;
+    padding: 0;
+}
+
+/* Admonitions and sidebars only */
+div.admonition {
+    border: 1px solid #E9EAEA;
+}
+div.admonition p.admonition-title {
+    background-color: rgb(26, 152, 139);
+}
+
+/* Warnings only */
+div.warning {
+    border: 1px solid #E9EAEA;
+}
+div.warning p.admonition-title {
+    background-color: #CB130E;
+}
+
+
+/****************** Simpler Navbar *********************/
+
+.navbar .brand .version {
+  font-size: 90%;
+}
+
+.navbar-search .searchheading,
+.navbar-search .searchtip {
+	display:none;
+}
+
+
+/**************** Search **********************/
+.searchbox {
+	margin:11px 0 13px 0;
+}
+.searchbox .search-query {
+	width:100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	height:28px;
+	line-height:28px;
+	padding-top:0;
+	padding-bottom:0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+/**************** Breadcrumb **********************/
+.sub-header .breadcrumb {
+	margin:auto;
+	font-size:0.8em;
+}
+
+
+/**************** Sidebar **********************/
+div.sphinxsidebar {
+  float: none;
+  width: auto;
+  margin-left: auto;
+	background-color: #F8F8F8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	word-wrap: break-word;
+}
+
+div.sphinxsidebarwrapper {
+  padding: 15px;
+}
+
+div.sphinxsidebar h3,
+div.sphinxsidebar h4 {
+	margin:0 -15px 7px -15px;
+	padding: 0 15px 5px 15px;
+  border-bottom: 1px solid #22998B;
+  font-size: 16px;
+  font-weight: 200;
+	text-transform:uppercase;
+	line-height: normal;
+}
+
+div.sphinxsidebar,
+div.sphinxsidebar p {
+  font-size: 14px;
+}
+
+div.sphinxsidebar ul,
+div.sphinxsidebar ul ul {
+  list-style-type: none;
+	margin:0;
+}
+div.sphinxsidebar .sphinxsidebarwrapper div > ul > li,
+div.sphinxsidebar .sphinxsidebarwrapper > ul > li,
+div.sphinxsidebar .sphinxsidebarwrapper > p {
+  margin-left: -16px;
+  margin-right: -15px;
+}
+div.sphinxsidebar .toc a {
+	padding: 5px 15px;
+	display:block;
+	color:#333333;
+	border-left:solid 2px rgba(34, 153, 139, 0);
+	line-height:normal;
+}
+div.sphinxsidebar .toc a:hover {
+  text-decoration: none;
+	border-left-color:rgb(34, 153, 139);
+}
+div.sphinxsidebar .toc ul ul a {
+	padding-left:25px;
+}
+div.sphinxsidebar .toc ul ul ul a {
+	padding-left:35px;
+}
+div.sphinxsidebar .toc ul ul ul ul a {
+	padding-left:45px;
+}
+div.sphinxsidebar .toc ul ul ul ul ul a {
+	padding-left:55px;
+}
+
+div.sphinxsidebar input {
+	border-color:#CCCCCC;
+}
+
+.toc {
+  margin-bottom: 15px;
+}
+
+.toc > ul {
+  margin-left: 0;
+}
+
+.toc li a.current {
+  display: block;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #1A988B;
+}
+
+
+/**************** Main Page **********************/
+
+div.section h1,
+div.section h2,
+div.section h3,
+div.section h4,
+div.section h5 {
+  padding-top: 20px;
+}
+
+/* do not do this for first item on the page ...*/
+.content div.section:first-child h1 {
+  padding-top: 0;
+}
+
+
+div.documentwrapper {
+  float: left;
+  width: 100%;
+}
+
+.navbar .logo-icon img {
+  float: left;
+  height: 30px;
+  padding: 17px 5px 0 0;
+}
+
+.navbar .okfn-logo img {
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+
+/* Footer */
+footer,
+footer p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+footer a, footer a:hover {
+  color: #333333;
+}
+
+
+/**************** Auto docs **********************/
+dl.function {
+  margin-top: 80px;
+}
+
+dl.function th {
+  vertical-align: top;
+}
+
+
+/**************** OKF Ribbon **********************/
+.okfn-ribbon {
+  margin-left: 13px;
+}
+
+
+/**************** Github Ribbon **********************/
+.forkme img {
+	display:none;
+}
+.forkme:before {
+	content: attr(title);
+}
+
+
+/**************** Media queries **********************/
+@media (min-width: 1200px) {
+	.navbar-inner .container {
+		width:1170px;
+	}
+}
+@media (min-width: 1450px) {
+	.forkme {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 50000;
+	}
+	.forkme img {
+		display:block;
+	}
+	.forkme:before {
+		display:none;
+	}
+}

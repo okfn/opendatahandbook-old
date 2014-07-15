@@ -1,0 +1,274 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>열린 데이터란 무엇인가? &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="next" title="어떻게 데이터를 공개할 것인가" href="../how-to-open-up-data/index.html" />
+    <link rel="prev" title="왜 데이터를 공개해야 되는가?" href="../why-open-data/index.html" />
+
+  </head>
+  <body>
+  
+
+  <div id="okf-panel" class="collapse"><iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></div>
+
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+         
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+          <div class="okfn-ribbon"><a href="http://okfn.org/" data-toggle="collapse" data-target="#okf-panel" title="Part of the Open Knowledge Foundation Network">An Open Knowledge Foundation Site</a></div>
+        
+        <div class="pull-right navbar-search span3">
+          
+              <h3 class="searchheading">Quick search</h3>
+<form class="searchbox" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+<small class="searchtip">Enter search terms or a module, class or function name.</small>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="sub-header">
+  <ul class="container breadcrumb">
+      <li><a href="../index.html">Open Data Handbook</a> &raquo;</li>
+      <li><a href="">
+            열린 데이터란 무엇인가?
+          </a></li>
+  </ul>
+</div>
+ 
+<div class="container">
+  <div class="row">
+    <div class="span3">
+      
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">서론</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">왜 데이터를 공개해야 되는가?</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">열린 데이터란 무엇인가?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-open">공개란 무엇인가?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-data-are-you-talking-about">어떤 데이터를 말하는 것인가?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">어떻게 데이터를 공개할 것인가</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">자, 데이터를 공개한 후 다음은?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">용어 사전</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/index.html">원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.</a></li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      
+    </div><!--/span-->
+    <div class="span7 offset1">
+      <div class="content">
+
+        
+  <div class="section" id="what-is-open-data">
+<h1>열린 데이터란 무엇인가?<a class="headerlink" href="#what-is-open-data" title="제목 주소">¶</a></h1>
+<p>본 핸드백은 <em>열린 데이터*에 대한 것인데 그렇다면 열린 데이터는 정확히 무엇인가? 특히 무엇이 *열린</em> 데이터를 공개하게 만드나? 어떤 형태의 데이터에 대해 논의하는가?</p>
+<div class="section" id="what-is-open">
+<h2>공개란 무엇인가?<a class="headerlink" href="#what-is-open" title="제목 주소">¶</a></h2>
+<p>본 핸드북은 열린 데이터에 것인데 - 그런데  <em>열린</em> 데이터는 정확히 무엇인가? 우리의 목적을 위해 열린 데이터는 <a class="reference internal" href="#open-definition">Open Definition</a>:에 정의된 그대로이다.</p>
+<p><em>열린 데이터는 모든 사람이 자유롭게 사용 및 재사용이 가능하며 재배포할 수 있는 데이터이다 - 저작권 표시 및 동일조건 변경 허락의 조건에서.</em></p>
+<p><a href="#id1"><span class="problematic" id="id2">`완전한 오픈 정의`_</span></a> 는 열린 데이터의 의미에 대한 상세한 설명을 제공한다. 가장 중요한 것을 정리하면:</p>
+<ul class="simple">
+<li><strong>이용성 및 접근:</strong> 전체 데이터가 이용가능해야 하며, 합리적인 재생산 비용으로, 가능하면 인터넷에서 다운로드되어야 한다. 데이터는 편리하고 수정 가능한 형태로 제공되어야 한다.</li>
+<li><strong>재사용과 재배포:</strong> 데이터는 서로 다른 데이터와 결합되는 것을 포함하여 재사용과 재배포를 허용하는 조건으로 제공되어야 한다.</li>
+<li><strong>보편적 참여:</strong> 누구나 데이터를 사용, 재사용 및 재배포할 수 있어야 한다 - &nbsp;활동 분야, 특정한 사람이나 그룹에 대한 차별이 없어야 한다. 예를 들어, &#8216;비상업적&#8217; 제한조건은 &#8216;상업적&#8217; 사용을 제한할 수 있으며, 특정한 목적에 한정된 사용조건은 (예: 교육적 목적에 한정)은 허용되지 않는다.</li>
+</ul>
+<p>공개라는 의미와 이러한 정의가 사용된 이유의 중요성이 명확하지 않다면, 간단한 답은: <a href="#id1"><span class="problematic" id="id2">**</span></a>상호운용성**이다.</p>
+<p>상호운용성은 다양한 시스템과 조직이 함께 동작할 수 있는 (상호 정보 교환이 가능한) 능력을 뜻한다. 여기서는 서로 다른 데이터셋 사이의 상호 운용 - 또는 혼합할 수 - 있는 능력을 말한다.</p>
+<p>상호운용성은 서로 다른 컴포넌트들이 함께 동작할 수 있게 한다는 점에서 그 중요성이 있다. 컴포넌트를 구성하고 컴포넌트를 &#8216;함께 연결하는&#8217; 능력은 광범위하고, 복잡한 시스템을 구축하기 위해 필수적이다. 상호운용성 없이 이런 시스템을 구축하는 것은 거의 불가능하다 - 가장 유명한 신화인 바벨탑에서 증명되었듯이, 상호소통 (상호운용을 위한) (무)능력은 탑을 건축하는 노력의 완벽한 붕괴에 영향을 주었다.</p>
+<p>우리는 데이터와 관련하여 비슷한 상황에 직면하고 있다. 데이터 &#8216;공유&#8217; (또는 코드)의 핵심은 그 안에 포함된 한 조각의 &#8220;공개된&#8217; 자료가 &#8220;공개된&#8221; 다른 자료와 자유롭게 상호 결합될 수 있는 것이다. 이러한 상호운용성은 &#8220;공개성&#8221;의 핵심적이며 실용적인 혜택을 실현하는 핵심이다: 서로 다른 데이터셋을 극적으로 연결하고 조금 더 향상된 제품과 서비스를 개발하기 위한 강화 능력 (이러한 혜택은 &#8216;왜&#8217; 데이터를 공개하나 섹션에서 자세히 다룬다).</p>
+<p>공개성의 명확한 정의가 제공하는 것은 서로 다른 두 개의 데이터 소스가 공개되었을 때, 데이터를 상호 결합하는 것이 가능한 것이며, 동시에 <a href="#id1"><span class="problematic" id="id2">**</span></a>스스로만을 위한 &#8216;바벨탑&#8217;을 피할 수 있다는 것을 보장하는 것이다: 수많은 데이터셋이 있으나 실제 가치가 있는 규모가 큰 시스템에 데이터셋을 결합시키지 못하는 경우</p>
+</div>
+<div class="section" id="what-data-are-you-talking-about">
+<span id="what-data-can-be-open"></span><h2>어떤 데이터를 말하는 것인가?<a class="headerlink" href="#what-data-are-you-talking-about" title="제목 주소">¶</a></h2>
+<p>여러분은 이미 공개되거나 공개될 가능성이 있는 데이터의 사례를 살펴보았다  - 보다 다양한 예를 아래에서 볼 수 있다. 그러나 어떤 종류의 데이터가 오픈되었는지 또는 오픈될 것인지 요약하는 것이 도움이 될 것이다 &#8211; 어떤 것이 공개되지 않는지도 마찬가지로 중요하게.</p>
+<p>가장 중요한 점은 데이터를 공개할 때 초점이 개인적이지 않은 데이터에 있다는 것이다. 즉, 데이터는 특정한 개인에 대한 정보를 포함하지 않아야 한다.</p>
+<p>유사하게, 정부 데이터 중에 국가 보안 제안 조건이 적용될 수 있다.</p>
+</div>
+</div>
+
+
+
+        
+        <div style="font-size:smaller;">
+          <hr/>
+          
+            
+          
+            
+              <div class="pull-right">
+                <a href="../how-to-open-up-data/index.html"
+                  title="어떻게 데이터를 공개할 것인가" accesskey="N">
+                    
+                      
+                    
+                    어떻게 데이터를 공개할 것인가→
+                </a>
+              </div>
+            
+          
+            
+              <div >
+                <a href="../why-open-data/index.html"
+                  title="왜 데이터를 공개해야 되는가?" accesskey="P">
+                    
+                      
+                    
+                    ← 왜 데이터를 공개해야 되는가?
+                </a>
+              </div>
+            
+          
+          <div style="clear:both;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+      
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://assets.okfn.org/themes/okfn/collapse.min.js" type="text/javascript"></script>
+<script src="http://assets.okfn.org/themes/okfn/okf-panel.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,260 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>어떤 법적 (IP) 권리가 데이터(베이스)에 있는가 &mdash; Open Data Handbook</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-css-tweaks.js"></script>
+    <link rel="top" title="Open Data Handbook" href="../index.html" />
+    <link rel="up" title="원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다." href="index.html" />
+    <link rel="prev" title="파일 형식" href="file-formats.html" />
+
+  </head>
+  <body>
+  
+
+  <div id="okf-panel" class="collapse"><iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></div>
+
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+         
+        <a class="logo-icon pull-left" href="../index.html"><img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png" alt="Open Data Handbook" /></a>
+        
+        <a class="brand" href="../index.html">Open Data Handbook</a>
+        
+        
+          <div class="okfn-ribbon"><a href="http://okfn.org/" data-toggle="collapse" data-target="#okf-panel" title="Part of the Open Knowledge Foundation Network">An Open Knowledge Foundation Site</a></div>
+        
+        <div class="pull-right navbar-search span3">
+          
+              <h3 class="searchheading">Quick search</h3>
+<form class="searchbox" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" class="search-query" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+<small class="searchtip">Enter search terms or a module, class or function name.</small>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="sub-header">
+  <ul class="container breadcrumb">
+      <li><a href="../index.html">Open Data Handbook</a> &raquo;</li>
+      <li><a href="index.html"
+            accesskey="U">
+            원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.
+          </a> &raquo;</li>
+      <li><a href="">
+            어떤 법적 (IP) 권리가 데이터(베이스)에 있는가
+          </a></li>
+  </ul>
+</div>
+ 
+<div class="container">
+  <div class="row">
+    <div class="span3">
+      
+        
+          
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="widget toc">
+  <h3>Table of Contents</h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">서론</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-open-data/index.html">왜 데이터를 공개해야 되는가?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-open-data/index.html">열린 데이터란 무엇인가?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-open-up-data/index.html">어떻게 데이터를 공개할 것인가</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../following-up/index.html">자, 데이터를 공개한 후 다음은?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">용어 사전</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">원격으로 데이터베이스 추출과 데이터베이스 접근을 허용하는 것은 데이터베이스의 구조와 개별 테이블과 필드의 중요성이 잘 정리된 경우에만 유용할 수 있다는 보안 이슈가 있다. 종종 안정성 문제를 설명하기 쉬운 방법으로 데이터베이스에서 데이터를 노출하시키기 위해 웹서비스를 만드는 것이 비교적 간단하고 저렴할 수 있다.</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="file-formats.html">파일 형식</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">어떤 법적 (IP) 권리가 데이터(베이스)에 있는가</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div>
+  <h3>Contribute</h3>
+  <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/okfn/opendatahandbook/issues">issue tracker</a>. If you are interested in contributing material please <a href="mailto:opendatahandbook@okfn.org">get in touch</a>.</p>
+
+  <h3>Donate</h3>
+  <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <select name="currency_code" style="display: inline; width: 130px;">
+      <option value="USD">US Dollar $</option>
+      <option value="EUR">Euro &euro;</option>
+                  <option value="GBP">UK &pound;</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="CAD">Canadian Dollar</option>
+      <option value="CZK">Czech Koruna</option>
+      <option value="DKK">Danish Krone</option>
+      <option value="HKD">Hong Kong Dollar</option>
+      <option value="HUF">Hungarian Forint</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NOK">Norwegian Krone</option>
+      <option value="NZD">New Zealand Dollar</option>
+      <option value="PLN">Polish Zloty</option>
+      <option value="SEK">Swedish Krona</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="CHF">Swiss Franc</option>
+      </select>
+    <input type="text" name="amount" value="2.00" style="width: 40px;"><br />
+    <input type="submit" name="submit" value="Donate via PayPal" style="width: auto;">
+    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="admin@okfn.org" />
+    <input type="hidden" name="item_name" value="Open Data Handbook Donation to the Open Knowledge Foundation" />
+  </form>
+
+  <h3>Supported By</h3>
+  <p><a href="http://www.shuttleworthfoundation.org/"><img src="http://farm8.staticflickr.com/7002/6431161181_10711abd2a_o.jpg" alt="Shuttleworth Funded" style="display: block; margin-top: 20px;" /></a></p>
+</div>
+        </div>
+      </div>
+        
+      
+    </div><!--/span-->
+    <div class="span7 offset1">
+      <div class="content">
+
+        
+  <div class="section" id="what-legal-ip-rights-are-there-in-data-bases">
+<h1>어떤 법적 (IP) 권리가 데이터(베이스)에 있는가<a class="headerlink" href="#what-legal-ip-rights-are-there-in-data-bases" title="제목 주소">¶</a></h1>
+<p>데이터(베이스)를 말할 때, 먼저 데이터베이스의 구조와 콘텐트를 구분해야 한다 (&#8216;데이터&#8217;는 데이터베이스의 콘텐트 자체를 의미한다). 구조적 요소들은 필드명과 데이터 모델- 이러한 필드의 조직과 필드 사이의 상호 관계-과 같은 정보를 포함한다.</p>
+<p>많은 관할권에서 데이터베이스의 구조적 요소들은 저작권의 범위가 될 수 있다 (해당 구조를 만드는 것을 포함한 &#8216;창의성&#8217;의 수준에 어느정도 의존적이다).</p>
+<p>여기에선 특히 데이터에 관심이 있다. &#8220;데이터&#8221;를 말할 때, 단어가 정확하지 않기 때문에 주의가 필요하다:  &#8220;데이터&#8221;는 몇 개의 아이템 또는 단일 아이템 (예를 들어, 단일 서지 정보, 위/경도 등) 을 의미할 수도 있고, 규모가 큰 집합일수도 있다 (예. 데이터베이스의 모든 자료). 혼란을 피하기 위해, 여기서 &#8220;콘텐트&#8221;는 개별 아이템을 의미하고, 데이터는 집합을 의미한다.</p>
+<p>텍스트, 음악, 영화와 같은 자료와 다르게, 데이터에 대한 법적 상황은 국가에 따라 매우 다르다. 그러나 대부분의 관할권은 (컬렉션으로) 데이터에 대한 일정한 권리를 <strong>인정한다</strong></p>
+<p>데이터베이스와 컬렉션에 있는 &#8220;콘텐트&#8221; 사이의 차이점은 컬렉션에 있는 사실에 대한 권한을 인전해도 관할권은 개별 사실에 대해 독점권을 허용하지 않기 때문에 사실적 데이터베이스를 위해 매우 중요하다. 다양한 물질들의 녹는 점을 목록화한 데이터베이스를 예를 고려해보자. 전체적으로 해당 데이터베이스는 허가 없이 데이터의 접근, 재사용 및 재배포를 법적으로 차단할 수 있지만, 물질 Y가 Z 온도에서 녹는다는 사실을 명시하는 것을 막을 수 없다.</p>
+<p>두 가지 사례로 구분한 보호의 형식</p>
+<ul class="simple">
+<li>편집을 위한 저작권</li>
+<li>데이터 집합을 위한 독자적인 권리</li>
+</ul>
+<p>이미 강조했듯이, 범용적인 규칙은 없으며 이런 상황은 관할권에 따라 다양하다. 따라서 이런 접근이 특정한 관할권에서 사용되는 것은 국가별로 처리해야 한다.</p>
+<p>마지막으로, 법적 보호없이, 다수의 (폐쇄형) 데이터베이스 제공자는 공식적인 지적재산권과 유사한 결과를 얻기 위해 접근-제어 매커니즘의 위반을 방지하는 법적 규정과 결합된 간단한 계약을 사용할 수 있다. 예를 들어, X가 인용 데이터베이스의 제공자라면 원하는 어떠한 약관 집합을 얻을 수 있다:</p>
+<ol class="loweralpha simple">
+<li>패스워드로 로그인할 수 있는 사용자</li>
+<li>사용자가 계약 조건에 동의하는 조건으로 사용사의 계정과 비밀번호를 제공</li>
+</ol>
+<p>&#8216;오픈 데이터 라이센스 가이드&#8217;에서 처리권한에 대한 자세한 내용을 다룬다.</p>
+</div>
+
+
+
+        
+        <div style="font-size:smaller;">
+          <hr/>
+          
+            
+          
+            
+              <div >
+                <a href="file-formats.html"
+                  title="파일 형식" accesskey="P">
+                    
+                      
+                    
+                    ← 파일 형식
+                </a>
+              </div>
+            
+          
+          <div style="clear:both;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- / row -->
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="container">
+      <p><a href="http://opendatahandbook.org/">Open Data Handbook &ndash; v1.0</a>. An <a href="http://okfn.org">Open Knowledge Foundation</a> project.</p>
+
+<p class="copyright">
+&copy; 2010-2012, <a href="http://okfn.org/">Open Knowledge Foundation</a>.
+Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution (Unported) v3.0 License</a>.<br />
+<img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="CC License Logo" />
+<a href="http://opendefinition.org/"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" border="0" alt="Open Content" /></a>
+</p>
+
+<p>
+<a href="https://github.com/okfn/opendatahandbook">Source</a>
+&mdash;
+<a href="https://github.com/okfn/opendatahandbook/issues">Issues</a>
+&mdash;
+<a href="http://lists.okfn.org/mailman/listinfo/open-data-manual">Mailing List</a>
+&mdash;
+<a href="http://twitter.com/okfn">Twitter @OKFN</a>
+</p>
+
+<p>
+Related Projects:
+<a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a>
+&mdash;
+<a href="http://datahub.io/">The DataHub</a>
+&mdash;
+<a href="http://datacatalogs.org">DataCatalogs.org</a>
+&mdash;
+<a href="http://openspending.org">OpenSpending.org</a>
+&mdash;
+<a href="http://schoolofdata.org">School of Data</a>
+</p>
+
+      
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://assets.okfn.org/themes/okfn/collapse.min.js" type="text/javascript"></script>
+<script src="http://assets.okfn.org/themes/okfn/okf-panel.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8271754-28']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>

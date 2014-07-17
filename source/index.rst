@@ -3,10 +3,10 @@ The Open Data Handbook
 ======================
 
 **This handbook discusses the legal, social and technical aspects of 
-open data.** It can be used by anyone but is especially 
+open data.** It can be used by anyone, but is especially 
 designed for those seeking to **open up** data. It discusses the 
-**why, what and how** of open data -- why to go open, what open is, 
-and the how to 'open' data.
+**why, what, and how** of open data — why to go open, what open is, 
+and how to 'open' data.
 
 To get started, you may wish to look at the :doc:`Introduction <introduction/index.html>`. You can 
 navigate through the report using the Table of Contents (see sidebar 

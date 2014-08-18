@@ -49,7 +49,7 @@ be done simultaneously.
     1. Determine what intellectual property rights exist in the data.
     2. Apply a suitable ‘open’ license that licenses all of these  
        rights and supports the definition of openness discussed in 
-       the section above on ‘What Open Data’
+       the section above on ‘What is Open Data?’.
     3. NB: if you can't do this go back to step 1 and try a different 
        dataset.
 

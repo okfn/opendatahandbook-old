@@ -44,18 +44,22 @@ be done simultaneously.
 1. **Choose your dataset(s).** Choose the dataset(s) you plan to make 
    open. Keep in mind that you can (and may need to) return to this 
    step if you encounter problems at a later stage.
+
 2. **Apply an open license.**
     
-    1. Determine what intellectual property rights exist in the data.
-    2. Apply a suitable ‘open’ license that licenses all of these  
-       rights and supports the definition of openness discussed in 
-       the section above on ‘What Open Data’
-    3. NB: if you can't do this go back to step 1 and try a different 
-       dataset.
+   1. Determine what intellectual property rights exist in the data.
+
+   2. Apply a suitable ‘open’ license that licenses all of these  
+      rights and supports the definition of openness discussed in 
+      the section above on ‘What Open Data’
+
+   3. NB: if you can't do this go back to step 1 and try a different 
+      dataset.
 
 3. **Make the data available** - in bulk and in a useful format. 
    You may also wish to consider alternative ways of making it available 
    such as via an API.
+
 4. **Make it discoverable** - post on the web and perhaps organize 
    a central catalog to list your open datasets.
 
@@ -178,32 +182,37 @@ Make Data Available (Technical Openness)
 Specifically, the data needs to be available in bulk in a 
 :term:`machine-readable` format.
 
-Available
-  Data should be priced at no more than a reasonable cost of reproduction, 
-  preferably as a free download from the Internet. This pricing model is
-  achieved because your agency should not undertake any cost when it
-  provides data for use. 
+**Available**
 
-In bulk
-  The data should be available as a complete set. If you have a register
-  which is collected under statute, the entire register should be available
-  for download. A web API or similar service may also be very useful, but 
-  they are not a substitutes for bulk access.
+Data should be priced at no more than a reasonable cost of reproduction, 
+preferably as a free download from the Internet. This pricing model is
+achieved because your agency should not undertake any cost when it
+provides data for use. 
 
-In an open, machine-readable format
-  Re-use of data held by the public sector should not be subject to patent
-  restrictions. More importantly, making sure that you are providing 
-  machine-readable formats allows for greatest re-use. To illustrate this,
-  consider statistics published as :abbr:`PDF (Portable Document 
-  Format)` 
-  documents, often used for high quality printing. While these statistics
-  can be read by humans, they are very hard for a computer to use. This
-  greatly limits the ability for others to re-use that data.
+**In bulk**
+
+The data should be available as a complete set. If you have a register
+which is collected under statute, the entire register should be available
+for download. A web API or similar service may also be very useful, but 
+they are not a substitutes for bulk access.
+
+**In an open, machine-readable format**
+
+Re-use of data held by the public sector should not be subject to patent
+restrictions. More importantly, making sure that you are providing 
+machine-readable formats allows for greatest re-use. To illustrate this,
+consider statistics published as :abbr:`PDF (Portable Document 
+Format)` 
+documents, often used for high quality printing. While these statistics
+can be read by humans, they are very hard for a computer to use. This
+greatly limits the ability for others to re-use that data.
 
 Here are a few policies that will be of great benefit:
 
 * Keep it simple, 
+
 * Move fast
+
 * Be pragmatic.
 
 In particular it is better to give out raw data now than perfect data in 
@@ -303,20 +312,23 @@ data intiatives. There are a number of costs to providing an API:
 
 1. The price. They require much more development and maintainence 
    than providing files.
+
 2. The expectations. In order to foster a community of users 
    behind the system, it is important to provide certainty. When things
    go wrong, you will be expected to incur the costs of fixing them.
 
 Access to bulk data ensures that: 
 
-a) there is no dependency on the original provider of the data, meaning that
-   if a restructure or budget cycle changes the situation, the data are
-   still available.
-b) anyone else can obtain a copy and redistribute it. This reduces the
-   cost of distribution away from the source agency and means that there
-   is no single point of failure.
-c) others can develop their own services using the data, because they
-   have certainty that the data will not be taken away from them.
+* there is no dependency on the original provider of the data, meaning that
+  if a restructure or budget cycle changes the situation, the data are
+  still available.
+
+* anyone else can obtain a copy and redistribute it. This reduces the
+  cost of distribution away from the source agency and means that there
+  is no single point of failure.
+
+* others can develop their own services using the data, because they
+  have certainty that the data will not be taken away from them.
 
 Providing data in bulk allows others to use the data beyond its original
 purposes. For example, it allows it to be converted into a new format, linked 
@@ -389,14 +401,17 @@ could consider the following:
 * Providing an avenue to allow the private and community sectors to add
   their data. It may be worthwhile to think of the catalog as the region's
   catalog, rather than the regional government's.
+
 * Facilitating improvement of the data by allowing derivatives of datasets
   to be cataloged. For example, someone may geocode addresses and may 
   wish to share those results with everybody. If you only allow single 
   versions of datasets, these improvements remain hidden. 
+
 * Be tolerant of your data appearing elsewhere. That is, content is likely
   to be duplicated to communities of interest. If you have river level
   monitoring data available, then your data may appear in a catalog
   for hydrologists.
+
 * Ensure that access is equitable. Try to avoid creating a privileged level of
   access for officials or tenured researchers as this will undermine community
   participation and engagement.

@@ -22,9 +22,11 @@ To summarize the most important:
    and at no more than a reasonable reproduction cost, preferably by
    downloading over the internet. The data must also be available in a
    convenient and modifiable form.
+
 -  **Re-use and Redistribution:** the data must be provided under terms
    that permit re-use and redistribution including the intermixing with
    other datasets.
+
 -  **Universal Participation:** everyone must be able to use, re-use and
    redistribute - there should be no discrimination against fields of
    endeavour or against persons or groups. For example, ‘non-commercial’

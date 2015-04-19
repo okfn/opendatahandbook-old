@@ -23,11 +23,13 @@ that you’ve done so.
 In addition to things like press releases, announcements on your 
 website, and so on, you may consider:
 
- * Contacting prominent organisations or individuals who work/are 
-   interested in this area
- * Contacting relevant mailing lists or social networking groups
- * Directly contacting prospective users who you know may be interested 
-   in this data
+* Contacting prominent organisations or individuals who work/are 
+  interested in this area
+
+* Contacting relevant mailing lists or social networking groups
+
+* Directly contacting prospective users who you know may be interested 
+  in this data
 
 Understanding your audience
 ---------------------------
@@ -48,6 +50,7 @@ for this:
 * The first is that those documents will be less accessible. Rather 
   than the document you see on your screen, readers may see an 
   imperfect copy from an alternative.
+
 * Secondly, your agency sends an implicit message that you are unwilling 
   to take a step towards developers. Instead, you show that you are 
   expecting the technology community to come to you.
@@ -70,12 +73,12 @@ time engaging with social media. However, there are several things that
 you can do to make sure that your content can be easily shared between 
 technical users. Some tips:
 
-:Provide unique pages for each piece of content:
+* Provide unique pages for each piece of content
 
   When a message is shared with others, the recipient of the referral
   will be looking for the relevant content quickly.
 
-:Avoid making people download your press releases:
+* Avoid making people download your press releases
 
   Press releases are fine. They are concise messages about a particular 
   point. However, if you require people to download the content and for
@@ -83,7 +86,7 @@ technical users. Some tips:
   Search engines are less likely to index the content. People are less
   likely to click to download.
 
-:Consider using an `Open license`_ for your content:
+* Consider using an `Open license`_ for your content
 
   Apart from providing certainty to people who wish to share your 
   content that this is permissible, you send a message that your
@@ -103,7 +106,7 @@ shareable. That means, before reading the next section, make sure that
 you have read the last. With that in mind, here are a few 
 suggestions:
 
-:Discussion fora:
+* Discussion fora
 
   Twitter has emerged as the platform of choice for disseminating
   information rapidly. Anything tagged with #opendata will
@@ -115,7 +118,7 @@ suggestions:
   While Facebook is excellent for a general audience, it has not 
   received a great deal of attention in the open data community.
 
-:Link aggregators:
+* Link aggregators
 
   Submit your content to the equivalent of newswires for geeks. 
   Reddit and Hacker News are the two biggest in this arena at the 
@@ -134,12 +137,17 @@ to use your data. Reasons that you may consider putting on an event
 include:
 
 * Finding out more about prospective re-users
+
 * Finding out more about demand for different datasets
+
 * Finding out more about how people want to re-use your data
+
 * Enabling prospective re-users to find out more about what data 
   you have
+
 * Enabling prospective users to meet each other (e.g. so they 
   can collaborate)
+
 * Exposing your data to a wider audience (e.g. from blog posts 
   or media coverage that the event may help to generate)
 
@@ -151,10 +159,13 @@ also various kinds of participant driven events, where those who turn
 up may:
 
 * Guide or define the agenda for the event
+
 * Introduce themselves, talk about what they’re interested in and 
   what they’re working on, on an ad hoc basis
+
 * Give impromptu micro-short presentations on something they are 
   working on
+
 * Lead sessions on something they are interested in
 
 There is plenty of documentation online about how to run these kinds 

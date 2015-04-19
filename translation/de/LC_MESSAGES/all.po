@@ -33,7 +33,7 @@ msgid ""
 "data.** It can be used by anyone but is especially designed for those "
 "seeking to **open up** data. It discusses the **why, what and how** of open "
 "data -- why to go open, what open is, and the how to 'open' data."
-msgstr "** Dieses Handbuch beschäftigt sich mit den juristischen, sozialen und technischen Apsketen offener Daten.** Es richtet sich vor allem an alle, die eigene Datenbestände öffnen wollen. Es beschäftigt sich mit dem warum, was und warum beim öffnen von Daten -- wieso Daten öffnen, was 'offen' eigentlich bedeutet und wie es geht."
+msgstr "**Dieses Handbuch beschäftigt sich mit den juristischen, sozialen und technischen Apsketen offener Daten.** Es richtet sich vor allem an alle, die eigene Datenbestände öffnen wollen. Es beschäftigt sich mit dem warum, was und warum beim öffnen von Daten -- wieso Daten öffnen, was 'offen' eigentlich bedeutet und wie es geht."
 
 # 3c3f679596a84f43a381f53ce49badeb
 #: ../../source/index.rst:11
@@ -877,7 +877,7 @@ msgstr "**Vergeben sie eine offene Lizenz.**"
 # 8e71c0ccfdb64981b4cadfb21e412387
 #: ../../source/how-to-open-up-data/index.rst:49
 msgid "Determine what intellectual property rights exist in the data."
-msgstr "*Stellen sie fest, wer das Urheberrecht an den Daten besitzt, um die es geht."
+msgstr "Stellen sie fest, wer das Urheberrecht an den Daten besitzt, um die es geht."
 
 # 40cb98538dfc486c838b0cd5baef35db
 #: ../../source/how-to-open-up-data/index.rst:50
@@ -885,13 +885,13 @@ msgid ""
 "Apply a suitable ‘open’ license that licenses all of these rights and "
 "supports the definition of openness discussed in the section above on ‘What "
 "Open Data’"
-msgstr "*Stellen sie die Daten unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt. Mehr dazu erfahren sie im Abschnitt ‘What Open Data’"
+msgstr "Stellen sie die Daten unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt. Mehr dazu erfahren sie im Abschnitt ‘What Open Data’"
 
 # ff2d1c558ae64d3ea092b313b0a7c854
 #: ../../source/how-to-open-up-data/index.rst:53
 msgid ""
 "NB: if you can't do this go back to step 1 and try a different dataset."
-msgstr "*Falls das nicht möglich ist, gehen sie zurück zu Schritt 1 und suchen sie eine andere Datensammlung."
+msgstr "Falls das nicht möglich ist, gehen sie zurück zu Schritt 1 und suchen sie eine andere Datensammlung."
 
 # e7dfde372d704525b9baac515e235e2b
 #: ../../source/how-to-open-up-data/index.rst:56
@@ -998,7 +998,7 @@ msgstr "Bei besonders großen Datensätzen oder schlechten Internetverbindungen 
 # d14f19bd711547458714a36deb87b608
 #: ../../source/how-to-open-up-data/make-data-available.rst:51
 msgid "Online methods"
-msgstr "Downloads in einfachen, universell maschinenlesbaren Formaten wie XML und CSV stellen sicher, dass eine möglichst breite Nutzergruppe die Daten weiterverwenden kann."
+msgstr "Online methods"
 
 # c5885ee8faca4693a840729a94e548a0
 #: ../../source/how-to-open-up-data/make-data-available.rst:54

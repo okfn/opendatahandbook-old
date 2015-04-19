@@ -38,9 +38,13 @@ This handbook has a broad audience:
 
 + for those who have never heard of open data before and those  
   who consider themselves seasoned ‘data professionals’
+
 + for civil servants and for activists
+
 + for journalists and researchers
+
 + for politicians and developers
+
 + for data geeks and those who have never heard of an API.
 
 Most of the information currently provided is focused on data held by 
@@ -72,9 +76,12 @@ Existing sources directly used
 
 -  Technical Proposal for how IATI is implemented. *The IATI Technical
    Advisory Group led by Simon Parrish*
+
 -  `Unlocking the Potential of Aid Information`_. *Rufus Pollock,
    Jonathan Gray, Simon Parrish, Jordan Hatcher*
+
 -  Finnish manual authored by *Antti Poikola*
+
 -  Beyond Access Report. *Access Info and the Open Knowledge Foundation*
 
 Other sources

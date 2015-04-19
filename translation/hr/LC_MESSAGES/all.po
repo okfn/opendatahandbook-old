@@ -1,0 +1,2519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) &copy; 2010-2012, Open Knowledge Foundation
+# This file is distributed under the same license as the Open Data Handbook package.
+# 
+# Translators:
+# Marina Ninić <mninic5@gmail.com>, 2014
+# Mihovil Nakić <mnakicvo@hotmail.com>, 2014
+# Miroslav Schlossberg, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Data Handbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-05 10:36\n"
+"PO-Revision-Date: 2014-12-06 14:28+0000\n"
+"Last-Translator: Marina Ninić <mninic5@gmail.com>\n"
+"Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/opendatahandbook/language/hr_HR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+# f8bfb8659a0c4cb5948b1ef5e84ad7d1
+#: ../../source/index.rst:3
+msgid "The Open Data Handbook"
+msgstr "Priručnik za otvorene podatke"
+
+# d585ec8bbdd54f2d88e54daa0238f9d2
+#: ../../source/index.rst:5
+msgid ""
+"**This handbook discusses the legal, social and technical aspects of open "
+"data.** It can be used by anyone but is especially designed for those "
+"seeking to **open up** data. It discusses the **why, what and how** of open "
+"data -- why to go open, what open is, and the how to 'open' data."
+msgstr "Ovaj priručnik sagledava legalne, društvene i tehničke aspekte otvorenih podataka. Namijenjen je svima, a posebice onima koji žele učiniti podatke otvorenima. Razmatra \"zašto, što i kako\" u vezi otvorenih podataka - zašto da budu otvoreni, što otvoreno znači, i kako \"otvoriti\" podatke."
+
+# 3c3f679596a84f43a381f53ce49badeb
+#: ../../source/index.rst:11
+msgid ""
+"To get started, you may wish to look at the :doc:`Introduction "
+"<introduction/index.html>`. You can navigate through the report using the "
+"Table of Contents (see sidebar or below)."
+msgstr "Za početak, pogledajte :doc:`Introduction <introduction/index.html>`. Navigirajte kroz izvještaj korištenjem sadržaja (vidite rubni stupac ili zaglavlje)."
+
+# 3115b5512c6e4ecd861e4e84d400523c
+#: ../../source/index.rst:15
+msgid ""
+"We warmly welcome comments on the text and will incorporate feedback as we "
+"go forward. We also welcome contributions or suggestions for additional "
+"sections and areas to examine."
+msgstr "Otvoreni smo za komentare u vezi teksta i kako budemo napredovali, uklopit ćemo vaše povratne informacije. Također, dobrodošli su svi doprinosi ili prijedlozi za dodatne dijelove i područja istraživanja."
+
+# 9e0f00346b0349e29d51083d1dd7a9aa
+#: ../../source/index.rst:21
+msgid "Table of Contents"
+msgstr "Sadržaj"
+
+# 4e947d94bfbe4ecd98c5dee75be312f8
+#: ../../source/index.rst:36
+msgid "Indices and tables"
+msgstr "Popisi i tablice"
+
+# af87acc3665e428c99dff796e236694a
+#: ../../source/index.rst:38
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+# cf589c147b0947639ead7a84a9c78850
+#: ../../source/index.rst:39
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+
+# 159dc292955b401cbaa31592c2ae43c1
+#: ../../source/introduction/credits.rst:3
+msgid "Credits and Copyright"
+msgstr "Zasluge i autorska prava"
+
+# 138a093ae5b548cb9f07805111c55cfd
+#: ../../source/introduction/credits.rst:6
+msgid "Contributing authors"
+msgstr "Autori"
+
+# c41cf04f647249b9ac59afbca1382129
+#: ../../source/introduction/credits.rst:8
+msgid "`Daniel Dietrich`_"
+msgstr "`Daniel Dietrich`_"
+
+# 26742a0e756242a2801b0f02ebdd1707
+#: ../../source/introduction/credits.rst:9
+msgid "`Jonathan Gray`_"
+msgstr "`Jonathan Gray`_"
+
+# 1759d73a3a794025b286529b4cc19a17
+#: ../../source/introduction/credits.rst:10
+msgid "`Tim McNamara`_"
+msgstr "`Tim McNamara`_"
+
+# 015052c54f4d4986b3071cd7ddb02c50
+#: ../../source/introduction/credits.rst:11
+msgid "`Antti Poikola`_"
+msgstr "`Antti Poikola`_"
+
+# a37b96bd575d4c2f8e310f7b9b7dbcd2
+#: ../../source/introduction/credits.rst:12
+msgid "`Rufus Pollock`_"
+msgstr "`Rufus Pollock`_"
+
+# 44242a03508d4ec3b115029c749d38f7
+#: ../../source/introduction/credits.rst:13
+msgid "`Julian Tait`_"
+msgstr "`Julian Tait`_"
+
+# b489d1a44d854d3c98c0f9a211c8e083
+#: ../../source/introduction/credits.rst:14
+msgid "`Ton Zijlstra`_"
+msgstr "`Ton Zijlstra`_"
+
+# 8a356ddea3824a2db4c1635a82782883
+#: ../../source/introduction/credits.rst:17
+msgid "Existing sources directly used"
+msgstr "Korišteni izvori"
+
+# f4c4a9ca6b2b450696be1a124cfc276b
+#: ../../source/introduction/credits.rst:19
+msgid ""
+"Technical Proposal for how IATI is implemented. *The IATI Technical Advisory"
+" Group led by Simon Parrish*"
+msgstr "Tehnički prijedlog kako je IATI proveden. \"The IATI Technical Advisory Group led by Simon Parrish\""
+
+# a9cfff5e7e764f63b118c211a551e395
+#: ../../source/introduction/credits.rst:21
+msgid ""
+"`Unlocking the Potential of Aid Information`_. *Rufus Pollock, Jonathan "
+"Gray, Simon Parrish, Jordan Hatcher*"
+msgstr "Otključavanje potencijala potpornih informacija *Rufus Pollock, Jonathan Gray, Simon Parrish, Jordan Hatcher*"
+
+# 50c8f4db407a45a8894e99e59ef5adef
+#: ../../source/introduction/credits.rst:23
+msgid "Finnish manual authored by *Antti Poikola*"
+msgstr "Finski vodič autora *Antti Poikola*"
+
+# 912b40b810ef40ab872ba564e1c3a631
+#: ../../source/introduction/credits.rst:24
+msgid "Beyond Access Report. *Access Info and the Open Knowledge Foundation*"
+msgstr "Izvještaj s druge strane pristupa *Access Info and the Open Knowledge Foundation*"
+
+# 6c2bad4a78ed4069aacfd795a2df0a02
+#: ../../source/introduction/credits.rst:27
+msgid "Other sources"
+msgstr "Ostali izvori"
+
+# b2509758c71d471e97585141feaee236
+#: ../../source/introduction/credits.rst:29
+msgid "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+msgstr "W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/"
+
+# 0324e39be1e643bf9c026b6173d4a583
+#: ../../source/introduction/index.rst:3
+msgid "Introduction"
+msgstr "Uvod"
+
+# 27e4a5b184654c999139c3127056f637
+#: ../../source/introduction/index.rst:5
+msgid ""
+"Do you know exactly how much of your tax money is spent on street lights or "
+"on cancer research? What is the shortest, safest and most scenic bicycle "
+"route from your home to your work? And what is in the air that you breathe "
+"along the way? Where in your region will you find the best job opportunities"
+" and the highest number of fruit trees per capita? When can you influence "
+"decisions about topics you deeply care about, and whom should you talk to?"
+msgstr "Znate li koliko se točno vašeg poreznog novca troši na uličnu rasvjetu ili istraživanja za rak? Koje su najkraće, najsigurnije i najslikovitije biciklističke rute iz vašeg doma na posao? I što je u zraku kojeg udišete na tome putu? Gdje su u vašoj okolici najbolje mogućnosti za naći posao i najveći broj drveća voća po stanovniku? Kada možete utjecati na odluke o temama do kojih vam je duboko stalo, i s kim da o tome popričate?"
+
+# 03772b8e0b654a2980a166e25f7ce602
+#: ../../source/introduction/index.rst:12
+msgid ""
+"New technologies now make it possible to build the services to answer these "
+"questions automatically. Much of the data you would need to answer these "
+"questions is generated by public bodies. However, often the data required is"
+" not yet available in a form which is easy to use. This book is about how to"
+" unlock the potential of official and other information to enable new "
+"services, to improve the lives of citizens and to make government and "
+"society work better."
+msgstr "Nove tehnologije su omogućile izradu servisa kako bi se automatski dobili odgovori na ta pitanja. Velik broj podataka koji vam trebaju da odgovorite na ta pitanja su stvorena od strane javnih tijela. Međutim, često ti podaci nisu dostupni u obliku jednostavnom za korištenje. Ova knjiga govori o tome kako otključati potencijal službenih i ostalih podataka kako bi omogućili nove servise u svrhu poboljšanja života građana i poboljšanja rada vlade i društva. "
+
+# e864d6f9f1fb4632898e4a87c8e14237
+#: ../../source/introduction/index.rst:20
+msgid ""
+"The notion of :term:`open data` and specifically :term:`open government "
+"data` - information, public or otherwise, which anyone is free to access and"
+" re-use for any purpose - has been around for some years. In 2009 open data "
+"started to become visible in the mainstream, with various governments (such "
+"as the USA, UK, Canada and New Zealand) announcing new initiatives towards "
+"opening up their public information."
+msgstr "Ideja pojma\"otvoreni podaci\" i konkretno pojam \"otvoreni vladini podaci\" - informacije, javne ili ostale, čiji su pristup i upotreba dostupni svima za bilo kakvu namjenu - je već u upotrebi nekoliko godina. 2009. godine, otvoreni podaci su se počeli pojavljivati u javnosti kako su razne vlade (kao što su SAD, Ujedinjeno Kraljevstvo, Kanada i Novi Zeland) najavljivale nove inicijative za \"otvaranje\" svojih javnih informacija."
+
+# 772e3651fec74d03808df10160177562
+#: ../../source/introduction/index.rst:28
+msgid ""
+"This book explains the basic concepts of ‘open data’, especially in relation"
+" to government. It covers how open data creates value and can have a "
+"positive impact in many different areas. In addition to exploring the "
+"background, the handbook also provides concrete information on how to "
+"produce open data."
+msgstr "Ova knjiga objašnjava osnovni koncept \"otvorenih podataka\", naročito u vezi s vladom. Objašnjava kako otvoreni podaci stvaraju vrijednost i kako mogu imati pozitivan utjecaj na mnoštvo različitih područja. Uz istraživanje pozadine otvorenih podataka, ovaj priručnik će vam objasniti na koji točno način proizvesti otvorene podatke."
+
+# 5d3906c5912447478481d10c2ba8231a
+#: ../../source/introduction/index.rst:35
+msgid "Target Audience"
+msgstr "Ciljana publika"
+
+# 985f89dcc7c64fef93e53052ddc36ab0
+#: ../../source/introduction/index.rst:37
+msgid "This handbook has a broad audience:"
+msgstr "Ovaj priručnik ima široku publiku:"
+
+# 204beca931a640a3a2feb572395bae22
+#: ../../source/introduction/index.rst:39
+msgid ""
+"for those who have never heard of open data before and those who consider "
+"themselves seasoned ‘data professionals’"
+msgstr "namijenjen je onima koji nikada nisu čuli za otvorene podatke i onima koji se smatraja ekspertima za podatke"
+
+# d434b8617ca84b2f812c8b93c72b2b3f
+#: ../../source/introduction/index.rst:41
+msgid "for civil servants and for activists"
+msgstr "za državne službenike i aktiviste"
+
+# 1683ab9a73354d41afc35e5c3dcbab0e
+#: ../../source/introduction/index.rst:42
+msgid "for journalists and researchers"
+msgstr "za novinare i istraživače"
+
+# 2dab3eafd12e452b9326f4b397b20e7e
+#: ../../source/introduction/index.rst:43
+msgid "for politicians and developers"
+msgstr "za političare i programere"
+
+# cc5c3df699894d2f9ef476ba048d24ca
+#: ../../source/introduction/index.rst:44
+msgid "for data geeks and those who have never heard of an API."
+msgstr "za podatkovne štrebere i one koji nikada nisu čuli za API - Application Programming Interface"
+
+# b1ae7114f8c247b28261bd8c7a1de1f3
+#: ../../source/introduction/index.rst:46
+msgid ""
+"Most of the information currently provided is focused on data held by the "
+"public sector. However, the authors intentions are to broaden this as time "
+"permits. You are welcome to participate to help us with that effort."
+msgstr "Većina trenutačno dostupnih informacija je usredotočena na podatke javnog sektora. Ipak, autor s vremenom i kako ono bude dopuštalo, namjerava proširiti ovo područje. Vaše sudjelovanje je dobrodošlo kako biste nam pomogli u toj nakani."
+
+# 2d06a73d49494b3991c0bb6a62525e9d
+#: ../../source/introduction/index.rst:51
+msgid ""
+"This handbook is intended for those with little or no knowledge of the "
+"topic. If you do find a piece of jargon or terminology with which you aren't"
+" familiar, please see the detailed Glossary and FAQs (frequently asked "
+"questions) which can be found at the end of the handbook."
+msgstr "Ovaj priručnik je namijenjen onima koji su tek upoznati ili nikad nisu čuli za ovu temu. Ako se susretnete s izrazom ili terminologijom koja vam je nepoznata, pogledajte pojmovnik i FAQ (Frequently Asked Question, odnosno, Često Postavljana Pitanja) koji se nalaze na kraju ovog priručnika."
+
+# 977078aaa78c42e7995958d96a21b8a7
+#: ../../source/introduction/index.rst:58
+msgid "Credits"
+msgstr "Zasluge"
+
+# 5cdb697eb85f46e18bdf6edd814a406e
+#: ../../source/why-open-data/index.rst:3
+msgid "Why Open Data?"
+msgstr "Čemu služe otvoreni podaci?"
+
+# a729d3404ee64614bcec347dead57504
+#: ../../source/why-open-data/index.rst:5
+msgid ""
+":term:`Open data`, especially :term:`open government data`, is a tremendous "
+"resource that is as yet largely untapped. Many individuals and organisations"
+" collect a broad range of different types of data in order to perform their "
+"tasks. Government is particularly significant in this respect, both because "
+"of the quantity and centrality of the data it collects, but also because "
+"most of that government data is public data by law, and therefore could be "
+"made open and made available for others to use. Why is that of interest?"
+msgstr "Pojam otvorenih podataka, a posebice otvorenih državnih podataka, je ogroman resurs koji je još uglavnom netaknut. Mnoge osobe i organizacije prikupljaju širok spektar različitih podataka kako bi obavljali svoje zadatke. Vlada je posebice važna po tom pitanju zbog same količine i centraliziranosti podataka koje prikuplja, ali i zato što je po zakonu većina državnih podataka javna, a time i otvorena te dostupna ostalima na korištenje. Zašto je to bitno?"
+
+# 633202a63b474ebdb6c96289d6ac423d
+#: ../../source/why-open-data/index.rst:14
+msgid ""
+"There are many areas where we can expect open data to be of value, and where"
+" examples of how it has been used already exist. There are also many "
+"different groups of people and organisations who can benefit from the "
+"availability of open data, including government itself. At the same time it "
+"is impossible to predict precisely how and where value will be created in "
+"the future. The nature of innovation is that developments often comes from "
+"unlikely places."
+msgstr "Mnogo je područja u kojima možemo očekivati da će otvoreni podaci biti od koristi, a postoje i primjeri gdje su već i korišteni. Također, koristi od otvorenih podataka imaju razne udruge i organizacije, uključujući i samu vladu. No, nemoguće je točno predvidjeti kolika će njihova vrijednost biti u budućnosti. Kod inovacija, poboljšanja često dolaze iz izvora za koje to ne očekujemo."
+
+# 00a897c5defd4db5a4339f04fdc80d69
+#: ../../source/why-open-data/index.rst:21
+msgid ""
+"It is already possible to point to a large number of areas where open "
+"government data is creating value. Some of these areas include:"
+msgstr "Već postoji velik broj područja gdje su otvoreni državni podaci korisni. Neka od tih područja uključuju:"
+
+# 5a1635520561424aa295c26cd3a948d1
+#: ../../source/why-open-data/index.rst:24
+msgid "Transparency and democratic control"
+msgstr "Transparentnost i demokratsko upravljanje"
+
+# 4351bd20d2a14fbeaa41c82bc514ac95
+#: ../../source/why-open-data/index.rst:25
+msgid "Participation"
+msgstr "Sudjelovanje"
+
+# 234738d1ab8642818c4073300935017e
+#: ../../source/why-open-data/index.rst:26
+msgid "Self-empowerment"
+msgstr "Samo-osnaživanje"
+
+# c1c63445907c4955948f3a0fe823118a
+#: ../../source/why-open-data/index.rst:27
+msgid "Improved or new private products and services"
+msgstr "Poboljšane ili nove osobne proizvode i usluge"
+
+# 1fcf56a9d6aa4bedb3a1e64ca8a3b15c
+#: ../../source/why-open-data/index.rst:28
+msgid "Innovation"
+msgstr "Inovacije"
+
+# 1cf354f7245a4e09b32be3c8bbbcaa12
+#: ../../source/why-open-data/index.rst:29
+msgid "Improved efficiency of government services"
+msgstr "Povećanu djelotvornost vladinih službi"
+
+# becfeefd9faf4cf5a9b54fd289d0af5f
+#: ../../source/why-open-data/index.rst:30
+msgid "Improved effectiveness of government services"
+msgstr "Povećanu učinkovitost vladinih službi"
+
+# 56661952af514a6783404034e39e9145
+#: ../../source/why-open-data/index.rst:31
+msgid "Impact measurement of policies"
+msgstr "Mjerenje utjecaja politika"
+
+# 81a1d8c9c8de42a38b06e212e26a18eb
+#: ../../source/why-open-data/index.rst:32
+msgid ""
+"New knowledge from combined data sources and patterns in large data volumes"
+msgstr "Nova znanja iz zajedničkih podatkovnih izvora i uzoraka iz velikih masa podataka"
+
+# 653cba4974784fc397e901d402246323
+#: ../../source/why-open-data/index.rst:35
+msgid "Examples exist for most of these areas."
+msgstr "Postoje primjeri za većinu ovih područja."
+
+# 9483b02f9be049e5aae8b43b3c1ee9e0
+#: ../../source/why-open-data/index.rst:37
+msgid ""
+"In terms of transparency, projects such as the Finnish ‘tax tree’ and "
+"British ‘where does my money go’ show how your tax money is being spent by "
+"the government. And there’s the example of how open data saved Canada $3.2 "
+"billion in charity tax fraud. Also various websites such as the Danish "
+"folketsting.dk track activity in parliament and the law making processes, so"
+" you can see what exactly is happening, and which parliamentarians are "
+"involved."
+msgstr "Kada govorimo o transparentnosti, projekti kao finsko 'porezno stablo' i britansko 'gdje ide moj novac' pokazuju kako vlada troši vaš porezni novac. Tako je primjerice Kanada korištenjem otvorenih podataka uštedjela 3.2 milijarde dolara na prijevarama vezanih uz porez na dobrotvorne transakcije. Također, razne internetske stranice poput Danske folketsting.dk prate aktivnosti parlamenta i procese donošenja zakona, tako da možete vidjeti što se konkretno događa i koji su članovi parlamenta uključeni u te aktivnosti."
+
+# 96fa2e2f8d3346ba8f75c1744678079d
+#: ../../source/why-open-data/index.rst:45
+msgid ""
+"Open government data can also help you to make better decisions in your own "
+"life, or enable you to be more active in society. A woman in Denmark built "
+"findtoilet.dk, which showed all the Danish public toilets, so that people "
+"she knew with bladder problems can now trust themselves to go out more "
+"again. In the Netherlands a service, vervuilingsalarm.nl, is available which"
+" warns you with a message if the air-quality in your vicinity is going to "
+"reach a self-defined threshold tomorrow. In New York you can easily find out"
+" where you can walk your dog, as well as find other people who use the same "
+"parks. Services like ‘mapumental’ in the UK and ‘mapnificent’ in Germany "
+"allow you to find places to live, taking into account the duration of your "
+"commute to work, housing prices, and how beautiful an area is. All these "
+"examples use open government data."
+msgstr "Također, otvoreni državni podaci vam mogu koristiti za donošenje boljih odluka u osobnome životu ili vas potaknuti na veću angažiranost u društvu.\nJedna Dankinja je osnovala findtoilet.dk, koji pokazuje sve Danske javne zahode kako bi ljudi s problemima s mjehurom, koje je i sama poznavala, sada mogli bezbrižno izaći vani. Nizozemski vervuilingsalarm.nl vas upozorava kada će kvaliteta zraka u vašoj okolici dosegnuti dopušteni prag. U New Yorku s lakoćom možete saznati kuda prošetati psa, kao i naći ostale ljude koji koriste iste parkove. Usluge poput 'mapumental' u Ujedinjenom Kraljevstvu i 'mapnificent' u Njemačkoj pomažu pronaći smještaj uzimajući u obzir vrijeme potrebno za doći na posao, cijenu kuća i koliko je uređeno samo područje.  Sve su to primjeri otvorenih državnih podataka."
+
+# 9d1f0242695c4eb08a8c1bcfcc8d4743
+#: ../../source/why-open-data/index.rst:58
+msgid ""
+"Economically, open data is of great importance as well. Several studies have"
+" estimated the economic value of open data at several tens of billions of "
+"Euros annually in the EU alone. New products and companies are re-using open"
+" data. The Danish husetsweb.dk helps you to find ways of improving the "
+"energy efficiency of your home, including financial planning and finding "
+"builders who can do the work. It is based on re-using cadastral information "
+"and information about government subsidies, as well as the local trade "
+"register. Google Translate uses the enormous volume of EU documents that "
+"appear in all European languages to train the translation algorithms, thus "
+"improving its quality of service."
+msgstr "Otvoreni podaci i ekonomski imaju velik značaj. Nekolicina studija je procijenila vrijednost otvorenih podataka na nekoliko desetina miljardi eura godišnje, samo u Europskoj Uniji. Novi proizvodi i poduzeća ponovno koriste otvorene podatke. Danski husetsweb.dk pomaže pronaći rješenja kako poboljšati energetsku učinkovitost doma, uključujući izradu financijskog plana i traženje izvođača radova. Temelji se na upotrebi katastarskih informacija te informacija vezanih uz državne subvencije, kao i na lokalnog trgovačkog registra. Google Translate koristi ogromnu količinu EU dokumenata koji se pojavljuju u svim europskim jezicima kako bi poboljšao algoritme za prevođenje i time poboljšao kvalitetu usluge."
+
+# 457121fdf06c40558e92b439276954b8
+#: ../../source/why-open-data/index.rst:69
+msgid ""
+"Open data is also of value for government itself. For example, it can "
+"increase government efficiency. The Dutch Ministry of Education has "
+"published all of their education-related data online for re-use. Since then,"
+" the number of questions they receive has dropped, reducing work-load and "
+"costs, and the remaining questions are now also easier for civil servants to"
+" answer, because it is clear where the relevant data can be found. Open data"
+" is also making government more effective, which ultimately also reduces "
+"costs. The Dutch department for cultural heritage is actively releasing "
+"their data and collaborating with amateur historical societies and groups "
+"such as the Wikimedia Foundation in order to execute their own tasks more "
+"effectively. This not only results in improvements to the quality of their "
+"data, but will also ultimately make the department smaller."
+msgstr "Otvoreni podaci su isto važni i za samu vladu. Oni mogu, primjerice, poboljšati njenu učinkovitost. Nizozemsko Ministarstvo obrazovanja je sve svoje podatke vezane uz obrazovanje objavilo na internetu za ponovnu upotrebu. Od tada je broj upita opao, smanjujući radno opterećenje i troškove, a državnim je službenicima sada jednostavnije odgovoriti na preostala pitanja jer je jasno gdje se nalaze potrebni podaci. Otvoreni podaci vlade čine i djelotvornijima što u konačnici također rezultira smanjenjem troškova. Nizozemski odjel za kulturnu baštinu redovito objavljuje svoje podatke u suradnji s amaterskim povijesnim društvima i udrugama kao što su Wikimedia Foundation kako bi svoje zadatke izvršavali što učinkovitije. Na kraju krajeva, osim što poboljšavaju kvalitetu svojih podataka, ovim putem se i smanjuju radne jedinice, odnosno odjeli."
+
+# 0f11bae8272f45e4b2290c2beef0e248
+#: ../../source/why-open-data/index.rst:83
+msgid ""
+"While there are numerous instances of the ways in which open data is already"
+" creating both social and economic value, we don’t yet know what new things "
+"will become possible. New combinations of data can create new knowledge and "
+"insights, which can lead to whole new fields of application. We have seen "
+"this in the past, for example when Dr. Snow discovered the relationship "
+"between drinking water pollution and cholera in London in the 19th century, "
+"by combining data about cholera deaths with the location of water wells. "
+"This led to the building of London’s sewage systems, and hugely improved the"
+" general health of the population. We are likely to see such developments "
+"happening again as unexpected insights flow from the combination of "
+"different open data sets."
+msgstr "I dok postoje nebrojeni primjeri u kojima otvoreni podaci stvaraju i društvenu i ekonomsku korist, ne možemo sa sigurnošću reći koje će to još nove primjene naći u budućnosti. Nove kombinacije podataka stvaraju nove uvide i znanja, koja mogu naći primjenu u svakojakim područjima. Tome smo svjedočili i u prošlosti kada je Dr. Snow otkrio vezu između konzumiranja zagađene vode i kolere u Londonu u 19. stoljeću, povezivanjem podataka koje se tiču smrti od kolere s lokacijama vodocrpilišta. To je dovelo do izgradnje londonske kanalizacije i uvelike poboljšalo zdravlje građana. Takva poboljšanja možemo očekivati opet kako budemo povezivali otvorene podatke iz raznih područja."
+
+# db07f40141dc4077a0390c1699f892ea
+#: ../../source/why-open-data/index.rst:94
+msgid ""
+"This untapped potential can be unleashed if we turn public government data "
+"into open data. This will only happen, however, if it is really open, i.e. "
+"if there are no restrictions (legal, financial or technological) to its re-"
+"use by others. Every restriction will exclude people from re-using the "
+"public data, and make it harder to find valuable ways of doing that. For the"
+" potential to be realized, public data needs to be open data."
+msgstr "Ovaj netaknuti potencijal se može osloboditi ako se javni vladini podaci preformuliraju u otvorene podatke. Ovo će se dogoditi isključivo ako oni doista postanu dostupni svima bez ograničenja (legalnih, financijskih ili tehnoloških), te ako se budu mogli koristiti izvan domene svoje izvorne namjene od strane drugih. Svako ograničenje će ljudima braniti pristup ponovnom korištenju javnih podataka pa ako želimo u potpunosti iskoristiti ovaj potencijal, javni podaci moraju biti otvoreni."
+
+# ec853486f23a49c69f29cf7a961642d7
+#: ../../source/what-is-open-data/index.rst:3
+msgid "What is Open Data?"
+msgstr "Što su otvoreni podaci?"
+
+# efa5f439bd844c199263171e3b7221e5
+#: ../../source/what-is-open-data/index.rst:5
+msgid ""
+"This handbook is about *open data* but what exactly is it? In particular "
+"what makes *open* data open, and what sorts of data are we talking about?"
+msgstr "Ovaj priručnik govori o otvorenim podacima, ali što je to zapravo? Što ih čini \"otvorenima\" i o kakvim vrstama podataka zapravo pričamo?"
+
+# 0d5a24d826714df497b1f531ec72438c
+#: ../../source/what-is-open-data/index.rst:9
+msgid "What is Open?"
+msgstr "Što znači otvoreno?"
+
+# 284d03bb80b14254bb9219ad19d33070
+#: ../../source/what-is-open-data/index.rst:11
+msgid ""
+"This handbook is about open data - but what exactly is *open* data? For our "
+"purposes, open data is as defined by the `Open Definition`_:"
+msgstr "Ovaj priručnik govori o otvorenim podacima - ali što su zapravo \"otvoreni\" podaci? Za naše potrebe, otvoreni podaci su definirani kao:"
+
+# 0ec56db1f5bd4d16844482d013167141
+#: ../../source/what-is-open-data/index.rst:14
+msgid ""
+"*Open data is data that can be freely used, re-used and redistributed by "
+"anyone - subject only, at most, to the requirement to attribute and "
+"sharealike.*"
+msgstr "*Otvoreni podaci su podaci koji se mogu slobodno koristiti bez ograničenja, ponovno koristiti i podijeliti bilo s kime - uz uvjet imenovanja autora i dijeljen pod jednakim uvjetima.*"
+
+# de8b334143c446fa9ca118ec924cdaba
+#: ../../source/what-is-open-data/index.rst:18
+msgid ""
+"The `full Open Definition`_ gives precise details as to what this means. To "
+"summarize the most important:"
+msgstr "Kompletna definicija \"otvorenog\" daje detaljan uvid što to znači, a najkraćim crtama se može sumirati kao:"
+
+# d6661c08a66e4657baccc415e4d94d85
+#: ../../source/what-is-open-data/index.rst:21
+msgid ""
+"**Availability and Access:** the data must be available as a whole and at no"
+" more than a reasonable reproduction cost, preferably by downloading over "
+"the internet. The data must also be available in a convenient and modifiable"
+" form."
+msgstr "**Dostupnost i pristupačnost:** Podaci moraju biti dostupni u cjelosti i po cijeni ne većoj no što iznosi tiskanje, stoga se preporuča preuzimanje putem interneta. Isto tako, podaci moraju biti dostupni u preglednom obliku i u mogućnosti s izmjenom sadržaja"
+
+# 69c79a7dbacb4a3f8901fde80bc925f3
+#: ../../source/what-is-open-data/index.rst:25
+msgid ""
+"**Re-use and Redistribution:** the data must be provided under terms that "
+"permit re-use and redistribution including the intermixing with other "
+"datasets."
+msgstr "**Ponovna uporaba i redistribucija:** Podaci moraju imati dozvolu za korištenje izvan izvornog područja namjene i redistribuciju uključujući miješanje s drugim bazama podataka."
+
+# ccbddaecb0324318960d141f73934293
+#: ../../source/what-is-open-data/index.rst:28
+msgid ""
+"**Universal Participation:** everyone must be able to use, re-use and "
+"redistribute - there should be no discrimination against fields of endeavour"
+" or against persons or groups. For example, ‘non-commercial’ restrictions "
+"that would prevent ‘commercial’ use, or restrictions of use for certain "
+"purposes (e.g. only in education), are not allowed."
+msgstr "**Globalna uključenost:** Svi imaju pravo na korištenje i redistribuciju - ne smije biti nikakve diskriminacije među područjima korištenja ili ljudi i zajednica. Primjerice, ne-komercijalna ograničenja koja sprječavaju komercijalnu upotrebu ili ograničenja upotrebe određenih područja (na primjer, samo u obrazovanju) nisu dopuštena."
+
+# 0feddc4ae9b748dfbac21561a011623d
+#: ../../source/what-is-open-data/index.rst:34
+msgid ""
+"If you’re wondering why it is so important to be clear about what open means"
+" and why this definition is used, there’s a simple answer: "
+"**interoperability.**"
+msgstr "Ako se pitate zašto je toliko važno razjasniti što pojam otvorenosti znači i zašto se koristi ova definicija, postoji jednostavan odgovor: interoperabilnost, odnosno sposobnost zajedničkog rada."
+
+# dfe720d0914442ad96bfd683d39a3a0d
+#: ../../source/what-is-open-data/index.rst:38
+msgid ""
+"Interoperability denotes the ability of diverse systems and organizations to"
+" work together (inter-operate). In this case, it is the ability to "
+"interoperate - or intermix - different datasets."
+msgstr "Interoperabilnost znači mogućnost zajedničkog rada različitih sistema i organizacija (među-djelovanje). U našem slučaju, to znači mogućnost spajanja različitih setova podataka."
+
+# 04e5ebc429754b8f8335a6f36f11f348
+#: ../../source/what-is-open-data/index.rst:42
+msgid ""
+"Interoperability is important because it allows for different components to "
+"work together. This ability to componentize and to ‘plug together’ "
+"components is essential to building large, complex systems. Without "
+"interoperability this becomes near impossible — as evidenced in the most "
+"famous myth of the Tower of Babel where the (in)ability to communicate (to "
+"interoperate) resulted in the complete breakdown of the tower-building "
+"effort."
+msgstr "Interoperabilnost je važna jer omogućava zajednički rad različitih komponenti. Mogućnost spajanja komponenti je neophodna za izgradnju velikih, kompleksnih sustava. Bez interoperabilnosti to postaje skoro pa nemoguće - kao što je prikazano u poznatome mitu Kule Babilonske gdje je (ne)mogućnost komunikacije (interoperabilnosti) rezultirala krahom cjelokupne gradnje."
+
+# a27e57d5f3414020af50c490a0fc4717
+#: ../../source/what-is-open-data/index.rst:50
+msgid ""
+"We face a similar situation with regard to data. The core of a “commons” of "
+"data (or code) is that one piece of “open” material contained therein can be"
+" freely intermixed with other “open” material. This interoperability is "
+"absolutely key to realizing the main practical benefits of “openness”: the "
+"dramatically enhanced ability to combine different datasets together and "
+"thereby to develop more and better products and services (these benefits are"
+" discussed in more detail in the section on ‘why’ open data)."
+msgstr "Ni s podacima nije ništa drugačije. Osnova zajedništva podataka (ili koda) je da se bilo koji sadržani \"otvoreni\" podatak može spojiti s drugim \"otvorenim\" materijalom. Ova interoperabilnost je ključ u razumijevanju koristi od \"otvorenosti\": dramatično poboljšanje mogućnosti za spajanje različitih skupova podataka, a time i mogućnost za razvoj boljih ili brojnijih proizvoda i usluga (ove koristi su detaljnije objašnjene u dijelu \"zašto\" otvoriti podatke)."
+
+# 9613f20a0c754c988418bb739c6bf147
+#: ../../source/what-is-open-data/index.rst:59
+msgid ""
+"Providing a clear definition of openness ensures that when you get two open "
+"datasets from two different sources, you will be able to combine them "
+"together, and it ensures that we **avoid our own ‘tower of babel’: lots of "
+"datasets but little or no ability to combine them together into the larger "
+"systems where the real value lies.**"
+msgstr "Ako znamo da \"otvorenost\" omogućava spajanje dva otvorena skupa podataka iz dva različita izvora, tada smo sigurni da ćemo izbjeću naši verziju Kule Babilonske: mnoštvo skupova podataka s malo ili nimalo mogućnosti za spajanje u veće sustave gdje leži prava vrijednost."
+
+# 3a713e7bdcd744efa87d1f18017c2fc2
+#: ../../source/what-is-open-data/index.rst:71
+msgid "What Data are You Talking About?"
+msgstr "O kakvim podacima Vi pričate?"
+
+# e425f13a261d4556bb1961b71da2bdd8
+#: ../../source/what-is-open-data/index.rst:73
+msgid ""
+"Readers have already seen examples of the sorts of data that are or may "
+"become open - and they will see more examples below. However, it will be "
+"useful to quickly outline what sorts of data are, or could be, open -- and, "
+"equally importantly, what won’t be open."
+msgstr "Čitatelji su već vidjeli svakakve primjere otvorenih podataka - a još će ih sresti u daljnjem čitanju. Ipak, dobro je naglasiti koji tipovi podataka jesu, odnosno, mogu postati otvorenima, a isto tako, koji to ne mogu."
+
+# b3184f4d4cd74be7a8bb72c19ae59d0a
+#: ../../source/what-is-open-data/index.rst:78
+msgid ""
+"The key point is that when opening up data, the focus is on non-personal "
+"data, that is, data which does not contain information about specific "
+"individuals."
+msgstr "Naglasak je na tome da kada podatke činimo otvorenima, usredotočavamo se na neosobne podatke, odnosno podatke koji ne sadrže informacije o konkretnim osobama."
+
+# a71aa0d4b7d444c8b67cc9b635b54c45
+#: ../../source/what-is-open-data/index.rst:82
+msgid ""
+"Similarly, for some kinds of government data, national security restrictions"
+" may apply."
+msgstr "Slično, za neke vrste državnih podataka mogu postojati nacionalne restrikcije."
+
+# 35a624b81cd14bc09c5646f0b348179e
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:3
+msgid "Apply an Open License (Legal Openness)"
+msgstr "Dozvola za otvorenost (legalna otvorenost)"
+
+# e7dcffe8d7d44c5d93225ccf279b1ee6
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:5
+msgid ""
+"In most jurisdictions there are intellectual property rights in data that "
+"prevent third-parties from using, reusing and redistributing data without "
+"explicit permission. Even in places where the existence of rights is "
+"uncertain, it is important to apply a license simply for the sake of "
+"clarity. Thus, **if you are planning to make your data available you should "
+"put a license on it** – and if you want your data to be `open`_ this is even"
+" more important."
+msgstr "U većini nadležnosti postoje intelektualna prava vlasništva u podacima koji sprječavaju treće osobe od korištenja i redistribucije podataka bez izričite dozvole. Čak i kada postoje nejasnoće oko postojanja takvih prava, važno je pribaviti dozvole upravo kako bi se one razjasnile. Stoga, **ako planirate učiniti vaše podatke pristupačnima, trebate im pridodati dozvolu** - te ako želite da vaši podaci budu otvoreni, ovo je izrazito važno."
+
+# 5e7dc13604fa4f95890ca0e9b8144d81
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:16
+msgid ""
+"What licenses can you use? We recommend that for 'open' data you use one of "
+"the licenses conformant with the `Open Definition`_ and marked as suitable "
+"for data. This list (along with instructions for usage) can be found at:"
+msgstr "Koje dozvole možete koristiti? Za otvorene podatke predlažemo korištenje onih dozvola koje su označene da se točno odnose na \"Otvorene podatke\".\nLista (uz upute za korištenje) se može naći na:"
+
+# 6c204c0188eb4967bd7ec5c9b9e29663
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:20
+msgid "http://opendefinition.org/licenses/"
+msgstr "http://opendefinition.org/licenses/"
+
+# 81d0ed1bbb9b4221a6dfad0b8984cdd7
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:22
+msgid ""
+"A short 1-page instruction guide to applying an open data license can be "
+"found on the Open Data Commons site:"
+msgstr "Kratak vodič od samo jedne -1- stranice o tome kako primijeniti dozvolu za otvorenost podataka se nalazi na:"
+
+# 134eda3fcb1e4ea9a9a3849ab64bdf61
+#: ../../source/how-to-open-up-data/apply-an-open-license.rst:25
+msgid "http://opendatacommons.org/guide/"
+msgstr "http://opendatacommons.org/guide/"
+
+# b747964567d643b082dc522af2471c0f
+#: ../../source/how-to-open-up-data/choose-datasets.rst:3
+msgid "Choose Dataset(s)"
+msgstr "Odabir skup(ov)a podataka"
+
+# 6fb7221c6835486c8ba3a96616edf6b8
+#: ../../source/how-to-open-up-data/choose-datasets.rst:5
+msgid ""
+"Choosing the dataset(s) you plan to make open is the first step – though "
+"remember that the whole process of opening up data is iterative and you can "
+"return to this step if you encounter problems later on."
+msgstr "Prvi korak je odabir skup(ov)a koje želite učiniti otvorenima - doduše, kako je cijeli proces ponovljiv, možete se vratiti na ovaj korak ukoliko kasnije naiđete na probleme."
+
+# 4a60d2eea7674a6daa86b7d785936908
+#: ../../source/how-to-open-up-data/choose-datasets.rst:9
+msgid ""
+"If you already know exactly what dataset(s) you plan to open up you can move"
+" straight on to the next section. However, in many cases, especially for "
+"large institutions, choosing which datasets to focus on is a challenge. How "
+"should one proceed in this case?"
+msgstr "Ako već znate koji/e točno skup(ove) planirate \"otvoriti\", možete odmah prijeći na sljedeći dio. Ipak, u mnogo slučajeva, posebice za velike institucije, odabir skupova podataka se može pokazati kao pravi izazov. Kako reagirati u tom slučaju?"
+
+# 562f01d73511431eb5923bbd318fb284
+#: ../../source/how-to-open-up-data/choose-datasets.rst:14
+msgid ""
+"Creating this list should be a quick process that identifies which datasets "
+"could be made open to start with. There will be time at later stages to "
+"check in detail whether each dataset is suitable."
+msgstr "Sastavljanje liste bi trebao biti brzi proces koji bi za početak prepoznao koji skupovi se mogu otvoriti. U kasnijim fazama će biti vremena za utvrditi koji su to skupovi podataka zapravo pogodni."
+
+# 0da9e433147142ec890f7d6ea919d666
+#: ../../source/how-to-open-up-data/choose-datasets.rst:18
+msgid ""
+"There is **no requirement** to create a comprehensive list of your datasets."
+" The main point to bear in mind is whether it is feasible to publish this "
+"data at all (whether openly or otherwise) - see :ref:`this previous section "
+"<what-data-can-be-open>`."
+msgstr "Ne postoji obveza izrade kompletne liste vaših podatkovnih skupova. Osnovna stvar koju treba imati na umu je sama mogućnost objave tih podatke (bili oni otvoreni ili ne) - vidi prethodni dio koji govori o tome koji tipovi podataka mogu biti otvoreni."
+
+# e56d16680b2846ab8ababb059eaaf4cb
+#: ../../source/how-to-open-up-data/choose-datasets.rst:24
+msgid "Asking the community"
+msgstr "Društveno informiranje"
+
+# a01321c596e048ac890c7771648a27c9
+#: ../../source/how-to-open-up-data/choose-datasets.rst:26
+msgid ""
+"We recommend that you ask the community in the first instance. That is the "
+"people who will be accessing and using the data, as they are likely to have "
+"a good understanding of which data could be valuable."
+msgstr "Kao prvi korak predlažemo raspitivanje u zajednici. To su ljudi koji će pristupati i koristiti te podatke pa postoji velika mogućnost da će upravo oni prepoznati vrijednost pojedinih podataka."
+
+# 444b3c328660471c8c6dc51d89d0cc2c
+#: ../../source/how-to-open-up-data/choose-datasets.rst:30
+msgid ""
+"Prepare a short list of potential datasets that you would like feedback on. "
+"It is not essential that this list concurs with your expectations, the main "
+"intention is to get a feel for the demand. This could be based on other "
+"countries' :term:`open data` catalogs."
+msgstr "Pripremite kratku listu potencijalnih podatkovnih skupova za koje biste željeli povratnu informaciju. Slaganje takve liste s vašim očekivanjima nije nužno, već je glavna ideja dobiti osjećaj za potražnju. Ona može imati uporište u bazama podataka drugih zemalja."
+
+# 6cd8b5c44b4f49ccabbe7a1087df9d11
+#: ../../source/how-to-open-up-data/choose-datasets.rst:36
+msgid "Create a request for comment."
+msgstr "Zahtijevajte komentare"
+
+# 477a8715f16743f3b88eeddaa380d236
+#: ../../source/how-to-open-up-data/choose-datasets.rst:38
+msgid ""
+"Publicise your request with a webpage. Make sure that it is possible to "
+"access the request through its own URL. That way, when shared via social "
+"media, the request can be easily found."
+msgstr "Reklamirajte svoju želju putem web stranice i omogućite joj pristup putem vlastitog URL-a. Time će se lakše prepoznati u slučaju dijeljenja putem društvenih medija."
+
+# 5fe5f7e31b1a478f8889730e3eb81077
+#: ../../source/how-to-open-up-data/choose-datasets.rst:42
+msgid ""
+"Provide easy ways to submit responses. Avoid requiring registration, as it "
+"reduces the number of responses."
+msgstr "Omogućite jednostavne načine za predaju povratnih informacije. Izbjegavajte nužnost registriranja jer ono znatno smanjuje količinu povratnih informacija."
+
+# 26a1ebc54df04e69b875a56e46711d39
+#: ../../source/how-to-open-up-data/choose-datasets.rst:45
+msgid ""
+"Circulate the request to relevant mailing lists, forums and individuals, "
+"pointing back to the main webpage."
+msgstr "Postavljajte upite na odgovarajućim mailing listama, forumima i osobama, usmjeravajući ih natrag na početnu web stranicu."
+
+# b2f5c26e2d4b490bb6b7a5072214a765
+#: ../../source/how-to-open-up-data/choose-datasets.rst:48
+msgid ""
+"Run a consultation event. Make sure you run it at a convenient time where "
+"the average business person, data wrangler and official can attend."
+msgstr "Organizirajte savjetovalište. Pobrinite se za primjereno vrijeme održavanja kako bi ga mogli posjetiti prosječni poslovni ljudi i oni koji se bave prikupljanjem i organizacijom podatkovnih skupova."
+
+# fe8082ba724f4e2481a8ab2a42544a98
+#: ../../source/how-to-open-up-data/choose-datasets.rst:52
+msgid ""
+"Ask a politician to speak on your agency's behalf. Open data is very likely "
+"to be part of a wider policy of increasing access to government information."
+msgstr "Kontaktirajte političara da govori u ime vaše agencije. Otvoreni podaci su često potrebni u provođenju smjernica za povećanjem pristupačnosti vladinih informacija."
+
+# 97be10325f6e46a0a18c93844711c295
+#: ../../source/how-to-open-up-data/choose-datasets.rst:57
+msgid "Cost basis"
+msgstr "Temeljni troškovi"
+
+# c546923078d14fe782f517d573aac12a
+#: ../../source/how-to-open-up-data/choose-datasets.rst:59
+msgid ""
+"How much money do agencies spend on the collection and maintainence of data "
+"that they hold? If they spend a great deal on a particular set of data, then"
+" it is highly likely that others would like to access it."
+msgstr "Koliko novca troše agencije na prikupljanje i održavanje podataka koje imaju? Ako troše puno na određeni skup podataka, onda postoji velika vjerojatnost da bi i drugi željeli pristupiti tome skupu."
+
+# cdc1c699f81641e3b62d4c407ef2fc83
+#: ../../source/how-to-open-up-data/choose-datasets.rst:63
+msgid ""
+"This argument may be fairly susceptible to concerns of freeriding. The "
+"question you will need to respond to is, \"Why should other people get "
+"information for free that is so expensive?\". The answer is that the expense"
+" is absorbed by the public sector to perform a particular function. The cost"
+" of sending that data, once it has been collected, to a third party is "
+"approximately nothing. Therefore, they should be charged nothing."
+msgstr "Ovo je diskutabilna tema i često se može dovesti u sukob s takozvanim freeriding-om.  Pitanje na koje trebamo odgovoriti je: \"Zašto bi drugi mogli besplatno pristupati informacijama koje su zapravo jako skupe?\" Odgovor leži u javnom sektoru koji apsorbira troškove kako bi obavljao određene funkcije. Kada su podaci prikupljeni, trošak njihovog slanja trećoj osobi je približno jednak nuli. Stoga se oni ne bi trebali naplaćivati."
+
+# b7978bdbcba74480b3aedfb5aa436caf
+#: ../../source/how-to-open-up-data/choose-datasets.rst:71
+msgid "Ease of release"
+msgstr "Jednostavnost izvještavanja"
+
+# a00a368d4f5947028e1a024cd556e3c7
+#: ../../source/how-to-open-up-data/choose-datasets.rst:73
+msgid ""
+"Sometimes, rather than deciding which data would be most valuable, it could "
+"be useful to take a look at which data is easiest to get into the public's "
+"hands. Small, easy releases can act as the catalyst for larger behavioural "
+"change within organisations."
+msgstr "Ponekad umjesto razmatranja koji su to najkorisniji podaci, vrijedi pogledati koji bi se podaci najlakše predočili javnosti. Mali i jednostavni izvještaji mogu djelovati kao katalizatori za velike promjene u ponašanju unutar organizacija."
+
+# 11fb95c47b6d469aaef863cffe3dea1e
+#: ../../source/how-to-open-up-data/choose-datasets.rst:78
+msgid ""
+"Be careful with this approach however. It may be the case that these small "
+"releases are of so little value that nothing is built from them. If this "
+"occurs, faith in the entire project could be undermined."
+msgstr "No, treba biti oprezan s ovim pristupom. Može se dogoditi da će ti mali izvještaji imati toliko malu vrijednost da iz njih ništa neće moći nastati. U tom slučaju, može se narušiti povjerenje u čitavi projekt."
+
+# 19b8f9cee4d241ea81e431a7e622c64d
+#: ../../source/how-to-open-up-data/choose-datasets.rst:83
+msgid "Observe peers"
+msgstr "Motrenje sudionika"
+
+# 005598dfe6924292a200665f62057f50
+#: ../../source/how-to-open-up-data/choose-datasets.rst:85
+msgid ""
+"Open data is a growing movement. There are likely to be many people in your "
+"area who understand what other areas are doing. Formulate a list on the "
+"basis of what those agencies are doing."
+msgstr "Otvoreni podaci su rastući trend. Velika je vjerojatnost da postoji mnoštvo ljudi u vašem području koji razumiju što rade ostala područja. Formuliraje listu zasnovanu upravo na tome čime se bave ostale agencije."
+
+# 05c79f3133614f7abb43130e787bca43
+#: ../../source/how-to-open-up-data/index.rst:3
+msgid "How to Open up Data"
+msgstr "Kako učitiniti podatke otvorenima"
+
+# 7fe3e18cfac749f5befd9ab2576d33f1
+#: ../../source/how-to-open-up-data/index.rst:5
+msgid ""
+"This section forms the core of this handbook. It gives concrete, detailed "
+"advice on how data holders can open up data. We’ll go through the basics, "
+"but also cover the pitfalls. Lastly, we will discuss the more subtle issues "
+"that can arise."
+msgstr "Ovo poglavlje čini srž ovog priručnika. Ono daje konkretne, detaljne prijedloga kako ljudi koji posjeduju podatke mogu njih učiniti otvorenima. Proći ćemo kroz osnove, ali isto tako analizirati zamke. Na kraju ćemo se dotaknuti osjetljive problematike koja se može pojaviti."
+
+# 205ae0d7b0dc40bebc2303b798613a7f
+#: ../../source/how-to-open-up-data/index.rst:10
+msgid "There are three key rules we recommend following when opening up data:"
+msgstr "Tri su ključna pravila kojih se predlažemo držati prilikom otvaranja podataka."
+
+# e090cea16cc645abb77158774b0a3643
+#: ../../source/how-to-open-up-data/index.rst:12
+msgid ""
+"**Keep it simple.** Start out small, simple and fast. There is no "
+"requirement that every dataset must be made open right now. Starting out by "
+"opening up just one dataset, or even one part of a large dataset, is fine --"
+" of course, the more datasets you can open up the better."
+msgstr "**Držite se jednostavnosti.** Počnite s malim, jednostavnim i brzim. Nije nužno da svaki podatkovni skup mora biti otvoren istog trenutka. Sasvim je u redu počnete li s otvaranjem samo jednog skupa podataka ili čak samo jednim dijelom većeg skupa. Naravno, što više podatkovnih skupova učinite otvorenima, to bolje."
+
+# cf62d646dd164d08be12466ae86a4cb5
+#: ../../source/how-to-open-up-data/index.rst:17
+msgid ""
+"Remember this is about innovation. Moving as rapidly as possible is good "
+"because it means you can build momentum and learn from experience -- "
+"innovation is as much about failure as success and not every dataset will be"
+" useful."
+msgstr "Nemojte zaboraviti na inovativnost. Napredovanje u što kraćem roku je dobar znak koji omogućava učenje iz iskustva - inovativnost označava padove u istoj mjeri kao i uspjehe tako da neće svaki skup podataka biti koristan."
+
+# ef4cadde787044f6bb05cdbdbee8438e
+#: ../../source/how-to-open-up-data/index.rst:22
+msgid ""
+"**Engage early and engage often.** Engage with actual and potential users "
+"and re-users of the data as early and as often as you can, be they citizens,"
+" businesses or developers. This will ensure that the next iteration of your "
+"service is as relevant as it can be."
+msgstr "**Uključite se rano i često.** Uspostavite komunikaciju s trenutnim i potencijalnim korisnicima podataka što je ranije i češće moguće, bili oni građani, poslovni ljudi ili programeri. Time ćete osigurati da sljedeća iteracija vaše usluge bude što važnija."
+
+# ce7b75398cac46e2abc2c039fcf31686
+#: ../../source/how-to-open-up-data/index.rst:27
+msgid ""
+"It is essential to bear in mind that much of the data will not reach "
+"ultimate users directly, but rather via ‘info-mediaries’. These are the "
+"people who take the data and transform or remix it to be presented. For "
+"example, most of us don’t want or need a large database of GPS coordinates, "
+"we would much prefer a map. Thus, engage with infomediaries first. They will"
+" re-use and repurpose the material."
+msgstr "Bitno je imati na umu da većina podataka neće doći do krajnjih korisnika direktnim putem, već putem 'info-posrednika'. To su ljudi koji koriste i transformiraju podatke kako bi ih prezentirali. Primjerice, većina nas ne želi i ne treba velike baze podataka GPS koordinata nego samo želimo kartu. Stoga, stupite u konakt s info-posrednicima. Oni će modificirati i naći novu upotrebu za vaš materijal."
+
+# ff224ceb8d5e44db8fff4cbdb8b84a1b
+#: ../../source/how-to-open-up-data/index.rst:34
+msgid ""
+"**Address common fears and misunderstandings**. This is especially important"
+" if you are working with or within large institutions such as government. "
+"When opening up data you will encounter plenty of questions and fears. It is"
+" important to (a) identify the most important ones and (b) address them at "
+"as early a stage as possible."
+msgstr "**Dotaknite se uobičajenih strahova i nesporazuma**. Ovo je od iznimne važnosti ako radite unutar velikih institucija kao što je vlada. Prilikom otvaranja podataka naići ćete na mnoštvo pitanja i strahova. Važno je (a) identificirati one najvažnije i (b) pridodati im pažnju u što ranijim fazama."
+
+# 85ecf275551b4e6ea01de1f75da7cac0
+#: ../../source/how-to-open-up-data/index.rst:40
+msgid ""
+"There are four main steps in making data open, each of which will be covered"
+" in detail below. These are in very approximate order - many of the steps "
+"can be done simultaneously."
+msgstr "Četiri su osnovna koraka u otvaranju podataka, a svaki će biti detaljno razjašnjen. Njihov poredak je aproksimativan jer se velik broj koraka može odraditi istovremeno."
+
+# 58824e15e3d34b518d630239f299912d
+#: ../../source/how-to-open-up-data/index.rst:44
+msgid ""
+"**Choose your dataset(s).** Choose the dataset(s) you plan to make open. "
+"Keep in mind that you can (and may need to) return to this step if you "
+"encounter problems at a later stage."
+msgstr "**Odaberite svoj(e) podatkovni/e skup(ove).** Odaberite podatkovni/e skup(ove) koje želite otvoriti. Imajte na umu da možete (a vjerojatno ćete i trebati) se vratiti na ovaj korak u slučaju da naiđete na probleme u kasnijim fazama."
+
+# e60fff59384142ceb4865b5956701aaf
+#: ../../source/how-to-open-up-data/index.rst:47
+msgid "**Apply an open license.**"
+msgstr "**Pribavite otvorenu licencu.**"
+
+# 8e71c0ccfdb64981b4cadfb21e412387
+#: ../../source/how-to-open-up-data/index.rst:49
+msgid "Determine what intellectual property rights exist in the data."
+msgstr "Odredite koja prava intelektualnog vlasništva sadrže vaši podaci."
+
+# 40cb98538dfc486c838b0cd5baef35db
+#: ../../source/how-to-open-up-data/index.rst:50
+msgid ""
+"Apply a suitable ‘open’ license that licenses all of these rights and "
+"supports the definition of openness discussed in the section above on ‘What "
+"Open Data’"
+msgstr "Primjenite odgovarajuću 'otvorenu' licencu koja dozvoljava korištenje svih ovih prava i u skladu je s definicijom otvorenosti koju smo pokrili u ranijem poglavlju 'Što su otvoreni podaci'"
+
+# ff2d1c558ae64d3ea092b313b0a7c854
+#: ../../source/how-to-open-up-data/index.rst:53
+msgid ""
+"NB: if you can't do this go back to step 1 and try a different dataset."
+msgstr "NB: ako niste u mogućnosti ovo ispuniti, vratite se na 1. korak i probajte s drugim skupom podataka."
+
+# e7dfde372d704525b9baac515e235e2b
+#: ../../source/how-to-open-up-data/index.rst:56
+msgid ""
+"**Make the data available** - in bulk and in a useful format. You may also "
+"wish to consider alternative ways of making it available such as via an API."
+msgstr "**Učinite podatke dostupnima** - u velikim količinama i preglednom formatu. Možete razmotriti i alternativne načine o tome kako ih učiniti dostupnima, npr. putem API-a."
+
+# e9ecca180f4649b4a06c3a524060f3e7
+#: ../../source/how-to-open-up-data/index.rst:59
+msgid ""
+"**Make it discoverable** - post on the web and perhaps organize a central "
+"catalog to list your open datasets."
+msgstr "**Učinite ih vidljivima**  - objavite ih na internetu ili organizirajte bazu podataka koja će sadržavati vaše otvorene podatkovne skupove."
+
+# 5adf4d4d1e4c4adb91f58d1920c3af87
+#: ../../source/how-to-open-up-data/make-data-available.rst:3
+msgid "Make Data Available (Technical Openness)"
+msgstr "Učinite podateke dostupnima (tehnička otvorenost)"
+
+# b09db3670c724b4cbae550f365a90988
+#: ../../source/how-to-open-up-data/make-data-available.rst:5
+msgid ""
+":term:`Open data` needs to be technically open as well as legally open. "
+"Specifically, the data needs to be available in bulk in a :term:`machine-"
+"readable` format."
+msgstr "Pojam 'otvoreni podaci' mora biti i tehnički otvoren kao što je to i pravno. Konkretno, podaci moraju biti dostupni u velikim količinama u sklopu formata kojeg stroj može očitati."
+
+# b9d7515dde2043ac876fd4836fae1473
+#: ../../source/how-to-open-up-data/make-data-available.rst:10
+msgid ""
+"Data should be priced at no more than a reasonable cost of reproduction, "
+"preferably as a free download from the Internet. This pricing model is "
+"achieved because your agency should not undertake any cost when it provides "
+"data for use."
+msgstr "Cijena podataka ne bi smjela biti veća od cijene same izrade, a preporuča se u obliku besplatnog preuzimanja s Interneta. Ovaj cjenovni model se koristi iz razloga što vaša organizacija ne bi smjela imate izdatke kada omogoćuva podatke za korištenje."
+
+# 402e6b5680ef47a9b0690b72d93f77da
+#: ../../source/how-to-open-up-data/make-data-available.rst:16
+msgid ""
+"The data should be available as a complete set. If you have a register which"
+" is collected under statute, the entire register should be available for "
+"download. A web API or similar service may also be very useful, but they are"
+" not a substitutes for bulk access."
+msgstr "Podaci bi trebali biti dostupni kao cjelokupan skup. Ako posjedujete registar koji je sklopljen unutar statuta, cijeli registar bi trebao biti dostupan za preuzimanje. Mrežni API ili sličan servis bi mogao biti od velike koristi, no on nije zamjena za pristup velikih razmjera."
+
+# b3a61f61587d4cfe810a5c957f8af97e
+#: ../../source/how-to-open-up-data/make-data-available.rst:22
+msgid ""
+"Re-use of data held by the public sector should not be subject to patent "
+"restrictions. More importantly, making sure that you are providing machine-"
+"readable formats allows for greatest re-use. To illustrate this, consider "
+"statistics published as :abbr:`PDF (Portable Document Format)` documents, "
+"often used for high quality printing. While these statistics can be read by "
+"humans, they are very hard for a computer to use. This greatly limits the "
+"ability for others to re-use that data."
+msgstr "Ponovna upotreba podataka javnog sektora ne bi trebala podlijegati restrikcijama koje se tiču patenata. Još važnije, povećana ponovna upotreba je uvjetovana korištenjem formata prilagođenog računalima. Slikovito prikazano, zamislite statistike objavljene kao PDF (Portable Document Format) dokumente, često korištene za ispis visoke kvalitete. I dok su one lako razumljive za čovjeka, za računalo je to težak posao. To uvelike ograničava ponovno korištenje podataka."
+
+# 190bf209b2644133b99a232d147ee714
+#: ../../source/how-to-open-up-data/make-data-available.rst:31
+msgid "Here are a few policies that will be of great benefit:"
+msgstr "Navest ćemo nekoliko prijedloga koji mogu biti od velike koristi:"
+
+# 63d8a323d7e04da6bba2f412cc5842af
+#: ../../source/how-to-open-up-data/make-data-available.rst:33
+msgid "Keep it simple,"
+msgstr "Drži se jednostavnosti,"
+
+# 4978a2c4ac1f4d0482cd0a5c18899676
+#: ../../source/how-to-open-up-data/make-data-available.rst:34
+msgid "Move fast"
+msgstr "Brzo napreduj,"
+
+# 7e3d34dbf9b349dbbfd5874681a3b9e9
+#: ../../source/how-to-open-up-data/make-data-available.rst:35
+msgid "Be pragmatic."
+msgstr "Budi pragmatičan/a."
+
+# 344dec649a454a349a892dce337d2360
+#: ../../source/how-to-open-up-data/make-data-available.rst:37
+msgid ""
+"In particular it is better to give out raw data now than perfect data in six"
+" months' time."
+msgstr "Konkretno, korisnije je objaviti neobrađene podatke sada nego dovršene za 6 mjeseci."
+
+# c6673f81b9724b8c95778b12ce344bec
+#: ../../source/how-to-open-up-data/make-data-available.rst:40
+msgid ""
+"There are many different ways to make data available to others. The most "
+"natural in the Internet age is online publication. There are many variations"
+" to this model. At its most basic, agencies make their data available via "
+"their websites and a central catalog directs visitors to the appropriate "
+"source.  However, there are alternatives."
+msgstr "Postoji mnogo načina kako ostalima omogućiti pristup podacima. U današnje doba interneta, najučestaliji je online izdavaštvo. Mnogo je oblika tog modela. U osnovi, agencije omogućavaju pristup podacima putem svojih web stranica, a središnji sadržaj posjetitelje usmjerava relevantnim izvorima.\nNo, postoje i alternative."
+
+# ac1bf932ff0d46c8982fb9e01fa36836
+#: ../../source/how-to-open-up-data/make-data-available.rst:46
+msgid ""
+"When :term:`connectivity` is limited or the size of the data extremely "
+"large, distribution via other formats can be warranted. This section will "
+"also discuss alternatives, which can act to keep prices very low."
+msgstr "Kada je pristup ograničen ili veličina podataka iznimno velika, možemo se poslužiti i drugim oblicima distribucije. U ovom dijelu ćemo vidjeti neke od tih alternativa, koje mogu značajno sniziti cijenu."
+
+# d14f19bd711547458714a36deb87b608
+#: ../../source/how-to-open-up-data/make-data-available.rst:51
+msgid "Online methods"
+msgstr "Online metode"
+
+# c5885ee8faca4693a840729a94e548a0
+#: ../../source/how-to-open-up-data/make-data-available.rst:54
+msgid "Via your existing website"
+msgstr "Putem vlastite web stranice"
+
+# 4698a33b199f4dc7893cc0b7f999880d
+#: ../../source/how-to-open-up-data/make-data-available.rst:56
+msgid ""
+"The system which will be most familiar to your web content team is to "
+"provide files for download from webpages. Just as you currently provide "
+"access to discussion documents, data files are perfectly happy to be made "
+"available this way."
+msgstr "Sustav koji će biti najpoznatiji vašem timu zaduženom za održavanje web stranice je taj za osiguravanje podataka za preuzimanje s web stranica. Isto kao što trenutačno imate dokumente za rasprave, i podaci se jednako tako mogu staviti na raspolaganje."
+
+# 680a3fdd6ee74160bfd3f0ba94456f73
+#: ../../source/how-to-open-up-data/make-data-available.rst:61
+msgid ""
+"One difficulty with this approach is that it is very difficult for an "
+"outsider to discover where to find updated information. This option places "
+"some burden on the people creating tools with your data."
+msgstr "Jedina mana ovom pristupu je što je autsajderu teško saznati gdje dobiti najnovije informacije. Takva mogućnost pruža izazov ljudima koji su zaduženi za stvaranje alate s vašim podacima."
+
+# 28ec978c25d5464caef60764ccd26193
+#: ../../source/how-to-open-up-data/make-data-available.rst:67
+msgid "Via 3rd party sites"
+msgstr "Putem stranica trećih osoba, 3rd party sites"
+
+# bc1c7a24e2fc40369a8d6fee3b547452
+#: ../../source/how-to-open-up-data/make-data-available.rst:69
+msgid ""
+"Many repositories have become hubs of data in particular fields. For "
+"example, pachube.com is designed to connect people with sensors to those who"
+" wish to access data from them. Sites like Infochimps.com and Talis.com "
+"allow public sector agencies to store massive quantities of data for free."
+msgstr "Mnoštvo skladišta podataka su postali podatkovni centri u svojim područjima. Primjerice pachibe.com spaja ljude sa senzorima s onima koji žele pristupiti njihovim podacima. Stranice poput Infochimps.com i Talis.com omogućuju agencijama javnog sektora besplatnu pohranu velikog broja podataka."
+
+# 79fec3171d0b43e7924a9661d86ed5bb
+#: ../../source/how-to-open-up-data/make-data-available.rst:75
+msgid ""
+"Third party sites can be very useful. The main reason for this is that they "
+"have already pooled together a community of interested people and other sets"
+" of data. When your data is part of these platforms, a type of positive "
+"compound interest is created."
+msgstr "Stranice od strane trećih osoba mogu biti izrazito korisne. Osnovni razlog tome je što one već posjeduju skupove podataka i imaju zajednicu ljudi. Kada su vaši podaci dio ovakvih platformi, stvara se pozitivna energija."
+
+# e27ac253acf04e4895092c606f5d6c84
+#: ../../source/how-to-open-up-data/make-data-available.rst:80
+msgid ""
+"Wholesale data platforms already provide the infrastructure which can "
+"support the demand. They often provide analytics and usage information. For "
+"public sector agencies, they are generally free."
+msgstr "Veleprodajne platforme već posjeduju infrastrukture koja može odgovoriti potražnji. One često sadrže analitičke informacije kao i informacije o korištenju. Za organizacije javnog sektora, one su uglavnom besplatne."
+
+# cc7000380ec64929b7aacfcc5761b05f
+#: ../../source/how-to-open-up-data/make-data-available.rst:84
+msgid ""
+"These platforms can have two costs. The first is independence. Your agency "
+"needs to be able to yield control to others. This is often politically, "
+"legally or operationally difficult. The second cost may be openness. Ensure "
+"that your data platform is agnostic about who can access it. Software "
+"developers and scientists use many operating sytems, from smart phones to "
+"supercomputers. They should all be able to access the data."
+msgstr "Ove platforme mogu imati dva troška. Prvi je neovisnost. Vaša oragnizacija mora moći prepustiti kontrolu ostalima. Ovo je često politički, pravno ili operacijski težak zadatak. Drugi trošak može biti otvorenost. Vaša podatkovna platforma bi trebala biti dostupna što široj publici. Softverski programeri i znanstvenici koriste mnoge operacijske sustave, od pametnih telefona do superračunala. Svi bi oni trebali moći pristupiti podacima."
+
+# 45ec5a433d49473d8bd8e8aa732d3790
+#: ../../source/how-to-open-up-data/make-data-available.rst:94
+msgid "Via FTP servers"
+msgstr "Putem FTP servera"
+
+# b76866767adf434e9e413aa9dd09bcc1
+#: ../../source/how-to-open-up-data/make-data-available.rst:96
+msgid ""
+"A less fashionable method for providing access to files is via the File "
+"Transfer Protocol (FTP). This may be suitable if your audience is technical,"
+" such as software developers and scientists. The FTP system works in place "
+"of HTTP, but is specifically designed to support file transfers."
+msgstr "Manje rasprostranjena metoda za pristup podacima je putem File Transfer Protokola (FTP). Ovo je prilagođeno tehnički potkovanoj publici, kao što su softverski programeri i znanstvenici. FTP sustav djeluje umjesto HTTP-a, ali je specifično dizajniran kako bi podržavao prijenos podataka."
+
+# 2b926a03ce794f8782e74bd0013c2b2e
+#: ../../source/how-to-open-up-data/make-data-available.rst:102
+msgid ""
+"FTP has fallen out of favour. Rather than providing a website, looking "
+"through an FTP server is much like looking through folders on a computer. "
+"Therefore, even though it is fit for purpose, there is far less capacity for"
+" web development firms to charge for customisation."
+msgstr "FTP je ispao iz mode. Umjesto prikaza web stranice, pretraga unutar FTP servera sliči uvelike kao pretraga mapa na računalu. Iako svrsishodno, ovaj oblik tvrtkama za mrežni razvoj otežava naplatu za kupčevo prilagođavanje."
+
+# c42b8894bbc54326b66238f06c086570
+#: ../../source/how-to-open-up-data/make-data-available.rst:108
+msgid "As torrents"
+msgstr "Kao torrenti"
+
+# 759eb86f2e4d480eaaecdaac50273050
+#: ../../source/how-to-open-up-data/make-data-available.rst:110
+msgid ""
+":term:`BitTorrent` is a system which has become familiar to policy makers "
+"because of its association with copyright infringement. BitTorrent uses "
+"files called torrents, which work by splitting the cost of distributing "
+"files between all of the people accessing those files. Instead of servers "
+"becoming overloaded, the supply increases with the demand increases. This is"
+" the reason that this system is so successful for sharing movies. It is a "
+"wonderfully efficient way to distribute very large volumes of data."
+msgstr "BitTorrent je sustav koji je postao popularan među stvarateljima smjernica zbog svoje povezanosti s kršenjem autorskih prava. BitTorrent koristi datoteke zvane torrenti, koji dijele trošak distribucije podataka među svim ljudima koji pristupaju tim podacima. Umjesto preopterećenja servera, kako potražnja biva veća, tako se i ponuda povećava. To je upravo razlog zašto  je ovaj sistem tako raširen kod dijeljenja filmova. Ovo je iznimno efikasan načina za distribuciju velikih količina podataka."
+
+# 129e68dafdf54f6e97919fba6fdc5c70
+#: ../../source/how-to-open-up-data/make-data-available.rst:119
+msgid "As an API"
+msgstr "Kao API"
+
+# d6c7831d05704f01b2bedc502d6a50c1
+#: ../../source/how-to-open-up-data/make-data-available.rst:121
+msgid ""
+"Data can be published via an :term:`Application Programming Interface` "
+"(API). These interfaces have become very popular. They allow programmers to "
+"select specific portions of the data, rather than providing all of the data "
+"in bulk as a large file. APIs are typically connected to a database which is"
+" being updated in real-time. This means that making information available "
+"via an API can ensure that it is up to date."
+msgstr "Podaci mogu biti objavljeni putem Application Programming Interface-a (API). Ova sučelja su postala veoma popularna. Ona omogućavaju programerima da odaberu specifične dijelove podataka, umjesto da pružaju sve podatke na hrpi. API se često vežu uz baze podataka koje se ažuriraju u realnom vremenu. To znači da se se prikazom informacija putem API-ja osigurava da su one najnovije verzije."
+
+# a04d09c10e634e4e95e64172d7f3df48
+#: ../../source/how-to-open-up-data/make-data-available.rst:129
+msgid ""
+"Publishing raw data in bulk should be the primary concern of all open data "
+"intiatives. There are a number of costs to providing an API:"
+msgstr "Objavljivanje neobrađenih podataka u velikim količinama bi trebala biti osnovna briga za sve inicijative vezane uz otvorene podatke. Brojni su troškovi korištenja API-a:"
+
+# 3c28e8cb66dc4a3cb88e41a7b60106b4
+#: ../../source/how-to-open-up-data/make-data-available.rst:132
+msgid ""
+"The price. They require much more development and maintainence than "
+"providing files."
+msgstr "Cijena. Oni zahtijevaju puno više razvoja i održavanja nego samo pružanje podataka."
+
+# 14dd153713774331a0312cbefb6d28d1
+#: ../../source/how-to-open-up-data/make-data-available.rst:134
+msgid ""
+"The expectations. In order to foster a community of users behind the system,"
+" it is important to provide certainty. When things go wrong, you will be "
+"expected to incur the costs of fixing them."
+msgstr "Očekivanja. Kako bi se poticala zajednica korisnika koji se služe sustavom, važno je biti točan. Kada kola krenu nizbrdo i kada dođe do grešaka, očekujte da ćete trošak popravka snositi vi."
+
+# ca23faca90d744b397f92d458f218d1c
+#: ../../source/how-to-open-up-data/make-data-available.rst:138
+msgid "Access to bulk data ensures that:"
+msgstr "Pristup velikoj masi podataka osigurava da:"
+
+# ae5f19aec9fc42828d27deb2b2c9c146
+#: ../../source/how-to-open-up-data/make-data-available.rst:140
+msgid ""
+"there is no dependency on the original provider of the data, meaning that if"
+" a restructure or budget cycle changes the situation, the data are still "
+"available."
+msgstr "ne postoji ovisnost o originalnom pružatelju podataka, što znači da u slučaju da restrukturiranja ili proračunski ciklusi promijene situaciju, podaci će svejedno biti dostupni."
+
+# 3022f0749b794dc59af9b4b12e4fd380
+#: ../../source/how-to-open-up-data/make-data-available.rst:143
+msgid ""
+"anyone else can obtain a copy and redistribute it. This reduces the cost of "
+"distribution away from the source agency and means that there is no single "
+"point of failure."
+msgstr "bilo tko može nabaviti kopiju i redistribuirati ju. Ovo smanjuje trošak distribucije izvornoj organizaciji i podrazumijeva da ne postoji točka zastoja."
+
+# 362360c6bac64db5b350ca2f2b96d48e
+#: ../../source/how-to-open-up-data/make-data-available.rst:146
+msgid ""
+"others can develop their own services using the data, because they have "
+"certainty that the data will not be taken away from them."
+msgstr "ostali mogu razviti svoje usluge koristeći podatke jer znaju da im podaci neće biti uzeti."
+
+# 92b96832e25848bea4ba68895e02480f
+#: ../../source/how-to-open-up-data/make-data-available.rst:149
+msgid ""
+"Providing data in bulk allows others to use the data beyond its original "
+"purposes. For example, it allows it to be converted into a new format, "
+"linked with other resources, or versioned and archived in multiple places. "
+"While the latest version of the data may be made available via an API, raw "
+"data should be made available in bulk at regular intervals."
+msgstr "Pružanje podataka u velikim količinama omogućuje njihovu upotrebu izvan prvobitnog okvira. Na primjer, mogu se pretvoriti u novi format, povezati s drugim resursima, ili se mogu pretvoriti u inačice i arhivirati na različita mjesta. Dok je najnovija verzija dostupna putem API-a, pristup neobrađenim podacima bi trebao biti omogućen u redovitim periodima."
+
+# 19cd648b3bcb47a69b7b467e23035209
+#: ../../source/how-to-open-up-data/make-data-available.rst:155
+msgid ""
+"For example, the `Eurostat statistical service`_ has a bulk download "
+"facility offering over 4000 data files. It is updated twice a day, offers "
+"data in :term:`Tab-separated values` (TSV) format, and includes "
+"documentation about the download facility as well as about the data files."
+msgstr "Primjerice, Eurostatov servis za statistiku posjeduje jedinicu za masovno preuzimanje preko 4000 podataka. Ažurira se dva puta na dan, podatke nudi u Tab-separated values (TSV) formatu, a posjeduje i dokumentaciju vezanu uz jedinicu za preuzimanje kao i o samim podacima."
+
+# e41c10ed0631425c909b8ebfb4a7c800
+#: ../../source/how-to-open-up-data/make-data-available.rst:162
+msgid ""
+"Another example is the `District of Columbia Data Catalog`_, which allows "
+"data to be downloaded in CSV and XLS format in addition to live feeds of the"
+" data."
+msgstr "Još jedan primjer je District of Columbia Data Catalog koji nudi preuzimanja podataka u CSV i XLS formatu uz mogućnost praćenja uživo."
+
+# 5b114f4280384ceb84d9a7ccda241a62
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:3
+msgid "Make data discoverable"
+msgstr "Učinite podatke vidljivima"
+
+# 1a2ce7b8aac042e9a2f48a21660610d0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:5
+msgid ""
+":term:`Open data` is nothing without users. You need to be able to make sure"
+" that people can find the source material. This section will cover different"
+" approaches."
+msgstr "Otvoreni podaci ne vrijede ništa bez korisnika. Ljudi moraju moći naći izvorni materijal. Ovaj dio se bavi raznim pristupima."
+
+# 4becb2ab91af48f190e5067c39b98b97
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:9
+msgid ""
+"The most important thing is to provide a neutral space which can overcome "
+"both inter-agency politics and future budget cycles. Jurisdictional borders,"
+" whether sectorial or geographical, can make cooperation difficult. However,"
+" there are significant benefits in joining forces. The easier it is for "
+"outsiders to discover data, the faster new and useful tools will be built."
+msgstr "Najvažnija stvar koju treba osigurati je neutralan prostor koji neće biti u suboku s untrašnjim politikama organizacija i njihovim proračusnkim ciklusima. Jurisdikcijske granice, bile one sektorske ili geografske, mogu otežavati suradnju. No, mnoge su prednosti u združivanju snaga. Što vanjski korisnici lakše otkrivaju podatke, to se brže mogu stvarati novi i korisni alati."
+
+# 512c9d4d09dd44a68e1beae3b2f882b6
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:17
+msgid "Existing tools"
+msgstr "Postojeći alati"
+
+# 2adc1adf902d44b497f75a0eafa83915
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:19
+msgid ""
+"There are a number of tools which are live on the web that are specifically "
+"designed to make data more discoverable."
+msgstr "Postoji mnoštvo online alata kojima je glavna zadaća što lakše otkriti podatke."
+
+# ae9ed98469a341feb0c8d16f3e4c4715
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:22
+msgid ""
+"One of the most prominent is the DataHub_ and is a catalog and data store "
+"for datasets from around the world. The site makes it easy for individuals "
+"and organizations to publish material and for data users to find material "
+"they need."
+msgstr "Jedan od najistaknutijih je DataHub_ koji sadrži podatke i podatkovne skupove iz svih dijelova svijeta. Stranica omogućuje pojedincima i organizacijama objavu materijala, a korisnicima podataka njihov lak pronalazak. "
+
+# 2558aac60a2e4327ad698877cc2142f9
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:27
+msgid ""
+"In addition, there are dozens of specialist catalogs for different sectors "
+"and places. Many scientific communities have created a catalog system for "
+"their fields, as data are often required for publication."
+msgstr "Nadalje, postoje desetci specijaliziranih baza podataka za različite sektore i područja. Mnoge znanstvene udruge su kreirale baze podataka za svoja područja uslijed česte potrebe za objavom podataka."
+
+# 3813a2f6a87b44bda881d2dc1047e8e0
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:34
+msgid "For government"
+msgstr "Za vladu"
+
+# dd24b7fc5a0e4264a0a4224b5aab6293
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:36
+msgid ""
+"As it has emerged, orthodox practice is for a lead agency to create a "
+"catalog for the government's data. When establishing a catalog, try to "
+"create some structure which allows many departments to easily keep their own"
+" information current."
+msgstr "S vremenom je praksa postala da vodeće agencije kreiraju baze za vladine podatke. Prilikom njihovih kreacija, pokušajte stvoriti strukture koje omogućavaju raznim odjelima lakše i jednostavnije ažuriranje podataka."
+
+# e6a628d1c2b340f2bdd128c31a4febba
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:41
+msgid ""
+"Resist the urge to build the software to support the catalog from scratch. "
+"There are free and open source software solutions (such as CKAN_) which have"
+" been adopted by many governments already. As such, investing in another "
+"platform may not be needed."
+msgstr "Izbjegavajte stvaranje softvera koji će biti podrška za bazu podataka od same nule. Postoje besplatni softveri i softveri otvorenog koda (npr. CKAN_) koje su već prihvatile mnoge vlade. Imajući to na umu, investiranje u neku drugu platformu neće biti potrebno."
+
+# 219db6ba9b784128a2be95191a104858
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:48
+msgid ""
+"There are a few things that most open data catalogs miss. Your programme "
+"could consider the following:"
+msgstr "Postoji nekoliko stvari koje većina baza podataka nema. Vaš program bi mogao razmotriti sljedeće:"
+
+# d738b775cba84d92ac1ed6ec7c0840c5
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:51
+msgid ""
+"Providing an avenue to allow the private and community sectors to add their "
+"data. It may be worthwhile to think of the catalog as the region's catalog, "
+"rather than the regional government's."
+msgstr "Pružanje načina za privatne i društvene sektore koji žele dodati svoje podatke. Bolje je gledati na bazu podataka kao regionalnu, nego kao bazu podataka od vlade te regije."
+
+# 507082d1a6244462beb7af124cfe0fda
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:54
+msgid ""
+"Facilitating improvement of the data by allowing derivatives of datasets to "
+"be cataloged. For example, someone may geocode addresses and may wish to "
+"share those results with everybody. If you only allow single versions of "
+"datasets, these improvements remain hidden."
+msgstr "Olakšavanje unaprijeđenja podataka omogućujući unos izvedenica podatkovnih skupova u bazu podataka. Na primjer, netko bi želio napraviti popis adresa i to podijeliti sa svima. Ako imate samo jednu verziju podatkovnog skupa, ova poboljšanja će ostati skrivena."
+
+# e8ad70e351d34a9caf7bc7cf0409f67d
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:58
+msgid ""
+"Be tolerant of your data appearing elsewhere. That is, content is likely to "
+"be duplicated to communities of interest. If you have river level monitoring"
+" data available, then your data may appear in a catalog for hydrologists."
+msgstr "Budite tolerantni prilikom prikazivanja vaših podataka na drugim mjestima. Točnije, sadržaj bi se mogao duplicirati u zajednicima sličnih interesa. Ako posjedujete podatke za nadzor razine rijeka, tada će se vaši podaci možda pojaviti u bazama podataka za hidrologe."
+
+# 04da7586b2474affab2a4d56bb5dc900
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:62
+msgid ""
+"Ensure that access is equitable. Try to avoid creating a privileged level of"
+" access for officials or tenured researchers as this will undermine "
+"community participation and engagement."
+msgstr "Omogućite nepristran pristup. Izbjegavajte stvaranje privilegiziranih razina pristupa za državnike ili istraživače jer će to potkopati uključenost i sudjelovanje zajednice."
+
+# 19cfcba241ba49da8fa2cd7e12ffcdfe
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:67
+msgid "For civil society"
+msgstr "Za civilna društva"
+
+# 82151482120d4eb38a6d0aafff09e1ed
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:69
+msgid "Be willing to create a supplementary catalog for non-official data."
+msgstr "Budite spremni kreirati dodatne baze za neslužbene podatke."
+
+# 4d3c4cafa15d46b49cdf98fb5cdd40fb
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:71
+msgid ""
+"It is very rare for governments to associate with unofficial or non-"
+"authoritative sources. Officials have often gone to great expense to ensure "
+"that there will not be political embarrassment or other harm caused from "
+"misuse or overreliance on data."
+msgstr "Vlade iznimno rijetko surađuju s neslužbenim ili nemjerodavnim izvorima. Državnici tako često znaju puno trošiti kako bi izbjegli političko sramoćenje ili druge negativne konotacije koji bi mogle biti uzrokovane zloupotrebom ili prevelikim oslanjanjem na podatke,"
+
+# dc1fa133f5ff4c1f91bc4f7593f4b2e2
+#: ../../source/how-to-open-up-data/make-it-discoverable.rst:76
+msgid ""
+"Moreover, governments are unlikely to be willing to support activities that "
+"mesh their information with information from businesses. Governments are "
+"rightfully skeptical of profit motives. Therefore, an independent catalog "
+"for community groups, businesses and others may be warranted."
+msgstr "Nadalje, vlade neće podržavati aktivnosti koje miješaju njihove podatke s podacima poduzeća. Vlade su opravdano skeptične u vezi motiva vezanih uz profit. Stoga je poželjna nepristrana baza podataka za zajednice, poduzeća i ostale."
+
+# 0eece90a6b18435fbada8a71dce59bb8
+#: ../../source/following-up/getting-folks-in-a-room.rst:3
+msgid "Getting folks in a room: Unconferences, Meetups and Barcamps"
+msgstr "Okupljanje ljudi: Nekonferencije, sastanci i kampovi"
+
+# d517fbbe51ea4d1889ad1ea4f9b6c34e
+#: ../../source/following-up/getting-folks-in-a-room.rst:5
+msgid ""
+"Face-to-face events can be a very effective way to encourage others to use "
+"your data. Reasons that you may consider putting on an event include:"
+msgstr "Događanja \"licem u lice\" mogu biti vrlo efikasan način kako potaknuti ljude da koriste vaše podatke. Razlozi zašto organizirati takvo događanje uključuju:"
+
+# ed4a924635be427d84e5e73aa156036b
+#: ../../source/following-up/getting-folks-in-a-room.rst:9
+msgid "Finding out more about prospective re-users"
+msgstr "Saznanja o budućim korisnicima"
+
+# 5f00d7f9fe5f4d88908a571cd17d7583
+#: ../../source/following-up/getting-folks-in-a-room.rst:10
+msgid "Finding out more about demand for different datasets"
+msgstr "Saznanja o potražnji za različitim skupovima podataka"
+
+# 44afdf6e36d943ddabf744660e0cd998
+#: ../../source/following-up/getting-folks-in-a-room.rst:11
+msgid "Finding out more about how people want to re-use your data"
+msgstr "Saznanja o tome kako drugi ljudi žele koristiti vaše podatke"
+
+# 40fc2cc37de34edc951bb527c703bed8
+#: ../../source/following-up/getting-folks-in-a-room.rst:12
+msgid ""
+"Enabling prospective re-users to find out more about what data you have"
+msgstr "Pružanje budućim korisnicima više informacija o podacima koje posjedujete"
+
+# 521cf351ccf04741bcad75ab2ebed8fc
+#: ../../source/following-up/getting-folks-in-a-room.rst:14
+msgid ""
+"Enabling prospective users to meet each other (e.g. so they can collaborate)"
+msgstr "Omogućavanje sastanaka budućih korisnika (primjerice kako bi surađivali)"
+
+# 48964c3745d54c21947431d3f9dfa392
+#: ../../source/following-up/getting-folks-in-a-room.rst:16
+msgid ""
+"Exposing your data to a wider audience (e.g. from blog posts or media "
+"coverage that the event may help to generate)"
+msgstr "Izlaganja vaših podataka široj publici (npr. blogovi i medijska pokrivenost koje će potaknuti vaše događanje)"
+
+# 4d90aabe7a734c3f805647604033d11a
+#: ../../source/following-up/getting-folks-in-a-room.rst:19
+msgid ""
+"There are also lots of different ways of running events, and different types"
+" of events, depending on what aim you want to achieve. As well as more "
+"traditional conference models,  which will include things like preprepared "
+"formal talks, presentations and demonstrations, there are also various kinds"
+" of participant driven events, where those who turn up may:"
+msgstr "Postoji mnogo različith načina za pokretanje događanja, te mnoštvo njihovih tipova, ovisno što želite ostvariti. Osim tradicionalnih konferencijskih modela koji uključuju pripremljene formalne govore, prezentacije i demonstracije, postoje i razna događanja upravljana sudionicima koji mogu:"
+
+# a50b011fdb8840dc9d8f2efd3ab44a4c
+#: ../../source/following-up/getting-folks-in-a-room.rst:26
+msgid "Guide or define the agenda for the event"
+msgstr "Voditi ili definirati program događanja"
+
+# fa476ad8536242b5b8bf48aea215e13c
+#: ../../source/following-up/getting-folks-in-a-room.rst:27
+msgid ""
+"Introduce themselves, talk about what they’re interested in and what they’re"
+" working on, on an ad hoc basis"
+msgstr "Predstaviti se, ad hoc iznijeti svoje interese i reći na čemu rade"
+
+# a32292b0cdf147238a040b8e1264e482
+#: ../../source/following-up/getting-folks-in-a-room.rst:29
+msgid ""
+"Give impromptu micro-short presentations on something they are working on"
+msgstr "Dati improvizirane, kratke prezentacije o stvarima na kojima rade"
+
+# 2337543daa9b44a8b8774ac488b32296
+#: ../../source/following-up/getting-folks-in-a-room.rst:31
+msgid "Lead sessions on something they are interested in"
+msgstr "Voditi radionice o nečemu što ih interesira"
+
+# 64065d778f9946ba94319f8241c9e573
+#: ../../source/following-up/getting-folks-in-a-room.rst:33
+msgid ""
+"There is plenty of documentation online about how to run these kinds of "
+"events, which you can find by searching for things like: ‘unconference’, "
+"‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’, and so on. You may also "
+"find it worthwhile to contact people who have run these kinds of events in "
+"other countries, who will most likely be keen to help you out and to advise "
+"you on your event. It may be valuable to partner with another organisation "
+"(e.g. a civic society organisation, a news organisation or an educational "
+"institution) to broaden your base participants and to increase your "
+"exposure."
+msgstr "Mnogo je online dokumentacije koja objašnjava kako organizirati ovakve tipove događanja, koju možete naći tražeći : ‘unconference’, ‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’, itd. Ne bi bilo loše i kontaktirati ljude koji su organizirali događanja u inozemstvu te koji bi vam mogli pomoći i savjetovati vas u vezi vašeg događanja. Također, moglo bi biti korisno ući u partnerstvo s nekom drugom organizacijom (npr. društvenom organizacijom, organizacijom koja prenosi vijesti ili obrazovnom institucijom) kako bi proširili bazu sudionika, te povećali izloženost."
+
+# 462828d03e674930afd7dba17f214303
+#: ../../source/following-up/index.rst:3
+msgid "So I’ve Opened Up Some Data, Now What?"
+msgstr "Otvorio/la sam neke podatke, što sada?"
+
+# 00e250fc1e7143fdaf4d5ee13df433dd
+#: ../../source/following-up/index.rst:5
+msgid ""
+"We’ve looked at how to make government information legally and technically "
+"reusable. The next step is to encourage others to make use of that data."
+msgstr "Vidjeli smo kako učiniti vladine podatke legalno i tehnički upotrebljivima. Sljedeći korak je potaknuti druge na korištenje tih podataka."
+
+# ea104e8ec1424383ab1ad41895ec4913
+#: ../../source/following-up/index.rst:9
+msgid ""
+"This section looks at additional things which can be done to promote data "
+"re-use."
+msgstr "Ovaj dio se bavi promocijom uporabe podataka izvan njenog originalnog područja."
+
+# 120ddfec9cfe474eb54d102baa82fa32
+#: ../../source/following-up/making-things.rst:3
+msgid "Making things! Hackdays, prizes and prototypes"
+msgstr "Djelovanje! Dani hakiranja, nagrade i prototipovi"
+
+# 060111852eda4d8ab3c3be81956860cd
+#: ../../source/following-up/making-things.rst:5
+msgid ""
+"The structure of these competitions is that a number of datasets are "
+"released and programmers then have a short time-frame - running from as "
+"little as 48 hours to a few weeks - to develop applications using the data. "
+"A prize is then awarded to the best application. Competitions have been held"
+" in a number of countries including the UK, the US, Norway, Australia, "
+"Spain, Denmark and Finland."
+msgstr "Struktura ovakvih natjecanja je da se objavi određeni broj skupova podataka, a potom programerima da kratak vremenski okvir - koji može biti svega 48 sati do nekoliko tjedana - u kojem moraju razviti aplikacije koje koriste te podatke. Nagrada se zatim dodjeljuje najboljoj aplikaciji. Natjecanja su održana u brojnim zemljama, uključujući Ujedinjeno Kraljevstvo, SAD, Norvešku, Australiju, Španjolsku, Dansku i Finsku."
+
+# 4023683f993e487e8a36414c0e231b52
+#: ../../source/following-up/making-things.rst:13
+msgid "Examples for Competitions"
+msgstr "Primjeri natjecanja"
+
+# 49b7ac024e12489b949a4e96788136cc
+#: ../../source/following-up/making-things.rst:15
+msgid ""
+"**Show us a better way** was the first such competition in the world. It was"
+" initiated by the UK Government’s “The Power of Information Taskforce” "
+"headed by Cabinet Office Minister Tom Watson in March 2008. This competition"
+" asked “What would you create with public information?” and was open to "
+"programmers from around the world, with a tempting £80,000 prize for the "
+"five best applications."
+msgstr "**Pokaži nam bolji način** je bilo prvo takvo natjecanje u svijetu. Inicirano je od strane vlade Ujedinjenog Kraljevstva “The Power of Information Taskforce” na čelu s Tomom Watsonom iz Ministrovog Kabineta u ožujku 2008. Slogan ovog natjecanja otvorenog programerima cijelog svijeta je bio \"Što biste vi napravili s javnim podacima?\", s primamljivom nagradom od 80 000 funti za pet najboljih aplikacija."
+
+# 4173635b18804fe2afc29007068f6172
+#: ../../source/following-up/making-things.rst:22
+msgid ""
+"**Apps for Democracy**, one of the first competitions in the United States, "
+"was launched in October 2008 by Vivek Kundra, at the time Chief Technology "
+"Officer (CTO) of the District of Columbia (DC) Government. Kundra had "
+"developed the groundbreaking DC data catalog, http://data.octo.dc.gov/, "
+"which included datasets such as real-time crime feeds, school test scores, "
+"and poverty indicators. It was at the time the most comprehensive local data"
+" catalog in the world. The challenge was to make it useful for citizens, "
+"visitors, businesses and government agencies of Washington, DC."
+msgstr "**Aplikacije za demokraciju**, jedno je od prvih natjecanja u Sjedinjenim Američkim Državama, pokrenuto u listopadu 2008. od strane Vivek Kundre, tadašnjeg CTO-a (Chief Technology Officer) vlade District of Columbia (DC).\nKundra je razvio revolucionarnu bazu podataka, http://data.octo.dc.gov/, koja je sadržavala podatke kao što su informacije o kriminalu u stvarnom vremenu, rezultati školskih testova te indikatori o siromaštvu. Tada je to bila najiscrpnija baza podataka u svijetu. Izazov je bio kako ju učiniti korisnom za državljane, posjetitelje, tvrtke i vladine agencije u Washington, DC-u."
+
+# 8d21825195c3490fb0c824541222f572
+#: ../../source/following-up/making-things.rst:32
+msgid ""
+"The creative solution was to create the Apps for Democracy contest. The "
+"strategy was to ask people to build applications using the data from the "
+"freshly launched data catalog. It included an online submission for "
+"applications, many small prizes rather than a few large ones, and several "
+"different categories as well as a “People’s Choice” prize. The competition "
+"was open for 30 days and cost the DC government $50,000. In return, a total "
+"of 47 iPhone, Facebook and web applications were developed with an estimated"
+" value in excess of $2,600,000 for the local economy."
+msgstr "Kreativno rješenje je bilo izrada natjecanja Apps for Democracy (Aplikacije za demokraciju). Strategija je bila naći ljude koji bi razvili aplikacije koristeći podatke iz nedavno objavljene baze podataka. Sadržavala je online podnošenje aplikacija, mnogo manjih nagrada umjesto nekolicine velikih te nekoliko različitih kategorija kao i nagradu \"People's Choice\". Natjecanje je trajalo 30 dana, a vladu koštalo 50 000 dolara. Zauvrat, razvijeno je ukupno 47 aplikacija za iPhone, Facebook i internet s procijenjenom vrijednošću od više od 2 600 000 dolara."
+
+# f146ea81d3f149b4abf0590d80f27b1c
+#: ../../source/following-up/making-things.rst:42
+msgid ""
+"**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, "
+"this contest invited developers to  create open source applications making "
+"use of public data in just 48 hours. The competition had 29 teams of "
+"participants who developed applications that included a mobile phone "
+"programme for accessing traffic information in the Basque Country, and for "
+"accessing data on buses and bus stops in Madrid, which won the first and "
+"second prizes of €3,000 and €2,000 respectively."
+msgstr "**The Abre Datos (Open Data) Challenge 2010**. Ovo natjecanje, održano u Španjolskoj u travnju 2010., pozvalo je programere da naprave aplikacije otvorenog koda u svega 48 sati koristeći javne podatke. Natjecanju je pristupilo 29 timova koji su razvili razne aplikacije uključujući program za informiranje o stanju na cestama u Baskijskom okrugu te aplikaciju s podacima o autobusima i autobusnim postajama u Madridu, koje su osvojile prvo i drugo mjesto s nagradama od 3000 i 2000 eura."
+
+# 1db8e290e0aa405ea64d0162ab6128e6
+#: ../../source/following-up/making-things.rst:50
+msgid ""
+"**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government "
+"Administration held \"Nettskap 2.0\". Norwegian developers – companies, "
+"public agencies or individuals – were challenged to come up with web-based "
+"project ideas in the areas of service development, efficient work processes,"
+" and increased democratic participation. The use of government data was "
+"explicitly encouraged. Though the application deadline was just a month "
+"later, on May 9, the Minister Rigmor Aasrud said the response was "
+"\"overwhelming\". In total 137 applications were received, no less than 90 "
+"of which built on the re-use of government data. A total amount of NOK 2.5 "
+"million was distributed among the 17 winners; while the total amount applied"
+" for by the 137 applications was NOK 28.4 million."
+msgstr "**Nettskap 2.0**. U travnju 2010., Norveško Ministarstvo za državnu administraciju je organiziralo \"Nettskap 2.0\". Norveške programerske tvrtke, javne agencije ili pojedinci dobile su zadatak da izrade web projekte u područjima razvoja usluga, efikasnih radnih procesa te povećanog sudjelovanja u demokraciji.  Poseban naglasak je bio na upotrebi državnih podataka. Iako je rok za predaju bio mjesec dana kasnije, 9. svibnja, ministar Rigmor Aasrud je izjavio da je odaziv bio \"silan\". Ukupno je zaprimljeno 137 aplikacija, od čega ih je 90 koristilo državne podatke. 17 pobjednika je podijelilo 2.5 milijuna norveških kruna, a ukupna vrijednost svih 137 aplikacija je iznosila 28.4 milijuna norveških kruna."
+
+# 14cbc29030354b309e4c0acf0e56aef3
+#: ../../source/following-up/making-things.rst:63
+msgid ""
+"**Mashup Australia**. The Australian Government 2.0 Taskforce invited "
+"citizens to show why open access to Australian government information would "
+"be positive for the country’s economy and social development. The contest "
+"ran from October 7th to November 13th 2009. The Taskforce released some "
+"datasets under an open license and in a range of reusable formats. The 82 "
+"applications that were entered into the contest are further evidence of the "
+"new and innovative applications which can result from releasing government "
+"data on open terms."
+msgstr "**Mashup Australia**. Australska vlada sa svojim 2.0 Taskforce-om (operativnom grupom) je htjela ukazati građanima zašto bi otvoreni pristup australskim državnim podacima imao pozitivan utjecaj na državnu ekonomiju i društveni razvoj. Natjecanje je trajalo od 7. listopada do 13. studenog 2009. Taskforce je objavio određeni broj otvorenih baza podataka u velikom broju formata. 82 aplikacije koje su izrađene su dokaz kako nove i inovativne aplikacije mogu nastati objavom državnih podataka otvorenog karaktera."
+
+# 7abfb909efeb422099a3cc361c47d784
+#: ../../source/following-up/making-things.rst:73
+msgid "Conferences, Barcamps, Hackdays"
+msgstr "Konferencije, kampovi, dani hakiranja"
+
+# 09e8f1bbc1b6444aa9605ae502caef64
+#: ../../source/following-up/making-things.rst:75
+msgid ""
+"One of the more effective ways for Civil Society Organisations (CSOs) to "
+"demonstrate to governments the value of opening up their datasets is to show"
+" the multiple ways in which the information can be managed to achieve social"
+" and economic benefit. CSOs that promote re-use have been instrumental in "
+"countries where there have been advances in policy and law to ensure that "
+"datasets are both technically and legally open."
+msgstr "Jedan od efikasnijih načina da društvene organizacije (CSO - Civil Society Organisations) pokažu vladama vrijednost otvaranja njihovih baza podataka je da prikažu načine kojima upotreba informacija može dovesti do društvenih i ekonomskih koristi. CSO organizacije koje promoviraju upotrebu podataka su bile ključ u državama u kojima je ostvaren pomak u politikama i zakonima koji je omogućio podatkovnim skupovima da budu i tehnički i pravno dostupni, tj. otvoreni."
+
+# 60c702f98efb4c9aa510e6198b1428db
+#: ../../source/following-up/making-things.rst:83
+msgid ""
+"The typical activities which are undertaken as part of these initiatives "
+"normally include competitions, :term:`open government data` conferences, "
+"“unconferences”, workshops and “hack days”. These activities are often "
+"organised by the user community with data that has already been published "
+"proactively or obtained using access to information requests. In other "
+"cases, civil society advocates have worked with progressive public officials"
+" to secure new release of datasets that can be used by programmers to create"
+" innovative applications."
+msgstr "Tipične aktivnosti koje se provode u sklopu ovih inicijativa obično uključuju natjecanja, konferencije otvorenih vladinih podataka, \"nekonferencije\", radionice i \"dane hakiranja\". Ove aktivnosti su često organizirane od strane zajednice korisnika s podacima koji su već proaktivno objavljeni ili prikupljeni koristeći pristup zahtjevima podataka. U ostalim slučajevima, odvjetnici civilnog društva su u suradnji s progresivnim dužnosnicima radili na objavljivanju novih skupova podataka koje bi programeri mogli koristiti za izradu inovativnih aplikacija."
+
+# c85468b1156d4b76b60e1af0a6c15d37
+#: ../../source/following-up/tell-the-world.rst:3
+msgid "Tell the world!"
+msgstr "Proširite vijest!"
+
+# f7b8c06459e444fe94462d69f5643a3f
+#: ../../source/following-up/tell-the-world.rst:5
+msgid ""
+"First and foremost, make sure that you promote the fact that you've embarked"
+" on a campaign to promote :term:`open data` in your area of responsibility."
+msgstr "Prvo i osnovno, pobrinite se da promovirate otvorene podatke u sklopu kampanje u vašem interesnom području."
+
+# 9f1b5341b9e842f493d4aaf04dc35fcb
+#: ../../source/following-up/tell-the-world.rst:9
+msgid ""
+"If you open up a bunch of datasets, it’s definitely worth spending a bit of "
+"time to make sure that people know (or at least can find out) that you’ve "
+"done so."
+msgstr "Ako otvorite veći broj baza podataka, korisno bi bilo odvojiti vrijeme kako bi bili sigurni da ljudi znaju (ili da barem mogu saznati) što ste učinili."
+
+# f9ce3d51005c4023a7fd16dd964b1eff
+#: ../../source/following-up/tell-the-world.rst:13
+msgid ""
+"In addition to things like press releases, announcements on your website, "
+"and so on, you may consider:"
+msgstr "Uz priopćenja za tisak, objave na vašoj web stranici, i tako dalje, mogli biste razmotriti:"
+
+# 05f10ba54c2b46e1a53127ab505be87c
+#: ../../source/following-up/tell-the-world.rst:16
+msgid ""
+"Contacting prominent organisations or individuals who work/are interested in"
+" this area"
+msgstr "Kontaktirati ugledne tvrtke ili pojedince koji rade ili su zainteresirani za ovo područje"
+
+# a2b3bc1ebe674b0ea69ffd4da3745791
+#: ../../source/following-up/tell-the-world.rst:18
+msgid "Contacting relevant mailing lists or social networking groups"
+msgstr "Kontaktirati relevantne mailing liste ili grupe na društvenim mrežama"
+
+# 7b7cc9acb2a745ceacf815065d7ef058
+#: ../../source/following-up/tell-the-world.rst:19
+msgid ""
+"Directly contacting prospective users who you know may be interested in this"
+" data"
+msgstr "Direktno kontaktirati buduće korisnike za koje znate da bi bili zainteresirani za vaše podatke"
+
+# 1e00595b53124d30a532470f0c12b6cc
+#: ../../source/following-up/tell-the-world.rst:23
+msgid "Understanding your audience"
+msgstr "Razumijevanje vaše publike"
+
+# 528fc19bc9384914bff7b326a5690865
+#: ../../source/following-up/tell-the-world.rst:25
+msgid ""
+"Like all public communication, engaging with the data community needs to be "
+"targeted. Like all stakeholder groups, the right message can be wasted if it"
+" is directed to the wrong area."
+msgstr "Kao i sva javna komunikacija, stupanje u kontakt sa zajednicom povezanom s podacima mora biti precizno. Kao i sve grupe dioničara, prava poruka može biti potraćena ako se uputi krivom području."
+
+# 5cee9f066f764747a01b13daa677806d
+#: ../../source/following-up/tell-the-world.rst:29
+msgid ""
+"Digital communities tend to be very willing to share new information, yet "
+"they very rapidly consume it. Write as if your messages will be skimmed "
+"over, rather than critically examined in-depth."
+msgstr "Digitalne zajednice imaju tendenciju dijeljenja novih informacja, no također ih i vrlo brzo konzumiraju. Pišite s očekivanjem da će vaše poruke biti samo letimice pročitane, a ne istražene u detalje."
+
+# 18c9101dca504db9accaddb84ade088c
+#: ../../source/following-up/tell-the-world.rst:33
+msgid ""
+"Members of the tech community are less likely than the general public to use"
+" MS Windows. This means that you should not save documents in MS Office "
+"formats which can be read offline. There are two resons for this:"
+msgstr "Članovi tehnoloških zajednica će rjeđe od prosječnog građanina koristiti MS Windows. To znači da dokumente ne biste trebali spremati u MS Office formatima koji se mogu čitati dok niste na mreži. Dva su razloga:"
+
+# 19ec177bb4064fd4afc752564dcd6876
+#: ../../source/following-up/tell-the-world.rst:38
+msgid ""
+"The first is that those documents will be less accessible. Rather than the "
+"document you see on your screen, readers may see an imperfect copy from an "
+"alternative."
+msgstr "Prvi je da će ti dokumenti biti manje dostupni. Umjesto dokumenta koje bi vidjeli na ekranu, čitatelji će pronaći nepotpunu kopiju od drugog izvora"
+
+# 2bf9658ad33c45e597c924d5f98773d9
+#: ../../source/following-up/tell-the-world.rst:41
+msgid ""
+"Secondly, your agency sends an implicit message that you are unwilling to "
+"take a step towards developers. Instead, you show that you are expecting the"
+" technology community to come to you."
+msgstr "Drugo, vaša organizacija šalje direktnu poruku da niste spremni prilagoditi se razvojnim programerima. Umjesto toga, očekujete da članovi tehnološke zajednice dolaze k vama."
+
+# 844e5bf617e74753bc0dd1c7cac6f9f0
+#: ../../source/following-up/tell-the-world.rst:47
+msgid "Post your material on third-party sites"
+msgstr "Objavite vaš materijal na third-party stranicama"
+
+# 6a83365938d94f77b222dc567c79b43d
+#: ../../source/following-up/tell-the-world.rst:49
+msgid ""
+"Many blogs have created a large readership in specialised topic areas. It "
+"may be worthwhile adding an article about your initiative on their site. "
+"These can be mutually beneficial. You receive more interest and they receive"
+" a free blog post in their topic area."
+msgstr "Mnogi blogovi su stvorili velike baze čitatelja u specijaliziranim temama određenih područja. Moglo bi biti od koristi dodati članak o vašoj inicijativi na njihovu stranicu. Od toga mogu profitirati obje strane. Vi dobijate veći interes, a oni besplatni članak u tom području."
+
+# 9b230b80b65d485d86d252226dd302ec
+#: ../../source/following-up/tell-the-world.rst:56
+msgid "Making your communications more social-media friendly"
+msgstr "Približite vaše komunikacijske kanale društvenim mrežama"
+
+# 4bead5ae1fe74d96a269bf59a3ca032d
+#: ../../source/following-up/tell-the-world.rst:58
+msgid ""
+"It's unrealistic to expect that officials should spend long periods of time "
+"engaging with social media. However, there are several things that you can "
+"do to make sure that your content can be easily shared between technical "
+"users. Some tips:"
+msgstr "Nerealno je za očekivati od državnih službenika da će veliki dio vremena provoditi na društvenim mrežama. No, nekoliko je načina kako vaš sadržaj može lako biti podijeljen među tehničkim korisnicima. Savjeti: "
+
+# f4f2dab2b9ac404cb9d9bbad4a3bf3b9
+#: ../../source/following-up/tell-the-world.rst:65
+msgid ""
+"When a message is shared with others, the recipient of the referral will be "
+"looking for the relevant content quickly."
+msgstr "Kad je poruka podijeljena s drugima, primatelj će ubrzo zatim potražiti relevantan sadržaj."
+
+# 52f00dd496ae41b3896cfd0f84c83303
+#: ../../source/following-up/tell-the-world.rst:70
+msgid ""
+"Press releases are fine. They are concise messages about a particular point."
+" However, if you require people to download the content and for it to open "
+"outside of a web browser, then fewer people will read it. Search engines are"
+" less likely to index the content. People are less likely to click to "
+"download."
+msgstr "Priopćenja za tisak su u redu. One su precizne poruke o specifičnom pitanju. No, ako vaš sadržaj traži preuzimanje s interneta, a pritom da ga se otvori izvan web preglednika, manje će ga ljudi pročitati. Tražilice će rjeđe indeksirati takav sadržaj. Ljudi će rijetko kliknuti za preuzimanje."
+
+# 5f48a5a973b64166af65a56fee9e2af3
+#: ../../source/following-up/tell-the-world.rst:78
+msgid ""
+"Apart from providing certainty to people who wish to share your content that"
+" this is permissible, you send a message that your agency understands "
+"openness. This is bound to leave an impression far more significant to "
+"proponents of open data than any specific sentence in your press release."
+msgstr "Osim što ćete ljudima koji žele podijeliti vaš sadržaj reći da je to dozvoljeno, također ćete poslati poruku da vaša organizacija razumije otvorenost. To će zasigurno ostaviti puno važniji dojam o otvorenim podacima nego bilo koja rečenica iz vašeg priopćenja tisku."
+
+# ced1e4dd38e54c148906380a97dd58ef
+#: ../../source/following-up/tell-the-world.rst:87
+msgid "Social media"
+msgstr "Društveni mediji"
+
+# 574f80f4359f48efbb593e6eec284c9e
+#: ../../source/following-up/tell-the-world.rst:89
+msgid ""
+"It's inefficient for cash-strapped agencies to spend hours on social media "
+"sites. The most significant way that your voice can be heard through these "
+"fora is by making sure that blog posts are easily shareable. That means, "
+"before reading the next section, make sure that you have read the last. With"
+" that in mind, here are a few suggestions:"
+msgstr "Organizacijama koje nemaju novca je neefikasno trošiti sate na stranicama društvenih medija. Najznačajniji način kako će se vaš glas čuti na forumima je da omogućite vašim člancima na blogovima da se lako mogu dijeliti. To znači da prije čitanja sljedećeg dijela, provjerite da ste pročitali prethodni. Imajući to na umu, slijedi nekoliko prijedloga:"
+
+# f847a5e41c65478796cb6b6f71cbf686
+#: ../../source/following-up/tell-the-world.rst:98
+msgid ""
+"Twitter has emerged as the platform of choice for disseminating information "
+"rapidly. Anything tagged with #opendata will be immediately seen by "
+"thousands."
+msgstr "Twitter je rapidno izrastao u platformu koja se mora odabrati ako se žele rasprostraniti informacije. Bilo što sa tagom #opendata će odmah vidjeti tisuće ljudi."
+
+# 73647b69ba61434dbc71b406d5ae5259
+#: ../../source/following-up/tell-the-world.rst:102
+msgid ""
+"LinkedIn has a large selection of groups which are targeted towards open "
+"data."
+msgstr "LinkedIn sadrži mnoštvo grupa koje su orijentirane otvorenim podacima"
+
+# b0aafaffa0234c4989d2b2666ba136a5
+#: ../../source/following-up/tell-the-world.rst:105
+msgid ""
+"While Facebook is excellent for a general audience, it has not received a "
+"great deal of attention in the open data community."
+msgstr "Dok je Facebook izvrstan za običnu publiku, nije dobio pozornost zajednice koja se bavi otvorenim podacima."
+
+# b3381b7656bf4f3dbe210f7e88d3202b
+#: ../../source/following-up/tell-the-world.rst:110
+msgid ""
+"Submit your content to the equivalent of newswires for geeks. Reddit and "
+"Hacker News are the two biggest in this arena at the moment. To a lesser "
+"extent, Slashdot and Digg are also useful tools in this area."
+msgstr "Pošaljite vaš sadržaj ekvivalentima vijestima za štrebere. Reddit i Hacker News su trenutačno dvoje najvećih u ovom području. Nešto manje korisni alati su Slashdot i Digg."
+
+# 8c7beae1caaa43b99c59bec2e4e1160d
+#: ../../source/following-up/tell-the-world.rst:115
+msgid ""
+"These sites have a tendency to drive significant traffic to interesting "
+"material. They are also heavily focused on topic areas."
+msgstr "Ove stranice usmjeravaju značajan promet prema zanimljivom materijalu. Također, one su se fokusirale na teme određenih područja."
+
+# 8d913877e7a6456b84c5481aa375fa49
+#: ../../source/glossary.rst:3
+msgid "Glossary"
+msgstr "Pojmovnik"
+
+# 7f11b625ef3e418ebce8fa73d6df5007
+#: ../../source/glossary.rst:99
+msgid ""
+"The process of adapting data so that individuals cannot be identified from "
+"it."
+msgstr "Proces adaptiranja podataka tako da pojedinci ne mogu biti identificirani."
+
+# a05e26862bfa42af9de59456bb406ca0
+#: ../../source/glossary.rst:96
+msgid "See :term:`Anonymisation`."
+msgstr "Vidi 'anonimizacija'"
+
+# a178837206844dcd9c3f961ffb9ec065
+#: ../../source/glossary.rst:61
+msgid "See :term:`Application Programming Interface`."
+msgstr "Vidi 'sučelje za programiranje aplikacija'"
+
+# b2d454de54a34ff3ac26f9a9b95cfc1d
+#: ../../source/glossary.rst:64
+msgid ""
+"A way computer programs talk to one another. Can be understood in terms of "
+"how a programmer sends instructions between programs."
+msgstr "Način kako računalni programi međusobno komuniciraju. Može se shvatiti kao programer koji šalje upute programima"
+
+# ed5e720c502945a5890bd78c53722041
+# 006ce3eeb6f6494e89126a9fee36fa6b
+#: ../../source/glossary.rst:108 ../../source/glossary.rst:111
+msgid "See :term:`Information Asset Register`."
+msgstr "Vidi 'registar s informacijama'"
+
+# d7005be4c2644ffd95650d9a7fa33c09
+#: ../../source/glossary.rst:38
+msgid ""
+"A license that requires that the original source of the licensed material is"
+" cited (attributed)."
+msgstr "Licenca koja zahtijeva citirani (pripisani) originalni izvor licenciranog materijala"
+
+# a66abef10b4b433d93031aa2c2017898
+#: ../../source/glossary.rst:24
+msgid ""
+"BitTorrent is a protocol for distributing the bandwith for transferring very"
+" large files between the computers which are participating in the transfer. "
+"Rather than downloading a file from a specific source, BitTorrent allows "
+"peers to download from each other."
+msgstr "BitTorrent je protokol za dijeljenje i prenošenje velikih podataka između računala koja sudjeluju u prijenosu. Umjesto preuzimanja podatka sa specifičnog izvora, BitTorrent omogućava korisnicima da preuzimaju podatke jedni od drugih."
+
+# 612e73147c2c40fdbe744433e7db9a57
+#: ../../source/glossary.rst:20
+msgid ""
+"Connectivity relates to the ability for communities to connect to the "
+"Internet, especially the World Wide Web."
+msgstr "Povezivost označava mogućnost spajanja na internet, posebice na World Wide Web."
+
+# 2c5484b9a96740bfbc9f3afcc208576a
+#: ../../source/glossary.rst:83
+msgid ""
+"A right for the creators of creative works to restrict others' use of those "
+"works. An owner of copyright is entitled to determine how others may use "
+"that work."
+msgstr "Pravo kreatora njihovih djela da ograniče ostalima upotrebu tih djela. Vlasnik autorskog prava ima ovlasti odrediti kako drugi smiju koristiti to djelo."
+
+# 905eb11579234bb1a44c8bf10af73af7
+#: ../../source/glossary.rst:31
+msgid "See :term:`Data Access Protocol`."
+msgstr "Vidi 'protokol o pristupu podacima'."
+
+# df25ad55a2cd4441b7c2a9fa5fb62877
+#: ../../source/glossary.rst:34
+msgid ""
+"A system that allows outsiders to be granted access to databases without "
+"overloading either system."
+msgstr "Sustav koji vanjskim korisnicima dopušta pristup bazama podataka bez preopterećenja bilo kojeg sustava."
+
+# 9d30078f305e4260bfee0cfdd8fc931b
+#: ../../source/glossary.rst:42
+msgid ""
+"Data protection legislation is not about protecting the data, but about "
+"protecting the right of citizens to live without fear that information about"
+" their private lives might become public. The law protects privacy (such as "
+"information about a person's economic status, health and political position)"
+" and other rights such as the right to freedom of movement and assembly. For"
+" example, in Finland a travel card system was used to record all instances "
+"when the card was shown to the reader machine on different public transport "
+"lines. This raised a debate from the perspective of freedom of movement and "
+"the travel card data collection was abandoned based on the data protection "
+"legislation."
+msgstr "Zakoni o zaštiti podataka nisu o zaštiti samih podataka, već o zaštiti prava građana da žive bez straha da će informacinje o njihovim privatnim životima postati javne. Zakon štiti privatnost (primjerice informacije o ekonomskom statusu pojedinca, zdravlju i političkoj opredijeljenosti) i ostala prava kao što su prava o slobodi kretanja i okupljanja. Na primjer, u Finskoj je napravljen sustav s putničkim kartama koji je bilježio svaku putnikovu relaciju, te ju pokazivao na ekranima sprava na različitim prijevoznim linijama. Ovo je izazvalo pitanja u vidu slobode kretanja, te su zbrike podataka s putničkim podacima obrisane u skladu sa zakonom o zaštiti podataka."
+
+# 86c8b18def8d4ee1b79d75ad066b4b8f
+#: ../../source/glossary.rst:79
+msgid ""
+"A right to prevent others from extracting and reusing content from a "
+"database. Exists mainly in European jurisdictions."
+msgstr "Pravo na zabranu ostalima da izvlače i upotrebljavaju sadržaj iz baze podataka. Pojavljuje se većinom u europskom pravosuđu."
+
+# ec3378ceb3a748ccad2951202612480a
+#: ../../source/glossary.rst:114
+msgid "European Union."
+msgstr "Europska Unija."
+
+# 5ad96f170d4d4c57b91fd25c109b9d1f
+#: ../../source/glossary.rst:117
+msgid ""
+"The *Directive on the re-use of public sector information*, 2003/98/EC. "
+"\"deals with the way public sector bodies should enhance re-use of their "
+"information resources.\" `Legislative Actions - PSI Directive "
+"<http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+msgstr "*Directive on the re-use of public sector information*, 2003/98/EC. \n\"bavi se načinima kako tijela javnog sektora mogu poboljšati upotrebu svojih informacijskih resursa\" Legislative Actions - PSI Directive <http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm>`_"
+
+# 31dae10cf39d414c9c3bc877c742864f
+#: ../../source/glossary.rst:123
+msgid ""
+"IARs are registers specifically set up to capture and organise meta-data "
+"about the vast quantities of information held by government departments and "
+"agencies. A comprehensive IAR includes databases, old sets of files, recent "
+"electronic files, collections of statistics, research and so forth."
+msgstr "IAR-i su registri posebno osmišljeni kako bi prikupili i organizirali metapodatke o golemim količinama informacija u vlasništvu vladinih odjela i agencija. Cjelokupan IAR uključuje baze podataka, stare podatkovne skupove, nedavne elektroničke podatke, statističke zbirke, istraživanja i tako dalje."
+
+# fbabda3fc9f146ac9a749e3d391ff817
+#: ../../source/glossary.rst:129
+msgid ""
+"The :term:`EU PSI Directive` recognises the importance of asset registers "
+"for prospective re-users of public information. It requires member states to"
+" provide lists, portals, or something similar. It states::"
+msgstr "'EU PSI Directive' prepoznaje važnost imovinskih registara za potencijalne korisnike javnih podataka. Ono zahtijeva od članova da pribave liste, portale ili nešto slično. Ono navodi:"
+
+# 815da74bce80419d83a67e6fddc5fe7b
+#: ../../source/glossary.rst:145
+msgid ""
+"IARs can be developed in different ways. Government departments can develop "
+"their own IARs and these can be linked to national IARs. IARs can include "
+"information which is held by public bodies but which has not yet been – and "
+"maybe will not be – proactively published. Hence they allow members of the "
+"public to identify information which exists and which can be requested."
+msgstr "IAR-i mogu biti razvijeni na više načina. Vladini odjeli mogu razviti svoje IAR-e koji mogu biti povezani s državnim IAR-ima. IAR-i mogu sadržavati informacije koje su u vlasništvu javnih tijela, ali koje još nisu - a možda i neće - biti proaktivno objavljene. Stoga se dozvoljava javnosti identificiranje informacija koje postoje i koje se mogu zatražiti."
+
+# 338ebff07b91405ba99bcd2e705da064
+#: ../../source/glossary.rst:152
+msgid ""
+"For the public to make use of these IARs, it is important that any registers"
+" of information held should be as complete as possible in order to be able "
+"to have confidence that documents can be found. The incompleteness of some "
+"registers is a significant problem as it creates a degree of unreliability "
+"which may discourage some from using the registers to search for "
+"information."
+msgstr "Kako bi javnost mogla koristiti ove IAR-e, važno je da svaki registar informacija bude što je moguće kompletniji kako bi ljudi imali povjerenja u dokumente koje traže. Nedovršenost nekih registara je ozbiljan problem jer stvara određenu dozu nepovjerljivosti koja može obeshrabriti pojedince na korištenje registara za traženje informacija."
+
+# 27218b7ea50843d393655598df958338
+#: ../../source/glossary.rst:159
+msgid ""
+"It is essential that the metadata in the IARs should be comprehensive so "
+"that search engines can function effectively. In the spirit of open "
+"government data, public bodies should make their IARs available to the "
+"general public as raw data under an open license so that civic hackers can "
+"make use of the data, for example by building search engines and user "
+"interfaces."
+msgstr "Neophodno je da metapodaci u IAR-ima budu cjeloviti kako bi tražilice učinkovito funkcionirale. U duhu otvorenih državnih podataka, javna tijela bi trebala svoje IAR-e staviti na raspolaganje javnosti kao neobrađene podatke pod licencom otvorenom za sve kako bi civilni hakeri mogli iskoristiti podatke za primjerice, stvaranje tražilica te korisničkih sučelja."
+
+# 4feb4d19a60642078f320e8d8dd612be
+#: ../../source/glossary.rst:105
+msgid "Monopolies granted to individuals for intellectual creations."
+msgstr "Monopoli dozvoljeni pojedincima za intelektualne tvorbe."
+
+# 89ef221be02d4278bab95a677f310469
+#: ../../source/glossary.rst:102
+msgid "See :term:`Intellectual property rights`."
+msgstr "Vidi 'pravo na intelektualno vlasništvo'."
+
+# 58a3235843654c3282894e72502ef67d
+#: ../../source/glossary.rst:13
+msgid ""
+"Formats that are machine readable are ones which are able to have their data"
+" extracted by computer programs easily. PDF documents are not machine "
+"readable. Computers can display the text nicely, but have great difficulty "
+"understanding the context that surrounds the text."
+msgstr "Formati koje strojevi mogu prepoznati su oni čije podatke računalni programi mogu s lakoćom izvući. PDF dokumenti nisu čitljivi strojevima. Računala mogu uredno prikazati tekst, no ne mogu razumjeti kontekst koji ga okružuje."
+
+# 2dc4522d8fcb4013b942b47615c50aa3
+#: ../../source/glossary.rst:9
+msgid ""
+"Open data are able to be used for any purpose. More details can be read at "
+"`opendefinition.org <http://www.opendefinition.org/>`_."
+msgstr "Otvoreni podaci se mogu koristiti u bilo koju svrhu. Više detalja možete pročitati na `opendefinition.org <http://www.opendefinition.org/>`_."
+
+# 5de57f6ce9f24f3ebbbcb86481d101fb
+#: ../../source/glossary.rst:167
+msgid ""
+":term:`Open data` produced by the government. This is generally accepted to "
+"be data gathered during the course of business as usual activities which do "
+"not identify individuals or breach commercial sensitivity. Open government "
+"data is a subset of :term:`Public Sector Information`, which is broader in "
+"scope. See http://opengovernmentdata.org for details."
+msgstr "Otvoreni podaci izdani od vlade. Ovo se obično smatra kao podaci prikupljeni tijekom obavljanja posla ili uobičajenih aktivnosti koje ne identificiraju pojedince ili narušavaju poslovnu osjetljivost. Otvoreni državni podaci su podskup 'Informacija Javnog Sektora', koji su šireg opsega. Za detalje vidi http://opengovernmentdata.org."
+
+# fd67964c3c0c4d829d84d0289821fa98
+#: ../../source/glossary.rst:91
+msgid ""
+"Generally understood as technical standards which are free from licencing "
+"restrictions. Can also be interpreted to mean standards which are developed "
+"in a vendor-neutral manner."
+msgstr "Obično definirani kao tehnički standardi koji su oslobođeni licencnih restrikcija. Mogu se intrepretirati i kao standardi koji su razvijeni po principu neutralnog prodavača."
+
+# 69cae7a7b1ba4c2ab1feefaa40340b8e
+#: ../../source/glossary.rst:55
+msgid "See :term:`Public Sector Information`."
+msgstr "Vidi 'informacije javnog sektora'"
+
+# a2ce148a2a73420b9acd40b9063f3f43
+#: ../../source/glossary.rst:75
+msgid ""
+"No copyright exists over the work. Does not exist in all jurisdictions."
+msgstr "Za djelo ne postoje autorska prava. Ne postoji u svim nadležnostima."
+
+# 2f2e8085f2cc4398947dfcaa3f7ab3b8
+#: ../../source/glossary.rst:58
+msgid "Information collected or controlled by the public sector."
+msgstr "Informacije prikupljene ili kontrolirane od strane javnog sektora."
+
+# bb27435fccc543f49295bce4ed47215a
+#: ../../source/glossary.rst:88
+msgid "Use of content outside of its original intention."
+msgstr "Korištenje sadržaja izvan originalne namjene."
+
+# b82b98ba6b7f4fc1aacfe2d19a7bda99
+#: ../../source/glossary.rst:71
+msgid ""
+"A license that requires users of a work to provide the content under the "
+"same or similar conditions as the original."
+msgstr "Licenca koja zahtijeva da korisnici djela dostave sadržaj koji je pod istim ili sličnim uvjetima kao i original."
+
+# fd0aa49e25734202a7c30036e68ef957
+#: ../../source/glossary.rst:175
+msgid ""
+"Tab-separated values (TSV) are a very common form of text file format for "
+"sharing tabular data. The format is extremely simple and highly :term"
+":`machine-readable`."
+msgstr "Tab-odvojene vrijednosti (TOV) su vrlo čest oblik tekstualnog formata za dijeljenje tabličnih podataka. Format je izuzetno jednostavan i čitljiv strojevima."
+
+# c51eb47f3b384fb4b0bfbe917fa42d1e
+#: ../../source/glossary.rst:68
+msgid "An :term:`API` that is designed to work over the Internet."
+msgstr "API je dizajniran za rad putem interneta."
+
+# 7132f49bacf446729745b0e8e0d9a192
+#: ../../source/appendices/file-formats.rst:3
+msgid "File Formats"
+msgstr "Formati datoteka"
+
+# 510002baa9d748f68d35f6436604f3fb
+#: ../../source/appendices/file-formats.rst:6
+msgid "An Overview of File Formats"
+msgstr "Pregled formata datoteka"
+
+# 635ed34ea4614e81860363d399eb473a
+#: ../../source/appendices/file-formats.rst:9
+msgid "JSON"
+msgstr "JSON"
+
+# 3deb8b74834d42b1bdb11e40d2be3d28
+#: ../../source/appendices/file-formats.rst:11
+msgid ""
+"JSON is a simple file format that is very easy for any programming language "
+"to read. Its simplicity means that it is generally easier for computers to "
+"process than others, such as XML."
+msgstr "JSON je jednostavan format koji je lako čitljiv bilo kojem programskom jeziku. Njegova jednostavnost omogućava računalima lakšu obradu nego recimo XML format."
+
+# 8a8590a390d84558833340d36e1f1b61
+#: ../../source/appendices/file-formats.rst:16
+msgid "XML"
+msgstr "XML"
+
+# 8bfafd0051d24a888453f01d8ba314e4
+#: ../../source/appendices/file-formats.rst:18
+msgid ""
+"XML is a widely used format for data exchange because it gives good "
+"opportunities to keep the structure in the data and the way files are built "
+"on, and allows developers to write parts of the documentation in with the "
+"data without interfering with the reading of them."
+msgstr "XML je široko rasprostranjeni format za izmjenu podataka jer čuva strukturu podataka i način na koji su podaci uneseni te omogućava programerima da upišu dijelove dokumentacije unutar podataka bez miješanja, odnosno čitanja istih."
+
+# 516202713787406d9afba417d89fc548
+#: ../../source/appendices/file-formats.rst:24
+msgid "RDF"
+msgstr "RDF"
+
+# dbea0450c3c74ee5b999d5b3aec5cdc9
+#: ../../source/appendices/file-formats.rst:26
+msgid ""
+"A W3C-recommended format called RDF makes it possible to represent data in a"
+" form that makes it easier to combine data from multiple sources. RDF data "
+"can be stored in XML and JSON, among other serializations. RDF encourages "
+"the use of URLs as identifiers, which provides a convenient way to directly "
+"interconnect existing :term:`open data` initiatives on the Web. RDF is still"
+" not widespread, but it has been a trend among Open Government initiatives, "
+"including the British and Spanish Government Linked Open Data projects. The "
+"inventor of the Web, Tim Berners-Lee, has recently proposed a five-star_ "
+"scheme that includes linked RDF data as a goal to be sought for open data "
+"initiatives."
+msgstr "Preporučeni W3C format, RDF, omogućava prestavljanje podataka u formi koja olakšava kombinaciju podataka iz više izvora. RDF podaci mogu biti pohranjeni u XML-u i JSON-u, između ostalih. RDF potiče uporabu URL-ova kao identifikatora, što predstavlja jednostavan način povezivanja postojećih inicijativa vezanih uz otvorene podatke na Webu. RDF još nije široko rasprostranjen, no rastući je trend u inicijativama \"Otvorenih\" vlada, uključujući britanske i španjolske vladine projekte vezane uz otvorene podatke. Izumitelj Weba, Tim Berners-Lee, je nedavno predložio shemu od pet zvjezdica koja uključuje povezane RDF podatke kao cilj kojemu trebaju težiti inicijative otvorenih podataka."
+
+# 36ba7f18a648422ea3301c59ce1cdcaf
+#: ../../source/appendices/file-formats.rst:41
+msgid "Spreadsheets"
+msgstr "Proračunske tablice"
+
+# f71a98416abb41dabc2dc7023eaea6b8
+#: ../../source/appendices/file-formats.rst:43
+msgid ""
+"Many authorities have information left in the spreadsheet, for example "
+"Microsoft Excel. This data can often be used immediately with the correct "
+"descriptions of what the different columns mean."
+msgstr "Mnoge institucije svoje podatke drže u proračunskim tablicama, kao što je Microsoft Excel. Ti podaci često mogu smjesta biti korišteni s točnim opisima stupaca."
+
+# 7e508d6674dc4676b48234f74c63791c
+#: ../../source/appendices/file-formats.rst:47
+msgid ""
+"However, in some cases there can be macros and formulas in spreadsheets, "
+"which may be somewhat more cumbersome to handle. It is therefore advisable "
+"to document such calculations next to the spreadsheet, since it is generally"
+" more accessible for users to read."
+msgstr "No, u nekim slučajevima, proračunske tablice mogu sadržavati makronaredbe i formule, što može otežati rad s njima. Stoga se predlaže da te kalkulacije budu odvojene od proračunskih tablica, što će korisnicima konkretno olakšati čitanje."
+
+# 72147ad3a13f4e96a0da72ca09dca722
+#: ../../source/appendices/file-formats.rst:53
+msgid "Comma Separated Files"
+msgstr "Podaci odvojeni zarezima"
+
+# 3d3c193e05ac423a8ec608988bc74bcc
+#: ../../source/appendices/file-formats.rst:55
+msgid ""
+"CSV files can be a very useful format because it is compact and thus "
+"suitable to transfer large sets of data with the same structure. However, "
+"the format is so spartan that data are often useless without documentation "
+"since it can be almost impossible to guess the significance of the different"
+" columns. It is therefore particularly important for the comma-separated "
+"formats that documentation of the individual fields are accurate."
+msgstr "CSV ili Comma Separated Files (podaci odvojeni zarezima) mogu biti vrlo koristan format zbog svoje kompaktnosti te mogućnosti prenošenja velikih količina podataka s nepromijenjenom strukturom. Međutim, ovaj format je toliko spartanski da su podaci često beskorisni bez dokumentacije pošto je skoro pa nemoguće prepoznati što koji stupac znači. Stoga je posebno značajno za formate koji koriste zareze da sadrže precizne upute o značenju pojedinih polja."
+
+# eb505d33966845db9b5cd9db528d86e8
+#: ../../source/appendices/file-formats.rst:63
+msgid ""
+"Furthermore it is essential that the structure of the file is respected, as "
+"a single omission of a field may disturb the reading of all remaining data "
+"in the file without any real opportunity to rectify it, because it cannot be"
+" determined how the remaining data should be interpreted."
+msgstr "Osim toga, nužno je očuvati strukturu datoteke, jer samo jedno pogrešno polje može izobličiti značenja svih preostalih podataka bez mogućnosti ispravka, jer se ne može utvrditi kako interpretirati ostale podatke. "
+
+# 00b93bc63b524d138137f8a1498d4eed
+#: ../../source/appendices/file-formats.rst:69
+msgid "Text Document"
+msgstr "Tekstualni Dokument"
+
+# db72a1c2afd6485cb9364dba5947a8f8
+#: ../../source/appendices/file-formats.rst:71
+msgid ""
+"Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient"
+" to show certain kinds of data - for example, relatively stable mailing "
+"lists or equivalent. It may be cheap to exhibit in, as often it is the "
+"format the data is born in. The format gives no support to keep the "
+"structure consistent, which often means that it is difficult to enter data "
+"by automated means. Be sure to use templates as the basis of documents that "
+"will display data for re-use, so it is at least possible to pull information"
+" out of documents."
+msgstr "Klasični dokumenti u formatima poput Word-a, ODF-a, OOXML-a, ili PDF-a mogu biti dostatni za pokazivanje određenih vrsta podataka, na primjer, relativno stabilnih mailing lista ili nečega ekvivalentno tome. Možda je ovaj način prikazivanja podataka jeftin, budući da se radi o formatima u kojima su podaci često puta i nastali. Format ne podržava održavanje strukture konzistentnom, što često znači probleme prilikom automatiziranog unosa podataka. Pobrinite se koristiti predloške kao baze dokumenata koje će prikazati podatke za upotrebu, kako bi barem bilo moguće izvući informacije iz dokumenata."
+
+# 3ca8da150fd3448e9c91b7f4e8f08c92
+#: ../../source/appendices/file-formats.rst:80
+msgid ""
+"It can also support the further use of data to use typography markup as much"
+" as possible so that it becomes easier for a machine to distinguish headings"
+" (any type specified) from the content and so on. Generally it is "
+"recommended not to exhibit in word processing format, if data exists in a "
+"different format."
+msgstr "Također se može poduprijeti daljnje korištenje podataka za korištenje tipografskih oznaka što je više moguće tako da stroj lakše raspoznaje zaglavlja (bilo kojeg tipa) od sadržaja i slično. Generalno se ne predlaže izlaganje u formatu koji koristi riječi za obradu, ako su podaci zapisani u nekom drugom formatu."
+
+# 1e222acd868a4836989075cb0ff8845f
+#: ../../source/appendices/file-formats.rst:87
+msgid "Plain Text"
+msgstr "Čisti tekst"
+
+# d063aa3fc40b4accbd3b368bc0ce5490
+#: ../../source/appendices/file-formats.rst:89
+msgid ""
+"Plain text documents (.txt) are very easy for computers to read. They "
+"generally exclude structural metadata from inside the document however, "
+"meaning that developers will need to create a parser that can interpret each"
+" document as it appears."
+msgstr "Čisti tekstualni dokumenti (.txt) su jako razumljivi računalima. Oni obično ne sadržavaju strukturalne metapodatke unutar dokumenta, što znači da će razvojni programeri morati napraviti analizator koji će interpretirati svaki dokument koji se pojavi."
+
+# 7b4a3b6ee9404cfc873e4cac5c9a8390
+#: ../../source/appendices/file-formats.rst:94
+msgid ""
+"Some problems can be caused by switching plain text files between operating "
+"systems. MS Windows, Mac OS X and other Unix variants have their own way of "
+"telling the computer that they have reached the end of the line."
+msgstr "Određeni problemi mogu nastati prebacivanjem čistog teksta između različitih operativnih sustava. MS Windows, Mac OS X i ostale Unix varijante imaju svoje zasebne načine kojima govore računalu da su dosegli kraj retka."
+
+# 86000271a8184337a739b0937ae22f75
+#: ../../source/appendices/file-formats.rst:100
+msgid "Scanned image"
+msgstr "Skenirana slika"
+
+# 6a115f8899a94bffb8d9578c13c53e1e
+#: ../../source/appendices/file-formats.rst:102
+msgid ""
+"Probably the least suitable form for most data, but both TIFF and JPEG-2000 "
+"can at least mark them with documentation of what is in the picture - right "
+"up to mark up an image of a document with full text content of the document."
+" It may be relevant to their displaying data as images whose data are not "
+"born electronically - an obvious example is the old church records and other"
+" archival material - and a picture is better than nothing."
+msgstr "Vjerojatno najmanje pogodni oblik za većinu podataka, no i TIFF i JPEG-2000 ih mogu barem označiti interpretacijom što je na slici - pa sve do toga da mogu kreirati sliku s interpretacijama cijelog tekstualnog sadržaja dokumenta. Ovaj pristup može biti koristan u prikazivanju podataka koji nisu stvoreni elektronski. Očiti primjer su zapisi starih crkvi te ostali arhivski materijal - bolje je imati sliku nego ništa."
+
+# 5e9d83d67fbe465a8c002bf40eeb9205
+#: ../../source/appendices/file-formats.rst:111
+msgid "Proprietary formats"
+msgstr "Zakonom zaštićeni formati"
+
+# dcac01c71eb645498af1bc5b949be4cc
+#: ../../source/appendices/file-formats.rst:113
+msgid ""
+"Some dedicated systems, etc. have their own data formats that they can save "
+"or export data in. It can sometimes be enough to expose data in such a "
+"format - especially if it is expected that further use would be in a similar"
+" system as that which they come from. Where further information on these "
+"proprietary formats can be found should always be indicated, for example by "
+"providing a link to the supplier's website. Generally it is recommended to "
+"display data in non-proprietary formats where feasible."
+msgstr "Neki posebni sustavi, primjerice, imaju vlastite podatkovne formate u koje mogu spremiti ili eksportirati podatke. Nekada može biti dovoljno samo izložiti podatke u takvom formatu, posebice ako ih se misli koristiti u sličnom sustavu kao iz kojeg su i došli. Uvijek treba postojati poveznica preko koje se može naći više informacija o zaštićenim formatima, primjerice poveznica na web stranicu onoga tko je dostavio taj format. U praksi se preporučuje prikazivati podatke u zakonom nezaštićenim formatima kad god je moguće."
+
+# ebfcd7577aa94ce9a921e9cf6c78a6a5
+#: ../../source/appendices/file-formats.rst:123
+msgid "HTML"
+msgstr "HTML"
+
+# 0bbba5786b824723848c6b7a3e3e6b87
+#: ../../source/appendices/file-formats.rst:125
+msgid ""
+"Nowadays much data is available in HTML format on various sites. This may "
+"well be sufficient if the data is very stable and limited in scope. In some "
+"cases, it could be preferable to have data in a form easier to download and "
+"manipulate, but as it is cheap and easy to refer to a page on a website, it "
+"might be a good starting point in the display of data."
+msgstr "Danas je sve više podataka dostupno u HTML formatu na raznim stranicama. Ovo može biti sasvim dostatno ako su podaci stabilni i ograničeni u svojoj količini. U nekim slučajevima, podatke se preferira držati u obliku jednostavnijem za preuzimanje i izmjene, no kako je ovo jeftin i jednostavan način za upućivanje na druge stranice, može biti dobra početna točka u prikazivanju podataka."
+
+# 905921990dc542df9e22c0a368727e8b
+#: ../../source/appendices/file-formats.rst:132
+msgid ""
+"Typically, it would be most appropriate to use tables in HTML documents to "
+"hold data, and then it is important that the various data fields are "
+"displayed and are given IDs which make it easy to find and manipulate data. "
+"Yahoo has developed a tool (http://developer.yahoo.com/yql/) that can "
+"extract structured information from a website, and such tools can do much "
+"more with the data if it is carefully tagged."
+msgstr "U pravilu, u HTML dokumentima bi bilo najpogodnije koristiti tablice za unos podataka, a zatim je bitno da razna polja podataka budu prikazana i označena kako bi se podaci mogli s lakoćom naći i uređivati. Yahoo je razvio alat (http://developer.yahoo.com/yql/) koji može izvlačiti strukturirane informacije s određene stranice, a takvi alati mogu i puno više ako su podaci precizno označeni."
+
+# 749bccb614ec4d75b626f3a91f7c20fd
+#: ../../source/appendices/file-formats.rst:141
+msgid "Open File Formats"
+msgstr "Datoteke otvorenih formata"
+
+# 2268600ee3b34664913b2eaaf2c0b83e
+#: ../../source/appendices/file-formats.rst:143
+msgid ""
+"Even if information is provided in electronic, machine-readable format, and "
+"in detail, there may be issues relating to the format of the file itself."
+msgstr "Čak i ako su informacije pružene u elektroničkom formatu čitljive stroju, i to u detalje, mogu se pojaviti problemi vezani uz sam format datoteke."
+
+# a1e9a630c82c497685a5d40d2375be05
+#: ../../source/appendices/file-formats.rst:147
+msgid ""
+"The formats in which information is published – in other words, the digital "
+"base in which the information is stored - can either be “open” or “closed”. "
+"An open format is one where the specifications for the software are "
+"available to anyone, free of charge, so that anyone can use these "
+"specifications in their own software without any limitations on re-use "
+"imposed by intellectual property rights."
+msgstr "Formati u kojima su objavljene informacije, drugim riječima, digitalna baza u kojoj su informacije pohranjene, može biti ili \"otvorena\" ili \"zatvorena\". Otvoreni formati su oni gdje su specifikacije softvera besplatne i dostupne svima, kako bi svi mogli te specifikacije koristiti u vlastistim softverima bez ograničenja koja se nameću zakonom o intelektualnom pravu vlasništva."
+
+# 11373b39254144f4bb062a40e7813a85
+#: ../../source/appendices/file-formats.rst:154
+msgid ""
+"If a file format is “closed”, this may be either because the file format is "
+"proprietary and the specification is not publicly available, or because the "
+"file format is proprietary and even though the specification has been made "
+"public, re-use is limited. If information is released in a closed file "
+"format, this can cause significant obstacles to reusing the information "
+"encoded in it, forcing those who wish to use the information to buy the "
+"necessary software."
+msgstr "Ako je format datoteke \"zatvoren\", to može biti zato što je format ili zaštićen sa specifikacijama nedostupnim javnosti ili zato što je format zakonom zaštićen, a iako je dokumentacija javna, upotreba je ograničena. Ako su informacije objavljene unutar zatvorenog formata, to može uzrokovati značajne prepreke u korištenju tih informacija, te natjerati pojedince koji žele koristiti te podatke da kupe potrebni softver."
+
+# c8855b8342e64d1b8377d55893c94f9a
+#: ../../source/appendices/file-formats.rst:162
+msgid ""
+"The benefit of open file formats is that they permit developers to produce "
+"multiple software packages and services using these formats. This then "
+"minimises the obstacles to reusing the information they contain."
+msgstr "Dobrobit datoteka otvorenog formata je da dopuštaju programerima izradu većeg broja softverskih paketa i usluga korištenjem tih formata. To za posljedicu ima smanjenje prepreka u korištenju informacija koje sadrže."
+
+# 14e8ba3e856d439eb9372a107b327b45
+#: ../../source/appendices/file-formats.rst:167
+msgid ""
+"Using proprietary file formats for which the specification is not publicly "
+"available can create dependence on third-party software or file format "
+"license holders. In worst-case scenarios, this can mean that information can"
+" only be read using certain software packages, which can be prohibitively "
+"expensive, or which may become obsolete."
+msgstr "Korištenje zaštićenih podatkovnih formata za koje specifikacije nisu javno dostupne može stvoriti ovisnost o vlasnicima licence formata ili softverima trećih strana. U najgorim slučajevima, to može značiti da se informacije mogu vidjeti samo u slučaju kada se koriste određeni softverski paketi, koji mogu biti iznimno skupi ili koji mogu zastarjeti."
+
+# becd5c5379ad46a6a4495bf228bc2072
+#: ../../source/appendices/file-formats.rst:173
+msgid ""
+"The preference from the :term:`open government data` perspective therefore "
+"is that information be released in **open file formats which are machine-"
+"readable.**"
+msgstr "Stoga je sklonost otvorenih državnih podataka da se podaci objave u datotekama otvorenih formata koji su čitljivi strojevima."
+
+# 0706964f49444783b06ccb6d8e40ec6c
+#: ../../source/appendices/file-formats.rst:178
+msgid "Example: UK traffic data"
+msgstr "Primjer: Podaci o prometu u Ujedinjenom Kraljevstvu"
+
+# 06406a590c564ab9a7dd69b5e9869377
+#: ../../source/appendices/file-formats.rst:180
+msgid ""
+"Andrew Nicolson is a software developer who was involved in an (ultimately "
+"successful) campaign against the construction of a new road, the Westbury "
+"Eastern bypass, in the UK. Andrew was interested in accessing and using the "
+"road traffic data that was being used to justify the proposals. He managed "
+"to obtain some of the relevant data via freedom of information requests, but"
+" the local government provided the data in a proprietary format which can "
+"only be read using software produced by a company called Saturn, who "
+"specialise in traffic modelling and forecasting. There is no provision for a"
+" “read only” version of the software, so Andrew's group had no choice but to"
+" purchase a software license, eventually paying £500 (€600) when making use "
+"of an educational discount. The main software packages on the April 2010 "
+"price list from Saturn start at £13,000 (over €15,000), a price which is "
+"beyond the reach of most ordinary citizens."
+msgstr "Andrew Nicolson je razvojni programer koji je bio dio (uspješne) kampanje protiv izgradnje Westbury Eastern zaobilaznice, nove ceste u Ujedinjenom Kraljevstvu. Andrewa je zanimalo kako doći do podataka o prometu koji su opravdavali prijedloge te kako ih iskoristiti. Iako je uspio nabaviti nekolicinu relevantnih podataka putem zahtjeva za slobodu informacija, lokalna vlada mu je dala podatke u zaštićenom formatu koji je bio čitljiv jedino korištenjem softvera proizvođača Saturn, specijaliziranog za prometne modele i prognoze. Kako ne postoji \"read only\" verzija tog softvera, Andrew i njegova grupa nisu imali drugog izbora nego kupiti softverske licence, što ih je nakon primjene popusta u svrhu obrazovanja koštalo 500£ (600€). Osnovne softverske pakete, u travnju 2010., Saturn je naplaćivao 13 000£  (preko 15 000€), što je cijena koju malo koji građanin može platiti."
+
+# 9e78cdb7b65b44568400fc075a25128b
+#: ../../source/appendices/file-formats.rst:196
+msgid ""
+"Although no access to information law gives a right of access to information"
+" in open formats, open government data initiatives are starting to be "
+"accompanied by policy documents which stipulate that official information "
+"must be made available in open file formats. Setting the gold standard has "
+"been the Obama Administration, with the Open Government Directive issued in "
+"December 2009, which says:"
+msgstr "Iako ne postoji zakon o pristupu informacijama koji daje pravo pristupa informacijama otvorenih formata, inicijative otvorenih državnih podataka sve češće sadrže dokumentaciju koja propisuje da službene informacije moraju biti dane u otvorenim formatima. Određivanje zlatnog standarda je bilo za vrijeme Obamine administracije, s Direktivom Otvorene Vlade izdanom u prosincu 2009., koja kaže:"
+
+# 5a4a5dad6cfe4c26809846d46065d8e4
+#: ../../source/appendices/file-formats.rst:203
+msgid ""
+"*To the extent practicable and subject to valid restrictions, agencies "
+"should publish information online in an open format that can be retrieved, "
+"downloaded, indexed, and searched by commonly used web search applications. "
+"An open format is one that is platform independent, machine readable, and "
+"made available to the public without restrictions that would impede the re-"
+"use of that information.*"
+msgstr "*Do određene mjere i podložne valjanim restrikcijama, organizacije bi trebale objaviti informacije online u otvorenom formatu koji se može pronaći, preuzeti, indeksirati i pretražiti obično korištenim aplikacijama za pretraživanje. Otvoreni format je onaj koji je neovisan o platformi, čitljiv strojevima te dostupan javnosti bez restrikcija koje bi sprječavale korištenje tih informacija van originalnog područja.*"
+
+# 5cc8e6283aea4bb5af1a2c416989abc4
+#: ../../source/appendices/file-formats.rst:213
+msgid "How do I use a given format?"
+msgstr "Kako koristim dani format?"
+
+# 568a5625c2f94452af6abe3cc66878ad
+#: ../../source/appendices/file-formats.rst:215
+msgid ""
+"When an authority must exhibit new data – data that has not been exhibited "
+"before – you should choose the format that provides the best balance between"
+" cost and suitability for purpose. For each format there are some things you"
+" should be aware of, and this section aims to explain them."
+msgstr "Kada vlast mora predstaviti nove podatke koji još nisu bili predstavljeni, treba odabrati format koji pruža najbolji omjer troškova i namjene. Za svaki format treba imati na umu nekoliko stvari, što ćemo objasniti u ovome dijelu."
+
+# 42b8a5c50e0b45eb89c4a26f7ea8a060
+#: ../../source/appendices/file-formats.rst:221
+msgid ""
+"This section focuses only on how the cut surfaces are best arranged so that "
+"machines can access them directly. Advice and guidance about how web sites "
+"and web solutions should be designed can be found elsewhere."
+msgstr "Ovaj je dio usmjeren na to kako najbolje urediti površine da im strojevi mogu direktno pristupiti. Savjeti i upute o dizajniranju web stranica i izradi web rješenja mogu se naći negdje drugdje."
+
+# 1897adda256e49e99d665b5f5343e008
+#: ../../source/appendices/file-formats.rst:227
+msgid "Web services"
+msgstr "Web servisi"
+
+# a9d6a586198648dcb05c316a24713fc9
+#: ../../source/appendices/file-formats.rst:229
+msgid ""
+"For data that changes frequently, and where each pull is limited in size, it"
+" is very relevant to expose data through web services. There are several "
+"ways to create a web service, but some of the most used is SOAP and REST. "
+"Generally, SOAP over REST, REST services, but are very easy to develop and "
+"use, so it is a widely used standard."
+msgstr "Za podatke koji se često mijenjaju te su preuzimanja ograničena u veličini, vrlo je bitno prikazati podatke putem web servisa. Nekoliko je načina kako izraditi web servis, no neki od najčešće korištenih su SOAP i REST. U pravilu, SOAP se češće koristi od REST-a, no oba su vrlo jednostavna za izradu i korištenje, stoga su u širokoj primjeni."
+
+# 1832cd0456254e3c8affb21673553fe5
+#: ../../source/appendices/file-formats.rst:236
+msgid "Database"
+msgstr "Baza podataka"
+
+# 1ca36a963713464dbd753b7f60bd0661
+#: ../../source/appendices/file-formats.rst:238
+msgid ""
+"Like web services, databases provide direct access to data dynamically. "
+"Databases have the advantage that they can allow users to put together just "
+"the extraction that they are interested in."
+msgstr "Kao i web servisi, baze podataka dinamički pružaju direktan pristup podacima. Prednost baza podataka je ta što korisnicima omogućavaju izvadak konkretno onoga što ih zanima. "
+
+# efc3834bf47c482eb7a3bdc3da8faaa0
+#: ../../source/appendices/file-formats.rst:242
+msgid ""
+"There are some security concerns about allowing remote database extraction "
+"and database access is only useful if the structure of the database and the "
+"importance of individual tables and fields are well documented. Often, it is"
+" relatively simple and inexpensive to create web services that expose data "
+"from a database, which can be an easy way to address safety concerns."
+msgstr "Postoje određena sigurnosna pitanja u vezi dopuštanja izvatka baze podataka na daljinu, a pristup bazi podataka je koristan samo onda kada su struktura baze te važnost pojedinih tablica i polja dobro dokumentirane.\nOdgovor na ova sigurnosna pitanja je često puta izrada jeftinih i jednostavnih web servisa za prikaz podataka iz baza podataka."
+
+# 51c683e25e5a4ce4be6978d9dc1a4705
+#: ../../source/appendices/index.rst:3
+msgid "Appendices"
+msgstr "Dodaci"
+
+# b67d88179b824185a34209f86dcc580c
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:3
+msgid "What Legal (IP) Rights Are There in Data(bases)"
+msgstr "Koja su zakonska (IP) prava u podacima (bazama podataka)"
+
+# 5f9216bdba044ff28822b1d6bf5783bd
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:5
+msgid ""
+"When talking about data(bases) we first need to distinguish between the "
+"structure and the content of a database (when we use the term 'data' we "
+"shall mean the content of the database itself). Structural elements include "
+"things like the field names and a model for the data – the organization of "
+"these fields and their inter-relation."
+msgstr "Kada govorimo o podacima (bazama podataka) prvo trebamo razlučiti strukturu od sadržaja baze podataka (kada koristimo riječ 'podaci', mislimo na sadržaj same baze podataka.). Strukturni elementi sadržavaju stvari poput imena polja i modela namijenjenog podacima, odnosno organizaciju tih polja i njihovu međusobnu povezanost."
+
+# c4e85f3fa8b94ae08375d9c817d14e32
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:11
+msgid ""
+"In many jurisdictions it is likely that the structural elements of a "
+"database will be covered by copyright (it depends somewhat on the level of "
+"'creativity' involved in creating this structure)."
+msgstr "U mnogim nadležnostima, velika je vjerojatnost da će strukturni elementi baze podataka biti zaštićeni autorskim pravima (to donekle ovisi o razini 'kreativnosti' u kreiranju te strukture)."
+
+# 395c38e545b949b2bd4f6cdf184a4ed4
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:15
+msgid ""
+"However, here we are particularly interested in the data. When we talk of "
+"\"data\" we need to be a bit careful because the word isn't particularly "
+"precise: \"data\" can mean a few items or even a single item (for example a "
+"single bibliographic record, a lat/long etc) or \"data\" can mean a large "
+"collection (e.g. all the material in the database). To avoid confusion we "
+"shall reserve the term \"content\" to mean the individual items, and data to"
+" denote the collection."
+msgstr "Kako god, nas ovdje posebno zanimaju podaci. Kada govorimo o \"podacima\", treba biti oprezan jer sama riječ nije sasvim precizna: \"podatak\" može značiti nekoliko stvari ili jednu jedinu stvar (npr. jedan bibliografski zapis, geografska širina/dužina itd.) ili veliku skupinu (npr. sav materijal u bazi podataka). Kako bi izbjegli zbunjenost, za pojedine stvari koristit ćemo termin \"sadržaj\", a podatke ćemo koristiti za kolekcije."
+
+# 73c5a4d2fd6648f68879b5a83b6f30bc
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:23
+msgid ""
+"Unlike for material such as text, music or film, the legal situation for "
+"data varies widely across countries. However, most jurisdictions **do** "
+"grant some rights in the data (as a collection)."
+msgstr "Za razliku od teksta, glazbe ili filma, pravna situacija za podatke uvelika varira među zemljama. No, većina nadležnosti odobrava određena prava u podacima (kao zbiru)."
+
+# 6a4c03a757064662932a79988f81f0c8
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:27
+msgid ""
+"This distinction between the \"content\" of a database and the collection is"
+" especially crucial for factual databases since no jurisdiction grants a "
+"monopoly right over the individual facts (the \"content\"), even though it "
+"may grant right(s) in them as a collection. To illustrate, consider the "
+"simple example of a database which lists the melting point of various "
+"substances. While the database as a whole might be protected by law so that "
+"one is not allow to access, re-use or redistribute it without permission, "
+"this would never prevent you from stating the fact that substance Y melts at"
+" temperature Z."
+msgstr "Razlika između \"sadržaja\" baze podataka i kolekcije je posebno bitna za činjenične baze podataka jer ne postoji nadležnost koja bi dala monopol nad individualnim činjenicama (\"sadržaju\"), čak i ako može dati pravo (ili prava) kolekciji kao cjelini. Da ilustriramo, zamislimo jednostavan primjer baze podataka koja sadrži točke otapanja različitih supstanci. Dok cijela baza podataka može biti zakonom zaštićena tako da joj ne možemo pristupiti, koristiti ju ili redistribuirati bez dozvole, ništa vas ne bi sprječavalo konstatirati činjenicu da se supstanca Y otapa pri temperaturi Z."
+
+# e45e4794fcde4db08aa676c867ef5314
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:38
+msgid "Forms of protection fall broadly into two cases:"
+msgstr "Oblici zaštite se dijele u dvije kategorije:"
+
+# 3bdda233812049c49e24ee9e8fe29390
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:40
+msgid "Copyright for compilations"
+msgstr "Autorska prava za kompilacije"
+
+# ae7ced23b0b54fff97a2a9712c475acd
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:41
+msgid "A *sui generis* right for collections of data"
+msgstr "*Sui generis* prava za kolekcije podataka"
+
+# e3cc883dcae4410daec23ba229274207
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:43
+msgid ""
+"As we have already emphasized, there are no general rules and the situation "
+"varies by jurisdiction. Thus we proceed country by country detailing which "
+"(if any) of these approaches is used in a particular jurisdiction."
+msgstr "Kako smo već naglasili, ne postoje opća pravila pa situacije variraju po nadležnostima. Stoga nastavljamo analizu po državama razmatrajući koji (ako ijedan) od ovih pristupa koristiti u konkretnoj nadležnosti."
+
+# 09a81bf2720345df93aaa77e5ba404f9
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:48
+msgid ""
+"Finally, we should point out that in the absence of any legal protection, "
+"many providers of (closed) databases are able to use a simple contract "
+"combined with legal provisions prohibiting violation of access-control "
+"mechanisms to achieve results similar to a formal IP right. For example, if "
+"X is a provider of a citation database, it can achieve any set of terms of "
+"conditions it wants simply by:"
+msgstr "Naposljetku, istaknuli bismo da u slučaju kada ne postoji nikakva pravna zaštita, mnogi pružatelji (zatvorenih) baza podataka mogu koristiti kombinaciju jednostavnog ugovora i pravnih provizija kojom će braniti kršenje pristupnih i kontrolnih mehanizama s ciljem ostvarivanja razultata sličnih formalnim IP pravima. Na primjer, ako je X pružatelj baze podataka s citatima, on može ostvariti bilo koji skup uvjeta koji želi putem:"
+
+# 4ed11a4688a84f7c94a40d1dc70293f2
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:55
+msgid "Requiring users to login with a password"
+msgstr "Zahtijevanja korisnika da se prijave s lozinkom"
+
+# 2cf4c090400d49da993a256268b4a8d4
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:56
+msgid ""
+"Only providing a user with an account and password on the condition that the"
+" user agrees to the terms and conditions"
+msgstr "Dozvoljavanja pristupa jedino onim korisnicima koji imaju račun i lozinku pod uvjetom da se korisnik slaže s terminima i uvjetima pružatelja"
+
+# 16481e4fc1ed45ac846dc7dc4e553da2
+#: ../../source/appendices/what-legal-ip-rights-are-there-in-databases.rst:59
+msgid ""
+"You can read more about the jurisdiction by jurisdiction situation in the "
+"`Guide to Open Data Licensing`_."
+msgstr "Više o pojedinim nadležnostima i situacijama možete pročitati u `Guide to Open Data Licensing`_."

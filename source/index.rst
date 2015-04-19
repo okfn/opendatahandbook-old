@@ -25,6 +25,6 @@ Table of Contents
 * [What is Open Data](what-is-open-data)
 * [How to Open Up Data](how-to-open-up-data/)
 * [Following Up](following-up/)
-* [Glossary](glossary.html)
-* [Appendices](appendices)
+* [Glossary](glossary/)
+* [Appendices](appendices/)
 

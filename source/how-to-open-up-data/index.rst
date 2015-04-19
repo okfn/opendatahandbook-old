@@ -46,7 +46,7 @@ be done simultaneously.
    step if you encounter problems at a later stage.
 
 2. **Apply an open license.**
-    
+
    1. Determine what intellectual property rights exist in the data.
 
    2. Apply a suitable ‘open’ license that licenses all of these  

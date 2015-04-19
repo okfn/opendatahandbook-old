@@ -2,9 +2,6 @@
 Appendices
 ==========
 
-.. toctree::
-   :maxdepth: 1
-
-   file-formats
-   what-legal-ip-rights-are-there-in-databases
+* [File Formats](file-formats.html)
+* [What Legal Rights are there in Databases](what-legal-ip-rights-are-there-in-databases.html)
 

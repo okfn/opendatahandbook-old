@@ -20,21 +20,11 @@ additional sections and areas to examine.
 Table of Contents
 =================
 
-.. toctree::
-   :maxdepth: 3
-   :glob:
-
-   introduction/index
-   why-open-data/index
-   what-is-open-data/index
-   how-to-open-up-data/index
-   following-up/index
-   glossary
-   appendices/index
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
+* [Introduction](introduction/)
+* [Why Open Data](why-open-data/)
+* [What is Open Data](what-is-open-data)
+* [How to Open Up Data](how-to-open-up-data/)
+* [Following Up](following-up/)
+* [Glossary](glossary.html)
+* [Appendices](appendices)
 

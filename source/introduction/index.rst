@@ -53,11 +53,42 @@ topic. If you do find a piece of jargon or terminology with which you
 aren't familiar, please see the detailed Glossary and FAQs (frequently 
 asked questions) which can be found at the end of the handbook.
 
+Credits and Copyright
+=====================
 
-Credits
-=======
+Contributing authors
+~~~~~~~~~~~~~~~~~~~~
 
-.. toctree::
-   :maxdepth: 1
+-  `Daniel Dietrich`_
+-  `Jonathan Gray`_
+-  `Tim McNamara`_
+-  `Antti Poikola`_
+-  `Rufus Pollock`_
+-  `Julian Tait`_
+-  `Ton Zijlstra`_
 
-   credits
+Existing sources directly used
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Technical Proposal for how IATI is implemented. *The IATI Technical
+   Advisory Group led by Simon Parrish*
+-  `Unlocking the Potential of Aid Information`_. *Rufus Pollock,
+   Jonathan Gray, Simon Parrish, Jordan Hatcher*
+-  Finnish manual authored by *Antti Poikola*
+-  Beyond Access Report. *Access Info and the Open Knowledge Foundation*
+
+Other sources
+~~~~~~~~~~~~~
+
+-  W3C Publishing Government Data (2009) http://www.w3.org/TR/gov-data/
+
+.. _Daniel Dietrich: http://ddie.me/
+.. _Jonathan Gray: http://jonathangray.org/
+.. _Tim McNamara: http://timmcnamara.co.nz
+.. _Antti Poikola: http://apoikola.wordpress.com/
+.. _Rufus Pollock: http://rufuspollock.org/
+.. _Julian Tait: http://www.littlestar.tv/
+.. _Ton Zijlstra: http://www.zylstra.org/
+.. _Unlocking the Potential of Aid Information: http://www.unlockingaid.info/
+.. _Creative Commons Attribution License: http://creativecommons.org/licenses/by/3.0/legalcode
+
